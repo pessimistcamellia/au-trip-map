@@ -677,15 +677,24 @@ a[aria-disabled="true"] {
   stroke-dasharray: 8 7;
 }
 
+.map-route .map-marker-leader {
+  stroke: rgba(13, 83, 108, 0.68);
+  stroke-dasharray: 3 3;
+  stroke-width: 1.5;
+}
+
 .map-marker {
   position: absolute;
   z-index: 3;
   display: grid;
+  width: 44px;
+  height: 44px;
   justify-items: center;
+  place-content: center;
+  border: 0;
+  background: transparent;
   transform: translate(-50%, -100%);
   color: #0d536c;
-  text-decoration: none;
-  white-space: nowrap;
 }
 
 .map-marker b {
@@ -701,17 +710,29 @@ a[aria-disabled="true"] {
   font-size: 12px;
 }
 
-.map-marker span {
-  margin-top: 3px;
-  padding: 3px 6px;
-  border: 1px solid rgba(13, 83, 108, 0.18);
-  border-radius: 7px;
+.map-marker.selected b,
+.map-marker:hover b,
+.map-marker:focus-visible b {
+  background: #0d536c;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.78);
+}
+
+.map-fit-button {
+  position: absolute;
+  z-index: 5;
+  top: 10px;
+  left: 10px;
+  display: flex;
+  min-height: 44px;
+  align-items: center;
+  gap: 6px;
+  padding: 0 12px;
+  border: 1px solid rgba(13, 83, 108, 0.22);
+  border-radius: 11px;
   background: rgba(255, 255, 255, 0.94);
-  box-shadow: 0 2px 7px rgba(13, 83, 108, 0.16);
+  box-shadow: 0 4px 15px rgba(13, 83, 108, 0.16);
   color: #0d536c;
-  font-size: 10px;
-  font-weight: 850;
-  font-variant-numeric: tabular-nums;
+  font-weight: 800;
 }
 
 .map-controls {
@@ -755,6 +776,54 @@ a[aria-disabled="true"] {
 
 .map-attribution a {
   color: inherit;
+}
+
+.map-point-card {
+  position: absolute;
+  z-index: 6;
+  right: 10px;
+  bottom: 24px;
+  left: 10px;
+  display: grid;
+  min-width: 0;
+  gap: 3px;
+  padding: 12px 48px 12px 14px;
+  border: 1px solid rgba(13, 83, 108, 0.18);
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.96);
+  box-shadow: 0 8px 24px rgba(13, 83, 108, 0.2);
+  color: #123943;
+}
+
+.map-point-card > button {
+  position: absolute;
+  top: 2px;
+  right: 2px;
+  width: 44px;
+  height: 44px;
+  border: 0;
+  background: transparent;
+  color: #34555f;
+}
+
+.map-point-card small {
+  color: #0d536c;
+  font-weight: 800;
+  font-variant-numeric: tabular-nums;
+}
+
+.map-point-card strong {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.map-point-card a {
+  min-height: 32px;
+  color: #0d536c;
+  font-size: 12px;
+  font-weight: 750;
+  line-height: 32px;
 }
 
 .map-empty {
@@ -876,6 +945,40 @@ summary {
   color: var(--muted);
   font-size: 12px;
   line-height: 1.5;
+}
+
+.point-information {
+  display: grid;
+  min-width: 0;
+  grid-column: 2;
+  grid-template-columns: 44px repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  padding: 0 12px 12px 0;
+}
+
+.point-information button {
+  display: flex;
+  min-width: 0;
+  min-height: 44px;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+  background: var(--surface-raised);
+  color: var(--accent-strong);
+  font-size: 12px;
+  font-weight: 750;
+  white-space: nowrap;
+}
+
+.point-information .point-weather {
+  padding: 0;
+  font-size: 20px;
+}
+
+.point-information button:not(.point-weather):first-child {
+  grid-column: span 2;
 }
 
 .optional-label {

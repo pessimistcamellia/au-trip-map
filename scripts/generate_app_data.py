@@ -66,6 +66,11 @@ def parse_days(markdown: str) -> list[dict]:
                 "booking": plain(cells[5]),
                 "weather": plain(cells[6]),
                 "links": links_in(line),
+                "_raw": {
+                    "highlights": cells[4],
+                    "booking": cells[5],
+                    "weather": cells[6],
+                },
             }
         )
     return rows
@@ -111,7 +116,12 @@ def place_aliases(place: dict) -> list[str]:
     for value in values:
         for part in re.split(r"[／/（）()·,，]", value):
             candidate = normalized(
-                re.sub(r"住宿区|住宿|镇|机场周边营地|天气缓冲", "", part)
+                re.sub(
+                    r"机场周边营地|野生动物园|国家公园|游客中心|观景台|灯塔步道|"
+                    r"雨林步道|住宿区|住宿|天气缓冲|机场|镇",
+                    "",
+                    part,
+                )
             )
             if len(candidate) >= 3:
                 aliases.add(candidate)
@@ -132,6 +142,70 @@ def match_schedule_place(text: str, places: list[dict]) -> dict | None:
         if score:
             matches.append((score, place))
     return max(matches, key=lambda item: item[0])[1] if matches else None
+
+
+def matching_places(text: str, places: list[dict]) -> list[dict]:
+    haystack = normalized(text)
+    return [
+        place
+        for place in places
+        if any(alias in haystack for alias in place_aliases(place))
+    ]
+
+
+def split_information(value: str) -> list[str]:
+    chunks: list[str] = []
+    for line in plain(value).splitlines():
+        chunks.extend(
+            chunk.strip()
+            for chunk in re.split(r"(?<=[。；])", line)
+            if chunk.strip()
+        )
+    return chunks
+
+
+def assign_day_information(day: dict, day_places: list[dict]) -> None:
+    for place in day_places:
+        place["dayInfo"] = {
+            "booking": [],
+            "highlights": [],
+            "weather": [],
+            "links": [],
+        }
+
+    unassigned = {"booking": [], "highlights": [], "weather": [], "links": []}
+    for field in ("booking", "highlights", "weather"):
+        for line in plain(day[field]).splitlines():
+            line_matches: list[dict] = []
+            for chunk in split_information(line):
+                matches = matching_places(chunk, day_places)
+                if matches:
+                    line_matches = matches
+                elif line_matches:
+                    matches = line_matches
+                if not matches:
+                    unassigned[field].append(chunk)
+                    continue
+                for place in matches:
+                    place["dayInfo"][field].append(chunk)
+
+    assigned_link_urls: set[str] = set()
+    for raw_value in day["_raw"].values():
+        for line in raw_value.split("<br/>"):
+            matches = matching_places(line, day_places)
+            if not matches:
+                continue
+            for link in links_in(line):
+                assigned_link_urls.add(link["url"])
+                for place in matches:
+                    if link not in place["dayInfo"]["links"]:
+                        place["dayInfo"]["links"].append(link)
+    unassigned["links"] = [
+        link for link in day["links"] if link["url"] not in assigned_link_urls
+    ]
+
+    day["unassigned"] = unassigned
+    del day["_raw"]
 
 
 def rhythm_title(text: str) -> str:
@@ -222,6 +296,7 @@ def main() -> None:
             if place.get("day") == day["day"] and place.get("status") == "visit"
         ]
         day["rhythm"] = parse_rhythm(day["schedule"], day_places)
+        assign_day_information(day, day_places)
 
     output = {
         "trip": {
@@ -248,7 +323,8 @@ def main() -> None:
     OUTPUT.write_text(json.dumps(output, ensure_ascii=False, indent=2) + "\n")
     print(
         f"days={len(output['days'])} places={len(places)} "
-        f"links={sum(len(place['links']) for place in places)}"
+        f"links={sum(len(place['links']) for place in places)} "
+        f"unassigned={sum(len(day['unassigned'][field]) for day in days for field in ('booking', 'highlights', 'weather'))}"
     )
 
 

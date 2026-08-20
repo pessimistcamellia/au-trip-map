@@ -1,7 +1,12 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import type { IRhythmNode } from '../types'
-import { buildNavigationUrl, getMappableRhythmNodes } from '../utils/trip'
+import {
+  buildNavigationUrl,
+  calculateMapViewport,
+  getMappableRhythmNodes,
+  spreadMapMarkerPositions,
+} from '../utils/trip'
 
 interface IMapPoint extends IRhythmNode {
   lat: number
@@ -40,6 +45,7 @@ const center = ref<ICoordinate>({ lat: -31.95, lng: 115.86 })
 const route = ref<ICoordinate[]>([])
 const routeState = ref<'idle' | 'loading' | 'road' | 'straight'>('idle')
 const tileFailures = ref(0)
+const selectedPoint = ref<IMapPoint | null>(null)
 let resizeObserver: ResizeObserver | null = null
 let drag:
   | { pointerId: number; x: number; y: number; centerX: number; centerY: number }
@@ -124,26 +130,18 @@ const routePoints = computed(() =>
     })
     .join(' '),
 )
+const rawMarkerPositions = computed(() =>
+  points.value.map((point) => screenPosition(point)),
+)
+const markerPositions = computed(() =>
+  spreadMapMarkerPositions(rawMarkerPositions.value, width.value, height.value),
+)
 
 function fitPoints(): void {
-  if (!points.value.length || !width.value || !height.value) return
-  const latitudes = points.value.map((point) => point.lat)
-  const longitudes = points.value.map((point) => point.lng)
-  center.value = {
-    lat: (Math.min(...latitudes) + Math.max(...latitudes)) / 2,
-    lng: (Math.min(...longitudes) + Math.max(...longitudes)) / 2,
-  }
-  for (let level = 14; level >= 3; level -= 1) {
-    const projected = points.value.map((point) => project(point, level))
-    const spreadX = Math.max(...projected.map((point) => point.x)) -
-      Math.min(...projected.map((point) => point.x))
-    const spreadY = Math.max(...projected.map((point) => point.y)) -
-      Math.min(...projected.map((point) => point.y))
-    if (spreadX <= width.value - 96 && spreadY <= height.value - 120) {
-      zoom.value = level
-      break
-    }
-  }
+  const viewport = calculateMapViewport(points.value, width.value, height.value)
+  if (!viewport) return
+  center.value = viewport.center
+  zoom.value = viewport.zoom
 }
 
 function changeZoom(delta: number): void {
@@ -212,6 +210,7 @@ async function loadRoute(): Promise<void> {
 
 function resetMap(): void {
   tileFailures.value = 0
+  selectedPoint.value = null
   void nextTick(() => {
     fitPoints()
     void loadRoute()
@@ -266,24 +265,40 @@ onBeforeUnmount(() => resizeObserver?.disconnect())
             :points="routePoints"
             :class="{ straight: routeState === 'straight' }"
           />
+          <line
+            v-for="(position, index) in markerPositions"
+            v-show="position.displaced"
+            :key="`leader-${points[index].id}`"
+            class="map-marker-leader"
+            :x1="rawMarkerPositions[index].left"
+            :y1="rawMarkerPositions[index].top - 16"
+            :x2="position.left"
+            :y2="position.top - 16"
+          />
         </svg>
-        <a
+        <button
           v-for="(point, index) in points"
           :key="point.id"
           class="map-marker"
+          :class="{ selected: selectedPoint?.id === point.id }"
           :style="{
-            left: `${screenPosition(point).left}px`,
-            top: `${screenPosition(point).top}px`,
+            left: `${markerPositions[index].left}px`,
+            top: `${markerPositions[index].top}px`,
           }"
-          :href="buildNavigationUrl(point)"
-          target="_blank"
-          rel="noreferrer"
-          :aria-label="`第 ${index + 1} 点，${point.title}，${point.time}，在 Google 地图导航`"
+          type="button"
+          :aria-label="`第 ${index + 1} 点，${point.title}，查看时间`"
+          :aria-pressed="selectedPoint?.id === point.id"
           @pointerdown.stop
+          @mouseenter="selectedPoint = point"
+          @focus="selectedPoint = point"
+          @click="selectedPoint = point"
         >
           <b>{{ index + 1 }}</b>
-          <span>{{ point.time }}</span>
-        </a>
+        </button>
+        <button class="map-fit-button" type="button" @click="fitPoints">
+          <van-icon name="expand-o" />
+          回到全览
+        </button>
         <div class="map-controls" aria-label="地图缩放">
           <button type="button" aria-label="放大地图" @click="changeZoom(1)">＋</button>
           <button type="button" aria-label="缩小地图" @click="changeZoom(-1)">−</button>
@@ -291,6 +306,24 @@ onBeforeUnmount(() => resizeObserver?.disconnect())
         <small class="map-attribution">
           © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a>
         </small>
+        <aside v-if="selectedPoint" class="map-point-card">
+          <button
+            type="button"
+            aria-label="关闭地点时间"
+            @click="selectedPoint = null"
+          >
+            <van-icon name="cross" />
+          </button>
+          <small>{{ selectedPoint.time }}</small>
+          <strong>{{ selectedPoint.title }}</strong>
+          <a
+            :href="buildNavigationUrl(selectedPoint)"
+            target="_blank"
+            rel="noreferrer"
+          >
+            在 Google 地图导航 <van-icon name="share-o" />
+          </a>
+        </aside>
       </template>
       <div v-else class="map-empty">
         <van-icon :name="online ? 'location-o' : 'warning-o'" />

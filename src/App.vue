@@ -111,18 +111,45 @@ function openPlace(place: IPlace): void {
   selectedPlace.value = place
 }
 
+function openPointInformation(
+  place: IPlace,
+  tab: (typeof detailTabs)[number],
+): void {
+  activeDetailTab.value = tab
+  selectedPlace.value = place
+}
+
 function detailText(place: IPlace, tab: (typeof detailTabs)[number]): string {
   const values = {
     实用: [place.duration, place.transport, place.sections.practical]
       .filter(Boolean)
       .join('\n\n'),
-    看点: [place.highlights, place.sections.nature].filter(Boolean).join('\n\n'),
-    天气: place.weather,
+    看点: [
+      place.highlights,
+      ...(place.dayInfo?.highlights ?? []),
+      place.sections.nature,
+    ]
+      .filter(Boolean)
+      .join('\n\n'),
+    天气: place.dayInfo?.weather.join('\n') || place.weather,
     文化: place.sections.culture ?? '暂无单独文化补充。',
-    预约: place.sections.suggestion ?? place.notes,
+    预约: [
+      ...(place.dayInfo?.booking ?? []),
+      place.sections.practical,
+      place.sections.suggestion,
+    ]
+      .filter(Boolean)
+      .join('\n\n'),
     备注: store.notes[place.id] || '还没有个人备注。',
   }
   return values[tab] || '暂无内容。'
+}
+
+function detailLinks(place: IPlace) {
+  return [...place.links, ...(place.dayInfo?.links ?? [])].filter(
+    (link, index, links) =>
+      links.findIndex((candidate) => candidate.url === link.url) === index,
+  )
 }
 
 async function copyText(value: string, label: string): Promise<void> {
@@ -427,17 +454,25 @@ onMounted(() => {
           </section>
 
           <details class="day-details">
-            <summary>路线、住宿、预约与天气</summary>
+            <summary>住宿与其他信息</summary>
             <article>
               <h3>住宿</h3>
               <p>{{ selectedDay.lodging }}</p>
-              <h3>预约</h3>
-              <p>{{ selectedDay.booking }}</p>
-              <h3>天气</h3>
-              <p>{{ selectedDay.weather }}</p>
+              <template v-if="selectedDay.unassigned.booking.length">
+                <h3>其他预约与注意事项</h3>
+                <p>{{ selectedDay.unassigned.booking.join('\n') }}</p>
+              </template>
+              <template v-if="selectedDay.unassigned.highlights.length">
+                <h3>其他看点与玩法</h3>
+                <p>{{ selectedDay.unassigned.highlights.join('\n') }}</p>
+              </template>
+              <template v-if="selectedDay.unassigned.weather.length">
+                <h3>当日通用天气提醒</h3>
+                <p>{{ selectedDay.unassigned.weather.join('\n') }}</p>
+              </template>
               <div class="link-list">
                 <a
-                  v-for="link in selectedDay.links"
+                  v-for="link in selectedDay.unassigned.links"
                   :key="link.url"
                   :href="link.url"
                   target="_blank"
@@ -475,6 +510,28 @@ onMounted(() => {
                 <small>{{ place.duration }} · {{ place.transport }}</small>
                 <p>{{ place.highlights }}</p>
               </button>
+              <div class="point-information">
+                <button
+                  v-if="place.dayInfo?.weather.length || place.weather"
+                  class="point-weather"
+                  type="button"
+                  :aria-label="`查看 ${place.name} 的天气参考`"
+                  @click="openPointInformation(place, '天气')"
+                >
+                  <van-icon name="cloud-o" />
+                </button>
+                <button
+                  type="button"
+                  @click="openPointInformation(place, '预约')"
+                >
+                  预约与注意
+                  <van-icon name="arrow" />
+                </button>
+                <button type="button" @click="openPointInformation(place, '看点')">
+                  看点与玩法
+                  <van-icon name="arrow" />
+                </button>
+              </div>
             </article>
           </section>
         </section>
@@ -680,9 +737,9 @@ onMounted(() => {
             />
           </template>
           <p v-else>{{ detailText(selectedPlace, activeDetailTab) }}</p>
-          <div v-if="selectedPlace.links.length" class="link-list">
+          <div v-if="detailLinks(selectedPlace).length" class="link-list">
             <a
-              v-for="link in selectedPlace.links"
+              v-for="link in detailLinks(selectedPlace)"
               :key="link.url"
               :href="link.url"
               target="_blank"

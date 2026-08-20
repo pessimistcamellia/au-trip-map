@@ -3,11 +3,13 @@ import rawTripData from '../src/data/trip-data.json'
 import type { ITripData } from '../src/types'
 import {
   buildNavigationUrl,
+  calculateMapViewport,
   getEmptyDaySummary,
   getMappableRhythmNodes,
   getPlacesForDay,
   searchPlaces,
   selectRelevantDay,
+  spreadMapMarkerPositions,
 } from '../src/utils/trip'
 
 const data = rawTripData as ITripData
@@ -79,6 +81,25 @@ describe('静态行程数据', () => {
     expect(getMappableRhythmNodes(transitionDay.rhythm)).toEqual([])
     expect(transitionDay.rhythm.every((node) => node.lat === null)).toBe(true)
   })
+
+  it('按地点别名把日级信息归属到点，匹配不到的保留在其他信息', () => {
+    const day = data.days.find((item) => item.day === 2)!
+    const caversham = data.places.find((place) => place.id === 'd2-02')!
+
+    expect(caversham.dayInfo?.booking.join('')).toContain('抱考拉')
+    expect(caversham.dayInfo?.weather.join('')).toContain('卡弗舍姆')
+    expect(day.unassigned.booking.join('')).not.toContain('抱考拉')
+    expect(
+      data.days.reduce(
+        (count, item) =>
+          count +
+          item.unassigned.booking.length +
+          item.unassigned.highlights.length +
+          item.unassigned.weather.length,
+        0,
+      ),
+    ).toBeGreaterThan(0)
+  })
 })
 
 describe('地图导航', () => {
@@ -91,6 +112,41 @@ describe('地图导航', () => {
 
   it('无坐标地点不生成导航链接', () => {
     expect(buildNavigationUrl({ lat: null, lng: null })).toBe('')
+  })
+
+  it('按容器边界计算多点全览，单点使用有限默认层级', () => {
+    const day = data.days.find((item) => item.day === 2)!
+    const points = getMappableRhythmNodes(day.rhythm)
+    const viewport = calculateMapViewport(points, 328, 430)!
+    const single = calculateMapViewport([points[0]], 328, 430)!
+
+    expect(viewport.zoom).toBeGreaterThanOrEqual(3)
+    expect(viewport.zoom).toBeLessThan(13)
+    expect(viewport.center.lat).toBeLessThan(Math.max(...points.map((p) => p.lat)))
+    expect(viewport.center.lat).toBeGreaterThan(Math.min(...points.map((p) => p.lat)))
+    expect(single).toMatchObject({ center: points[0], zoom: 13 })
+  })
+
+  it('密集编号自动错位且仍留在地图容器内', () => {
+    const positions = spreadMapMarkerPositions(
+      Array.from({ length: 8 }, (_, index) => ({
+        left: 150 + index,
+        top: 180 + index,
+      })),
+      328,
+      430,
+    )
+
+    expect(positions.some((position) => position.displaced)).toBe(true)
+    const distances = positions.flatMap((position, index) =>
+      positions
+        .slice(index + 1)
+        .map((other) =>
+          Math.hypot(position.left - other.left, position.top - other.top),
+        ),
+    )
+    expect(Math.min(...distances)).toBeGreaterThanOrEqual(42)
+    expect(positions.every((position) => position.left >= 24 && position.left <= 304)).toBe(true)
   })
 })
 

@@ -12,6 +12,13 @@ export interface IPlaceSections {
   suggestion?: string
 }
 
+export interface IPointInformation {
+  booking: string[]
+  highlights: string[]
+  weather: string[]
+  links: ILink[]
+}
+
 export interface IPlace {
   id: string
   name: string
@@ -31,6 +38,7 @@ export interface IPlace {
   geocode_source: string | null
   sections: IPlaceSections
   links: ILink[]
+  dayInfo?: IPointInformation
 }
 
 export interface IRhythmNode {
@@ -57,6 +65,7 @@ export interface ITripDay {
   weather: string
   links: ILink[]
   rhythm: IRhythmNode[]
+  unassigned: IPointInformation
 }
 
 export interface ITripData {
