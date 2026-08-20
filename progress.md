@@ -63,3 +63,5 @@
 - 数据统计：未归属文本 52 条（预约 28、看点 16、天气 8），未归属链接 38 条；全部仍留在日级折叠区。
 - 验证通过：typecheck；Vitest 12/12；build；PWA precache 14 条 / 533.97 KiB。
 - Chrome MCP 390×844×2：Day 2 五点、Day 12 八点、Day 13 单点 zoom 13、Day 1 无点离线空态均通过；Day 12 最小 marker 中心距 42.1px，页面 `scrollWidth=clientWidth=390`。
+- 已推送 `main`：`4774a51` 功能提交、`164e756` 文档提交；`gh-pages` 构建提交 `33e3a88` 状态为 built。
+- 线上 `https://pessimistcamellia.github.io/au-trip-map/` 干净 PWA 缓存复验通过：Day 2 自动全览显示 5 个可读编号、“回到全览”可用、OSRM 实际驾车路线返回成功。

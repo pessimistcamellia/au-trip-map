@@ -34,7 +34,7 @@
 - **状态：** complete
 
 ## 当前阶段
-阶段 18（提交、部署与线上复验进行中）
+阶段 18（提交、部署与线上复验已完成）
 
 ### 阶段 6：PWA 需求与数据审计
 - [x] 对照飞书最新版与本地全部材料
@@ -118,8 +118,8 @@
 - [x] 补 fit 边界与信息归属单测
 - [x] 通过 typecheck、test、build
 - [x] Chrome MCP 复验 Day 2、Day 12、单点日、Day 1
-- [ ] 提交并推送 main、更新 gh-pages、线上复验
-- **状态：** in_progress
+- [x] 提交并推送 main、更新 gh-pages、线上复验
+- **状态：** complete
 
 ## 关键问题
 1. Tower Hill / Warrnambool 是否彻底放弃，还是仅作「时间极充裕时的西延可选」？
