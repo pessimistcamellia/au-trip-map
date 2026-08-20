@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.local
+.DS_Store
+*.log
+.vite/
+coverage/
+chunk*.txt
+kml.b64.txt
+hook.js

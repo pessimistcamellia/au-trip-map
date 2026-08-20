@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>D12–13 10/5–6 沉船海岸／墨尔本</name>
+    <Style id="sty_d1213">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sty_d1213_line">
+      <LineStyle>
+        <color>7f00a5ff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>D12–13 10/5–6 沉船海岸／墨尔本</name>
+      <Placemark>
+        <name>D12-1 梅茨雨林步道</name>
+        <styleUrl>#sty_d1213</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-05 · 第12天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 1&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;约800米轻量环线：桃金娘山毛榉、树蕨和苔藓林下；清晨游客较少。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6—17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8—17°C；墨尔本（Melbourne）约9—20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约1小时&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约17公里自阿波罗湾&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;雨后木栈道湿滑。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Maits Rest Rainforest Walk, Great Otway National Park VIC&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>143.555,-38.755,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D12-2 吉布森阶梯</name>
+        <styleUrl>#sty_d1213</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-05 · 第12天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 2&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;从海滩仰望高崖和Gog/Magog岩柱；尺度感与十二门徒主观景台不同。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6—17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8—17°C；墨尔本（Melbourne）约9—20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约45分钟&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约70公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;受落石潮位大浪影响，关闭时绝不翻越闸门。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Gibson Steps, Great Ocean Road VIC&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>143.1,-38.67,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D12-3 十二门徒岩</name>
+        <styleUrl>#sty_d1213</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-05 · 第12天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 3&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;石灰岩海岸海蚀洞—拱门—孤柱持续演化；中午前后仍可清楚观察海岸结构。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6—17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8—17°C；墨尔本（Melbourne）约9—20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约1小时&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约2公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;免费无需预约。&lt;br/&gt;&lt;br/&gt;【愿望清单·景点／自然】&lt;br/&gt;海蚀洞—拱门—独立岩柱持续演化；名称虽叫十二门徒，形成与存留的岩柱数量并非固定 12。[官方建议日出或日落看颜色变化](https://www.visitvictoria.com/Regions/Great-Ocean-Road/see-and-do/Nature-and-wildlife/Beaches-and-coastlines/12-Apostles.aspx)。  &lt;br/&gt;**深度补充：**岩柱来自石灰岩海岸被浪蚀成洞穴、拱门再坍塌为孤柱；数量从来不是稳定的“十二”。日出与日落分别强调轮廓和金色岩面，风、海雾和雨会快速改变能见度。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.visitvictoria.com/regions/great-ocean-road/see-and-do/nature-and-wildlife/beaches-and-coastlines/12-apostles)&lt;br/&gt;&lt;br/&gt;【愿望清单·人文】&lt;br/&gt;位于 Eastern Maar／Gadubanud cultural landscape。殖民旅游命名不应遮住传统土地与持续的海岸文化联系。  &lt;br/&gt;**深度补充：**旅游命名从“ Sow and Piglets”改为Twelve Apostles，显示品牌如何重塑地景；它位于Eastern Maar/Gadubanud文化景观，现代游客中心与步道更新也涉及Traditional Owner合作。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.easternmaar.com.au/)&lt;br/&gt;&lt;br/&gt;【愿望清单·本次建议】&lt;br/&gt;10/4 日落＋10/5 可选日出；以安全与能见度为先。  &lt;br/&gt;**已纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Twelve Apostles, Great Ocean Road VIC&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>143.1048,-38.6655,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D12-4 坎贝尔港</name>
+        <styleUrl>#sty_d1213</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-05 · 第12天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 4&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;受保护的小海湾、渔港和沉船海岸补给中心；午餐和恢复体力。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6—17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8—17°C；墨尔本（Melbourne）约9—20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约55分钟&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约12公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;午餐加油短暂休整。&lt;br/&gt;&lt;br/&gt;【愿望清单·景点／自然】&lt;br/&gt;适合作为看日落与日出的住宿基地，餐饮和补给选择有限，旺季需提前订。  &lt;br/&gt;**深度补充：**镇位于受保护的小海湾，是沉船海岸少数可集中补给、住宿和步行的基地。周边悬崖暴露、天气多变，住一晚能把十二门徒日落和次日日出拆开，避免夜驾。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.visitvictoria.com/regions/great-ocean-road/destinations/port-campbell)&lt;br/&gt;&lt;br/&gt;【愿望清单·人文】&lt;br/&gt;港镇服务于渔业、道路旅游与国家公园；它的价值是把大洋路从赶路变成慢看，而不只是“离十二门徒最近”。  &lt;br/&gt;**深度补充：**渔业、道路旅游与国家公园服务共同塑造小镇。它也说明大洋路从战间期交通工程转为全球旅游线路后，地方住房、季节就业与环境承载面临的压力。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.corangamite.vic.gov.au/Places-and-Events/Towns/Port-Campbell)&lt;br/&gt;&lt;br/&gt;【愿望清单·本次建议】&lt;br/&gt;10/4 住宿；正规住宿／营地。  &lt;br/&gt;**已纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Port Campbell, Victoria&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>142.995,-38.619,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D12-5 伦敦桥</name>
+        <styleUrl>#sty_d1213</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-05 · 第12天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 5&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;1990年连接陆地的拱桥部分突然坍塌，留下独立海蚀拱门。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6—17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8—17°C；墨尔本（Melbourne）约9—20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约30分钟&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约18公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;进度落后可删减。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; London Bridge Lookout, Port Campbell VIC&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>142.93,-38.62,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D12-6 石窟</name>
+        <styleUrl>#sty_d1213</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-05 · 第12天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 6&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;sinkhole、洞穴与拱门叠成天然画框。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6—17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8—17°C；墨尔本（Melbourne）约9—20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约30分钟&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约4公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;进度落后可删减；15:10左右必须离开沉船海岸回墨尔本。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; The Grotto, Port Campbell VIC&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>142.91,-38.615,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D12-7 墨尔本</name>
+        <styleUrl>#sty_d1213</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-05 · 第12天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 7&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;入住West Melbourne／Southern Cross附近酒店，整理行李保证次日国际航班。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6—17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8—17°C；墨尔本（Melbourne）约9—20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 过夜&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约230公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;本晚不车宿。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Southern Cross Station, Melbourne VIC&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>144.9525,-37.8183,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D12-9 洛克阿德峡谷</name>
+        <styleUrl>#sty_d1213</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-05 · 第12天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 9&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;【可选】紧挨十二门徒的沉船海岸峡谷；进度提前时短停20—40分钟，落后则删除。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6—17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8—17°C；墨尔本（Melbourne）约9—20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 可选约20—40分钟&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 十二门徒岩附近顺路（约2—3公里）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【注意】主行程硬任务不含本点；作为十二门徒后的顺路可选。进度落后优先删除，保证15:10前离开沉船海岸回墨尔本。&lt;br/&gt;&lt;br/&gt;**可选纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Loch Ard Gorge, Port Campbell VIC&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>143.07,-38.647,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D13-1 维多利亚女王市场</name>
+        <styleUrl>#sty_d1213</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-06 · 第13天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 1&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;1878年延续至今的工作型市场、鲜食大厅、移民饮食和露天棚架；周二07:00—08:00适合早餐并看生鲜摊开市。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**墨尔本中央商务区（Melbourne CBD）／Queen Victoria Market（维多利亚女王市场）／墨尔本机场（Melbourne Airport）通常约9—20°C，清晨偏凉且可能阵雨；香港国际机场（Hong Kong International Airport）10月上旬通常约24—30°C，仍可能受强降雨或热带气旋影响；北京（Beijing）约9—22°C，晴燥且昼夜温差大。随身保留薄外套；出发前24小时重点查香港热带气旋信号，因为60分钟转机几乎没有吸收延误的余量。[BOM墨尔本气候](https://www.bom.gov.au/climate/averages/tables/cw_086282.shtml)｜[香港天文台机场气候](https://www.hko.gov.hk/en/aviat/amt/monthlymean.htm)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约1小时&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 酒店步行约0.5—2公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;周二06:00—15:00；specialty shopping 09:00才开。当天不去远郊。&lt;br/&gt;&lt;br/&gt;【愿望清单·景点／自然】&lt;br/&gt;大型传统市场，开放日和营业时段分区不同；不是每天所有摊位都开。  &lt;br/&gt;**深度补充：**市场不同棚区经营鲜肉、海产、蔬果、熟食和日用品；开放日与各区时间不同，周二清晨最能看到工作型市场而非纯游客场景。改造工程会造成摊位临时迁移。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://qvm.com.au/visit-us/)&lt;br/&gt;&lt;br/&gt;【愿望清单·人文】&lt;br/&gt;1878 年开业，部分市场建在旧 Melbourne General Cemetery 地段之上，市场更新也牵涉遗产、墓地和城市公共空间讨论。  &lt;br/&gt;**深度补充：**1878年开业，部分市场位于旧Melbourne General Cemetery之上，更新计划因此涉及遗产、墓地与公共空间争议。市场也记录多代移民如何通过食物进入城市生活。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://qvm.com.au/about/)&lt;br/&gt;&lt;br/&gt;【愿望清单·本次建议】&lt;br/&gt;只有10/6营业且时间充足才短逛；不影响机场出发。  &lt;br/&gt;**已纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Queen Victoria Market, Melbourne VIC&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>144.9568,-37.8076,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D12 当日路线</name>
+        <styleUrl>#sty_d1213_line</styleUrl>
+        <description>第12天按顺序串联（示意）</description>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>143.555,-38.755,0 143.1,-38.67,0 143.1048,-38.6655,0 142.995,-38.619,0 142.93,-38.62,0 142.91,-38.615,0 144.9525,-37.8183,0</coordinates>
+        </LineString>
+      </Placemark>
+      <description>点位数：9</description>
+    </Folder>
+  </Document>
+</kml>

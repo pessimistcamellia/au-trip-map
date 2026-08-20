@@ -1,0 +1,32 @@
+{
+  "name": "au-trip-map",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "packageManager": "pnpm@10.15.0",
+  "scripts": {
+    "dev": "vite",
+    "generate:data": "python3 scripts/generate_app_data.py",
+    "generate:icons": "python3 scripts/generate_icons.py",
+    "typecheck": "vue-tsc --noEmit",
+    "test": "vitest run",
+    "build": "python3 scripts/generate_app_data.py && python3 scripts/generate_icons.py && vue-tsc --noEmit && vite build && python3 scripts/prepare_github_pages.py",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vueuse/core": "latest",
+    "pinia": "latest",
+    "vant": "latest",
+    "vue": "latest",
+    "vue-router": "latest",
+    "workbox-window": "^7.4.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "latest",
+    "typescript": "6",
+    "vite": "latest",
+    "vite-plugin-pwa": "latest",
+    "vitest": "latest",
+    "vue-tsc": "latest"
+  }
+}

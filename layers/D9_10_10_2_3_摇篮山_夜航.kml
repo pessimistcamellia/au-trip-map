@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>D9–10 10/2–3 摇篮山／夜航</name>
+    <Style id="sty_d910">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/purple-circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sty_d910_line">
+      <LineStyle>
+        <color>7f800080</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>D9–10 10/2–3 摇篮山／夜航</name>
+      <Placemark>
+        <name>D9-1 鸭嘴兽之家</name>
+        <styleUrl>#sty_d910</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-02 · 第9天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 1&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;室内／半室内环境白天稳定观察鸭嘴兽和短喙针鼹。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**朗塞斯顿（Launceston）／美丽角（Beauty Point）约6—17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0—10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约1小时（10:00导览）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约48公里自朗塞斯顿&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;预订10:00第一场；成人约AUD29.95/人。&lt;br/&gt;&lt;br/&gt;【愿望清单·景点／自然】&lt;br/&gt;位于 Beauty Point，展示 platypus 与 echidna；适合希望提高看到鸭嘴兽概率的人。  &lt;br/&gt;**深度补充：**室内／半室内观察环境提高看到platypus和echidna的确定性，并通过讲解说明电感受、产卵哺乳和水生适应。它不同于野外静候，优势是教育确定性，代价是非自然栖息地体验。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://platypushouse.com.au/)&lt;br/&gt;&lt;br/&gt;【愿望清单·人文】&lt;br/&gt;鸭嘴兽曾令早期欧洲博物学界怀疑标本造假，后来成为澳洲生物独特性的文化符号；也应关注栖息地水质与河流保护。  &lt;br/&gt;**深度补充：**鸭嘴兽标本最初送到欧洲时曾被怀疑拼接造假，后来成为澳洲生物独特性的文化象征。现代保育重点转向河流水质、渔线缠绕、坝体与栖息地破碎。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.australian.museum/learn/animals/mammals/platypus/)&lt;br/&gt;&lt;br/&gt;【愿望清单·本次建议】&lt;br/&gt;10/2已纳入主行程：从朗塞斯顿（Launceston）驾车约48公里，预订10:00第一场向导团，稳定观察Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）；结束后直接进入Cradle Mountain（摇篮山）。  &lt;br/&gt;**已纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Platypus House, Beauty Point TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>146.82,-41.16,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D9-2 鸽子湖</name>
+        <styleUrl>#sty_d910</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-02 · 第9天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 2&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;冰川湖、dolerite山体、pencil pine与高山荒原经典湖景；只走湖东岸短段。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**朗塞斯顿（Launceston）／美丽角（Beauty Point）约6—17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0—10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约1小时&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; shuttle约10公里自游客中心&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;不走Cradle Summit，不强求完整环湖。&lt;br/&gt;&lt;br/&gt;【愿望清单·景点／自然】&lt;br/&gt;[世界遗产高地、冰川湖和 Gondwanan 植被](https://parks.tas.gov.au/explore-our-parks/cradle-mountain)；袋熊、针鼹、袋鼬等可能出现但不保证。天气可能完全遮住主峰。  &lt;br/&gt;**深度补充：**冰川塑造的Dove Lake、dolerite山体、pencil pine和button grass是核心。Ronny Creek适合看草原与袋熊，天气可迅速变化；主峰被云遮并不等于没有景观，低云会突出湿地和植被。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://parks.tas.gov.au/explore-our-parks/cradle-mountain)&lt;br/&gt;&lt;br/&gt;【愿望清单·人文】&lt;br/&gt;Palawa people 在此生活超过 35,000 年。Gustav 与 Kate Weindorfer 推动保护运动，Waldheim 记录早期国家公园史；不能只讲单一“欧洲保护英雄”，也要看更早的人类文化景观。  &lt;br/&gt;**深度补充：**Palawa人在此活动超过数万年。Weindorfer夫妇推动早期保护的故事很重要，但必须与更早的原住民文化景观，以及后来的国家公园、Overland Track和生态旅游制度并置。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.parks.tas.gov.au/discovery-and-learning/historic-heritage/cradle-mountain-history)&lt;br/&gt;&lt;br/&gt;【愿望清单·本次建议】&lt;br/&gt;10/2安排Dove Lake（鸽子湖）／Ronny Creek（罗尼溪）轻量短线和傍晚袋獾夜场；10/3上午保留为主峰能见度第二次机会，之后从容下山赶18:45夜航。  &lt;br/&gt;**已纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Dove Lake, Cradle Mountain TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>145.96,-41.655,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D9-3 罗尼溪</name>
+        <styleUrl>#sty_d910</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-02 · 第9天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 3&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;草原和木栈道观察野生袋熊的轻量地点；下午后段接近动物活跃窗口。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**朗塞斯顿（Launceston）／美丽角（Beauty Point）约6—17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0—10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约1小时&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; shuttle&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;若延误可缩短或移到10/3上午。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Ronny Creek, Cradle Mountain TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>145.95,-41.64,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D9-4 摇篮山恶魔保护园</name>
+        <styleUrl>#sty_d910</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-02 · 第9天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 4&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;After Dark Feeding Tour观察袋獾、东袋鼬与斑尾袋鼬；结合面部肿瘤病保育讲解。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**朗塞斯顿（Launceston）／美丽角（Beauty Point）约6—17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0—10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约1小时15分（17:30）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约5—8公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;成人AUD40/人须预约。&lt;br/&gt;&lt;br/&gt;【愿望清单·景点／自然】&lt;br/&gt;靠近 Cradle Mountain，专注 Tasmanian devil 与 quoll；黄昏／夜间 tour 更符合动物活跃时段。  &lt;br/&gt;**深度补充：**保护园专注Tasmanian devil和quoll，夜场更符合其活跃节律。近距离喂食讲解能观察颌部、社会行为和清道夫角色，但动物是否靠近仍由其状态决定。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://devilsatcradle.com/)&lt;br/&gt;&lt;br/&gt;【愿望清单·人文】&lt;br/&gt;袋獾面临 Devil Facial Tumour Disease，保护园的保险种群与研究比“看凶猛叫声”更重要。  &lt;br/&gt;**深度补充：**Devil Facial Tumour Disease改变了塔州保育体系，保险种群、疾病研究和野外监测成为国家级项目。袋獾尖叫与“凶猛”流行形象之外，它是生态清道夫和疾病科学案例。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.tassiedevil.com.au/)&lt;br/&gt;&lt;br/&gt;【愿望清单·本次建议】&lt;br/&gt;10/2 已纳入主行程：17:30参加After Dark Feeding Tour（夜间喂食团），在袋獾和袋鼬活跃时段做专门保育观察；成人AUD40／人，需提前预约。  &lt;br/&gt;**已纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Devils at Cradle, Cradle Mountain TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>145.93,-41.595,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D10-1 摇篮山</name>
+        <styleUrl>#sty_d910</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-03 · 第10天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 1&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;补位罗尼溪／鸽子湖能见度，或走铅笔松瀑布／魔法森林步道；11:15必须结束。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**Cradle Mountain（摇篮山）约0—10°C，德文波特（Devonport）约7—16°C，Bass Strait（巴斯海峡）／吉朗（Geelong）约7—17°C。下山路可能有雾、雨和野生动物；登船前复查道路、海况与官方短信，晕船药按说明提前服。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约2.5小时上午&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 公园内shuttle&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;之后下山赶Spirit of Tasmania。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Cradle Mountain Visitor Centre, TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>145.93,-41.595,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D10-2 德文波特码头</name>
+        <styleUrl>#sty_d910</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-03 · 第10天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 2&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;夜航德文波特→吉朗；海上约430公里。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**Cradle Mountain（摇篮山）约0—10°C，德文波特（Devonport）约7—16°C，Bass Strait（巴斯海峡）／吉朗（Geelong）约7—17°C。下山路可能有雾、雨和野生动物；登船前复查道路、海况与官方短信，晕船药按说明提前服。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 18:45开船—次日07:00&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约85公里自摇篮山&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;16:15 check-in，18:00截止；船上客舱，不能睡车内。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Spirit of Tasmania Terminal, Devonport TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>146.365,-41.18,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D9 当日路线</name>
+        <styleUrl>#sty_d910_line</styleUrl>
+        <description>第9天按顺序串联（示意）</description>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>146.82,-41.16,0 145.96,-41.655,0 145.95,-41.64,0 145.93,-41.595,0</coordinates>
+        </LineString>
+      </Placemark>
+      <description>点位数：6</description>
+    </Folder>
+  </Document>
+</kml>

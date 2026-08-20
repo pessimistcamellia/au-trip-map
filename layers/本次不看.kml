@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>本次不看</name>
+    <Style id="sty_skip">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sty_skip_line">
+      <LineStyle>
+        <color>7f808080</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>本次不看</name>
+      <Placemark>
+        <name>跳过 霍巴特</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-28 · 第5天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 0&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;过境取车转场；不安排 City Walk／Rosny Hill／连住霍巴特。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**珀斯机场（Perth Airport）清晨通常约10—21°C；霍巴特机场（Hobart Airport）／亚瑟港（Port Arthur）约6—15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层；出发前7天再看BOM逐日预报。[BOM霍巴特气候](https://www.bom.gov.au/climate/averages/tables/cw_094029.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 过境&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 机场落地后直驱亚瑟港&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;仅作跨州落地与取车转场；不安排落地 City Walk／Rosny Hill／连住霍巴特。&lt;br/&gt;&lt;br/&gt;【人文】&lt;br/&gt;nipaluna 位于 Muwinina Country；砂岩仓库、南极科研与港口史并存。kunanyi 是重要的 Aboriginal 地名。城市的文化名片也包括 MONA 对当代艺术与旅游形象的重塑。  &lt;br/&gt;**深度补充：**nipaluna位于Muwinina Country。砂岩仓库、捕鲸与航运、南极科研、MONA及环境政治构成多重城市性格；双重命名让原住民语言重新进入公共空间。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://tacinc.com.au/tasmanian-aboriginal-place-names/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;9/28抵达后只安排Rosny Hill Nature Recreation Area（罗斯尼山自然休闲区）日落；9/28—9/29连住霍巴特，作为两次自然一日团的接送基地。  &lt;br/&gt;**已纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Hobart, Tasmania, Australia&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>147.3272,-42.8821,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Adelaide Hills</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;Cleland Wildlife Park 等地适合动物与林地体验，但不同物种活跃时段不同；春季清晨与傍晚更容易遇到野生动物。  &lt;br/&gt;**深度补充：**海拔、较高降雨和桉树林让这里比Adelaide平原更凉湿，Cleland等地可见考拉、袋鼠和林鸟。春季清晨与傍晚动物较活跃，但山火风险、封闭与天气仍需检查。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.parks.sa.gov.au/parks/cleland-national-park)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;这里不只“看动物”，也有 Peramangk／Kaurna Country、德裔移民城镇、葡萄酒与山火记忆。  &lt;br/&gt;**深度补充：**区域跨Peramangk与Kaurna Country，也有Hahndorf等德裔移民城镇、果园、葡萄酒和山火记忆。景观不是单一“欧洲小镇”，而是原住民Country与多层移民史叠加。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.adelaidehills.org.au/see-and-do/aboriginal-culture/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；下次留 1—2 天。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Adelaide Hills, South Australia 城市／区域：Adelaide Hills&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>138.6007,-34.9285,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Adelaide Zoo/Comm…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;动物展示以当天场馆与保育项目为准；普通袋熊是否可见、是否活跃均不保证。  &lt;br/&gt;**深度补充：**动物园位于市中心北缘与Botanic Garden相邻，适合观察保育展示而非保证某一只动物活跃。袋熊多在凉爽时段更活跃；场馆、keeper talk和encounter须以当日安排为准。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.adelaidezoo.com.au/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;若目标是袋熊近距离体验，应先比较官方 encounter、动物福利规则与预约，而不是仅按物种清单选动物园。  &lt;br/&gt;**深度补充：**Adelaide Zoo建于1883年，反映动物园从异域收藏、娱乐展示到物种保育和福利标准的转型。比较历史笼舍、现代展区与Zoos SA保育项目，会比只看物种名单更有意义。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.zoossa.com.au/conservation/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；下次与 Botanic Garden 同日。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Adelaide Zoo／Common Wombat, South Australia 城市／区域：Adelaide&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>138.6007,-34.9285,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Art Gallery of So…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;位于 North Terrace 文化区，适合与 South Australian Museum、Botanic Garden 组合。  &lt;br/&gt;**深度补充：**馆舍位于North Terrace文化轴，19世纪建筑和室内庭院本身值得看；藏品横跨澳洲、欧洲、亚洲及装饰艺术，适合用2—3小时而非快速打卡。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.agsa.sa.gov.au/visit/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;馆藏横跨澳洲、欧洲与亚洲艺术。看 Aboriginal and Torres Strait Islander art 时，应关注作品所属 Nation、艺术家与策展语境，而不是只用“点画”概括。  &lt;br/&gt;**深度补充：**观看Aboriginal and Torres Strait Islander art时要看艺术家、Nation、材料与策展说明。AGSA的Tarnanthi项目把当代原住民艺术放在中心位置，能打破“原住民艺术只等于传统点画”的印象。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.agsa.sa.gov.au/whats-on/tarnanthi/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；下次 Adelaide 城市日留 2—3 小时。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Art Gallery of South Australia, South Australia 城市／区域：North Terrace, Adelaide&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>138.601,-34.92,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Bay of Fires/lara…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;东北海岸白沙、蓝水与橙色地衣覆盖花岗岩最著名；“火焰湾”殖民名称来自航海者从海上看到岸边 Aboriginal fires 的记录。  &lt;br/&gt;**深度补充：**白色石英砂、清澈浅海与花岗岩上的橙色地衣构成标志性色彩；海岸跨度很长，Binalong Bay、The Gardens等不是同一停车点。天气、浪况和光线会显著改变水色。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://parks.tas.gov.au/explore-our-parks/mount-william-national-park)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;larapuna 是持续使用的 Aboriginal 名称。这里的人文重点正是那些“火”：它们证明海岸并非无人地带，而是有人生活、管理土地的 Country。  &lt;br/&gt;**深度补充：**“Bay of Fires”来自欧洲航海者从海上看见岸边火光的记录，这些火正证明Aboriginal people居住和管理海岸。使用larapuna名称能让旅游叙事从“发现无人海岸”转回持续的Country。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://tacinc.com.au/tasmanian-aboriginal-place-names/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；与现有 Maria Island—Freycinet—Cradle 路线并行但会造成折返，留给下一次东北线。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Bay of Fires／larapuna, Tasmania／lutruwita 城市／区域：larapuna／Bay of Fires（东北海岸）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>148.3,-41.15,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Bonorong Wildlife…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;野生动物救护与保育中心，可见 Tasmanian devil、wombat 等；具体 encounter 必须预约，完全以动物福利和当日安排为准。  &lt;br/&gt;**深度补充：**Bonorong经营24/7野生动物救护网络和医院，居民动物多因伤病无法重返野外。袋獾、袋熊、针鼹与Forester kangaroo的展示会结合救护故事；近距离体验人数少并可因动物状态取消。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.bonorong.com.au/experiences/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;与普通动物园相比，Bonorong 的重点是救护、康复和公众教育。近距离接触不应被描述成“必抱”，而是受监管、可能临时取消的体验。  &lt;br/&gt;**深度补充：**这里把“看可爱动物”转换成路杀、宠物伤害、栖息地与疾病等现实教育。门票和encounter收入支持救护；游客不应把救助动物的亲人行为误读为野外也可接近。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.bonorong.com.au/rescue/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不单独去Bonorong；袋熊可在Caversham Wildlife Park（卡弗舍姆野生动物园）、Maria Island（玛丽亚岛）和Ronny Creek（罗尼溪）观察；袋獾改由10/2 Devils@Cradle（摇篮山恶魔保护园）夜间喂食团完成，专门性和活跃时段都更符合本次优先级。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Bonorong Wildlife Sanctuary／Wombat Encounter, Tasmania／lutruwita 城市／区域：Brighton（Hobart 北部）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>147.27,-42.7,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Bruny Island/luna…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;需车渡，岛上距离比地图看起来长；美食点分散，适合完整一天或过夜。  &lt;br/&gt;**深度补充：**岛由狭窄The Neck连接南北两部分，海崖、雨林、海鸟与海产点分散；车渡排队和岛内慢路使一日行程比地图更耗时。南部更野，北部更接近农场与食品体验。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.discovertasmania.com.au/regions/hobart-and-south/bruny-island/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;这里是 Nuenonne people 的 Country，与 Truganini 的生命史密切相关。应避免把岛只压缩为生蚝与网红阶梯，最好把原住民历史、捕鲸与灯塔史一起看。  &lt;br/&gt;**深度补充：**这里是Nuenonne people的Country，并与Truganini生命史密切相关；灯塔、捕鲸、木材和农业史也很突出。现代“生蚝奶酪岛”品牌不应遮蔽殖民暴力和原住民持续文化。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://parks.tas.gov.au/explore-our-parks/south-bruny-national-park/cultural-heritage)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次让出9/29给 Tasman Island（塔斯曼岛）荒野巡游和 Tasmanian Devil Unzoo（塔斯马尼亚袋獾无笼动物园）；Bruny Island（布鲁尼岛）保留在原始愿望清单，但不再进入本次主行程。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Bruny Island／lunawanna-alonnah, Tasmania／lutruwita 城市／区域：Bruny Island／lunawanna-alonnah（Hobart 南部）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>147.28,-43.37,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Eyre Peninsula/So…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;原清单里有一个地理混淆：South Australian Whale Centre 位于 Victor Harbor，不在 Eyre Peninsula。南露脊鲸主要是季节性迁徙，Head of Bight 是另一条远距离线路。  &lt;br/&gt;**深度补充：**原清单把两个相距很远的体验混在一起：Eyre Peninsula的Head of Bight是南露脊鲸季节性集结地；South Australian Whale Centre则在Victor Harbor。两者都依赖迁徙季、海况与能见度。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://headofbight.com.au/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;南澳沿岸既有捕鲸史，也有从捕猎到观鲸与保育的价值转变；参观鲸类中心可先理解这种历史，再决定是否追季节性观鲸。  &lt;br/&gt;**深度补充：**南澳海岸从捕鲸产业转向观鲸、解说与保护，鲸类中心保存这段价值转向。Head of Bight还位于Mirning Country附近，悬崖与鲸群也是文化景观而非纯自然背景。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://sawhalecentre.com.au/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排。以后需拆为 Victor Harbor／Fleurieu 与 Eyre Peninsula 两条路线。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Eyre Peninsula／South Australian Whale Centre, South Australia 城市／区域：Eyre Peninsula；Victor Harbor（South Australian Whale Centre）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known_region_centroid</description>
+        <Point>
+          <coordinates>135.8,-34.5,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Flinders Street S…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;标志性车站立面与时钟是城市会合符号；从 Federation Square、Princes Bridge 可看不同角度。  &lt;br/&gt;**深度补充：**车站立面、穹顶、时钟和Yarra河转角形成经典城市视角；Federation Square、Princes Bridge和Swanston Street可分别看到交通、建筑与河流关系。高峰时人流密集，不适合长时间占道拍摄。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://vhd.heritagecouncil.vic.gov.au/places/752)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;“under the clocks” 是墨尔本人约见的文化口语。车站的意义不只建筑，更来自城市通勤与公共生活。  &lt;br/&gt;**深度补充：**“Meet me under the clocks”是墨尔本人约见的城市口语。车站不仅是遗产建筑，更是郊区铁路塑造日常生活、CBD边界与公共会合方式的文化节点。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.nationaltrust.org.au/places/flinders-street-station/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;若10/5早到市区可顺路；10/6不专程赶。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Flinders Street Station, Victoria 城市／区域：Melbourne CBD&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>144.9671,-37.8183,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Freycinet Whale W…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;座头鲸与南露脊鲸迁徙有季节窗口，春季可能看到南行个体，但海况和动物出现都不保证。  &lt;br/&gt;**深度补充：**春季可有座头鲸南迁，南露脊鲸也可能出现，但远岸个体容易被白浪遮蔽。高点岸观应带望远镜、连续扫描喷气、背鳍与异常浪花；任何观鲸都不能保证。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://parks.tas.gov.au/explore-our-parks/freycinet-national-park)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;观鲸是澳洲从商业捕鲸转向保护与生态旅游的文化转型缩影。望远镜岸观通常比临时塞一趟船更适合本次紧凑路线。  &lt;br/&gt;**深度补充：**澳洲从商业捕鲸转向保护和生态旅游，是20世纪海洋价值观的重要转型。岸观比临时塞船更低干扰，也能把历史捕鲸港与当代保育放在一起理解。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.dcceew.gov.au/environment/marine/marine-species/cetaceans)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;10/1 只保留 Wineglass Bay Lookout（酒杯湾观景台）清晨轻量徒步；本次观鲸船改为9/29 Tasman Island Cruises（塔斯曼岛巡游），不再预订Freycinet（菲欣纳）海上观鲸产品。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Freycinet Whale Watching, Tasmania／lutruwita 城市／区域：Freycinet Peninsula／东海岸&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>148.3,-42.14,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Jurlique Farm</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;品牌农场位于 Adelaide Hills，参观通常依预订与季节安排；不能默认随到随进。  &lt;br/&gt;**深度补充：**农场展示品牌使用的植物、土壤管理、堆肥与季节性采收；实际可见花田取决于季节，参观必须跟随指定tour，不能把商业农场当开放公园。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.jurlique.com.au/pages/jurlique-farm)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;可把它与澳洲植物护肤、biodynamic farming 的品牌叙事一起看，但品牌营销不等同于独立科学证明。  &lt;br/&gt;**深度补充：**Jurlique把澳洲植物、biodynamic farming与高端护肤叙事结合，是研究品牌如何制造“纯净澳洲”形象的案例。参观时可区分可观察的农业实践、企业故事与需要独立证据支持的功效声称。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.jurlique.com.au/pages/our-story)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；下次提前查 tour 日历。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Jurlique Farm, South Australia 城市／区域：Adelaide Hills&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>138.78,-34.98,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Kangaroo Island/K…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;野生动物分散在 Seal Bay、Flinders Chase 等不同区域，至少需 2—3 天。动物出现不保证；2019—20 山火后的生态恢复也是理解岛屿的重要部分。  &lt;br/&gt;**深度补充：**岛上生态并非一个动物园：海狮在Seal Bay、海豹与悬崖在Flinders Chase、考拉与针鼹分散在不同栖息地。2019—20山火重塑大片景观，今日看到的再生植被、烧痕和保育工程本身就是重要内容。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.parks.sa.gov.au/parks/flinders-chase-national-park)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;岛屿是 Kangaroo Island／Karta Pintingga，连接 Ngarrindjeri、Ramindjeri 等文化叙事；殖民捕猎、农业、纯种 Ligurian 蜜蜂与当代保育共同塑造岛屿形象。  &lt;br/&gt;**深度补充：**Karta Pintingga与Ngarrindjeri／Ramindjeri等文化叙事相连。欧洲海豹捕猎、农业、灯塔、Ligurian蜂种隔离及当代生态旅游共同塑造岛屿，不能只按动物清单追点。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.tourkangarooisland.com.au/island-stories/aboriginal-culture)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；下次从 Adelaide 乘渡轮并至少住两晚，不做一日暴走。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Kangaroo Island／Karta Pintingga, South Australia 城市／区域：Kangaroo Island／Karta Pintingga&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>137.214,-35.775,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Limestone Coast</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;不是单点，而是 Mount Gambier、Naracoorte、Coonawarra、海岸湿地与洞穴系统组成的区域。  &lt;br/&gt;**深度补充：**区域的统一线索是年轻火山、石灰岩台地、洞穴、地下水、湿地与冷凉海岸；Mount Gambier、Naracoorte、Coonawarra和Robe代表完全不同的地貌与节奏，至少需要数日。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://southaustralia.com/destinations/limestone-coast)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;葡萄酒、石灰岩建筑、地下水农业和沿岸殖民交通共同塑造区域；适合慢行，不适合一天从 Adelaide 往返。  &lt;br/&gt;**深度补充：**红土葡萄园、石灰岩建筑、港口、农业与洞穴科学共同形成地方文化。产业依赖地下水，也让水资源保护、农业利用与生态系统之间的张力成为现实主题。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.limestonecoast.org.au/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；以后自驾 3—5 天。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Limestone Coast, South Australia 城市／区域：Limestone Coast（Mount Gambier—Naracoorte—Coonawarra）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known_region_centroid</description>
+        <Point>
+          <coordinates>140.5,-37.3,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Melbourne Zoo</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;大型城市动物园，若完整参观需半天；已有多个野生动物点时边际价值下降。  &lt;br/&gt;**深度补充：**园区位于Royal Park，完整参观通常需半天；物种展区强调栖息地、濒危项目和行为丰富化。若已安排Bonorong、Maria Island、Cradle，再加入会压缩自然栖息地体验。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.zoo.org.au/melbourne/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;开园于 19 世纪，今天由 Zoos Victoria 运营并强调物种保育；历史动物园展示观念与现代福利标准有显著变化。  &lt;br/&gt;**深度补充：**1857年成立，是澳洲最早的动物园之一，其历史反映从19世纪异域动物收藏到现代保育机构的伦理变化。比较旧象舍等遗产与现代表达，能看到动物福利观念演进。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.zoo.org.au/about-us/history/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；Bonorong 未去；Maria Island、Cradle／Devils@Cradle 与 Caversham 已覆盖主要动物愿望。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Melbourne Zoo, Victoria 城市／区域：Parkville, Melbourne&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>144.951,-37.784,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Naracoorte Caves …</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;[南澳唯一世界遗产地](https://www.naracoortecaves.sa.gov.au/)，以超过 50 万年的脊椎动物化石记录闻名，包括 Diprotodon、marsupial lion 与巨型袋鼠。  &lt;br/&gt;**深度补充：**洞穴保存超过50万年的脊椎动物化石，捕兽洞把巨型袋鼠、Diprotodon、marsupial lion等遗骸带入长期沉积序列。Victoria Fossil Cave导览能同时看到活洞穴过程、发掘点和古生态解释。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.naracoortecaves.sa.gov.au/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;这里把“澳洲奇特动物”从活体观察延伸到深时生态与灭绝史；洞穴旅游应预约具体 tour，而不是只到访游客中心。  &lt;br/&gt;**深度补充：**Naracoorte与Riversleigh共同构成世界遗产化石地，改变了人们对澳洲动物演化、气候变化和灭绝时间的理解。这里是把“奇特动物”从旅游符号提升到科学史的最好地点之一。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://whc.unesco.org/en/list/698/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；下次至少半天，优先 Victoria Fossil Cave 导览。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Naracoorte Caves National Park, South Australia 城市／区域：Naracoorte／Limestone Coast&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>140.805,-37.035,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Neil the Seal</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;Neil 实际是 southern elephant seal（南象海豹），不是海象。它出生于塔州，因会在南部城镇道路和公共空间休息、阻断交通而成为网络名物。  &lt;br/&gt;**深度补充：**Neil是southern elephant seal，不是海象；它会在南部海岸、道路和城镇公共空间休息，位置不固定。成年雄性体型巨大，靠近、围堵、开门下车或挡住回海路线都有危险。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://nre.tas.gov.au/wildlife-management/living-with-wildlife/living-with-seals)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;Neil 是非常典型的当代塔州文化现象：野生动物、地方日常、社交媒体与公共安全发生冲突。2026 年官方和媒体再次提醒围观会增加压力与风险；“追踪定位去打卡”并不是合适玩法。[塔州政府的共处建议](https://nre.tas.gov.au/wildlife-management/living-with-wildlife/living-with-seals)应优先于社交媒体。  &lt;br/&gt;**深度补充：**Neil把野生动物、社交媒体、地方幽默与公共安全推到一起。实时定位和追拍会增加压力、交通风险与管理成本；负责任的做法是不设寻找路线、不发布位置、服从封路。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.abc.net.au/news/topic/seals)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;不设置寻找路线。若偶遇，留在车内或远距离观察，服从封路与野生动物人员指示，不挡路、不触摸、不投喂、不发布实时位置。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Neil the Seal, Tasmania／lutruwita 城市／区域：南部海岸与 Hobart 周边；实际位置不固定&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known_approx_hobart_waterfront</description>
+        <Point>
+          <coordinates>147.3294,-42.8895,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Ningaloo Reef/Nyi…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;世界遗产海岸礁系统，部分位置可从岸边入水。鲸鲨主季多在较早月份，座头鲸季较晚；具体月份、海况和动物出现都不保证。  &lt;br/&gt;**深度补充：**Nyinggulu是少数可从岸边接近的大型裙礁系统，珊瑚礁、鲸鲨、蝠鲼、座头鲸与海龟共享季节性海域。动物游泳受季节、海况和许可运营控制；不下水也可通过Cape Range地貌、海岸步道与岸观理解世界遗产价值。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://whc.unesco.org/en/list/1369/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;Nyinggulu 是 Baiyungu、Thalanyji 与 Yinigurdira people 长期连接的海陆文化景观。世界遗产价值同时包含海洋生态与大陆喀斯特。  &lt;br/&gt;**深度补充：**世界遗产地跨越Baiyungu、Thalanyji、Yinigurdira等Traditional Owners的海陆Country。更深的阅读应把珊瑚礁与大陆喀斯特、原住民知识和当代保育放在同一框架。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.ningaloo.com/indigenous-culture/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排：距离 Kalbarri 以北仍很远，至少需额外 4—6 天；且若不想下水，不必为鲸鲨专程赶路。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Ningaloo Reef／Nyinggulu, Western Australia 城市／区域：Exmouth、Coral Bay／Ningaloo Coast&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>113.84,-22.23,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Phillip Island/Li…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;企鹅归巢在日落后，需预订并遵守摄影限制；从墨尔本往返时间长。  &lt;br/&gt;**深度补充：**Penguin Parade依日落后归巢运行，季节影响时间、数量和体感；分级观景台和地下视角价格不同。严格禁拍或限拍规则旨在减少光线和人群对企鹅路径的干扰。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.penguins.org.au/attractions/penguin-parade/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;其文化意义在于大规模野生动物旅游如何通过栖息地管理、观景平台和严格规则降低干扰。  &lt;br/&gt;**深度补充：**Millowl是Bunurong Country。企鹅保护从住房开发威胁、栖息地回购到大规模生态旅游管理，是地方政策与野生动物保护结合的案例；岛上也有赛车文化等完全不同的现代身份。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.bunuronglc.org/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；10/5需要完成大洋路进城，不能再绕 Phillip Island。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Phillip Island／Little Penguin, Victoria 城市／区域：Phillip Island／Millowl&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>145.23,-38.51,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Port Arthur Histo…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;澳大利亚罪犯流放遗址世界遗产组成部分；遗址、海湾和 Isle of the Dead 等项目需要至少 3 小时。  &lt;br/&gt;**深度补充：**146公顷遗址包括Penitentiary、Separate Prison、教堂、住宅、花园和海湾；空间尺度本身展示惩罚、劳动、监视与阶级分区。普通票含港湾短船和讲解，至少半天。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://portarthur.org.au/whats-on/generaladmission/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;它展示英帝国流放制度、强迫劳动、阶级与惩戒，也承载 1996 年 Port Arthur 枪击案及其推动澳洲枪支改革的集体记忆。参观时避免把苦难史仅当“阴森拍照背景”。  &lt;br/&gt;**深度补充：**它属于Australian Convict Sites世界遗产，涉及帝国流放、强迫劳动、少年囚犯和刑罚改革；同时承载1996年枪击案及其推动全国枪支管制改革的集体记忆。两层创伤都不应被“鬼故事”覆盖。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://whc.unesco.org/en/list/1306/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;已按你的兴趣明确从9/29删除；不再安排监狱／流放史主题参观。  &lt;br/&gt;不在本次行程中&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Port Arthur Historic Site, Tasmania／lutruwita 城市／区域：Port Arthur／Tasman Peninsula&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>147.846,-43.137,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Puffing Billy Rai…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;Dandenong Ranges 的历史窄轨蒸汽铁路，往返与接驳通常需要半天以上，车票需预约。  &lt;br/&gt;**深度补充：**窄轨铁路穿过Dandenong Ranges湿润森林、蕨类谷地与小镇，半程和全程耗时差异大。蒸汽牵引、开放车厢和桥梁是核心，但“腿伸窗外”只可在官方允许车厢和区段进行。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://puffingbilly.com.au/visit-us/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;线路始建于 1900 年，原为偏远社区运输，后经志愿者与遗产铁路体系保存；“坐在窗台伸腿”须严格按官方开放车厢与规则。  &lt;br/&gt;**深度补充：**线路1900年服务偏远社区，后由志愿者和遗产铁路组织恢复，体现澳洲地方铁路从实用交通转为文化遗产的过程。志愿维护和森林火灾风险是持续运营的重要背景。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://puffingbilly.com.au/about/history/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排，尤其不能放在10/6中午国际航班前；下次单独半天至一天。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Puffing Billy Railway, Victoria 城市／区域：Belgrave—Gembrook／Dandenong Ranges&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>145.355,-37.907,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Rottnest Island/W…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;短尾矮袋鼠最有名，但岛上还有盐湖、海岸与海洋生态。动物自拍需保持距离，不触摸、不喂食。  &lt;br/&gt;**深度补充：**Wadjemup有短尾矮袋鼠、盐湖、海草床、珊瑚与沙丘系统。Quokka多在清晨、傍晚活跃；自拍应由人退让、保持距离，不喂食、不触摸，也不要为追照片挡住动物通道。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.rottnestisland.com/see-do/wildlife-nature/quokkas)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;Wadjemup 对 Noongar 人也是痛苦的历史地点：殖民时期曾监禁大量 Aboriginal men，岛上有墓地与纪念空间。它不应只被包装成“微笑袋鼠岛”。  &lt;br/&gt;**深度补充：**岛上曾作为殖民时期原住民监狱，数千名Aboriginal men被关押，许多人死于此并葬在岛上。Wadjemup Project、墓地和纪念空间是理解岛屿不可绕过的部分，不能只讲“微笑袋鼠”。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.rottnestisland.com/learn/history/aboriginal-history)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；需要从 Perth／Fremantle 单独留一整天，建议下次深做。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Rottnest Island／Wadjemup／Quokka, Western Australia 城市／区域：Wadjemup／Rottnest Island（Perth／Fremantle 外海）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>115.515,-32.006,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Seal Bay/Australi…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;以 Australian sea lion 繁殖群闻名，游客只能依步道或向导规则观察。最佳体验不是靠近，而是看它们在沙丘与海滩的自然行为。  &lt;br/&gt;**深度补充：**这里保护Australian sea lion繁殖群；动物会在海上觅食数日后回岸休息，幼崽、母兽和雄兽行为随季节变化。游客只能在boardwalk或导览区观察，距离和封闭由现场决定。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.parks.sa.gov.au/experiences/seal-bay)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;Australian sea lion 是受威胁物种；将导览费理解为保护与监测的一部分，比“打卡海豹”更准确。  &lt;br/&gt;**深度补充：**Australian sea lion是受威胁物种，历史上受商业捕猎与渔业冲突影响。现代导览费支持监测和栖息地管理，因此“近距离”并不是越近越好，而是理解保护边界。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.environment.sa.gov.au/topics/animals-and-plants/threatened-species-and-ecological-communities/australian-sea-lion)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;并入下次 Kangaroo Island 线路；上午或傍晚光线较柔，服从现场封闭。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Seal Bay／Australian Sea Lion, South Australia 城市／区域：Seal Bay（Kangaroo Island）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>137.214,-35.775,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Tasmania Zoo</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;位于 Launceston 附近，作为多物种动物园可提高看到部分动物的确定性，但与自然观察体验不同。  &lt;br/&gt;**深度补充：**位于Launceston附近的多物种动物园能提高看到珍稀或外来动物的确定性，但与Maria Island、Cradle等自然栖息地观察不同。完整参观需半天，雨天可作为更稳定选项。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://tasmaniazoo.com.au/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;若行程已有 Bonorong、Maria Island、Cradle Mountain，重复动物园会挤压真正的栖息地体验。  &lt;br/&gt;**深度补充：**它反映私人动物园在地方旅游、物种繁育和公众教育中的角色，也引出圈养福利、展示价值与保育贡献如何衡量的问题。已有多个高质量自然点时，不必为“物种数量”重复加入。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.zooaquarium.org.au/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次作为雨天备选，不主动加入。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Tasmania Zoo, Tasmania／lutruwita 城市／区域：Riverside（Launceston 附近）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>147.18,-41.38,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 塔山野生动物保护区</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;愿望清单保留；与现行大洋路东段主线冲突，不在本次主行程。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8—18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【本次建议】与 10/4 东段→Apollo Bay、10/5 沉船→Melbourne 方向冲突，已移出主行程；鸸鹋改由 Caversham 覆盖。&lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Tower Hill Wildlife Reserve, Victoria&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>142.36,-38.317,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 斯坦利/The Nut</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;西北海岸小镇，以古火山岩颈 The Nut 和海景著名，可步行或乘 chairlift。  &lt;br/&gt;**深度补充：**The Nut是显著的古火山岩颈，步道陡但山顶可看Bass Strait、农田与镇区；chairlift受天气和季节影响。海风强时边缘体验会改变。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.discovertasmania.com.au/regions/north-west/stanley/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;Van Diemen’s Land Company 的殖民土地史影响深远。电影《The Light Between Oceans》曾在 Stanley 一带取景，这是较明确的影视关联。  &lt;br/&gt;**深度补充：**Stanley与Van Diemen’s Land Company殖民土地扩张、Highfield Historic Site和西北港口史相连。电影《The Light Between Oceans》曾在当地取景，是比模糊“像欧洲”更具体的作品关联。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://parks.tas.gov.au/explore-our-parks/highfield-historic-site)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；从 Cradle 去 Devonport 已受船班约束，Stanley 应另做西北线。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; 斯坦利（Stanley）／The Nut（坚果山）, Tasmania／lutruwita 城市／区域：Stanley／西北海岸&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>145.3,-40.76,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 新诺舍/诺瑟姆/约克/Nation…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;York 是 Avon Valley 历史城镇；New Norcia 以 Benedictine 修道建筑闻名。Northam 可看 Avon River 与内陆农业城镇。  &lt;br/&gt;**深度补充：**Avon Valley与Wheatbelt从河谷林地过渡到大面积农业平原；York保存砂岩和维多利亚时期街景，Northam沿Avon River展开，New Norcia则以修道院建筑群形成强烈视觉差异。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.westernaustralia.com/en/places/new-norcia)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;New Norcia 也牵涉天主教传教机构、原住民儿童与同化政策历史，不宜只看欧式建筑。若前往，应读场馆对 Aboriginal mission history 的说明，并避免浪漫化。  &lt;br/&gt;**深度补充：**New Norcia的Benedictine遗产必须与传教机构、原住民儿童教育及同化政策史一起阅读；York与Northam也连接殖民农牧扩张、铁路与移民史。只看欧式建筑会遮蔽土地被占用的过程。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.newnorcia.com.au/history/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次北上海岸线不顺路，不安排；适合另做 Perth 东部 1—2 日环线。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; 新诺舍（New Norcia）／诺瑟姆（Northam）／约克（York）／National Route 1（1号国道）, Western Australia 城市／区域：New Norcia、Northam、York／Avon Valley 与 Wheatbelt&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known_primary_of_multi</description>
+        <Point>
+          <coordinates>116.22,-30.97,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 沃南布尔</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;愿望清单保留；不在本次主行程。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8—18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【本次建议】与 Tower Hill 一并移出；10/5 午餐在 Port Campbell。&lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Warrnambool, Victoria&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>142.488,-38.3839,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 珀斯</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;Swan River 河湾、Kings Park 与港口城市肌理是核心；春季适合看野花。城市的 Noongar 名称常写作 Boorloo，河流为 Derbarl Yerrigan。  &lt;br/&gt;**深度补充：**城市最值得理解的自然骨架是 Swan／Derbarl Yerrigan 河口、Kings Park 高地与印度洋海风共同形成的生态梯度。Kings Park 并非普通城市公园，而是大面积原生灌木地、野花保育与城市眺望台的结合；9月底正处西澳野花季尾段。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.bgpa.wa.gov.au/kings-park)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;这里首先是 Whadjuk Noongar Country，而不只是现代矿业城市。若有半天，可用 Kings Park 的原生植物与原住民文化解说串起城市、河流和西澳生态。  &lt;br/&gt;**深度补充：**Whadjuk Noongar 人把河流、湿地和高地看作相互连接的 Country。殖民后的 Perth 又因天鹅河殖民地、港口、铁路和20世纪末资源业扩张而改变；阅读城市时可同时观察原住民地名恢复、矿业资本建筑和多元移民餐饮。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.noongarculture.org.au/boorloo-perth/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次仅作入境、取车、转机和补给，不硬塞市区半日游。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; 珀斯（Perth／Boorloo）, Western Australia 城市／区域：Perth／Boorloo&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>115.8613,-31.9523,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 甘比尔山/Blue Lake/Ca…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;Blue Lake 位于火山口，颜色有明显季节变化；Cave Garden、Umpherston Sinkhole 与地下水系统体现火山、石灰岩和喀斯特共同作用。  &lt;br/&gt;**深度补充：**Blue Lake位于maar火山口，夏季常显鲜蓝、冬季偏灰；颜色变化与水体混合、碳酸钙颗粒和光学条件有关。Umpherston Sinkhole、Cave Garden与地下水系统共同展示火山和石灰岩喀斯特叠加。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.mountgambier.sa.gov.au/experience/attractions/blue-lake-warwar)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;Mount Gambier／Berrin 位于 Boandik Country。蓝湖的殖民命名与当地 Aboriginal 地名、地下水作为城市水源的现实可一起理解。  &lt;br/&gt;**深度补充：**Berrin位于Boandik Country。城市依赖地下水，石灰岩建筑和火山口景观也塑造地方身份；原住民地名、殖民测绘名和现代水资源治理应放在一起理解。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.burrandiesaboriginalcorporation.com.au/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；以后与 Great Ocean Road 西端、Naracoorte 串成 3—4 天。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; 甘比尔山（Mount Gambier）／Blue Lake（蓝湖）／Cave Gardens（洞穴花园）, South Australia 城市／区域：Mount Gambier／Berrin&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>140.782,-37.828,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 罗斯</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;历史小镇以 1836 年砂岩桥、殖民建筑和羊毛产业景观闻名。  &lt;br/&gt;**深度补充：**Macquarie River、砂岩桥和整齐殖民街区让Ross成为小尺度步行镇。1836年桥上的精细雕刻与河岸视角是核心；早晨或傍晚侧光最能表现砂岩。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.visitross.com.au/attractions/ross-bridge/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;桥上雕刻通常与 convict stonemason Daniel Herbert 联系。Ross 常被游客称作《魔女宅急便》面包店灵感地，但没有可靠官方证据证明宫崎骏以此为原型；只能写“相似联想”，不能写成事实。  &lt;br/&gt;**深度补充：**桥与convict stonemason Daniel Herbert相关，镇上羊毛产业和女性工厂史值得延伸。所谓《魔女宅急便》面包店原型缺乏宫崎骏或吉卜力官方证据，只能作为游客相似联想。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.femaleconvicts.org.au/places/ross-female-factory)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；9/30—10/1 走东海岸，不为 Ross 向内陆折返。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; 罗斯（Ross）, Tasmania／lutruwita 城市／区域：Ross／Northern Midlands&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>147.49,-42.03,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 蒙基米亚/Dolphins</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;位于 Shark Bay World Heritage Area；海豚接近是受管理的野生动物互动，出现与参与喂食都不保证。  &lt;br/&gt;**深度补充：**这里的海豚接近与少量喂食由护林员管理，个体是否出现、游客能否参与都不保证。更广阔的Shark Bay还包括海草床、儒艮、贝壳海滩和stromatolites，世界遗产价值远超单一喂海豚体验。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.sharkbay.org/place/monkey-mia/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;Shark Bay 是 Malgana Country，也有航海、珍珠贝与牧业史。把海豚当野生动物而不是固定表演，更符合保护逻辑。  &lt;br/&gt;**深度补充：**Monkey Mia位于Malgana Country；区域还有珍珠贝采集、牧业、航海和科学研究史。管理式互动从过去随意喂食转向限量、监测，体现野生动物旅游伦理的变化。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://whc.unesco.org/en/list/578/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；从 Kalbarri 往返会显著增加驾驶，建议与 Ningaloo 合并成下一次西澳北线。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; 蒙基米亚（Monkey Mia）／Dolphins（海豚）, Western Australia 城市／区域：Monkey Mia／Shark Bay（近 Denham）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>113.72,-25.793,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 阿德莱德</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;以公园环带、中央市场、文化大道与海边电车线构成易步行城市；春季天气适合城市与 Adelaide Hills 组合。  &lt;br/&gt;**深度补充：**城市由River Torrens／Karrawirra Parri、公园环带、海岸平原和Adelaide Hills围合，步行与电车可串中央市场、North Terrace与Glenelg。春季温和，但山地与海边体感差异明显。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://southaustralia.com/destinations/adelaide)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;Adelaide 位于 Kaurna Country。殖民城市以规划著称，“City of Churches”是历史昵称，但当代城市更应从 Kaurna 文化、移民饮食、节庆与艺术共同理解。  &lt;br/&gt;**深度补充：**Tarntanya位于Kaurna Country。1836年殖民规划、自由殖民地叙事、“City of Churches”、移民市场饮食与当代节庆共同构成城市身份；Kaurna语言复兴和双重命名是理解当代城市的重要线索。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://livingkaurna.com.au/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不进入南澳；下次作 2—3 晚基地。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; 阿德莱德（Adelaide／Tarntanya）, South Australia 城市／区域：Adelaide／Tarntanya&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>138.6007,-34.9285,0</coordinates>
+        </Point>
+      </Placemark>
+      <description>点位数：32</description>
+    </Folder>
+  </Document>
+</kml>

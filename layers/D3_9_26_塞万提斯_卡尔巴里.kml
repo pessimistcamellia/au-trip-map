@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>D3 9/26 塞万提斯→卡尔巴里</name>
+    <Style id="sty_d3">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/orange-circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sty_d3_line">
+      <LineStyle>
+        <color>7f0080ff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>D3 9/26 塞万提斯→卡尔巴里</name>
+      <Placemark>
+        <name>D3-1 塞蒂斯湖</name>
+        <styleUrl>#sty_d3</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-26 · 第3天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 1&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;湖岸stromatolites（叠层石）及其“活着的古老生态系统”意义；清晨安静、光线柔和。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10—22°C；杰拉尔顿（Geraldton）约11—23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12—25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13—25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。[BOM杰拉尔顿气候](https://www.bom.gov.au/climate/averages/tables/cw_008315_All.shtml)｜[BOM卡尔巴里气候](https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约30分钟（可选）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约3公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;可选短停；若前一晚疲劳则取消。免费无需预约。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Lake Thetis, Cervantes WA&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>115.078,-30.506,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D3-2 杰拉尔顿海滨</name>
+        <styleUrl>#sty_d3</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-26 · 第3天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 2&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;海滨草地、港口城市节奏与补给便利；中午只作恢复体力的轻松停留。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10—22°C；杰拉尔顿（Geraldton）约11—23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12—25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13—25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。[BOM杰拉尔顿气候](https://www.bom.gov.au/climate/averages/tables/cw_008315_All.shtml)｜[BOM卡尔巴里气候](https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约1.5小时&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约221公里自塞万提斯&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;午餐、加油和采购。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Geraldton Foreshore, Geraldton WA&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>114.614,-28.776,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D3-3 粉红湖</name>
+        <styleUrl>#sty_d3</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-26 · 第3天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 3&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;高盐度、微藻与工业生产共同形成粉红或淡紫色湖面；晴天约11:00—15:00高太阳时颜色通常更明显。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10—22°C；杰拉尔顿（Geraldton）约11—23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12—25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13—25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。[BOM杰拉尔顿气候](https://www.bom.gov.au/climate/averages/tables/cw_008315_All.shtml)｜[BOM卡尔巴里气候](https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约1小时15分&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约98+14公里经Port Gregory&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;只在公共观景点；颜色不保证；不进入生产区或私人土地。&lt;br/&gt;&lt;br/&gt;【愿望清单·景点／自然】&lt;br/&gt;颜色会在粉红、淡紫甚至红色之间变化，受藻类、盐度、季节、云量与观看角度共同影响；[西澳官方旅游页也明确使用“sometimes”描述颜色](https://www.westernaustralia.com/en/attraction/hutt_lagoon/59cb40e112f8967834c0e22f)。  &lt;br/&gt;**深度补充：**湖色来自高盐度环境中的微藻与盐生微生物，同时受季节、云量、风、盐度和观察方向影响。这里也是商业藻类及盐业景观；航拍、路边与地面看到的颜色并不相同，不能把宣传照当作现场保证。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.westernaustralia.com/en/attraction/hutt_lagoon/59cb40e112f8967834c0e22f)&lt;br/&gt;&lt;br/&gt;【愿望清单·人文】&lt;br/&gt;它同时是自然盐湖和工业性盐／藻类生产景观；拍照时应区分公共观景点、生产区域和私人土地，不为追颜色擅自进入。  &lt;br/&gt;**深度补充：**粉湖体现自然过程与工业利用叠加：它不是未经触碰的“仙境”，而是生产、旅游和私人土地边界并存的地方。守住公共观景范围，是理解此地而非消费色彩的基本前提。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.australiascoralcoast.com/destination/hutt-lagoon/)&lt;br/&gt;&lt;br/&gt;【愿望清单·本次建议】&lt;br/&gt;9/26 11:00—15:00 优先；阴天则接受颜色较淡。  &lt;br/&gt;**已纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Hutt Lagoon Lookout, Port Gregory WA&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>114.205,-28.071,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D3-4 卡尔巴里</name>
+        <styleUrl>#sty_d3</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-26 · 第3天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 4&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;镇内入住；傍晚可选红崖或天然桥看海岸夕照。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10—22°C；杰拉尔顿（Geraldton）约11—23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12—25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13—25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。[BOM杰拉尔顿气候](https://www.bom.gov.au/climate/averages/tables/cw_008315_All.shtml)｜[BOM卡尔巴里气候](https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 过夜&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约54公里自粉红湖&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;首选镇内酒店；车宿仅镇内正规营地。红崖约5公里／天然桥约14公里，二选一。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Kalbarri, Western Australia&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>114.165,-27.711,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D3-5 红崖</name>
+        <styleUrl>#sty_d3</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-26 · 第3天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 5&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;高崖与层叠海岸线；最佳为日落前45—60分钟。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10—22°C；杰拉尔顿（Geraldton）约11—23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12—25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13—25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。[BOM杰拉尔顿气候](https://www.bom.gov.au/climate/averages/tables/cw_008315_All.shtml)｜[BOM卡尔巴里气候](https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约45—60分钟&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 镇中心约5公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;与Natural Bridge二选一；海崖强风时远离崖缘。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Red Bluff Lookout, Kalbarri WA&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>114.139,-27.74,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D3 当日路线</name>
+        <styleUrl>#sty_d3_line</styleUrl>
+        <description>第3天按顺序串联（示意）</description>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>115.078,-30.506,0 114.614,-28.776,0 114.205,-28.071,0 114.165,-27.711,0 114.139,-27.74,0</coordinates>
+        </LineString>
+      </Placemark>
+      <description>点位数：5</description>
+    </Folder>
+  </Document>
+</kml>

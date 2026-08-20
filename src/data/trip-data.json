@@ -1,0 +1,2987 @@
+{
+  "trip": {
+    "name": "澳大利亚自驾行程",
+    "dates": "2026-09-24 — 2026-10-06",
+    "source_doc": "https://guanghe.feishu.cn/docx/TAoHd0QFyoo7lpxGk9DcpN0nnCc",
+    "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内，未放入地图坐标层。口径以每日主行程为准（2026-08-19 对齐 Codex 末轮共识）：塔州 Port Arthur→Triabunna→Maria→Coles Bay→Bicheno/Launceston→Cradle→Spirit；大洋路 10/4 东段 Apollo Bay，10/5 沉船海岸回墨尔本；Tower Hill／Warrnambool 不在本次；Loch Ard 为 10/5 可选短停。",
+    "startDate": "2026-09-24",
+    "endDate": "2026-10-06",
+    "timezone": "Australia/Hobart",
+    "myMapsUrl": "https://www.google.com/maps/d/edit?mid=10eTWDmGzd0nwA4sFuDWaxVEcO5QP0_4",
+    "sourceRevision": 444
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-09-24",
+      "weekday": "周四",
+      "region": "天津（Tianjin）-新加坡（Singapore）-珀斯（Perth）",
+      "route": "天津滨海国际机场（Tianjin Binhai International Airport）T1 → 新加坡樟宜机场（Singapore Changi Airport）T1（酷航 TR139）→ 珀斯机场（Perth Airport）T1（酷航 TR028）",
+      "lodging": "夜间在飞机上；不安排车宿。",
+      "schedule": "09:05-15:10：天津滨海国际机场（Tianjin Binhai International Airport）T1乘酷航 TR139 → 新加坡樟宜机场（Singapore Changi Airport）T1，直线航程约4,410公里，计划飞行6小时05分。\n15:10-23:10：新加坡樟宜机场（Singapore Changi Airport）T1转机约 8小时，用餐、休息并提前返回登机口。\n23:10-次日04:20：乘酷航 TR028，新加坡樟宜机场（Singapore Changi Airport）T1 → 珀斯机场（Perth Airport）T1，直线航程约3,910公里，计划飞行5小时10分，9月25日清晨抵达。以上均为各机场当地时间。",
+      "highlights": "本日重点：纯转场日。新加坡樟宜机场（Singapore Changi Airport）T1约8小时转机，可在室内用餐、休息和整理随身物品；本日没有户外目的地或固定观赏窗口。",
+      "booking": "预约：机票已确定，无另购门票。\n注意：TR028起飞前至少90分钟回到登机区域；转机期间不要入境后远离机场。两段航班时间均以机场和航空公司临行通知为准。",
+      "weather": "天气（长年气候参考，非逐日预报）：天津（Tianjin）9月下旬通常约14-26°C，早晚偏凉、总体较干；新加坡（Singapore）约25-32°C，高温高湿，午后或夜间可能短时雷雨，转机活动以室内为主；珀斯（Perth）9月下旬通常约10-21°C，阵雨和西风仍较常见。随身行李放一件薄防水外套，并在TR028起飞前查看新加坡雷雨及珀斯大风／降雨对航班的影响。新加坡官方气候｜BOM珀斯气候。",
+      "links": [
+        {
+          "label": "新加坡官方气候",
+          "url": "https://www.weather.gov.sg/climate-climate-of-singapore/"
+        },
+        {
+          "label": "BOM珀斯气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "date": "2026-09-25",
+      "weekday": "周五",
+      "region": "珀斯（Perth）-塞万提斯（Cervantes）",
+      "route": "珀斯机场（Perth Airport） → 卡弗舍姆（Caversham） → 兰斯林（Lancelin） → Pinnacles（尖峰石阵） → 塞万提斯（Cervantes）",
+      "lodging": "首选：Cervantes 酒店／小屋。\n轿车／SUV车宿候选：① RAC Cervantes Holiday Park（Aragon Street；持牌营地、卫浴和营地厨房齐全，Google口碑稳定；订 unpowered camping site，并在付款前明确说明“sleeping inside a standard car/SUV”取得同意；14:00后入住，18:00后到达须预先安排）｜Google Maps 导航；② Nambung Station Stay（有帐篷区、营地厨房、卫浴与工作牧场环境；距Cervantes约44公里，须电话／邮件确认允许睡在普通车内）｜Google Maps 导航。\n排除：Hakea、Banksia、Tuarts 等免费点要求饮水、灰水箱和便携厕所等自给能力，不适合普通轿车／SUV；Pinnacles（尖峰石阵）、海边停车位和路肩均不可过夜。",
+      "schedule": "04:20-07:45：珀斯机场（Perth Airport）T1入境、取行李、早餐与取车。\n09:00-12:45：从机场驾车约22公里到 Caversham Wildlife Park（卡弗舍姆野生动物园）；09:00 入园先买考拉抱持票，11:30 Meet A Koala，12:00 抱持场（如成功购票）。只合影不抱则约11:45离开。\n12:45-14:45：驾车约135公里前往 兰斯林（Lancelin）；途中简餐。\n14:45-15:40：Lancelin Sand Dunes（兰斯林沙丘）（从镇中心约3公里）步行观景／滑沙；普通租车不要驶入沙地。\n15:40-16:50：驾车约77公里前往 Nambung National Park（南邦国家公园）。\n16:50-日落后：Pinnacles Desert Discovery Centre（尖峰石阵探索中心）（园内移动约2公里）、环形自驾道与步行区。\n日落后：驾车约20公里到 塞万提斯（Cervantes） 入住。若入境／取车延误超过 60 分钟，删除 兰斯林（Lancelin），保留 卡弗舍姆（Caversham） 与 Pinnacles（尖峰石阵）。",
+      "highlights": "Caversham Wildlife Park（卡弗舍姆野生动物园）：西澳原生动物集中展示、袋鼠喂食、袋熊与农场表演，以及考拉近距离体验；动物上午较活跃，09:00入园最合适。\nLancelin Sand Dunes（兰斯林沙丘）：白色移动沙丘、流畅沙脊和开阔地平线是特色；14:30以后侧光更有层次。\nPinnacles（尖峰石阵）／Nambung National Park（南邦国家公园）：黄沙中的密集石灰岩柱与海岸沙丘地质景观是核心；最佳为日落前60-90分钟至蓝调，低角度金色侧光最能表现石柱纹理。",
+      "booking": "Caversham Wildlife Park（卡弗舍姆野生动物园）：成人门票AUD 37／人，两人AUD 74；普通考拉合影包含在门票内。抱考拉另付AUD 35／人，不能提前预订，09:00起在纪念品店先到先得，旺时可能15分钟内售罄；12:00场，身高至少150cm并须满足健康安全条件。官方购票｜抱考拉规则。\nLancelin Sand Dunes（兰斯林沙丘）：步行免费、无需预约；可现场租板，单板AUD 10／2小时或AUD 16／4小时，双人板AUD 15／2小时。租板信息。普通租车不要驶入沙地，强风时不滑沙。\nPinnacles（尖峰石阵）／Nambung：标准车辆入园AUD 17／车，到场付款，无需提前订票；有WA Park Pass则无需另付。官方费用。日落后尽快前往住宿，不做夜间长途驾驶。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
+      "links": [
+        {
+          "label": "RAC Cervantes Holiday Park",
+          "url": "https://parksandresorts.rac.com.au/cervantes/accommodation/unpowered-camping-site/"
+        },
+        {
+          "label": "Google Maps 导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=RAC Cervantes Holiday Park Aragon Street Cervantes WA"
+        },
+        {
+          "label": "Nambung Station Stay",
+          "url": "https://www.nambungstation.com.au/"
+        },
+        {
+          "label": "Google Maps 导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Nambung Station Stay WA"
+        },
+        {
+          "label": "官方购票",
+          "url": "https://cavershamwildlife.com.au/plan-your-visit/admission-prices-gift-cards/"
+        },
+        {
+          "label": "抱考拉规则",
+          "url": "https://cavershamwildlife.com.au/daily-experiences/meet-a-koala-and-koala-holding/"
+        },
+        {
+          "label": "租板信息",
+          "url": "https://www.lancelinsurf.com/products/sandboarding"
+        },
+        {
+          "label": "官方费用",
+          "url": "https://exploreparks.dbca.wa.gov.au/park-entry-fees"
+        },
+        {
+          "label": "BOM气候参考",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "date": "2026-09-26",
+      "weekday": "周六",
+      "region": "塞万提斯（Cervantes）-卡尔巴里（Kalbarri）",
+      "route": "塞万提斯（Cervantes） → Lake Thetis（塞蒂斯湖）（可选）→ 杰拉尔顿（Geraldton） → Hutt Lagoon（粉红湖） → 卡尔巴里（Kalbarri）",
+      "lodging": "首选：Kalbarri 镇内酒店／小屋。\n轿车／SUV车宿候选（均为镇内正规营地）：① Kalbarri Tudor Holiday Park（10 Porter Street；powered／unpowered camp sites、卫浴，步行到镇中心；官网营位 from AUD 40／晚）｜Google Maps 导航；② Kalbarri Anchorage Holiday Village（168 Grey Street；官网明确有 camping sites）｜Google Maps 导航；③ Murchison River Caravan Park（河滨、镇中心，补给方便）｜Google Maps 导航。\n操作：预订前都要明确说明“ordinary sedan/SUV, sleeping inside the vehicle”并取得营地同意。Kalbarri Visitor Centre 明确说明镇内禁止自由露营、国家公园无营地，因此不得睡在国家公园、海崖停车场或河岸公共停车位。",
+      "schedule": "08:00-08:30：从塞万提斯驾车约3公里，可选 Lake Thetis（塞蒂斯湖） 短停；若前一晚疲劳则取消。\n08:30-11:30：驾车约221公里，塞万提斯（Cervantes） → 杰拉尔顿（Geraldton）。\n11:30-13:00：市内约2公里到 Geraldton Foreshore（杰拉尔顿海滨）／午餐、加油和采购。\n13:00-14:15：驾车约98公里前往 格雷戈里港（Port Gregory）。\n14:15-15:30：从格雷戈里港驾车约14公里到 Hutt Lagoon（粉红湖）公共观景点。\n15:30-16:30：驾车约54公里前往 卡尔巴里（Kalbarri）。\n16:45-日落：从镇中心约5公里到 Red Bluff（红崖）；若改去 Natural Bridge（天然桥），则约14公里。二选一看海岸夕照，然后进镇入住。",
+      "highlights": "Lake Thetis（塞蒂斯湖）：湖岸stromatolites（叠层石）及其“活着的古老生态系统”意义是核心；清晨安静、光线柔和。\nGeraldton Foreshore（杰拉尔顿海滨）：海滨草地、港口城市节奏与补给便利是特色；中午只作恢复体力的轻松停留。\nHutt Lagoon（粉红湖）：高盐度、微藻与工业生产共同形成粉红或淡紫色湖面；晴天约11:00-15:00高太阳时颜色通常更明显，但受云量、盐度、风和视角影响。\nRed Bluff（红崖）／Natural Bridge（天然桥）：前者看高崖与层叠海岸线，后者看海蚀拱门和沉积岩层；最佳为日落前45-60分钟。",
+      "booking": "预约：Lake Thetis（塞蒂斯湖）、Geraldton Foreshore（杰拉尔顿海滨）、Hutt Lagoon（粉红湖）、Red Bluff（红崖）和Natural Bridge（天然桥）均免费，无需预约。\n注意：Hutt Lagoon（粉红湖）颜色不保证；只在公共观景区停留，不进入生产区或私人土地。海崖强风时远离崖缘，始终留在正式步道和护栏内。Red Bluff（红崖）与Natural Bridge（天然桥）按时间和体力二选一。",
+      "weather": "天气（长年气候参考，非逐日预报）：塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
+      "links": [
+        {
+          "label": "Kalbarri Tudor Holiday Park",
+          "url": "https://kalbarritudor.com.au/"
+        },
+        {
+          "label": "Google Maps 导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kalbarri Tudor Holiday Park 10 Porter Street Kalbarri WA"
+        },
+        {
+          "label": "Kalbarri Anchorage Holiday Village",
+          "url": "https://www.kalbarrianchorage.com.au/home-1"
+        },
+        {
+          "label": "Google Maps 导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kalbarri Anchorage Holiday Village 168 Grey Street Kalbarri WA"
+        },
+        {
+          "label": "Murchison River Caravan Park",
+          "url": "https://www.murcp.com/"
+        },
+        {
+          "label": "Google Maps 导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Murchison River Caravan Park Kalbarri WA"
+        },
+        {
+          "label": "BOM杰拉尔顿气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008315_All.shtml"
+        },
+        {
+          "label": "BOM卡尔巴里气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "date": "2026-09-27",
+      "weekday": "周日",
+      "region": "卡尔巴里（Kalbarri）-珀斯机场周边（Perth Airport Area）",
+      "route": "Kalbarri National Park（卡尔巴里国家公园） → 杰拉尔顿（Geraldton）补给 → 珀斯机场周边（Perth Airport Area）合法营地",
+      "lodging": "当晚改住珀斯机场附近，避免次日长途赶机场：① 首选Perth Central Caravan Park（34 Central Avenue, Ascot；官网提供 powered caravan／camp sites，约5公里到机场）｜Google Maps 导航；② 备选Discovery Parks - Perth Airport（186 Hale Road, Forrestfield；正规holiday／caravan park，官方称距航站楼约15分钟）｜Google Maps 导航。\n必须提前确认：预订时明确写“ordinary sedan/SUV, sleeping inside the vehicle”，取得书面同意后再付款；同时预先安排约19:00后的late check-in。若两家都不接受普通车内过夜，就改订同园区小屋／机场酒店，不能睡机场停车场或路边。",
+      "schedule": "06:30-07:15：驾车约38公里，卡尔巴里（Kalbarri） 出发前往国家公园内陆区。\n07:15-08:15：Kalbarri Skywalk（卡尔巴里天空步道）。\n08:30-10:00：从Skywalk驾车约3公里至 Nature’s Window（自然之窗） 往返步行约1公里并拍摄。\n10:00-10:30：游客设施休整、补水。\n10:30-13:30：驾车约176公里向南到 杰拉尔顿（Geraldton），午餐、加油。\n14:00-19:30：继续南下至珀斯机场附近已订营地（Perth Airport Area Campground）：首选Perth Central约414公里，备选Discovery Parks约423公里；每2小时至少休息15-20分钟，尽量在天黑前完成乡间路段，并提前安排late check-in。若国家公园高温或前晚睡眠不足，取消 Nature’s Window（自然之窗），提前南下。",
+      "highlights": "Kalbarri Skywalk（卡尔巴里天空步道）：两座悬挑平台伸出Murchison Gorge（默奇森峡谷）上方，重点是红色Tumblagooda sandstone峡谷尺度与河谷弯曲；最佳为日出后至08:30，温度较低、侧光柔和。\nNature’s Window（自然之窗）：天然砂岩“窗框”把Murchison River（默奇森河）弯道纳入画面，是约1公里往返的轻量短线；最佳为清晨，正午后热感和曝晒明显增加。",
+      "booking": "费用：Kalbarri Skywalk（卡尔巴里天空步道）与Nature’s Window（自然之窗）共用Kalbarri National Park（卡尔巴里国家公园）入园费，标准车辆AUD 17／车，到场付款、无需预约。官方费用。\n注意：峡谷段曝晒强，每人至少准备2-3升饮水；若出现高温关闭、前晚睡眠不足或路况不佳，取消Nature’s Window（自然之窗），提前南下。西澳把睡在车辆内视为camping，只能使用已取得普通轿车／SUV车内过夜书面同意的持牌营地；不能睡机场停车场、路边或普通休息点。当天长途驾驶每2小时至少休息15-20分钟，并预先安排late check-in。",
+      "weather": "天气（长年气候参考，非逐日预报）：Kalbarri National Park（卡尔巴里国家公园）／Kalbarri Skywalk（卡尔巴里天空步道）／Nature’s Window（自然之窗）通常约13-25°C，但峡谷内无风晴天体感可明显更热；杰拉尔顿（Geraldton）约11-23°C，珀斯机场周边（Perth Airport Area）约10-21°C。清晨峡谷可凉、正午暴晒，需至少每人2-3升饮水并留意公园高温关闭信息；南下长途可能遇阵雨、侧风和日落后低温。BOM卡尔巴里气候。",
+      "links": [
+        {
+          "label": "Perth Central Caravan Park",
+          "url": "https://perthcentral.com.au/accommodation/caravan-park/"
+        },
+        {
+          "label": "Google Maps 导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Perth Central Caravan Park 34 Central Avenue Ascot WA"
+        },
+        {
+          "label": "Discovery Parks – Perth Airport",
+          "url": "https://www.discoveryholidayparks.com.au/caravan-parks/western-australia/greater-perth/perth-airport"
+        },
+        {
+          "label": "Google Maps 导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Discovery Parks Perth Airport 186 Hale Road Forrestfield WA"
+        },
+        {
+          "label": "官方费用",
+          "url": "https://exploreparks.dbca.wa.gov.au/park-entry-fees"
+        },
+        {
+          "label": "BOM卡尔巴里气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "date": "2026-09-28",
+      "weekday": "周一",
+      "region": "珀斯（Perth）-霍巴特（Hobart）-塔斯曼半岛（Tasman Peninsula）",
+      "route": "珀斯机场附近营地（Perth Airport Area） → 珀斯机场（Perth Airport）T1（还车）→ 霍巴特机场（Hobart Airport）（维珍澳洲 VA594，09:50-16:00）→ 亚瑟港（Port Arthur）",
+      "lodging": "当晚直接住亚瑟港（Port Arthur），不再住霍巴特，也不车宿：把次日上午约100公里赶路提前到落地日完成，确保睡醒后从住宿地从容去巡游中心。\n首选：Stewarts Bay Lodge（6955 Arthur Highway；与Tasman Island Cruises Booking Centre（塔斯曼岛巡游中心）同一小段Arthur Highway，约1公里级距离；自助式木屋、停车和厨房，适合整理行李）｜Google Maps导航。前台通常17:00结束，必须提前书面安排late self check-in。\n备选：Port Arthur Motor Inn（29 Safety Cove Road；距巡游中心约1-2公里，现场停车和晚餐更方便）｜Google Maps导航。\n航班严重延误兜底：若19:00后仍未取到车，停止夜驾并住霍巴特机场／索雷尔（Sorell），次日最迟07:15出发；这是安全备选，不改变“正常情况下前一晚住亚瑟港”的主方案。",
+      "schedule": "06:30：从珀斯机场附近已订营地出发；Perth Central到机场约5公里，Discovery Parks到机场约11公里。\n06:40-07:00：到珀斯机场（Perth Airport）T1附近加满油。\n07:00-08:10：还车、托运行李和安检，最晚08:10进入候机区。\n09:50-16:00：乘维珍澳洲 VA594，珀斯机场（Perth Airport）T1 → 霍巴特机场（Hobart Airport），直线航程约3,020公里、计划飞行4小时10分；两地有2小时时差，均为当地时间。\n16:00-17:05：取行李和第二辆租车。\n17:05-18:35：从霍巴特机场（Hobart Airport）驾车约82公里前往亚瑟港（Port Arthur）；途中不加景点，暮色后降低车速，注意袋鼠、沙袋鼠和袋熊横穿。\n18:35以后：按预先取得的late check-in说明入住、简单晚餐并准备次日防水衣物和晕船药。若取车后晚于17:45才离开机场，直接驾驶至住宿，不在Rosny Hill或霍巴特市区停留。",
+      "highlights": "本日重点：以跨州航班和落地后转场为主，不安排落地City Walk。前一晚直接住亚瑟港（Port Arthur），可把次日上午约100公里赶路提前消化，为9/29海上巡游保留睡眠和从容签到时间。",
+      "booking": "必须预约：① 9/28亚瑟港（Port Arthur）住宿，并书面确认约18:30-19:00 late self check-in；② Tasman Island Cruises（塔斯曼岛巡游）9/29 Morning Cruise。\n注意：霍巴特落地后须取车并夜间转场，后半段可能在暮色中行驶；不饮酒、不追赶日落、不临时绕景点。若19:00后仍未取到车，停止夜驾，改住霍巴特机场／索雷尔（Sorell），立即通知住宿和巡游运营方，并把次日出发时间锁定在07:15前。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）清晨通常约10-21°C；霍巴特机场（Hobart Airport）／亚瑟港（Port Arthur）约6-15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层；出发前7天再看BOM逐日预报。BOM霍巴特气候。",
+      "links": [
+        {
+          "label": "Stewarts Bay Lodge",
+          "url": "https://stewartsbaylodge.com.au/"
+        },
+        {
+          "label": "Google Maps导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Stewarts Bay Lodge 6955 Arthur Highway Port Arthur TAS"
+        },
+        {
+          "label": "Port Arthur Motor Inn",
+          "url": "https://www.portarthur-inn.com.au/"
+        },
+        {
+          "label": "Google Maps导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Port Arthur Motor Inn 29 Safety Cove Road Port Arthur TAS"
+        },
+        {
+          "label": "Tasman Island Cruises（塔斯曼岛巡游）",
+          "url": "https://www.tasmancruises.com.au/"
+        },
+        {
+          "label": "BOM霍巴特气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_094029.shtml"
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "date": "2026-09-29",
+      "weekday": "周二",
+      "region": "Tasman Island（塔斯曼岛）海上巡游-塔斯曼半岛（Tasman Peninsula）短停-特里阿布纳（Triabunna）",
+      "route": "亚瑟港（Port Arthur） → Tasman Island Cruises（塔斯曼岛巡游）→ Tasman Arch（塔斯曼拱门）／Devils Kitchen（魔鬼厨房）→ Tessellated Pavement（棋盘石）→ 特里阿布纳（Triabunna）",
+      "lodging": "当晚住特里阿布纳（Triabunna），不再继续北上：次日07:45要到Maria Island Gateway（玛丽亚岛游客中心）办理渡轮手续，住宿应选在码头约1公里内。\n首选：Triabunna Barracks（3 Charles Street；靠近码头，步行级距离；前台16:00结束，必须提前书面安排late check-in）｜Google Maps导航。\n备选：Triabunna Cabin & Caravan Park（4 Vicary Street；优先订cabin）｜Google Maps导航。两处均须确认早晨退房、停车和晚到方式。",
+      "schedule": "08:15-09:00：从亚瑟港（Port Arthur）住宿驾车约1-3公里到Tasman Island Cruises Booking Centre（塔斯曼岛巡游中心，6961 Arthur Highway），停车、早餐并最迟09:15签到。\n10:00-13:00：参加Tasman Island Cruises（塔斯曼岛巡游）；从海上看Cape Pillar（皮勒角）、Tasman Island（塔斯曼岛）、海蚀拱门和海洞，寻找海豹、海豚、迁徙鲸类、信天翁及其他海鸟；不登岛。\n13:00-13:30：下船、取车并吃预先准备的冷餐。\n13:30-13:55：驾车约18公里前往Tasman Arch（塔斯曼拱门）／Devils Kitchen（魔鬼厨房）。\n13:55-14:30：走平坦观景短线，看海蚀拱门、深切海沟和海浪冲击；若工程未按期开放，直接跳过。\n14:30-14:45：驾车约8公里前往Tessellated Pavement（棋盘石）。\n14:45-15:15：轻量往返约10-20分钟；湿滑或涨潮时只在高处观察。\n15:15-17:15：驾车约120公里前往特里阿布纳（Triabunna）／Maria Island Gateway（玛丽亚岛游客中心）附近住宿；导航优先选择全铺装主路，不采用未铺装捷径。抵达后采购次日午餐和饮水。",
+      "highlights": "Tasman Island Cruises（塔斯曼岛巡游）：Cape Pillar（皮勒角）的高耸dolerite海崖、海洞、瀑布、海豹群和海鸟是稳定核心；Dolphin（海豚）、Humpback Whale（座头鲸）与Southern Right Whale（南露脊鲸）属于迁徙季机会，不保证。10:00-13:00为核心观赏窗口。\nTasman Arch（塔斯曼拱门）／Devils Kitchen（魔鬼厨房）：以海浪侵蚀形成的天然拱门、深沟和崖壁为特色；平坦短线约15-30分钟，巡游后顺路补充陆上视角。\nTessellated Pavement（棋盘石）：岩层节理与盐风化形成规则块状纹理；退潮、岩面较干且有侧光时最清楚。本日只安排这两个短停，不再叠加长徒步。",
+      "booking": "Tasman Island Cruises（塔斯曼岛巡游）必须预约：官方页面选择Morning Cruise，成人AUD 190／人，09:15前签到。这里没有公共轮渡，不能自行登Tasman Island（塔斯曼岛）；晕船药按说明提前服用。\nTasman Arch（塔斯曼拱门）工程提醒：官方现公告关闭至2026年9月18日，计划在本次到访前恢复，但临行前必须复查工程页面；若延长关闭，则保留Tessellated Pavement（棋盘石）并提前去特里阿布纳。\n驾驶：从Eaglehawk Neck（鹰颈峡）往特里阿布纳时不要为了省时间进入租车条款不允许的未铺装道路；17:15左右抵达后先采购玛丽亚岛次日所需食物和足量饮水。",
+      "weather": "天气（长年气候参考，非逐日预报）：塔斯曼半岛（Tasman Peninsula）开放海岸约6-14°C，特里阿布纳（Triabunna）约7-16°C；船上海风会显著降低体感，棋盘石遇雨非常湿滑。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天同时复查巡游海况、BOM预报和公园工程／关闭警报。",
+      "links": [
+        {
+          "label": "Triabunna Barracks",
+          "url": "https://triabunnabarracks.com/"
+        },
+        {
+          "label": "Google Maps导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Triabunna Barracks 3 Charles Street Triabunna TAS"
+        },
+        {
+          "label": "Google Maps导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Triabunna Cabin and Caravan Park 4 Vicary Street Triabunna TAS"
+        },
+        {
+          "label": "官方页面",
+          "url": "https://www.tasmancruises.com.au/"
+        },
+        {
+          "label": "工程页面",
+          "url": "https://parks.tas.gov.au/be-involved/projects-and-programs/tasmans-arch-and-devils-kitchen-revitalisation-project"
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "date": "2026-09-30",
+      "weekday": "周三",
+      "region": "特里阿布纳（Triabunna）-Maria Island（玛丽亚岛）-科尔斯湾（Coles Bay）",
+      "route": "特里阿布纳（Triabunna）→ Encounter Maria Island Ferry（玛丽亚岛客运渡轮）→ Darlington（达灵顿）／Painted Cliffs（彩绘崖）或Fossil Cliffs（化石崖）→ 特里阿布纳（Triabunna）→ 科尔斯湾（Coles Bay）",
+      "lodging": "当晚继续开到科尔斯湾（Coles Bay）住宿：16:15返程船约17:00回到特里阿布纳，随后驾车约118公里／1小时40分到菲欣纳（Freycinet）附近，为10/1上午酒杯湾行程提前就位。\n首选：Freycinet Lodge（国家公园内；前台开放至午夜，最适合约18:45-19:00到店）｜Google Maps导航。\n性价比备选：BIG4 Iluka on Freycinet Holiday Park（科尔斯湾镇内；优先订cabin）｜Google Maps导航。订房时必须确认约19:00的入住方式及晚餐安排。",
+      "schedule": "07:30-07:45：从特里阿布纳（Triabunna）住宿驾车约1公里到Maria Island Gateway（玛丽亚岛游客中心）停车。\n07:45-08:20：办理签到、确认返程船班和Painted Cliffs（彩绘崖）当日低潮窗口；最迟按船票要求完成登船。\n08:30-09:15：乘Encounter Maria Island Ferry（玛丽亚岛客运渡轮）航行约16公里至Darlington（达灵顿）。\n09:15-10:00：在Darlington（达灵顿）周边草地慢走，先观察Wombat（袋熊）、Forester kangaroo（东部灰大袋鼠）、Bennett wallaby（红颈袋鼠）及Cape Barren goose（斑胸草雁）；与动物至少保持2米。\n10:00-12:30：按潮汐与体力二选一：低潮前后两小时内走Painted Cliffs（彩绘崖）方向；若潮位不合适，则改走Fossil Cliffs（化石崖）。只完成一条主要路线，不走Bishop and Clerk（主教与书记峰）等长线。\n12:30-13:15：自带午餐、补充体力。\n13:15-15:30：回到Darlington（达灵顿）周边，以Commissariat Store（军需仓库）、海岸草地和正式短线为主，继续寻找袋熊、袋鼠、针鼹和塔州特有鸟类；若租自行车，只在开放道路骑行并在15:30前归还。\n15:30-16:05：回到码头、核对人数并候船。\n16:15-17:00：乘返程渡轮回特里阿布纳（Triabunna）。\n17:00-18:45：取车后驾车约118公里前往科尔斯湾（Coles Bay）住宿；途中不再加景点。",
+      "highlights": "Maria Island（玛丽亚岛）动物与自然：Darlington（达灵顿）草地是本日观察Wombat（袋熊）、Forester kangaroo（东部灰大袋鼠）、Bennett wallaby（红颈袋鼠）和Cape Barren goose（斑胸草雁）的核心区域；动物白天也常见，上午刚登岛及15:00后人少时更适合安静观察。\nPainted Cliffs（彩绘崖）：砂岩被铁质染色并经风浪雕刻出旋涡纹理，必须把到访放在低潮前后约两小时内；潮位不合适不要走下岩台。\nFossil Cliffs（化石崖）：石灰岩中可见大量古海洋生物化石，开阔海岸还适合看海鸟；与彩绘崖二选一更符合轻量徒步和近全天动物观察。\nDarlington（达灵顿）：保留少量世界遗产聚落解读，但不把监狱史作为旅行重点。本日的优先级是自然、动物和岛屿地貌。",
+      "booking": "渡轮必须预约：Encounter Maria Island官方时刻表预订08:30去岛、16:15返回；同日成人往返AUD 59／人，另需有效Tasmania Parks Pass。船班受需求和安全海况影响，以订单为准。\n岛上准备：没有商店、咖啡馆和游客汽车；自带午餐、足量可直接饮用的水、雨具、防晒和轻便背包，岛上水未经处理不可直接饮用。普通山地自行车需至少提前24小时随船票预订，成人AUD 40／天，数量有限；以步行为主也完全可行。\n潮汐与工程：Painted Cliffs（彩绘崖）岩台只在低潮前后约两小时较安全；Darlington（达灵顿）基础设施工程预计持续至2026年11月，可能有机械、噪声和局部绕行，服从现场标识。\n驾驶：17:00后继续前往科尔斯湾已按你的选择保留；驾驶员上车前先用餐、喝水，途中疲劳则停车休息。",
+      "weather": "天气（长年气候参考，非逐日预报）：特里阿布纳（Triabunna）／Maria Island（玛丽亚岛）／科尔斯湾（Coles Bay）约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水；出发前一晚复查BOM、船班、低潮时间与公园警报。",
+      "links": [
+        {
+          "label": "Freycinet Lodge",
+          "url": "https://www.freycinetlodge.com.au/"
+        },
+        {
+          "label": "Google Maps导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Freycinet Lodge Tasmania"
+        },
+        {
+          "label": "BIG4 Iluka on Freycinet Holiday Park",
+          "url": "https://www.big4.com.au/caravan-parks/tas/freycinet-east-coast/iluka-on-freycinet-holiday-park"
+        },
+        {
+          "label": "Google Maps导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=BIG4 Iluka on Freycinet Holiday Park Coles Bay TAS"
+        },
+        {
+          "label": "Encounter Maria Island官方时刻表",
+          "url": "https://encountermaria.com.au/timetable-pricing-luggage-check/"
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "date": "2026-10-01",
+      "weekday": "周四",
+      "region": "科尔斯湾（Coles Bay）-Wineglass Bay（酒杯湾）-比舍诺（Bicheno）-朗塞斯顿（Launceston）",
+      "route": "科尔斯湾（Coles Bay）→ Wineglass Bay Lookout（酒杯湾观景台）→ Cape Tourville Lighthouse Walk（图维尔角灯塔步道）／Honeymoon Bay（蜜月湾）→ 比舍诺（Bicheno）→ Bicheno Penguin Tours（比舍诺企鹅归巢团）→ 朗塞斯顿（Launceston）",
+      "lodging": "当晚住朗塞斯顿（Launceston）固定住宿，不车宿：企鹅团结束后需夜间驾驶约160公里／2小时，住宿必须有24小时前台或书面确认late self check-in，并尽量靠近次日通往Tamar Valley（塔玛河谷）的道路。\n首选：Peppers Silo Hotel Launceston（朗塞斯顿辣椒筒仓酒店）（89-91 Lindsay Street；24小时前台、有停车，次日驶入West Tamar Highway较方便）｜Google Maps导航。\n订房要求：明确备注预计22:45-23:30抵达；如果企鹅票只能订到较晚场次，应同步更新酒店预计到店时间。",
+      "schedule": "08:15-08:30：从科尔斯湾（Coles Bay）住宿驾车约3-10公里到Wineglass Bay Car Park（酒杯湾停车场）。\n08:30-10:15：往返步行约2.6公里至Wineglass Bay Lookout（酒杯湾观景台）；连续上坡和台阶，按体能慢走、利用休息座椅，不下海滩。约09:00-10:00抵达观景台时，白沙、蓝绿色海水和Hazards（哈泽兹山脉）在晴朗日已经很清楚，白天观赏本身完全值得。\n10:15-10:30：驾车约7公里前往Cape Tourville Lighthouse Walk（图维尔角灯塔步道）。\n10:30-11:10：走约600米轻量环线，从高处看Freycinet（菲欣纳）海岸、The Nuggets（鸡块岩）和外海；带望远镜留意迁徙鲸类。\n11:10-11:25：驾车约6公里到Honeymoon Bay（蜜月湾）。\n11:25-12:00：海湾短停、休息和拍摄花岗岩海岸。\n12:00-13:00：回科尔斯湾（Coles Bay）约5公里用午餐并加油。\n13:00-13:40：驾车约38-40公里前往比舍诺（Bicheno）。\n13:40-14:30：游览Bicheno Blowhole（比舍诺喷水洞）；只站在正式观景范围内。\n14:30-18:30：在Waubs Bay（沃布斯湾）／Whalers Lookout（捕鲸人观景台）一带轻量散步、休息并提前吃晚餐，不再安排长徒步。\n18:45-19:20：驾车约1-3公里到Bicheno Penguin Tours（比舍诺企鹅归巢团，1/70 Burgess Street）签到；实际签到时间以票面为准。\n约19:30-20:30：乘短程接驳车进入私人企鹅栖息地，步行约500米、约50分钟，观看Little penguin（小蓝企鹅）归巢；首场时间随日暮调整。\n约20:30-22:30：团后驾车约160公里前往朗塞斯顿（Launceston）；若订到更晚场次，整体顺延，途中安排一次短休息。",
+      "highlights": "Wineglass Bay Lookout（酒杯湾观景台）：标志性的弧形白沙湾、蓝绿色海水和粉红花岗岩山体在晴朗白天同样是核心景观，不依赖晚霞；上午约09:00-11:00光线已足以呈现水色，通常也比傍晚从容。本方案只走观景台往返线。\nCape Tourville Lighthouse Walk（图维尔角灯塔步道）：600米左右轻量环线以外海、岛礁和Freycinet（菲欣纳）海岸全景为特色；白天视野最好，春季可带望远镜岸观鲸类。\nBicheno Penguin Tours（比舍诺企鹅归巢团）：私人修复栖息地、低干扰照明和向导讲解比自行追企鹅更稳定；最佳就是日落后首批企鹅上岸的官方场次。9月至1月处繁殖季，动物数量和具体出现时间仍不保证。",
+      "booking": "Bicheno Penguin Tours（比舍诺企鹅归巢团）必须预约：9月至1月成人AUD 76／人；官方建议提前数周预订，所有游客自行到1/70 Burgess Street集合，不提供住宿接送。官方预订。季节场次约19:30-21:30之间随日暮安排，优先订当晚第一场；票面时间优先于本表。禁止闪光灯、追逐和堵住企鹅通道。\nFreycinet National Park（菲欣纳国家公园）：需有效parks pass；Wineglass Bay Lookout（酒杯湾观景台）官方为2.6公里往返、1-1.5小时、Grade 3，坡陡且台阶多。\n夜间驾驶：比舍诺至朗塞斯顿约160公里／2小时，途经Lake Leake Highway；补满油、降低车速并留意袋鼠、沙袋鼠和袋熊。驾驶员若明显困倦，必须在安全地点休息，不以赶酒店预计时间为目标。",
+      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）／比舍诺（Bicheno）约7-17°C，朗塞斯顿（Launceston）约6-17°C；上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间。",
+      "links": [
+        {
+          "label": "Peppers Silo Hotel Launceston（朗塞斯顿辣椒筒仓酒店）",
+          "url": "https://www.pepperssilo.com.au/"
+        },
+        {
+          "label": "Google Maps导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Peppers Silo Hotel Launceston 89 91 Lindsay Street"
+        },
+        {
+          "label": "官方预订",
+          "url": "https://bichenopenguintours.com.au/make-a-booking"
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "date": "2026-10-02",
+      "weekday": "周五",
+      "region": "朗塞斯顿（Launceston）-美丽角（Beauty Point）-Cradle Mountain（摇篮山）",
+      "route": "朗塞斯顿（Launceston）→ Platypus House（鸭嘴兽之家）→ Cradle Mountain Visitor Centre（摇篮山游客中心）→ Dove Lake（鸽子湖）／Ronny Creek（罗尼溪）→ Devils@Cradle（摇篮山恶魔保护园）→ Cradle Valley（摇篮谷）住宿",
+      "lodging": "当晚固定住Cradle Valley（摇篮谷），不赶船、不车宿：夜间喂食团结束后高地可能接近0°C，必须住在游客中心／Devils@Cradle（摇篮山恶魔保护园）附近。\n首选：Cradle Mountain Hotel（有餐厅、停车和室内休息空间）｜Google Maps导航。\n更近自然的备选：Cradle Mountain Lodge（国家公园边缘）｜Google Maps导航。订房时确认停车、晚餐和18:45后回房方式。",
+      "schedule": "08:25-09:15：从朗塞斯顿（Launceston）住宿驾车约48公里到美丽角（Beauty Point）／Platypus House（鸭嘴兽之家），预留停车和签到时间；正常情况下完全来得及参加10:00导览。\n10:00-11:00：参加Platypus House（鸭嘴兽之家）第一场向导团，在白天稳定观察Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）。\n11:00-11:30：简餐、取外带午餐并离开。\n11:30-13:50：驾车约140公里前往Cradle Mountain Visitor Centre（摇篮山游客中心）；山路按2小时20分预留，不增加中途景点。\n13:50-14:20：办理parks pass／shuttle，寄存不需要的物品。\n14:20-15:25：乘接驳车约10公里到Dove Lake（鸽子湖），先看经典湖面与Cradle轮廓，再按体能只走湖东岸短段后原路返回。\n15:25-16:25：视接驳与体力在Ronny Creek（罗尼溪）下车，沿button-grass草原木栈道轻走，寻找Wombat（袋熊）、Pademelon（塔斯马尼亚沙袋鼠）和Short-beaked echidna（短喙针鼹）；若前段延误，Ronny Creek缩短或移到10/3上午。\n16:25-17:00：乘末段接驳返回游客中心。\n17:00-17:20：驾车约5-8公里到Devils@Cradle（摇篮山恶魔保护园）。\n17:30-18:45：参加After Dark Feeding Tour（夜间喂食团），观察Tasmanian devil（袋獾）、Eastern quoll（东袋鼬）与Spotted-tail quoll（斑尾袋鼬）；结束后短程回住宿。",
+      "highlights": "Platypus House（鸭嘴兽之家）：室内／半室内环境能在白天稳定看到活跃进食的Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）；10:00第一场最利于从朗塞斯顿衔接摇篮山。\nCradle Mountain（摇篮山）／Dove Lake（鸽子湖）：冰川湖、dolerite山体、pencil pine与高山荒原是核心；10/2下午先完成经典湖景和短段湖岸，不走Cradle Summit（摇篮山顶），也不强求完整环湖。\nRonny Creek（罗尼溪）：草原和木栈道是观察野生袋熊的轻量地点之一，下午后段逐渐接近动物活跃窗口。\nDevils@Cradle（摇篮山恶魔保护园）：17:30夜间喂食团正值袋獾和袋鼬活跃时段，可结合Devil Facial Tumour Disease了解保育工作。",
+      "booking": "Platypus House（鸭嘴兽之家）必须预约：开放时间10:00-15:30、最后一场15:00；预订10:00第一场，成人当前AUD 29.95／人。官方介绍｜官方预订。朗塞斯顿至美丽角约48公里／45分钟，本方案08:25出发并留出45分钟余量。\nDevils@Cradle（摇篮山恶魔保护园）必须预约：17:30 After Dark Feeding Tour约1小时15分，成人AUD 40／人。官方场次与订票。\n公园费用与接驳：需有效parks pass；10月2日处于夏令时切换前，官方季节表约08:45-17:00，可能随天气调整。官方接驳说明。若13:50以后才到游客中心，优先Dove Lake（鸽子湖），把Ronny Creek（罗尼溪）移至10/3上午。",
+      "weather": "天气（长年气候参考，非逐日预报）：朗塞斯顿（Launceston）／美丽角（Beauty Point）约6-17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0-10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。",
+      "links": [
+        {
+          "label": "Cradle Mountain Hotel",
+          "url": "https://www.cradlemountainhotel.com.au/"
+        },
+        {
+          "label": "Google Maps导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Cradle Mountain Hotel Tasmania"
+        },
+        {
+          "label": "Cradle Mountain Lodge",
+          "url": "https://www.cradlemountainlodge.com.au/"
+        },
+        {
+          "label": "Google Maps导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Cradle Mountain Lodge Tasmania"
+        },
+        {
+          "label": "官方介绍",
+          "url": "https://platypushouse.com.au/"
+        },
+        {
+          "label": "官方预订",
+          "url": "https://bookeo.com/platypus"
+        },
+        {
+          "label": "官方场次与订票",
+          "url": "https://devilsatcradle.com/admission-tours/"
+        },
+        {
+          "label": "官方接驳说明",
+          "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/cradle-mountain-shuttle-bus-information"
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "date": "2026-10-03",
+      "weekday": "周六",
+      "region": "Cradle Mountain（摇篮山）-德文波特（Devonport）-夜航",
+      "route": "Cradle Mountain（摇篮山）天气缓冲／轻量短线 → 德文波特（Devonport）→ Spirit of Tasmania（塔斯马尼亚精神号）→ 吉朗（Geelong）",
+      "lodging": "住宿：船上客舱最稳妥，至少预订recliner／座席；次日07:00抵达后还要继续驾车，优先两人独立客舱保证睡眠。\n车宿：航行中不能留在车辆甲板或睡在车里，乘客海上不得进入车辆甲板。车辆品牌、型号、总长和总高必须按租车确认单填写。",
+      "schedule": "08:00前：退房并把行李装车。\n08:45-11:15：作为Cradle Mountain（摇篮山）补位与天气缓冲：若10/2因延误没有完成Ronny Creek（罗尼溪），先乘shuttle到罗尼溪做约45-60分钟草原木栈道动物观察，再到Dove Lake（鸽子湖）看经典湖景；若10/2两处都已完成但主峰被低云遮住，则把本日上午全部留给Dove Lake等待能见度窗口；若10/2已看清主峰，则改走Pencil Pine Falls & Rainforest Walk（铅笔松瀑布与雨林短线）／Enchanted Walk（魔法森林步道）。总步行控制在约1-2.5公里。\n11:15-12:00：必须回到游客中心、午餐和休息，不再等待天气。\n12:00-13:40：从Cradle Mountain（摇篮山）驾车约85公里到德文波特（Devonport），途中不加远程景点。\n13:40-16:00：加满油、采购船上食物并到Spirit of Tasmania Devonport Terminal（塔斯马尼亚精神号德文波特码头）排队。\n16:15：官方check-in开放；18:00：严格截止。\n18:45-次日07:00：Spirit of Tasmania（塔斯马尼亚精神号）从德文波特（Devonport）开往吉朗（Geelong），海上航程约430公里。",
+      "highlights": "摇篮山补位与天气缓冲：10/3上午不新增必须完成的远程景点，而是优先补10/2因延误放弃的Ronny Creek（罗尼溪），或给Dove Lake（鸽子湖）第二次主峰能见度机会；两者均已满意时才走Pencil Pine Falls & Rainforest Walk（铅笔松瀑布与雨林短线）／Enchanted Walk（魔法森林步道）。\n动物观察：Ronny Creek（罗尼溪）清晨较适合寻找Wombat（袋熊）、Pademelon（塔斯马尼亚沙袋鼠）与Short-beaked echidna（短喙针鼹）；只在正式步道观察，不摸、不喂、不挡路。\n时间边界：11:15必须结束公园活动。这样10/2下午加10/3上午共有约5小时左右的轻量观景与动物观察窗口，足够完成本次轻体力版本，但不包含Dove Lake完整环湖或Cradle Summit（摇篮山顶）。",
+      "booking": "Spirit of Tasmania（塔斯马尼亚精神号）必须预约：2026年10月3日德文波特（Devonport）→吉朗（Geelong）夜航为18:45开船，10/4 07:00抵达；16:15开始check-in，18:00严格截止。票价随车型、座席／客舱和库存动态变化；订票须填车辆品牌、型号、总长和总高。官方航班表｜官方订票。以电子票通知为最终准绳。\n注意：10月3日接驳车按官方季节表约08:45开始，现场确认首班；无论10/2遗漏什么，11:15都必须结束摇篮山活动。航行中不能进入车辆甲板，也不能睡在车里；建议两人独立客舱保证次日驾驶睡眠。",
+      "weather": "天气（长年气候参考，非逐日预报）：Cradle Mountain（摇篮山）约0-10°C，德文波特（Devonport）约7-16°C，Bass Strait（巴斯海峡）／吉朗（Geelong）约7-17°C。下山路可能有雾、雨和野生动物；登船前复查道路、海况与官方短信，晕船药按说明提前服。",
+      "links": [
+        {
+          "label": "官方航班表",
+          "url": "https://www.spiritoftasmania.com.au/before-you-sail/sailing-schedule/"
+        },
+        {
+          "label": "官方订票",
+          "url": "https://book.spiritoftasmania.com.au/"
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "date": "2026-10-04",
+      "weekday": "周日",
+      "region": "吉朗（Geelong）-阿波罗湾（Apollo Bay）",
+      "route": "吉朗（Geelong） → 安格尔西（Anglesea）→ Split Point Lighthouse（小红帽灯塔）→ Great Ocean Road Memorial Arch（大洋路纪念拱门）→ Teddy’s Lookout（泰迪观景台）→ 肯尼特河（Kennett River）→ 阿波罗湾（Apollo Bay）",
+      "lodging": "首选：阿波罗湾（Apollo Bay）镇内酒店／小屋，方便次日早起进入Great Otway National Park（大奥特韦国家公园）。\n轿车／SUV车宿首选：Apollo Bay Holiday Park（27 Cawood Street；官网有powered／unpowered camp sites、卫浴和营地厨房，步行可到镇中心）｜Google Maps导航。\n备选：BIG4 Apollo Bay Pisces Holiday Park（311 Great Ocean Road）｜Google Maps导航。两处预订前都要明确说明“ordinary sedan/SUV, sleeping inside the vehicle”，取得书面同意后再付款；普通海滩停车场和路边不可过夜。",
+      "schedule": "07:00-08:00：Spirit of Tasmania（塔斯马尼亚精神号）预计抵达吉朗（Geelong）并下船；早餐、加油和简单补给。\n08:00-09:00：驾车约56公里前往安格尔西（Anglesea）。\n09:00-09:40：在Anglesea Beach（安格尔西海滩）吹海风、舒展身体。\n09:40-10:00：驾车约10公里前往Split Point Lighthouse（小红帽灯塔）。\n10:00-10:40：从外围观景步道看红顶白塔和鹰岩海岸；不把登塔导览设为硬任务。\n10:40-11:05：驾车约16公里前往Great Ocean Road Memorial Arch（大洋路纪念拱门）。\n11:05-11:25：在正式停车区短停拍照。\n11:25-11:50：驾车约14公里到Teddy’s Lookout（泰迪观景台）。\n11:50-12:20：俯瞰大洋路贴着海崖转弯、Saint George River（圣乔治河）汇入海湾的经典视角。\n12:20-13:20：驾车约3公里进入洛恩（Lorne）午餐。\n13:20-14:00：驾车约24公里前往肯尼特河（Kennett River）。\n14:00-15:00：沿正式道路和步道寻找野生考拉、King Parrot（王鹦鹉）等鸟类；不喂食、不进入居民私人地。\n15:00-15:35：驾车约23公里抵达阿波罗湾（Apollo Bay）。\n15:35以后：入住后在Apollo Bay Foreshore（阿波罗湾海滨）轻松散步、用餐。若轮渡延误或夜航后疲劳，优先删减Anglesea Beach（安格尔西海滩）和灯塔停留，保留Memorial Arch（纪念拱门）、Teddy’s Lookout（泰迪观景台）、Kennett River（肯尼特河）及阿波罗湾住宿。",
+      "highlights": "Anglesea Beach（安格尔西海滩）：开阔沙滩和Surf Coast海风适合作为夜航后的恢复站；上午光线柔和，人通常少于午后。\nSplit Point Lighthouse（小红帽灯塔）：红色塔顶、白色塔身与鹰岩海岸辨识度很高；上午从外围步道即可获得好视角。\nGreat Ocean Road Memorial Arch（大洋路纪念拱门）：纪念一战归国军人修建大洋路，重点不只是拍照，也是理解这条道路作为战争纪念工程的历史。\nTeddy’s Lookout（泰迪观景台）：可同时看到海崖公路、河谷和海湾，是本日最经典的高位全景；上午至中午能见度好时最佳。\nKennett River（肯尼特河）：桉树林中的野生考拉与鹦鹉是核心；午后考拉多在树上休息，能否看到不保证。\nApollo Bay（阿波罗湾）：弧形海湾、渔港和Otways雨林门户构成小镇特色；傍晚适合海滨散步，不再赶路。",
+      "booking": "预约：本日外围观景点均免费、无需预约。Split Point Lighthouse（小红帽灯塔）只有进入灯塔内部参加导览才需另行购票；本方案只走外围观景步道。灯塔官方信息。当晚Apollo Bay Holiday Park（阿波罗湾假日公园）／BIG4营位须提前预约，并取得普通轿车／SUV车内过夜同意。\n注意：夜航后驾驶员如困倦，应立即减少停靠点并休息；每驾驶约2小时至少休息15-20分钟。Kennett River（肯尼特河）不喂鸟、不触摸考拉、不占用居民车道；所有海崖只走正式步道和观景台。",
+      "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
+      "links": [
+        {
+          "label": "Apollo Bay Holiday Park",
+          "url": "https://www.apollobayholidaypark.com.au/tent-van-sites"
+        },
+        {
+          "label": "Google Maps导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Apollo Bay Holiday Park 27 Cawood Street Apollo Bay VIC"
+        },
+        {
+          "label": "BIG4 Apollo Bay Pisces Holiday Park",
+          "url": "https://big4apollobay.com.au/"
+        },
+        {
+          "label": "Google Maps导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=BIG4 Apollo Bay Pisces Holiday Park 311 Great Ocean Road Apollo Bay VIC"
+        },
+        {
+          "label": "灯塔官方信息",
+          "url": "https://splitpointlighthouse.com.au/"
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "date": "2026-10-05",
+      "weekday": "周一",
+      "region": "阿波罗湾（Apollo Bay）-沉船海岸（Shipwreck Coast）-墨尔本（Melbourne）",
+      "route": "阿波罗湾（Apollo Bay）→ Maits Rest Rainforest Walk（梅茨雨林步道）→ Gibson Steps（吉布森阶梯）→ Twelve Apostles（十二门徒岩）→ 【待定-2】Loch Ard Gorge（洛克阿德峡谷，可选） → 坎贝尔港（Port Campbell）→ London Bridge（伦敦桥）→ The Grotto（石窟）→ 墨尔本（Melbourne）",
+      "lodging": "首选：West Melbourne／Southern Cross 酒店。\n车宿：本晚不建议；需整理行李并保证次日国际航班。市区路边、车站和普通停车场不作为车宿点。",
+      "schedule": "07:30-08:00：从阿波罗湾（Apollo Bay）驾车约17公里到Maits Rest Rainforest Walk（梅茨雨林步道）。\n08:00-09:00：完成约800米轻量环线，在高大的Myrtle Beech（桃金娘山毛榉）、树蕨和苔藓林下漫步。\n09:00-10:25：驾车约70公里前往Gibson Steps（吉布森阶梯）。\n10:25-11:10：视现场开放、潮位和浪况决定是否下到海滩；关闭时只在上方正式观景点停留。\n11:10-11:20：驾车约2公里到Twelve Apostles（十二门徒岩）。\n11:20-12:20：走主观景台观看石灰岩柱和南大洋海岸。\n【待定-2】可选 12:20-12:50：驾车约2-3公里到 Loch Ard Gorge（洛克阿德峡谷）短停约20-40分钟；进度落后则跳过。\n12:20／12:50-13:10：驾车约10-12公里到坎贝尔港（Port Campbell）。\n13:10-13:55：午餐、加油和短暂休整。\n13:55-14:20：驾车约18公里到London Bridge（伦敦桥）。\n14:20-14:45：从正式观景台看海蚀拱门与坍塌后的地貌。\n14:45-14:55：驾车约4公里返回The Grotto（石窟）。\n14:55-15:20：沿台阶到正式观景位看洞穴、sinkhole与海蚀拱门形成的框景。\n15:20-18:55：驾车约230公里返回墨尔本（Melbourne），途中至少休息20分钟；入住West Melbourne／Southern Cross附近酒店。若天气或进度落后，优先删除【待定-2】Loch Ard，再删减London Bridge（伦敦桥）和The Grotto（石窟）中的一个，保证天黑前完成主要乡间路段。",
+      "highlights": "Maits Rest Rainforest Walk（梅茨雨林步道）：约800米、通常20-30分钟的轻量环线，以古老Myrtle Beech（桃金娘山毛榉）、巨大树蕨、苔藓和湿润雨林声景为特色；清晨光线柔和、游客较少，也最符合你的轻量徒步需求。\nGibson Steps（吉布森阶梯）：从海滩高度仰望高崖和Gog／Magog岩柱，尺度感与十二门徒主观景台完全不同；上午且低潮、风浪温和、步道开放时最好。\nTwelve Apostles（十二门徒岩）：石灰岩海岸经历海蚀洞-拱门-孤柱的持续演化；虽然本次不是日落时段，中午前后仍可清楚观察海岸结构。\nPort Campbell（坎贝尔港）：受保护的小海湾、渔港和沉船海岸补给中心是特色；本日用作午餐和恢复体力。\nLondon Bridge（伦敦桥）：1990年连接陆地的拱桥部分突然坍塌，留下独立海蚀拱门；下午侧光有助于表现岩层。\nThe Grotto（石窟）：sinkhole、洞穴与拱门叠成天然画框；下午光线足、潮位适中时层次最好。",
+      "booking": "预约：Maits Rest Rainforest Walk（梅茨雨林步道）、Gibson Steps（吉布森阶梯）、Twelve Apostles（十二门徒岩）、London Bridge（伦敦桥）和The Grotto（石窟）均免费、无需门票预约。出发前查看Parks Victoria的changed conditions／closures；Maits Rest官方页面。\n注意：Gibson Steps（吉布森阶梯）受落石、潮位和大浪影响，关闭时绝不翻越闸门；Maits Rest木栈道雨后湿滑，穿防滑鞋。最后返回墨尔本约230公里，15:10左右必须离开沉船海岸；如当天疲劳或天气恶化，减少观景点，不以赶景点为代价夜间疲劳驾驶。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "links": [
+        {
+          "label": "Maits Rest官方页面",
+          "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "date": "2026-10-06",
+      "weekday": "周二",
+      "region": "墨尔本（Melbourne）-香港（Hong Kong）-北京（Beijing）",
+      "route": "墨尔本中央商务区（Melbourne CBD） 短停 → 墨尔本机场（Melbourne Airport）T2（香港航空 HX036）→ 香港国际机场（Hong Kong International Airport）T1／T2 转机（香港航空 HX304）→ 北京首都国际机场（Beijing Capital International Airport）T2",
+      "lodging": "飞机上；不安排住宿。",
+      "schedule": "07:00-08:00：若酒店步行可达（单程通常约0.5-2公里），到 Queen Victoria Market（维多利亚女王市场） 早餐／短逛；周二市场06:00-15:00，specialty shopping 09:00才开。当天不去Puffing Billy、动物园或远郊。\n08:30-09:00：从 墨尔本中央商务区（Melbourne CBD） 驾车约23公里前往 墨尔本机场（Melbourne Airport）T2。\n09:30-12:00：TRS商品查验、退税、值机、托运行李和安检。\n13:00-19:40：两人乘香港航空 HX036，墨尔本机场（Melbourne Airport）T2 → 香港国际机场（Hong Kong International Airport）T1，直线航程约7,410公里，计划飞行约9小时40分。\n19:40-20:40：香港国际机场（Hong Kong International Airport） 仅60分钟转机，航站楼内步行／摆渡约1-2公里，由T1前往T2／下一登机口，不购物、不用餐。\n20:40-23:40：乘 HX304，香港国际机场（Hong Kong International Airport）T2 → 北京首都国际机场（Beijing Capital International Airport）T2，直线航程约1,990公里，计划飞行3小时。以上均为各机场当地时间。",
+      "highlights": "Queen Victoria Market（维多利亚女王市场）：1878年延续至今的工作型市场、鲜食大厅、移民饮食和露天棚架是看点；周二07:00-08:00适合吃早餐并看生鲜摊开市。其余时间为机场与国际航班转场，不再安排动物园或远郊景点。",
+      "booking": "Queen Victoria Market（维多利亚女王市场）：周二06:00-15:00营业，specialty shopping 09:00才开；本日07:00-08:00短逛，免费、无需预约。官方营业时间。\n墨尔本机场（Melbourne Airport）／TRS：建议09:30-10:00到达；高价退税商品可能需在托运前查验，护照、登机牌、原始税票和商品放在可取位置。\n香港转机：仅60分钟。在墨尔本值机时必须确认行李直挂北京、一次领取两段登机牌，并让柜台确认实际转机路线；抵港后直接跟随Transfer指示，不购物、不用餐。机票已确定，无另购门票。",
+      "weather": "天气（长年气候参考，非逐日预报）：墨尔本中央商务区（Melbourne CBD）／Queen Victoria Market（维多利亚女王市场）／墨尔本机场（Melbourne Airport）通常约9-20°C，清晨偏凉且可能阵雨；香港国际机场（Hong Kong International Airport）10月上旬通常约24-30°C，仍可能受强降雨或热带气旋影响；北京（Beijing）约9-22°C，晴燥且昼夜温差大。随身保留薄外套；出发前24小时重点查香港热带气旋信号，因为60分钟转机几乎没有吸收延误的余量。BOM墨尔本气候｜香港天文台机场气候。",
+      "links": [
+        {
+          "label": "官方营业时间",
+          "url": "https://qvm.com.au/visit-us/"
+        },
+        {
+          "label": "BOM墨尔本气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_086282.shtml"
+        },
+        {
+          "label": "香港天文台机场气候",
+          "url": "https://www.hko.gov.hk/en/aviat/amt/monthlymean.htm"
+        }
+      ]
+    }
+  ],
+  "places": [
+    {
+      "id": "d2-01",
+      "name": "珀斯机场",
+      "name_en": "Perth Airport, Western Australia",
+      "day": 2,
+      "date": "2026-09-25",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "入境、取行李、早餐与取车；本日行程起点。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
+      "duration": "约3.5小时（入境取车）",
+      "transport": "机场落地后取车",
+      "notes": "04:20-07:45入境取车；之后驾车前往卡弗舍姆。",
+      "lat": -31.9385,
+      "lng": 115.9672,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "04:20-07:45入境取车；之后驾车前往卡弗舍姆。"
+      },
+      "links": [
+        {
+          "label": "BOM气候参考",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
+        }
+      ]
+    },
+    {
+      "id": "d2-02",
+      "name": "卡弗舍姆野生动物园",
+      "name_en": "Caversham Wildlife Park, Whiteman WA",
+      "day": 2,
+      "date": "2026-09-25",
+      "status": "visit",
+      "order_in_day": 2,
+      "highlights": "西澳原生动物集中展示、袋鼠喂食、袋熊与农场表演，以及考拉近距离体验；动物上午较活跃，09:00入园最合适。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
+      "duration": "约3-4小时",
+      "transport": "驾车约22公里自珀斯机场",
+      "notes": "成人票AUD37/人；抱考拉另付AUD35/人，09:00纪念品店先到先得；12:00场，身高≥150cm。\n\n【愿望清单·景点／自然】\n适合作为落地后的澳洲动物入门，但“抱考拉”受动物福利、开放时段和排队影响，不保证每位访客都能完成。\n深度补充：园内约有大量西澳及澳洲原生物种，价值在于把袋鼠喂食、袋熊、考拉、企鹅和农场展示集中到半天完成。动物表现取决于天气与福利安排；考拉合影包含在普通门票，抱持为限量的独立项目。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n西澳允许特定受监管的考拉接触体验，但应把它理解为有规则的动物展示，而不是随意抱动物；塔州和维州的规则、物种展示方式会不同。\n深度补充：西澳是澳洲少数仍可在严格条件下提供考拉抱持体验的地区之一。它反映各州野生动物管理规则不同，也提醒游客把接触理解为受监管的教育活动，而不是对动物的消费性占有。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n9/25 安排；开园后较早到，预留至少 2-3 小时。\n已纳入本次行程",
+      "lat": -31.8753,
+      "lng": 115.9747,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "成人票AUD37/人；抱考拉另付AUD35/人，09:00纪念品店先到先得；12:00场，身高≥150cm。",
+        "nature": "适合作为落地后的澳洲动物入门，但“抱考拉”受动物福利、开放时段和排队影响，不保证每位访客都能完成。\n深度补充：园内约有大量西澳及澳洲原生物种，价值在于把袋鼠喂食、袋熊、考拉、企鹅和农场展示集中到半天完成。动物表现取决于天气与福利安排；考拉合影包含在普通门票，抱持为限量的独立项目。\n扩展阅读：景点／自然官方资料",
+        "culture": "西澳允许特定受监管的考拉接触体验，但应把它理解为有规则的动物展示，而不是随意抱动物；塔州和维州的规则、物种展示方式会不同。\n深度补充：西澳是澳洲少数仍可在严格条件下提供考拉抱持体验的地区之一。它反映各州野生动物管理规则不同，也提醒游客把接触理解为受监管的教育活动，而不是对动物的消费性占有。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "9/25 安排；开园后较早到，预留至少 2-3 小时。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "BOM气候参考",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
+        },
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://cavershamwildlife.com.au/plan-your-visit/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://cavershamwildlife.com.au/about-us/"
+        }
+      ]
+    },
+    {
+      "id": "d2-03",
+      "name": "兰斯林沙丘",
+      "name_en": "Lancelin Sand Dunes, Lancelin WA",
+      "day": 2,
+      "date": "2026-09-25",
+      "status": "visit",
+      "order_in_day": 3,
+      "highlights": "白色移动沙丘、流畅沙脊和开阔地平线；14:30以后侧光更有层次。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
+      "duration": "约1小时",
+      "transport": "驾车约135公里自卡弗舍姆",
+      "notes": "步行免费；可租板。普通租车不要驶入沙地；若入境延误超60分钟优先删除本点。\n\n【愿望清单·景点／自然】\n白色移动沙丘适合观景、滑沙和四驱体验。风大会吹沙，普通租赁车不要驶入非铺装沙地。\n深度补充：Lancelin沙丘由强劲海风不断搬运细白砂形成，沙脊位置与坡度会变化；下午低角度光更能表现波纹，强风则容易扬沙。四驱车、滑沙者与步行者共享空间，普通租赁车不得贸然驶入。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n比“网红白沙丘”更值得注意的是海岸风塑地貌与渔镇生活；商业滑沙板按运营方规则使用。\n深度补充：Lancelin是渔镇、风帆运动地和周末度假地，沙丘并不是孤立“网红背景”。当地龙虾产业、风能条件及海岸娱乐共同塑造小镇身份。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n9/25 可选短停；若航班或取车延误优先删除。\n已纳入本次行程",
+      "lat": -31.0167,
+      "lng": 115.33,
+      "geocode_source": "known",
+      "priority": "optional",
+      "sections": {
+        "practical": "步行免费；可租板。普通租车不要驶入沙地；若入境延误超60分钟优先删除本点。",
+        "nature": "白色移动沙丘适合观景、滑沙和四驱体验。风大会吹沙，普通租赁车不要驶入非铺装沙地。\n深度补充：Lancelin沙丘由强劲海风不断搬运细白砂形成，沙脊位置与坡度会变化；下午低角度光更能表现波纹，强风则容易扬沙。四驱车、滑沙者与步行者共享空间，普通租赁车不得贸然驶入。\n扩展阅读：景点／自然官方资料",
+        "culture": "比“网红白沙丘”更值得注意的是海岸风塑地貌与渔镇生活；商业滑沙板按运营方规则使用。\n深度补充：Lancelin是渔镇、风帆运动地和周末度假地，沙丘并不是孤立“网红背景”。当地龙虾产业、风能条件及海岸娱乐共同塑造小镇身份。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "9/25 可选短停；若航班或取车延误优先删除。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "BOM气候参考",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
+        },
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.westernaustralia.com/en/places/lancelin/56b267adaeeeaaf773cfa73b"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.gingin.wa.gov.au/community/places-and-spaces/lancelin"
+        }
+      ]
+    },
+    {
+      "id": "d2-04",
+      "name": "尖峰石阵／南邦国家公园",
+      "name_en": "Pinnacles Desert, Nambung National Park WA",
+      "day": 2,
+      "date": "2026-09-25",
+      "status": "visit",
+      "order_in_day": 4,
+      "highlights": "黄沙中的密集石灰岩柱与海岸沙丘地质景观；最佳为日落前60-90分钟至蓝调。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
+      "duration": "至日落后",
+      "transport": "驾车约77公里自兰斯林",
+      "notes": "标准车辆入园AUD17/车；Discovery Centre园内移动约2公里。日落后约20公里到塞万提斯入住。\n\n【愿望清单·景点／自然】\n成千上万石灰岩柱从黄沙中伸出，具体形成机制涉及古贝壳砂、地下水与侵蚀等长期过程。以西澳 Parks and Wildlife 当日公告为准。\n深度补充：石灰岩柱形成涉及古贝壳砂沉积、碳酸盐胶结、地下水与风蚀；现今可见形态不是一次事件的结果。园内自驾环线与步行区提供不同尺度，日落侧光突出柱体纹理，但夜色前需完成主要驾驶。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n位于 Yued Country。最佳理解方式不是把它当“外星地貌”，而是同时看地质时间、海岸沙丘演化与原住民长期土地联系。\n深度补充：公园位于Yued Country。殖民旅游名称把它包装成“Pinnacles”，但更完整的理解应把地质深时、原住民持续联系以及现代国家公园共同管理放在一起。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n9/25 日落重点；日落前 60-90 分钟入园。\n已纳入本次行程",
+      "lat": -30.606,
+      "lng": 115.16,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "标准车辆入园AUD17/车；Discovery Centre园内移动约2公里。日落后约20公里到塞万提斯入住。",
+        "nature": "成千上万石灰岩柱从黄沙中伸出，具体形成机制涉及古贝壳砂、地下水与侵蚀等长期过程。以西澳 Parks and Wildlife 当日公告为准。\n深度补充：石灰岩柱形成涉及古贝壳砂沉积、碳酸盐胶结、地下水与风蚀；现今可见形态不是一次事件的结果。园内自驾环线与步行区提供不同尺度，日落侧光突出柱体纹理，但夜色前需完成主要驾驶。\n扩展阅读：景点／自然官方资料",
+        "culture": "位于 Yued Country。最佳理解方式不是把它当“外星地貌”，而是同时看地质时间、海岸沙丘演化与原住民长期土地联系。\n深度补充：公园位于Yued Country。殖民旅游名称把它包装成“Pinnacles”，但更完整的理解应把地质深时、原住民持续联系以及现代国家公园共同管理放在一起。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "9/25 日落重点；日落前 60-90 分钟入园。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "BOM气候参考",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
+        },
+        {
+          "label": "以西澳 Parks and Wildlife 当日公告为准",
+          "url": "https://exploreparks.dbca.wa.gov.au/park/nambung-national-park"
+        },
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://exploreparks.dbca.wa.gov.au/park/nambung-national-park"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.australiascoralcoast.com/plan-your-visit/about-the-region/aboriginal-culture/"
+        }
+      ]
+    },
+    {
+      "id": "d2-05",
+      "name": "塞万提斯（住宿）",
+      "name_en": "Cervantes, Western Australia",
+      "day": 2,
+      "date": "2026-09-25",
+      "status": "visit",
+      "order_in_day": 5,
+      "highlights": "当晚住宿／车宿 overnight。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
+      "duration": "过夜",
+      "transport": "驾车约20公里自尖峰石阵",
+      "notes": "首选酒店/小屋；车宿候选RAC Cervantes Holiday Park或Nambung Station Stay，须确认允许车内过夜。",
+      "lat": -30.499,
+      "lng": 115.065,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "首选酒店/小屋；车宿候选RAC Cervantes Holiday Park或Nambung Station Stay，须确认允许车内过夜。"
+      },
+      "links": [
+        {
+          "label": "BOM气候参考",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
+        }
+      ]
+    },
+    {
+      "id": "d3-01",
+      "name": "塞蒂斯湖",
+      "name_en": "Lake Thetis, Cervantes WA",
+      "day": 3,
+      "date": "2026-09-26",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "湖岸stromatolites（叠层石）及其“活着的古老生态系统”意义；清晨安静、光线柔和。",
+      "weather": "天气（长年气候参考，非逐日预报）：塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
+      "duration": "约30分钟（可选）",
+      "transport": "驾车约3公里",
+      "notes": "可选短停；若前一晚疲劳则取消。免费无需预约。",
+      "lat": -30.506,
+      "lng": 115.078,
+      "geocode_source": "known",
+      "priority": "optional",
+      "sections": {
+        "practical": "可选短停；若前一晚疲劳则取消。免费无需预约。"
+      },
+      "links": [
+        {
+          "label": "BOM杰拉尔顿气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008315_All.shtml"
+        },
+        {
+          "label": "BOM卡尔巴里气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
+        }
+      ]
+    },
+    {
+      "id": "d3-02",
+      "name": "杰拉尔顿海滨",
+      "name_en": "Geraldton Foreshore, Geraldton WA",
+      "day": 3,
+      "date": "2026-09-26",
+      "status": "visit",
+      "order_in_day": 2,
+      "highlights": "海滨草地、港口城市节奏与补给便利；中午只作恢复体力的轻松停留。",
+      "weather": "天气（长年气候参考，非逐日预报）：塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
+      "duration": "约1.5小时",
+      "transport": "驾车约221公里自塞万提斯",
+      "notes": "午餐、加油和采购。",
+      "lat": -28.776,
+      "lng": 114.614,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "午餐、加油和采购。"
+      },
+      "links": [
+        {
+          "label": "BOM杰拉尔顿气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008315_All.shtml"
+        },
+        {
+          "label": "BOM卡尔巴里气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
+        }
+      ]
+    },
+    {
+      "id": "d3-03",
+      "name": "粉红湖",
+      "name_en": "Hutt Lagoon Lookout, Port Gregory WA",
+      "day": 3,
+      "date": "2026-09-26",
+      "status": "visit",
+      "order_in_day": 3,
+      "highlights": "高盐度、微藻与工业生产共同形成粉红或淡紫色湖面；晴天约11:00-15:00高太阳时颜色通常更明显。",
+      "weather": "天气（长年气候参考，非逐日预报）：塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
+      "duration": "约1小时15分",
+      "transport": "驾车约98+14公里经Port Gregory",
+      "notes": "只在公共观景点；颜色不保证；不进入生产区或私人土地。\n\n【愿望清单·景点／自然】\n颜色会在粉红、淡紫甚至红色之间变化，受藻类、盐度、季节、云量与观看角度共同影响；西澳官方旅游页也明确使用“sometimes”描述颜色。\n深度补充：湖色来自高盐度环境中的微藻与盐生微生物，同时受季节、云量、风、盐度和观察方向影响。这里也是商业藻类及盐业景观；航拍、路边与地面看到的颜色并不相同，不能把宣传照当作现场保证。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n它同时是自然盐湖和工业性盐／藻类生产景观；拍照时应区分公共观景点、生产区域和私人土地，不为追颜色擅自进入。\n深度补充：粉湖体现自然过程与工业利用叠加：它不是未经触碰的“仙境”，而是生产、旅游和私人土地边界并存的地方。守住公共观景范围，是理解此地而非消费色彩的基本前提。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n9/26 11:00-15:00 优先；阴天则接受颜色较淡。\n已纳入本次行程",
+      "lat": -28.071,
+      "lng": 114.205,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "只在公共观景点；颜色不保证；不进入生产区或私人土地。",
+        "nature": "颜色会在粉红、淡紫甚至红色之间变化，受藻类、盐度、季节、云量与观看角度共同影响；西澳官方旅游页也明确使用“sometimes”描述颜色。\n深度补充：湖色来自高盐度环境中的微藻与盐生微生物，同时受季节、云量、风、盐度和观察方向影响。这里也是商业藻类及盐业景观；航拍、路边与地面看到的颜色并不相同，不能把宣传照当作现场保证。\n扩展阅读：景点／自然官方资料",
+        "culture": "它同时是自然盐湖和工业性盐／藻类生产景观；拍照时应区分公共观景点、生产区域和私人土地，不为追颜色擅自进入。\n深度补充：粉湖体现自然过程与工业利用叠加：它不是未经触碰的“仙境”，而是生产、旅游和私人土地边界并存的地方。守住公共观景范围，是理解此地而非消费色彩的基本前提。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "9/26 11:00-15:00 优先；阴天则接受颜色较淡。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "BOM杰拉尔顿气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008315_All.shtml"
+        },
+        {
+          "label": "BOM卡尔巴里气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
+        },
+        {
+          "label": "西澳官方旅游页也明确使用“sometimes”描述颜色",
+          "url": "https://www.westernaustralia.com/en/attraction/hutt_lagoon/59cb40e112f8967834c0e22f"
+        },
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.westernaustralia.com/en/attraction/hutt_lagoon/59cb40e112f8967834c0e22f"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.australiascoralcoast.com/destination/hutt-lagoon/"
+        }
+      ]
+    },
+    {
+      "id": "d3-04",
+      "name": "卡尔巴里（镇）",
+      "name_en": "Kalbarri, Western Australia",
+      "day": 3,
+      "date": "2026-09-26",
+      "status": "visit",
+      "order_in_day": 4,
+      "highlights": "镇内入住；傍晚可选红崖或天然桥看海岸夕照。",
+      "weather": "天气（长年气候参考，非逐日预报）：塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
+      "duration": "过夜",
+      "transport": "驾车约54公里自粉红湖",
+      "notes": "首选镇内酒店；车宿仅镇内正规营地。红崖约5公里／天然桥约14公里，二选一。",
+      "lat": -27.711,
+      "lng": 114.165,
+      "geocode_source": "known",
+      "priority": "optional",
+      "sections": {
+        "practical": "首选镇内酒店；车宿仅镇内正规营地。红崖约5公里／天然桥约14公里，二选一。"
+      },
+      "links": [
+        {
+          "label": "BOM杰拉尔顿气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008315_All.shtml"
+        },
+        {
+          "label": "BOM卡尔巴里气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
+        }
+      ]
+    },
+    {
+      "id": "d3-05",
+      "name": "红崖",
+      "name_en": "Red Bluff Lookout, Kalbarri WA",
+      "day": 3,
+      "date": "2026-09-26",
+      "status": "visit",
+      "order_in_day": 5,
+      "highlights": "高崖与层叠海岸线；最佳为日落前45-60分钟。",
+      "weather": "天气（长年气候参考，非逐日预报）：塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
+      "duration": "约45-60分钟",
+      "transport": "镇中心约5公里",
+      "notes": "与Natural Bridge二选一；海崖强风时远离崖缘。",
+      "lat": -27.74,
+      "lng": 114.139,
+      "geocode_source": "known",
+      "priority": "optional",
+      "sections": {
+        "practical": "与Natural Bridge二选一；海崖强风时远离崖缘。"
+      },
+      "links": [
+        {
+          "label": "BOM杰拉尔顿气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008315_All.shtml"
+        },
+        {
+          "label": "BOM卡尔巴里气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
+        }
+      ]
+    },
+    {
+      "id": "d4-01",
+      "name": "卡尔巴里天空步道",
+      "name_en": "Kalbarri Skywalk, Kalbarri National Park WA",
+      "day": 4,
+      "date": "2026-09-27",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "两座悬挑平台伸出默奇森峡谷上方；红色Tumblagooda sandstone峡谷尺度与河谷弯曲。",
+      "weather": "天气（长年气候参考，非逐日预报）：Kalbarri National Park（卡尔巴里国家公园）／Kalbarri Skywalk（卡尔巴里天空步道）／Nature’s Window（自然之窗）通常约13-25°C，但峡谷内无风晴天体感可明显更热；杰拉尔顿（Geraldton）约11-23°C，珀斯机场周边（Perth Airport Area）约10-21°C。清晨峡谷可凉、正午暴晒，需至少每人2-3升饮水并留意公园高温关闭信息；南下长途可能遇阵雨、侧风和日落后低温。BOM卡尔巴里气候。",
+      "duration": "约1小时",
+      "transport": "驾车约38公里自卡尔巴里镇",
+      "notes": "最佳日出后至08:30；入园费AUD17/车。\n\n【愿望清单·景点／自然】\nMurchison River 切割出红色峡谷；Nature’s Window、Z-Bend、Skywalk 是不同体力等级的观察点。高温时峡谷徒步风险显著。\n深度补充：Murchison River切穿约四亿年沉积岩，形成红白相间的Tumblagooda Sandstone峡谷。Skywalk强调高差和河谷尺度，Nature’s Window强调侵蚀造型与框景；两者均暴露在高温与紫外线下，清晨比正午安全。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n这里是 Nanda people 的 Country。峡谷并非“无人荒野”，应在地质解说之外留意 Nanda 的持续文化联系和共同管理信息。\n深度补充：这里是Nanda Country。峡谷与河流包含长期的文化路线、食物与故事联系；现代公园解说和Skywalk项目也越来越强调Traditional Owners，而非仅讲欧洲探险史。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n9/27 清晨；只选 Nature’s Window＋Skywalk，不做高温长线。\n已纳入本次行程",
+      "lat": -27.549,
+      "lng": 114.445,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "最佳日出后至08:30；入园费AUD17/车。",
+        "nature": "Murchison River 切割出红色峡谷；Nature’s Window、Z-Bend、Skywalk 是不同体力等级的观察点。高温时峡谷徒步风险显著。\n深度补充：Murchison River切穿约四亿年沉积岩，形成红白相间的Tumblagooda Sandstone峡谷。Skywalk强调高差和河谷尺度，Nature’s Window强调侵蚀造型与框景；两者均暴露在高温与紫外线下，清晨比正午安全。\n扩展阅读：景点／自然官方资料",
+        "culture": "这里是 Nanda people 的 Country。峡谷并非“无人荒野”，应在地质解说之外留意 Nanda 的持续文化联系和共同管理信息。\n深度补充：这里是Nanda Country。峡谷与河流包含长期的文化路线、食物与故事联系；现代公园解说和Skywalk项目也越来越强调Traditional Owners，而非仅讲欧洲探险史。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "9/27 清晨；只选 Nature’s Window＋Skywalk，不做高温长线。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "BOM卡尔巴里气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
+        },
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://exploreparks.dbca.wa.gov.au/park/kalbarri-national-park"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.nanda.com.au/"
+        }
+      ]
+    },
+    {
+      "id": "d4-02",
+      "name": "自然之窗",
+      "name_en": "Natures Window, Kalbarri National Park WA",
+      "day": 4,
+      "date": "2026-09-27",
+      "status": "visit",
+      "order_in_day": 2,
+      "highlights": "天然砂岩“窗框”把默奇森河弯道纳入画面；约1公里往返轻量短线。",
+      "weather": "天气（长年气候参考，非逐日预报）：Kalbarri National Park（卡尔巴里国家公园）／Kalbarri Skywalk（卡尔巴里天空步道）／Nature’s Window（自然之窗）通常约13-25°C，但峡谷内无风晴天体感可明显更热；杰拉尔顿（Geraldton）约11-23°C，珀斯机场周边（Perth Airport Area）约10-21°C。清晨峡谷可凉、正午暴晒，需至少每人2-3升饮水并留意公园高温关闭信息；南下长途可能遇阵雨、侧风和日落后低温。BOM卡尔巴里气候。",
+      "duration": "约1.5小时",
+      "transport": "Skywalk约3公里",
+      "notes": "高温或睡眠不足可取消；每人至少2-3升饮水。\n\n【愿望清单·景点／自然】\nMurchison River 切割出红色峡谷；Nature’s Window、Z-Bend、Skywalk 是不同体力等级的观察点。高温时峡谷徒步风险显著。\n深度补充：Murchison River切穿约四亿年沉积岩，形成红白相间的Tumblagooda Sandstone峡谷。Skywalk强调高差和河谷尺度，Nature’s Window强调侵蚀造型与框景；两者均暴露在高温与紫外线下，清晨比正午安全。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n这里是 Nanda people 的 Country。峡谷并非“无人荒野”，应在地质解说之外留意 Nanda 的持续文化联系和共同管理信息。\n深度补充：这里是Nanda Country。峡谷与河流包含长期的文化路线、食物与故事联系；现代公园解说和Skywalk项目也越来越强调Traditional Owners，而非仅讲欧洲探险史。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n9/27 清晨；只选 Nature’s Window＋Skywalk，不做高温长线。\n已纳入本次行程",
+      "lat": -27.555,
+      "lng": 114.45,
+      "geocode_source": "known",
+      "priority": "optional",
+      "sections": {
+        "practical": "高温或睡眠不足可取消；每人至少2-3升饮水。",
+        "nature": "Murchison River 切割出红色峡谷；Nature’s Window、Z-Bend、Skywalk 是不同体力等级的观察点。高温时峡谷徒步风险显著。\n深度补充：Murchison River切穿约四亿年沉积岩，形成红白相间的Tumblagooda Sandstone峡谷。Skywalk强调高差和河谷尺度，Nature’s Window强调侵蚀造型与框景；两者均暴露在高温与紫外线下，清晨比正午安全。\n扩展阅读：景点／自然官方资料",
+        "culture": "这里是 Nanda people 的 Country。峡谷并非“无人荒野”，应在地质解说之外留意 Nanda 的持续文化联系和共同管理信息。\n深度补充：这里是Nanda Country。峡谷与河流包含长期的文化路线、食物与故事联系；现代公园解说和Skywalk项目也越来越强调Traditional Owners，而非仅讲欧洲探险史。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "9/27 清晨；只选 Nature’s Window＋Skywalk，不做高温长线。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "BOM卡尔巴里气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
+        },
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://exploreparks.dbca.wa.gov.au/park/kalbarri-national-park"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.nanda.com.au/"
+        }
+      ]
+    },
+    {
+      "id": "d4-03",
+      "name": "珀斯机场周边营地",
+      "name_en": "Perth Central Caravan Park, Ascot WA",
+      "day": 4,
+      "date": "2026-09-27",
+      "status": "visit",
+      "order_in_day": 3,
+      "highlights": "当晚改住机场附近，避免次日长途赶机场。",
+      "weather": "天气（长年气候参考，非逐日预报）：Kalbarri National Park（卡尔巴里国家公园）／Kalbarri Skywalk（卡尔巴里天空步道）／Nature’s Window（自然之窗）通常约13-25°C，但峡谷内无风晴天体感可明显更热；杰拉尔顿（Geraldton）约11-23°C，珀斯机场周边（Perth Airport Area）约10-21°C。清晨峡谷可凉、正午暴晒，需至少每人2-3升饮水并留意公园高温关闭信息；南下长途可能遇阵雨、侧风和日落后低温。BOM卡尔巴里气候。",
+      "duration": "过夜",
+      "transport": "南下约414公里经杰拉尔顿",
+      "notes": "首选Perth Central Caravan Park；备选Discovery Parks Perth Airport。须书面同意车内过夜。",
+      "lat": -31.927,
+      "lng": 115.936,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "首选Perth Central Caravan Park；备选Discovery Parks Perth Airport。须书面同意车内过夜。"
+      },
+      "links": [
+        {
+          "label": "BOM卡尔巴里气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
+        }
+      ]
+    },
+    {
+      "id": "d5-01",
+      "name": "霍巴特机场",
+      "name_en": "Hobart Airport, Tasmania",
+      "day": 5,
+      "date": "2026-09-28",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "跨州航班落地；取行李和第二辆租车。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）清晨通常约10-21°C；霍巴特机场（Hobart Airport）／亚瑟港（Port Arthur）约6-15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层；出发前7天再看BOM逐日预报。BOM霍巴特气候。",
+      "duration": "约1小时",
+      "transport": "维珍澳洲 VA594 珀斯→霍巴特",
+      "notes": "09:50-16:00飞行；落地后不安排City Walk，直接转场亚瑟港。",
+      "lat": -42.8361,
+      "lng": 147.5103,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "09:50-16:00飞行；落地后不安排City Walk，直接转场亚瑟港。"
+      },
+      "links": [
+        {
+          "label": "BOM霍巴特气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_094029.shtml"
+        }
+      ]
+    },
+    {
+      "id": "d5-02",
+      "name": "亚瑟港（住宿区）",
+      "name_en": "Stewarts Bay Lodge, Port Arthur TAS",
+      "day": 5,
+      "date": "2026-09-28",
+      "status": "visit",
+      "order_in_day": 2,
+      "highlights": "当晚直接住亚瑟港，把次日约100公里赶路提前消化，为海上巡游保留睡眠。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）清晨通常约10-21°C；霍巴特机场（Hobart Airport）／亚瑟港（Port Arthur）约6-15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层；出发前7天再看BOM逐日预报。BOM霍巴特气候。",
+      "duration": "过夜",
+      "transport": "驾车约82公里自霍巴特机场",
+      "notes": "首选Stewarts Bay Lodge；须书面late check-in。注意：亚瑟港历史遗址本身标记为本次不看。",
+      "lat": -43.14,
+      "lng": 147.87,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "首选Stewarts Bay Lodge；须书面late check-in。注意：亚瑟港历史遗址本身标记为本次不看。"
+      },
+      "links": [
+        {
+          "label": "BOM霍巴特气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_094029.shtml"
+        }
+      ]
+    },
+    {
+      "id": "d6-01",
+      "name": "塔斯曼岛海上巡游",
+      "name_en": "Tasman Island Cruises Booking Centre, Port Arthur TAS",
+      "day": 6,
+      "date": "2026-09-29",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "从海上看Cape Pillar、Tasman Island、海蚀拱门和海洞；寻找海豹、海豚、迁徙鲸类、信天翁及其他海鸟；不登岛。",
+      "weather": "天气（长年气候参考，非逐日预报）：塔斯曼半岛（Tasman Peninsula）开放海岸约6-14°C，特里阿布纳（Triabunna）约7-16°C；船上海风会显著降低体感，棋盘石遇雨非常湿滑。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天同时复查巡游海况、BOM预报和公园工程／关闭警报。",
+      "duration": "约3小时（10:00-13:00）",
+      "transport": "巡游中心6961 Arthur Highway",
+      "notes": "Morning Cruise成人AUD190/人；09:15前签到；晕船药提前服。",
+      "lat": -43.1485,
+      "lng": 147.852,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "Morning Cruise成人AUD190/人；09:15前签到；晕船药提前服。"
+      },
+      "links": []
+    },
+    {
+      "id": "d6-02",
+      "name": "塔斯曼拱门／魔鬼厨房",
+      "name_en": "Tasman Arch, Tasman Peninsula TAS",
+      "day": 6,
+      "date": "2026-09-29",
+      "status": "visit",
+      "order_in_day": 2,
+      "highlights": "海浪侵蚀形成的天然拱门、深沟和崖壁；平坦短线约15-30分钟。",
+      "weather": "天气（长年气候参考，非逐日预报）：塔斯曼半岛（Tasman Peninsula）开放海岸约6-14°C，特里阿布纳（Triabunna）约7-16°C；船上海风会显著降低体感，棋盘石遇雨非常湿滑。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天同时复查巡游海况、BOM预报和公园工程／关闭警报。",
+      "duration": "约35分钟",
+      "transport": "驾车约18公里",
+      "notes": "工程关闭至2026-09-18，临行前复查；若延长关闭则跳过。",
+      "lat": -43.043,
+      "lng": 147.95,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "工程关闭至2026-09-18，临行前复查；若延长关闭则跳过。"
+      },
+      "links": []
+    },
+    {
+      "id": "d6-03",
+      "name": "棋盘石",
+      "name_en": "Tessellated Pavement, Eaglehawk Neck TAS",
+      "day": 6,
+      "date": "2026-09-29",
+      "status": "visit",
+      "order_in_day": 3,
+      "highlights": "岩层节理与盐风化形成规则块状纹理；退潮、岩面较干且有侧光时最清楚。",
+      "weather": "天气（长年气候参考，非逐日预报）：塔斯曼半岛（Tasman Peninsula）开放海岸约6-14°C，特里阿布纳（Triabunna）约7-16°C；船上海风会显著降低体感，棋盘石遇雨非常湿滑。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天同时复查巡游海况、BOM预报和公园工程／关闭警报。",
+      "duration": "约30分钟",
+      "transport": "驾车约8公里",
+      "notes": "湿滑或涨潮时只在高处观察。",
+      "lat": -43.009,
+      "lng": 147.945,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "湿滑或涨潮时只在高处观察。"
+      },
+      "links": []
+    },
+    {
+      "id": "d6-04",
+      "name": "特里阿布纳（住宿）",
+      "name_en": "Triabunna, Tasmania",
+      "day": 6,
+      "date": "2026-09-29",
+      "status": "visit",
+      "order_in_day": 4,
+      "highlights": "当晚住码头约1公里内，次日07:45办理玛丽亚岛渡轮。",
+      "weather": "天气（长年气候参考，非逐日预报）：塔斯曼半岛（Tasman Peninsula）开放海岸约6-14°C，特里阿布纳（Triabunna）约7-16°C；船上海风会显著降低体感，棋盘石遇雨非常湿滑。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天同时复查巡游海况、BOM预报和公园工程／关闭警报。",
+      "duration": "过夜",
+      "transport": "驾车约120公里",
+      "notes": "首选Triabunna Barracks；备选Cabin & Caravan Park。",
+      "lat": -42.508,
+      "lng": 147.915,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "首选Triabunna Barracks；备选Cabin & Caravan Park。"
+      },
+      "links": []
+    },
+    {
+      "id": "d7-01",
+      "name": "玛丽亚岛",
+      "name_en": "Darlington, Maria Island Tasmania",
+      "day": 7,
+      "date": "2026-09-30",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "Darlington草地观察袋熊、东部灰大袋鼠、红颈袋鼠、斑胸草雁；按潮汐走彩绘崖或化石崖二选一。",
+      "weather": "天气（长年气候参考，非逐日预报）：特里阿布纳（Triabunna）／Maria Island（玛丽亚岛）／科尔斯湾（Coles Bay）约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水；出发前一晚复查BOM、船班、低潮时间与公园警报。",
+      "duration": "全天（08:30-16:15船班）",
+      "transport": "Encounter Maria Island Ferry",
+      "notes": "往返AUD59/人+Parks Pass；自带午餐饮水；Painted Cliffs须低潮窗口。\n\n【愿望清单·景点／自然】\n岛上只有渡轮可达且游客不能开车上岛；有袋熊、袋鼠、Painted Cliffs 与 Fossil Cliffs。\n深度补充：岛上无游客汽车，Darlington草地、Fossil Cliffs、Painted Cliffs和开放林地形成步行／骑行尺度。袋熊白天也常见，但清晨、傍晚更活跃；Painted Cliffs接近条件受潮汐控制。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\nDarlington Probation Station 属于世界遗产流放遗址；岛屿同时有 Tyreddeme Aboriginal history、殖民工业尝试与保育迁入物种史。袋熊很亲近人并不代表可以摸。\n深度补充：Tyreddeme people的Country、Darlington流放站、后来的水泥和丝绸等工业实验、以及袋獾保险种群迁入，共同形成复杂历史。世界遗产建筑与当代保育都不能只做动物自拍背景。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n9/30已纳入主行程：从特里阿布纳（Triabunna）乘08:30官方渡轮上岛、16:15返回；以Darlington（达灵顿）动物观察为核心，并按潮汐在Painted Cliffs（彩绘崖）与Fossil Cliffs（化石崖）中选择一条轻量路线。\n已纳入本次行程",
+      "lat": -42.582,
+      "lng": 148.065,
+      "geocode_source": "known",
+      "priority": "optional",
+      "sections": {
+        "practical": "往返AUD59/人+Parks Pass；自带午餐饮水；Painted Cliffs须低潮窗口。",
+        "nature": "岛上只有渡轮可达且游客不能开车上岛；有袋熊、袋鼠、Painted Cliffs 与 Fossil Cliffs。\n深度补充：岛上无游客汽车，Darlington草地、Fossil Cliffs、Painted Cliffs和开放林地形成步行／骑行尺度。袋熊白天也常见，但清晨、傍晚更活跃；Painted Cliffs接近条件受潮汐控制。\n扩展阅读：景点／自然官方资料",
+        "culture": "Darlington Probation Station 属于世界遗产流放遗址；岛屿同时有 Tyreddeme Aboriginal history、殖民工业尝试与保育迁入物种史。袋熊很亲近人并不代表可以摸。\n深度补充：Tyreddeme people的Country、Darlington流放站、后来的水泥和丝绸等工业实验、以及袋獾保险种群迁入，共同形成复杂历史。世界遗产建筑与当代保育都不能只做动物自拍背景。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "9/30已纳入主行程：从特里阿布纳（Triabunna）乘08:30官方渡轮上岛、16:15返回；以Darlington（达灵顿）动物观察为核心，并按潮汐在Painted Cliffs（彩绘崖）与Fossil Cliffs（化石崖）中选择一条轻量路线。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "岛上只有渡轮可达且游客不能开车上岛",
+          "url": "https://parks.tas.gov.au/explore-our-parks/maria-island-national-park"
+        },
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://parks.tas.gov.au/explore-our-parks/maria-island-national-park"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://encountermaria.com.au/history/"
+        }
+      ]
+    },
+    {
+      "id": "d7-02",
+      "name": "科尔斯湾（住宿）",
+      "name_en": "Coles Bay, Tasmania",
+      "day": 7,
+      "date": "2026-09-30",
+      "status": "visit",
+      "order_in_day": 2,
+      "highlights": "当晚开到菲欣纳附近，为次日酒杯湾提前就位。",
+      "weather": "天气（长年气候参考，非逐日预报）：特里阿布纳（Triabunna）／Maria Island（玛丽亚岛）／科尔斯湾（Coles Bay）约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水；出发前一晚复查BOM、船班、低潮时间与公园警报。",
+      "duration": "过夜",
+      "transport": "返程船后驾车约118公里",
+      "notes": "首选Freycinet Lodge；备选BIG4 Iluka。",
+      "lat": -42.125,
+      "lng": 148.29,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "首选Freycinet Lodge；备选BIG4 Iluka。"
+      },
+      "links": []
+    },
+    {
+      "id": "d8-01",
+      "name": "酒杯湾观景台",
+      "name_en": "Wineglass Bay Lookout, Freycinet TAS",
+      "day": 8,
+      "date": "2026-10-01",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "弧形白沙湾、蓝绿色海水和粉红花岗岩山体；上午09:00-11:00光线已足以呈现水色。",
+      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）／比舍诺（Bicheno）约7-17°C，朗塞斯顿（Launceston）约6-17°C；上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间。",
+      "duration": "约1.5-2小时",
+      "transport": "往返步行约2.6公里Grade 3",
+      "notes": "不下海滩；需有效parks pass。\n\n【愿望清单·景点／自然】\nHazards 花岗岩山体、白沙湾与 sheltered coves 是核心。Lookout 往返与下到海滩是两种完全不同的体力安排。\n深度补充：Hazards山体由粉红花岗岩构成，白沙湾、蓝绿色浅水和sheltered coves形成强烈色彩对比。Lookout与下到海滩体力差异大；本行程只做观景台，可避免占用额外2-3小时。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\nFreycinet Peninsula 属于 Oyster Bay nation、toorerno-maire-mener clan 的文化范围。欧洲名称来自法国航海者；理解地名能避免把海湾只看成明信片。\n深度补充：半岛位于Oyster Bay nation相关Country；欧洲名称来自法国航海探测。Wineglass Bay名称常被附会为捕鲸血水，证据并不统一，阅读时应区分有文献支持的历史和旅游传说。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/1上午已纳入主行程：约08:30-10:15完成Wineglass Bay Lookout（酒杯湾观景台）往返，晴朗白天可清楚看见弧形白沙、蓝绿色海水与Hazards（哈泽兹山脉）；不再坚持晚霞，以便当晚参加比舍诺企鹅归巢团。\n已纳入本次行程",
+      "lat": -42.145,
+      "lng": 148.29,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "不下海滩；需有效parks pass。",
+        "nature": "Hazards 花岗岩山体、白沙湾与 sheltered coves 是核心。Lookout 往返与下到海滩是两种完全不同的体力安排。\n深度补充：Hazards山体由粉红花岗岩构成，白沙湾、蓝绿色浅水和sheltered coves形成强烈色彩对比。Lookout与下到海滩体力差异大；本行程只做观景台，可避免占用额外2-3小时。\n扩展阅读：景点／自然官方资料",
+        "culture": "Freycinet Peninsula 属于 Oyster Bay nation、toorerno-maire-mener clan 的文化范围。欧洲名称来自法国航海者；理解地名能避免把海湾只看成明信片。\n深度补充：半岛位于Oyster Bay nation相关Country；欧洲名称来自法国航海探测。Wineglass Bay名称常被附会为捕鲸血水，证据并不统一，阅读时应区分有文献支持的历史和旅游传说。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "10/1上午已纳入主行程：约08:30-10:15完成Wineglass Bay Lookout（酒杯湾观景台）往返，晴朗白天可清楚看见弧形白沙、蓝绿色海水与Hazards（哈泽兹山脉）；不再坚持晚霞，以便当晚参加比舍诺企鹅归巢团。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "Hazards 花岗岩山体、白沙湾与 sheltered coves",
+          "url": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park"
+        },
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://tacinc.com.au/tasmanian-aboriginal-place-names/"
+        }
+      ]
+    },
+    {
+      "id": "d8-02",
+      "name": "图维尔角灯塔步道",
+      "name_en": "Cape Tourville Lighthouse, Freycinet TAS",
+      "day": 8,
+      "date": "2026-10-01",
+      "status": "visit",
+      "order_in_day": 2,
+      "highlights": "约600米轻量环线；高处看菲欣纳海岸、The Nuggets和外海；可岸观鲸类。",
+      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）／比舍诺（Bicheno）约7-17°C，朗塞斯顿（Launceston）约6-17°C；上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间。",
+      "duration": "约40分钟",
+      "transport": "驾车约7公里",
+      "notes": "白天视野最好。",
+      "lat": -42.122,
+      "lng": 148.34,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "白天视野最好。"
+      },
+      "links": []
+    },
+    {
+      "id": "d8-03",
+      "name": "蜜月湾",
+      "name_en": "Honeymoon Bay, Freycinet TAS",
+      "day": 8,
+      "date": "2026-10-01",
+      "status": "visit",
+      "order_in_day": 3,
+      "highlights": "海湾短停、休息和拍摄花岗岩海岸。",
+      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）／比舍诺（Bicheno）约7-17°C，朗塞斯顿（Launceston）约6-17°C；上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间。",
+      "duration": "约35分钟",
+      "transport": "驾车约6公里",
+      "notes": "轻量短停。",
+      "lat": -42.145,
+      "lng": 148.31,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "轻量短停。"
+      },
+      "links": []
+    },
+    {
+      "id": "d8-04",
+      "name": "比舍诺企鹅归巢团",
+      "name_en": "Bicheno Penguin Tours, Bicheno TAS",
+      "day": 8,
+      "date": "2026-10-01",
+      "status": "visit",
+      "order_in_day": 4,
+      "highlights": "私人修复栖息地、低干扰照明和向导讲解；日落后首批小蓝企鹅上岸。",
+      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）／比舍诺（Bicheno）约7-17°C，朗塞斯顿（Launceston）约6-17°C；上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间。",
+      "duration": "约50分钟（约19:30-20:30）",
+      "transport": "1/70 Burgess Street签到",
+      "notes": "成人AUD76/人须预约；禁闪光灯；团后夜间驾车约160公里去朗塞斯顿。\n\n【愿望清单·景点／自然】\n小蓝企鹅通常在日落后归巢，低光、安静和不使用闪光灯是基本规则；导览比自行寻找更可控。\n深度补充：小蓝企鹅在海上觅食后于日落后归巢，数量、登陆位置和时间受季节与海况影响。合规导览使用低干扰照明并限制距离；闪光灯、追逐和堵住通道都会伤害繁殖行为。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n企鹅观赏体现旅游与野生动物栖息地之间的边界。网上“追着企鹅拍”不是可复制的体验，应服从向导和照明限制。\n深度补充：企鹅旅游展示现代野生动物管理的核心矛盾：游客想更近，保护则要求更暗、更安静和更可预测。选择有规则的导览而非自行寻找，体现对栖息地的尊重。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/1已纳入主行程：白天完成Wineglass Bay（酒杯湾）沿线后前往比舍诺（Bicheno），预订Bicheno Penguin Tours（比舍诺企鹅归巢团）繁殖季首场；团后驾车约160公里到朗塞斯顿（Launceston）。\n已纳入本次行程",
+      "lat": -41.873,
+      "lng": 148.301,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "成人AUD76/人须预约；禁闪光灯；团后夜间驾车约160公里去朗塞斯顿。",
+        "nature": "小蓝企鹅通常在日落后归巢，低光、安静和不使用闪光灯是基本规则；导览比自行寻找更可控。\n深度补充：小蓝企鹅在海上觅食后于日落后归巢，数量、登陆位置和时间受季节与海况影响。合规导览使用低干扰照明并限制距离；闪光灯、追逐和堵住通道都会伤害繁殖行为。\n扩展阅读：景点／自然官方资料",
+        "culture": "企鹅观赏体现旅游与野生动物栖息地之间的边界。网上“追着企鹅拍”不是可复制的体验，应服从向导和照明限制。\n深度补充：企鹅旅游展示现代野生动物管理的核心矛盾：游客想更近，保护则要求更暗、更安静和更可预测。选择有规则的导览而非自行寻找，体现对栖息地的尊重。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "10/1已纳入主行程：白天完成Wineglass Bay（酒杯湾）沿线后前往比舍诺（Bicheno），预订Bicheno Penguin Tours（比舍诺企鹅归巢团）繁殖季首场；团后驾车约160公里到朗塞斯顿（Launceston）。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.bichenopenguintours.com.au/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://nre.tas.gov.au/wildlife-management/fauna-of-tasmania/birds/complete-list-of-tasmanian-birds/little-penguin"
+        }
+      ]
+    },
+    {
+      "id": "d8-05",
+      "name": "朗塞斯顿（住宿）",
+      "name_en": "Launceston, Tasmania",
+      "day": 8,
+      "date": "2026-10-01",
+      "status": "visit",
+      "order_in_day": 5,
+      "highlights": "overnight固定住宿，靠近次日通往塔玛河谷道路。",
+      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）／比舍诺（Bicheno）约7-17°C，朗塞斯顿（Launceston）约6-17°C；上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间。",
+      "duration": "过夜",
+      "transport": "驾车约160公里自比舍诺",
+      "notes": "首选Peppers Silo Hotel；须late check-in。",
+      "lat": -41.4332,
+      "lng": 147.1441,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "首选Peppers Silo Hotel；须late check-in。"
+      },
+      "links": []
+    },
+    {
+      "id": "d9-01",
+      "name": "鸭嘴兽之家",
+      "name_en": "Platypus House, Beauty Point TAS",
+      "day": 9,
+      "date": "2026-10-02",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "室内／半室内环境白天稳定观察鸭嘴兽和短喙针鼹。",
+      "weather": "天气（长年气候参考，非逐日预报）：朗塞斯顿（Launceston）／美丽角（Beauty Point）约6-17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0-10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。",
+      "duration": "约1小时（10:00导览）",
+      "transport": "驾车约48公里自朗塞斯顿",
+      "notes": "预订10:00第一场；成人约AUD29.95/人。\n\n【愿望清单·景点／自然】\n位于 Beauty Point，展示 platypus 与 echidna；适合希望提高看到鸭嘴兽概率的人。\n深度补充：室内／半室内观察环境提高看到platypus和echidna的确定性，并通过讲解说明电感受、产卵哺乳和水生适应。它不同于野外静候，优势是教育确定性，代价是非自然栖息地体验。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n鸭嘴兽曾令早期欧洲博物学界怀疑标本造假，后来成为澳洲生物独特性的文化符号；也应关注栖息地水质与河流保护。\n深度补充：鸭嘴兽标本最初送到欧洲时曾被怀疑拼接造假，后来成为澳洲生物独特性的文化象征。现代保育重点转向河流水质、渔线缠绕、坝体与栖息地破碎。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/2已纳入主行程：从朗塞斯顿（Launceston）驾车约48公里，预订10:00第一场向导团，稳定观察Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）；结束后直接进入Cradle Mountain（摇篮山）。\n已纳入本次行程",
+      "lat": -41.16,
+      "lng": 146.82,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "预订10:00第一场；成人约AUD29.95/人。",
+        "nature": "位于 Beauty Point，展示 platypus 与 echidna；适合希望提高看到鸭嘴兽概率的人。\n深度补充：室内／半室内观察环境提高看到platypus和echidna的确定性，并通过讲解说明电感受、产卵哺乳和水生适应。它不同于野外静候，优势是教育确定性，代价是非自然栖息地体验。\n扩展阅读：景点／自然官方资料",
+        "culture": "鸭嘴兽曾令早期欧洲博物学界怀疑标本造假，后来成为澳洲生物独特性的文化符号；也应关注栖息地水质与河流保护。\n深度补充：鸭嘴兽标本最初送到欧洲时曾被怀疑拼接造假，后来成为澳洲生物独特性的文化象征。现代保育重点转向河流水质、渔线缠绕、坝体与栖息地破碎。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "10/2已纳入主行程：从朗塞斯顿（Launceston）驾车约48公里，预订10:00第一场向导团，稳定观察Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）；结束后直接进入Cradle Mountain（摇篮山）。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://platypushouse.com.au/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.australian.museum/learn/animals/mammals/platypus/"
+        }
+      ]
+    },
+    {
+      "id": "d9-02",
+      "name": "鸽子湖",
+      "name_en": "Dove Lake, Cradle Mountain TAS",
+      "day": 9,
+      "date": "2026-10-02",
+      "status": "visit",
+      "order_in_day": 2,
+      "highlights": "冰川湖、dolerite山体、pencil pine与高山荒原经典湖景；只走湖东岸短段。",
+      "weather": "天气（长年气候参考，非逐日预报）：朗塞斯顿（Launceston）／美丽角（Beauty Point）约6-17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0-10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。",
+      "duration": "约1小时",
+      "transport": "shuttle约10公里自游客中心",
+      "notes": "不走Cradle Summit，不强求完整环湖。\n\n【愿望清单·景点／自然】\n世界遗产高地、冰川湖和 Gondwanan 植被；袋熊、针鼹、袋鼬等可能出现但不保证。天气可能完全遮住主峰。\n深度补充：冰川塑造的Dove Lake、dolerite山体、pencil pine和button grass是核心。Ronny Creek适合看草原与袋熊，天气可迅速变化；主峰被云遮并不等于没有景观，低云会突出湿地和植被。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\nPalawa people 在此生活超过 35,000 年。Gustav 与 Kate Weindorfer 推动保护运动，Waldheim 记录早期国家公园史；不能只讲单一“欧洲保护英雄”，也要看更早的人类文化景观。\n深度补充：Palawa人在此活动超过数万年。Weindorfer夫妇推动早期保护的故事很重要，但必须与更早的原住民文化景观，以及后来的国家公园、Overland Track和生态旅游制度并置。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/2安排Dove Lake（鸽子湖）／Ronny Creek（罗尼溪）轻量短线和傍晚袋獾夜场；10/3上午保留为主峰能见度第二次机会，之后从容下山赶18:45夜航。\n已纳入本次行程",
+      "lat": -41.655,
+      "lng": 145.96,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "不走Cradle Summit，不强求完整环湖。",
+        "nature": "世界遗产高地、冰川湖和 Gondwanan 植被；袋熊、针鼹、袋鼬等可能出现但不保证。天气可能完全遮住主峰。\n深度补充：冰川塑造的Dove Lake、dolerite山体、pencil pine和button grass是核心。Ronny Creek适合看草原与袋熊，天气可迅速变化；主峰被云遮并不等于没有景观，低云会突出湿地和植被。\n扩展阅读：景点／自然官方资料",
+        "culture": "Palawa people 在此生活超过 35,000 年。Gustav 与 Kate Weindorfer 推动保护运动，Waldheim 记录早期国家公园史；不能只讲单一“欧洲保护英雄”，也要看更早的人类文化景观。\n深度补充：Palawa人在此活动超过数万年。Weindorfer夫妇推动早期保护的故事很重要，但必须与更早的原住民文化景观，以及后来的国家公园、Overland Track和生态旅游制度并置。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "10/2安排Dove Lake（鸽子湖）／Ronny Creek（罗尼溪）轻量短线和傍晚袋獾夜场；10/3上午保留为主峰能见度第二次机会，之后从容下山赶18:45夜航。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "世界遗产高地、冰川湖和 Gondwanan 植被",
+          "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain"
+        },
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.parks.tas.gov.au/discovery-and-learning/historic-heritage/cradle-mountain-history"
+        }
+      ]
+    },
+    {
+      "id": "d9-03",
+      "name": "罗尼溪",
+      "name_en": "Ronny Creek, Cradle Mountain TAS",
+      "day": 9,
+      "date": "2026-10-02",
+      "status": "visit",
+      "order_in_day": 3,
+      "highlights": "草原和木栈道观察野生袋熊的轻量地点；下午后段接近动物活跃窗口。",
+      "weather": "天气（长年气候参考，非逐日预报）：朗塞斯顿（Launceston）／美丽角（Beauty Point）约6-17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0-10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。",
+      "duration": "约1小时",
+      "transport": "shuttle",
+      "notes": "若延误可缩短或移到10/3上午。",
+      "lat": -41.64,
+      "lng": 145.95,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "若延误可缩短或移到10/3上午。"
+      },
+      "links": []
+    },
+    {
+      "id": "d9-04",
+      "name": "摇篮山恶魔保护园",
+      "name_en": "Devils at Cradle, Cradle Mountain TAS",
+      "day": 9,
+      "date": "2026-10-02",
+      "status": "visit",
+      "order_in_day": 4,
+      "highlights": "After Dark Feeding Tour观察袋獾、东袋鼬与斑尾袋鼬；结合面部肿瘤病保育讲解。",
+      "weather": "天气（长年气候参考，非逐日预报）：朗塞斯顿（Launceston）／美丽角（Beauty Point）约6-17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0-10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。",
+      "duration": "约1小时15分（17:30）",
+      "transport": "驾车约5-8公里",
+      "notes": "成人AUD40/人须预约。\n\n【愿望清单·景点／自然】\n靠近 Cradle Mountain，专注 Tasmanian devil 与 quoll；黄昏／夜间 tour 更符合动物活跃时段。\n深度补充：保护园专注Tasmanian devil和quoll，夜场更符合其活跃节律。近距离喂食讲解能观察颌部、社会行为和清道夫角色，但动物是否靠近仍由其状态决定。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n袋獾面临 Devil Facial Tumour Disease，保护园的保险种群与研究比“看凶猛叫声”更重要。\n深度补充：Devil Facial Tumour Disease改变了塔州保育体系，保险种群、疾病研究和野外监测成为国家级项目。袋獾尖叫与“凶猛”流行形象之外，它是生态清道夫和疾病科学案例。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/2 已纳入主行程：17:30参加After Dark Feeding Tour（夜间喂食团），在袋獾和袋鼬活跃时段做专门保育观察；成人AUD40／人，需提前预约。\n已纳入本次行程",
+      "lat": -41.595,
+      "lng": 145.93,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "成人AUD40/人须预约。",
+        "nature": "靠近 Cradle Mountain，专注 Tasmanian devil 与 quoll；黄昏／夜间 tour 更符合动物活跃时段。\n深度补充：保护园专注Tasmanian devil和quoll，夜场更符合其活跃节律。近距离喂食讲解能观察颌部、社会行为和清道夫角色，但动物是否靠近仍由其状态决定。\n扩展阅读：景点／自然官方资料",
+        "culture": "袋獾面临 Devil Facial Tumour Disease，保护园的保险种群与研究比“看凶猛叫声”更重要。\n深度补充：Devil Facial Tumour Disease改变了塔州保育体系，保险种群、疾病研究和野外监测成为国家级项目。袋獾尖叫与“凶猛”流行形象之外，它是生态清道夫和疾病科学案例。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "10/2 已纳入主行程：17:30参加After Dark Feeding Tour（夜间喂食团），在袋獾和袋鼬活跃时段做专门保育观察；成人AUD40／人，需提前预约。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://devilsatcradle.com/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.tassiedevil.com.au/"
+        }
+      ]
+    },
+    {
+      "id": "d10-01",
+      "name": "摇篮山（天气缓冲）",
+      "name_en": "Cradle Mountain Visitor Centre, TAS",
+      "day": 10,
+      "date": "2026-10-03",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "补位罗尼溪／鸽子湖能见度，或走铅笔松瀑布／魔法森林步道；11:15必须结束。",
+      "weather": "天气（长年气候参考，非逐日预报）：Cradle Mountain（摇篮山）约0-10°C，德文波特（Devonport）约7-16°C，Bass Strait（巴斯海峡）／吉朗（Geelong）约7-17°C。下山路可能有雾、雨和野生动物；登船前复查道路、海况与官方短信，晕船药按说明提前服。",
+      "duration": "约2.5小时上午",
+      "transport": "公园内shuttle",
+      "notes": "之后下山赶Spirit of Tasmania。",
+      "lat": -41.595,
+      "lng": 145.93,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "之后下山赶Spirit of Tasmania。"
+      },
+      "links": []
+    },
+    {
+      "id": "d10-02",
+      "name": "德文波特码头（塔州精神号）",
+      "name_en": "Spirit of Tasmania Terminal, Devonport TAS",
+      "day": 10,
+      "date": "2026-10-03",
+      "status": "visit",
+      "order_in_day": 2,
+      "highlights": "夜航德文波特→吉朗；海上约430公里。",
+      "weather": "天气（长年气候参考，非逐日预报）：Cradle Mountain（摇篮山）约0-10°C，德文波特（Devonport）约7-16°C，Bass Strait（巴斯海峡）／吉朗（Geelong）约7-17°C。下山路可能有雾、雨和野生动物；登船前复查道路、海况与官方短信，晕船药按说明提前服。",
+      "duration": "18:45开船-次日07:00",
+      "transport": "驾车约85公里自摇篮山",
+      "notes": "16:15 check-in，18:00截止；船上客舱，不能睡车内。",
+      "lat": -41.18,
+      "lng": 146.365,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "16:15 check-in，18:00截止；船上客舱，不能睡车内。"
+      },
+      "links": []
+    },
+    {
+      "id": "d11-01",
+      "name": "安格尔西海滩",
+      "name_en": "Anglesea Beach, Anglesea VIC",
+      "day": 11,
+      "date": "2026-10-04",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "开阔沙滩和Surf Coast海风，夜航后恢复站。",
+      "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
+      "duration": "约40分钟",
+      "transport": "驾车约56公里自吉朗",
+      "notes": "疲劳时可删减。",
+      "lat": -38.406,
+      "lng": 144.185,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "疲劳时可删减。"
+      },
+      "links": []
+    },
+    {
+      "id": "d11-02",
+      "name": "小红帽灯塔",
+      "name_en": "Split Point Lighthouse, Aireys Inlet VIC",
+      "day": 11,
+      "date": "2026-10-04",
+      "status": "visit",
+      "order_in_day": 2,
+      "highlights": "红色塔顶、白色塔身与鹰岩海岸；外围观景步道即可。",
+      "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
+      "duration": "约40分钟",
+      "transport": "驾车约10公里",
+      "notes": "不把登塔导览设为硬任务。",
+      "lat": -38.465,
+      "lng": 144.105,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "不把登塔导览设为硬任务。"
+      },
+      "links": []
+    },
+    {
+      "id": "d11-03",
+      "name": "大洋路纪念拱门",
+      "name_en": "Great Ocean Road Memorial Arch, Eastern View VIC",
+      "day": 11,
+      "date": "2026-10-04",
+      "status": "visit",
+      "order_in_day": 3,
+      "highlights": "纪念一战归国军人修建大洋路；理解道路作为战争纪念工程的历史。",
+      "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
+      "duration": "约20分钟",
+      "transport": "驾车约16公里",
+      "notes": "正式停车区短停拍照。",
+      "lat": -38.475,
+      "lng": 144.025,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "正式停车区短停拍照。"
+      },
+      "links": []
+    },
+    {
+      "id": "d11-04",
+      "name": "泰迪观景台",
+      "name_en": "Teddy's Lookout, Lorne VIC",
+      "day": 11,
+      "date": "2026-10-04",
+      "status": "visit",
+      "order_in_day": 4,
+      "highlights": "俯瞰大洋路贴着海崖转弯、圣乔治河汇入海湾的经典视角。",
+      "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
+      "duration": "约30分钟",
+      "transport": "驾车约14公里",
+      "notes": "本日最经典高位全景。",
+      "lat": -38.545,
+      "lng": 143.975,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "本日最经典高位全景。"
+      },
+      "links": []
+    },
+    {
+      "id": "d11-05",
+      "name": "肯尼特河",
+      "name_en": "Kennett River, Victoria",
+      "day": 11,
+      "date": "2026-10-04",
+      "status": "visit",
+      "order_in_day": 5,
+      "highlights": "桉树林中野生考拉与王鹦鹉；午后考拉多在树上休息，不保证见到。",
+      "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
+      "duration": "约1小时",
+      "transport": "驾车约24公里自洛恩",
+      "notes": "不喂食、不进入私人地。",
+      "lat": -38.665,
+      "lng": 143.84,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "不喂食、不进入私人地。"
+      },
+      "links": []
+    },
+    {
+      "id": "d11-06",
+      "name": "阿波罗湾（住宿）",
+      "name_en": "Apollo Bay, Victoria",
+      "day": 11,
+      "date": "2026-10-04",
+      "status": "visit",
+      "order_in_day": 6,
+      "highlights": "弧形海湾、渔港和Otways雨林门户；傍晚海滨散步。",
+      "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
+      "duration": "过夜",
+      "transport": "驾车约23公里",
+      "notes": "酒店或Apollo Bay Holiday Park车宿（须书面同意）。\n\n【愿望清单·景点／自然】\nApollo Bay 接近雨林与海湾；Lorne 兼具瀑布与度假文化；Torquay 是冲浪产业和 Bells Beach 门户。三个点不宜同日都深玩。\n深度补充：Apollo Bay连接海湾与Otways雨林，Lorne兼有瀑布、河口和海滩，Torquay则面向开放冲浪海岸。三个镇功能不同；同日路线应把Apollo Bay作为午餐、Lorne与Torquay择一深停。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\nTorquay 与 Rip Curl、Quiksilver 等澳洲冲浪品牌史相连；大洋路沿线的海滨度假文化也反映墨尔本人周末生活方式。\n深度补充：Torquay与Rip Curl、Quiksilver等冲浪品牌及Bells Beach赛事文化相连；Lorne代表历史度假镇与艺术节传统，Apollo Bay则保留渔业和雨林门户身份。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/5 走线；Apollo Bay 午餐，Lorne／Torquay 二选一深停。\n已纳入本次行程",
+      "lat": -38.755,
+      "lng": 143.67,
+      "geocode_source": "known",
+      "priority": "optional",
+      "sections": {
+        "practical": "酒店或Apollo Bay Holiday Park车宿（须书面同意）。",
+        "nature": "Apollo Bay 接近雨林与海湾；Lorne 兼具瀑布与度假文化；Torquay 是冲浪产业和 Bells Beach 门户。三个点不宜同日都深玩。\n深度补充：Apollo Bay连接海湾与Otways雨林，Lorne兼有瀑布、河口和海滩，Torquay则面向开放冲浪海岸。三个镇功能不同；同日路线应把Apollo Bay作为午餐、Lorne与Torquay择一深停。\n扩展阅读：景点／自然官方资料",
+        "culture": "Torquay 与 Rip Curl、Quiksilver 等澳洲冲浪品牌史相连；大洋路沿线的海滨度假文化也反映墨尔本人周末生活方式。\n深度补充：Torquay与Rip Curl、Quiksilver等冲浪品牌及Bells Beach赛事文化相连；Lorne代表历史度假镇与艺术节传统，Apollo Bay则保留渔业和雨林门户身份。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "10/5 走线；Apollo Bay 午餐，Lorne／Torquay 二选一深停。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.visitgreatoceanroad.org.au/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://australiannationalsurfingmuseum.com.au/"
+        }
+      ]
+    },
+    {
+      "id": "d12-01",
+      "name": "梅茨雨林步道",
+      "name_en": "Maits Rest Rainforest Walk, Great Otway National Park VIC",
+      "day": 12,
+      "date": "2026-10-05",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "约800米轻量环线：桃金娘山毛榉、树蕨和苔藓林下；清晨游客较少。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "duration": "约1小时",
+      "transport": "驾车约17公里自阿波罗湾",
+      "notes": "雨后木栈道湿滑。",
+      "lat": -38.755,
+      "lng": 143.555,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "雨后木栈道湿滑。"
+      },
+      "links": []
+    },
+    {
+      "id": "d12-02",
+      "name": "吉布森阶梯",
+      "name_en": "Gibson Steps, Great Ocean Road VIC",
+      "day": 12,
+      "date": "2026-10-05",
+      "status": "visit",
+      "order_in_day": 2,
+      "highlights": "从海滩仰望高崖和Gog/Magog岩柱；尺度感与十二门徒主观景台不同。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "duration": "约45分钟",
+      "transport": "驾车约70公里",
+      "notes": "受落石潮位大浪影响，关闭时绝不翻越闸门。",
+      "lat": -38.67,
+      "lng": 143.1,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "受落石潮位大浪影响，关闭时绝不翻越闸门。"
+      },
+      "links": []
+    },
+    {
+      "id": "d12-03",
+      "name": "十二门徒岩",
+      "name_en": "Twelve Apostles, Great Ocean Road VIC",
+      "day": 12,
+      "date": "2026-10-05",
+      "status": "visit",
+      "order_in_day": 3,
+      "highlights": "石灰岩海岸海蚀洞-拱门-孤柱持续演化；中午前后仍可清楚观察海岸结构。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "duration": "约1小时",
+      "transport": "驾车约2公里",
+      "notes": "免费无需预约。\n\n【愿望清单·景点／自然】\n海蚀洞-拱门-独立岩柱持续演化；名称虽叫十二门徒，形成与存留的岩柱数量并非固定 12。官方建议日出或日落看颜色变化。\n深度补充：岩柱来自石灰岩海岸被浪蚀成洞穴、拱门再坍塌为孤柱；数量从来不是稳定的“十二”。日出与日落分别强调轮廓和金色岩面，风、海雾和雨会快速改变能见度。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n位于 Eastern Maar／Gadubanud cultural landscape。殖民旅游命名不应遮住传统土地与持续的海岸文化联系。\n深度补充：旅游命名从“ Sow and Piglets”改为Twelve Apostles，显示品牌如何重塑地景；它位于Eastern Maar/Gadubanud文化景观，现代游客中心与步道更新也涉及Traditional Owner合作。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/4 日落＋10/5 可选日出；以安全与能见度为先。\n已纳入本次行程",
+      "lat": -38.6655,
+      "lng": 143.1048,
+      "geocode_source": "known",
+      "priority": "optional",
+      "sections": {
+        "practical": "免费无需预约。",
+        "nature": "海蚀洞-拱门-独立岩柱持续演化；名称虽叫十二门徒，形成与存留的岩柱数量并非固定 12。官方建议日出或日落看颜色变化。\n深度补充：岩柱来自石灰岩海岸被浪蚀成洞穴、拱门再坍塌为孤柱；数量从来不是稳定的“十二”。日出与日落分别强调轮廓和金色岩面，风、海雾和雨会快速改变能见度。\n扩展阅读：景点／自然官方资料",
+        "culture": "位于 Eastern Maar／Gadubanud cultural landscape。殖民旅游命名不应遮住传统土地与持续的海岸文化联系。\n深度补充：旅游命名从“ Sow and Piglets”改为Twelve Apostles，显示品牌如何重塑地景；它位于Eastern Maar/Gadubanud文化景观，现代游客中心与步道更新也涉及Traditional Owner合作。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "10/4 日落＋10/5 可选日出；以安全与能见度为先。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "官方建议日出或日落看颜色变化",
+          "url": "https://www.visitvictoria.com/Regions/Great-Ocean-Road/see-and-do/Nature-and-wildlife/Beaches-and-coastlines/12-Apostles.aspx"
+        },
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.visitvictoria.com/regions/great-ocean-road/see-and-do/nature-and-wildlife/beaches-and-coastlines/12-apostles"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.easternmaar.com.au/"
+        }
+      ]
+    },
+    {
+      "id": "d12-04",
+      "name": "坎贝尔港",
+      "name_en": "Port Campbell, Victoria",
+      "day": 12,
+      "date": "2026-10-05",
+      "status": "visit",
+      "order_in_day": 4,
+      "highlights": "受保护的小海湾、渔港和沉船海岸补给中心；午餐和恢复体力。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "duration": "约55分钟",
+      "transport": "驾车约12公里",
+      "notes": "午餐加油短暂休整。\n\n【愿望清单·景点／自然】\n适合作为看日落与日出的住宿基地，餐饮和补给选择有限，旺季需提前订。\n深度补充：镇位于受保护的小海湾，是沉船海岸少数可集中补给、住宿和步行的基地。周边悬崖暴露、天气多变，住一晚能把十二门徒日落和次日日出拆开，避免夜驾。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n港镇服务于渔业、道路旅游与国家公园；它的价值是把大洋路从赶路变成慢看，而不只是“离十二门徒最近”。\n深度补充：渔业、道路旅游与国家公园服务共同塑造小镇。它也说明大洋路从战间期交通工程转为全球旅游线路后，地方住房、季节就业与环境承载面临的压力。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/4 住宿；正规住宿／营地。\n已纳入本次行程",
+      "lat": -38.619,
+      "lng": 142.995,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "午餐加油短暂休整。",
+        "nature": "适合作为看日落与日出的住宿基地，餐饮和补给选择有限，旺季需提前订。\n深度补充：镇位于受保护的小海湾，是沉船海岸少数可集中补给、住宿和步行的基地。周边悬崖暴露、天气多变，住一晚能把十二门徒日落和次日日出拆开，避免夜驾。\n扩展阅读：景点／自然官方资料",
+        "culture": "港镇服务于渔业、道路旅游与国家公园；它的价值是把大洋路从赶路变成慢看，而不只是“离十二门徒最近”。\n深度补充：渔业、道路旅游与国家公园服务共同塑造小镇。它也说明大洋路从战间期交通工程转为全球旅游线路后，地方住房、季节就业与环境承载面临的压力。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "10/4 住宿；正规住宿／营地。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.visitvictoria.com/regions/great-ocean-road/destinations/port-campbell"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.corangamite.vic.gov.au/Places-and-Events/Towns/Port-Campbell"
+        }
+      ]
+    },
+    {
+      "id": "d12-05",
+      "name": "伦敦桥",
+      "name_en": "London Bridge Lookout, Port Campbell VIC",
+      "day": 12,
+      "date": "2026-10-05",
+      "status": "visit",
+      "order_in_day": 5,
+      "highlights": "1990年连接陆地的拱桥部分突然坍塌，留下独立海蚀拱门。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "duration": "约30分钟",
+      "transport": "驾车约18公里",
+      "notes": "进度落后可删减。",
+      "lat": -38.62,
+      "lng": 142.93,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "进度落后可删减。"
+      },
+      "links": []
+    },
+    {
+      "id": "d12-06",
+      "name": "石窟",
+      "name_en": "The Grotto, Port Campbell VIC",
+      "day": 12,
+      "date": "2026-10-05",
+      "status": "visit",
+      "order_in_day": 6,
+      "highlights": "sinkhole、洞穴与拱门叠成天然画框。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "duration": "约30分钟",
+      "transport": "驾车约4公里",
+      "notes": "进度落后可删减；15:10左右必须离开沉船海岸回墨尔本。",
+      "lat": -38.615,
+      "lng": 142.91,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "进度落后可删减；15:10左右必须离开沉船海岸回墨尔本。"
+      },
+      "links": []
+    },
+    {
+      "id": "d12-07",
+      "name": "墨尔本（住宿）",
+      "name_en": "Southern Cross Station, Melbourne VIC",
+      "day": 12,
+      "date": "2026-10-05",
+      "status": "visit",
+      "order_in_day": 7,
+      "highlights": "入住West Melbourne／Southern Cross附近酒店，整理行李保证次日国际航班。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "duration": "过夜",
+      "transport": "驾车约230公里",
+      "notes": "本晚不车宿。",
+      "lat": -37.8183,
+      "lng": 144.9525,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "本晚不车宿。"
+      },
+      "links": []
+    },
+    {
+      "id": "d13-01",
+      "name": "维多利亚女王市场",
+      "name_en": "Queen Victoria Market, Melbourne VIC",
+      "day": 13,
+      "date": "2026-10-06",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "1878年延续至今的工作型市场、鲜食大厅、移民饮食和露天棚架；周二07:00-08:00适合早餐并看生鲜摊开市。",
+      "weather": "天气（长年气候参考，非逐日预报）：墨尔本中央商务区（Melbourne CBD）／Queen Victoria Market（维多利亚女王市场）／墨尔本机场（Melbourne Airport）通常约9-20°C，清晨偏凉且可能阵雨；香港国际机场（Hong Kong International Airport）10月上旬通常约24-30°C，仍可能受强降雨或热带气旋影响；北京（Beijing）约9-22°C，晴燥且昼夜温差大。随身保留薄外套；出发前24小时重点查香港热带气旋信号，因为60分钟转机几乎没有吸收延误的余量。BOM墨尔本气候｜香港天文台机场气候。",
+      "duration": "约1小时",
+      "transport": "酒店步行约0.5-2公里",
+      "notes": "周二06:00-15:00；specialty shopping 09:00才开。当天不去远郊。\n\n【愿望清单·景点／自然】\n大型传统市场，开放日和营业时段分区不同；不是每天所有摊位都开。\n深度补充：市场不同棚区经营鲜肉、海产、蔬果、熟食和日用品；开放日与各区时间不同，周二清晨最能看到工作型市场而非纯游客场景。改造工程会造成摊位临时迁移。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n1878 年开业，部分市场建在旧 Melbourne General Cemetery 地段之上，市场更新也牵涉遗产、墓地和城市公共空间讨论。\n深度补充：1878年开业，部分市场位于旧Melbourne General Cemetery之上，更新计划因此涉及遗产、墓地与公共空间争议。市场也记录多代移民如何通过食物进入城市生活。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n只有10/6营业且时间充足才短逛；不影响机场出发。\n已纳入本次行程",
+      "lat": -37.8076,
+      "lng": 144.9568,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "周二06:00-15:00；specialty shopping 09:00才开。当天不去远郊。",
+        "nature": "大型传统市场，开放日和营业时段分区不同；不是每天所有摊位都开。\n深度补充：市场不同棚区经营鲜肉、海产、蔬果、熟食和日用品；开放日与各区时间不同，周二清晨最能看到工作型市场而非纯游客场景。改造工程会造成摊位临时迁移。\n扩展阅读：景点／自然官方资料",
+        "culture": "1878 年开业，部分市场建在旧 Melbourne General Cemetery 地段之上，市场更新也牵涉遗产、墓地和城市公共空间讨论。\n深度补充：1878年开业，部分市场位于旧Melbourne General Cemetery之上，更新计划因此涉及遗产、墓地与公共空间争议。市场也记录多代移民如何通过食物进入城市生活。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "只有10/6营业且时间充足才短逛；不影响机场出发。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "BOM墨尔本气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_086282.shtml"
+        },
+        {
+          "label": "香港天文台机场气候",
+          "url": "https://www.hko.gov.hk/en/aviat/amt/monthlymean.htm"
+        },
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://qvm.com.au/visit-us/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://qvm.com.au/about/"
+        }
+      ]
+    },
+    {
+      "id": "wv-tower",
+      "name": "塔山野生动物保护区",
+      "name_en": "Tower Hill Wildlife Reserve, Victoria",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "愿望清单保留；与现行大洋路东段主线冲突，不在本次主行程。",
+      "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
+      "duration": "",
+      "transport": "",
+      "notes": "【本次建议】与 10/4 东段→Apollo Bay、10/5 沉船→Melbourne 方向冲突，已移出主行程；鸸鹋改由 Caversham 覆盖。\n不在本次行程中",
+      "lat": -38.317,
+      "lng": 142.36,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "suggestion": "与 10/4 东段→Apollo Bay、10/5 沉船→Melbourne 方向冲突，已移出主行程；鸸鹋改由 Caversham 覆盖。\n不在本次行程中"
+      },
+      "links": []
+    },
+    {
+      "id": "wv-warrn",
+      "name": "沃南布尔",
+      "name_en": "Warrnambool, Victoria",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "愿望清单保留；不在本次主行程。",
+      "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
+      "duration": "",
+      "transport": "",
+      "notes": "【本次建议】与 Tower Hill 一并移出；10/5 午餐在 Port Campbell。\n不在本次行程中",
+      "lat": -38.3839,
+      "lng": 142.488,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "suggestion": "与 Tower Hill 一并移出；10/5 午餐在 Port Campbell。\n不在本次行程中"
+      },
+      "links": []
+    },
+    {
+      "id": "wv-loch",
+      "name": "洛克阿德峡谷",
+      "name_en": "Loch Ard Gorge, Port Campbell VIC",
+      "day": 12,
+      "date": "2026-10-05",
+      "status": "visit",
+      "order_in_day": 9,
+      "highlights": "【可选】紧挨十二门徒的沉船海岸峡谷；进度提前时短停20-40分钟，落后则删除。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "duration": "可选约20-40分钟",
+      "transport": "十二门徒岩附近顺路（约2-3公里）",
+      "notes": "【注意】主行程硬任务不含本点；作为十二门徒后的顺路可选。进度落后优先删除，保证15:10前离开沉船海岸回墨尔本。\n\n可选纳入本次行程",
+      "lat": -38.647,
+      "lng": 143.07,
+      "geocode_source": "known",
+      "priority": "optional",
+      "sections": {
+        "practical": "【注意】主行程硬任务不含本点；作为十二门徒后的顺路可选。进度落后优先删除，保证15:10前离开沉船海岸回墨尔本。\n\n可选纳入本次行程"
+      },
+      "links": []
+    },
+    {
+      "id": "d5-hobart",
+      "name": "霍巴特（过境，不硬塞市区）",
+      "name_en": "Hobart, Tasmania, Australia",
+      "day": 5,
+      "date": "2026-09-28",
+      "status": "skip",
+      "order_in_day": 0,
+      "highlights": "过境取车转场；不安排 City Walk／Rosny Hill／连住霍巴特。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）清晨通常约10-21°C；霍巴特机场（Hobart Airport）／亚瑟港（Port Arthur）约6-15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层；出发前7天再看BOM逐日预报。BOM霍巴特气候。",
+      "duration": "过境",
+      "transport": "机场落地后直驱亚瑟港",
+      "notes": "仅作跨州落地与取车转场；不安排落地 City Walk／Rosny Hill／连住霍巴特。\n\n【人文】\nnipaluna 位于 Muwinina Country；砂岩仓库、南极科研与港口史并存。kunanyi 是重要的 Aboriginal 地名。城市的文化名片也包括 MONA 对当代艺术与旅游形象的重塑。\n深度补充：nipaluna位于Muwinina Country。砂岩仓库、捕鲸与航运、南极科研、MONA及环境政治构成多重城市性格；双重命名让原住民语言重新进入公共空间。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n9/28抵达后只安排Rosny Hill Nature Recreation Area（罗斯尼山自然休闲区）日落；9/28-9/29连住霍巴特，作为两次自然一日团的接送基地。\n已纳入本次行程",
+      "lat": -42.8821,
+      "lng": 147.3272,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "仅作跨州落地与取车转场；不安排落地 City Walk／Rosny Hill／连住霍巴特。",
+        "culture": "nipaluna 位于 Muwinina Country；砂岩仓库、南极科研与港口史并存。kunanyi 是重要的 Aboriginal 地名。城市的文化名片也包括 MONA 对当代艺术与旅游形象的重塑。\n深度补充：nipaluna位于Muwinina Country。砂岩仓库、捕鲸与航运、南极科研、MONA及环境政治构成多重城市性格；双重命名让原住民语言重新进入公共空间。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "9/28抵达后只安排Rosny Hill Nature Recreation Area（罗斯尼山自然休闲区）日落；9/28-9/29连住霍巴特，作为两次自然一日团的接送基地。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "BOM霍巴特气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_094029.shtml"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://tacinc.com.au/tasmanian-aboriginal-place-names/"
+        }
+      ]
+    },
+    {
+      "id": "skip-01",
+      "name": "珀斯（Perth／Boorloo）",
+      "name_en": "珀斯（Perth／Boorloo）, Western Australia 城市／区域：Perth／Boorloo",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "Swan River 河湾、Kings Park 与港口城市肌理是核心；春季适合看野花。城市的 Noongar 名称常写作 Boorloo，河流为 Derbarl Yerrigan。\n深度补充：城市最值得理解的自然骨架是 Swan／Derbarl Yerrigan 河口、Kings Park 高地与印度洋海风共同形成的生态梯度。Kings Park 并非普通城市公园，而是大面积原生灌木地、野花保育与城市眺望台的结合；9月底正处西澳野花季尾段。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n这里首先是 Whadjuk Noongar Country，而不只是现代矿业城市。若有半天，可用 Kings Park 的原生植物与原住民文化解说串起城市、河流和西澳生态。\n深度补充：Whadjuk Noongar 人把河流、湿地和高地看作相互连接的 Country。殖民后的 Perth 又因天鹅河殖民地、港口、铁路和20世纪末资源业扩张而改变；阅读城市时可同时观察原住民地名恢复、矿业资本建筑和多元移民餐饮。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次仅作入境、取车、转机和补给，不硬塞市区半日游。\n不在本次行程中",
+      "lat": -31.9523,
+      "lng": 115.8613,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "这里首先是 Whadjuk Noongar Country，而不只是现代矿业城市。若有半天，可用 Kings Park 的原生植物与原住民文化解说串起城市、河流和西澳生态。\n深度补充：Whadjuk Noongar 人把河流、湿地和高地看作相互连接的 Country。殖民后的 Perth 又因天鹅河殖民地、港口、铁路和20世纪末资源业扩张而改变；阅读城市时可同时观察原住民地名恢复、矿业资本建筑和多元移民餐饮。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次仅作入境、取车、转机和补给，不硬塞市区半日游。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.bgpa.wa.gov.au/kings-park"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.noongarculture.org.au/boorloo-perth/"
+        }
+      ]
+    },
+    {
+      "id": "skip-08",
+      "name": "Rottnest Island／Wadjemup／Quokka（罗特尼斯岛／瓦杰马普／短尾矮袋鼠）",
+      "name_en": "Rottnest Island／Wadjemup／Quokka, Western Australia 城市／区域：Wadjemup／Rottnest Island（Perth／Fremantle 外海）",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "短尾矮袋鼠最有名，但岛上还有盐湖、海岸与海洋生态。动物自拍需保持距离，不触摸、不喂食。\n深度补充：Wadjemup有短尾矮袋鼠、盐湖、海草床、珊瑚与沙丘系统。Quokka多在清晨、傍晚活跃；自拍应由人退让、保持距离，不喂食、不触摸，也不要为追照片挡住动物通道。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\nWadjemup 对 Noongar 人也是痛苦的历史地点：殖民时期曾监禁大量 Aboriginal men，岛上有墓地与纪念空间。它不应只被包装成“微笑袋鼠岛”。\n深度补充：岛上曾作为殖民时期原住民监狱，数千名Aboriginal men被关押，许多人死于此并葬在岛上。Wadjemup Project、墓地和纪念空间是理解岛屿不可绕过的部分，不能只讲“微笑袋鼠”。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；需要从 Perth／Fremantle 单独留一整天，建议下次深做。\n不在本次行程中",
+      "lat": -32.006,
+      "lng": 115.515,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "Wadjemup 对 Noongar 人也是痛苦的历史地点：殖民时期曾监禁大量 Aboriginal men，岛上有墓地与纪念空间。它不应只被包装成“微笑袋鼠岛”。\n深度补充：岛上曾作为殖民时期原住民监狱，数千名Aboriginal men被关押，许多人死于此并葬在岛上。Wadjemup Project、墓地和纪念空间是理解岛屿不可绕过的部分，不能只讲“微笑袋鼠”。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；需要从 Perth／Fremantle 单独留一整天，建议下次深做。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.rottnestisland.com/see-do/wildlife-nature/quokkas"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.rottnestisland.com/learn/history/aboriginal-history"
+        }
+      ]
+    },
+    {
+      "id": "skip-09",
+      "name": "新诺舍（New Norcia）／诺瑟姆（Northam）／约克（York）／National Route 1（1号国道）",
+      "name_en": "新诺舍（New Norcia）／诺瑟姆（Northam）／约克（York）／National Route 1（1号国道）, Western Australia 城市／区域：New Norcia、Northam、York／Avon Valley 与 Wheatbelt",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "York 是 Avon Valley 历史城镇；New Norcia 以 Benedictine 修道建筑闻名。Northam 可看 Avon River 与内陆农业城镇。\n深度补充：Avon Valley与Wheatbelt从河谷林地过渡到大面积农业平原；York保存砂岩和维多利亚时期街景，Northam沿Avon River展开，New Norcia则以修道院建筑群形成强烈视觉差异。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\nNew Norcia 也牵涉天主教传教机构、原住民儿童与同化政策历史，不宜只看欧式建筑。若前往，应读场馆对 Aboriginal mission history 的说明，并避免浪漫化。\n深度补充：New Norcia的Benedictine遗产必须与传教机构、原住民儿童教育及同化政策史一起阅读；York与Northam也连接殖民农牧扩张、铁路与移民史。只看欧式建筑会遮蔽土地被占用的过程。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次北上海岸线不顺路，不安排；适合另做 Perth 东部 1-2 日环线。\n不在本次行程中",
+      "lat": -30.97,
+      "lng": 116.22,
+      "geocode_source": "known_primary_of_multi",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "New Norcia 也牵涉天主教传教机构、原住民儿童与同化政策历史，不宜只看欧式建筑。若前往，应读场馆对 Aboriginal mission history 的说明，并避免浪漫化。\n深度补充：New Norcia的Benedictine遗产必须与传教机构、原住民儿童教育及同化政策史一起阅读；York与Northam也连接殖民农牧扩张、铁路与移民史。只看欧式建筑会遮蔽土地被占用的过程。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次北上海岸线不顺路，不安排；适合另做 Perth 东部 1-2 日环线。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.westernaustralia.com/en/places/new-norcia"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.newnorcia.com.au/history/"
+        }
+      ]
+    },
+    {
+      "id": "skip-10",
+      "name": "Ningaloo Reef／Nyinggulu（宁格鲁礁）",
+      "name_en": "Ningaloo Reef／Nyinggulu, Western Australia 城市／区域：Exmouth、Coral Bay／Ningaloo Coast",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "世界遗产海岸礁系统，部分位置可从岸边入水。鲸鲨主季多在较早月份，座头鲸季较晚；具体月份、海况和动物出现都不保证。\n深度补充：Nyinggulu是少数可从岸边接近的大型裙礁系统，珊瑚礁、鲸鲨、蝠鲼、座头鲸与海龟共享季节性海域。动物游泳受季节、海况和许可运营控制；不下水也可通过Cape Range地貌、海岸步道与岸观理解世界遗产价值。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\nNyinggulu 是 Baiyungu、Thalanyji 与 Yinigurdira people 长期连接的海陆文化景观。世界遗产价值同时包含海洋生态与大陆喀斯特。\n深度补充：世界遗产地跨越Baiyungu、Thalanyji、Yinigurdira等Traditional Owners的海陆Country。更深的阅读应把珊瑚礁与大陆喀斯特、原住民知识和当代保育放在同一框架。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排：距离 Kalbarri 以北仍很远，至少需额外 4-6 天；且若不想下水，不必为鲸鲨专程赶路。\n不在本次行程中",
+      "lat": -22.23,
+      "lng": 113.84,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "Nyinggulu 是 Baiyungu、Thalanyji 与 Yinigurdira people 长期连接的海陆文化景观。世界遗产价值同时包含海洋生态与大陆喀斯特。\n深度补充：世界遗产地跨越Baiyungu、Thalanyji、Yinigurdira等Traditional Owners的海陆Country。更深的阅读应把珊瑚礁与大陆喀斯特、原住民知识和当代保育放在同一框架。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排：距离 Kalbarri 以北仍很远，至少需额外 4-6 天；且若不想下水，不必为鲸鲨专程赶路。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://whc.unesco.org/en/list/1369/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.ningaloo.com/indigenous-culture/"
+        }
+      ]
+    },
+    {
+      "id": "skip-11",
+      "name": "蒙基米亚（Monkey Mia）／Dolphins（海豚）",
+      "name_en": "蒙基米亚（Monkey Mia）／Dolphins（海豚）, Western Australia 城市／区域：Monkey Mia／Shark Bay（近 Denham）",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "位于 Shark Bay World Heritage Area；海豚接近是受管理的野生动物互动，出现与参与喂食都不保证。\n深度补充：这里的海豚接近与少量喂食由护林员管理，个体是否出现、游客能否参与都不保证。更广阔的Shark Bay还包括海草床、儒艮、贝壳海滩和stromatolites，世界遗产价值远超单一喂海豚体验。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\nShark Bay 是 Malgana Country，也有航海、珍珠贝与牧业史。把海豚当野生动物而不是固定表演，更符合保护逻辑。\n深度补充：Monkey Mia位于Malgana Country；区域还有珍珠贝采集、牧业、航海和科学研究史。管理式互动从过去随意喂食转向限量、监测，体现野生动物旅游伦理的变化。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；从 Kalbarri 往返会显著增加驾驶，建议与 Ningaloo 合并成下一次西澳北线。\n不在本次行程中",
+      "lat": -25.793,
+      "lng": 113.72,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "Shark Bay 是 Malgana Country，也有航海、珍珠贝与牧业史。把海豚当野生动物而不是固定表演，更符合保护逻辑。\n深度补充：Monkey Mia位于Malgana Country；区域还有珍珠贝采集、牧业、航海和科学研究史。管理式互动从过去随意喂食转向限量、监测，体现野生动物旅游伦理的变化。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；从 Kalbarri 往返会显著增加驾驶，建议与 Ningaloo 合并成下一次西澳北线。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.sharkbay.org/place/monkey-mia/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://whc.unesco.org/en/list/578/"
+        }
+      ]
+    },
+    {
+      "id": "skip-12",
+      "name": "阿德莱德（Adelaide／Tarntanya）",
+      "name_en": "阿德莱德（Adelaide／Tarntanya）, South Australia 城市／区域：Adelaide／Tarntanya",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "以公园环带、中央市场、文化大道与海边电车线构成易步行城市；春季天气适合城市与 Adelaide Hills 组合。\n深度补充：城市由River Torrens／Karrawirra Parri、公园环带、海岸平原和Adelaide Hills围合，步行与电车可串中央市场、North Terrace与Glenelg。春季温和，但山地与海边体感差异明显。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\nAdelaide 位于 Kaurna Country。殖民城市以规划著称，“City of Churches”是历史昵称，但当代城市更应从 Kaurna 文化、移民饮食、节庆与艺术共同理解。\n深度补充：Tarntanya位于Kaurna Country。1836年殖民规划、自由殖民地叙事、“City of Churches”、移民市场饮食与当代节庆共同构成城市身份；Kaurna语言复兴和双重命名是理解当代城市的重要线索。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不进入南澳；下次作 2-3 晚基地。\n不在本次行程中",
+      "lat": -34.9285,
+      "lng": 138.6007,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "Adelaide 位于 Kaurna Country。殖民城市以规划著称，“City of Churches”是历史昵称，但当代城市更应从 Kaurna 文化、移民饮食、节庆与艺术共同理解。\n深度补充：Tarntanya位于Kaurna Country。1836年殖民规划、自由殖民地叙事、“City of Churches”、移民市场饮食与当代节庆共同构成城市身份；Kaurna语言复兴和双重命名是理解当代城市的重要线索。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不进入南澳；下次作 2-3 晚基地。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://southaustralia.com/destinations/adelaide"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://livingkaurna.com.au/"
+        }
+      ]
+    },
+    {
+      "id": "skip-13",
+      "name": "Kangaroo Island／Karta Pintingga（袋鼠岛）",
+      "name_en": "Kangaroo Island／Karta Pintingga, South Australia 城市／区域：Kangaroo Island／Karta Pintingga",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "野生动物分散在 Seal Bay、Flinders Chase 等不同区域，至少需 2-3 天。动物出现不保证；2019-20 山火后的生态恢复也是理解岛屿的重要部分。\n深度补充：岛上生态并非一个动物园：海狮在Seal Bay、海豹与悬崖在Flinders Chase、考拉与针鼹分散在不同栖息地。2019-20山火重塑大片景观，今日看到的再生植被、烧痕和保育工程本身就是重要内容。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n岛屿是 Kangaroo Island／Karta Pintingga，连接 Ngarrindjeri、Ramindjeri 等文化叙事；殖民捕猎、农业、纯种 Ligurian 蜜蜂与当代保育共同塑造岛屿形象。\n深度补充：Karta Pintingga与Ngarrindjeri／Ramindjeri等文化叙事相连。欧洲海豹捕猎、农业、灯塔、Ligurian蜂种隔离及当代生态旅游共同塑造岛屿，不能只按动物清单追点。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；下次从 Adelaide 乘渡轮并至少住两晚，不做一日暴走。\n不在本次行程中",
+      "lat": -35.775,
+      "lng": 137.214,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "岛屿是 Kangaroo Island／Karta Pintingga，连接 Ngarrindjeri、Ramindjeri 等文化叙事；殖民捕猎、农业、纯种 Ligurian 蜜蜂与当代保育共同塑造岛屿形象。\n深度补充：Karta Pintingga与Ngarrindjeri／Ramindjeri等文化叙事相连。欧洲海豹捕猎、农业、灯塔、Ligurian蜂种隔离及当代生态旅游共同塑造岛屿，不能只按动物清单追点。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；下次从 Adelaide 乘渡轮并至少住两晚，不做一日暴走。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.parks.sa.gov.au/parks/flinders-chase-national-park"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.tourkangarooisland.com.au/island-stories/aboriginal-culture"
+        }
+      ]
+    },
+    {
+      "id": "skip-14",
+      "name": "Seal Bay／Australian Sea Lion（海豹湾／澳大利亚海狮）",
+      "name_en": "Seal Bay／Australian Sea Lion, South Australia 城市／区域：Seal Bay（Kangaroo Island）",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "以 Australian sea lion 繁殖群闻名，游客只能依步道或向导规则观察。最佳体验不是靠近，而是看它们在沙丘与海滩的自然行为。\n深度补充：这里保护Australian sea lion繁殖群；动物会在海上觅食数日后回岸休息，幼崽、母兽和雄兽行为随季节变化。游客只能在boardwalk或导览区观察，距离和封闭由现场决定。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\nAustralian sea lion 是受威胁物种；将导览费理解为保护与监测的一部分，比“打卡海豹”更准确。\n深度补充：Australian sea lion是受威胁物种，历史上受商业捕猎与渔业冲突影响。现代导览费支持监测和栖息地管理，因此“近距离”并不是越近越好，而是理解保护边界。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n并入下次 Kangaroo Island 线路；上午或傍晚光线较柔，服从现场封闭。\n不在本次行程中",
+      "lat": -35.775,
+      "lng": 137.214,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "Australian sea lion 是受威胁物种；将导览费理解为保护与监测的一部分，比“打卡海豹”更准确。\n深度补充：Australian sea lion是受威胁物种，历史上受商业捕猎与渔业冲突影响。现代导览费支持监测和栖息地管理，因此“近距离”并不是越近越好，而是理解保护边界。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "并入下次 Kangaroo Island 线路；上午或傍晚光线较柔，服从现场封闭。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.parks.sa.gov.au/experiences/seal-bay"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.environment.sa.gov.au/topics/animals-and-plants/threatened-species-and-ecological-communities/australian-sea-lion"
+        }
+      ]
+    },
+    {
+      "id": "skip-15",
+      "name": "甘比尔山（Mount Gambier）／Blue Lake（蓝湖）／Cave Gardens（洞穴花园）",
+      "name_en": "甘比尔山（Mount Gambier）／Blue Lake（蓝湖）／Cave Gardens（洞穴花园）, South Australia 城市／区域：Mount Gambier／Berrin",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "Blue Lake 位于火山口，颜色有明显季节变化；Cave Garden、Umpherston Sinkhole 与地下水系统体现火山、石灰岩和喀斯特共同作用。\n深度补充：Blue Lake位于maar火山口，夏季常显鲜蓝、冬季偏灰；颜色变化与水体混合、碳酸钙颗粒和光学条件有关。Umpherston Sinkhole、Cave Garden与地下水系统共同展示火山和石灰岩喀斯特叠加。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\nMount Gambier／Berrin 位于 Boandik Country。蓝湖的殖民命名与当地 Aboriginal 地名、地下水作为城市水源的现实可一起理解。\n深度补充：Berrin位于Boandik Country。城市依赖地下水，石灰岩建筑和火山口景观也塑造地方身份；原住民地名、殖民测绘名和现代水资源治理应放在一起理解。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；以后与 Great Ocean Road 西端、Naracoorte 串成 3-4 天。\n不在本次行程中",
+      "lat": -37.828,
+      "lng": 140.782,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "Mount Gambier／Berrin 位于 Boandik Country。蓝湖的殖民命名与当地 Aboriginal 地名、地下水作为城市水源的现实可一起理解。\n深度补充：Berrin位于Boandik Country。城市依赖地下水，石灰岩建筑和火山口景观也塑造地方身份；原住民地名、殖民测绘名和现代水资源治理应放在一起理解。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；以后与 Great Ocean Road 西端、Naracoorte 串成 3-4 天。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.mountgambier.sa.gov.au/experience/attractions/blue-lake-warwar"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.burrandiesaboriginalcorporation.com.au/"
+        }
+      ]
+    },
+    {
+      "id": "skip-16",
+      "name": "Naracoorte Caves National Park（纳拉库特洞穴国家公园）",
+      "name_en": "Naracoorte Caves National Park, South Australia 城市／区域：Naracoorte／Limestone Coast",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "南澳唯一世界遗产地，以超过 50 万年的脊椎动物化石记录闻名，包括 Diprotodon、marsupial lion 与巨型袋鼠。\n深度补充：洞穴保存超过50万年的脊椎动物化石，捕兽洞把巨型袋鼠、Diprotodon、marsupial lion等遗骸带入长期沉积序列。Victoria Fossil Cave导览能同时看到活洞穴过程、发掘点和古生态解释。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n这里把“澳洲奇特动物”从活体观察延伸到深时生态与灭绝史；洞穴旅游应预约具体 tour，而不是只到访游客中心。\n深度补充：Naracoorte与Riversleigh共同构成世界遗产化石地，改变了人们对澳洲动物演化、气候变化和灭绝时间的理解。这里是把“奇特动物”从旅游符号提升到科学史的最好地点之一。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；下次至少半天，优先 Victoria Fossil Cave 导览。\n不在本次行程中",
+      "lat": -37.035,
+      "lng": 140.805,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "这里把“澳洲奇特动物”从活体观察延伸到深时生态与灭绝史；洞穴旅游应预约具体 tour，而不是只到访游客中心。\n深度补充：Naracoorte与Riversleigh共同构成世界遗产化石地，改变了人们对澳洲动物演化、气候变化和灭绝时间的理解。这里是把“奇特动物”从旅游符号提升到科学史的最好地点之一。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；下次至少半天，优先 Victoria Fossil Cave 导览。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "南澳唯一世界遗产地",
+          "url": "https://www.naracoortecaves.sa.gov.au/"
+        },
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.naracoortecaves.sa.gov.au/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://whc.unesco.org/en/list/698/"
+        }
+      ]
+    },
+    {
+      "id": "skip-17",
+      "name": "Limestone Coast（石灰岩海岸）",
+      "name_en": "Limestone Coast, South Australia 城市／区域：Limestone Coast（Mount Gambier—Naracoorte—Coonawarra）",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "不是单点，而是 Mount Gambier、Naracoorte、Coonawarra、海岸湿地与洞穴系统组成的区域。\n深度补充：区域的统一线索是年轻火山、石灰岩台地、洞穴、地下水、湿地与冷凉海岸；Mount Gambier、Naracoorte、Coonawarra和Robe代表完全不同的地貌与节奏，至少需要数日。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n葡萄酒、石灰岩建筑、地下水农业和沿岸殖民交通共同塑造区域；适合慢行，不适合一天从 Adelaide 往返。\n深度补充：红土葡萄园、石灰岩建筑、港口、农业与洞穴科学共同形成地方文化。产业依赖地下水，也让水资源保护、农业利用与生态系统之间的张力成为现实主题。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；以后自驾 3-5 天。\n不在本次行程中",
+      "lat": -37.3,
+      "lng": 140.5,
+      "geocode_source": "known_region_centroid",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "葡萄酒、石灰岩建筑、地下水农业和沿岸殖民交通共同塑造区域；适合慢行，不适合一天从 Adelaide 往返。\n深度补充：红土葡萄园、石灰岩建筑、港口、农业与洞穴科学共同形成地方文化。产业依赖地下水，也让水资源保护、农业利用与生态系统之间的张力成为现实主题。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；以后自驾 3-5 天。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://southaustralia.com/destinations/limestone-coast"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.limestonecoast.org.au/"
+        }
+      ]
+    },
+    {
+      "id": "skip-18",
+      "name": "Art Gallery of South Australia（南澳大利亚美术馆）",
+      "name_en": "Art Gallery of South Australia, South Australia 城市／区域：North Terrace, Adelaide",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "位于 North Terrace 文化区，适合与 South Australian Museum、Botanic Garden 组合。\n深度补充：馆舍位于North Terrace文化轴，19世纪建筑和室内庭院本身值得看；藏品横跨澳洲、欧洲、亚洲及装饰艺术，适合用2-3小时而非快速打卡。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n馆藏横跨澳洲、欧洲与亚洲艺术。看 Aboriginal and Torres Strait Islander art 时，应关注作品所属 Nation、艺术家与策展语境，而不是只用“点画”概括。\n深度补充：观看Aboriginal and Torres Strait Islander art时要看艺术家、Nation、材料与策展说明。AGSA的Tarnanthi项目把当代原住民艺术放在中心位置，能打破“原住民艺术只等于传统点画”的印象。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；下次 Adelaide 城市日留 2-3 小时。\n不在本次行程中",
+      "lat": -34.92,
+      "lng": 138.601,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "馆藏横跨澳洲、欧洲与亚洲艺术。看 Aboriginal and Torres Strait Islander art 时，应关注作品所属 Nation、艺术家与策展语境，而不是只用“点画”概括。\n深度补充：观看Aboriginal and Torres Strait Islander art时要看艺术家、Nation、材料与策展说明。AGSA的Tarnanthi项目把当代原住民艺术放在中心位置，能打破“原住民艺术只等于传统点画”的印象。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；下次 Adelaide 城市日留 2-3 小时。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.agsa.sa.gov.au/visit/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.agsa.sa.gov.au/whats-on/tarnanthi/"
+        }
+      ]
+    },
+    {
+      "id": "skip-19",
+      "name": "Adelaide Zoo／Common Wombat（阿德莱德动物园／普通袋熊）",
+      "name_en": "Adelaide Zoo／Common Wombat, South Australia 城市／区域：Adelaide",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "动物展示以当天场馆与保育项目为准；普通袋熊是否可见、是否活跃均不保证。\n深度补充：动物园位于市中心北缘与Botanic Garden相邻，适合观察保育展示而非保证某一只动物活跃。袋熊多在凉爽时段更活跃；场馆、keeper talk和encounter须以当日安排为准。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n若目标是袋熊近距离体验，应先比较官方 encounter、动物福利规则与预约，而不是仅按物种清单选动物园。\n深度补充：Adelaide Zoo建于1883年，反映动物园从异域收藏、娱乐展示到物种保育和福利标准的转型。比较历史笼舍、现代展区与Zoos SA保育项目，会比只看物种名单更有意义。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；下次与 Botanic Garden 同日。\n不在本次行程中",
+      "lat": -34.9285,
+      "lng": 138.6007,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "若目标是袋熊近距离体验，应先比较官方 encounter、动物福利规则与预约，而不是仅按物种清单选动物园。\n深度补充：Adelaide Zoo建于1883年，反映动物园从异域收藏、娱乐展示到物种保育和福利标准的转型。比较历史笼舍、现代展区与Zoos SA保育项目，会比只看物种名单更有意义。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；下次与 Botanic Garden 同日。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.adelaidezoo.com.au/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.zoossa.com.au/conservation/"
+        }
+      ]
+    },
+    {
+      "id": "skip-20",
+      "name": "Adelaide Hills（阿德莱德山）",
+      "name_en": "Adelaide Hills, South Australia 城市／区域：Adelaide Hills",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "Cleland Wildlife Park 等地适合动物与林地体验，但不同物种活跃时段不同；春季清晨与傍晚更容易遇到野生动物。\n深度补充：海拔、较高降雨和桉树林让这里比Adelaide平原更凉湿，Cleland等地可见考拉、袋鼠和林鸟。春季清晨与傍晚动物较活跃，但山火风险、封闭与天气仍需检查。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n这里不只“看动物”，也有 Peramangk／Kaurna Country、德裔移民城镇、葡萄酒与山火记忆。\n深度补充：区域跨Peramangk与Kaurna Country，也有Hahndorf等德裔移民城镇、果园、葡萄酒和山火记忆。景观不是单一“欧洲小镇”，而是原住民Country与多层移民史叠加。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；下次留 1-2 天。\n不在本次行程中",
+      "lat": -34.9285,
+      "lng": 138.6007,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "这里不只“看动物”，也有 Peramangk／Kaurna Country、德裔移民城镇、葡萄酒与山火记忆。\n深度补充：区域跨Peramangk与Kaurna Country，也有Hahndorf等德裔移民城镇、果园、葡萄酒和山火记忆。景观不是单一“欧洲小镇”，而是原住民Country与多层移民史叠加。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；下次留 1-2 天。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.parks.sa.gov.au/parks/cleland-national-park"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.adelaidehills.org.au/see-and-do/aboriginal-culture/"
+        }
+      ]
+    },
+    {
+      "id": "skip-21",
+      "name": "Jurlique Farm（茱莉蔻农场）",
+      "name_en": "Jurlique Farm, South Australia 城市／区域：Adelaide Hills",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "品牌农场位于 Adelaide Hills，参观通常依预订与季节安排；不能默认随到随进。\n深度补充：农场展示品牌使用的植物、土壤管理、堆肥与季节性采收；实际可见花田取决于季节，参观必须跟随指定tour，不能把商业农场当开放公园。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n可把它与澳洲植物护肤、biodynamic farming 的品牌叙事一起看，但品牌营销不等同于独立科学证明。\n深度补充：Jurlique把澳洲植物、biodynamic farming与高端护肤叙事结合，是研究品牌如何制造“纯净澳洲”形象的案例。参观时可区分可观察的农业实践、企业故事与需要独立证据支持的功效声称。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；下次提前查 tour 日历。\n不在本次行程中",
+      "lat": -34.98,
+      "lng": 138.78,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "可把它与澳洲植物护肤、biodynamic farming 的品牌叙事一起看，但品牌营销不等同于独立科学证明。\n深度补充：Jurlique把澳洲植物、biodynamic farming与高端护肤叙事结合，是研究品牌如何制造“纯净澳洲”形象的案例。参观时可区分可观察的农业实践、企业故事与需要独立证据支持的功效声称。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；下次提前查 tour 日历。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.jurlique.com.au/pages/jurlique-farm"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.jurlique.com.au/pages/our-story"
+        }
+      ]
+    },
+    {
+      "id": "skip-22",
+      "name": "Eyre Peninsula／South Australian Whale Centre（艾尔半岛／南澳鲸鱼中心）",
+      "name_en": "Eyre Peninsula／South Australian Whale Centre, South Australia 城市／区域：Eyre Peninsula；Victor Harbor（South Australian Whale Centre）",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "原清单里有一个地理混淆：South Australian Whale Centre 位于 Victor Harbor，不在 Eyre Peninsula。南露脊鲸主要是季节性迁徙，Head of Bight 是另一条远距离线路。\n深度补充：原清单把两个相距很远的体验混在一起：Eyre Peninsula的Head of Bight是南露脊鲸季节性集结地；South Australian Whale Centre则在Victor Harbor。两者都依赖迁徙季、海况与能见度。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n南澳沿岸既有捕鲸史，也有从捕猎到观鲸与保育的价值转变；参观鲸类中心可先理解这种历史，再决定是否追季节性观鲸。\n深度补充：南澳海岸从捕鲸产业转向观鲸、解说与保护，鲸类中心保存这段价值转向。Head of Bight还位于Mirning Country附近，悬崖与鲸群也是文化景观而非纯自然背景。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排。以后需拆为 Victor Harbor／Fleurieu 与 Eyre Peninsula 两条路线。\n不在本次行程中",
+      "lat": -34.5,
+      "lng": 135.8,
+      "geocode_source": "known_region_centroid",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "南澳沿岸既有捕鲸史，也有从捕猎到观鲸与保育的价值转变；参观鲸类中心可先理解这种历史，再决定是否追季节性观鲸。\n深度补充：南澳海岸从捕鲸产业转向观鲸、解说与保护，鲸类中心保存这段价值转向。Head of Bight还位于Mirning Country附近，悬崖与鲸群也是文化景观而非纯自然背景。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排。以后需拆为 Victor Harbor／Fleurieu 与 Eyre Peninsula 两条路线。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://headofbight.com.au/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://sawhalecentre.com.au/"
+        }
+      ]
+    },
+    {
+      "id": "skip-25",
+      "name": "Bonorong Wildlife Sanctuary／Wombat Encounter（博诺朗野生动物保护区／袋熊近距离体验）",
+      "name_en": "Bonorong Wildlife Sanctuary／Wombat Encounter, Tasmania／lutruwita 城市／区域：Brighton（Hobart 北部）",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "野生动物救护与保育中心，可见 Tasmanian devil、wombat 等；具体 encounter 必须预约，完全以动物福利和当日安排为准。\n深度补充：Bonorong经营24/7野生动物救护网络和医院，居民动物多因伤病无法重返野外。袋獾、袋熊、针鼹与Forester kangaroo的展示会结合救护故事；近距离体验人数少并可因动物状态取消。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n与普通动物园相比，Bonorong 的重点是救护、康复和公众教育。近距离接触不应被描述成“必抱”，而是受监管、可能临时取消的体验。\n深度补充：这里把“看可爱动物”转换成路杀、宠物伤害、栖息地与疾病等现实教育。门票和encounter收入支持救护；游客不应把救助动物的亲人行为误读为野外也可接近。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不单独去Bonorong；袋熊可在Caversham Wildlife Park（卡弗舍姆野生动物园）、Maria Island（玛丽亚岛）和Ronny Creek（罗尼溪）观察；袋獾改由10/2 Devils@Cradle（摇篮山恶魔保护园）夜间喂食团完成，专门性和活跃时段都更符合本次优先级。\n不在本次行程中",
+      "lat": -42.7,
+      "lng": 147.27,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "与普通动物园相比，Bonorong 的重点是救护、康复和公众教育。近距离接触不应被描述成“必抱”，而是受监管、可能临时取消的体验。\n深度补充：这里把“看可爱动物”转换成路杀、宠物伤害、栖息地与疾病等现实教育。门票和encounter收入支持救护；游客不应把救助动物的亲人行为误读为野外也可接近。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不单独去Bonorong；袋熊可在Caversham Wildlife Park（卡弗舍姆野生动物园）、Maria Island（玛丽亚岛）和Ronny Creek（罗尼溪）观察；袋獾改由10/2 Devils@Cradle（摇篮山恶魔保护园）夜间喂食团完成，专门性和活跃时段都更符合本次优先级。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.bonorong.com.au/experiences/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.bonorong.com.au/rescue/"
+        }
+      ]
+    },
+    {
+      "id": "skip-26",
+      "name": "Port Arthur Historic Site（亚瑟港历史遗址）",
+      "name_en": "Port Arthur Historic Site, Tasmania／lutruwita 城市／区域：Port Arthur／Tasman Peninsula",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "澳大利亚罪犯流放遗址世界遗产组成部分；遗址、海湾和 Isle of the Dead 等项目需要至少 3 小时。\n深度补充：146公顷遗址包括Penitentiary、Separate Prison、教堂、住宅、花园和海湾；空间尺度本身展示惩罚、劳动、监视与阶级分区。普通票含港湾短船和讲解，至少半天。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n它展示英帝国流放制度、强迫劳动、阶级与惩戒，也承载 1996 年 Port Arthur 枪击案及其推动澳洲枪支改革的集体记忆。参观时避免把苦难史仅当“阴森拍照背景”。\n深度补充：它属于Australian Convict Sites世界遗产，涉及帝国流放、强迫劳动、少年囚犯和刑罚改革；同时承载1996年枪击案及其推动全国枪支管制改革的集体记忆。两层创伤都不应被“鬼故事”覆盖。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n已按你的兴趣明确从9/29删除；不再安排监狱／流放史主题参观。\n不在本次行程中",
+      "lat": -43.137,
+      "lng": 147.846,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "它展示英帝国流放制度、强迫劳动、阶级与惩戒，也承载 1996 年 Port Arthur 枪击案及其推动澳洲枪支改革的集体记忆。参观时避免把苦难史仅当“阴森拍照背景”。\n深度补充：它属于Australian Convict Sites世界遗产，涉及帝国流放、强迫劳动、少年囚犯和刑罚改革；同时承载1996年枪击案及其推动全国枪支管制改革的集体记忆。两层创伤都不应被“鬼故事”覆盖。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "已按你的兴趣明确从9/29删除；不再安排监狱／流放史主题参观。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://portarthur.org.au/whats-on/generaladmission/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://whc.unesco.org/en/list/1306/"
+        }
+      ]
+    },
+    {
+      "id": "skip-30",
+      "name": "Bay of Fires／larapuna（火焰湾／拉拉普纳）",
+      "name_en": "Bay of Fires／larapuna, Tasmania／lutruwita 城市／区域：larapuna／Bay of Fires（东北海岸）",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "东北海岸白沙、蓝水与橙色地衣覆盖花岗岩最著名；“火焰湾”殖民名称来自航海者从海上看到岸边 Aboriginal fires 的记录。\n深度补充：白色石英砂、清澈浅海与花岗岩上的橙色地衣构成标志性色彩；海岸跨度很长，Binalong Bay、The Gardens等不是同一停车点。天气、浪况和光线会显著改变水色。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\nlarapuna 是持续使用的 Aboriginal 名称。这里的人文重点正是那些“火”：它们证明海岸并非无人地带，而是有人生活、管理土地的 Country。\n深度补充：“Bay of Fires”来自欧洲航海者从海上看见岸边火光的记录，这些火正证明Aboriginal people居住和管理海岸。使用larapuna名称能让旅游叙事从“发现无人海岸”转回持续的Country。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；与现有 Maria Island-Freycinet-Cradle 路线并行但会造成折返，留给下一次东北线。\n不在本次行程中",
+      "lat": -41.15,
+      "lng": 148.3,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "larapuna 是持续使用的 Aboriginal 名称。这里的人文重点正是那些“火”：它们证明海岸并非无人地带，而是有人生活、管理土地的 Country。\n深度补充：“Bay of Fires”来自欧洲航海者从海上看见岸边火光的记录，这些火正证明Aboriginal people居住和管理海岸。使用larapuna名称能让旅游叙事从“发现无人海岸”转回持续的Country。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；与现有 Maria Island-Freycinet-Cradle 路线并行但会造成折返，留给下一次东北线。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://parks.tas.gov.au/explore-our-parks/mount-william-national-park"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://tacinc.com.au/tasmanian-aboriginal-place-names/"
+        }
+      ]
+    },
+    {
+      "id": "skip-31",
+      "name": "Bruny Island／lunawanna-alonnah（布鲁尼岛／卢纳万纳-阿隆纳）",
+      "name_en": "Bruny Island／lunawanna-alonnah, Tasmania／lutruwita 城市／区域：Bruny Island／lunawanna-alonnah（Hobart 南部）",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "需车渡，岛上距离比地图看起来长；美食点分散，适合完整一天或过夜。\n深度补充：岛由狭窄The Neck连接南北两部分，海崖、雨林、海鸟与海产点分散；车渡排队和岛内慢路使一日行程比地图更耗时。南部更野，北部更接近农场与食品体验。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n这里是 Nuenonne people 的 Country，与 Truganini 的生命史密切相关。应避免把岛只压缩为生蚝与网红阶梯，最好把原住民历史、捕鲸与灯塔史一起看。\n深度补充：这里是Nuenonne people的Country，并与Truganini生命史密切相关；灯塔、捕鲸、木材和农业史也很突出。现代“生蚝奶酪岛”品牌不应遮蔽殖民暴力和原住民持续文化。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次让出9/29给 Tasman Island（塔斯曼岛）荒野巡游和 Tasmanian Devil Unzoo（塔斯马尼亚袋獾无笼动物园）；Bruny Island（布鲁尼岛）保留在原始愿望清单，但不再进入本次主行程。\n不在本次行程中",
+      "lat": -43.37,
+      "lng": 147.28,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "这里是 Nuenonne people 的 Country，与 Truganini 的生命史密切相关。应避免把岛只压缩为生蚝与网红阶梯，最好把原住民历史、捕鲸与灯塔史一起看。\n深度补充：这里是Nuenonne people的Country，并与Truganini生命史密切相关；灯塔、捕鲸、木材和农业史也很突出。现代“生蚝奶酪岛”品牌不应遮蔽殖民暴力和原住民持续文化。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次让出9/29给 Tasman Island（塔斯曼岛）荒野巡游和 Tasmanian Devil Unzoo（塔斯马尼亚袋獾无笼动物园）；Bruny Island（布鲁尼岛）保留在原始愿望清单，但不再进入本次主行程。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.discovertasmania.com.au/regions/hobart-and-south/bruny-island/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://parks.tas.gov.au/explore-our-parks/south-bruny-national-park/cultural-heritage"
+        }
+      ]
+    },
+    {
+      "id": "skip-32",
+      "name": "罗斯（Ross）",
+      "name_en": "罗斯（Ross）, Tasmania／lutruwita 城市／区域：Ross／Northern Midlands",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "历史小镇以 1836 年砂岩桥、殖民建筑和羊毛产业景观闻名。\n深度补充：Macquarie River、砂岩桥和整齐殖民街区让Ross成为小尺度步行镇。1836年桥上的精细雕刻与河岸视角是核心；早晨或傍晚侧光最能表现砂岩。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n桥上雕刻通常与 convict stonemason Daniel Herbert 联系。Ross 常被游客称作《魔女宅急便》面包店灵感地，但没有可靠官方证据证明宫崎骏以此为原型；只能写“相似联想”，不能写成事实。\n深度补充：桥与convict stonemason Daniel Herbert相关，镇上羊毛产业和女性工厂史值得延伸。所谓《魔女宅急便》面包店原型缺乏宫崎骏或吉卜力官方证据，只能作为游客相似联想。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；9/30-10/1 走东海岸，不为 Ross 向内陆折返。\n不在本次行程中",
+      "lat": -42.03,
+      "lng": 147.49,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "桥上雕刻通常与 convict stonemason Daniel Herbert 联系。Ross 常被游客称作《魔女宅急便》面包店灵感地，但没有可靠官方证据证明宫崎骏以此为原型；只能写“相似联想”，不能写成事实。\n深度补充：桥与convict stonemason Daniel Herbert相关，镇上羊毛产业和女性工厂史值得延伸。所谓《魔女宅急便》面包店原型缺乏宫崎骏或吉卜力官方证据，只能作为游客相似联想。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；9/30-10/1 走东海岸，不为 Ross 向内陆折返。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.visitross.com.au/attractions/ross-bridge/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.femaleconvicts.org.au/places/ross-female-factory"
+        }
+      ]
+    },
+    {
+      "id": "skip-33",
+      "name": "斯坦利（Stanley）／The Nut（坚果山）",
+      "name_en": "斯坦利（Stanley）／The Nut（坚果山）, Tasmania／lutruwita 城市／区域：Stanley／西北海岸",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "西北海岸小镇，以古火山岩颈 The Nut 和海景著名，可步行或乘 chairlift。\n深度补充：The Nut是显著的古火山岩颈，步道陡但山顶可看Bass Strait、农田与镇区；chairlift受天气和季节影响。海风强时边缘体验会改变。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\nVan Diemen’s Land Company 的殖民土地史影响深远。电影《The Light Between Oceans》曾在 Stanley 一带取景，这是较明确的影视关联。\n深度补充：Stanley与Van Diemen’s Land Company殖民土地扩张、Highfield Historic Site和西北港口史相连。电影《The Light Between Oceans》曾在当地取景，是比模糊“像欧洲”更具体的作品关联。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；从 Cradle 去 Devonport 已受船班约束，Stanley 应另做西北线。\n不在本次行程中",
+      "lat": -40.76,
+      "lng": 145.3,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "Van Diemen’s Land Company 的殖民土地史影响深远。电影《The Light Between Oceans》曾在 Stanley 一带取景，这是较明确的影视关联。\n深度补充：Stanley与Van Diemen’s Land Company殖民土地扩张、Highfield Historic Site和西北港口史相连。电影《The Light Between Oceans》曾在当地取景，是比模糊“像欧洲”更具体的作品关联。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；从 Cradle 去 Devonport 已受船班约束，Stanley 应另做西北线。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.discovertasmania.com.au/regions/north-west/stanley/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://parks.tas.gov.au/explore-our-parks/highfield-historic-site"
+        }
+      ]
+    },
+    {
+      "id": "skip-35",
+      "name": "Lyrebird（琴鸟）",
+      "name_en": "Lyrebird, Tasmania／lutruwita 城市／区域：塔州部分森林（引入物种，非塔州原生）",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "琴鸟不是塔州原生物种，20 世纪被引入。它以模仿环境声音闻名，但在塔州也被研究其对森林地表生态的影响。\n深度补充：superb lyrebird在20世纪被引入塔州，并非岛上原生。它翻动大量林地落叶、模仿复杂声音；在合适森林中可能听见而不易看见，对地表无脊椎和植被的影响也在研究中。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n“会模仿相机快门”的流行文化形象很强，常见于自然纪录片；但在塔州遇见它并非纯粹的“本土特有动物打卡”，还包含引入物种争议。\n深度补充：BBC等自然纪录片强化了“模仿相机与电锯”的全球形象，但剪辑会让观众误以为每只鸟都随时表演。塔州语境更复杂：它既迷人，也是被人为引入、可能改变生态的物种。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不设专程寻找；林地偶遇即可。\n不在本次行程中",
+      "lat": null,
+      "lng": null,
+      "geocode_source": "failed_not_a_fixed_place",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "“会模仿相机快门”的流行文化形象很强，常见于自然纪录片；但在塔州遇见它并非纯粹的“本土特有动物打卡”，还包含引入物种争议。\n深度补充：BBC等自然纪录片强化了“模仿相机与电锯”的全球形象，但剪辑会让观众误以为每只鸟都随时表演。塔州语境更复杂：它既迷人，也是被人为引入、可能改变生态的物种。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不设专程寻找；林地偶遇即可。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.birdsinbackyards.net/species/Menura-novaehollandiae"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.abc.net.au/news/2014-02-28/lyrebirds-threaten-tasmanian-forests/5291682"
+        }
+      ]
+    },
+    {
+      "id": "skip-36",
+      "name": "Freycinet Whale Watching（菲欣纳观鲸）",
+      "name_en": "Freycinet Whale Watching, Tasmania／lutruwita 城市／区域：Freycinet Peninsula／东海岸",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "座头鲸与南露脊鲸迁徙有季节窗口，春季可能看到南行个体，但海况和动物出现都不保证。\n深度补充：春季可有座头鲸南迁，南露脊鲸也可能出现，但远岸个体容易被白浪遮蔽。高点岸观应带望远镜、连续扫描喷气、背鳍与异常浪花；任何观鲸都不能保证。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n观鲸是澳洲从商业捕鲸转向保护与生态旅游的文化转型缩影。望远镜岸观通常比临时塞一趟船更适合本次紧凑路线。\n深度补充：澳洲从商业捕鲸转向保护和生态旅游，是20世纪海洋价值观的重要转型。岸观比临时塞船更低干扰，也能把历史捕鲸港与当代保育放在一起理解。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n10/1 只保留 Wineglass Bay Lookout（酒杯湾观景台）清晨轻量徒步；本次观鲸船改为9/29 Tasman Island Cruises（塔斯曼岛巡游），不再预订Freycinet（菲欣纳）海上观鲸产品。\n不在本次行程中",
+      "lat": -42.14,
+      "lng": 148.3,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "观鲸是澳洲从商业捕鲸转向保护与生态旅游的文化转型缩影。望远镜岸观通常比临时塞一趟船更适合本次紧凑路线。\n深度补充：澳洲从商业捕鲸转向保护和生态旅游，是20世纪海洋价值观的重要转型。岸观比临时塞船更低干扰，也能把历史捕鲸港与当代保育放在一起理解。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "10/1 只保留 Wineglass Bay Lookout（酒杯湾观景台）清晨轻量徒步；本次观鲸船改为9/29 Tasman Island Cruises（塔斯曼岛巡游），不再预订Freycinet（菲欣纳）海上观鲸产品。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.dcceew.gov.au/environment/marine/marine-species/cetaceans"
+        }
+      ]
+    },
+    {
+      "id": "skip-39",
+      "name": "Tasmania Zoo（塔斯马尼亚动物园）",
+      "name_en": "Tasmania Zoo, Tasmania／lutruwita 城市／区域：Riverside（Launceston 附近）",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "位于 Launceston 附近，作为多物种动物园可提高看到部分动物的确定性，但与自然观察体验不同。\n深度补充：位于Launceston附近的多物种动物园能提高看到珍稀或外来动物的确定性，但与Maria Island、Cradle等自然栖息地观察不同。完整参观需半天，雨天可作为更稳定选项。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n若行程已有 Bonorong、Maria Island、Cradle Mountain，重复动物园会挤压真正的栖息地体验。\n深度补充：它反映私人动物园在地方旅游、物种繁育和公众教育中的角色，也引出圈养福利、展示价值与保育贡献如何衡量的问题。已有多个高质量自然点时，不必为“物种数量”重复加入。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次作为雨天备选，不主动加入。\n不在本次行程中",
+      "lat": -41.38,
+      "lng": 147.18,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "若行程已有 Bonorong、Maria Island、Cradle Mountain，重复动物园会挤压真正的栖息地体验。\n深度补充：它反映私人动物园在地方旅游、物种繁育和公众教育中的角色，也引出圈养福利、展示价值与保育贡献如何衡量的问题。已有多个高质量自然点时，不必为“物种数量”重复加入。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次作为雨天备选，不主动加入。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://tasmaniazoo.com.au/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.zooaquarium.org.au/"
+        }
+      ]
+    },
+    {
+      "id": "skip-40",
+      "name": "Neil the Seal（“小海象尼尔”；实际为南象海豹）",
+      "name_en": "Neil the Seal, Tasmania／lutruwita 城市／区域：南部海岸与 Hobart 周边；实际位置不固定",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "Neil 实际是 southern elephant seal（南象海豹），不是海象。它出生于塔州，因会在南部城镇道路和公共空间休息、阻断交通而成为网络名物。\n深度补充：Neil是southern elephant seal，不是海象；它会在南部海岸、道路和城镇公共空间休息，位置不固定。成年雄性体型巨大，靠近、围堵、开门下车或挡住回海路线都有危险。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\nNeil 是非常典型的当代塔州文化现象：野生动物、地方日常、社交媒体与公共安全发生冲突。2026 年官方和媒体再次提醒围观会增加压力与风险；“追踪定位去打卡”并不是合适玩法。塔州政府的共处建议应优先于社交媒体。\n深度补充：Neil把野生动物、社交媒体、地方幽默与公共安全推到一起。实时定位和追拍会增加压力、交通风险与管理成本；负责任的做法是不设寻找路线、不发布位置、服从封路。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n不设置寻找路线。若偶遇，留在车内或远距离观察，服从封路与野生动物人员指示，不挡路、不触摸、不投喂、不发布实时位置。\n不在本次行程中",
+      "lat": -42.8895,
+      "lng": 147.3294,
+      "geocode_source": "known_approx_hobart_waterfront",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "Neil 是非常典型的当代塔州文化现象：野生动物、地方日常、社交媒体与公共安全发生冲突。2026 年官方和媒体再次提醒围观会增加压力与风险；“追踪定位去打卡”并不是合适玩法。塔州政府的共处建议应优先于社交媒体。\n深度补充：Neil把野生动物、社交媒体、地方幽默与公共安全推到一起。实时定位和追拍会增加压力、交通风险与管理成本；负责任的做法是不设寻找路线、不发布位置、服从封路。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "不设置寻找路线。若偶遇，留在车内或远距离观察，服从封路与野生动物人员指示，不挡路、不触摸、不投喂、不发布实时位置。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://nre.tas.gov.au/wildlife-management/living-with-wildlife/living-with-seals"
+        },
+        {
+          "label": "塔州政府的共处建议",
+          "url": "https://nre.tas.gov.au/wildlife-management/living-with-wildlife/living-with-seals"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.abc.net.au/news/topic/seals"
+        }
+      ]
+    },
+    {
+      "id": "skip-49",
+      "name": "Flinders Street Station（弗林德斯街车站）",
+      "name_en": "Flinders Street Station, Victoria 城市／区域：Melbourne CBD",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "标志性车站立面与时钟是城市会合符号；从 Federation Square、Princes Bridge 可看不同角度。\n深度补充：车站立面、穹顶、时钟和Yarra河转角形成经典城市视角；Federation Square、Princes Bridge和Swanston Street可分别看到交通、建筑与河流关系。高峰时人流密集，不适合长时间占道拍摄。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n“under the clocks” 是墨尔本人约见的文化口语。车站的意义不只建筑，更来自城市通勤与公共生活。\n深度补充：“Meet me under the clocks”是墨尔本人约见的城市口语。车站不仅是遗产建筑，更是郊区铁路塑造日常生活、CBD边界与公共会合方式的文化节点。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n若10/5早到市区可顺路；10/6不专程赶。\n不在本次行程中",
+      "lat": -37.8183,
+      "lng": 144.9671,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "“under the clocks” 是墨尔本人约见的文化口语。车站的意义不只建筑，更来自城市通勤与公共生活。\n深度补充：“Meet me under the clocks”是墨尔本人约见的城市口语。车站不仅是遗产建筑，更是郊区铁路塑造日常生活、CBD边界与公共会合方式的文化节点。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "若10/5早到市区可顺路；10/6不专程赶。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://vhd.heritagecouncil.vic.gov.au/places/752"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.nationaltrust.org.au/places/flinders-street-station/"
+        }
+      ]
+    },
+    {
+      "id": "skip-51",
+      "name": "Puffing Billy Railway（普芬比利蒸汽火车）",
+      "name_en": "Puffing Billy Railway, Victoria 城市／区域：Belgrave—Gembrook／Dandenong Ranges",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "Dandenong Ranges 的历史窄轨蒸汽铁路，往返与接驳通常需要半天以上，车票需预约。\n深度补充：窄轨铁路穿过Dandenong Ranges湿润森林、蕨类谷地与小镇，半程和全程耗时差异大。蒸汽牵引、开放车厢和桥梁是核心，但“腿伸窗外”只可在官方允许车厢和区段进行。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n线路始建于 1900 年，原为偏远社区运输，后经志愿者与遗产铁路体系保存；“坐在窗台伸腿”须严格按官方开放车厢与规则。\n深度补充：线路1900年服务偏远社区，后由志愿者和遗产铁路组织恢复，体现澳洲地方铁路从实用交通转为文化遗产的过程。志愿维护和森林火灾风险是持续运营的重要背景。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排，尤其不能放在10/6中午国际航班前；下次单独半天至一天。\n不在本次行程中",
+      "lat": -37.907,
+      "lng": 145.355,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "线路始建于 1900 年，原为偏远社区运输，后经志愿者与遗产铁路体系保存；“坐在窗台伸腿”须严格按官方开放车厢与规则。\n深度补充：线路1900年服务偏远社区，后由志愿者和遗产铁路组织恢复，体现澳洲地方铁路从实用交通转为文化遗产的过程。志愿维护和森林火灾风险是持续运营的重要背景。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排，尤其不能放在10/6中午国际航班前；下次单独半天至一天。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://puffingbilly.com.au/visit-us/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://puffingbilly.com.au/about/history/"
+        }
+      ]
+    },
+    {
+      "id": "skip-52",
+      "name": "Melbourne Zoo（墨尔本动物园）",
+      "name_en": "Melbourne Zoo, Victoria 城市／区域：Parkville, Melbourne",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "大型城市动物园，若完整参观需半天；已有多个野生动物点时边际价值下降。\n深度补充：园区位于Royal Park，完整参观通常需半天；物种展区强调栖息地、濒危项目和行为丰富化。若已安排Bonorong、Maria Island、Cradle，再加入会压缩自然栖息地体验。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n开园于 19 世纪，今天由 Zoos Victoria 运营并强调物种保育；历史动物园展示观念与现代福利标准有显著变化。\n深度补充：1857年成立，是澳洲最早的动物园之一，其历史反映从19世纪异域动物收藏到现代保育机构的伦理变化。比较旧象舍等遗产与现代表达，能看到动物福利观念演进。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；Bonorong 未去；Maria Island、Cradle／Devils@Cradle 与 Caversham 已覆盖主要动物愿望。\n不在本次行程中",
+      "lat": -37.784,
+      "lng": 144.951,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "开园于 19 世纪，今天由 Zoos Victoria 运营并强调物种保育；历史动物园展示观念与现代福利标准有显著变化。\n深度补充：1857年成立，是澳洲最早的动物园之一，其历史反映从19世纪异域动物收藏到现代保育机构的伦理变化。比较旧象舍等遗产与现代表达，能看到动物福利观念演进。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；Bonorong 未去；Maria Island、Cradle／Devils@Cradle 与 Caversham 已覆盖主要动物愿望。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.zoo.org.au/melbourne/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.zoo.org.au/about-us/history/"
+        }
+      ]
+    },
+    {
+      "id": "skip-53",
+      "name": "Phillip Island／Little Penguin（菲利普岛／小企鹅）",
+      "name_en": "Phillip Island／Little Penguin, Victoria 城市／区域：Phillip Island／Millowl",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "企鹅归巢在日落后，需预订并遵守摄影限制；从墨尔本往返时间长。\n深度补充：Penguin Parade依日落后归巢运行，季节影响时间、数量和体感；分级观景台和地下视角价格不同。严格禁拍或限拍规则旨在减少光线和人群对企鹅路径的干扰。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n其文化意义在于大规模野生动物旅游如何通过栖息地管理、观景平台和严格规则降低干扰。\n深度补充：Millowl是Bunurong Country。企鹅保护从住房开发威胁、栖息地回购到大规模生态旅游管理，是地方政策与野生动物保护结合的案例；岛上也有赛车文化等完全不同的现代身份。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；10/5需要完成大洋路进城，不能再绕 Phillip Island。\n不在本次行程中",
+      "lat": -38.51,
+      "lng": 145.23,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "其文化意义在于大规模野生动物旅游如何通过栖息地管理、观景平台和严格规则降低干扰。\n深度补充：Millowl是Bunurong Country。企鹅保护从住房开发威胁、栖息地回购到大规模生态旅游管理，是地方政策与野生动物保护结合的案例；岛上也有赛车文化等完全不同的现代身份。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排；10/5需要完成大洋路进城，不能再绕 Phillip Island。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.penguins.org.au/attractions/penguin-parade/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.bunuronglc.org/"
+        }
+      ]
+    },
+    {
+      "id": "meta-1",
+      "name": "Indian Ocean Drive（印度洋公路）",
+      "name_en": null,
+      "day": null,
+      "date": null,
+      "status": "visit",
+      "order_in_day": null,
+      "highlights": "连接 Perth 北部、Lancelin、Cervantes、Geraldton 与 Kalbarri，是海岸沙丘、石灰岩与灌木地景观线。\n深度补充：这条走廊把石灰岩海岸、白色移动沙丘、Banksia 灌木地、盐湖和Murchison河峡谷连成连续地貌剖面。真正的看点不是某个停车点，而是由湿润的Perth平原逐渐过渡到更干旱的Coral Coast。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "路线／主题条目",
+      "notes": "路线或主题条目，不单独打点。\n\n【人文】\n道路穿越 Yued、Amangu、Nanda 等不同 Aboriginal Countries；“公路风景”背后是持续的原住民土地联系与殖民后的农业、渔业城镇史。\n深度补充：公路穿越Yued、Amangu、Nanda等不同 Aboriginal Countries，也串起渔业、龙虾、农业与采矿服务城镇。沿线地名与观景牌会让“无人公路”显出长期居住和产业迁移的历史。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n9/25-9/27 主路线；不在黄昏后赶乡间路。\n已纳入本次行程",
+      "lat": null,
+      "lng": null,
+      "geocode_source": "not_a_point",
+      "priority": "main",
+      "sections": {
+        "practical": "路线或主题条目，不单独打点。",
+        "culture": "道路穿越 Yued、Amangu、Nanda 等不同 Aboriginal Countries；“公路风景”背后是持续的原住民土地联系与殖民后的农业、渔业城镇史。\n深度补充：公路穿越Yued、Amangu、Nanda等不同 Aboriginal Countries，也串起渔业、龙虾、农业与采矿服务城镇。沿线地名与观景牌会让“无人公路”显出长期居住和产业迁移的历史。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "9/25-9/27 主路线；不在黄昏后赶乡间路。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.westernaustralia.com/en/road-trips/indian-ocean-drive"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.australiascoralcoast.com/plan-your-visit/about-the-region/aboriginal-culture/"
+        }
+      ]
+    },
+    {
+      "id": "meta-2",
+      "name": "Tasmania Road Trip／Hiking／Aurora Australis（塔斯马尼亚自驾／徒步／南极光）",
+      "name_en": null,
+      "day": null,
+      "date": null,
+      "status": "visit",
+      "order_in_day": null,
+      "highlights": "春季天气变化快，高地可能雨雪；南极光受太阳活动、云量、月光与地磁条件共同影响，任何行程都不能保证。\n深度补充：lutruwita的气候受Roaring Forties影响，低海拔晴天和高地雨雪可在同日出现。短徒步也应带防水保暖层；南极光必须同时满足太阳活动、南向暗空、无云和低月光，肉眼色彩常弱于相机。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "路线／主题条目",
+      "notes": "路线或主题条目，不单独打点。\n\n【人文】\nTasmania 常用 Aboriginal 名称 lutruwita。所谓“荒野”也是 Palawa people 延续数万年的文化景观，不是没有人类历史的空白地带。\n深度补充：“Tasmanian wilderness”不是没有人的荒野，而是Palawa people延续数万年的文化景观。殖民流放、采矿、伐木、水电与环境运动又塑造现代塔州身份，公路旅行正好穿过这些冲突。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次自驾成立；徒步以短线为主。南极光只作夜间天气奖励，不为追光夜驾。\n已纳入本次行程",
+      "lat": null,
+      "lng": null,
+      "geocode_source": "not_a_point",
+      "priority": "main",
+      "sections": {
+        "practical": "路线或主题条目，不单独打点。",
+        "culture": "Tasmania 常用 Aboriginal 名称 lutruwita。所谓“荒野”也是 Palawa people 延续数万年的文化景观，不是没有人类历史的空白地带。\n深度补充：“Tasmanian wilderness”不是没有人的荒野，而是Palawa people延续数万年的文化景观。殖民流放、采矿、伐木、水电与环境运动又塑造现代塔州身份，公路旅行正好穿过这些冲突。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次自驾成立；徒步以短线为主。南极光只作夜间天气奖励，不为追光夜驾。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.bom.gov.au/tas/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.tmag.tas.gov.au/first_peoples"
+        }
+      ]
+    },
+    {
+      "id": "meta-3",
+      "name": "Great Ocean Road（大洋路）",
+      "name_en": null,
+      "day": null,
+      "date": null,
+      "status": "visit",
+      "order_in_day": null,
+      "highlights": "海岸公路串联冲浪海滩、雨林、石灰岩悬崖与 Shipwreck Coast。驾驶员不能同时观景，必须进入正式停车区。\n深度补充：道路跨冲浪海滩、湿润Otways雨林、海蚀平台和石灰岩Shipwreck Coast，不同路段的地质与植被完全不同。弯道多、观景停车点密集，驾驶员不能边开边看，分三天才有余量。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "路线／主题条目",
+      "notes": "路线或主题条目，不单独打点。\n\n【人文】\n它是第一次世界大战阵亡者纪念道路，主要由归国军人于 1919-1932 年修建。道路也穿越 Wadawurrung、Gadubanud、Eastern Maar 等传统土地。\n深度补充：它由归国军人于1919-1932年修筑并作为一战纪念道路，也穿越Wadawurrung、Gadubanud、Eastern Maar等Traditional Country。劳动史、战争纪念与原住民土地应同时进入叙事。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n因塔州延长至10/3夜航，本次改为10/4-10/5两天完成：10/4塔山＋沉船海岸，10/5沿海公路回墨尔本；不做单日往返。\n已纳入本次行程",
+      "lat": null,
+      "lng": null,
+      "geocode_source": "not_a_point",
+      "priority": "main",
+      "sections": {
+        "practical": "路线或主题条目，不单独打点。",
+        "culture": "它是第一次世界大战阵亡者纪念道路，主要由归国军人于 1919-1932 年修建。道路也穿越 Wadawurrung、Gadubanud、Eastern Maar 等传统土地。\n深度补充：它由归国军人于1919-1932年修筑并作为一战纪念道路，也穿越Wadawurrung、Gadubanud、Eastern Maar等Traditional Country。劳动史、战争纪念与原住民土地应同时进入叙事。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "因塔州延长至10/3夜航，本次改为10/4-10/5两天完成：10/4塔山＋沉船海岸，10/5沿海公路回墨尔本；不做单日往返。\n已纳入本次行程"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.visitvictoria.com/regions/great-ocean-road/see-and-do/nature-and-wildlife/beaches-and-coastlines/the-great-ocean-road"
+        },
+        {
+          "label": "它是第一次世界大战阵亡者纪念道路",
+          "url": "https://www.visitvictoria.com/regions/great-ocean-road/see-and-do/nature-and-wildlife/beaches-and-coastlines/the-great-ocean-road"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.greatoceanroad.vic.gov.au/history/"
+        }
+      ]
+    }
+  ],
+  "wishlistCount": 53,
+  "carStayStandard": "## 车宿统一判断标准\n\n只有同时满足以下条件才把“睡车里”列为可选：车辆本身适合安全睡眠且租赁合同允许；地点为持牌营地、明确获准的 campground／holiday park，或当地政府明确标识的短时 RV／24 小时休息区；现场没有“禁止露营／禁止过夜”标识；能合法处理厕所、污水和垃圾。普通轿车、城市停车场、国家公园观景停车场、海边路肩和机场停车场一律不按可车宿地点处理。法规参考已并入各区说明：西澳政府露营规则、塔州保护地露营规定、Spirit of Tasmania 运输条款。",
+  "animals": "# 动物覆盖核对\n\n| 动物 | 最新行程情况 | 结论 |\n|-|-|-|\n| Koala（考拉） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）可稳定看到；抱考拉票当前AUD 35／人，当天09:00先到先得，名额少，且有身高、体力和动物福利限制。 | 能看到；抱考拉不保证 |\n| Wombat（袋熊） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）可看；9/30 Maria Island（玛丽亚岛）野生袋熊出现概率很高。野生袋熊不能触摸、追逐或喂食。 | 能看到；不能摸或抱 |\n| Tasmanian devil（袋獾） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）有固定展区；9/30 Maria Island（玛丽亚岛）野生袋獾白天偶遇概率低；10/2已安排Devils@Cradle（摇篮山恶魔保护园）17:30 After Dark Feeding Tour（夜间喂食团），可稳定观察Tasmanian devil（袋獾）及两种quoll并听保育讲解。 | 能看到；已有塔州专门袋獾保育夜场 |\n| Short-beaked echidna（短喙针鼹） | 10/2 Platypus House（鸭嘴兽之家）的Echidna Garden（针鼹花园）可稳定看到Short-beaked echidna（短喙针鼹）；9/30 Maria Island（玛丽亚岛）及10/2-10/3 Cradle Mountain（摇篮山）仍有野外偶遇机会。 | 能看到；野外个体不保证 |\n| Platypus（鸭嘴兽） | 10/2已安排Platypus House（鸭嘴兽之家）10:00向导团，可在白天稳定看到Platypus（鸭嘴兽）；本次不再绕行The Tasmanian Arboretum（塔斯马尼亚树木园），避免压缩摇篮山时间。 | 能看到；另有野外观察机会 |\n| Little penguin（小蓝企鹅） | 10/1已安排Bicheno Penguin Tours（比舍诺企鹅归巢团），在私人修复栖息地由向导带领观看Little penguin（小蓝企鹅）日落后归巢；9月至1月为繁殖季，需提前订票并遵守低光、安静和禁闪光灯规则。 | 已安排专业野外归巢导览；出现时间和数量不保证 |\n| Lyrebird（琴鸟） | 当前行程没有专门观察点；野外偶遇不可作为安排承诺。 | 不能保证看到 |\n| Emu（鸸鹋） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）有固定展区。【待定-1】Tower Hill（塔山）已不在主行程。 | 能看到（Caversham 展区）；野外不保证 |\n| Dolphin（海豚） | 9/29 Tasman Island Cruises（塔斯曼岛巡游）会寻找Dolphin（海豚）；9/30 仅为客运渡轮上岛步行，不含环岛巡游船。本次仍未去Monkey Mia（蒙基米亚），野生海豚出现不保证。 | 有机会；不保证 |\n| Humpback whale（座头鲸） | 9/29 Tasman Island Cruises（塔斯曼岛巡游）会在迁徙季主动寻找；10/1 Cape Tourville（图维尔角）可岸观。9/30 客运渡轮不是观鲸产品。野生偶遇不保证。 | 有机会；不保证 |\n| Whale shark（鲸鲨） | 当前路线不到 Ningaloo Reef（宁格鲁礁），也未安排鲸鲨项目。 | 看不到 |\n| Southern right whale（南露脊鲸） | 9/29 Tasman Island Cruises（塔斯曼岛巡游）会寻找；Freycinet（菲欣纳）和Maria Island（玛丽亚岛）沿海也有季节性偶遇可能，没有任何地点或船团能保证看到。 | 有机会；不保证 |\n\n判断口径：固定展区或已预约的圈养展示记为“能看到”；野生动物、鲸豚和迁徙物种均只记为“有机会”，不写成保证。10/1的Bicheno Penguin Tours（比舍诺企鹅归巢团）提供合规野外归巢观察；10/2的Platypus House（鸭嘴兽之家）可稳定看到Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）。",
+  "pending": [
+    "Tower Hill 与 Warrnambool 是否彻底放弃",
+    "Loch Ard Gorge 是否固定保留",
+    "关键住宿、交通和门票的实际预订状态",
+    "租车合同是否允许在持牌营地内睡车"
+  ]
+}

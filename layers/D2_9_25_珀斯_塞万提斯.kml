@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>D2 9/25 珀斯→塞万提斯</name>
+    <Style id="sty_d2">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/red-circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sty_d2_line">
+      <LineStyle>
+        <color>7f0000ff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>D2 9/25 珀斯→塞万提斯</name>
+      <Placemark>
+        <name>D2-1 珀斯机场</name>
+        <styleUrl>#sty_d2</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-25 · 第2天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 1&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;入境、取行李、早餐与取车；本日行程起点。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10—21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10—22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。[BOM气候参考](https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约3.5小时（入境取车）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 机场落地后取车&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;04:20—07:45入境取车；之后驾车前往卡弗舍姆。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Perth Airport, Western Australia&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>115.9672,-31.9385,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D2-2 卡弗舍姆野生动物园</name>
+        <styleUrl>#sty_d2</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-25 · 第2天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 2&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;西澳原生动物集中展示、袋鼠喂食、袋熊与农场表演，以及考拉近距离体验；动物上午较活跃，09:00入园最合适。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10—21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10—22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。[BOM气候参考](https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约3—4小时&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约22公里自珀斯机场&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;成人票AUD37/人；抱考拉另付AUD35/人，09:00纪念品店先到先得；12:00场，身高≥150cm。&lt;br/&gt;&lt;br/&gt;【愿望清单·景点／自然】&lt;br/&gt;适合作为落地后的澳洲动物入门，但“抱考拉”受动物福利、开放时段和排队影响，不保证每位访客都能完成。  &lt;br/&gt;**深度补充：**园内约有大量西澳及澳洲原生物种，价值在于把袋鼠喂食、袋熊、考拉、企鹅和农场展示集中到半天完成。动物表现取决于天气与福利安排；考拉合影包含在普通门票，抱持为限量的独立项目。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://cavershamwildlife.com.au/plan-your-visit/)&lt;br/&gt;&lt;br/&gt;【愿望清单·人文】&lt;br/&gt;西澳允许特定受监管的考拉接触体验，但应把它理解为有规则的动物展示，而不是随意抱动物；塔州和维州的规则、物种展示方式会不同。  &lt;br/&gt;**深度补充：**西澳是澳洲少数仍可在严格条件下提供考拉抱持体验的地区之一。它反映各州野生动物管理规则不同，也提醒游客把接触理解为受监管的教育活动，而不是对动物的消费性占有。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://cavershamwildlife.com.au/about-us/)&lt;br/&gt;&lt;br/&gt;【愿望清单·本次建议】&lt;br/&gt;9/25 安排；开园后较早到，预留至少 2—3 小时。  &lt;br/&gt;**已纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Caversham Wildlife Park, Whiteman WA&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>115.9747,-31.8753,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D2-3 兰斯林沙丘</name>
+        <styleUrl>#sty_d2</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-25 · 第2天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 3&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;白色移动沙丘、流畅沙脊和开阔地平线；14:30以后侧光更有层次。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10—21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10—22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。[BOM气候参考](https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约1小时&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约135公里自卡弗舍姆&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;步行免费；可租板。普通租车不要驶入沙地；若入境延误超60分钟优先删除本点。&lt;br/&gt;&lt;br/&gt;【愿望清单·景点／自然】&lt;br/&gt;白色移动沙丘适合观景、滑沙和四驱体验。风大会吹沙，普通租赁车不要驶入非铺装沙地。  &lt;br/&gt;**深度补充：**Lancelin沙丘由强劲海风不断搬运细白砂形成，沙脊位置与坡度会变化；下午低角度光更能表现波纹，强风则容易扬沙。四驱车、滑沙者与步行者共享空间，普通租赁车不得贸然驶入。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.westernaustralia.com/en/places/lancelin/56b267adaeeeaaf773cfa73b)&lt;br/&gt;&lt;br/&gt;【愿望清单·人文】&lt;br/&gt;比“网红白沙丘”更值得注意的是海岸风塑地貌与渔镇生活；商业滑沙板按运营方规则使用。  &lt;br/&gt;**深度补充：**Lancelin是渔镇、风帆运动地和周末度假地，沙丘并不是孤立“网红背景”。当地龙虾产业、风能条件及海岸娱乐共同塑造小镇身份。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.gingin.wa.gov.au/community/places-and-spaces/lancelin)&lt;br/&gt;&lt;br/&gt;【愿望清单·本次建议】&lt;br/&gt;9/25 可选短停；若航班或取车延误优先删除。  &lt;br/&gt;**已纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Lancelin Sand Dunes, Lancelin WA&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>115.33,-31.0167,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D2-4 尖峰石阵/南邦国家公园</name>
+        <styleUrl>#sty_d2</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-25 · 第2天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 4&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;黄沙中的密集石灰岩柱与海岸沙丘地质景观；最佳为日落前60—90分钟至蓝调。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10—21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10—22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。[BOM气候参考](https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 至日落后&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约77公里自兰斯林&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;标准车辆入园AUD17/车；Discovery Centre园内移动约2公里。日落后约20公里到塞万提斯入住。&lt;br/&gt;&lt;br/&gt;【愿望清单·景点／自然】&lt;br/&gt;成千上万石灰岩柱从黄沙中伸出，具体形成机制涉及古贝壳砂、地下水与侵蚀等长期过程。[以西澳 Parks and Wildlife 当日公告为准](https://exploreparks.dbca.wa.gov.au/park/nambung-national-park)。  &lt;br/&gt;**深度补充：**石灰岩柱形成涉及古贝壳砂沉积、碳酸盐胶结、地下水与风蚀；现今可见形态不是一次事件的结果。园内自驾环线与步行区提供不同尺度，日落侧光突出柱体纹理，但夜色前需完成主要驾驶。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://exploreparks.dbca.wa.gov.au/park/nambung-national-park)&lt;br/&gt;&lt;br/&gt;【愿望清单·人文】&lt;br/&gt;位于 Yued Country。最佳理解方式不是把它当“外星地貌”，而是同时看地质时间、海岸沙丘演化与原住民长期土地联系。  &lt;br/&gt;**深度补充：**公园位于Yued Country。殖民旅游名称把它包装成“Pinnacles”，但更完整的理解应把地质深时、原住民持续联系以及现代国家公园共同管理放在一起。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.australiascoralcoast.com/plan-your-visit/about-the-region/aboriginal-culture/)&lt;br/&gt;&lt;br/&gt;【愿望清单·本次建议】&lt;br/&gt;9/25 日落重点；日落前 60—90 分钟入园。  &lt;br/&gt;**已纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Pinnacles Desert, Nambung National Park WA&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>115.16,-30.606,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D2-5 塞万提斯</name>
+        <styleUrl>#sty_d2</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-25 · 第2天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 5&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;当晚住宿／车宿 overnight。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10—21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10—22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。[BOM气候参考](https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 过夜&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约20公里自尖峰石阵&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;首选酒店/小屋；车宿候选RAC Cervantes Holiday Park或Nambung Station Stay，须确认允许车内过夜。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Cervantes, Western Australia&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>115.065,-30.499,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D2 当日路线</name>
+        <styleUrl>#sty_d2_line</styleUrl>
+        <description>第2天按顺序串联（示意）</description>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>115.9672,-31.9385,0 115.9747,-31.8753,0 115.33,-31.0167,0 115.16,-30.606,0 115.065,-30.499,0</coordinates>
+        </LineString>
+      </Placemark>
+      <description>点位数：5</description>
+    </Folder>
+  </Document>
+</kml>

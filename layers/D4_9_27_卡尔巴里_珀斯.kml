@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>D4 9/27 卡尔巴里→珀斯</name>
+    <Style id="sty_d4">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/ylw-circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sty_d4_line">
+      <LineStyle>
+        <color>7f00ffff</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Folder>
+      <name>D4 9/27 卡尔巴里→珀斯</name>
+      <Placemark>
+        <name>D4-1 卡尔巴里天空步道</name>
+        <styleUrl>#sty_d4</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-27 · 第4天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 1&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;两座悬挑平台伸出默奇森峡谷上方；红色Tumblagooda sandstone峡谷尺度与河谷弯曲。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**Kalbarri National Park（卡尔巴里国家公园）／Kalbarri Skywalk（卡尔巴里天空步道）／Nature’s Window（自然之窗）通常约13—25°C，但峡谷内无风晴天体感可明显更热；杰拉尔顿（Geraldton）约11—23°C，珀斯机场周边（Perth Airport Area）约10—21°C。清晨峡谷可凉、正午暴晒，需至少每人2—3升饮水并留意公园高温关闭信息；南下长途可能遇阵雨、侧风和日落后低温。[BOM卡尔巴里气候](https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约1小时&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约38公里自卡尔巴里镇&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;最佳日出后至08:30；入园费AUD17/车。&lt;br/&gt;&lt;br/&gt;【愿望清单·景点／自然】&lt;br/&gt;Murchison River 切割出红色峡谷；Nature’s Window、Z-Bend、Skywalk 是不同体力等级的观察点。高温时峡谷徒步风险显著。  &lt;br/&gt;**深度补充：**Murchison River切穿约四亿年沉积岩，形成红白相间的Tumblagooda Sandstone峡谷。Skywalk强调高差和河谷尺度，Nature’s Window强调侵蚀造型与框景；两者均暴露在高温与紫外线下，清晨比正午安全。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://exploreparks.dbca.wa.gov.au/park/kalbarri-national-park)&lt;br/&gt;&lt;br/&gt;【愿望清单·人文】&lt;br/&gt;这里是 Nanda people 的 Country。峡谷并非“无人荒野”，应在地质解说之外留意 Nanda 的持续文化联系和共同管理信息。  &lt;br/&gt;**深度补充：**这里是Nanda Country。峡谷与河流包含长期的文化路线、食物与故事联系；现代公园解说和Skywalk项目也越来越强调Traditional Owners，而非仅讲欧洲探险史。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.nanda.com.au/)&lt;br/&gt;&lt;br/&gt;【愿望清单·本次建议】&lt;br/&gt;9/27 清晨；只选 Nature’s Window＋Skywalk，不做高温长线。  &lt;br/&gt;**已纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Kalbarri Skywalk, Kalbarri National Park WA&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>114.445,-27.549,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D4-2 自然之窗</name>
+        <styleUrl>#sty_d4</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-27 · 第4天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 2&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;天然砂岩“窗框”把默奇森河弯道纳入画面；约1公里往返轻量短线。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**Kalbarri National Park（卡尔巴里国家公园）／Kalbarri Skywalk（卡尔巴里天空步道）／Nature’s Window（自然之窗）通常约13—25°C，但峡谷内无风晴天体感可明显更热；杰拉尔顿（Geraldton）约11—23°C，珀斯机场周边（Perth Airport Area）约10—21°C。清晨峡谷可凉、正午暴晒，需至少每人2—3升饮水并留意公园高温关闭信息；南下长途可能遇阵雨、侧风和日落后低温。[BOM卡尔巴里气候](https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约1.5小时&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; Skywalk约3公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;高温或睡眠不足可取消；每人至少2—3升饮水。&lt;br/&gt;&lt;br/&gt;【愿望清单·景点／自然】&lt;br/&gt;Murchison River 切割出红色峡谷；Nature’s Window、Z-Bend、Skywalk 是不同体力等级的观察点。高温时峡谷徒步风险显著。  &lt;br/&gt;**深度补充：**Murchison River切穿约四亿年沉积岩，形成红白相间的Tumblagooda Sandstone峡谷。Skywalk强调高差和河谷尺度，Nature’s Window强调侵蚀造型与框景；两者均暴露在高温与紫外线下，清晨比正午安全。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://exploreparks.dbca.wa.gov.au/park/kalbarri-national-park)&lt;br/&gt;&lt;br/&gt;【愿望清单·人文】&lt;br/&gt;这里是 Nanda people 的 Country。峡谷并非“无人荒野”，应在地质解说之外留意 Nanda 的持续文化联系和共同管理信息。  &lt;br/&gt;**深度补充：**这里是Nanda Country。峡谷与河流包含长期的文化路线、食物与故事联系；现代公园解说和Skywalk项目也越来越强调Traditional Owners，而非仅讲欧洲探险史。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.nanda.com.au/)&lt;br/&gt;&lt;br/&gt;【愿望清单·本次建议】&lt;br/&gt;9/27 清晨；只选 Nature’s Window＋Skywalk，不做高温长线。  &lt;br/&gt;**已纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Natures Window, Kalbarri National Park WA&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>114.45,-27.555,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D4-3 珀斯机场周边营地</name>
+        <styleUrl>#sty_d4</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-27 · 第4天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 3&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;当晚改住机场附近，避免次日长途赶机场。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**Kalbarri National Park（卡尔巴里国家公园）／Kalbarri Skywalk（卡尔巴里天空步道）／Nature’s Window（自然之窗）通常约13—25°C，但峡谷内无风晴天体感可明显更热；杰拉尔顿（Geraldton）约11—23°C，珀斯机场周边（Perth Airport Area）约10—21°C。清晨峡谷可凉、正午暴晒，需至少每人2—3升饮水并留意公园高温关闭信息；南下长途可能遇阵雨、侧风和日落后低温。[BOM卡尔巴里气候](https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 过夜&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 南下约414公里经杰拉尔顿&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;首选Perth Central Caravan Park；备选Discovery Parks Perth Airport。须书面同意车内过夜。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Perth Central Caravan Park, Ascot WA&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>115.936,-31.927,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D4 当日路线</name>
+        <styleUrl>#sty_d4_line</styleUrl>
+        <description>第4天按顺序串联（示意）</description>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>114.445,-27.549,0 114.45,-27.555,0 115.936,-31.927,0</coordinates>
+        </LineString>
+      </Placemark>
+      <description>点位数：3</description>
+    </Folder>
+  </Document>
+</kml>
