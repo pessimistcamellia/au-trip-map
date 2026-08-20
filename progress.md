@@ -54,3 +54,12 @@
 - 离线模拟：状态栏提示外部地图不可用，地图显示“地图需联网”，一键切回文字后节奏列表继续可读。
 - 已提交 `aac1300 feat(itinerary): 增加行程节奏双视图` 并推送 `main`；`gh-pages` 构建 `b018ef3` 状态为 built。
 - 线上 390×844×2 干净上下文复验：Day 2 文字 6 条、地图 5 个 marker，OSRM 返回实际驾车道路，Google 单点导航链接正确。
+
+## 2026-08-20 地图全览与逐点信息重构
+- 地图改为可单测的 Web Mercator `calculateMapViewport`：多点按 72px 双向 padding 自动 fit，单点固定 zoom 13；新增 44px 高“回到全览”按钮。
+- 时间标签改为点击／聚焦／悬停编号后才显示；密集编号使用自动错位与虚线引导，保留真实路线坐标。
+- `generate_app_data.py` 新增日级信息切块、地点别名匹配、逐点 `dayInfo` 与日级 `unassigned`；未改飞书、KML 或 `itinerary.json`。
+- 折叠区标题改为“住宿与其他信息”；点上新增天气 icon、“预约与注意”、“看点与玩法”，统一复用 Vant bottom Popup。
+- 数据统计：未归属文本 52 条（预约 28、看点 16、天气 8），未归属链接 38 条；全部仍留在日级折叠区。
+- 验证通过：typecheck；Vitest 12/12；build；PWA precache 14 条 / 533.97 KiB。
+- Chrome MCP 390×844×2：Day 2 五点、Day 12 八点、Day 13 单点 zoom 13、Day 1 无点离线空态均通过；Day 12 最小 marker 中心距 42.1px，页面 `scrollWidth=clientWidth=390`。
