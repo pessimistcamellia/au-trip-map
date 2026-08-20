@@ -34,7 +34,7 @@
 - **状态：** complete
 
 ## 当前阶段
-阶段 11（GitHub Pages 远程部署）
+阶段 11（GitHub Pages 远程部署已完成）
 
 ### 阶段 6：PWA 需求与数据审计
 - [x] 对照飞书最新版与本地全部材料
@@ -70,12 +70,12 @@
 - **状态：** complete
 
 ### 阶段 11：GitHub Pages 远程部署
-- [ ] 确认 gh 登录账号（非 Leo-ai05 则以实际账号为准）
-- [ ] 为子路径设置 Vite base、router、PWA manifest/offline
-- [ ] 补 `.gitignore`；提交源码；创建公开仓库并推送
-- [ ] 将 dist 部署到 `gh-pages` 并开启 GitHub Pages
-- [ ] 用 Chrome DevTools MCP 在 390×844 复验线上 URL
-- **状态：** in_progress
+- [x] 确认 gh 登录账号（非 Leo-ai05 则以实际账号为准）
+- [x] 为子路径设置 Vite base、router、PWA manifest/offline
+- [x] 补 `.gitignore`；提交源码；创建公开仓库并推送
+- [x] 将 dist 部署到 `gh-pages` 并开启 GitHub Pages
+- [x] 用 Chrome DevTools MCP 在 390×844 复验线上 URL
+- **状态：** complete
 
 ## 关键问题
 1. Tower Hill / Warrnambool 是否彻底放弃，还是仅作「时间极充裕时的西延可选」？
