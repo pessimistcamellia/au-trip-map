@@ -33,6 +33,17 @@ export interface IPlace {
   links: ILink[]
 }
 
+export interface IRhythmNode {
+  id: string
+  order: number
+  time: string
+  title: string
+  text: string
+  placeId: string | null
+  lat: number | null
+  lng: number | null
+}
+
 export interface ITripDay {
   day: number
   date: string
@@ -45,6 +56,7 @@ export interface ITripDay {
   booking: string
   weather: string
   links: ILink[]
+  rhythm: IRhythmNode[]
 }
 
 export interface ITripData {

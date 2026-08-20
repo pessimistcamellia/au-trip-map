@@ -3,6 +3,7 @@ import { useOnline } from '@vueuse/core'
 import { computed, nextTick, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useRegisterSW } from 'virtual:pwa-register/vue'
+import TripRhythmMap from './components/TripRhythmMap.vue'
 import rawTripData from './data/trip-data.json'
 import { useTripStore } from './stores/trip'
 import type { IPlace, ITripData, MainView } from './types'
@@ -38,6 +39,9 @@ const selectedPlace = ref<IPlace | null>(null)
 const query = ref('')
 const installPrompt = ref<IInstallPromptEvent | null>(null)
 const copyNotice = ref('')
+const rhythmView = ref<'text' | 'map'>(
+  sessionStorage.getItem('au-trip-map:rhythm-view') === 'map' ? 'map' : 'text',
+)
 const detailTabs = ['实用', '看点', '天气', '文化', '预约', '备注'] as const
 const activeDetailTab = ref<(typeof detailTabs)[number]>('实用')
 const detailVisible = computed({
@@ -95,6 +99,11 @@ function setView(view: MainView): void {
   if (isSkipPage.value) void router.push('/')
   activeView.value = view
   window.scrollTo({ top: 0, behavior: 'smooth' })
+}
+
+function setRhythmView(view: 'text' | 'map'): void {
+  rhythmView.value = view
+  sessionStorage.setItem('au-trip-map:rhythm-view', view)
 }
 
 function openPlace(place: IPlace): void {
@@ -373,11 +382,53 @@ onMounted(() => {
             <span>{{ selectedDay.route }}</span>
           </section>
 
+          <section class="rhythm-panel">
+            <header class="rhythm-heading">
+              <div>
+                <p>按当天时间顺序</p>
+                <h3>行程节奏</h3>
+              </div>
+              <div class="rhythm-switch" role="tablist" aria-label="行程节奏视图">
+                <button
+                  type="button"
+                  role="tab"
+                  :aria-selected="rhythmView === 'text'"
+                  @click="setRhythmView('text')"
+                >
+                  文字
+                </button>
+                <button
+                  type="button"
+                  role="tab"
+                  :aria-selected="rhythmView === 'map'"
+                  @click="setRhythmView('map')"
+                >
+                  地图
+                </button>
+              </div>
+            </header>
+
+            <ol v-if="rhythmView === 'text'" class="rhythm-list">
+              <li v-for="node in selectedDay.rhythm" :key="node.id">
+                <span class="rhythm-order">{{ node.order }}</span>
+                <article>
+                  <time>{{ node.time }}</time>
+                  <strong>{{ node.title }}</strong>
+                  <p>{{ node.text }}</p>
+                </article>
+              </li>
+            </ol>
+            <TripRhythmMap
+              v-else
+              :nodes="selectedDay.rhythm"
+              :online="online"
+              @switch-to-text="setRhythmView('text')"
+            />
+          </section>
+
           <details class="day-details">
             <summary>路线、住宿、预约与天气</summary>
             <article>
-              <h3>行程节奏</h3>
-              <p>{{ selectedDay.schedule }}</p>
               <h3>住宿</h3>
               <p>{{ selectedDay.lodging }}</p>
               <h3>预约</h3>

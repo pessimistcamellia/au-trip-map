@@ -31,6 +31,38 @@
           "label": "BOM珀斯气候",
           "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
         }
+      ],
+      "rhythm": [
+        {
+          "id": "rhythm-1",
+          "order": 1,
+          "time": "09:05-15:10",
+          "title": "天津滨海国际机场（Tianjin Binhai Intern…",
+          "text": "天津滨海国际机场（Tianjin Binhai International Airport）T1乘酷航 TR139 → 新加坡樟宜机场（Singapore Changi Airport）T1，直线航程约4,410公里，计划飞行6小时05分。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-2",
+          "order": 2,
+          "time": "15:10-23:10",
+          "title": "新加坡樟宜机场（Singapore Changi Airpo…",
+          "text": "新加坡樟宜机场（Singapore Changi Airport）T1转机约 8小时，用餐、休息并提前返回登机口。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "23:10-次日04:20",
+          "title": "乘酷航 TR028，新加坡樟宜机场（Singapore Ch…",
+          "text": "乘酷航 TR028，新加坡樟宜机场（Singapore Changi Airport）T1 → 珀斯机场（Perth Airport）T1，直线航程约3,910公里，计划飞行5小时10分，9月25日清晨抵达。以上均为各机场当地时间。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        }
       ]
     },
     {
@@ -81,6 +113,68 @@
           "label": "BOM气候参考",
           "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
         }
+      ],
+      "rhythm": [
+        {
+          "id": "rhythm-1",
+          "order": 1,
+          "time": "04:20-07:45",
+          "title": "珀斯机场",
+          "text": "珀斯机场（Perth Airport）T1入境、取行李、早餐与取车。",
+          "placeId": "d2-01",
+          "lat": -31.9385,
+          "lng": 115.9672
+        },
+        {
+          "id": "rhythm-2",
+          "order": 2,
+          "time": "09:00-12:45",
+          "title": "卡弗舍姆野生动物园",
+          "text": "从机场驾车约22公里到 Caversham Wildlife Park（卡弗舍姆野生动物园）；09:00 入园先买考拉抱持票，11:30 Meet A Koala，12:00 抱持场（如成功购票）。只合影不抱则约11:45离开。",
+          "placeId": "d2-02",
+          "lat": -31.8753,
+          "lng": 115.9747
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "12:45-14:45",
+          "title": "驾车约135公里前往 兰斯林（Lancelin）",
+          "text": "驾车约135公里前往 兰斯林（Lancelin）；途中简餐。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "14:45-15:40",
+          "title": "兰斯林沙丘",
+          "text": "Lancelin Sand Dunes（兰斯林沙丘）（从镇中心约3公里）步行观景／滑沙；普通租车不要驶入沙地。",
+          "placeId": "d2-03",
+          "lat": -31.0167,
+          "lng": 115.33
+        },
+        {
+          "id": "rhythm-5",
+          "order": 5,
+          "time": "15:40-日落后",
+          "title": "尖峰石阵／南邦国家公园",
+          "text": "驾车约77公里前往 Nambung National Park（南邦国家公园）。\nPinnacles Desert Discovery Centre（尖峰石阵探索中心）（园内移动约2公里）、环形自驾道与步行区。",
+          "placeId": "d2-04",
+          "lat": -30.606,
+          "lng": 115.16
+        },
+        {
+          "id": "rhythm-6",
+          "order": 6,
+          "time": "日落后",
+          "title": "塞万提斯（住宿）",
+          "text": "驾车约20公里到 塞万提斯（Cervantes） 入住。若入境／取车延误超过 60 分钟，删除 兰斯林（Lancelin），保留 卡弗舍姆（Caversham） 与 Pinnacles（尖峰石阵）。",
+          "placeId": "d2-05",
+          "lat": -30.499,
+          "lng": 115.065
+        }
       ]
     },
     {
@@ -127,6 +221,78 @@
           "label": "BOM卡尔巴里气候",
           "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
         }
+      ],
+      "rhythm": [
+        {
+          "id": "rhythm-1",
+          "order": 1,
+          "time": "08:00-08:30",
+          "title": "塞蒂斯湖",
+          "text": "从塞万提斯驾车约3公里，可选 Lake Thetis（塞蒂斯湖） 短停；若前一晚疲劳则取消。",
+          "placeId": "d3-01",
+          "lat": -30.506,
+          "lng": 115.078
+        },
+        {
+          "id": "rhythm-2",
+          "order": 2,
+          "time": "08:30-11:30",
+          "title": "驾车约221公里，塞万提斯（Cervantes） → 杰拉尔…",
+          "text": "驾车约221公里，塞万提斯（Cervantes） → 杰拉尔顿（Geraldton）。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "11:30-13:00",
+          "title": "杰拉尔顿海滨",
+          "text": "市内约2公里到 Geraldton Foreshore（杰拉尔顿海滨）／午餐、加油和采购。",
+          "placeId": "d3-02",
+          "lat": -28.776,
+          "lng": 114.614
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "13:00-14:15",
+          "title": "驾车约98公里前往 格雷戈里港（Port Gregory）",
+          "text": "驾车约98公里前往 格雷戈里港（Port Gregory）。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-5",
+          "order": 5,
+          "time": "14:15-15:30",
+          "title": "粉红湖",
+          "text": "从格雷戈里港驾车约14公里到 Hutt Lagoon（粉红湖）公共观景点。",
+          "placeId": "d3-03",
+          "lat": -28.071,
+          "lng": 114.205
+        },
+        {
+          "id": "rhythm-6",
+          "order": 6,
+          "time": "15:30-16:30",
+          "title": "卡尔巴里（镇）",
+          "text": "驾车约54公里前往 卡尔巴里（Kalbarri）。",
+          "placeId": "d3-04",
+          "lat": -27.711,
+          "lng": 114.165
+        },
+        {
+          "id": "rhythm-7",
+          "order": 7,
+          "time": "16:45-日落",
+          "title": "从镇中心约5公里到 Red Bluff（红崖）",
+          "text": "从镇中心约5公里到 Red Bluff（红崖）；若改去 Natural Bridge（天然桥），则约14公里。二选一看海岸夕照，然后进镇入住。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        }
       ]
     },
     {
@@ -164,6 +330,68 @@
         {
           "label": "BOM卡尔巴里气候",
           "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
+        }
+      ],
+      "rhythm": [
+        {
+          "id": "rhythm-1",
+          "order": 1,
+          "time": "06:30-07:15",
+          "title": "驾车约38公里，卡尔巴里（Kalbarri） 出发前往国家公…",
+          "text": "驾车约38公里，卡尔巴里（Kalbarri） 出发前往国家公园内陆区。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-2",
+          "order": 2,
+          "time": "07:15-08:15",
+          "title": "卡尔巴里天空步道",
+          "text": "Kalbarri Skywalk（卡尔巴里天空步道）。",
+          "placeId": "d4-01",
+          "lat": -27.549,
+          "lng": 114.445
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "08:30-10:00",
+          "title": "自然之窗",
+          "text": "从Skywalk驾车约3公里至 Nature’s Window（自然之窗） 往返步行约1公里并拍摄。",
+          "placeId": "d4-02",
+          "lat": -27.555,
+          "lng": 114.45
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "10:00-10:30",
+          "title": "游客设施休整、补水",
+          "text": "游客设施休整、补水。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-5",
+          "order": 5,
+          "time": "10:30-13:30",
+          "title": "驾车约176公里向南到 杰拉尔顿（Geraldton），午餐…",
+          "text": "驾车约176公里向南到 杰拉尔顿（Geraldton），午餐、加油。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-6",
+          "order": 6,
+          "time": "14:00-19:30",
+          "title": "继续南下至珀斯机场附近已订营地（Perth Airport …",
+          "text": "继续南下至珀斯机场附近已订营地（Perth Airport Area Campground）：首选Perth Central约414公里，备选Discovery Parks约423公里；每2小时至少休息15-20分钟，尽量在天黑前完成乡间路段，并提前安排late check-in。若国家公园高温或前晚睡眠不足，取消 Nature’s Window（自然之窗），提前南下。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
         }
       ]
     },
@@ -203,6 +431,78 @@
           "label": "BOM霍巴特气候",
           "url": "https://www.bom.gov.au/climate/averages/tables/cw_094029.shtml"
         }
+      ],
+      "rhythm": [
+        {
+          "id": "rhythm-1",
+          "order": 1,
+          "time": "06:30",
+          "title": "从珀斯机场附近已订营地出发",
+          "text": "从珀斯机场附近已订营地出发；Perth Central到机场约5公里，Discovery Parks到机场约11公里。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-2",
+          "order": 2,
+          "time": "06:40-07:00",
+          "title": "到珀斯机场（Perth Airport）T1附近加满油",
+          "text": "到珀斯机场（Perth Airport）T1附近加满油。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "07:00-08:10",
+          "title": "还车、托运行李和安检，最晚08:10进入候机区",
+          "text": "还车、托运行李和安检，最晚08:10进入候机区。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "09:50-16:00",
+          "title": "霍巴特机场",
+          "text": "乘维珍澳洲 VA594，珀斯机场（Perth Airport）T1 → 霍巴特机场（Hobart Airport），直线航程约3,020公里、计划飞行4小时10分；两地有2小时时差，均为当地时间。",
+          "placeId": "d5-01",
+          "lat": -42.8361,
+          "lng": 147.5103
+        },
+        {
+          "id": "rhythm-5",
+          "order": 5,
+          "time": "16:00-17:05",
+          "title": "取行李和第二辆租车",
+          "text": "取行李和第二辆租车。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-6",
+          "order": 6,
+          "time": "17:05-18:35",
+          "title": "亚瑟港（住宿区）",
+          "text": "从霍巴特机场（Hobart Airport）驾车约82公里前往亚瑟港（Port Arthur）；途中不加景点，暮色后降低车速，注意袋鼠、沙袋鼠和袋熊横穿。",
+          "placeId": "d5-02",
+          "lat": -43.14,
+          "lng": 147.87
+        },
+        {
+          "id": "rhythm-7",
+          "order": 7,
+          "time": "18:35以后",
+          "title": "按预先取得的late check-in说明入住、简单晚餐并准…",
+          "text": "按预先取得的late check-in说明入住、简单晚餐并准备次日防水衣物和晕船药。若取车后晚于17:45才离开机场，直接驾驶至住宿，不在Rosny Hill或霍巴特市区停留。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        }
       ]
     },
     {
@@ -236,6 +536,88 @@
         {
           "label": "工程页面",
           "url": "https://parks.tas.gov.au/be-involved/projects-and-programs/tasmans-arch-and-devils-kitchen-revitalisation-project"
+        }
+      ],
+      "rhythm": [
+        {
+          "id": "rhythm-1",
+          "order": 1,
+          "time": "08:15-09:00",
+          "title": "塔斯曼岛海上巡游",
+          "text": "从亚瑟港（Port Arthur）住宿驾车约1-3公里到Tasman Island Cruises Booking Centre（塔斯曼岛巡游中心，6961 Arthur Highway），停车、早餐并最迟09:15签到。",
+          "placeId": "d6-01",
+          "lat": -43.1485,
+          "lng": 147.852
+        },
+        {
+          "id": "rhythm-2",
+          "order": 2,
+          "time": "10:00-13:00",
+          "title": "参加Tasman Island Cruises（塔斯曼岛巡游…",
+          "text": "参加Tasman Island Cruises（塔斯曼岛巡游）；从海上看Cape Pillar（皮勒角）、Tasman Island（塔斯曼岛）、海蚀拱门和海洞，寻找海豹、海豚、迁徙鲸类、信天翁及其他海鸟；不登岛。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "13:00-13:30",
+          "title": "下船、取车并吃预先准备的冷餐",
+          "text": "下船、取车并吃预先准备的冷餐。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "13:30-13:55",
+          "title": "塔斯曼拱门／魔鬼厨房",
+          "text": "驾车约18公里前往Tasman Arch（塔斯曼拱门）／Devils Kitchen（魔鬼厨房）。",
+          "placeId": "d6-02",
+          "lat": -43.043,
+          "lng": 147.95
+        },
+        {
+          "id": "rhythm-5",
+          "order": 5,
+          "time": "13:55-14:30",
+          "title": "走平坦观景短线，看海蚀拱门、深切海沟和海浪冲击",
+          "text": "走平坦观景短线，看海蚀拱门、深切海沟和海浪冲击；若工程未按期开放，直接跳过。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-6",
+          "order": 6,
+          "time": "14:30-14:45",
+          "title": "棋盘石",
+          "text": "驾车约8公里前往Tessellated Pavement（棋盘石）。",
+          "placeId": "d6-03",
+          "lat": -43.009,
+          "lng": 147.945
+        },
+        {
+          "id": "rhythm-7",
+          "order": 7,
+          "time": "14:45-15:15",
+          "title": "轻量往返约10-20分钟",
+          "text": "轻量往返约10-20分钟；湿滑或涨潮时只在高处观察。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-8",
+          "order": 8,
+          "time": "15:15-17:15",
+          "title": "特里阿布纳（住宿）",
+          "text": "驾车约120公里前往特里阿布纳（Triabunna）／Maria Island Gateway（玛丽亚岛游客中心）附近住宿；导航优先选择全铺装主路，不采用未铺装捷径。抵达后采购次日午餐和饮水。",
+          "placeId": "d6-04",
+          "lat": -42.508,
+          "lng": 147.915
         }
       ]
     },
@@ -271,6 +653,108 @@
           "label": "Encounter Maria Island官方时刻表",
           "url": "https://encountermaria.com.au/timetable-pricing-luggage-check/"
         }
+      ],
+      "rhythm": [
+        {
+          "id": "rhythm-1",
+          "order": 1,
+          "time": "07:30-07:45",
+          "title": "玛丽亚岛",
+          "text": "从特里阿布纳（Triabunna）住宿驾车约1公里到Maria Island Gateway（玛丽亚岛游客中心）停车。",
+          "placeId": "d7-01",
+          "lat": -42.582,
+          "lng": 148.065
+        },
+        {
+          "id": "rhythm-2",
+          "order": 2,
+          "time": "07:45-08:20",
+          "title": "办理签到、确认返程船班和Painted Cliffs（彩绘崖…",
+          "text": "办理签到、确认返程船班和Painted Cliffs（彩绘崖）当日低潮窗口；最迟按船票要求完成登船。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "08:30-09:15",
+          "title": "乘Encounter Maria Island Ferry（…",
+          "text": "乘Encounter Maria Island Ferry（玛丽亚岛客运渡轮）航行约16公里至Darlington（达灵顿）。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "09:15-10:00",
+          "title": "在Darlington（达灵顿）周边草地慢走，先观察Womb…",
+          "text": "在Darlington（达灵顿）周边草地慢走，先观察Wombat（袋熊）、Forester kangaroo（东部灰大袋鼠）、Bennett wallaby（红颈袋鼠）及Cape Barren goose（斑胸草雁）；与动物至少保持2米。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-5",
+          "order": 5,
+          "time": "10:00-12:30",
+          "title": "按潮汐与体力二选一：低潮前后两小时内走Painted Cli…",
+          "text": "按潮汐与体力二选一：低潮前后两小时内走Painted Cliffs（彩绘崖）方向；若潮位不合适，则改走Fossil Cliffs（化石崖）。只完成一条主要路线，不走Bishop and Clerk（主教与书记峰）等长线。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-6",
+          "order": 6,
+          "time": "12:30-13:15",
+          "title": "自带午餐、补充体力",
+          "text": "自带午餐、补充体力。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-7",
+          "order": 7,
+          "time": "13:15-15:30",
+          "title": "回到Darlington（达灵顿）周边，以Commissar…",
+          "text": "回到Darlington（达灵顿）周边，以Commissariat Store（军需仓库）、海岸草地和正式短线为主，继续寻找袋熊、袋鼠、针鼹和塔州特有鸟类；若租自行车，只在开放道路骑行并在15:30前归还。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-8",
+          "order": 8,
+          "time": "15:30-16:05",
+          "title": "回到码头、核对人数并候船",
+          "text": "回到码头、核对人数并候船。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-9",
+          "order": 9,
+          "time": "16:15-17:00",
+          "title": "乘返程渡轮回特里阿布纳（Triabunna）",
+          "text": "乘返程渡轮回特里阿布纳（Triabunna）。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-10",
+          "order": 10,
+          "time": "17:00-18:45",
+          "title": "科尔斯湾（住宿）",
+          "text": "取车后驾车约118公里前往科尔斯湾（Coles Bay）住宿；途中不再加景点。",
+          "placeId": "d7-02",
+          "lat": -42.125,
+          "lng": 148.29
+        }
       ]
     },
     {
@@ -296,6 +780,138 @@
         {
           "label": "官方预订",
           "url": "https://bichenopenguintours.com.au/make-a-booking"
+        }
+      ],
+      "rhythm": [
+        {
+          "id": "rhythm-1",
+          "order": 1,
+          "time": "08:15-08:30",
+          "title": "从科尔斯湾（Coles Bay）住宿驾车约3-10公里到Wi…",
+          "text": "从科尔斯湾（Coles Bay）住宿驾车约3-10公里到Wineglass Bay Car Park（酒杯湾停车场）。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-2",
+          "order": 2,
+          "time": "08:30-10:15",
+          "title": "酒杯湾观景台",
+          "text": "往返步行约2.6公里至Wineglass Bay Lookout（酒杯湾观景台）；连续上坡和台阶，按体能慢走、利用休息座椅，不下海滩。约09:00-10:00抵达观景台时，白沙、蓝绿色海水和Hazards（哈泽兹山脉）在晴朗日已经很清楚，白天观赏本身完全值得。",
+          "placeId": "d8-01",
+          "lat": -42.145,
+          "lng": 148.29
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "10:15-10:30",
+          "title": "图维尔角灯塔步道",
+          "text": "驾车约7公里前往Cape Tourville Lighthouse Walk（图维尔角灯塔步道）。",
+          "placeId": "d8-02",
+          "lat": -42.122,
+          "lng": 148.34
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "10:30-11:10",
+          "title": "走约600米轻量环线，从高处看Freycinet（菲欣纳）海…",
+          "text": "走约600米轻量环线，从高处看Freycinet（菲欣纳）海岸、The Nuggets（鸡块岩）和外海；带望远镜留意迁徙鲸类。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-5",
+          "order": 5,
+          "time": "11:10-11:25",
+          "title": "蜜月湾",
+          "text": "驾车约6公里到Honeymoon Bay（蜜月湾）。",
+          "placeId": "d8-03",
+          "lat": -42.145,
+          "lng": 148.31
+        },
+        {
+          "id": "rhythm-6",
+          "order": 6,
+          "time": "11:25-12:00",
+          "title": "海湾短停、休息和拍摄花岗岩海岸",
+          "text": "海湾短停、休息和拍摄花岗岩海岸。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-7",
+          "order": 7,
+          "time": "12:00-13:00",
+          "title": "回科尔斯湾（Coles Bay）约5公里用午餐并加油",
+          "text": "回科尔斯湾（Coles Bay）约5公里用午餐并加油。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-8",
+          "order": 8,
+          "time": "13:00-13:40",
+          "title": "驾车约38-40公里前往比舍诺（Bicheno）",
+          "text": "驾车约38-40公里前往比舍诺（Bicheno）。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-9",
+          "order": 9,
+          "time": "13:40-14:30",
+          "title": "游览Bicheno Blowhole（比舍诺喷水洞）",
+          "text": "游览Bicheno Blowhole（比舍诺喷水洞）；只站在正式观景范围内。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-10",
+          "order": 10,
+          "time": "14:30-18:30",
+          "title": "在Waubs Bay（沃布斯湾）／Whalers Looko…",
+          "text": "在Waubs Bay（沃布斯湾）／Whalers Lookout（捕鲸人观景台）一带轻量散步、休息并提前吃晚餐，不再安排长徒步。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-11",
+          "order": 11,
+          "time": "18:45-19:20",
+          "title": "比舍诺企鹅归巢团",
+          "text": "驾车约1-3公里到Bicheno Penguin Tours（比舍诺企鹅归巢团，1/70 Burgess Street）签到；实际签到时间以票面为准。",
+          "placeId": "d8-04",
+          "lat": -41.873,
+          "lng": 148.301
+        },
+        {
+          "id": "rhythm-12",
+          "order": 12,
+          "time": "约19:30-20:30",
+          "title": "乘短程接驳车进入私人企鹅栖息地，步行约500米、约50分钟，…",
+          "text": "乘短程接驳车进入私人企鹅栖息地，步行约500米、约50分钟，观看Little penguin（小蓝企鹅）归巢；首场时间随日暮调整。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-13",
+          "order": 13,
+          "time": "约20:30-22:30",
+          "title": "朗塞斯顿（住宿）",
+          "text": "团后驾车约160公里前往朗塞斯顿（Launceston）；若订到更晚场次，整体顺延，途中安排一次短休息。",
+          "placeId": "d8-05",
+          "lat": -41.4332,
+          "lng": 147.1441
         }
       ]
     },
@@ -343,6 +959,98 @@
           "label": "官方接驳说明",
           "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/cradle-mountain-shuttle-bus-information"
         }
+      ],
+      "rhythm": [
+        {
+          "id": "rhythm-1",
+          "order": 1,
+          "time": "08:25-11:00",
+          "title": "鸭嘴兽之家",
+          "text": "从朗塞斯顿（Launceston）住宿驾车约48公里到美丽角（Beauty Point）／Platypus House（鸭嘴兽之家），预留停车和签到时间；正常情况下完全来得及参加10:00导览。\n参加Platypus House（鸭嘴兽之家）第一场向导团，在白天稳定观察Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）。",
+          "placeId": "d9-01",
+          "lat": -41.16,
+          "lng": 146.82
+        },
+        {
+          "id": "rhythm-2",
+          "order": 2,
+          "time": "11:00-11:30",
+          "title": "简餐、取外带午餐并离开",
+          "text": "简餐、取外带午餐并离开。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "11:30-13:50",
+          "title": "驾车约140公里前往Cradle Mountain Visi…",
+          "text": "驾车约140公里前往Cradle Mountain Visitor Centre（摇篮山游客中心）；山路按2小时20分预留，不增加中途景点。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "13:50-14:20",
+          "title": "办理parks pass／shuttle，寄存不需要的物品",
+          "text": "办理parks pass／shuttle，寄存不需要的物品。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-5",
+          "order": 5,
+          "time": "14:20-15:25",
+          "title": "鸽子湖",
+          "text": "乘接驳车约10公里到Dove Lake（鸽子湖），先看经典湖面与Cradle轮廓，再按体能只走湖东岸短段后原路返回。",
+          "placeId": "d9-02",
+          "lat": -41.655,
+          "lng": 145.96
+        },
+        {
+          "id": "rhythm-6",
+          "order": 6,
+          "time": "15:25-16:25",
+          "title": "罗尼溪",
+          "text": "视接驳与体力在Ronny Creek（罗尼溪）下车，沿button-grass草原木栈道轻走，寻找Wombat（袋熊）、Pademelon（塔斯马尼亚沙袋鼠）和Short-beaked echidna（短喙针鼹）；若前段延误，Ronny Creek缩短或移到10/3上午。",
+          "placeId": "d9-03",
+          "lat": -41.64,
+          "lng": 145.95
+        },
+        {
+          "id": "rhythm-7",
+          "order": 7,
+          "time": "16:25-17:00",
+          "title": "乘末段接驳返回游客中心",
+          "text": "乘末段接驳返回游客中心。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-8",
+          "order": 8,
+          "time": "17:00-17:20",
+          "title": "摇篮山恶魔保护园",
+          "text": "驾车约5-8公里到Devils@Cradle（摇篮山恶魔保护园）。",
+          "placeId": "d9-04",
+          "lat": -41.595,
+          "lng": 145.93
+        },
+        {
+          "id": "rhythm-9",
+          "order": 9,
+          "time": "17:30-18:45",
+          "title": "参加After Dark Feeding Tour（夜间喂食…",
+          "text": "参加After Dark Feeding Tour（夜间喂食团），观察Tasmanian devil（袋獾）、Eastern quoll（东袋鼬）与Spotted-tail quoll（斑尾袋鼬）；结束后短程回住宿。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        }
       ]
     },
     {
@@ -364,6 +1072,78 @@
         {
           "label": "官方订票",
           "url": "https://book.spiritoftasmania.com.au/"
+        }
+      ],
+      "rhythm": [
+        {
+          "id": "rhythm-1",
+          "order": 1,
+          "time": "08:00前",
+          "title": "退房并把行李装车",
+          "text": "退房并把行李装车。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-2",
+          "order": 2,
+          "time": "08:45-11:15",
+          "title": "摇篮山（天气缓冲）",
+          "text": "作为Cradle Mountain（摇篮山）补位与天气缓冲：若10/2因延误没有完成Ronny Creek（罗尼溪），先乘shuttle到罗尼溪做约45-60分钟草原木栈道动物观察，再到Dove Lake（鸽子湖）看经典湖景；若10/2两处都已完成但主峰被低云遮住，则把本日上午全部留给Dove Lake等待能见度窗口；若10/2已看清主峰，则改走Pencil Pine Falls & Rainforest Walk（铅笔松瀑布与雨林短线）／Enchanted Walk（魔法森林步道）。总步行控制在约1-2.5公里。",
+          "placeId": "d10-01",
+          "lat": -41.595,
+          "lng": 145.93
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "11:15-12:00",
+          "title": "必须回到游客中心、午餐和休息，不再等待天气",
+          "text": "必须回到游客中心、午餐和休息，不再等待天气。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "12:00-13:40",
+          "title": "从Cradle Mountain（摇篮山）驾车约85公里到德…",
+          "text": "从Cradle Mountain（摇篮山）驾车约85公里到德文波特（Devonport），途中不加远程景点。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-5",
+          "order": 5,
+          "time": "13:40-16:00",
+          "title": "德文波特码头（塔州精神号）",
+          "text": "加满油、采购船上食物并到Spirit of Tasmania Devonport Terminal（塔斯马尼亚精神号德文波特码头）排队。",
+          "placeId": "d10-02",
+          "lat": -41.18,
+          "lng": 146.365
+        },
+        {
+          "id": "rhythm-6",
+          "order": 6,
+          "time": "16:15",
+          "title": "官方check-in开放",
+          "text": "官方check-in开放；18:00：严格截止。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-7",
+          "order": 7,
+          "time": "18:45-次日07:00",
+          "title": "Spirit of Tasmania（塔斯马尼亚精神号）从德…",
+          "text": "Spirit of Tasmania（塔斯马尼亚精神号）从德文波特（Devonport）开往吉朗（Geelong），海上航程约430公里。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
         }
       ]
     },
@@ -399,6 +1179,148 @@
           "label": "灯塔官方信息",
           "url": "https://splitpointlighthouse.com.au/"
         }
+      ],
+      "rhythm": [
+        {
+          "id": "rhythm-1",
+          "order": 1,
+          "time": "07:00-08:00",
+          "title": "Spirit of Tasmania（塔斯马尼亚精神号）预计…",
+          "text": "Spirit of Tasmania（塔斯马尼亚精神号）预计抵达吉朗（Geelong）并下船；早餐、加油和简单补给。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-2",
+          "order": 2,
+          "time": "08:00-09:00",
+          "title": "驾车约56公里前往安格尔西（Anglesea）",
+          "text": "驾车约56公里前往安格尔西（Anglesea）。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "09:00-09:40",
+          "title": "安格尔西海滩",
+          "text": "在Anglesea Beach（安格尔西海滩）吹海风、舒展身体。",
+          "placeId": "d11-01",
+          "lat": -38.406,
+          "lng": 144.185
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "09:40-10:00",
+          "title": "小红帽灯塔",
+          "text": "驾车约10公里前往Split Point Lighthouse（小红帽灯塔）。",
+          "placeId": "d11-02",
+          "lat": -38.465,
+          "lng": 144.105
+        },
+        {
+          "id": "rhythm-5",
+          "order": 5,
+          "time": "10:00-10:40",
+          "title": "从外围观景步道看红顶白塔和鹰岩海岸",
+          "text": "从外围观景步道看红顶白塔和鹰岩海岸；不把登塔导览设为硬任务。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-6",
+          "order": 6,
+          "time": "10:40-11:05",
+          "title": "大洋路纪念拱门",
+          "text": "驾车约16公里前往Great Ocean Road Memorial Arch（大洋路纪念拱门）。",
+          "placeId": "d11-03",
+          "lat": -38.475,
+          "lng": 144.025
+        },
+        {
+          "id": "rhythm-7",
+          "order": 7,
+          "time": "11:05-11:25",
+          "title": "在正式停车区短停拍照",
+          "text": "在正式停车区短停拍照。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-8",
+          "order": 8,
+          "time": "11:25-11:50",
+          "title": "泰迪观景台",
+          "text": "驾车约14公里到Teddy’s Lookout（泰迪观景台）。",
+          "placeId": "d11-04",
+          "lat": -38.545,
+          "lng": 143.975
+        },
+        {
+          "id": "rhythm-9",
+          "order": 9,
+          "time": "11:50-12:20",
+          "title": "俯瞰大洋路贴着海崖转弯、Saint George River…",
+          "text": "俯瞰大洋路贴着海崖转弯、Saint George River（圣乔治河）汇入海湾的经典视角。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-10",
+          "order": 10,
+          "time": "12:20-13:20",
+          "title": "驾车约3公里进入洛恩（Lorne）午餐",
+          "text": "驾车约3公里进入洛恩（Lorne）午餐。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-11",
+          "order": 11,
+          "time": "13:20-14:00",
+          "title": "肯尼特河",
+          "text": "驾车约24公里前往肯尼特河（Kennett River）。",
+          "placeId": "d11-05",
+          "lat": -38.665,
+          "lng": 143.84
+        },
+        {
+          "id": "rhythm-12",
+          "order": 12,
+          "time": "14:00-15:00",
+          "title": "沿正式道路和步道寻找野生考拉、King Parrot（王鹦鹉…",
+          "text": "沿正式道路和步道寻找野生考拉、King Parrot（王鹦鹉）等鸟类；不喂食、不进入居民私人地。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-13",
+          "order": 13,
+          "time": "15:00-15:35",
+          "title": "阿波罗湾（住宿）",
+          "text": "驾车约23公里抵达阿波罗湾（Apollo Bay）。",
+          "placeId": "d11-06",
+          "lat": -38.755,
+          "lng": 143.67
+        },
+        {
+          "id": "rhythm-14",
+          "order": 14,
+          "time": "15:35以后",
+          "title": "入住后在Apollo Bay Foreshore（阿波罗湾海…",
+          "text": "入住后在Apollo Bay Foreshore（阿波罗湾海滨）轻松散步、用餐。若轮渡延误或夜航后疲劳，优先删减Anglesea Beach（安格尔西海滩）和灯塔停留，保留Memorial Arch（纪念拱门）、Teddy’s Lookout（泰迪观景台）、Kennett River（肯尼特河）及阿波罗湾住宿。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        }
       ]
     },
     {
@@ -416,6 +1338,148 @@
         {
           "label": "Maits Rest官方页面",
           "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
+        }
+      ],
+      "rhythm": [
+        {
+          "id": "rhythm-1",
+          "order": 1,
+          "time": "07:30-08:00",
+          "title": "梅茨雨林步道",
+          "text": "从阿波罗湾（Apollo Bay）驾车约17公里到Maits Rest Rainforest Walk（梅茨雨林步道）。",
+          "placeId": "d12-01",
+          "lat": -38.755,
+          "lng": 143.555
+        },
+        {
+          "id": "rhythm-2",
+          "order": 2,
+          "time": "08:00-09:00",
+          "title": "完成约800米轻量环线，在高大的Myrtle Beech（桃…",
+          "text": "完成约800米轻量环线，在高大的Myrtle Beech（桃金娘山毛榉）、树蕨和苔藓林下漫步。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "09:00-10:25",
+          "title": "吉布森阶梯",
+          "text": "驾车约70公里前往Gibson Steps（吉布森阶梯）。",
+          "placeId": "d12-02",
+          "lat": -38.67,
+          "lng": 143.1
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "10:25-11:10",
+          "title": "视现场开放、潮位和浪况决定是否下到海滩",
+          "text": "视现场开放、潮位和浪况决定是否下到海滩；关闭时只在上方正式观景点停留。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-5",
+          "order": 5,
+          "time": "11:10-11:20",
+          "title": "十二门徒岩",
+          "text": "驾车约2公里到Twelve Apostles（十二门徒岩）。",
+          "placeId": "d12-03",
+          "lat": -38.6655,
+          "lng": 143.1048
+        },
+        {
+          "id": "rhythm-6",
+          "order": 6,
+          "time": "11:20-12:20",
+          "title": "走主观景台观看石灰岩柱和南大洋海岸",
+          "text": "走主观景台观看石灰岩柱和南大洋海岸。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-7",
+          "order": 7,
+          "time": "12:20-12:50",
+          "title": "洛克阿德峡谷",
+          "text": "驾车约2-3公里到 Loch Ard Gorge（洛克阿德峡谷）短停约20-40分钟；进度落后则跳过。",
+          "placeId": "wv-loch",
+          "lat": -38.647,
+          "lng": 143.07
+        },
+        {
+          "id": "rhythm-8",
+          "order": 8,
+          "time": "12:20／12:50-13:10",
+          "title": "坎贝尔港",
+          "text": "驾车约10-12公里到坎贝尔港（Port Campbell）。",
+          "placeId": "d12-04",
+          "lat": -38.619,
+          "lng": 142.995
+        },
+        {
+          "id": "rhythm-9",
+          "order": 9,
+          "time": "13:10-13:55",
+          "title": "午餐、加油和短暂休整",
+          "text": "午餐、加油和短暂休整。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-10",
+          "order": 10,
+          "time": "13:55-14:20",
+          "title": "伦敦桥",
+          "text": "驾车约18公里到London Bridge（伦敦桥）。",
+          "placeId": "d12-05",
+          "lat": -38.62,
+          "lng": 142.93
+        },
+        {
+          "id": "rhythm-11",
+          "order": 11,
+          "time": "14:20-14:45",
+          "title": "从正式观景台看海蚀拱门与坍塌后的地貌",
+          "text": "从正式观景台看海蚀拱门与坍塌后的地貌。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-12",
+          "order": 12,
+          "time": "14:45-14:55",
+          "title": "石窟",
+          "text": "驾车约4公里返回The Grotto（石窟）。",
+          "placeId": "d12-06",
+          "lat": -38.615,
+          "lng": 142.91
+        },
+        {
+          "id": "rhythm-13",
+          "order": 13,
+          "time": "14:55-15:20",
+          "title": "沿台阶到正式观景位看洞穴、sinkhole与海蚀拱门形成的框…",
+          "text": "沿台阶到正式观景位看洞穴、sinkhole与海蚀拱门形成的框景。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-14",
+          "order": 14,
+          "time": "15:20-18:55",
+          "title": "墨尔本（住宿）",
+          "text": "驾车约230公里返回墨尔本（Melbourne），途中至少休息20分钟；入住West Melbourne／Southern Cross附近酒店。若天气或进度落后，优先删除【待定-2】Loch Ard，再删减London Bridge（伦敦桥）和The Grotto（石窟）中的一个，保证天黑前完成主要乡间路段。",
+          "placeId": "d12-07",
+          "lat": -37.8183,
+          "lng": 144.9525
         }
       ]
     },
@@ -442,6 +1506,68 @@
         {
           "label": "香港天文台机场气候",
           "url": "https://www.hko.gov.hk/en/aviat/amt/monthlymean.htm"
+        }
+      ],
+      "rhythm": [
+        {
+          "id": "rhythm-1",
+          "order": 1,
+          "time": "07:00-08:00",
+          "title": "维多利亚女王市场",
+          "text": "若酒店步行可达（单程通常约0.5-2公里），到 Queen Victoria Market（维多利亚女王市场） 早餐／短逛；周二市场06:00-15:00，specialty shopping 09:00才开。当天不去Puffing Billy、动物园或远郊。",
+          "placeId": "d13-01",
+          "lat": -37.8076,
+          "lng": 144.9568
+        },
+        {
+          "id": "rhythm-2",
+          "order": 2,
+          "time": "08:30-09:00",
+          "title": "从 墨尔本中央商务区（Melbourne CBD） 驾车约2…",
+          "text": "从 墨尔本中央商务区（Melbourne CBD） 驾车约23公里前往 墨尔本机场（Melbourne Airport）T2。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "09:30-12:00",
+          "title": "TRS商品查验、退税、值机、托运行李和安检",
+          "text": "TRS商品查验、退税、值机、托运行李和安检。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "13:00-19:40",
+          "title": "两人乘香港航空 HX036，墨尔本机场（Melbourne …",
+          "text": "两人乘香港航空 HX036，墨尔本机场（Melbourne Airport）T2 → 香港国际机场（Hong Kong International Airport）T1，直线航程约7,410公里，计划飞行约9小时40分。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-5",
+          "order": 5,
+          "time": "19:40-20:40",
+          "title": "香港国际机场（Hong Kong International…",
+          "text": "香港国际机场（Hong Kong International Airport） 仅60分钟转机，航站楼内步行／摆渡约1-2公里，由T1前往T2／下一登机口，不购物、不用餐。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-6",
+          "order": 6,
+          "time": "20:40-23:40",
+          "title": "乘 HX304，香港国际机场（Hong Kong Inter…",
+          "text": "乘 HX304，香港国际机场（Hong Kong International Airport）T2 → 北京首都国际机场（Beijing Capital International Airport）T2，直线航程约1,990公里，计划飞行3小时。以上均为各机场当地时间。",
+          "placeId": null,
+          "lat": null,
+          "lng": null
         }
       ]
     }

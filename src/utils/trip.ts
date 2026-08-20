@@ -1,4 +1,4 @@
-import type { IPlace, ITripDay } from '../types'
+import type { IPlace, IRhythmNode, ITripDay } from '../types'
 
 export interface IEmptyDaySummary {
   highlights: string
@@ -67,6 +67,15 @@ export function getPlacesForDay(places: IPlace[], day: number): IPlace[] {
   return places
     .filter((place) => place.day === day && place.status === 'visit')
     .sort((left, right) => (left.order_in_day ?? 99) - (right.order_in_day ?? 99))
+}
+
+export function getMappableRhythmNodes(
+  nodes: IRhythmNode[],
+): Array<IRhythmNode & { lat: number; lng: number }> {
+  return nodes.filter(
+    (node): node is IRhythmNode & { lat: number; lng: number } =>
+      node.lat !== null && node.lng !== null,
+  )
 }
 
 export function getEmptyDaySummary(

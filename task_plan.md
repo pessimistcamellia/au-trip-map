@@ -34,7 +34,7 @@
 - **状态：** complete
 
 ## 当前阶段
-阶段 11（GitHub Pages 远程部署已完成）
+阶段 15（提交、部署与线上复验进行中）
 
 ### 阶段 6：PWA 需求与数据审计
 - [x] 对照飞书最新版与本地全部材料
@@ -77,6 +77,30 @@
 - [x] 用 Chrome DevTools MCP 在 390×844 复验线上 URL
 - **状态：** complete
 
+### 阶段 12：行程节奏地图可行性审计
+- [x] 核查 API key、My Maps、KML、每日坐标与现有数据生成链路
+- [x] 实证 Google Embed / My Maps / Directions 的分日标注限制
+- [x] 确定符合技术栈规范、可上线且可降级的交互地图方案
+- **状态：** complete
+
+### 阶段 13：行程节奏双视图实现
+- [x] 解析每日节奏节点、时间窗与匹配坐标
+- [x] 实现文字 / 地图切换、路线、导航与无坐标提示
+- [x] 实现地图联网错误态与一键切回文字
+- **状态：** complete
+
+### 阶段 14：测试与移动端验收
+- [x] 增补解析顺序、无坐标与导航 URL 单测
+- [x] 通过 typecheck、test、build
+- [x] 390×844 移动端至少验收两天及离线行为
+- **状态：** complete
+
+### 阶段 15：提交、部署与交付
+- [ ] 提交并推送 main（禁止 force push）
+- [ ] 更新 gh-pages 并复验线上 URL
+- [ ] 汇总方案、文件、解析、离线与真实限制
+- **状态：** pending
+
 ## 关键问题
 1. Tower Hill / Warrnambool 是否彻底放弃，还是仅作「时间极充裕时的西延可选」？
 2. Loch Ard Gorge 是否作为 10/5 十二门徒后的顺路可选短停？
@@ -98,6 +122,7 @@
 | 图标 CSS 含 at.alicdn.com 回退 | 1 | Vite 插件剥离 CDN，仅保留内联 woff2 |
 | Chrome MCP 整页截图超时 | 3 | 改用 390x844 a11y 快照与布局脚本 |
 | Lighthouse navigation NO_FCP | 1 | 改用 snapshot；MCP 不含 PWA/性能分类 |
+| Python 3.9 不支持运行时求值的 `dict | None` | 1 | 增加 `from __future__ import annotations` |
 
 ## 备注
 - 阶段 11 用户明确要求 GitHub 部署，允许 commit / push / 创建仓库 / 开启 Pages（禁止 force push、禁止改 git config）

@@ -4,6 +4,7 @@ import type { ITripData } from '../src/types'
 import {
   buildNavigationUrl,
   getEmptyDaySummary,
+  getMappableRhythmNodes,
   getPlacesForDay,
   searchPlaces,
   selectRelevantDay,
@@ -50,6 +51,33 @@ describe('静态行程数据', () => {
       schedule: expect.stringContaining('新加坡樟宜机场'),
     })
     expect(getEmptyDaySummary(secondDay, data.places)).toBeNull()
+  })
+
+  it('按当天节奏顺序解析时间与地图点', () => {
+    const day = data.days.find((item) => item.day === 2)!
+    const points = getMappableRhythmNodes(day.rhythm)
+
+    expect(day.rhythm[0]).toMatchObject({
+      order: 1,
+      time: '04:20-07:45',
+      placeId: 'd2-01',
+    })
+    expect(points.map((point) => point.placeId)).toEqual([
+      'd2-01',
+      'd2-02',
+      'd2-03',
+      'd2-04',
+      'd2-05',
+    ])
+    expect(points.at(-1)?.time).toBe('日落后')
+  })
+
+  it('无坐标节奏节点保留在文字列表且地图过滤不报错', () => {
+    const transitionDay = data.days.find((item) => item.day === 1)!
+
+    expect(transitionDay.rhythm.length).toBeGreaterThan(0)
+    expect(getMappableRhythmNodes(transitionDay.rhythm)).toEqual([])
+    expect(transitionDay.rhythm.every((node) => node.lat === null)).toBe(true)
   })
 })
 

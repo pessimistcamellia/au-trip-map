@@ -15,6 +15,8 @@
 
 - 首页按澳洲当地日期选择“今天”，出发前显示倒计时和首日预览
 - 13 天日期滑块、逐日路线摘要、地点时间线
+- 每日“行程节奏”文字／地图双视图；OSM 交互底图显示序号、时间与当天点集
+- OSRM 在线匹配实际驾车道路；失败时明确退回直线示意
 - 地点详情按实用、看点、天气、文化、预约、备注分区
 - 全局搜索、收藏、完成勾选、个人备注和准备清单
 - 独立“本次不看”页面，保留 33 条愿望资料
@@ -49,7 +51,7 @@ corepack pnpm preview
 corepack pnpm preview --host 127.0.0.1 --port 4173
 ```
 
-浏览器打开 `http://127.0.0.1:4173`。当前生产包主 JS 约 370 kB、CSS 约 77 kB；Service Worker precache 14 条、合计约 452 KiB（含 app shell、图标、`offline.html` 与 `robots.txt`）。Vant 按需引入 `Icon` / `Search` / `Popup`，未再触发 500 kB chunk 告警。
+浏览器打开 `http://127.0.0.1:4173/au-trip-map/`。当前生产包主 JS 约 406 kB、CSS 约 82 kB；Service Worker precache 14 条、合计约 491 KiB（含 app shell、图标、`offline.html` 与 `robots.txt`）。Vant 按需引入 `Icon` / `Search` / `Popup`，未再触发 500 kB chunk 告警。
 
 ## 安装到手机
 
@@ -67,9 +69,10 @@ corepack pnpm preview --host 127.0.0.1 --port 4173
 
 - 打开外部官网、帮助链接和私人 Google My Maps 图层
 - 从网页跳转 Google Maps App 或网页并计算路线
+- 加载 OSM 地图瓦片与通过 OSRM 匹配驾车道路
 - 首次尚未完成缓存时访问新页面
 
-网页不会下载或缓存 Google 地图瓦片。私人 My Maps 自定义图层也不能离线嵌入。
+网页不会预下载或完整缓存 OSM / Google 地图瓦片。离线切到地图时会显示“地图需联网”和“切回文字”，已缓存的逐日文字节奏始终可用。私人 My Maps 自定义图层也不能离线嵌入。
 
 ## Google Maps 离线准备
 

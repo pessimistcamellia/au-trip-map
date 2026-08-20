@@ -65,3 +65,12 @@
 - `gh auth status` 实际登录：`pessimistcamellia`。skill 参考用户名 `Leo-ai05` 本次不使用。
 - 已有仓库含 `prototypes`（Cloudflare 降级备选），无 `au-trip-map`。
 - 优先方案：新建公开仓库 `pessimistcamellia/au-trip-map`，`main` 放源码，`gh-pages` 放 `dist`，Pages 子路径 `/au-trip-map/`。
+
+## 2026-08-20 行程节奏地图可行性
+- 仓库仅有私人 My Maps `mid=10eTWDmGzd0nwA4sFuDWaxVEcO5QP0_4`，没有 Google Maps API key、Maps Embed URL 或环境变量；`itinerary.json` / `src/data/trip-data.json` 已有逐日坐标，KML 只读保留。
+- Google 官方文档实证：Maps Embed API 的 `place/view/directions/search` 均需 API key；`directions` 可带最多 20 个 waypoints，但不提供每个 waypoint 的自定义“序号＋时间”HTML 标注。
+- Google Maps JavaScript API 可用 Advanced Marker 做 HTML/CSS 标注，但每次请求必须携带 API key，生产使用还需启用 billing 与来源限制；当前仓库无法真实接入。
+- My Maps iframe 没有官方按 URL 指定“只显示某一天图层”的参数，图例／图层控制也不暴露给父页面；跨域同源策略阻止父页面在 iframe 内叠加或操纵 marker。整张私人地图不能满足逐日切换。
+- 无 key 的 Google Maps URLs 可打开多点路线，但它是外部跳转，不能作为页面内底图，也不能给点写自定义时间标签。
+- `Leaflet` / `MapLibre` 未列入团队技术栈允许清单；本次不新增依赖。选用原生 Vue/CSS 的 OSM 瓦片交互视图，支持拖动、按钮／滚轮缩放与 HTML marker；用公开 OSRM route service 请求驾车 GeoJSON，失败时退回直线并明确标注。
+- OSM 瓦片与 OSRM 均需联网，PWA 不承诺离线地图；离线时地图区域显示“地图需联网”并提供一键切回文字，静态文字节奏始终来自 precache 数据。
