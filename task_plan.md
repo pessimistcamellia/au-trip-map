@@ -34,7 +34,7 @@
 - **状态：** complete
 
 ## 当前阶段
-阶段 23（全部完成）
+阶段 27（进行中）
 
 ### 阶段 6：PWA 需求与数据审计
 - [x] 对照飞书最新版与本地全部材料
@@ -151,6 +151,30 @@
 - [x] 提交并推送 main，更新 gh-pages
 - [x] 打开生产 URL 完成最终复验
 - **状态：** complete
+
+### 阶段 24：双主题运行态与视觉审计
+- [x] 实测线上 `colorScheme: light` 与 `dark`，确认“黑橙”来源
+- [x] 通读设计技能、技术栈规范、规划文件与全部颜色使用点
+- [x] 确定 light／dark 语义 token 与 WCAG 对比度基线
+- **状态：** complete
+
+### 阶段 25：清新双主题视觉实现
+- [x] 重做全局 token、卡片层次、阴影、圆角、字重与交互状态
+- [x] 收敛地图 marker／路线／控件及静态导出中的硬编码颜色
+- [x] 同步 manifest、HTML theme-color、offline 与本地图标
+- **状态：** complete
+
+### 阶段 26：自动化与手机双主题验收
+- [x] 通过 typecheck、test、build
+- [x] 390×844×2 light／dark 覆盖首页、日程地图、四分类、日志汇总、准备页
+- [x] 核验无横向溢出、按钮单行、触摸目标、marker 与弹层层级
+- **状态：** complete
+
+### 阶段 27：提交、发布与线上复验
+- [ ] 以中文 Conventional Commit 提交并推送 main
+- [ ] 更新 gh-pages，不 force push
+- [ ] 打开生产 URL 双主题复验并记录真实限制
+- **状态：** pending
 
 ## 关键问题
 1. Tower Hill / Warrnambool 是否彻底放弃，还是仅作「时间极充裕时的西延可选」？

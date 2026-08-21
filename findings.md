@@ -95,3 +95,12 @@
 - 视觉审计：当前海蓝／青绿贯穿 light、dark、PWA manifest 与图标，且使用网格背景、较多等大圆角卡片。新方向为奶油鹅黄底、琥珀主色、陶土状态色与暖深棕暗色；保留高信息密度但减少三等分按钮和套盒。
 - 地图卡片关闭与“回到全览”的共同根因已确认：两个按钮都在 `.rhythm-map` 内，`pointerdown` 冒泡到地图后执行 `setPointerCapture`，后续 `pointerup/click` 被重定向到地图容器，子按钮的 click 不稳定或完全不触发；不是 Vue ref 本身失效。marker 之所以能点，是原实现只有 marker 写了 `@pointerdown.stop`。修复为地图容器先排除 `button/a`，并给关闭、全览、缩放控件统一阻止 pointerdown/click 冒泡；关闭后保持 `selectedPoint=null`，重新点 marker 才打开，切日／切视图由 `resetMap` 清空。
 - “回到全览”原先还有第二个体验问题：即使 click 成功，`fitPoints()` 计算结果与当前状态相同也不会有视觉变化。新实现统一调用 reset、重载路线，并显示 1.6 秒“已回到当日全览”；因此已在全览时也有明确反馈。
+
+## 2026-08-21 清新视觉重做审计
+- 主题逻辑为 `store.theme === system` 时读取 `prefers-color-scheme: dark`，因此深色系统会明确进入 `[data-theme="dark"]`；旧 dark 使用 `#211a14`、`#2b2119`、`#e09a55`，用户感知为“黑橙”符合运行逻辑。
+- 旧 light 的 `#fbf4df` 是整页背景，卡片 `#fffaf0`、强调 `#c56a24`，即使未进入 dark 也仍是高覆盖奶油黄加陶土橙，视觉偏厚重。
+- `styles.css` 中地图路线、marker、控件、弹层仍有约 30 处暖褐／陶土硬编码；`staticTripExport.ts`、`index.html`、`vite.config.ts`、`public/offline.html` 也各自保留旧色，必须统一收敛。
+- 新方向保留现有 Vue 3、Vant 按需、Pinia、PWA 与原生 CSS；不新增依赖，不改变四分类、随手记、稳定序号、下载或 repository。
+- 线上 390×844×2 实测：`colorScheme: light` 得到 `data-theme=light`、页面背景 `rgb(251,244,223)`、Hero `rgb(197,106,36)`；`colorScheme: dark` 得到 `data-theme=dark`、页面背景 `rgb(33,26,20)`、Hero `rgb(224,154,85)`。两种模式均无横向溢出，且用户所说“黑橙”与 dark 的实测画面完全一致。
+- 新 light 基线为白灰 `#FAFAF7` 主底、白卡 `#FFFFFF`、金盏黄 `#F4CB4F`；新 dark 为中性炭灰 `#191B1C`、卡片 `#232627`、同一金盏黄强调，彻底移除黑褐与陶土橙。
+- 关键对比度计算：light 主文／背景 12.37:1、次文／背景 5.52:1、链接／背景 6.35:1、强调按钮文字／黄底 9.55:1；dark 主文／背景 15.63:1、次文／背景 9.05:1、链接／背景 12.09:1、强调按钮文字／黄底 9.80:1；marker 数字／黄底 9.80:1。

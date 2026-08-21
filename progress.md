@@ -94,3 +94,14 @@
 - 暗色实测 `#211a14 / #f7ead5`；Day 13 单点日 zoom 13 街道级可读。
 - 复验限制：CDP `Offline` 不会改写 `navigator.onLine`，因此离线分支通过派发 `offline` 事件验证，结果为状态栏“当前离线，外部地图与链接不可用”、地图“地图需联网／切回文字”、五条导航链接 `aria-disabled=true`；OSRM 在断网下确实回落“直线示意”。
 - 遗留观察：部分点的“看点”同时保留地点自身描述与带地点名前缀的日级描述，语义重复但不丢信息，`uniqueText` 仅去重完全相同文本。
+
+## 2026-08-21 清新视觉重做
+- 已读取 `redesign-existing-projects`、`frontend-design-quality`、上下文规划与前端技术栈规范，续接阶段 24-27。
+- 设计判断：移动端高信息密度旅行工具，保留功能与信息架构；`VARIANCE 5 / MOTION 3 / DENSITY 7`，采用原生 CSS 语义 token，不引入依赖。
+- 代码审计确认系统主题会把站点切到 `#211a14` 暖褐底与 `#e09a55` 橙色强调；light 也以 `#fbf4df` 饱和奶油色铺满页面，并存在地图、导出、offline 与 PWA 元数据的旧色硬编码。
+- 正在用 Chrome DevTools 对线上 light／dark 取运行态实证，之后统一重做双主题与地图配色。
+- 线上基线实证：light 为 `#fbf4df / #c56a24`，dark 为 `#211a14 / #e09a55`；dark 截图即明显“黑橙”，light 也因全屏奶油黄与陶土 Hero 偏重。
+- 已完成清新双主题：light `#FAFAF7 / #FFFFFF / #F4CB4F`，dark `#191B1C / #232627 / #F4CB4F`；地图、静态导出、offline、manifest、启动 theme-color 与 PWA 图标同步。
+- 自动化通过：`corepack pnpm typecheck`、Vitest 19/19、`corepack pnpm build`；主 JS 471.29 kB、CSS 89.79 kB，precache 14 条 / 564.08 KiB。
+- Chrome DevTools 390×844×2 light／dark 均覆盖首页、Day 2 多点地图、marker、回到全览、四分类 Popup、旅途日志汇总与准备页；页面宽始终 390/390，按钮文案无换行，有效触摸目标最小 44px。
+- 地图实测：light 路线 `#9A7000`，dark 路线 `#F4CB4F`；marker 均为 `#F4CB4F` 配 `#29260D` 数字与 3px 白边，数字对比度 9.80:1，OSM 底图上清楚可读。

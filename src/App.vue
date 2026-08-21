@@ -181,6 +181,10 @@ function applyTheme(): void {
   const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches
   const dark = store.theme === 'dark' || (store.theme === 'system' && prefersDark)
   document.documentElement.dataset.theme = dark ? 'dark' : 'light'
+  const background = dark ? '#191b1c' : '#fafaf7'
+  document.documentElement.style.backgroundColor = background
+  document.documentElement.style.colorScheme = dark ? 'dark' : 'light'
+  document.querySelector<HTMLMetaElement>('#theme-color')?.setAttribute('content', background)
 }
 
 watch(
