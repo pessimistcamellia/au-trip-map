@@ -76,3 +76,10 @@
 - 已完成稳定 `sequence`、optional marker、四分类、WeatherRepository、IndexedDB／local fallback 日志、照片压缩、10 张约束、按天汇总与单文件 HTML 导出主体实现。
 - 已切换暖色 light／dark、PWA manifest 与本地图标；保留原 `au-trip-map:user-state:v1`。
 - 阶段性验证：`vue-tsc` 通过；Vitest 19/19 通过；production build 通过，precache 14 条 / 560.42 KiB。
+- 最终验证：`corepack pnpm typecheck`、19/19 tests、`corepack pnpm build` 全过；主 JS 470.94 kB、CSS 87.87 kB，precache 14 条 / 560.85 KiB。
+- Chrome DevTools `390x844x2,mobile,touch`：页面 390/390 无溢出且可见交互目标均不小于 44px；Day 2 列表／地图同为 1-5，兰斯林 optional marker 可见；Day 12 为 8 个 marker（2 个 optional），Day 13 单点 zoom 13，Day 1 无点空态。
+- 地图实测：marker 卡片可关闭；放大从 zoom 13 到 14 后“回到全览”恢复到 13，并显示“已回到当日全览”。
+- 更多弹层实测四分类、底部延伸阅读、Escape 关闭；日志实测文本＋压缩照片写入 `au-trip-map-journal` IndexedDB、10/10 截止、历史记录与全局按日期汇总。
+- 静态路书实测：默认 HTML 74,333 字符、13 天完整、无外部 script/link、未含日志；显式勾选后 75,537 字符，包含日志文本与 `data:image/jpeg` 内嵌照片。
+- 暖色 light 为 `#fbf4df / #c56a24`，dark 为 `#211a14 / #e09a55`；离线 reload 后 app shell 与文字可读，地图明确显示“地图需联网”。
+- 已发布：main `8332989`，gh-pages `9f0b422`；生产 URL 已加载新资产 `index-Dc9eQfl0.js` 并完成 Day 2、Popup、日志入口、390px 与离线降级复验。
