@@ -34,7 +34,7 @@
 - **状态：** complete
 
 ## 当前阶段
-阶段 18（提交、部署与线上复验已完成）
+阶段 23（手机、离线、线上验收与发布）
 
 ### 阶段 6：PWA 需求与数据审计
 - [x] 对照飞书最新版与本地全部材料
@@ -120,6 +120,37 @@
 - [x] Chrome MCP 复验 Day 2、Day 12、单点日、Day 1
 - [x] 提交并推送 main、更新 gh-pages、线上复验
 - **状态：** complete
+
+### 阶段 19：产品级重构审计与缺陷复现
+- [x] 通读六张截图、技能、规划、源码、数据生成器与既有测试
+- [x] 在当前线上／本地版本复现地图关闭、全览与空入口问题
+- [x] 将三个缺陷根因和设计审计结论写入 findings.md
+- **状态：** complete
+
+### 阶段 20：数据访问层与稳定序号
+- [x] 增加 TripRepository、JournalRepository、WeatherRepository 合约与静态实现
+- [x] 从数据生成层提供稳定 sequence、分类信息与天气参考模型
+- [x] 保留既有 Pinia 持久化 key，页面不再直接导入 JSON 或操作日志存储
+- **状态：** complete
+
+### 阶段 21：目的地交互、随手记与静态导出
+- [x] 修复地图卡片关闭和全览反馈，加入 optional marker 语义
+- [x] 重构目的地标题行操作与“更多”四分类弹层
+- [x] 完成目的地日志、照片压缩／IndexedDB、全局按天汇总
+- [x] 完成默认不含日志的单文件离线路书下载
+- **状态：** complete
+
+### 阶段 22：暖色视觉与完整测试
+- [x] 落实暖色 light／dark 设计、390px、安全区与 reduced motion
+- [x] 补稳定序号、分类、地图状态、日志 CRUD、10 图、汇总、天气与导出测试
+- [x] 通过 typecheck、test、build
+- **状态：** complete
+
+### 阶段 23：手机、离线、线上验收与发布
+- [x] Chrome MCP 实测指定日期、Popup、日志、下载、双主题与离线降级
+- [ ] 提交并推送 main，更新 gh-pages
+- [ ] 打开生产 URL 完成最终复验
+- **状态：** in_progress
 
 ## 关键问题
 1. Tower Hill / Warrnambool 是否彻底放弃，还是仅作「时间极充裕时的西延可选」？

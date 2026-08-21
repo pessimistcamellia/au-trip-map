@@ -15,12 +15,15 @@
 
 - 首页按澳洲当地日期选择“今天”，出发前显示倒计时和首日预览
 - 13 天日期滑块、逐日路线摘要、地点时间线
-- 每日“行程节奏”文字／地图双视图；OSM 交互底图显示序号、时间与当天点集
+- 每日“行程节奏”文字／地图双视图；地点列表与 marker 共用数据层稳定 `sequence`，可选点使用虚线 marker 与“可选”角标
 - OSRM 在线匹配实际驾车道路；失败时明确退回直线示意
-- 地点详情按实用、看点、天气、文化、预约、备注分区
-- 全局搜索、收藏、完成勾选、个人备注和准备清单
+- 地点标题行提供轻量“导航 / 更多”，更多弹层固定按看点、实用、天气、文化分类，来源链接统一放在底部
+- 每个目的地可写“随手记”：正文、最多 10 张压缩照片、IndexedDB 本机保存、历史记录与全局按日期汇总
+- 天气明确区分“长年气候参考”和“临近日期预报”；当前远期行程不伪造降雨、湿度、UV 或晴朗度
+- 下载不依赖在线资源的单文件 HTML 静态路书；默认不包含随手记，可显式选择包含压缩照片
+- 全局搜索、完成勾选、准备清单及暖色 light / dark 主题
 - 独立“本次不看”页面，保留 33 条愿望资料
-- Google Maps universal HTTPS 导航、复制坐标与地点名
+- Google Maps universal HTTPS 导航
 - 私人 Google My Maps 入口及真实离线限制说明
 - 双主题、safe area、44px 触控区、键盘焦点和 reduced motion
 - 安装、离线、缓存、更新、加载、空搜索和数据异常状态
@@ -45,13 +48,31 @@ corepack pnpm build
 corepack pnpm preview
 ```
 
-`build` 会先从权威本地材料重新生成 `src/data/trip-data.json` 和本地 PWA 图标。本机验证时：
+`build` 会先从权威本地材料重新生成 `src/data/trip-data.json` 和暖色本地 PWA 图标。本机验证时：
 
 ```bash
 corepack pnpm preview --host 127.0.0.1 --port 4173
 ```
 
-浏览器打开 `http://127.0.0.1:4173/au-trip-map/`。当前生产包主 JS 约 406 kB、CSS 约 82 kB；Service Worker precache 14 条、合计约 491 KiB（含 app shell、图标、`offline.html` 与 `robots.txt`）。Vant 按需引入 `Icon` / `Search` / `Popup`，未再触发 500 kB chunk 告警。
+浏览器打开 `http://127.0.0.1:4173/au-trip-map/`。当前 production build 主 JS 约 471 kB、CSS 约 88 kB；Service Worker precache 14 条、合计约 560 KiB（含 app shell、图标、`offline.html` 与 `robots.txt`）。Vant 保持按需引入 `Icon` / `Search` / `Popup`，未引入新的 UI 或存储依赖。
+
+## 数据访问与未来 API
+
+页面不直接导入 JSON，也不直接操作日志存储：
+
+- `src/repositories/tripRepository.ts`：`ITripRepository` 与当前 `StaticTripRepository`。未来替换为 HTTP 实现即可，页面消费的 `ITripData` 不变。
+- `src/repositories/journalRepository.ts`：`IJournalRepository`。当前优先 IndexedDB 保存 entry metadata 与图片 Blob；浏览器不支持时回退 localStorage，测试使用内存实现。
+- `src/repositories/weatherRepository.ts`：`IWeatherProvider` / `IWeatherRepository`。当前 provider 只返回文档气候参考；未来可在可预报窗口内接入远程 provider。
+- `src/services/placeDetails.ts`：目的地四分类和外链去重。
+- `src/services/staticTripExport.ts`：离线 HTML 生成、URL 约束与 HTML 转义。
+
+建议未来后端提供：
+
+- `GET /api/trips/:tripId`：返回行程、日期、地点、稳定序号、分类资料和来源链接。
+- `GET /api/weather?lat=&lng=&date=`：仅在 provider 支持的预报窗口返回点坐标级预报，并带 `provider`、`issuedAt`、`granularity`。
+- `GET/POST/PATCH/DELETE /api/journals` 与 `POST /api/journal-photos`：替换当前本机 repository；上线前需补账号、权限、加密、隐私和容量策略。
+
+当前没有搭建空后端，也没有调用远期天气 API。替换点是 repository/provider，不需要重写页面组件。
 
 ## 安装到手机
 
@@ -73,6 +94,8 @@ corepack pnpm preview --host 127.0.0.1 --port 4173
 - 首次尚未完成缓存时访问新页面
 
 网页不会预下载或完整缓存 OSM / Google 地图瓦片。离线切到地图时会显示“地图需联网”和“切回文字”，已缓存的逐日文字节奏始终可用。私人 My Maps 自定义图层也不能离线嵌入。
+
+随手记正文和照片仅保存在当前浏览器：清理站点数据、更换设备或隐私模式结束后可能丢失，不代表已云同步。导出静态路书默认不包含随手记；勾选后会把当前日志与压缩照片内嵌到 HTML，请自行保管。
 
 ## Google Maps 离线准备
 

@@ -5,6 +5,7 @@ import {
   buildNavigationUrl,
   calculateMapViewport,
   getMappableRhythmNodes,
+  shouldStartMapDrag,
   spreadMapMarkerPositions,
 } from '../utils/trip'
 
@@ -46,7 +47,9 @@ const route = ref<ICoordinate[]>([])
 const routeState = ref<'idle' | 'loading' | 'road' | 'straight'>('idle')
 const tileFailures = ref(0)
 const selectedPoint = ref<IMapPoint | null>(null)
+const resetNotice = ref('')
 let resizeObserver: ResizeObserver | null = null
+let resetNoticeTimer: number | undefined
 let drag:
   | { pointerId: number; x: number; y: number; centerX: number; centerY: number }
   | undefined
@@ -149,7 +152,12 @@ function changeZoom(delta: number): void {
 }
 
 function startDrag(event: PointerEvent): void {
-  if (mapUnavailable.value) return
+  if (
+    !shouldStartMapDrag(
+      mapUnavailable.value,
+      Boolean((event.target as HTMLElement).closest('button, a')),
+    )
+  ) return
   container.value?.setPointerCapture(event.pointerId)
   drag = {
     pointerId: event.pointerId,
@@ -217,6 +225,15 @@ function resetMap(): void {
   })
 }
 
+function resetToOverview(): void {
+  resetMap()
+  resetNotice.value = '已回到当日全览'
+  window.clearTimeout(resetNoticeTimer)
+  resetNoticeTimer = window.setTimeout(() => {
+    resetNotice.value = ''
+  }, 1600)
+}
+
 watch(
   () => [props.nodes, props.online],
   () => resetMap(),
@@ -233,7 +250,10 @@ onMounted(() => {
   resetMap()
 })
 
-onBeforeUnmount(() => resizeObserver?.disconnect())
+onBeforeUnmount(() => {
+  resizeObserver?.disconnect()
+  window.clearTimeout(resetNoticeTimer)
+})
 </script>
 
 <template>
@@ -280,28 +300,36 @@ onBeforeUnmount(() => resizeObserver?.disconnect())
           v-for="(point, index) in points"
           :key="point.id"
           class="map-marker"
-          :class="{ selected: selectedPoint?.id === point.id }"
+          :class="{
+            selected: selectedPoint?.id === point.id,
+            optional: point.priority === 'optional',
+          }"
           :style="{
             left: `${markerPositions[index].left}px`,
             top: `${markerPositions[index].top}px`,
           }"
           type="button"
-          :aria-label="`第 ${index + 1} 点，${point.title}，查看时间`"
+          :aria-label="`第 ${point.sequence ?? index + 1} 点，${point.title}${point.priority === 'optional' ? '，可选' : ''}，查看时间`"
           :aria-pressed="selectedPoint?.id === point.id"
           @pointerdown.stop
-          @mouseenter="selectedPoint = point"
           @focus="selectedPoint = point"
           @click="selectedPoint = point"
         >
-          <b>{{ index + 1 }}</b>
+          <b>{{ point.sequence ?? index + 1 }}</b>
+          <small v-if="point.priority === 'optional'">可选</small>
         </button>
-        <button class="map-fit-button" type="button" @click="fitPoints">
+        <button
+          class="map-fit-button"
+          type="button"
+          @pointerdown.stop
+          @click.stop="resetToOverview"
+        >
           <van-icon name="expand-o" />
           回到全览
         </button>
         <div class="map-controls" aria-label="地图缩放">
-          <button type="button" aria-label="放大地图" @click="changeZoom(1)">＋</button>
-          <button type="button" aria-label="缩小地图" @click="changeZoom(-1)">−</button>
+          <button type="button" aria-label="放大地图" @pointerdown.stop @click.stop="changeZoom(1)">＋</button>
+          <button type="button" aria-label="缩小地图" @pointerdown.stop @click.stop="changeZoom(-1)">−</button>
         </div>
         <small class="map-attribution">
           © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a>
@@ -310,7 +338,8 @@ onBeforeUnmount(() => resizeObserver?.disconnect())
           <button
             type="button"
             aria-label="关闭地点时间"
-            @click="selectedPoint = null"
+            @pointerdown.stop
+            @click.stop="selectedPoint = null"
           >
             <van-icon name="cross" />
           </button>
@@ -324,6 +353,9 @@ onBeforeUnmount(() => resizeObserver?.disconnect())
             在 Google 地图导航 <van-icon name="share-o" />
           </a>
         </aside>
+        <div v-if="resetNotice" class="map-reset-notice" role="status">
+          {{ resetNotice }}
+        </div>
       </template>
       <div v-else class="map-empty">
         <van-icon :name="online ? 'location-o' : 'warning-o'" />

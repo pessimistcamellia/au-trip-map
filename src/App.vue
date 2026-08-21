@@ -1,17 +1,33 @@
 <script setup lang="ts">
 import { useOnline } from '@vueuse/core'
-import { computed, nextTick, onMounted, ref, watch } from 'vue'
+import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useRegisterSW } from 'virtual:pwa-register/vue'
+import JournalView from './components/JournalView.vue'
 import TripRhythmMap from './components/TripRhythmMap.vue'
-import rawTripData from './data/trip-data.json'
+import { journalRepository } from './repositories/journalRepository'
+import { staticTripData } from './repositories/tripRepository'
+import { weatherRepository } from './repositories/weatherRepository'
+import {
+  getPlaceDetailLinks,
+  getPlaceDetailSections,
+  hasPlaceDetails,
+} from './services/placeDetails'
+import {
+  downloadHtml,
+  generateStaticTripHtml,
+} from './services/staticTripExport'
 import { useTripStore } from './stores/trip'
-import type { IPlace, ITripData, MainView } from './types'
+import type {
+  IPlace,
+  IWeatherReference,
+  MainView,
+  PlaceDetailCategory,
+} from './types'
 import {
   buildNavigationUrl,
   daysUntil,
   getEmptyDaySummary,
-  formatCoordinate,
   getPlacesForDay,
   GOOGLE_OFFLINE_HELP_URL,
   searchPlaces,
@@ -23,7 +39,7 @@ interface IInstallPromptEvent extends Event {
   userChoice: Promise<{ outcome: 'accepted' | 'dismissed' }>
 }
 
-const data = rawTripData as ITripData
+const data = staticTripData
 const store = useTripStore()
 const route = useRoute()
 const router = useRouter()
@@ -36,14 +52,18 @@ const currentDayPlaces = getPlacesForDay(data.places, currentDay.day)
 const currentDayEmptySummary = getEmptyDaySummary(currentDay, data.places)
 const selectedDayNumber = ref(currentDay.day)
 const selectedPlace = ref<IPlace | null>(null)
+const journalPlace = ref<IPlace | null | undefined>(undefined)
 const query = ref('')
 const installPrompt = ref<IInstallPromptEvent | null>(null)
-const copyNotice = ref('')
+const notice = ref('')
+const includeJournalsInExport = ref(false)
+const exporting = ref(false)
 const rhythmView = ref<'text' | 'map'>(
   sessionStorage.getItem('au-trip-map:rhythm-view') === 'map' ? 'map' : 'text',
 )
-const detailTabs = ['实用', '看点', '天气', '文化', '预约', '备注'] as const
-const activeDetailTab = ref<(typeof detailTabs)[number]>('实用')
+const detailTabs: PlaceDetailCategory[] = ['看点', '实用', '天气', '文化']
+const activeDetailTab = ref<PlaceDetailCategory>('看点')
+const weatherReference = ref<IWeatherReference | null>(null)
 const detailVisible = computed({
   get: () => Boolean(selectedPlace.value),
   set: (value: boolean) => {
@@ -107,61 +127,47 @@ function setRhythmView(view: 'text' | 'map'): void {
 }
 
 function openPlace(place: IPlace): void {
-  activeDetailTab.value = '实用'
+  if (!hasPlaceDetails(place)) return
+  activeDetailTab.value = '看点'
   selectedPlace.value = place
+  void weatherRepository.getWeather(place).then((value) => {
+    if (selectedPlace.value?.id === place.id) weatherReference.value = value
+  })
 }
 
-function openPointInformation(
-  place: IPlace,
-  tab: (typeof detailTabs)[number],
-): void {
-  activeDetailTab.value = tab
-  selectedPlace.value = place
+function openJournal(place?: IPlace): void {
+  selectedPlace.value = null
+  journalPlace.value = place ?? null
+  window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
-function detailText(place: IPlace, tab: (typeof detailTabs)[number]): string {
-  const values = {
-    实用: [place.duration, place.transport, place.sections.practical]
-      .filter(Boolean)
-      .join('\n\n'),
-    看点: [
-      place.highlights,
-      ...(place.dayInfo?.highlights ?? []),
-      place.sections.nature,
-    ]
-      .filter(Boolean)
-      .join('\n\n'),
-    天气: place.dayInfo?.weather.join('\n') || place.weather,
-    文化: place.sections.culture ?? '暂无单独文化补充。',
-    预约: [
-      ...(place.dayInfo?.booking ?? []),
-      place.sections.practical,
-      place.sections.suggestion,
-    ]
-      .filter(Boolean)
-      .join('\n\n'),
-    备注: store.notes[place.id] || '还没有个人备注。',
-  }
-  return values[tab] || '暂无内容。'
+function closeJournal(): void {
+  journalPlace.value = undefined
 }
 
-function detailLinks(place: IPlace) {
-  return [...place.links, ...(place.dayInfo?.links ?? [])].filter(
-    (link, index, links) =>
-      links.findIndex((candidate) => candidate.url === link.url) === index,
-  )
+function detailSection(place: IPlace, tab: PlaceDetailCategory) {
+  return getPlaceDetailSections(place).find((section) => section.category === tab)!
 }
 
-async function copyText(value: string, label: string): Promise<void> {
+async function exportTrip(): Promise<void> {
+  if (exporting.value) return
+  exporting.value = true
   try {
-    await navigator.clipboard.writeText(value)
-    copyNotice.value = `${label}已复制`
+    const journals = includeJournalsInExport.value
+      ? await journalRepository.list()
+      : []
+    const html = await generateStaticTripHtml(data, journals)
+    downloadHtml(html, `澳洲行程路书-${data.trip.startDate}.html`)
+    notice.value = `静态路书已生成${journals.length ? '，包含本机随手记' : '，未包含随手记'}`
   } catch {
-    copyNotice.value = '复制失败，请长按文本复制'
+    notice.value = '静态路书生成失败，请稍后重试'
+  } finally {
+    exporting.value = false
   }
-  window.setTimeout(() => {
-    copyNotice.value = ''
-  }, 1800)
+}
+
+function handleEscape(event: KeyboardEvent): void {
+  if (event.key === 'Escape' && detailVisible.value) detailVisible.value = false
 }
 
 async function installApp(): Promise<void> {
@@ -206,7 +212,10 @@ onMounted(() => {
     event.preventDefault()
     installPrompt.value = event as IInstallPromptEvent
   })
+  window.addEventListener('keydown', handleEscape)
 })
+
+onBeforeUnmount(() => window.removeEventListener('keydown', handleEscape))
 </script>
 
 <template>
@@ -259,7 +268,15 @@ onMounted(() => {
     </div>
 
     <main id="main">
-      <template v-if="loading">
+      <JournalView
+        v-if="journalPlace !== undefined"
+        :data="data"
+        :place="journalPlace ?? undefined"
+        @back="closeJournal"
+        @open-place="openJournal"
+      />
+
+      <template v-else-if="loading">
         <section class="skeleton hero-skeleton" aria-label="正在加载行程">
           <i />
           <i />
@@ -327,6 +344,9 @@ onMounted(() => {
             <button v-if="installPrompt && !isInstalled" type="button" @click="installApp">
               <van-icon name="down" /> 安装应用
             </button>
+            <button type="button" @click="openJournal()">
+              <van-icon name="records-o" /> 旅途日志
+            </button>
           </section>
 
           <aside class="map-limit-note">
@@ -344,13 +364,13 @@ onMounted(() => {
             </div>
             <section class="place-list" aria-label="今日地点">
               <button
-                v-for="(place, index) in currentDayPlaces"
+                v-for="place in currentDayPlaces"
                 :key="place.id"
                 class="place-row"
                 type="button"
                 @click="openPlace(place)"
               >
-                <span class="place-index">{{ index + 1 }}</span>
+                <span class="place-index">{{ place.sequence ?? '—' }}</span>
                 <span>
                   <strong>{{ place.name }}</strong>
                   <small>{{ place.duration }} {{ place.transport }}</small>
@@ -484,9 +504,9 @@ onMounted(() => {
             </article>
           </details>
 
-          <section class="timeline" aria-label="当日时间线">
+          <section class="timeline" aria-label="当日地点">
             <article
-              v-for="(place, index) in dayPlaces"
+              v-for="place in dayPlaces"
               :key="place.id"
               :class="{ done: store.completedSet.has(place.id) }"
             >
@@ -500,36 +520,35 @@ onMounted(() => {
                 "
                 @click="store.toggleCompleted(place.id)"
               >
-                <van-icon
-                  :name="store.completedSet.has(place.id) ? 'checked' : 'circle'"
-                />
+                <span class="timeline-sequence">{{ place.sequence ?? '—' }}</span>
               </button>
-              <button class="timeline-content" type="button" @click="openPlace(place)">
-                <span v-if="place.priority === 'optional'" class="optional-label">可选</span>
-                <strong>{{ place.name }}</strong>
+              <div class="timeline-content">
+                <div class="place-title-line">
+                  <div>
+                    <span v-if="place.priority === 'optional'" class="optional-label">可选</span>
+                    <strong>{{ place.name }}</strong>
+                  </div>
+                  <nav :aria-label="`${place.name} 操作`">
+                    <span v-if="place.lat === null" class="not-mapped">未上图</span>
+                    <a
+                      v-if="place.lat !== null"
+                      :href="online ? buildNavigationUrl(place) : undefined"
+                      :aria-disabled="!online"
+                      target="_blank"
+                      rel="noreferrer"
+                    >导航</a>
+                    <button
+                      v-if="hasPlaceDetails(place)"
+                      type="button"
+                      @click="openPlace(place)"
+                    >更多</button>
+                  </nav>
+                </div>
                 <small>{{ place.duration }} · {{ place.transport }}</small>
                 <p>{{ place.highlights }}</p>
-              </button>
-              <div class="point-information">
-                <button
-                  v-if="place.dayInfo?.weather.length || place.weather"
-                  class="point-weather"
-                  type="button"
-                  :aria-label="`查看 ${place.name} 的天气参考`"
-                  @click="openPointInformation(place, '天气')"
-                >
-                  <van-icon name="cloud-o" />
-                </button>
-                <button
-                  type="button"
-                  @click="openPointInformation(place, '预约')"
-                >
-                  预约与注意
-                  <van-icon name="arrow" />
-                </button>
-                <button type="button" @click="openPointInformation(place, '看点')">
-                  看点与玩法
-                  <van-icon name="arrow" />
+                <button class="journal-link" type="button" @click="openJournal(place)">
+                  <van-icon name="records-o" />
+                  随手记
                 </button>
               </div>
             </article>
@@ -571,6 +590,14 @@ onMounted(() => {
         </section>
 
         <section v-else class="prepare-view">
+          <button class="journal-overview-link" type="button" @click="openJournal()">
+            <span>
+              <small>按日期汇总</small>
+              <strong>旅途日志</strong>
+            </span>
+            <van-icon name="arrow" />
+          </button>
+
           <section class="install-card">
             <div>
               <van-icon name="desktop-o" />
@@ -602,6 +629,22 @@ onMounted(() => {
             <a :href="GOOGLE_OFFLINE_HELP_URL" target="_blank" rel="noreferrer">
               Google Maps 离线地图帮助 <van-icon name="share-o" />
             </a>
+          </section>
+
+          <section class="export-card">
+            <div>
+              <van-icon name="down" />
+              <h2>下载静态路书</h2>
+              <p>生成一个不依赖网络资源的 HTML，包含 13 天行程、地点资料与来源链接。</p>
+            </div>
+            <label>
+              <input v-model="includeJournalsInExport" type="checkbox">
+              包含本机随手记与压缩照片
+            </label>
+            <small>默认不包含，避免把私人日志带进分享文件。</small>
+            <button type="button" :disabled="exporting" @click="exportTrip">
+              {{ exporting ? '正在生成…' : '下载 HTML' }}
+            </button>
           </section>
 
           <section class="prepare-groups">
@@ -636,7 +679,7 @@ onMounted(() => {
       </template>
     </main>
 
-    <nav v-if="!isSkipPage" class="bottom-nav" aria-label="主要导航">
+    <nav v-if="!isSkipPage && journalPlace === undefined" class="bottom-nav" aria-label="主要导航">
       <button
         v-for="item in [
           { id: 'today', label: '今天', icon: 'home-o' },
@@ -656,15 +699,15 @@ onMounted(() => {
 
     <van-popup
       v-model:show="detailVisible"
-      :style="{ height: '92dvh' }"
+      :style="{ height: '86dvh' }"
       closeable
+      close-on-popstate
       position="bottom"
-      round
       teleport="body"
       @closed="selectedPlace = null"
     >
       <article v-if="selectedPlace" class="place-detail">
-        <header class="detail-header coordinate-pattern">
+        <header class="detail-header">
           <span>
             {{
               selectedPlace.day
@@ -676,37 +719,6 @@ onMounted(() => {
           </span>
           <h2>{{ selectedPlace.name }}</h2>
           <p>{{ selectedPlace.name_en }}</p>
-          <div class="detail-actions">
-            <button
-              type="button"
-              :aria-pressed="store.favoriteSet.has(selectedPlace.id)"
-              @click="store.toggleFavorite(selectedPlace.id)"
-            >
-              <van-icon
-                :name="store.favoriteSet.has(selectedPlace.id) ? 'star' : 'star-o'"
-              />
-              收藏
-            </button>
-            <a
-              v-if="selectedPlace.lat !== null"
-              :href="online ? buildNavigationUrl(selectedPlace) : undefined"
-              :aria-disabled="!online"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <van-icon name="guide-o" /> 导航
-            </a>
-            <button
-              v-if="selectedPlace.lat !== null"
-              type="button"
-              @click="copyText(formatCoordinate(selectedPlace), '坐标')"
-            >
-              <van-icon name="description-o" /> 坐标
-            </button>
-            <button type="button" @click="copyText(selectedPlace.name, '地点名')">
-              <van-icon name="records-o" /> 地点名
-            </button>
-          </div>
         </header>
 
         <div class="detail-tabs" role="tablist">
@@ -722,24 +734,41 @@ onMounted(() => {
           </button>
         </div>
         <section class="detail-body">
-          <template v-if="activeDetailTab === '备注'">
-            <label for="personal-note">个人备注，仅保存在当前设备</label>
-            <textarea
-              id="personal-note"
-              :value="store.notes[selectedPlace.id]"
-              placeholder="记录停车位置、确认号或现场变化"
-              @input="
-                store.setNote(
-                  selectedPlace!.id,
-                  ($event.target as HTMLTextAreaElement).value,
-                )
-              "
-            />
-          </template>
-          <p v-else>{{ detailText(selectedPlace, activeDetailTab) }}</p>
-          <div v-if="detailLinks(selectedPlace).length" class="link-list">
+          <header>
+            <small>{{ activeDetailTab === '天气' ? '气候参考与预报状态' : '已按用途整理' }}</small>
+            <h3>{{ activeDetailTab }}</h3>
+          </header>
+          <div v-if="detailSection(selectedPlace, activeDetailTab).items.length" class="detail-items">
+            <p
+              v-for="item in detailSection(selectedPlace, activeDetailTab).items"
+              :key="item"
+            >{{ item }}</p>
+          </div>
+          <div v-else class="detail-empty">暂无这一类资料</div>
+
+          <section v-if="activeDetailTab === '天气' && weatherReference" class="weather-reference">
+            <div>
+              <small>温度</small>
+              <strong>{{ weatherReference.temperatureRange ?? '资料未结构化' }}</strong>
+            </div>
+            <div>
+              <small>降雨概率／强度／时长</small>
+              <strong>暂无临近预报</strong>
+            </div>
+            <div>
+              <small>湿度／UV／晴朗程度</small>
+              <strong>暂无临近预报</strong>
+            </div>
+            <p>
+              当前为{{ weatherReference.granularity === 'place' ? '地点' : '区域' }}级长年气候参考。
+              旅行日期尚超出可靠逐小时预报范围，临近后才会请求动态 provider。
+            </p>
+          </section>
+
+          <div v-if="getPlaceDetailLinks(selectedPlace).length" class="detail-reading">
+            <h3>延伸阅读</h3>
             <a
-              v-for="link in detailLinks(selectedPlace)"
+              v-for="link in getPlaceDetailLinks(selectedPlace)"
               :key="link.url"
               :href="link.url"
               target="_blank"
@@ -752,6 +781,6 @@ onMounted(() => {
       </article>
     </van-popup>
 
-    <div v-if="copyNotice" class="copy-toast" role="status">{{ copyNotice }}</div>
+    <div v-if="notice" class="copy-toast" role="status">{{ notice }}</div>
   </div>
 </template>

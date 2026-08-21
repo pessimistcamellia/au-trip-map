@@ -28,6 +28,7 @@ export interface IPlace {
   status: 'visit' | 'skip'
   priority: PlacePriority
   order_in_day: number | null
+  sequence: number | null
   highlights: string
   weather: string
   duration: string
@@ -48,6 +49,8 @@ export interface IRhythmNode {
   title: string
   text: string
   placeId: string | null
+  sequence: number | null
+  priority: PlacePriority | null
   lat: number | null
   lng: number | null
 }
@@ -89,3 +92,46 @@ export interface ITripData {
 }
 
 export type MainView = 'today' | 'itinerary' | 'search' | 'prepare'
+
+export type PlaceDetailCategory = '看点' | '实用' | '天气' | '文化'
+
+export interface IPlaceDetailSection {
+  category: PlaceDetailCategory
+  items: string[]
+}
+
+export interface IWeatherReference {
+  placeId: string
+  kind: 'climate-reference'
+  granularity: 'place' | 'regional'
+  temperatureRange: string | null
+  precipitation: null
+  humidity: null
+  uvIndex: null
+  sunshine: null
+  summary: string
+  forecastStatus: 'outside-forecast-window'
+  updatedAt: string
+}
+
+export interface IJournalPhoto {
+  id: string
+  blob: Blob
+  name: string
+  type: string
+}
+
+export interface IJournalEntry {
+  id: string
+  placeId: string
+  day: number
+  date: string
+  text: string
+  photoIds: string[]
+  createdAt: string
+  updatedAt: string
+}
+
+export interface IJournalEntryWithPhotos extends IJournalEntry {
+  photos: IJournalPhoto[]
+}

@@ -65,3 +65,14 @@
 - Chrome MCP 390×844×2：Day 2 五点、Day 12 八点、Day 13 单点 zoom 13、Day 1 无点离线空态均通过；Day 12 最小 marker 中心距 42.1px，页面 `scrollWidth=clientWidth=390`。
 - 已推送 `main`：`4774a51` 功能提交、`164e756` 文档提交；`gh-pages` 构建提交 `33e3a88` 状态为 built。
 - 线上 `https://pessimistcamellia.github.io/au-trip-map/` 干净 PWA 缓存复验通过：Day 2 自动全览显示 5 个可读编号、“回到全览”可用、OSRM 实际驾车路线返回成功。
+
+## 2026-08-21 产品级 redesign
+- 已通读 image-to-code、redesign、上下文规划、技术栈、工程规范，续接原有规划三文件。
+- 已逐张读取六张用户截图，并通读 `App.vue`、地图组件、store、类型、工具、样式、数据生成器、测试与生成数据结构。
+- 已确认主要结构问题：页面直连 JSON、三套独立序号、optional 地图语义缺失、详情分类／链接／备注耦合、三栏方块操作、天气仅有气候文字且未建 provider。
+- 已新增阶段 19-23；下一步先完成三个交互缺陷的运行态复现，再进入 repository、日志、导出和视觉重构。
+- 中断恢复检查：工作树保留 16 个已修改文件及 `JournalView`、repositories、services 新文件，无他人并发修改迹象；未覆盖现有成果。
+- 已确认地图关闭／全览共同根因是父地图 `setPointerCapture` 抢占子控件事件；已为所有地图控件阻止冒泡并增加全览完成反馈。
+- 已完成稳定 `sequence`、optional marker、四分类、WeatherRepository、IndexedDB／local fallback 日志、照片压缩、10 张约束、按天汇总与单文件 HTML 导出主体实现。
+- 已切换暖色 light／dark、PWA manifest 与本地图标；保留原 `au-trip-map:user-state:v1`。
+- 阶段性验证：`vue-tsc` 通过；Vitest 19/19 通过；production build 通过，precache 14 条 / 560.42 KiB。

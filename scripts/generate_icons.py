@@ -19,10 +19,10 @@ def chunk(kind: bytes, data: bytes) -> bytes:
 
 
 def save_icon(size: int, name: str, maskable: bool = False) -> None:
-    sea = (23, 107, 135, 255)
-    foam = (238, 246, 247, 255)
-    dark = (16, 43, 52, 255)
-    pixels = [[sea for _ in range(size)] for _ in range(size)]
+    amber = (197, 106, 36, 255)
+    cream = (251, 244, 223, 255)
+    dark = (56, 43, 31, 255)
+    pixels = [[amber for _ in range(size)] for _ in range(size)]
     margin = int(size * (0.18 if maskable else 0.1))
     radius = size * 0.32
     center = size / 2
@@ -30,7 +30,7 @@ def save_icon(size: int, name: str, maskable: bool = False) -> None:
     for y in range(size):
         for x in range(size):
             if (x - center) ** 2 + (y - center) ** 2 < radius**2:
-                pixels[y][x] = foam
+                pixels[y][x] = cream
 
     stroke = max(5, size // 34)
     left = int(size * 0.34)

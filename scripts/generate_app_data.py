@@ -252,6 +252,8 @@ def parse_rhythm(schedule: str, day_places: list[dict]) -> list[dict]:
             "title": place["name"] if place else rhythm_title(plain(text)),
             "text": plain(text),
             "placeId": place["id"] if place else None,
+            "sequence": place.get("sequence") if place else None,
+            "priority": place.get("priority") if place else None,
             "lat": place.get("lat") if place else None,
             "lng": place.get("lng") if place else None,
         }
@@ -290,13 +292,21 @@ def main() -> None:
 
     days = parse_days(markdown)
     for day in days:
-        day_places = [
+        day_places = sorted(
+            [
             place
             for place in places
             if place.get("day") == day["day"] and place.get("status") == "visit"
-        ]
+            ],
+            key=lambda place: place.get("order_in_day") or 999,
+        )
+        for sequence, place in enumerate(day_places, start=1):
+            place["sequence"] = sequence
         day["rhythm"] = parse_rhythm(day["schedule"], day_places)
         assign_day_information(day, day_places)
+
+    for place in places:
+        place.setdefault("sequence", None)
 
     output = {
         "trip": {

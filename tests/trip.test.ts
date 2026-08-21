@@ -1,5 +1,24 @@
 import { describe, expect, it } from 'vitest'
 import rawTripData from '../src/data/trip-data.json'
+import {
+  groupJournalsByDate,
+  InMemoryJournalRepository,
+  MAX_JOURNAL_PHOTOS,
+} from '../src/repositories/journalRepository'
+import { StaticTripRepository } from '../src/repositories/tripRepository'
+import {
+  StaticClimateWeatherProvider,
+  StaticWeatherRepository,
+} from '../src/repositories/weatherRepository'
+import {
+  getPlaceDetailLinks,
+  getPlaceDetailSections,
+  hasPlaceDetails,
+} from '../src/services/placeDetails'
+import {
+  escapeHtml,
+  generateStaticTripHtml,
+} from '../src/services/staticTripExport'
 import type { ITripData } from '../src/types'
 import {
   buildNavigationUrl,
@@ -9,6 +28,7 @@ import {
   getPlacesForDay,
   searchPlaces,
   selectRelevantDay,
+  shouldStartMapDrag,
   spreadMapMarkerPositions,
 } from '../src/utils/trip'
 
@@ -39,6 +59,18 @@ describe('静态行程数据', () => {
     expect(places.find((place) => place.id === 'wv-loch')?.priority).toBe(
       'optional',
     )
+  })
+
+  it('数据层提供稳定序号，地图沿用序号且 optional 保持一致', () => {
+    const places = getPlacesForDay(data.places, 2)
+    const mapPoints = getMappableRhythmNodes(data.days[1].rhythm)
+
+    expect(places.map((place) => place.sequence)).toEqual([1, 2, 3, 4, 5])
+    expect(mapPoints.map((point) => point.sequence)).toEqual([1, 2, 3, 4, 5])
+    expect(mapPoints.find((point) => point.placeId === 'd2-03')).toMatchObject({
+      sequence: 3,
+      priority: 'optional',
+    })
   })
 
   it('无点位日返回富内容空状态，有点位日不返回', () => {
@@ -102,6 +134,107 @@ describe('静态行程数据', () => {
   })
 })
 
+describe('目的地信息分类与 repository', () => {
+  it('固定输出四分类，外链统一去重且空数据不显示更多', () => {
+    const place = data.places.find((item) => item.id === 'd2-02')!
+    expect(getPlaceDetailSections(place).map((section) => section.category)).toEqual([
+      '看点',
+      '实用',
+      '天气',
+      '文化',
+    ])
+    expect(getPlaceDetailSections(place).find((section) => section.category === '实用')?.items.join('')).toContain('抱考拉')
+    const links = getPlaceDetailLinks(place)
+    expect(new Set(links.map((link) => link.url)).size).toBe(links.length)
+    expect(
+      hasPlaceDetails({
+        ...place,
+        highlights: '',
+        weather: '',
+        duration: '',
+        transport: '',
+        sections: {},
+        links: [],
+        dayInfo: { booking: [], highlights: [], weather: [], links: [] },
+      }),
+    ).toBe(false)
+  })
+
+  it('TripRepository 隔离静态 JSON，天气在远期日期回退气候参考', async () => {
+    const tripRepository = new StaticTripRepository(data)
+    const place = (await tripRepository.getPlace('d2-02'))!
+    const weatherRepository = new StaticWeatherRepository(
+      new StaticClimateWeatherProvider(),
+    )
+    const weather = await weatherRepository.getWeather(place)
+
+    expect((await tripRepository.getTrip()).days).toHaveLength(13)
+    expect(weather).toMatchObject({
+      kind: 'climate-reference',
+      forecastStatus: 'outside-forecast-window',
+    })
+    expect(weather.temperatureRange).toMatch(/°C/)
+    expect(weather.precipitation).toBeNull()
+    expect(weather.uvIndex).toBeNull()
+  })
+})
+
+describe('随手记', () => {
+  it('支持 CRUD、按地点过滤和按日期倒序汇总', async () => {
+    const repository = new InMemoryJournalRepository()
+    const first = await repository.create({
+      placeId: 'd2-02',
+      day: 2,
+      date: '2026-09-25',
+      text: '第一篇',
+      photos: [],
+    })
+    await repository.create({
+      placeId: 'd3-01',
+      day: 3,
+      date: '2026-09-26',
+      text: '第二篇',
+      photos: [],
+    })
+
+    expect(await repository.list('d2-02')).toHaveLength(1)
+    expect(groupJournalsByDate(await repository.list()).map(([date]) => date)).toEqual([
+      '2026-09-26',
+      '2026-09-25',
+    ])
+    expect((await repository.update(first.id, '已编辑'))?.text).toBe('已编辑')
+    await repository.delete(first.id)
+    expect(await repository.list('d2-02')).toEqual([])
+  })
+
+  it('每篇最多允许 10 张照片', async () => {
+    const repository = new InMemoryJournalRepository()
+    const photo = { blob: new Blob(['x']), name: 'x.jpg', type: 'image/jpeg' }
+    await expect(
+      repository.create({
+        placeId: 'd2-02',
+        day: 2,
+        date: '2026-09-25',
+        text: '超限',
+        photos: Array.from({ length: MAX_JOURNAL_PHOTOS + 1 }, () => photo),
+      }),
+    ).rejects.toThrow('最多 10 张')
+  })
+})
+
+describe('静态路书导出', () => {
+  it('转义用户文本并生成包含全部 13 天的单文件 HTML', async () => {
+    expect(escapeHtml('<script>alert(1)</script>')).toBe(
+      '&lt;script&gt;alert(1)&lt;/script&gt;',
+    )
+    const html = await generateStaticTripHtml(data)
+    expect(html).toContain('<!doctype html>')
+    expect(html).toContain('第 13 天')
+    expect(html).toContain('默认未包含本机随手记')
+    expect(html).not.toContain('<script>')
+  })
+})
+
 describe('地图导航', () => {
   it('生成 universal HTTPS Google Maps 驾车 URL', () => {
     const place = data.places.find((item) => item.id === 'd8-01')!
@@ -147,6 +280,12 @@ describe('地图导航', () => {
     )
     expect(Math.min(...distances)).toBeGreaterThanOrEqual(42)
     expect(positions.every((position) => position.left >= 24 && position.left <= 304)).toBe(true)
+  })
+
+  it('地图控件不会触发容器 pointer capture，普通底图仍可拖动', () => {
+    expect(shouldStartMapDrag(false, true)).toBe(false)
+    expect(shouldStartMapDrag(false, false)).toBe(true)
+    expect(shouldStartMapDrag(true, false)).toBe(false)
   })
 })
 

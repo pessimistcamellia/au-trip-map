@@ -18,6 +18,13 @@ export interface IMarkerPosition {
   displaced: boolean
 }
 
+export function shouldStartMapDrag(
+  mapUnavailable: boolean,
+  targetIsControl: boolean,
+): boolean {
+  return !mapUnavailable && !targetIsControl
+}
+
 const TILE_SIZE = 256
 
 function projectCoordinate(
