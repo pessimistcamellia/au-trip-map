@@ -9,7 +9,7 @@ import { journalRepository } from './repositories/journalRepository'
 import { staticTripData } from './repositories/tripRepository'
 import { weatherRepository } from './repositories/weatherRepository'
 import {
-  getPlaceDetailLinks,
+  getPlaceDetailLinksByCategory,
   getPlaceDetailSections,
   hasPlaceDetails,
 } from './services/placeDetails'
@@ -148,6 +148,12 @@ function closeJournal(): void {
 function detailSection(place: IPlace, tab: PlaceDetailCategory) {
   return getPlaceDetailSections(place).find((section) => section.category === tab)!
 }
+
+const detailTabLinks = computed(() =>
+  selectedPlace.value
+    ? getPlaceDetailLinksByCategory(selectedPlace.value, activeDetailTab.value)
+    : [],
+)
 
 async function exportTrip(): Promise<void> {
   if (exporting.value) return
@@ -530,17 +536,22 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleEscape))
                 <div class="place-title-line">
                   <div>
                     <span v-if="place.priority === 'optional'" class="optional-label">可选</span>
-                    <strong>{{ place.name }}</strong>
+                    <span class="place-name-line">
+                      <strong>{{ place.name }}</strong>
+                      <a
+                        v-if="place.lat !== null"
+                        class="place-navigate"
+                        :href="online ? buildNavigationUrl(place) : undefined"
+                        :aria-disabled="!online"
+                        :aria-label="`在 Google 地图导航到 ${place.name}`"
+                        :title="online ? '在 Google 地图导航' : '离线状态不可导航'"
+                        target="_blank"
+                        rel="noreferrer"
+                      ><van-icon name="guide-o" /></a>
+                    </span>
                   </div>
                   <nav :aria-label="`${place.name} 操作`">
                     <span v-if="place.lat === null" class="not-mapped">未上图</span>
-                    <a
-                      v-if="place.lat !== null"
-                      :href="online ? buildNavigationUrl(place) : undefined"
-                      :aria-disabled="!online"
-                      target="_blank"
-                      rel="noreferrer"
-                    >导航</a>
                     <button
                       v-if="hasPlaceDetails(place)"
                       type="button"
@@ -769,10 +780,10 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleEscape))
             </p>
           </section>
 
-          <div v-if="getPlaceDetailLinks(selectedPlace).length" class="detail-reading">
+          <div v-if="detailTabLinks.length" class="detail-reading">
             <h3>延伸阅读</h3>
             <a
-              v-for="link in getPlaceDetailLinks(selectedPlace)"
+              v-for="link in detailTabLinks"
               :key="link.url"
               :href="link.url"
               target="_blank"

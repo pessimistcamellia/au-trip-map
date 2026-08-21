@@ -46,6 +46,79 @@ export function getPlaceDetailLinks(place: IPlace): ILink[] {
   )
 }
 
+interface ILinkRule {
+  category: PlaceDetailCategory
+  hosts: string[]
+  keywords: string[]
+}
+
+// 兜底为「看点」：外链多为景点自身的官方介绍页。
+const LINK_FALLBACK_CATEGORY: PlaceDetailCategory = '看点'
+
+const LINK_RULES: ILinkRule[] = [
+  {
+    category: '天气',
+    hosts: ['bom.gov.au', 'hko.gov.hk', 'weather.com', 'weatherzone.com.au'],
+    keywords: ['bom', '气候', '天气', '天文台', '气温', '降雨', '风力', 'weather', 'climate', 'forecast'],
+  },
+  {
+    category: '实用',
+    hosts: ['booking.com', 'ticketek.com.au', 'trybooking.com'],
+    keywords: [
+      '预订', '预约', '购票', '订票', '门票', '票价', '费用', '收费', '时刻表', '班次', '场次',
+      '营业时间', '开放时间', '规则', '须知', '注意', '接驳', '渡轮', '航班', '停车', '租',
+      '公告', '工程', '路况', '封闭', 'booking', 'ticket', 'fare', 'fee', 'hours', 'timetable',
+      'opening', 'permit', 'parking',
+    ],
+  },
+  {
+    category: '文化',
+    hosts: ['wikipedia.org'],
+    keywords: [
+      '人文', '历史', '文化', '原住民', '纪念', '战争', '殖民', '博物馆', '遗迹', '传说', '故事',
+      'history', 'heritage', 'culture', 'museum', 'aboriginal', 'memorial',
+    ],
+  },
+  {
+    category: '看点',
+    hosts: ['parks.', 'nationalparks', 'wildlife'],
+    keywords: [
+      '景点', '自然', '风景', '观景', '看点', '日出', '日落', '星空', '动物', '植物', '国家公园',
+      '海滩', '灯塔', '瀑布', '巡游', 'nature', 'scenic', 'lookout', 'wildlife', 'park', 'beach',
+    ],
+  },
+]
+
+function hostOf(url: string): string {
+  try {
+    return new URL(url).hostname.toLowerCase()
+  } catch {
+    return ''
+  }
+}
+
+export function categorizeLink(link: ILink): PlaceDetailCategory {
+  const label = link.label.toLowerCase()
+  const host = hostOf(link.url)
+  let best: { category: PlaceDetailCategory; score: number } | null = null
+  for (const rule of LINK_RULES) {
+    // 标签命中权重高于域名：景点官网域名常含 park / wildlife，不应盖过「购票」「规则」这类用途词。
+    let score = rule.keywords.filter((keyword) => label.includes(keyword)).length * 3
+    if (rule.hosts.some((candidate) => host.includes(candidate))) score += 1
+    if (score > 0 && (best === null || score > best.score)) {
+      best = { category: rule.category, score }
+    }
+  }
+  return best?.category ?? LINK_FALLBACK_CATEGORY
+}
+
+export function getPlaceDetailLinksByCategory(
+  place: IPlace,
+  category: PlaceDetailCategory,
+): ILink[] {
+  return getPlaceDetailLinks(place).filter((link) => categorizeLink(link) === category)
+}
+
 export function hasPlaceDetails(place: IPlace): boolean {
   return (
     getPlaceDetailSections(place).some((section) => section.items.length > 0) ||

@@ -11,7 +11,9 @@ import {
   StaticWeatherRepository,
 } from '../src/repositories/weatherRepository'
 import {
+  categorizeLink,
   getPlaceDetailLinks,
+  getPlaceDetailLinksByCategory,
   getPlaceDetailSections,
   hasPlaceDetails,
 } from '../src/services/placeDetails'
@@ -158,6 +160,31 @@ describe('目的地信息分类与 repository', () => {
         dayInfo: { booking: [], highlights: [], weather: [], links: [] },
       }),
     ).toBe(false)
+  })
+
+  it('延伸阅读按当前分类过滤，且四类之和等于全部外链', () => {
+    expect(categorizeLink({ label: 'BOM气候参考', url: 'http://www.bom.gov.au/x' })).toBe('天气')
+    expect(categorizeLink({ label: '官方购票', url: 'https://example.com/tickets' })).toBe('实用')
+    expect(categorizeLink({ label: '抱考拉规则', url: 'https://example.com/koala' })).toBe('实用')
+    expect(categorizeLink({ label: '人文／历史延伸阅读', url: 'https://example.com/h' })).toBe('文化')
+    expect(categorizeLink({ label: '景点／自然官方资料', url: 'https://example.com/n' })).toBe('看点')
+    expect(categorizeLink({ label: '工程页面', url: 'https://example.com/works' })).toBe('实用')
+    // 无关键词也无已知域名时落到兜底分类，不会丢链接
+    expect(categorizeLink({ label: 'Maits Rest官方页面', url: 'https://example.com/m' })).toBe('看点')
+
+    const place = data.places.find((item) => item.id === 'd2-02')!
+    const all = getPlaceDetailLinks(place)
+    const buckets = (['看点', '实用', '天气', '文化'] as const).map((category) =>
+      getPlaceDetailLinksByCategory(place, category),
+    )
+    expect(buckets.reduce((count, bucket) => count + bucket.length, 0)).toBe(all.length)
+    expect(getPlaceDetailLinksByCategory(place, '天气').every((link) => /BOM|气候|天文台/i.test(link.label))).toBe(true)
+    expect(getPlaceDetailLinksByCategory(place, '文化').some((link) => link.label.includes('人文'))).toBe(true)
+    // 景点官网域名含 wildlife，不得把「购票」「规则」抢到看点
+    const practical = getPlaceDetailLinksByCategory(place, '实用').map((link) => link.label)
+    expect(practical).toContain('官方购票')
+    expect(practical).toContain('抱考拉规则')
+    expect(getPlaceDetailLinksByCategory(place, '看点').map((link) => link.label)).not.toContain('官方购票')
   })
 
   it('TripRepository 隔离静态 JSON，天气在远期日期回退气候参考', async () => {
