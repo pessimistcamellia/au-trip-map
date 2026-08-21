@@ -34,7 +34,7 @@
 - **状态：** complete
 
 ## 当前阶段
-阶段 27（进行中）
+阶段 27（全部完成）
 
 ### 阶段 6：PWA 需求与数据审计
 - [x] 对照飞书最新版与本地全部材料
@@ -171,10 +171,10 @@
 - **状态：** complete
 
 ### 阶段 27：提交、发布与线上复验
-- [ ] 以中文 Conventional Commit 提交并推送 main
-- [ ] 更新 gh-pages，不 force push
-- [ ] 打开生产 URL 双主题复验并记录真实限制
-- **状态：** pending
+- [x] 以中文 Conventional Commit 提交并推送 main
+- [x] 更新 gh-pages，不 force push
+- [x] 打开生产 URL 双主题复验并记录真实限制
+- **状态：** complete
 
 ## 关键问题
 1. Tower Hill / Warrnambool 是否彻底放弃，还是仅作「时间极充裕时的西延可选」？

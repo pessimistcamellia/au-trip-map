@@ -105,3 +105,6 @@
 - 自动化通过：`corepack pnpm typecheck`、Vitest 19/19、`corepack pnpm build`；主 JS 471.29 kB、CSS 89.79 kB，precache 14 条 / 564.08 KiB。
 - Chrome DevTools 390×844×2 light／dark 均覆盖首页、Day 2 多点地图、marker、回到全览、四分类 Popup、旅途日志汇总与准备页；页面宽始终 390/390，按钮文案无换行，有效触摸目标最小 44px。
 - 地图实测：light 路线 `#9A7000`，dark 路线 `#F4CB4F`；marker 均为 `#F4CB4F` 配 `#29260D` 数字与 3px 白边，数字对比度 9.80:1，OSM 底图上清楚可读。
+- 已提交并推送 main：`e3f43a4 style(theme): 重做清新鹅黄双主题视觉`；gh-pages 构建提交 `b835264`，Pages 状态 `built`。
+- 生产 URL 最终复验加载新资产 `index-BBn-oepo.js`／`index-CA6WLbD0.css`；light 与 dark 启动时 `theme-color` 分别为 `#FAFAF7`／`#191B1C`，无横向溢出。线上 dark Day 2 为 5 个清晰 marker、地图 328×430、路线 `#F4CB4F`。
+- 真实限制：PWA manifest 的 `background_color` 只能配置单值，采用 light 主底 `#FAFAF7`；dark 首屏由 head 内同步主题引导脚本和动态 `theme-color` 消除旧黑褐闪屏。
