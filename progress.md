@@ -188,3 +188,5 @@
 - 地图默认 `touch-action:pan-y` 并显示「单指上下滑动页面」；点「操作地图」后切为 `none`，点「完成」恢复。实测 computed touchAction 为 `pan-y → none → pan-y`。
 - 当前工作树 `corepack pnpm typecheck` 与 Vitest 35/35 通过。
 - 从 `9522c96` 建 detached 干净工作树，仅应用本轮四个前端文件：typecheck、基线 Vitest 34/34、production build 全通过；产物 `index-D-Lg9blC.js`／`index-Bsrv490v.css`，PWA precache 14 条 / 741.44 KiB。唯一警告仍是既有主 chunk 大于 500 kB。
+- 已发布：功能提交 `d869e4a`、验收文档 `95c1197`，`gh-pages` 为 `8bfdbbf`。生产链接带版本参数 `?v=20260822c`，线上已加载 `index-D-Lg9blC.js`。
+- 线上 390×844 最终复验：旧黄色 bar 不存在；合并卡显示「第2天／09/25周五／珀斯机场04:20／塞万提斯日落后」；文字序号2→地图2，地图4→文字卡4（top≈189px）且 sticky 页签切到文字；默认 touchAction=`pan-y`，地图操作模式为 `none`，退出后恢复 `pan-y`；页面 390/390 无溢出。
