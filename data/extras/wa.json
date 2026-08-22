@@ -1,0 +1,957 @@
+{
+  "schemaVersion": 1,
+  "region": "wa",
+  "checkedAt": "2026-08-22",
+  "places": {
+    "d2-01": {
+      "category": "transport",
+      "categoryNote": "机场交通枢纽，停车重点是长时停车与航站楼接送区。",
+      "food": {
+        "summary": "机场周边餐饮集中在航站楼、Perth Airport 工业区和 Ascot，驾车约 5-12 分钟选择较多。",
+        "restaurants": [
+          {
+            "name": "Da Corner",
+            "nameEn": "Da Corner",
+            "lat": -31.969701,
+            "lng": 115.968398,
+            "coordinateSource": "Nominatim（1/6 Whitham Road 地址定位）",
+            "rating": 4.4,
+            "ratingCount": 57,
+            "ratingSource": "Google 地图（Restaurant Guru 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距珀斯机场约 4 公里，驾车约 7 分钟",
+            "priceLevel": "人均约 A$1-20",
+            "cuisine": "东南亚及亚洲简餐",
+            "recommended": "评论常提到 laksa、炒饭、炒粿条和辣椒油；适合落地后快速吃一顿，店前可停车。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Da-Corner-Perth-Airport"
+          },
+          {
+            "name": "Ascot Riverside Kiosk",
+            "nameEn": "Ascot Riverside Kiosk",
+            "lat": -31.9227384,
+            "lng": 115.9431968,
+            "coordinateSource": "Nominatim（Garvey Park 地址定位）",
+            "rating": 4.3,
+            "ratingCount": 70,
+            "ratingSource": "Google 地图（Restaurant Guru 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距珀斯机场约 5 公里，驾车约 8 分钟",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、轻食",
+            "recommended": "位于 Garvey Park 河畔，适合咖啡和简餐；营业日较少，出发前应再次确认。",
+            "hours": "周一、周五 07:00-14:30；周六、周日 07:00-16:00",
+            "sourceUrl": "https://restaurantguru.com/Ascot-Riverside-Kiosk-Perth-Airport"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "机场有多个分航站楼的付费 LongTerm 停车场；接送应使用指定即停区或先在部分 LongTerm/Regional 停车场免费等候。",
+        "lots": [],
+        "rules": [
+          "部分 LongTerm 与 Regional 停车场首 1 小时免费，但不含 LongTerm Undercover 和 Regional Undercover。",
+          "LongTerm/Regional 驶入价为 1-4 小时 A$10，4-24 小时 A$35.20；长期停放宜提前在线预订。",
+          "T2 Express 接送区限 5 分钟，T3/T4 Express 接送区限 6 分钟，超时会收费。",
+          "航站楼前车位仅供立即上下客，不可停车等候；LongTerm 免费穿梭巴士通常约每 15 分钟一班。"
+        ],
+        "sources": [
+          {
+            "label": "Perth Airport 接机规则",
+            "url": "https://www.perthairport.com.au/to-and-from-the-airport/pickup"
+          },
+          {
+            "label": "Perth Airport 标准停车价格",
+            "url": "https://www.perthairport.com.au/parking/standard-parking-prices"
+          },
+          {
+            "label": "Perth Airport LongTerm 停车",
+            "url": "https://edit-prod.perthairport.com.au/parking/long-term"
+          }
+        ]
+      }
+    },
+    "d2-02": {
+      "category": "attraction",
+      "categoryNote": "位于 Whiteman Park 内的野生动物园景点。",
+      "food": {
+        "summary": "园区内可在 Whiteman Park Village 用餐，若想吃更完整的早午餐可驾车约 10 分钟到 Caversham。",
+        "restaurants": [
+          {
+            "name": "Village Cafe Whiteman Park",
+            "nameEn": "Village Cafe Whiteman Park",
+            "lat": -31.8354995,
+            "lng": 115.9483059,
+            "coordinateSource": "Nominatim",
+            "rating": 4.4,
+            "ratingCount": 1662,
+            "ratingSource": "Google 地图（公开商家数据转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距野生动物园约 5 公里，在 Whiteman Park Village",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、澳式简餐",
+            "recommended": "评论较常提到 fish and chips、早餐、汉堡、咖啡和冰淇淋；份量较足，适合带儿童的家庭。",
+            "hours": null,
+            "sourceUrl": "https://wanderlog.com/place/details/2922979/village-cafe-whiteman-park"
+          },
+          {
+            "name": "Maison Saint-Honoré - Caversham",
+            "nameEn": "Maison Saint-Honoré - Caversham",
+            "lat": -31.8756884,
+            "lng": 115.9668188,
+            "coordinateSource": "Nominatim（100 Benara Road 地址定位）",
+            "rating": 4.3,
+            "ratingCount": 2573,
+            "ratingSource": "Google 地图（公开商家数据转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距野生动物园约 3 公里，驾车约 6 分钟",
+            "priceLevel": "人均约 A$20-40",
+            "cuisine": "法式咖啡馆、甜点",
+            "recommended": "评论集中推荐可颂、马卡龙、crêpe 和 avocado toast；周末可能排队，适合早餐或下午茶。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Maison-Saint-Honore-Caversham"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Whiteman Park 所有公共停车场免费，野生动物园入口外有专用停车区和 ACROD 车位。",
+        "lots": [
+          {
+            "name": "卡弗舍姆野生动物园入口停车场（Caversham Wildlife Park Entrance Car Park）",
+            "nameEn": "Caversham Wildlife Park Entrance Car Park",
+            "lat": -31.8753,
+            "lng": 115.9747,
+            "coordinateSource": "Whiteman Park 官方 Recreation Areas Map 与题给入口坐标",
+            "fee": "free",
+            "feeNote": "Whiteman Park 全部公共停车场免费",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "入口外设 ACROD 车位；车辆必须停在指定停车区，不要驶上草地或软路肩。"
+          }
+        ],
+        "rules": [
+          "只可使用指定公共停车场，禁止停在 No Parking、No Standing 区域或草地。",
+          "园内软路肩容易陷车，官方建议始终行驶在铺装道路上。"
+        ],
+        "sources": [
+          {
+            "label": "Whiteman Park 停车管理",
+            "url": "https://www.whitemanpark.com.au/assets/uploads/documents/edu/Whiteman-Park-Excursion-Management-Plan_2022.pdf"
+          },
+          {
+            "label": "Whiteman Park 无障碍停车",
+            "url": "https://www.whitemanpark.com.au/plan-your-visit/accessibility/physical-access"
+          }
+        ]
+      }
+    },
+    "d2-03": {
+      "category": "attraction",
+      "categoryNote": "沙丘户外活动景点。",
+      "food": {
+        "summary": "沙丘内没有餐饮，最近的可靠选择都在 Lancelin 镇中心，距入口约 1-2 公里。",
+        "restaurants": [
+          {
+            "name": "Offshore Cafe",
+            "nameEn": "Offshore Cafe",
+            "lat": -31.0241199,
+            "lng": 115.330302,
+            "coordinateSource": "Nominatim",
+            "rating": 4.2,
+            "ratingCount": 493,
+            "ratingSource": "Google 地图（Restaurant Guru 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距沙丘入口约 2 公里",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、澳式简餐",
+            "recommended": "适合早餐、咖啡和简餐，评论认可服务与性价比；可外带后再前往沙丘。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Offshore-Cafe-Lancelin"
+          },
+          {
+            "name": "Lobbster Trap",
+            "nameEn": "Lobbster Trap",
+            "lat": -31.0166328,
+            "lng": 115.3313147,
+            "coordinateSource": "Nominatim（91 Gingin Road 地址定位）",
+            "rating": 4.5,
+            "ratingCount": 97,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距沙丘入口约 1 公里",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、龙虾轻食",
+            "recommended": "官网说明主打健康选择、咖啡、鲜榨果汁、无麸质蛋糕和含龙虾的每日特餐；适合早午餐。",
+            "hours": null,
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g495064-d11877349-Reviews-Lobbster_Trap-Lancelin_Western_Australia.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Beacon Road/Beacon Street 入口附近有免费停车区；普通 2WD 应停在入口停车区，不要驶入软沙。",
+        "lots": [
+          {
+            "name": "兰斯林沙丘入口停车区（Lancelin Sand Dunes Entry Car Park）",
+            "nameEn": "Lancelin Sand Dunes Entry Car Park",
+            "lat": -31.0167,
+            "lng": 115.33,
+            "coordinateSource": "Lancelin 官方 Visitors’ Guide 与题给沙丘入口坐标",
+            "fee": "free",
+            "feeNote": "Off Road Area 免费进入",
+            "capacity": null,
+            "surface": "未铺装硬地，可能有风吹积沙",
+            "note": "2WD 停在入口停车区后步行约 300 米到沙丘；租车通常不承保越野或沙地驾驶。"
+          }
+        ],
+        "rules": [
+          "2WD 不要驶入软沙，入口轨道也可能因风吹积沙而难行。",
+          "车辆必须合法注册；只可进入对公众开放的中段区域。",
+          "官方游客指南记载开放时间为每日 08:00-19:00，天黑后不要进入。"
+        ],
+        "sources": [
+          {
+            "label": "Lancelin Visitors’ Guide",
+            "url": "https://www.lancelin.com.au/wp-content/uploads/2020/lancelin_brochure_2020.pdf"
+          }
+        ]
+      }
+    },
+    "d2-04": {
+      "category": "attraction",
+      "categoryNote": "Nambung National Park 内的国家公园自然景观。",
+      "food": {
+        "summary": "Pinnacles Desert Discovery 没有正式餐厅，需自备水和食物；最近完整用餐在约 20 公里外的 Cervantes。",
+        "restaurants": [
+          {
+            "name": "Lobster Shack",
+            "nameEn": "Lobster Shack Cervantes",
+            "lat": -30.4935474,
+            "lng": 115.0686298,
+            "coordinateSource": "Nominatim",
+            "rating": 3.9,
+            "ratingCount": 1903,
+            "ratingSource": "Google 地图（Birdeye 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距尖峰石阵约 20 公里，在 Cervantes 镇上",
+            "priceLevel": null,
+            "cuisine": "海鲜、西澳岩龙虾",
+            "recommended": "主打当地 Western Rock Lobster，常见做法包括龙虾卷、mornay、taco 和整只龙虾；更适合午餐。",
+            "hours": "每日 09:00-17:00",
+            "sourceUrl": "https://reviews.birdeye.com/lobster-shack-cervantes-wa-167868979238565"
+          },
+          {
+            "name": "Cervantes Bar and Bistro",
+            "nameEn": "Cervantes Bar and Bistro",
+            "lat": -30.501,
+            "lng": 115.0685412,
+            "coordinateSource": "Nominatim",
+            "rating": 4.1,
+            "ratingCount": 610,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距尖峰石阵约 19 公里，在 Cervantes 镇上",
+            "priceLevel": null,
+            "cuisine": "澳式酒馆、海鲜",
+            "recommended": "当地旅游页列出的菜单包括本地岩龙虾、line-caught fish、Leeman octopus 和 Albany mussels；适合晚餐。",
+            "hours": "每日 11:00-22:00",
+            "sourceUrl": "https://www.visitpinnaclescountry.com.au/see-and-do/where-to-eat"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Discovery Centre 主停车场可停普通车及长车；进入 Nambung National Park 需缴车辆入园费或展示有效 park pass。",
+        "lots": [
+          {
+            "name": "尖峰石阵探索中心停车场（Pinnacles Desert Discovery Car Park）",
+            "nameEn": "Pinnacles Desert Discovery Car Park",
+            "lat": -30.6030618,
+            "lng": 115.1556217,
+            "coordinateSource": "Nominatim（Pinnacles Desert Discovery）",
+            "fee": "paid",
+            "feeNote": "停车不另收费，但国家公园标准车辆入园费 A$17；有效 park pass 可替代",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "拖挂、房车及车长超过 7 米的车辆必须留在主停车场长车位，不得进入 4 公里沙漠环线。"
+          }
+        ],
+        "rules": [
+          "Pinnacles Desert loop 为未铺装单向环线，但普通 2WD 可通行。",
+          "拖挂、caravan 和超过 7 米车辆禁止驶入环线，应停在主停车场长车位。",
+          "Nambung National Park 收取车辆入园费；2026-08-22 核查标准车辆为 A$17。"
+        ],
+        "sources": [
+          {
+            "label": "Nambung National Park Visitor Guide",
+            "url": "https://exploreparks.dbca.wa.gov.au/sites/default/files/2023-07/nambung-national-park-visitor-guide.pdf"
+          },
+          {
+            "label": "WA Park Entry Fees",
+            "url": "https://exploreparks.dbca.wa.gov.au/park-entry-fees"
+          }
+        ]
+      }
+    },
+    "d2-05": {
+      "category": "lodging",
+      "categoryNote": "本行程以 Cervantes 小镇住宿过夜为目的。",
+      "food": {
+        "summary": "镇内餐饮数量不多但海鲜特色鲜明，晚餐应优先确认厨房营业时间。",
+        "restaurants": [
+          {
+            "name": "Lobster Shack",
+            "nameEn": "Lobster Shack Cervantes",
+            "lat": -30.4935474,
+            "lng": 115.0686298,
+            "coordinateSource": "Nominatim",
+            "rating": 3.9,
+            "ratingCount": 1903,
+            "ratingSource": "Google 地图（Birdeye 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Cervantes 镇中心约 1 公里",
+            "priceLevel": null,
+            "cuisine": "海鲜、西澳岩龙虾",
+            "recommended": "主打 Western Rock Lobster，评论和菜单常见龙虾卷、mornay、taco 与整只龙虾；通常更适合午餐。",
+            "hours": "每日 09:00-17:00",
+            "sourceUrl": "https://reviews.birdeye.com/lobster-shack-cervantes-wa-167868979238565"
+          },
+          {
+            "name": "Cervantes Bar and Bistro",
+            "nameEn": "Cervantes Bar and Bistro",
+            "lat": -30.501,
+            "lng": 115.0685412,
+            "coordinateSource": "Nominatim",
+            "rating": 4.1,
+            "ratingCount": 610,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Cervantes 镇中心",
+            "priceLevel": null,
+            "cuisine": "澳式酒馆、海鲜",
+            "recommended": "推荐关注本地岩龙虾、鲜鱼和海鲜拼盘；营业至晚间，比 Lobster Shack 更适合住宿当晚用餐。",
+            "hours": "每日 11:00-22:00",
+            "sourceUrl": "https://maps.apple.com/place?place-id=I143CA0FB275E5B9E"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "住宿车辆应停在已预订住宿的指定车位；镇中心短停可使用商铺和 Visitor Centre 周边路边位并以现场标志为准。",
+        "lots": [],
+        "rules": [
+          "不要把 Visitor Centre 或商铺周边短停车位当作过夜营地。",
+          "caravan、campervan 和拖挂过夜应进入合法 holiday park 或已预订营地。"
+        ],
+        "sources": [
+          {
+            "label": "Pinnacles Visitor Centre",
+            "url": "https://www.visitpinnaclescountry.com.au/"
+          },
+          {
+            "label": "RAC Cervantes Holiday Park",
+            "url": "https://parksandresorts.rac.com.au/cervantes/"
+          }
+        ]
+      }
+    },
+    "d3-01": {
+      "category": "attraction",
+      "categoryNote": "Nambung National Park 内的湖泊与步道景点。",
+      "food": {
+        "summary": "Lake Thetis 现场无餐饮，Cervantes 镇中心仅约 1-2 公里，应在镇上补给。",
+        "restaurants": [
+          {
+            "name": "Cervantes Bar and Bistro",
+            "nameEn": "Cervantes Bar and Bistro",
+            "lat": -30.501,
+            "lng": 115.0685412,
+            "coordinateSource": "Nominatim",
+            "rating": 4.1,
+            "ratingCount": 610,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Lake Thetis 约 1.5 公里",
+            "priceLevel": null,
+            "cuisine": "澳式酒馆、海鲜",
+            "recommended": "菜单突出本地岩龙虾、鲜鱼、章鱼与牛排，适合游湖后的正餐。",
+            "hours": "每日 11:00-22:00",
+            "sourceUrl": "https://www.visitpinnaclescountry.com.au/see-and-do/where-to-eat"
+          },
+          {
+            "name": "Lobster Shack",
+            "nameEn": "Lobster Shack Cervantes",
+            "lat": -30.4935474,
+            "lng": 115.0686298,
+            "coordinateSource": "Nominatim",
+            "rating": 3.9,
+            "ratingCount": 1903,
+            "ratingSource": "Google 地图（Birdeye 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Lake Thetis 约 2 公里",
+            "priceLevel": null,
+            "cuisine": "海鲜、西澳岩龙虾",
+            "recommended": "以 Western Rock Lobster 为核心，龙虾卷和多种龙虾做法最具当地特色。",
+            "hours": "每日 09:00-17:00",
+            "sourceUrl": "https://restaurantguru.com/Lobster-Shack-Cervantes-Western-Australia"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "湖边有铺装停车区，步行很短即可到主观景平台；现场无厕所、垃圾桶和遮阴。",
+        "lots": [
+          {
+            "name": "塞蒂斯湖主停车场（Lake Thetis Main Carpark）",
+            "nameEn": "Lake Thetis Main Carpark",
+            "lat": -30.5071005,
+            "lng": 115.0814047,
+            "coordinateSource": "Nominatim（Lake Thetis）",
+            "fee": "unknown",
+            "feeNote": "官方 Lake Thetis 页面未单列停车费；是否核验 Nambung National Park 入园凭证以现场标志为准",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "距主叠层石观景平台很近，前 300 米步道具无障碍通行条件；无厕所和垃圾桶。"
+          }
+        ],
+        "rules": [
+          "只走木栈道和正式步道，不要踩入湖岸脆弱结构。",
+          "现场无厕所、垃圾桶和遮阴，应带水并带走垃圾。"
+        ],
+        "sources": [
+          {
+            "label": "DBCA Lake Thetis",
+            "url": "https://exploreparks.dbca.wa.gov.au/site/lake-thetis"
+          },
+          {
+            "label": "Lake Thetis Main Carpark",
+            "url": "https://www.exploroz.com/places/132638/wa+main-carpark-at-lake-thetis"
+          }
+        ]
+      }
+    },
+    "d3-02": {
+      "category": "attraction",
+      "categoryNote": "Geraldton 海滨公共游览区。",
+      "food": {
+        "summary": "Foreshore 与 CBD 相连，步行范围内餐厅较多，是本段最适合集中补给和用餐的地点。",
+        "restaurants": [
+          {
+            "name": "Salt Dish",
+            "nameEn": "Salt Dish",
+            "lat": -28.7715352,
+            "lng": 114.6111747,
+            "coordinateSource": "Nominatim",
+            "rating": 4.6,
+            "ratingCount": 473,
+            "ratingSource": "Google 地图（Starworks 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Geraldton Foreshore 约 700 米",
+            "priceLevel": null,
+            "cuisine": "现代澳式、咖啡馆",
+            "recommended": "评论常推荐季节菜单、barramundi、lamb ragu pappardelle、Dutch Baby pancake 和素食选项；繁忙时建议预约。",
+            "hours": "周一至周五 07:30-16:00",
+            "sourceUrl": "https://www.starworks.com.au/score/na%3Ad2c36f503586dfa3"
+          },
+          {
+            "name": "Skeetas Restaurant Bar & Cafe",
+            "nameEn": "Skeetas Restaurant Bar & Cafe",
+            "lat": -28.7688694,
+            "lng": 114.6107199,
+            "coordinateSource": "Nominatim",
+            "rating": 4.2,
+            "ratingCount": 1623,
+            "ratingSource": "Google 地图（公开商家数据转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Geraldton Foreshore 约 1 公里",
+            "priceLevel": null,
+            "cuisine": "现代澳式、海鲜",
+            "recommended": "老牌家庭餐厅，适合海鲜、牛排和葡萄酒正餐；官网显示曾获 Australian Good Food Guide 奖项。",
+            "hours": null,
+            "sourceUrl": "https://skeetas.com.au/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "CBD 有免费 1P、2P、4P 和全天停车区；Foreshore Drive 路边通常为免费 2P，务必看现场标志。",
+        "lots": [
+          {
+            "name": "停车站 1（Parking Station 1, Foreshore Drive）",
+            "nameEn": "Parking Station 1",
+            "lat": -28.7724931,
+            "lng": 114.6087714,
+            "coordinateSource": "Nominatim（相邻 Dôme）与 City of Greater Geraldton 官方位置说明",
+            "fee": "free",
+            "feeNote": "免费 2 小时",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "适合海滨和 CBD 短停；大型拖挂车应改用 Francis Street 指定 RV 长车位。"
+          }
+        ],
+        "rules": [
+          "Foreshore Drive 路边位多为免费 2P，其他街道可能是 1P 或 4P，必须按标志限时。",
+          "自给式 RV、caravan 和 camping trailer 可使用 Francis Street 指定 24 小时免费长车位，先到先得。",
+          "大型拖挂组合因车位长度限制更适合 Francis Street，不要横占普通车位。"
+        ],
+        "sources": [
+          {
+            "label": "City of Greater Geraldton Parking",
+            "url": "https://www.cgg.wa.gov.au/live/my-home/parking-in-geraldton.aspx"
+          },
+          {
+            "label": "Visit Geraldton RV and Camping",
+            "url": "https://www.visitgeraldton.com.au/rv-and-camping.aspx"
+          }
+        ]
+      }
+    },
+    "d3-03": {
+      "category": "attraction",
+      "categoryNote": "Hutt Lagoon 路边观景点。",
+      "food": {
+        "summary": "Hutt Lagoon 观景点没有餐饮设施；可靠正餐主要在约 50 公里外的 Northampton，需提前补水和食物。",
+        "restaurants": [
+          {
+            "name": "The Shearing Shed Cafe",
+            "nameEn": "The Shearing Shed Cafe",
+            "lat": -28.3497454,
+            "lng": 114.6316379,
+            "coordinateSource": "Nominatim",
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Pink Lake Lookout 约 50 公里，在 Northampton",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、澳式简餐",
+            "recommended": "可核实地址为 222 Hampton Road；适合作为往返粉红湖途中早餐、咖啡或午餐停靠点。",
+            "hours": null,
+            "sourceUrl": "https://menuweb.menu/restaurants/northampton/the-shearing-shed-cafe"
+          },
+          {
+            "name": "Miners Arms Hotel",
+            "nameEn": "Miners Arms Hotel",
+            "lat": -28.3488576,
+            "lng": 114.631511,
+            "coordinateSource": "Nominatim（238 Hampton Road 地址定位）",
+            "rating": 3.8,
+            "ratingCount": 24,
+            "ratingSource": "Tripadvisor（Foodeist 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Pink Lake Lookout 约 50 公里，在 Northampton",
+            "priceLevel": null,
+            "cuisine": "澳式酒馆",
+            "recommended": "作为 Northampton 镇内酒馆正餐备选；未找到可可靠核对的具体招牌菜，点餐前查看当日菜单。",
+            "hours": null,
+            "sourceUrl": "https://foodeist.com/place/miners-arms-hotel"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Port Gregory Road 上有专门的未铺装 Pink Lake Lookout 停车区；湖边无厕所、商店或遮阴。",
+        "lots": [
+          {
+            "name": "粉红湖观景停车区（Pink Lake Lookout）",
+            "nameEn": "Pink Lake Lookout",
+            "lat": -28.1849303,
+            "lng": 114.2584261,
+            "coordinateSource": "Nominatim",
+            "fee": "free",
+            "feeNote": "未发现收费信息",
+            "capacity": null,
+            "surface": "碎石／未铺装",
+            "note": "从 Port Gregory Road 安全驶入专用停车区；停车区在坡段附近，驶离时注意双向来车。"
+          }
+        ],
+        "rules": [
+          "优先使用专用 Pink Lake Lookout，不要在无安全余量的路肩随意停车。",
+          "现场没有厕所、商店、饮水或遮阴；盐壳尖锐，靠近湖岸应穿包脚鞋。",
+          "不要在 Hutt Lagoon 露营或把观景停车区当作过夜营地。"
+        ],
+        "sources": [
+          {
+            "label": "Australia’s Coral Coast Pink Lake",
+            "url": "https://www.australiascoralcoast.com/destinations/kalbarri-surrounds/pink-lake"
+          },
+          {
+            "label": "Perth is OK Hutt Lagoon",
+            "url": "https://perthisok.com/news/hutt-lagoon-pink-lake/"
+          }
+        ]
+      }
+    },
+    "d3-04": {
+      "category": "lodging",
+      "categoryNote": "以 Kalbarri 镇内住宿和补给为主要目的。",
+      "food": {
+        "summary": "Kalbarri 镇内正餐选择集中，旺季晚餐建议预订；本地海鲜是最可靠的特色。",
+        "restaurants": [
+          {
+            "name": "Finlay's Kalbarri",
+            "nameEn": "Finlay's Kalbarri",
+            "lat": -27.713933,
+            "lng": 114.1654343,
+            "coordinateSource": "Nominatim",
+            "rating": 4.2,
+            "ratingCount": 984,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Kalbarri 镇中心约 500 米",
+            "priceLevel": null,
+            "cuisine": "海鲜、烧烤、精酿啤酒",
+            "recommended": "主打本地海鲜和自酿啤酒，官网称四款自选 beer paddle 很受欢迎；适合轻松晚餐。",
+            "hours": null,
+            "sourceUrl": "https://finlayskalbarri.com.au/"
+          },
+          {
+            "name": "Upstairs Restaurant",
+            "nameEn": "Upstairs Restaurant",
+            "lat": -27.7114858,
+            "lng": 114.1651275,
+            "coordinateSource": "Nominatim",
+            "rating": 3.8,
+            "ratingCount": 2136,
+            "ratingSource": "Menuweb",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Kalbarri 镇中心",
+            "priceLevel": null,
+            "cuisine": "现代澳式、本地海鲜",
+            "recommended": "官网菜单重点是 Shark Bay prawns、WA snapper、lobster、sirloin 和 oysters；当地旅游页特别推荐 grilled snapper 与 chicken satay。",
+            "hours": "周一至周六 17:00-21:00，周日休息",
+            "sourceUrl": "https://menuweb.menu/restaurants/kalbarri/restaurant-upstairs"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "住宿车辆应停在酒店或 caravan park 指定车位；镇中心及海滨路边位按现场限时和禁停标志使用。",
+        "lots": [],
+        "rules": [
+          "拖挂和房车不要横占普通路边位，优先停回住宿营位或使用明确允许长车的区域。",
+          "Kalbarri National Park 内陆景点不允许携带 caravan 或 trailer 时，应先将拖挂留在镇内住宿地。"
+        ],
+        "sources": [
+          {
+            "label": "Kalbarri National Park Visitor Guide",
+            "url": "https://exploreparks.dbca.wa.gov.au/sites/default/files/2023-07/kalbarri-national-park-visitor-guide.pdf"
+          }
+        ]
+      }
+    },
+    "d3-05": {
+      "category": "attraction",
+      "categoryNote": "Kalbarri National Park 海岸观景台。",
+      "food": {
+        "summary": "Red Bluff 现场无餐饮，最近可靠正餐都在约 5 公里外的 Kalbarri 镇内。",
+        "restaurants": [
+          {
+            "name": "Finlay's Kalbarri",
+            "nameEn": "Finlay's Kalbarri",
+            "lat": -27.713933,
+            "lng": 114.1654343,
+            "coordinateSource": "Nominatim",
+            "rating": 4.2,
+            "ratingCount": 984,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Red Bluff 约 5 公里，在 Kalbarri 镇内",
+            "priceLevel": null,
+            "cuisine": "海鲜、烧烤、精酿啤酒",
+            "recommended": "本地海鲜与自酿啤酒是核心特色，beer paddle 适合多人尝试不同口味。",
+            "hours": null,
+            "sourceUrl": "https://finlayskalbarri.com.au/"
+          },
+          {
+            "name": "Upstairs Restaurant",
+            "nameEn": "Upstairs Restaurant",
+            "lat": -27.7114858,
+            "lng": 114.1651275,
+            "coordinateSource": "Nominatim",
+            "rating": 3.8,
+            "ratingCount": 2136,
+            "ratingSource": "Menuweb",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Red Bluff 约 5 公里，在 Kalbarri 镇内",
+            "priceLevel": null,
+            "cuisine": "现代澳式、本地海鲜",
+            "recommended": "推荐从 grilled snapper、Shark Bay prawns、oysters 和当季 lobster 中选择；晚餐宜预订。",
+            "hours": "周一至周六 17:00-21:00，周日休息",
+            "sourceUrl": "https://menuweb.menu/restaurants/kalbarri/restaurant-upstairs"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Red Bluff 有铺装停车场，共约 25 个普通车位、2 个长车位及 1 个无障碍车位。",
+        "lots": [
+          {
+            "name": "红崖停车场（Red Bluff Car Park）",
+            "nameEn": "Red Bluff Car Park",
+            "lat": -27.7489347,
+            "lng": 114.1397861,
+            "coordinateSource": "Nominatim（Red Bluff）",
+            "fee": "paid",
+            "feeNote": "停车不另收费，但 Kalbarri National Park 标准车辆入园费 A$17；有效 park pass 可替代",
+            "capacity": "约 25 个普通车位、2 个长车位、1 个无障碍车位",
+            "surface": "沥青",
+            "note": "停车场至观景点为短距离铺装步道；现场没有厕所。"
+          }
+        ],
+        "rules": [
+          "按指定车位停放，长车使用两个长车位，不要占用无障碍车位。",
+          "现场无厕所，遵守 Leave No Trace 并带走垃圾。",
+          "Kalbarri National Park 需缴车辆入园费或展示有效 park pass。"
+        ],
+        "sources": [
+          {
+            "label": "DBCA Red Bluff Accessibility",
+            "url": "https://exploreparks.dbca.wa.gov.au/red-bluff/accessibility-information"
+          },
+          {
+            "label": "WA Park Entry Fees",
+            "url": "https://exploreparks.dbca.wa.gov.au/park-entry-fees"
+          }
+        ]
+      }
+    },
+    "d4-01": {
+      "category": "attraction",
+      "categoryNote": "Kalbarri National Park 内陆峡谷观景台。",
+      "food": {
+        "summary": "Skywalk 现场有轻食咖啡亭，但完整正餐仍需回到约 38 公里外的 Kalbarri 镇。",
+        "restaurants": [
+          {
+            "name": "Kalbarri Skywalk Cafe",
+            "nameEn": "Kalbarri Skywalk Cafe",
+            "lat": -27.5546724,
+            "lng": 114.4342592,
+            "coordinateSource": "Nominatim（Kalbarri Skywalk）",
+            "rating": 4.2,
+            "ratingCount": 173,
+            "ratingSource": "Menuweb",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Skywalk 观景区内",
+            "priceLevel": null,
+            "cuisine": "咖啡、轻食",
+            "recommended": "WAITOC 页面列出咖啡、蛋糕、wrap、sandwich、panini、toastie 和冰淇淋；适合补给，不等同于完整餐厅。",
+            "hours": "通常每日 08:00-15:00；11月至次年4月可能调整",
+            "sourceUrl": "https://menuweb.menu/restaurants/kalbarri/kalbarri-skywalk-cafe"
+          },
+          {
+            "name": "Finlay's Kalbarri",
+            "nameEn": "Finlay's Kalbarri",
+            "lat": -27.713933,
+            "lng": 114.1654343,
+            "coordinateSource": "Nominatim",
+            "rating": 4.2,
+            "ratingCount": 984,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Skywalk 约 38 公里，在 Kalbarri 镇内",
+            "priceLevel": null,
+            "cuisine": "海鲜、烧烤、精酿啤酒",
+            "recommended": "若需要完整正餐，回镇后可选本地海鲜和自酿 beer paddle；不要依赖景区轻食亭解决晚餐。",
+            "hours": null,
+            "sourceUrl": "https://www.sluurpy.com/en/kalbarri/restaurant/4595731/finlay-s-kalbarri"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Skywalk 有正式停车区及无障碍车位，经约 180 米宽阔混凝土步道到观景台；国家公园入园收费。",
+        "lots": [
+          {
+            "name": "卡尔巴里天空步道停车场（Kalbarri Skywalk Car Park）",
+            "nameEn": "Kalbarri Skywalk Car Park",
+            "lat": -27.5546724,
+            "lng": 114.4342592,
+            "coordinateSource": "Nominatim（Kalbarri Skywalk）",
+            "fee": "paid",
+            "feeNote": "停车不另收费，但 Kalbarri National Park 标准车辆入园费 A$17；有效 park pass 可替代",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "有指定无障碍车位，距观景平台约 180 米；长车可否进入应服从入口和现场标志。"
+          }
+        ],
+        "rules": [
+          "Kalbarri National Park 需缴车辆入园费或展示有效 park pass。",
+          "公园内没有处理过的饮用水，应自行携带足量饮水。",
+          "不要将 caravan 或 trailer 带往明确禁拖挂的 Loop/Nature's Window 区域。"
+        ],
+        "sources": [
+          {
+            "label": "DBCA Skywalk Accessibility",
+            "url": "https://exploreparks.dbca.wa.gov.au/kalbarri-skywalk/accessibility-information"
+          },
+          {
+            "label": "WA Park Entry Fees",
+            "url": "https://exploreparks.dbca.wa.gov.au/park-entry-fees"
+          }
+        ]
+      }
+    },
+    "d4-02": {
+      "category": "attraction",
+      "categoryNote": "Kalbarri National Park 内陆峡谷自然景观与步道入口。",
+      "food": {
+        "summary": "Nature's Window 现场无餐饮和饮用水；最近轻食在 Skywalk Cafe，完整正餐需回 Kalbarri 镇。",
+        "restaurants": [
+          {
+            "name": "Kalbarri Skywalk Cafe",
+            "nameEn": "Kalbarri Skywalk Cafe",
+            "lat": -27.5546724,
+            "lng": 114.4342592,
+            "coordinateSource": "Nominatim（Kalbarri Skywalk）",
+            "rating": 4.2,
+            "ratingCount": 173,
+            "ratingSource": "Menuweb",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Nature's Window 停车区约 10 公里，在 Skywalk 观景区",
+            "priceLevel": null,
+            "cuisine": "咖啡、轻食",
+            "recommended": "可买咖啡、冷饮、wrap、sandwich、panini 和冰淇淋；开放时间季节性变化，仍应自备水和应急食物。",
+            "hours": "通常每日 08:00-15:00；11月至次年4月可能调整",
+            "sourceUrl": "https://menuweb.menu/restaurants/kalbarri/kalbarri-skywalk-cafe"
+          },
+          {
+            "name": "Finlay's Kalbarri",
+            "nameEn": "Finlay's Kalbarri",
+            "lat": -27.713933,
+            "lng": 114.1654343,
+            "coordinateSource": "Nominatim",
+            "rating": 4.2,
+            "ratingCount": 984,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Nature's Window 约 40 公里，在 Kalbarri 镇内",
+            "priceLevel": null,
+            "cuisine": "海鲜、烧烤、精酿啤酒",
+            "recommended": "完成步道后回镇可选本地海鲜和自酿啤酒；景区气温高时不要把正餐安排挤占饮水与返程时间。",
+            "hours": null,
+            "sourceUrl": "https://finlayskalbarri.com.au/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Loop/Nature's Window 是未铺装停车区，可容约 35 辆轿车/4WD 及 8-10 辆旅游巴士；禁止 caravan 和 trailer。",
+        "lots": [
+          {
+            "name": "自然之窗／环线停车场（The Loop and Nature's Window Car Park）",
+            "nameEn": "The Loop and Nature's Window Car Park",
+            "lat": -27.555,
+            "lng": 114.45,
+            "coordinateSource": "DBCA 官方景点页与题给景点坐标",
+            "fee": "paid",
+            "feeNote": "停车不另收费，但 Kalbarri National Park 标准车辆入园费 A$17；有效 park pass 可替代",
+            "capacity": "约 35 辆轿车/4WD，加 8-10 辆旅游巴士",
+            "surface": "碎石／未铺装",
+            "note": "无专用无障碍车位；旺季可能拥堵。caravan 和 trailer 禁止进入，必须留在 Kalbarri 镇内。"
+          }
+        ],
+        "rules": [
+          "caravan 和 trailer 禁止进入 Loop/Nature's Window，应留在 Kalbarri 镇内。",
+          "Nature's Window 往返约 1 公里，后段为岩石路面；不要攀爬或坐在岩窗下。",
+          "现场无饮用水且遮阴有限；Loop Trail 在 11 月至次年 3 月每日 07:00 后关闭。",
+          "Kalbarri National Park 需缴车辆入园费或展示有效 park pass。"
+        ],
+        "sources": [
+          {
+            "label": "DBCA Loop/Nature's Window Accessibility",
+            "url": "https://exploreparks.dbca.wa.gov.au/loop-and-natures-window/accessibility-information"
+          },
+          {
+            "label": "Kalbarri National Park Visitor Guide",
+            "url": "https://exploreparks.dbca.wa.gov.au/sites/default/files/2023-07/kalbarri-national-park-visitor-guide.pdf"
+          }
+        ]
+      }
+    },
+    "d4-03": {
+      "category": "lodging",
+      "categoryNote": "Perth Central Caravan Park 营地住宿点。",
+      "food": {
+        "summary": "营地本身以自炊设施为主，最近可靠餐饮在 Garvey Park 和 Great Eastern Highway 一带。",
+        "restaurants": [
+          {
+            "name": "Ascot Riverside Kiosk",
+            "nameEn": "Ascot Riverside Kiosk",
+            "lat": -31.9227384,
+            "lng": 115.9431968,
+            "coordinateSource": "Nominatim（Garvey Park 地址定位）",
+            "rating": 4.3,
+            "ratingCount": 70,
+            "ratingSource": "Google 地图（Restaurant Guru 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距营地约 2 公里，驾车约 4 分钟",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、轻食",
+            "recommended": "河畔 alfresco 简餐和咖啡，适合早餐；营业日有限，营地官网也建议出发前确认。",
+            "hours": "周一、周五 07:00-14:30；周六、周日 07:00-16:00",
+            "sourceUrl": "https://perthcentral.com.au/pet-friendly-accommodation-perth/dog-parks/"
+          },
+          {
+            "name": "Da Corner",
+            "nameEn": "Da Corner",
+            "lat": -31.969701,
+            "lng": 115.968398,
+            "coordinateSource": "Nominatim（1/6 Whitham Road 地址定位）",
+            "rating": 4.4,
+            "ratingCount": 57,
+            "ratingSource": "Google 地图（Restaurant Guru 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距营地约 6 公里，驾车约 10 分钟",
+            "priceLevel": "人均约 A$1-20",
+            "cuisine": "东南亚及亚洲简餐",
+            "recommended": "评论常提到 laksa、炒饭、炒粿条和辣椒油；适合打包回营地，店前有免费停车位。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Da-Corner-Perth-Airport"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "营地提供 40 多个大型 powered sites，多数有混凝土板；营位可接待最长约 9 米的 caravan、motorhome 或 camper。",
+        "lots": [
+          {
+            "name": "Perth Central Caravan Park 营位",
+            "nameEn": "Perth Central Caravan Park Powered Sites",
+            "lat": -31.9292224,
+            "lng": 115.9429425,
+            "coordinateSource": "Nominatim（34 Central Avenue 地址定位）",
+            "fee": "paid",
+            "feeNote": "住宿营位收费，须预订；价格随日期与营位类型变化",
+            "capacity": "40 多个大型 powered sites",
+            "surface": "混凝土板，另有按需提供的网垫帐篷位",
+            "note": "官方称可容纳最长约 9 米车辆；入住 14:00，退房 10:00，前台 08:00-18:00。"
+          }
+        ],
+        "rules": [
+          "车辆和拖挂应停在分配营位内，不要占用内部道路或其他营位。",
+          "最长约 9 米的车辆可使用大型营位，超长组合预订前应让营地确认。",
+          "宠物只可进入指定营位，须全程使用短于 2 米牵引绳且不得无人看管。"
+        ],
+        "sources": [
+          {
+            "label": "Perth Central Caravan Park Powered Sites",
+            "url": "https://perthcentral.com.au/accommodation/caravan-park/"
+          },
+          {
+            "label": "BIG4 Powered Site Details",
+            "url": "https://www.big4.com.au/caravan-parks/wa/greater-perth/perth-central-caravan-park/accommodation/powered-site"
+          }
+        ]
+      }
+    }
+  },
+  "uncertain": [
+    {
+      "placeId": "d2-01",
+      "field": "parking.lots",
+      "issue": "机场有多个按航站楼区分的 LongTerm 停车场，未取得可核实的单一入口坐标",
+      "handled": "不写可能误导导航的停车场坐标，以官方停车页面和接送规则替代"
+    },
+    {
+      "placeId": "d3-01",
+      "field": "parking.lots[0].fee",
+      "issue": "DBCA Lake Thetis 页面未明确该入口是否单独查验 Nambung National Park 车辆入园费",
+      "handled": "fee 置为 unknown，并提示以现场标志为准"
+    },
+    {
+      "placeId": "d3-03",
+      "field": "food.restaurants[*].rating",
+      "issue": "The Shearing Shed Cafe：检索店名+Northampton WA+Tripadvisor/rating/reviews，并核对游客中心、Wheree 与博客；搜索摘要有分数但页面本身不显示，未采用。",
+      "handled": "继续将 rating、ratingCount 与 ratingSource 保持为 null；不采用无法在来源页复核的搜索摘要分数。"
+    }
+  ]
+}

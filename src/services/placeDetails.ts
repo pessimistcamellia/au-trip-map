@@ -2,8 +2,12 @@ import type {
   ILink,
   IPlace,
   IPlaceDetailSection,
+  IPlaceFood,
+  IPlaceParking,
   PlaceDetailCategory,
+  PlaceTextCategory,
 } from '../types'
+import { inferPlaceCategory } from './placeCategory'
 
 function uniqueText(values: Array<string | undefined>): string[] {
   const normalized = values
@@ -14,7 +18,7 @@ function uniqueText(values: Array<string | undefined>): string[] {
 }
 
 export function getPlaceDetailSections(place: IPlace): IPlaceDetailSection[] {
-  const sections: Record<PlaceDetailCategory, string[]> = {
+  const sections: Record<PlaceTextCategory, string[]> = {
     看点: uniqueText([
       place.highlights,
       ...(place.dayInfo?.highlights ?? []),
@@ -32,10 +36,43 @@ export function getPlaceDetailSections(place: IPlace): IPlaceDetailSection[] {
     ]),
     文化: uniqueText([place.sections.culture]),
   }
-  return (Object.keys(sections) as PlaceDetailCategory[]).map((category) => ({
+  return (Object.keys(sections) as PlaceTextCategory[]).map((category) => ({
     category,
     items: sections[category],
   }))
+}
+
+export function getPlaceFood(place: IPlace): IPlaceFood | null {
+  const food = place.food
+  if (!food) return null
+  if (!food.summary && !food.restaurants.length) return null
+  return food
+}
+
+export function getPlaceParking(place: IPlace): IPlaceParking | null {
+  const parking = place.parking
+  if (!parking) return null
+  if (!parking.summary && !parking.lots.length && !parking.rules.length) return null
+  return parking
+}
+
+// 目的地本身就是餐厅时不再单开美食页签。
+export function shouldShowFoodTab(place: IPlace): boolean {
+  const category = place.category ?? inferPlaceCategory(place)
+  return category !== 'restaurant' && getPlaceFood(place) !== null
+}
+
+export function getPlaceDetailCategories(place: IPlace): PlaceDetailCategory[] {
+  const categories: PlaceDetailCategory[] = getPlaceDetailSections(place)
+    .filter(
+      (section) =>
+        section.items.length > 0 ||
+        (section.category === '实用' && getPlaceParking(place) !== null) ||
+        getPlaceDetailLinksByCategory(place, section.category).length > 0,
+    )
+    .map((section) => section.category)
+  if (shouldShowFoodTab(place)) categories.push('美食')
+  return categories
 }
 
 export function getPlaceDetailLinks(place: IPlace): ILink[] {
@@ -122,6 +159,8 @@ export function getPlaceDetailLinksByCategory(
 export function hasPlaceDetails(place: IPlace): boolean {
   return (
     getPlaceDetailSections(place).some((section) => section.items.length > 0) ||
-    getPlaceDetailLinks(place).length > 0
+    getPlaceDetailLinks(place).length > 0 ||
+    getPlaceFood(place) !== null ||
+    getPlaceParking(place) !== null
   )
 }

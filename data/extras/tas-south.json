@@ -1,0 +1,1156 @@
+{
+  "schemaVersion": 1,
+  "region": "tas-south",
+  "checkedAt": "2026-08-22",
+  "places": {
+    "d5-01": {
+      "category": "transport",
+      "categoryNote": "机场是航空交通节点，停车重点是接送、短停和长时停车。",
+      "food": {
+        "summary": "航站楼内外有轻食和咖啡，想吃完整海鲜餐可自驾约 5 分钟到 Barilla Bay。",
+        "restaurants": [
+          {
+            "name": "Crate Cafe",
+            "nameEn": "Crate Cafe",
+            "lat": -42.8361,
+            "lng": 147.5103,
+            "coordinateSource": "Hobart Airport 官网所述航站楼前广场位置；坐标采用本路书霍巴特机场点位",
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于航站楼前广场，步行可达",
+            "priceLevel": null,
+            "cuisine": "咖啡、三明治与轻食",
+            "recommended": "官网明确提供咖啡、三明治、toastie 和现场制作甜点，适合取车前后快速补给，不宜当作正式正餐。",
+            "hours": null,
+            "sourceUrl": "https://hobartairport.com.au/travellers/dine-and-retail/food-and-drink/crate-cafe-2/"
+          },
+          {
+            "name": "Barilla Bay Oysters",
+            "nameEn": "Barilla Bay Oysters",
+            "lat": -42.81919,
+            "lng": 147.48213,
+            "coordinateSource": "ExplorOz 实测地理坐标；官网地址为 1388 Tasman Highway",
+            "rating": 4.2,
+            "ratingCount": 3303,
+            "ratingSource": "Menuweb",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距机场约 5 分钟车程",
+            "priceLevel": null,
+            "cuisine": "塔斯马尼亚生蚝与海鲜",
+            "recommended": "官方资料确认这里是生蚝养殖场与海鲜门店，适合品尝或购买本地 Pacific oysters；赶飞机时还可提前联系，将冷冻海鲜装入保温箱托运。",
+            "hours": null,
+            "sourceUrl": "https://menuweb.menu/restaurants/hobart/barilla-bay-oyster-farm/reviews"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "机场设 Valet、Premium、Short Term、Long Term、Saver 等付费停车，接送车道只允许即时上下客。",
+        "lots": [
+          {
+            "name": "霍巴特机场 Long Term Car Park",
+            "nameEn": "Hobart Airport Long Term Car Park",
+            "lat": -42.8366,
+            "lng": 147.5069,
+            "coordinateSource": "Hobart Airport 官方停车地图所示机场停车区",
+            "fee": "paid",
+            "feeNote": "适合超过 5 天；前 15 分钟免费，后续按官网实时费率",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "步行约 4–8 分钟到航站楼；高峰需求大，官网建议预留找车位时间并按现场标志行驶。"
+          },
+          {
+            "name": "航站楼接送车道",
+            "nameEn": "Drop-off & Pick-up Lane",
+            "lat": -42.8361,
+            "lng": 147.5103,
+            "coordinateSource": "Hobart Airport 官网航站楼外位置说明",
+            "fee": "free",
+            "feeNote": "仅即时上下客免费，不能停车等人",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "车辆必须有人看管；需要等候请进 Long Term Car Park，前 15 分钟免费。"
+          }
+        ],
+        "rules": [
+          "接送车道只允许乘客上下车，停车管理员可要求滞留车辆驶离。",
+          "需要等待乘客时使用 Long Term Car Park，前 15 分钟免费。",
+          "机场停车需求有时很高，宜预留额外时间；长期停车可提前在线预订。"
+        ],
+        "sources": [
+          {
+            "label": "Hobart Airport Parking",
+            "url": "https://hobartairport.com.au/travellers/transport-and-parking/parking/"
+          },
+          {
+            "label": "Hobart Airport Drop-off & Pick-up",
+            "url": "https://hobartairport.com.au/travellers/transport-and-parking/drop-off-pick-up/"
+          }
+        ]
+      }
+    },
+    "d5-02": {
+      "category": "lodging",
+      "categoryNote": "Stewarts Bay Lodge 是本日住宿地，餐饮和停车以住客实际使用为主。",
+      "food": {
+        "summary": "住宿区有一间预约制晚餐餐厅，Port Arthur Historic Site 一带另有午餐与咖啡选择。",
+        "restaurants": [
+          {
+            "name": "On the Bay Restaurant",
+            "nameEn": "On the Bay Restaurant",
+            "lat": -43.138688,
+            "lng": 147.855967,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Stewarts Bay Track 餐饮点",
+            "rating": 4.1,
+            "ratingCount": 477,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Stewarts Bay Lodge 内",
+            "priceLevel": null,
+            "cuisine": "现代澳大利亚菜、塔州海鲜",
+            "recommended": "2026 菜单以塔州食材和 native ingredients 为主，包含 pepperberry、wattleseed、saltbush 与海鲜元素。晚餐必须预约，8 月整月关闭。",
+            "hours": "周二至周六早餐 08:00–10:00，晚餐 17:30–19:30；8 月关闭",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504319-d1489238-Reviews-On_the_Bay_Restaurant-Port_Arthur_Tasmania.html"
+          },
+          {
+            "name": "1830 Restaurant & Bar",
+            "nameEn": "1830 Restaurant & Bar",
+            "lat": -43.146064,
+            "lng": 147.850531,
+            "coordinateSource": "Photon（OpenStreetMap 数据）node 餐饮点",
+            "rating": 4.4,
+            "ratingCount": 164,
+            "ratingSource": "Tripadvisor（Foodeist 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距住宿区约 2 公里，位于 Port Arthur Historic Site Visitor Centre",
+            "priceLevel": null,
+            "cuisine": "塔斯曼半岛时令菜",
+            "recommended": "官网明确列出本地鲜鲍鱼与 100% 塔州草饲牛肉，菜单随季节变化。适合参观遗址时安排较正式的午餐，且必须预约。",
+            "hours": "每日午餐 11:30–14:30",
+            "sourceUrl": "https://foodeist.com/place/1830-restaurant-and-bar"
+          },
+          {
+            "name": "Port Arthur Lavender Cafe",
+            "nameEn": "Port Arthur Lavender Cafe",
+            "lat": -43.1277,
+            "lng": 147.8634,
+            "coordinateSource": "Discover Tasmania 官方地址 6555 Arthur Highway 的网页地图定位",
+            "rating": 4.2,
+            "ratingCount": 451,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Stewarts Bay Lodge 约 5 分钟车程",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、塔州食材与薰衣草主题餐饮",
+            "recommended": "官方旅游资料主打薰衣草主题餐饮和塔州本地食材；访客评价中常提及 lavender white hot chocolate，适合白天顺路停靠。",
+            "hours": "每日开放，圣诞节除外；具体时段未核实",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504319-d7278327-Reviews-Port_Arthur_Lavender-Port_Arthur_Tasmania.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "住客可使用 Stewarts Bay Lodge 内免费停车，餐厅也在住宿园区内。",
+        "lots": [
+          {
+            "name": "Stewarts Bay Lodge 住客停车场",
+            "nameEn": "Stewarts Bay Lodge On-site Parking",
+            "lat": -43.14,
+            "lng": 147.87,
+            "coordinateSource": "本路书 Stewarts Bay Lodge 点位；住宿官网与订房资料确认同址停车",
+            "fee": "free",
+            "feeNote": "住客免费，无需预订",
+            "capacity": null,
+            "surface": null,
+            "note": "园区内停车；大型房车或拖挂的适配情况未在官网公开，抵达后按住宿方指示停放。"
+          }
+        ],
+        "rules": [
+          "On the Bay 晚餐需要预约，停车后步行前往餐厅即可。",
+          "停车权益针对住客；非住客前往餐厅时应服从现场指引。"
+        ],
+        "sources": [
+          {
+            "label": "Stewarts Bay Lodge Guest Information",
+            "url": "https://stewartsbaylodge.com.au/guest-information/"
+          }
+        ]
+      }
+    },
+    "d6-01": {
+      "category": "transport",
+      "categoryNote": "这里是 Tasman Island Cruises 的订票、报到和接驳起点，不是普通观景点。",
+      "food": {
+        "summary": "订票中心本身不是餐厅，步行或短途驾车可到 Port Arthur Historic Site 与 Stewarts Bay 的餐厅。",
+        "restaurants": [
+          {
+            "name": "1830 Restaurant & Bar",
+            "nameEn": "1830 Restaurant & Bar",
+            "lat": -43.146064,
+            "lng": 147.850531,
+            "coordinateSource": "Photon（OpenStreetMap 数据）node 餐饮点",
+            "rating": 4.4,
+            "ratingCount": 164,
+            "ratingSource": "Tripadvisor（Foodeist 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距订票中心约 300 米，位于 Port Arthur Historic Site Visitor Centre",
+            "priceLevel": null,
+            "cuisine": "塔斯曼半岛时令菜",
+            "recommended": "官网列出的代表性食材包括本地鲜鲍鱼和塔州草饲牛肉。只做午餐且需预约，适合巡游结束后安排。",
+            "hours": "每日午餐 11:30–14:30",
+            "sourceUrl": "https://foodeist.com/place/1830-restaurant-and-bar"
+          },
+          {
+            "name": "Port Arthur Cafe",
+            "nameEn": "Port Arthur Cafe",
+            "lat": -43.146064,
+            "lng": 147.850531,
+            "coordinateSource": "与 1830 同处 Port Arthur Historic Site Visitor Centre；Photon（OpenStreetMap 数据）建筑餐饮点",
+            "rating": 3.8,
+            "ratingCount": 300,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距订票中心约 300 米",
+            "priceLevel": null,
+            "cuisine": "三明治、咖啡与简餐",
+            "recommended": "遗址官网说明这里提供现场制作三明治，并有 gluten-free、vegetarian 和 vegan 选项；比预约制的 1830 更适合赶行程时快速用餐。",
+            "hours": "每日 09:00–17:00",
+            "sourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g504319-d5482042-Reviews-Port_Cafe_Port_Arthur_Historic_Site-Port_Arthur_Tasmania.html"
+          },
+          {
+            "name": "On the Bay Restaurant",
+            "nameEn": "On the Bay Restaurant",
+            "lat": -43.138688,
+            "lng": 147.855967,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Stewarts Bay Track 餐饮点",
+            "rating": 4.1,
+            "ratingCount": 477,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距订票中心约 1.5 公里",
+            "priceLevel": null,
+            "cuisine": "现代澳大利亚菜",
+            "recommended": "菜单强调塔州海陆食材和 native ingredients，适合巡游日晚上正式用餐。晚餐必须预约，且 8 月关闭。",
+            "hours": "周二至周六晚餐 17:30–19:30；8 月关闭",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504319-d1489238-Reviews-On_the_Bay_Restaurant-Port_Arthur_Tasmania.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Port Arthur 出发的巡游客可将车免费停在 6961 Arthur Highway 的订票中心。",
+        "lots": [
+          {
+            "name": "Tasman Island Cruises Booking Centre 停车场",
+            "nameEn": "Tasman Island Cruises Booking Centre Parking",
+            "lat": -43.13999,
+            "lng": 147.851061,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Tasman Island Cruises 点位",
+            "fee": "free",
+            "feeNote": "巡游客免费",
+            "capacity": null,
+            "surface": null,
+            "note": "官方 FAQ 明确称现场有充足免费停车；订票中心位于 Port Arthur Historic Site 入口前约 100 米。"
+          }
+        ],
+        "rules": [
+          "巡游从 6961 Arthur Highway 的订票中心开始并结束，需按预订通知提前报到。",
+          "官网不同页面混入了霍巴特出发产品的停车说明；Port Arthur 出发应以 Pennicott FAQ 的现场免费停车说明为准。"
+        ],
+        "sources": [
+          {
+            "label": "Pennicott Wilderness Journeys FAQ",
+            "url": "https://www.pennicottjourneys.com.au/faq"
+          },
+          {
+            "label": "Tasman Island Cruises",
+            "url": "https://www.tasmancruises.com.au/"
+          }
+        ]
+      }
+    },
+    "d6-02": {
+      "category": "attraction",
+      "categoryNote": "Tasman Arch 与 Devils Kitchen 是 Tasman National Park 的自然景观和短步道。",
+      "food": {
+        "summary": "景点现场没有正式餐厅，最近可行选择集中在 Blowhole 与 Eaglehawk Neck，需驾车前往。",
+        "restaurants": [
+          {
+            "name": "Doo-Lishus",
+            "nameEn": "Doo-Lishus",
+            "lat": -43.038063,
+            "lng": 147.944404,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Doo Town/Blowhole 餐饮区域点位",
+            "rating": 4.3,
+            "ratingCount": 397,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Tasman Arch 约 2 公里，位于 Blowhole 停车场",
+            "priceLevel": null,
+            "cuisine": "炸鱼薯条、海鲜与冰淇淋",
+            "recommended": "Discover Tasmania 明确列出 Fisherman's Catch、scallop & chips、鱼、鱿鱼、扇贝和虾；食材现场手切裹粉，适合作为景区间的快捷午餐。",
+            "hours": null,
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d2309775-Reviews-DOO_Lishus-Eaglehawk_Neck_Tasmania.html"
+          },
+          {
+            "name": "Lufra Cafe and Bistro",
+            "nameEn": "Lufra Cafe and Bistro",
+            "lat": -43.009929,
+            "lng": 147.929121,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Lufra Hotel and Apartments 点位",
+            "rating": 3.7,
+            "ratingCount": 257,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Tasman Arch 约 5 公里",
+            "priceLevel": null,
+            "cuisine": "塔州海鲜、肉类与澳式 bistro",
+            "recommended": "官方旅游页称菜单以塔州海鲜、区域肉类和现代澳式 bistro 菜为主。晚餐七天供应，建议预订。",
+            "hours": "午餐每日 12:00–14:30；晚餐自 17:30 起",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d1177960-Reviews-Lufra_Bistro-Eaglehawk_Neck_Tasmania.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Tasman Arch 有专用免费停车场，但 2026 年 4 月 15 日至 9 月 18 日景点因工程关闭。",
+        "lots": [
+          {
+            "name": "Tasman Arch Car Park",
+            "nameEn": "Tasman Arch Car Park",
+            "lat": -43.042133,
+            "lng": 147.950944,
+            "coordinateSource": "Bushtracker Owners Group GPS 点位",
+            "fee": "free",
+            "feeNote": "停车场本身免费；进入国家公园需有效 Parks Pass",
+            "capacity": "升级工程规划约 30 车位",
+            "surface": "碎石",
+            "note": "停车场靠近 Tasman Arch 栏杆，并可步行到 Devils Kitchen；2026-04-15 至 2026-09-18 景点和相关步道关闭，厕所保持开放。"
+          }
+        ],
+        "rules": [
+          "2026 年 4 月 15 日至 9 月 18 日 Tasman Arch 与 Devils Kitchen Visitor Site 关闭施工，不能进入景点或相关步道。",
+          "Blowhole Road 部分路段未铺装且停车有限；不要占用狭窄路肩。",
+          "车辆进入 Tasman National Park 应持有效 Parks Pass。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania — Tasman National Park",
+            "url": "https://www.parks.tas.gov.au/Pages/Tasman-National-Park.aspx"
+          },
+          {
+            "label": "Tasman Arch GPS",
+            "url": "https://www.bushtrackerownersgroup.asn.au/places/153825/tas+tasman-arch"
+          }
+        ]
+      }
+    },
+    "d6-03": {
+      "category": "attraction",
+      "categoryNote": "Tessellated Pavement 是 Eaglehawk Neck 的海岸地貌景点和短步道。",
+      "food": {
+        "summary": "景点入口没有餐厅，Lufra 就在停车场对面一带，Blowhole 的 Doo-Lishus 约 5 分钟车程。",
+        "restaurants": [
+          {
+            "name": "Lufra Cafe and Bistro",
+            "nameEn": "Lufra Cafe and Bistro",
+            "lat": -43.009929,
+            "lng": 147.929121,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Lufra Hotel and Apartments 点位",
+            "rating": 3.7,
+            "ratingCount": 257,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Tessellated Pavement 停车场对面一带，步行可达",
+            "priceLevel": null,
+            "cuisine": "塔州海鲜与澳式 bistro",
+            "recommended": "菜单主打塔州海鲜、区域肉类和 bistro 菜；用餐区面向 Pirates Bay。午餐和晚餐均有服务，晚餐建议预订。",
+            "hours": "午餐每日 12:00–14:30；晚餐自 17:30 起",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d1177960-Reviews-Lufra_Bistro-Eaglehawk_Neck_Tasmania.html"
+          },
+          {
+            "name": "Doo-Lishus",
+            "nameEn": "Doo-Lishus",
+            "lat": -43.038063,
+            "lng": 147.944404,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Doo Town/Blowhole 餐饮区域点位",
+            "rating": 4.3,
+            "ratingCount": 397,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距景点约 4 公里，约 5 分钟车程",
+            "priceLevel": null,
+            "cuisine": "炸海鲜与冰淇淋",
+            "recommended": "官方旅游页推荐 Fisherman's Catch、scallop & chips 与现场裹粉的鱼、鱿鱼、扇贝和虾，适合景点串联途中快速用餐。",
+            "hours": null,
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d2309775-Reviews-DOO_Lishus-Eaglehawk_Neck_Tasmania.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Pirates Bay Drive 上有一个小型专用停车场，步行约 5–10 分钟下到观景平台。",
+        "lots": [
+          {
+            "name": "Tessellated Pavement Car Park",
+            "nameEn": "Tessellated Pavement Car Park",
+            "lat": -43.009,
+            "lng": 147.945,
+            "coordinateSource": "本路书景点点位；Hobart and Beyond 确认停车场位于 Pirates Bay Drive",
+            "fee": "free",
+            "feeNote": "停车本身免费；车辆进入国家公园应持 Parks Pass",
+            "capacity": "小型停车场，容量未公布",
+            "surface": null,
+            "note": "停车场在 Lufra Hotel 对面一带；雨后岩面湿滑，停车后下行时注意台阶和海况。"
+          }
+        ],
+        "rules": [
+          "停车场较小，旺时不要在狭窄道路上违规占用路肩。",
+          "车辆停入国家公园景点停车场应持有效 Tasmania Parks Pass。",
+          "岩面湿滑且海况多变，按现场警示决定是否下到 pavement。"
+        ],
+        "sources": [
+          {
+            "label": "Hobart and Beyond — Tessellated Pavement",
+            "url": "https://hobartandbeyond.com.au/blog/explore-the-tessellated-pavement-at-eaglehawk-neck/"
+          }
+        ]
+      }
+    },
+    "d6-04": {
+      "category": "lodging",
+      "categoryNote": "Triabunna 是本日晚间住宿小镇，也是 Maria Island 渡轮门户。",
+      "food": {
+        "summary": "餐饮集中在 Vicary Street 与码头附近，以海鲜快餐、pub 和外带为主。",
+        "restaurants": [
+          {
+            "name": "Spring Bay Hotel",
+            "nameEn": "Spring Bay Hotel",
+            "lat": -42.509281,
+            "lng": 147.914661,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Triabunna Spring Bay Hotel 点位",
+            "rating": 4.3,
+            "ratingCount": 265,
+            "ratingSource": "Google 地图（由 Menuweb 页面明确汇总）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Triabunna Marina 对面，距镇中心约 300 米",
+            "priceLevel": null,
+            "cuisine": "澳式 pub 餐",
+            "recommended": "官网称酒店位于码头边；公开菜单资料特别提到 Jamaican spiced lentil and veggie curry，也有常规 pub 餐，适合晚间堂食。",
+            "hours": "周一仅酒吧 14:00–20:00；周二 14:00 起；周三 12:00 起；周四至周六 11:00 起；周日关闭",
+            "sourceUrl": "https://springbayhotel.com.au/"
+          },
+          {
+            "name": "Triabunna Takeaway",
+            "nameEn": "Triabunna Takeaway",
+            "lat": -42.508942,
+            "lng": 147.915179,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Triabunna Takeaway 点位",
+            "rating": 4.1,
+            "ratingCount": null,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 23 Vicary Street，镇中心步行可达",
+            "priceLevel": null,
+            "cuisine": "炸鱼薯条、pizza 与三明治",
+            "recommended": "公开评价页明确提到 fish、pizza 与 ham sandwiches，适合抵达较晚时外带；营业时间应当天再次确认。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Triabunna-Takeaway-Triabunna"
+          },
+          {
+            "name": "The Fish Van",
+            "nameEn": "The Fish Van",
+            "lat": -42.509607,
+            "lng": 147.914346,
+            "coordinateSource": "Photon（OpenStreetMap 数据）The Fish Van 点位",
+            "rating": 4.4,
+            "ratingCount": 427,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 19 Esplanade West，码头旁",
+            "priceLevel": null,
+            "cuisine": "海鲜快餐、炸鱼薯条",
+            "recommended": "当地餐饮指南将其列为码头旁的海鲜快餐，适合在渡轮前后吃 fish and chips；座位和服务模式偏简便。",
+            "hours": "周一至周四及周日 11:00–19:00；周五、周六 11:00–19:30",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g1761244-d4022125-Reviews-The_Fish_Van-Triabunna_Glamorgan_Spring_Bay_Tasmania.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "小镇有免费路边位和码头公共停车；渡轮码头周边需避开 permit zones。",
+        "lots": [
+          {
+            "name": "Triabunna Marina 公共停车",
+            "nameEn": "Triabunna Marina Parking",
+            "lat": -42.51,
+            "lng": 147.9153,
+            "coordinateSource": "MAST Triabunna Wharf 坐标换算（-42°30.6', 147°54.918'）",
+            "fee": "free",
+            "feeNote": "码头及周边街道免费",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "可用于小镇访问；靠近渡轮泊位的 permit zones 不得占用，过夜停车以现场标志为准。"
+          }
+        ],
+        "rules": [
+          "码头和周边街道可免费停车，但必须避开 wharf permit zones。",
+          "Vicary Street 与 Charles Street 一带按现场限时、装卸和禁停标志停放。"
+        ],
+        "sources": [
+          {
+            "label": "Encounter Maria Island FAQ",
+            "url": "https://encountermaria.com.au/faq/"
+          },
+          {
+            "label": "MAST Triabunna Wharf",
+            "url": "https://mast.tas.gov.au/facility/triabunna-jetty/"
+          }
+        ]
+      }
+    },
+    "d7-01": {
+      "category": "transport",
+      "categoryNote": "Darlington 是只能乘客运渡轮抵达的岛上历史聚落；岛上无社会车辆，实用停车点在 Triabunna 码头侧。",
+      "food": {
+        "summary": "Maria Island 全岛没有商店或咖啡馆，必须在 Triabunna 备齐食物并自带全部饮用水。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "岛上没有游客汽车停车场；车辆留在 Triabunna Marina 或周边街道，再步行报到乘船。",
+        "lots": [
+          {
+            "name": "Triabunna Marina 渡轮停车区",
+            "nameEn": "Triabunna Marina Ferry Parking",
+            "lat": -42.51,
+            "lng": 147.9153,
+            "coordinateSource": "MAST Triabunna Wharf 坐标换算（-42°30.6', 147°54.918'）",
+            "fee": "free",
+            "feeNote": "码头和周边街道免费，可过夜停放；避开 permit zones",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "Maria Island Gateway 在码头旁；所有乘客至少提前 45 分钟报到，车辆留在 Triabunna。"
+          }
+        ],
+        "rules": [
+          "Maria Island 只能乘客运渡轮抵达，游客车辆不能上岛。",
+          "Triabunna Marina 和周边街道免费停车，但必须避开码头 permit zones。",
+          "登船报到时需出示有效 National Parks Pass，并至少提前 45 分钟到 Maria Island Gateway。",
+          "岛上没有商店或咖啡馆；2026 年水位极低且无处理过的饮用水，必须自带全部饮水。"
+        ],
+        "sources": [
+          {
+            "label": "Encounter Maria Island FAQ",
+            "url": "https://encountermaria.com.au/faq/"
+          },
+          {
+            "label": "Encounter Maria Island Checking In",
+            "url": "https://encountermaria.com.au/checking-in/"
+          },
+          {
+            "label": "Parks Tasmania — Maria Island",
+            "url": "https://parks.tas.gov.au/explore-our-parks/maria-island-national-park"
+          }
+        ]
+      }
+    },
+    "d7-02": {
+      "category": "lodging",
+      "categoryNote": "Coles Bay 是进入 Freycinet National Park 前的住宿与补给小镇。",
+      "food": {
+        "summary": "镇中心餐饮选择不多但覆盖咖啡、pizza、pub 与海鲜；旺季晚餐宜预订。",
+        "restaurants": [
+          {
+            "name": "Geographe Restaurant and Espresso Bar",
+            "nameEn": "Geographe Restaurant and Espresso Bar",
+            "lat": -42.125739,
+            "lng": 148.290356,
+            "coordinateSource": "OSM Overpass node/2245919642",
+            "rating": 4.4,
+            "ratingCount": 369,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 6 Garnet Avenue，镇中心步行可达",
+            "priceLevel": null,
+            "cuisine": "木烤 pizza、海鲜与咖啡",
+            "recommended": "Discover Tasmania 明确列出木烤 pizza、鲜海鲜、咖啡和时令塔州食材，并提供早餐、午餐和晚餐，是镇内覆盖时段最完整的选择。",
+            "hours": "每日早餐、午餐和晚餐；具体时段未核实",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504300-d13185937-Reviews-Geographe_Restaurant_Espresso_Bar-Coles_Bay_Freycinet_Glamorgan_Spring_Bay_Tasma.html"
+          },
+          {
+            "name": "Iluka Tavern",
+            "nameEn": "Iluka Tavern",
+            "lat": -42.122942,
+            "lng": 148.284302,
+            "coordinateSource": "OSM Overpass way/319580569",
+            "rating": 4.0,
+            "ratingCount": 589,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距镇中心约 700 米",
+            "priceLevel": null,
+            "cuisine": "澳式 pub 餐",
+            "recommended": "适合汉堡、炸鱼薯条和啤酒等轻松晚餐；公开评论强调价格相对亲民、空间适合家庭，旺季仍应预留等位时间。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Iluka-Tavern-Coles-Bay"
+          },
+          {
+            "name": "Granite Freycinet",
+            "nameEn": "Granite Freycinet",
+            "lat": -42.122614,
+            "lng": 148.284495,
+            "coordinateSource": "OSM Overpass node/321411278",
+            "rating": 4.2,
+            "ratingCount": 33,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距镇中心约 700 米",
+            "priceLevel": null,
+            "cuisine": "早餐、brunch、咖啡与 pizza",
+            "recommended": "白天供应早餐、brunch、咖啡和甜点，周四至周六晚间转为 pizza 与 wine bar；适合看 Muirs Beach 日落时用餐。",
+            "hours": "白天咖啡馆；周四至周六晚间供应 pizza 与 wine",
+            "sourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g504300-d19259361-Reviews-Granite_Freycinet-Coles_Bay_Freycinet_Glamorgan_Spring_Bay_Tasmania.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Coles Bay 以住宿自带车位和镇内路边位为主；旺季不要把车停在狭窄路肩或阻挡住户出入口。",
+        "lots": [
+          {
+            "name": "Coles Bay 镇中心路边停车",
+            "nameEn": "Coles Bay Town Centre Street Parking",
+            "lat": -42.125,
+            "lng": 148.29,
+            "coordinateSource": "本路书 Coles Bay 镇中心点位",
+            "fee": "unknown",
+            "feeNote": "以现场标志为准",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "住宿应优先使用自带车位；镇内餐厅周边旺季空间有限，不要占用私人车道。"
+          }
+        ],
+        "rules": [
+          "路边停车必须服从现场限时、禁停及私人产权标志。",
+          "前往 Freycinet National Park 的景点停车与镇内停车不是同一体系，入园还需有效 Parks Pass。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania — Freycinet National Park",
+            "url": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park"
+          }
+        ]
+      }
+    },
+    "d8-01": {
+      "category": "attraction",
+      "categoryNote": "Wineglass Bay Lookout 是 Freycinet National Park 内的热门徒步观景点。",
+      "food": {
+        "summary": "步道停车场没有餐饮；最近的正式餐饮在 Freycinet Lodge 或 Coles Bay，需先用餐或自带补给。",
+        "restaurants": [
+          {
+            "name": "Richardson's Bistro",
+            "nameEn": "Richardson's Bistro",
+            "lat": -42.134775,
+            "lng": 148.301631,
+            "coordinateSource": "OSM Overpass node/3264939978",
+            "rating": 3.6,
+            "ratingCount": 332,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Wineglass Bay 步道停车场约 2 公里，位于 Freycinet Lodge",
+            "priceLevel": null,
+            "cuisine": "海鲜、汉堡、牛排与小食",
+            "recommended": "官方页面明确列出 seafood、lodge burgers、steak、grazing plates 和甜点，全天候餐饮比镇上更靠近国家公园步道。",
+            "hours": null,
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504299-d2324743-Reviews-Richardson_s_Bistro-Freycinet_Glamorgan_Spring_Bay_Tasmania.html"
+          },
+          {
+            "name": "Geographe Restaurant and Espresso Bar",
+            "nameEn": "Geographe Restaurant and Espresso Bar",
+            "lat": -42.125739,
+            "lng": 148.290356,
+            "coordinateSource": "OSM Overpass node/2245919642",
+            "rating": 4.4,
+            "ratingCount": 369,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距步道停车场约 4 公里，位于 Coles Bay 镇中心",
+            "priceLevel": null,
+            "cuisine": "木烤 pizza、海鲜与咖啡",
+            "recommended": "菜单涵盖木烤 pizza、海鲜、咖啡和时令塔州食材，早中晚均可安排，适合徒步前早餐或回程晚餐。",
+            "hours": "每日早餐、午餐和晚餐；具体时段未核实",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504300-d13185937-Reviews-Geographe_Restaurant_Espresso_Bar-Coles_Bay_Freycinet_Glamorgan_Spring_Bay_Tasma.html"
+          },
+          {
+            "name": "Iluka Tavern",
+            "nameEn": "Iluka Tavern",
+            "lat": -42.122942,
+            "lng": 148.284302,
+            "coordinateSource": "OSM Overpass way/319580569",
+            "rating": 4.0,
+            "ratingCount": 589,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距步道停车场约 5 公里",
+            "priceLevel": null,
+            "cuisine": "澳式 pub 餐",
+            "recommended": "适合徒步后吃汉堡、炸物和喝啤酒；家庭客较多，旺季晚餐时段建议提前到。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Iluka-Tavern-Coles-Bay"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "步道起点有专用停车场，但夏季常在上午较早时段满位；2026 年尚无已落成的新 visitor gateway。",
+        "lots": [
+          {
+            "name": "Wineglass Bay Walking Tracks Car Park",
+            "nameEn": "Wineglass Bay Walking Tracks Car Park",
+            "lat": -42.14581,
+            "lng": 148.289189,
+            "coordinateSource": "Hikespeak trailhead GPS；与 Trail Hiking 坐标交叉核对",
+            "fee": "free",
+            "feeNote": "停车不另收费，但进入 Freycinet National Park 必须持有效 Parks Pass",
+            "capacity": "约 120 车位（非官方旅游指南数据）",
+            "surface": "沥青",
+            "note": "夏季常在 09:00–10:00 前满位；该停车场不适合 caravan/trailer，宜早到或错峰。厕所与饮水水龙头位于停车区。"
+          }
+        ],
+        "rules": [
+          "进入 Freycinet National Park 和前往 Wineglass Bay 必须持有效 Parks Pass。",
+          "夏季停车场常在上午满位，优先 08:00 前抵达或下午错峰；不要把车停在狭窄路肩。",
+          "新 visitor gateway 预计 2027 年才开放，不能把规划中的 shuttle 当作 2026 年确定可用服务。",
+          "Wineglass Bay Walking Tracks Car Park 不适合 caravan 或 trailer。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania — Wineglass Bay Lookout",
+            "url": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park/wineglass-bay-lookout"
+          },
+          {
+            "label": "Wineglass Bay trailhead GPS",
+            "url": "https://www.hikespeak.com/trails/wineglass-bay-hazards-beach-freycinet-tasmania-au/"
+          },
+          {
+            "label": "2027 Visitor Gateway 规划",
+            "url": "https://tasmaniantimes.com/2025/05/proposed-solution-for-freycinet-parking-nightmare/"
+          }
+        ]
+      }
+    },
+    "d8-02": {
+      "category": "attraction",
+      "categoryNote": "Cape Tourville Lighthouse 是国家公园内的短环线与海岸观景点。",
+      "food": {
+        "summary": "灯塔没有餐饮和厕所，最近正式餐饮在 Freycinet Lodge 或 Coles Bay。",
+        "restaurants": [
+          {
+            "name": "Richardson's Bistro",
+            "nameEn": "Richardson's Bistro",
+            "lat": -42.134775,
+            "lng": 148.301631,
+            "coordinateSource": "OSM Overpass node/3264939978",
+            "rating": 3.6,
+            "ratingCount": 332,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Cape Tourville 约 7.5 公里",
+            "priceLevel": null,
+            "cuisine": "海鲜、汉堡与牛排",
+            "recommended": "Freycinet Lodge 内的就近正式餐饮，官网列出海鲜、汉堡、牛排和 grazing plates，适合灯塔步道前后用餐。",
+            "hours": null,
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504299-d2324743-Reviews-Richardson_s_Bistro-Freycinet_Glamorgan_Spring_Bay_Tasmania.html"
+          },
+          {
+            "name": "Geographe Restaurant and Espresso Bar",
+            "nameEn": "Geographe Restaurant and Espresso Bar",
+            "lat": -42.125739,
+            "lng": 148.290356,
+            "coordinateSource": "OSM Overpass node/2245919642",
+            "rating": 4.4,
+            "ratingCount": 369,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Cape Tourville 约 9 公里，位于 Coles Bay",
+            "priceLevel": null,
+            "cuisine": "木烤 pizza、海鲜与咖啡",
+            "recommended": "木烤 pizza、鲜海鲜和全天咖啡是主项，早餐至晚餐均覆盖，适合离园后补给。",
+            "hours": "每日早餐、午餐和晚餐；具体时段未核实",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504300-d13185937-Reviews-Geographe_Restaurant_Espresso_Bar-Coles_Bay_Freycinet_Glamorgan_Spring_Bay_Tasma.html"
+          },
+          {
+            "name": "Iluka Tavern",
+            "nameEn": "Iluka Tavern",
+            "lat": -42.122942,
+            "lng": 148.284302,
+            "coordinateSource": "OSM Overpass way/319580569",
+            "rating": 4.0,
+            "ratingCount": 589,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Cape Tourville 约 10 公里",
+            "priceLevel": null,
+            "cuisine": "澳式 pub 餐",
+            "recommended": "适合返回 Coles Bay 后吃简便晚餐；汉堡、炸物和饮品比国家公园内选择更休闲。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Iluka-Tavern-Coles-Bay"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Cape Tourville Road 尽头有专用停车场，大型车辆也能进入，但道路弯曲且野生动物多。",
+        "lots": [
+          {
+            "name": "Cape Tourville Car Park",
+            "nameEn": "Cape Tourville Car Park",
+            "lat": -42.122048,
+            "lng": 148.341587,
+            "coordinateSource": "Trail Hiking Cape Tourville trailhead GPS",
+            "fee": "free",
+            "feeNote": "停车不另收费，但入园需有效 Parks Pass",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "停车场空间可容纳较大车辆和 caravan；灯塔现场无厕所，最近设施在 7.5 公里外的 Ranger Creek 与 Honeymoon Bay。"
+          }
+        ],
+        "rules": [
+          "进入 Freycinet National Park 必须持有效 Parks Pass。",
+          "Cape Tourville Road 弯曲且野生动物多，尤其避免夜间快速驾驶。",
+          "灯塔停车区没有厕所、饮水或餐饮，先在 Visitor Centre 或 Honeymoon Bay 补给。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania — Cape Tourville",
+            "url": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park/cape-tourville"
+          },
+          {
+            "label": "Cape Tourville trailhead GPS",
+            "url": "https://www.trailhiking.com.au/hikes/cape-tourville/"
+          }
+        ]
+      }
+    },
+    "d8-03": {
+      "category": "attraction",
+      "categoryNote": "Honeymoon Bay 是 Freycinet National Park 内的海湾、野餐与短停景点。",
+      "food": {
+        "summary": "海湾没有商业餐饮，但有野餐桌和电烧烤；正式用餐在 Freycinet Lodge 或 Coles Bay。",
+        "restaurants": [
+          {
+            "name": "Richardson's Bistro",
+            "nameEn": "Richardson's Bistro",
+            "lat": -42.134775,
+            "lng": 148.301631,
+            "coordinateSource": "OSM Overpass node/3264939978",
+            "rating": 3.6,
+            "ratingCount": 332,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Honeymoon Bay 约 1 公里",
+            "priceLevel": null,
+            "cuisine": "海鲜、汉堡、牛排与小食",
+            "recommended": "这是距海湾最近的正式餐饮，官网列出 seafood、lodge burgers、steak 和 grazing plates；适合不想自备野餐的游客。",
+            "hours": null,
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504299-d2324743-Reviews-Richardson_s_Bistro-Freycinet_Glamorgan_Spring_Bay_Tasmania.html"
+          },
+          {
+            "name": "Geographe Restaurant and Espresso Bar",
+            "nameEn": "Geographe Restaurant and Espresso Bar",
+            "lat": -42.125739,
+            "lng": 148.290356,
+            "coordinateSource": "OSM Overpass node/2245919642",
+            "rating": 4.4,
+            "ratingCount": 369,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Honeymoon Bay 约 3 公里",
+            "priceLevel": null,
+            "cuisine": "木烤 pizza、海鲜与咖啡",
+            "recommended": "全天覆盖的木烤 pizza、海鲜与咖啡适合海湾活动前后；旺季晚餐宜提前确认座位。",
+            "hours": "每日早餐、午餐和晚餐；具体时段未核实",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504300-d13185937-Reviews-Geographe_Restaurant_Espresso_Bar-Coles_Bay_Freycinet_Glamorgan_Spring_Bay_Tasma.html"
+          },
+          {
+            "name": "Iluka Tavern",
+            "nameEn": "Iluka Tavern",
+            "lat": -42.122942,
+            "lng": 148.284302,
+            "coordinateSource": "OSM Overpass way/319580569",
+            "rating": 4.0,
+            "ratingCount": 589,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Honeymoon Bay 约 4 公里",
+            "priceLevel": null,
+            "cuisine": "澳式 pub 餐",
+            "recommended": "适合海湾日落后返回镇上吃汉堡、炸物和饮品；环境偏家庭与休闲。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Iluka-Tavern-Coles-Bay"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "海湾旁有日间停车位和野餐设施，空间有限；进入国家公园仍需 Parks Pass。",
+        "lots": [
+          {
+            "name": "Honeymoon Bay Day-use Parking",
+            "nameEn": "Honeymoon Bay Day-use Parking",
+            "lat": -42.137095,
+            "lng": 148.299106,
+            "coordinateSource": "Caravan Park Photos GPS；与公开海湾坐标交叉核对",
+            "fee": "free",
+            "feeNote": "停车不另收费，但进入国家公园需有效 Parks Pass",
+            "capacity": null,
+            "surface": null,
+            "note": "停车位靠近海湾、野餐桌、电烧烤和厕所；营地与日间停车不是同一用途，勿占用已分配营位。"
+          }
+        ],
+        "rules": [
+          "进入 Freycinet National Park 必须持有效 Parks Pass。",
+          "日间停车不要占用露营预订位或阻挡内部道路。",
+          "海湾有水龙头，但国家公园饮用水稀缺，建议在 Visitor Centre 补满饮水。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania — Freycinet National Park",
+            "url": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park"
+          },
+          {
+            "label": "Honeymoon Bay GPS",
+            "url": "https://caravanparkphotos.com.au/freycinet_honeymoon/index.htm"
+          }
+        ]
+      }
+    },
+    "d8-04": {
+      "category": "attraction",
+      "categoryNote": "Bicheno Penguin Tours 是夜间野生动物体验的报到与接驳点。",
+      "food": {
+        "summary": "报到点位于 Bicheno 镇中心，附近有 pizza、海鲜和咖啡；应在黄昏团集合前留足用餐时间。",
+        "restaurants": [
+          {
+            "name": "Food 'n' Brew Co",
+            "nameEn": "Food 'n' Brew Co",
+            "lat": -41.875283,
+            "lng": 148.303538,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Food & Brew 点位",
+            "rating": 4.4,
+            "ratingCount": 2332,
+            "ratingSource": "Google 地图（Menuweb 页面汇总）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "与 Penguin Tours 同在 70 Burgess Street，步行即到",
+            "priceLevel": null,
+            "cuisine": "木烤 pizza、现代澳式餐与咖啡",
+            "recommended": "官网主打 woodfired pizza、fresh catches、塔州食材、craft beer 和 wine；可堂食或外带，适合企鹅团前提前吃晚餐。",
+            "hours": "每日午餐与晚餐 12:00–19:30；周末早餐 08:30–11:30",
+            "sourceUrl": "https://foodbrew.com.au/"
+          },
+          {
+            "name": "Lobster Shack Tasmania",
+            "nameEn": "Lobster Shack Tasmania",
+            "lat": -41.87458,
+            "lng": 148.310715,
+            "coordinateSource": "Photon（OpenStreetMap 数据）The Lobster Shack 点位",
+            "rating": 4.3,
+            "ratingCount": null,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Penguin Tours 约 800 米，位于 The Gulch 海边",
+            "priceLevel": "公开游记估算约 A$30/人，价格以现场菜单为准",
+            "cuisine": "Southern Rock Lobster 与本地海鲜",
+            "recommended": "官网明确以 Southern Rock Lobster 为主角；公开到访资料推荐 lobster roll、oysters 和 prawns，适合较早吃海鲜晚餐。",
+            "hours": "每日约 11:00–19:00；以官网当天信息为准",
+            "sourceUrl": "https://lobstershacktasmania.com.au/"
+          },
+          {
+            "name": "The Pondering Frog",
+            "nameEn": "The Pondering Frog",
+            "lat": -41.8275,
+            "lng": 148.2705,
+            "coordinateSource": "公开地址 16494 Tasman Highway 的网页地图定位",
+            "rating": 4.5,
+            "ratingCount": 593,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Bicheno 镇中心约 6 公里，需驾车",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、甜点与冰淇淋",
+            "recommended": "公开评论多提到冰淇淋、甜点与公路停靠体验，适合白天进镇前补给；不适合在企鹅团临近集合时再往返。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Pondering-Frog-Bicheno"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Bicheno Penguin Tours 店外有充足免费停车，集合后由旅游车送往私人企鹅栖息地。",
+        "lots": [
+          {
+            "name": "Bicheno Penguin Tours Car Park",
+            "nameEn": "Bicheno Penguin Tours Car Park",
+            "lat": -41.875162,
+            "lng": 148.303386,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Bicheno Penguin Tours 点位",
+            "fee": "free",
+            "feeNote": "游客免费",
+            "capacity": "官网称有充足车位，未公布数量",
+            "surface": "沥青",
+            "note": "停车在 70 Burgess Street 店外；报到后乘小巴前往私人 rookery，不需自己驾车去观企鹅点。"
+          }
+        ],
+        "rules": [
+          "团次在黄昏出发，具体集合时间以预订确认为准。",
+          "车辆留在店外停车区，游客乘官方小巴前往企鹅栖息地。",
+          "夜间离场时注意 Burgess Street 行人和野生动物。"
+        ],
+        "sources": [
+          {
+            "label": "Bicheno Penguin Tours FAQ",
+            "url": "https://bichenopenguintours.com.au/faqs"
+          },
+          {
+            "label": "Bicheno Penguin Tours Contact",
+            "url": "https://bichenopenguintours.com.au/contact-us"
+          }
+        ]
+      }
+    },
+    "d8-05": {
+      "category": "lodging",
+      "categoryNote": "Launceston 是本日晚间住宿城市，餐饮与停车按 CBD 使用场景整理。",
+      "food": {
+        "summary": "CBD 餐饮选择丰富，以下三家均在中心区，晚餐热门时段建议预约。",
+        "restaurants": [
+          {
+            "name": "Kosaten Launceston",
+            "nameEn": "Kosaten Launceston",
+            "lat": -41.444292,
+            "lng": 147.141651,
+            "coordinateSource": "OSM Overpass node/10217072902",
+            "rating": 4.6,
+            "ratingCount": 510,
+            "ratingSource": "Google 地图（Sluurpy 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Launceston CBD，距市中心约 1.5 公里",
+            "priceLevel": null,
+            "cuisine": "日式料理与寿司",
+            "recommended": "公开 Google 评论常提到 Japanese fried chicken、marinated lamb、Volcano sushi roll 以及 matcha desserts；通过平板点单并由轨道送餐。",
+            "hours": null,
+            "sourceUrl": "https://www.sluurpy.com/en/launceston/restaurant/4604447/kosaten-launceston"
+          },
+          {
+            "name": "Black Cow Bistro",
+            "nameEn": "Black Cow Bistro",
+            "lat": -41.435381,
+            "lng": 147.139618,
+            "coordinateSource": "OSM Overpass node/1929916285",
+            "rating": 4.5,
+            "ratingCount": 1122,
+            "ratingSource": "Google 地图（Starworks 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 70 George Street，CBD 步行可达",
+            "priceLevel": null,
+            "cuisine": "塔州牛排与本地食材",
+            "recommended": "官网主打 dry-aged、free-range、grass-fed Tasmanian beef，牛排可选 eye fillet、scotch、rib eye、porterhouse 和 rump，并配 Tamar Valley 葡萄酒。",
+            "hours": "晚餐为主；具体时段以官网预订页为准",
+            "sourceUrl": "https://www.starworks.com.au/score/na%3A7274da7ebd274a75"
+          },
+          {
+            "name": "Cataract on Paterson",
+            "nameEn": "Cataract on Paterson",
+            "lat": -41.440361,
+            "lng": 147.131007,
+            "coordinateSource": "OSM Overpass node/1271044798",
+            "rating": 4.6,
+            "ratingCount": 2991,
+            "ratingSource": "Google 地图（Starworks 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 135 Paterson Street，CBD 西侧",
+            "priceLevel": null,
+            "cuisine": "现代澳大利亚菜、牛排与海鲜",
+            "recommended": "官方旅游页特别推荐 seafood platter 和 400°C volcanic stone 上桌自煎的 Stonegrill 牛排，也有 vegan 与 vegetarian 选项。",
+            "hours": "每日晚餐 17:00 起",
+            "sourceUrl": "https://www.starworks.com.au/score/na%3A7274da7ebd274a75"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Launceston CBD 有路边咪表和市营停车场；费率、限时及免费时段因停车场而异。",
+        "lots": [
+          {
+            "name": "Bathurst Street Car Park",
+            "nameEn": "Bathurst Street Car Park",
+            "lat": -41.4389,
+            "lng": 147.1345,
+            "coordinateSource": "City of Launceston 公布地址 36–42 Bathurst Street 的网页地图定位",
+            "fee": "paid",
+            "feeNote": "市政页面公布工作日/周六收费，周日及公共假日免费；实时费率以现场机器为准",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "适合 CBD 日间或晚间停车；不同日期与时段费率不同，进场先看机器和标志。"
+          }
+        ],
+        "rules": [
+          "路边和场内停车均需按具体区域的限时与收费标志执行，不能用全市统一时段推断。",
+          "市中心停车机器接受 card 和 cash，也可使用 EasyPark app。",
+          "多处市营停车场周日及公共假日免费，但仍须检查入口标志；住宅街停车需保留至少 3 米通行宽度。"
+        ],
+        "sources": [
+          {
+            "label": "City of Launceston — Parking Locations and Fees",
+            "url": "https://www.launceston.tas.gov.au/Roads-and-Parking/Parking/Parking-Locations-and-Fees"
+          },
+          {
+            "label": "City of Launceston — Parking",
+            "url": "https://www.launceston.tas.gov.au/Roads-and-Parking/Parking"
+          }
+        ]
+      }
+    }
+  },
+  "uncertain": [
+    {
+      "placeId": "d5-01",
+      "field": "food.restaurants.rating",
+      "issue": "Crate Cafe：检索店名+Hobart Airport+rating/reviews，并核对机场官网、机场改造页与新闻；未发现该临时咖啡馆的独立评分页。",
+      "handled": "继续将 rating、ratingCount 与 ratingSource 保持为 null；不采用无法在来源页复核的搜索摘要分数。"
+    },
+    {
+      "placeId": "d6-02",
+      "field": "access",
+      "issue": "Tasman Arch 与 Devils Kitchen 在行程核验日处于 2026-04-15 至 2026-09-18 工程关闭期",
+      "handled": "在停车摘要和规则中明确标注关闭日期；厕所保持开放"
+    },
+    {
+      "placeId": "d6-03",
+      "field": "parking.lots.coordinates",
+      "issue": "公开资料确认停车场位于 Pirates Bay Drive，但未返回独立停车场 OSM 坐标",
+      "handled": "采用本路书 Tessellated Pavement 景点坐标，并在 coordinateSource 中明确说明"
+    },
+    {
+      "placeId": "d7-01",
+      "field": "food",
+      "issue": "Maria Island 全岛没有商店或咖啡馆，且 2026 年岛上无处理过的饮用水",
+      "handled": "restaurants 保持空数组，并明确要求在 Triabunna 备齐食物和全部饮水"
+    },
+    {
+      "placeId": "d7-01",
+      "field": "parking",
+      "issue": "岛上无游客汽车与正式游客停车场",
+      "handled": "停车信息改为实际可用的 Triabunna Marina 渡轮停车区"
+    },
+    {
+      "placeId": "d8-01",
+      "field": "parking.capacity",
+      "issue": "约 120 车位及夏季满位时段来自旅游指南而非 Parks Tasmania 官方容量公告",
+      "handled": "在 capacity 与 note 中标明数据属性，并以官方页面确认停车、Parks Pass、厕所和饮水设施"
+    },
+    {
+      "placeId": "d8-01",
+      "field": "parking.shuttle",
+      "issue": "部分旅游网页称旺季有 shuttle，但政府公布的新 gateway 与后续 shuttle 预计 2027 年才启用",
+      "handled": "不把 shuttle 写成 2026 年可用服务，建议早到或下午错峰"
+    },
+    {
+      "placeId": "d8-04",
+      "field": "food.restaurants.ratingCount",
+      "issue": "Lobster Shack 的来源明确给出 Google 评分，但未清晰给出对应 Google 评论数",
+      "handled": "保留 4.3 分，ratingCount 置为 null"
+    }
+  ]
+}

@@ -19,10 +19,73 @@ export interface IPointInformation {
   links: ILink[]
 }
 
+export type PlaceCategory =
+  | 'attraction'
+  | 'lodging'
+  | 'transport'
+  | 'restaurant'
+  | 'market'
+
+export interface IRestaurantSuggestion {
+  name: string
+  nameEn: string | null
+  lat: number | null
+  lng: number | null
+  rating: number | null
+  ratingCount: number | null
+  ratingSource: string | null
+  ratingCheckedAt: string | null
+  distance: string | null
+  priceLevel: string | null
+  cuisine: string | null
+  recommended: string
+  hours: string | null
+  sourceUrl: string | null
+}
+
+export interface IPlaceFood {
+  summary: string
+  restaurants: IRestaurantSuggestion[]
+}
+
+export type ParkingFee = 'free' | 'paid' | 'mixed' | 'unknown'
+
+export interface IParkingLot {
+  name: string
+  nameEn: string | null
+  lat: number | null
+  lng: number | null
+  fee: ParkingFee
+  feeNote: string | null
+  capacity: string | null
+  surface: string | null
+  note: string | null
+}
+
+export interface IPlaceParking {
+  summary: string
+  lots: IParkingLot[]
+  rules: string[]
+  sources: ILink[]
+}
+
+export interface IPlaceWeatherDetail {
+  temperatureRange: string | null
+  granularity: 'place' | 'nearby' | 'regional'
+  basis: string
+  note: string
+  dayAdvisory: string
+  source: string
+}
+
 export interface IPlace {
   id: string
   name: string
   name_en: string | null
+  category?: PlaceCategory
+  weatherDetail?: IPlaceWeatherDetail | null
+  food?: IPlaceFood
+  parking?: IPlaceParking
   day: number | null
   date: string | null
   status: 'visit' | 'skip'
@@ -93,22 +156,27 @@ export interface ITripData {
 
 export type MainView = 'today' | 'itinerary' | 'search' | 'prepare'
 
-export type PlaceDetailCategory = '看点' | '实用' | '天气' | '文化'
+export type PlaceTextCategory = '看点' | '实用' | '天气' | '文化'
+
+export type PlaceDetailCategory = PlaceTextCategory | '美食'
 
 export interface IPlaceDetailSection {
-  category: PlaceDetailCategory
+  category: PlaceTextCategory
   items: string[]
 }
 
 export interface IWeatherReference {
   placeId: string
   kind: 'climate-reference'
-  granularity: 'place' | 'regional'
+  granularity: 'place' | 'nearby' | 'regional'
   temperatureRange: string | null
   precipitation: null
   humidity: null
   uvIndex: null
   sunshine: null
+  basis: string
+  note: string
+  dayAdvisory: string
   summary: string
   forecastStatus: 'outside-forecast-window'
   updatedAt: string

@@ -3,7 +3,7 @@
     "name": "澳大利亚自驾行程",
     "dates": "2026-09-24 — 2026-10-06",
     "source_doc": "https://guanghe.feishu.cn/docx/TAoHd0QFyoo7lpxGk9DcpN0nnCc",
-    "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内，未放入地图坐标层。口径以每日主行程为准（2026-08-19 对齐 Codex 末轮共识）：塔州 Port Arthur→Triabunna→Maria→Coles Bay→Bicheno/Launceston→Cradle→Spirit；大洋路 10/4 东段 Apollo Bay，10/5 沉船海岸回墨尔本；Tower Hill／Warrnambool 不在本次；Loch Ard 为 10/5 可选短停。",
+    "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内，未放入地图坐标层。口径以每日主行程为准（2026-08-19 对齐 Codex 末轮共识）：塔州 Port Arthur→Triabunna→Maria→Coles Bay→Bicheno/Launceston→Cradle→Spirit；大洋路 10/4 东段 Apollo Bay，10/5 沉船海岸回墨尔本；Tower Hill／Warrnambool 不在本次；Loch Ard 为 10/5 可选短停。Puffing Billy 于 2026-08-22 复核后改为 10/4 上午可选点（10:00 Belgrave→Menzies Creek 往返），条件是夜航准点抵港；10/6 中午国际航班前仍不可行。",
     "startDate": "2026-09-24",
     "endDate": "2026-10-06",
     "timezone": "Australia/Hobart",
@@ -1567,11 +1567,11 @@
       "date": "2026-10-04",
       "weekday": "周日",
       "region": "吉朗（Geelong）-阿波罗湾（Apollo Bay）",
-      "route": "吉朗（Geelong） → 安格尔西（Anglesea）→ Split Point Lighthouse（小红帽灯塔）→ Great Ocean Road Memorial Arch（大洋路纪念拱门）→ Teddy’s Lookout（泰迪观景台）→ 肯尼特河（Kennett River）→ 阿波罗湾（Apollo Bay）",
+      "route": "吉朗（Geelong） → 【待定-6】Puffing Billy Railway（普芬比利蒸汽火车，Belgrave→Menzies Creek 往返，可选） → 安格尔西（Anglesea）（坐火车则本日删除）→ Split Point Lighthouse（小红帽灯塔）→ Great Ocean Road Memorial Arch（大洋路纪念拱门）→ Teddy’s Lookout（泰迪观景台）→ 肯尼特河（Kennett River）→ 阿波罗湾（Apollo Bay）",
       "lodging": "首选：阿波罗湾（Apollo Bay）镇内酒店／小屋，方便次日早起进入Great Otway National Park（大奥特韦国家公园）。\n轿车／SUV车宿首选：Apollo Bay Holiday Park（27 Cawood Street；官网有powered／unpowered camp sites、卫浴和营地厨房，步行可到镇中心）｜Google Maps导航。\n备选：BIG4 Apollo Bay Pisces Holiday Park（311 Great Ocean Road）｜Google Maps导航。两处预订前都要明确说明“ordinary sedan/SUV, sleeping inside the vehicle”，取得书面同意后再付款；普通海滩停车场和路边不可过夜。",
-      "schedule": "07:00-08:00：Spirit of Tasmania（塔斯马尼亚精神号）预计抵达吉朗（Geelong）并下船；早餐、加油和简单补给。\n08:00-09:00：驾车约56公里前往安格尔西（Anglesea）。\n09:00-09:40：在Anglesea Beach（安格尔西海滩）吹海风、舒展身体。\n09:40-10:00：驾车约10公里前往Split Point Lighthouse（小红帽灯塔）。\n10:00-10:40：从外围观景步道看红顶白塔和鹰岩海岸；不把登塔导览设为硬任务。\n10:40-11:05：驾车约16公里前往Great Ocean Road Memorial Arch（大洋路纪念拱门）。\n11:05-11:25：在正式停车区短停拍照。\n11:25-11:50：驾车约14公里到Teddy’s Lookout（泰迪观景台）。\n11:50-12:20：俯瞰大洋路贴着海崖转弯、Saint George River（圣乔治河）汇入海湾的经典视角。\n12:20-13:20：驾车约3公里进入洛恩（Lorne）午餐。\n13:20-14:00：驾车约24公里前往肯尼特河（Kennett River）。\n14:00-15:00：沿正式道路和步道寻找野生考拉、King Parrot（王鹦鹉）等鸟类；不喂食、不进入居民私人地。\n15:00-15:35：驾车约23公里抵达阿波罗湾（Apollo Bay）。\n15:35以后：入住后在Apollo Bay Foreshore（阿波罗湾海滨）轻松散步、用餐。若轮渡延误或夜航后疲劳，优先删减Anglesea Beach（安格尔西海滩）和灯塔停留，保留Memorial Arch（纪念拱门）、Teddy’s Lookout（泰迪观景台）、Kennett River（肯尼特河）及阿波罗湾住宿。",
-      "highlights": "Anglesea Beach（安格尔西海滩）：开阔沙滩和Surf Coast海风适合作为夜航后的恢复站；上午光线柔和，人通常少于午后。\nSplit Point Lighthouse（小红帽灯塔）：红色塔顶、白色塔身与鹰岩海岸辨识度很高；上午从外围步道即可获得好视角。\nGreat Ocean Road Memorial Arch（大洋路纪念拱门）：纪念一战归国军人修建大洋路，重点不只是拍照，也是理解这条道路作为战争纪念工程的历史。\nTeddy’s Lookout（泰迪观景台）：可同时看到海崖公路、河谷和海湾，是本日最经典的高位全景；上午至中午能见度好时最佳。\nKennett River（肯尼特河）：桉树林中的野生考拉与鹦鹉是核心；午后考拉多在树上休息，能否看到不保证。\nApollo Bay（阿波罗湾）：弧形海湾、渔港和Otways雨林门户构成小镇特色；傍晚适合海滨散步，不再赶路。",
-      "booking": "预约：本日外围观景点均免费、无需预约。Split Point Lighthouse（小红帽灯塔）只有进入灯塔内部参加导览才需另行购票；本方案只走外围观景步道。灯塔官方信息。当晚Apollo Bay Holiday Park（阿波罗湾假日公园）／BIG4营位须提前预约，并取得普通轿车／SUV车内过夜同意。\n注意：夜航后驾驶员如困倦，应立即减少停靠点并休息；每驾驶约2小时至少休息15-20分钟。Kennett River（肯尼特河）不喂鸟、不触摸考拉、不占用居民车道；所有海崖只走正式步道和观景台。",
+      "schedule": "07:00-07:30：Spirit of Tasmania（塔斯马尼亚精神号）按官方排班 07:00 抵达吉朗（Geelong，Spirit of Tasmania Quay）；当夜 02:00→03:00 进入夏令时（AEDT），抵港时刻已按夏令时计，海上实际睡眠少 1 小时。下船通常还需 20-30 分钟。\n【待定-6】方案A（可选，坐蒸汽火车）：07:30-09:15：驾车约107公里／约1小时45分直奔 Belgrave（贝尔格雷夫），途中只加油和买便利店早餐，不进墨尔本市区。\n09:15-09:30：停 Belgrave Metro Station Car Park（640车位；车站所在 Old Monbulk Road 不能停车），步行到票房取票。官方要求发车前 60分钟（09:00） 到票房，09:30 为硬截止，火车不等人。\n10:00-10:25：Belgrave → Menzies Creek（曼齐斯溪），25分钟，跨 Monbulk Creek 弧形木栈桥、穿 Dandenong Ranges（丹德农山脉）森林。\n10:25-11:35：Menzies Creek Museum（曼齐斯溪铁路博物馆；免费，周五至周日 10:30-12:00）看80余件机车与车厢展品，Little Toot Café 补热饮。\n11:35-11:55：乘同一列车返回 Belgrave。\n11:55-12:15：回停车场、洗手间、买外带午餐。\n12:15-15:00：驾车约164公里／约2小时45分直奔 Split Point Lighthouse（小红帽灯塔），午餐在车上解决；本日不去安格尔西（Anglesea），也不在洛恩（Lorne）坐下来吃饭。\n15:00-15:30：灯塔外围观景步道。\n15:35-16:00：Great Ocean Road Memorial Arch（大洋路纪念拱门）短停拍照。\n16:20-16:45：Teddy’s Lookout（泰迪观景台）高位全景。\n17:20-18:15：肯尼特河（Kennett River）找野生考拉与 King Parrot（王鹦鹉）；黄昏正是考拉活动时段，比原方案的 14:00 更好。\n18:45：抵达阿波罗湾（Apollo Bay）入住；当日日落约 19:05-19:15，天黑前到达。\n中止条件（任一触发即放弃火车）：07:35 仍未驶离码头；或 09:25 未到 Belgrave 票房；或驾驶员夜航后明显困倦。放弃即损失约 A$87 车票，改走方案B。\n方案B（不坐火车＝原方案，船晚到／疲劳时的默认）：07:00-08:00：下船、早餐、加油和简单补给。\n08:00-09:00：驾车约56公里前往安格尔西（Anglesea）。\n09:00-09:40：在Anglesea Beach（安格尔西海滩）吹海风、舒展身体。\n09:40-10:00：驾车约10公里前往Split Point Lighthouse（小红帽灯塔）。\n10:00-10:40：从外围观景步道看红顶白塔和鹰岩海岸；不把登塔导览设为硬任务。\n10:40-11:05：驾车约16公里前往Great Ocean Road Memorial Arch（大洋路纪念拱门）。\n11:05-11:25：在正式停车区短停拍照。\n11:25-11:50：驾车约14公里到Teddy’s Lookout（泰迪观景台）。\n11:50-12:20：俯瞰大洋路贴着海崖转弯、Saint George River（圣乔治河）汇入海湾的经典视角。\n12:20-13:20：驾车约3公里进入洛恩（Lorne）午餐。\n13:20-14:00：驾车约24公里前往肯尼特河（Kennett River）。\n14:00-15:00：沿正式道路和步道寻找野生考拉、King Parrot（王鹦鹉）等鸟类；不喂食、不进入居民私人地。\n15:00-15:35：驾车约23公里抵达阿波罗湾（Apollo Bay）。\n15:35以后：入住后在Apollo Bay Foreshore（阿波罗湾海滨）轻松散步、用餐。若轮渡延误或夜航后疲劳，优先删减Anglesea Beach（安格尔西海滩）和灯塔停留，保留Memorial Arch（纪念拱门）、Teddy’s Lookout（泰迪观景台）、Kennett River（肯尼特河）及阿波罗湾住宿。",
+      "highlights": "【待定-6】Puffing Billy Railway（普芬比利蒸汽火车，可选）：1900年通车的窄轨蒸汽铁路，Belgrave→Menzies Creek 段包含最经典的 Monbulk Creek 弧形木栈桥，也是官方明确提供「坐在车厢窗台上」体验的班次。选这一段而不是 Lakeside／Gembrook，是因为它全程仅约2小时（含博物馆），是唯一能塞进大洋路当日的长度；且博物馆免费、只在周五至周日开，10/4 正好是周日。\nAnglesea Beach（安格尔西海滩）：开阔沙滩和Surf Coast海风适合作为夜航后的恢复站；上午光线柔和，人通常少于午后。\nSplit Point Lighthouse（小红帽灯塔）：红色塔顶、白色塔身与鹰岩海岸辨识度很高；上午从外围步道即可获得好视角。\nGreat Ocean Road Memorial Arch（大洋路纪念拱门）：纪念一战归国军人修建大洋路，重点不只是拍照，也是理解这条道路作为战争纪念工程的历史。\nTeddy’s Lookout（泰迪观景台）：可同时看到海崖公路、河谷和海湾，是本日最经典的高位全景；上午至中午能见度好时最佳。\nKennett River（肯尼特河）：桉树林中的野生考拉与鹦鹉是核心；午后考拉多在树上休息，能否看到不保证。\nApollo Bay（阿波罗湾）：弧形海湾、渔港和Otways雨林门户构成小镇特色；傍晚适合海滨散步，不再赶路。",
+      "booking": "【待定-6】Puffing Billy 预约（若选方案A）：必须在官网提前买票，不售现场票，热门班次会提前售罄；成人 A$43.50（Belgrave→Menzies Creek 往返，2026-04-01-2027-03-31 价目），两人约 A$87。班次按官网 2026-07-20-12-21 的「周五至周日」时刻表：10:00 发车、11:55 回到 Belgrave。2026-10-04 是维州春假最后一天（春假 9/19-10/4，10/5 开学），务必尽早下单，并在官网确认当日没有 special event 特殊时刻表。购票页：官网时刻表与票价。\n注意：本段是「船准点才坐」的条件式安排--船 07:00 抵港与 09:00 应到票房之间只有约1小时45分，恰好等于码头到 Belgrave 的车程，没有富余；Spirit of Tasmania 延误较常见，务必把车票当成可作废的沉没成本，不要为了赶火车超速或放弃休息。\n预约：本日外围观景点均免费、无需预约。Split Point Lighthouse（小红帽灯塔）只有进入灯塔内部参加导览才需另行购票；本方案只走外围观景步道。灯塔官方信息。当晚Apollo Bay Holiday Park（阿波罗湾假日公园）／BIG4营位须提前预约，并取得普通轿车／SUV车内过夜同意。\n注意：夜航后驾驶员如困倦，应立即减少停靠点并休息；每驾驶约2小时至少休息15-20分钟。Kennett River（肯尼特河）不喂鸟、不触摸考拉、不占用居民车道；所有海崖只走正式步道和观景台。",
       "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
       "links": [
         {
@@ -1591,6 +1591,10 @@
           "url": "https://www.google.com/maps/search/?api=1&query=BIG4 Apollo Bay Pisces Holiday Park 311 Great Ocean Road Apollo Bay VIC"
         },
         {
+          "label": "官网时刻表与票价",
+          "url": "https://puffingbilly.com.au/timetable/"
+        },
+        {
           "label": "灯塔官方信息",
           "url": "https://splitpointlighthouse.com.au/"
         }
@@ -1599,9 +1603,9 @@
         {
           "id": "rhythm-1",
           "order": 1,
-          "time": "07:00-08:00",
-          "title": "Spirit of Tasmania（塔斯马尼亚精神号）预计…",
-          "text": "Spirit of Tasmania（塔斯马尼亚精神号）预计抵达吉朗（Geelong）并下船；早餐、加油和简单补给。",
+          "time": "07:00-07:30",
+          "title": "Spirit of Tasmania（塔斯马尼亚精神号）按官…",
+          "text": "Spirit of Tasmania（塔斯马尼亚精神号）按官方排班 07:00 抵达吉朗（Geelong，Spirit of Tasmania Quay）；当夜 02:00→03:00 进入夏令时（AEDT），抵港时刻已按夏令时计，海上实际睡眠少 1 小时。下船通常还需 20-30 分钟。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -1611,6 +1615,174 @@
         {
           "id": "rhythm-2",
           "order": 2,
+          "time": "方案A（可选，坐蒸汽火车）",
+          "title": "07:30-09:15：驾车约107公里／约1小时45分直奔…",
+          "text": "07:30-09:15：驾车约107公里／约1小时45分直奔 Belgrave（贝尔格雷夫），途中只加油和买便利店早餐，不进墨尔本市区。",
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "09:15-09:30",
+          "title": "停 Belgrave Metro Station Car P…",
+          "text": "停 Belgrave Metro Station Car Park（640车位；车站所在 Old Monbulk Road 不能停车），步行到票房取票。官方要求发车前 60分钟（09:00） 到票房，09:30 为硬截止，火车不等人。",
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "10:00-10:25",
+          "title": "Puffing Billy Railway（普芬比利蒸汽火车）",
+          "text": "Belgrave → Menzies Creek（曼齐斯溪），25分钟，跨 Monbulk Creek 弧形木栈桥、穿 Dandenong Ranges（丹德农山脉）森林。",
+          "placeId": "wv-puffing",
+          "sequence": 1,
+          "priority": "optional",
+          "lat": -37.9075,
+          "lng": 145.3556
+        },
+        {
+          "id": "rhythm-5",
+          "order": 5,
+          "time": "10:25-11:35",
+          "title": "Menzies Creek Museum（曼齐斯溪铁路博物馆",
+          "text": "Menzies Creek Museum（曼齐斯溪铁路博物馆；免费，周五至周日 10:30-12:00）看80余件机车与车厢展品，Little Toot Café 补热饮。",
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-6",
+          "order": 6,
+          "time": "11:35-11:55",
+          "title": "乘同一列车返回 Belgrave",
+          "text": "乘同一列车返回 Belgrave。",
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-7",
+          "order": 7,
+          "time": "11:55-12:15",
+          "title": "回停车场、洗手间、买外带午餐",
+          "text": "回停车场、洗手间、买外带午餐。",
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-8",
+          "order": 8,
+          "time": "12:15-15:00",
+          "title": "小红帽灯塔",
+          "text": "驾车约164公里／约2小时45分直奔 Split Point Lighthouse（小红帽灯塔），午餐在车上解决；本日不去安格尔西（Anglesea），也不在洛恩（Lorne）坐下来吃饭。",
+          "placeId": "d11-02",
+          "sequence": 3,
+          "priority": "main",
+          "lat": -38.465,
+          "lng": 144.105
+        },
+        {
+          "id": "rhythm-9",
+          "order": 9,
+          "time": "15:00-15:30",
+          "title": "灯塔外围观景步道",
+          "text": "灯塔外围观景步道。",
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-10",
+          "order": 10,
+          "time": "15:35-16:00",
+          "title": "大洋路纪念拱门",
+          "text": "Great Ocean Road Memorial Arch（大洋路纪念拱门）短停拍照。",
+          "placeId": "d11-03",
+          "sequence": 4,
+          "priority": "main",
+          "lat": -38.475,
+          "lng": 144.025
+        },
+        {
+          "id": "rhythm-11",
+          "order": 11,
+          "time": "16:20-16:45",
+          "title": "泰迪观景台",
+          "text": "Teddy’s Lookout（泰迪观景台）高位全景。",
+          "placeId": "d11-04",
+          "sequence": 5,
+          "priority": "main",
+          "lat": -38.545,
+          "lng": 143.975
+        },
+        {
+          "id": "rhythm-12",
+          "order": 12,
+          "time": "17:20-18:15",
+          "title": "肯尼特河",
+          "text": "肯尼特河（Kennett River）找野生考拉与 King Parrot（王鹦鹉）；黄昏正是考拉活动时段，比原方案的 14:00 更好。",
+          "placeId": "d11-05",
+          "sequence": 6,
+          "priority": "main",
+          "lat": -38.665,
+          "lng": 143.84
+        },
+        {
+          "id": "rhythm-13",
+          "order": 13,
+          "time": "18:45",
+          "title": "阿波罗湾（住宿）",
+          "text": "抵达阿波罗湾（Apollo Bay）入住；当日日落约 19:05-19:15，天黑前到达。",
+          "placeId": "d11-06",
+          "sequence": 7,
+          "priority": "optional",
+          "lat": -38.755,
+          "lng": 143.67
+        },
+        {
+          "id": "rhythm-14",
+          "order": 14,
+          "time": "中止条件（任一触发即放弃火车）",
+          "title": "07:35 仍未驶离码头",
+          "text": "07:35 仍未驶离码头；或 09:25 未到 Belgrave 票房；或驾驶员夜航后明显困倦。放弃即损失约 A$87 车票，改走方案B。",
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-15",
+          "order": 15,
+          "time": "方案B（不坐火车＝原方案，船晚到／疲劳时的默认）",
+          "title": "07:00-08:00：下船、早餐、加油和简单补给",
+          "text": "07:00-08:00：下船、早餐、加油和简单补给。",
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
+        },
+        {
+          "id": "rhythm-16",
+          "order": 16,
           "time": "08:00-09:00",
           "title": "驾车约56公里前往安格尔西（Anglesea）",
           "text": "驾车约56公里前往安格尔西（Anglesea）。",
@@ -1621,32 +1793,32 @@
           "lng": null
         },
         {
-          "id": "rhythm-3",
-          "order": 3,
+          "id": "rhythm-17",
+          "order": 17,
           "time": "09:00-09:40",
           "title": "安格尔西海滩",
           "text": "在Anglesea Beach（安格尔西海滩）吹海风、舒展身体。",
           "placeId": "d11-01",
-          "sequence": 1,
+          "sequence": 2,
           "priority": "main",
           "lat": -38.406,
           "lng": 144.185
         },
         {
-          "id": "rhythm-4",
-          "order": 4,
+          "id": "rhythm-18",
+          "order": 18,
           "time": "09:40-10:00",
-          "title": "小红帽灯塔",
+          "title": "驾车约10公里前往Split Point Lighthous…",
           "text": "驾车约10公里前往Split Point Lighthouse（小红帽灯塔）。",
-          "placeId": "d11-02",
-          "sequence": 2,
-          "priority": "main",
-          "lat": -38.465,
-          "lng": 144.105
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
         },
         {
-          "id": "rhythm-5",
-          "order": 5,
+          "id": "rhythm-19",
+          "order": 19,
           "time": "10:00-10:40",
           "title": "从外围观景步道看红顶白塔和鹰岩海岸",
           "text": "从外围观景步道看红顶白塔和鹰岩海岸；不把登塔导览设为硬任务。",
@@ -1657,20 +1829,20 @@
           "lng": null
         },
         {
-          "id": "rhythm-6",
-          "order": 6,
+          "id": "rhythm-20",
+          "order": 20,
           "time": "10:40-11:05",
-          "title": "大洋路纪念拱门",
+          "title": "驾车约16公里前往Great Ocean Road Memo…",
           "text": "驾车约16公里前往Great Ocean Road Memorial Arch（大洋路纪念拱门）。",
-          "placeId": "d11-03",
-          "sequence": 3,
-          "priority": "main",
-          "lat": -38.475,
-          "lng": 144.025
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
         },
         {
-          "id": "rhythm-7",
-          "order": 7,
+          "id": "rhythm-21",
+          "order": 21,
           "time": "11:05-11:25",
           "title": "在正式停车区短停拍照",
           "text": "在正式停车区短停拍照。",
@@ -1681,20 +1853,20 @@
           "lng": null
         },
         {
-          "id": "rhythm-8",
-          "order": 8,
+          "id": "rhythm-22",
+          "order": 22,
           "time": "11:25-11:50",
-          "title": "泰迪观景台",
+          "title": "驾车约14公里到Teddy’s Lookout（泰迪观景台）",
           "text": "驾车约14公里到Teddy’s Lookout（泰迪观景台）。",
-          "placeId": "d11-04",
-          "sequence": 4,
-          "priority": "main",
-          "lat": -38.545,
-          "lng": 143.975
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
         },
         {
-          "id": "rhythm-9",
-          "order": 9,
+          "id": "rhythm-23",
+          "order": 23,
           "time": "11:50-12:20",
           "title": "俯瞰大洋路贴着海崖转弯、Saint George River…",
           "text": "俯瞰大洋路贴着海崖转弯、Saint George River（圣乔治河）汇入海湾的经典视角。",
@@ -1705,8 +1877,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-10",
-          "order": 10,
+          "id": "rhythm-24",
+          "order": 24,
           "time": "12:20-13:20",
           "title": "驾车约3公里进入洛恩（Lorne）午餐",
           "text": "驾车约3公里进入洛恩（Lorne）午餐。",
@@ -1717,20 +1889,20 @@
           "lng": null
         },
         {
-          "id": "rhythm-11",
-          "order": 11,
+          "id": "rhythm-25",
+          "order": 25,
           "time": "13:20-14:00",
-          "title": "肯尼特河",
+          "title": "驾车约24公里前往肯尼特河（Kennett River）",
           "text": "驾车约24公里前往肯尼特河（Kennett River）。",
-          "placeId": "d11-05",
-          "sequence": 5,
-          "priority": "main",
-          "lat": -38.665,
-          "lng": 143.84
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
         },
         {
-          "id": "rhythm-12",
-          "order": 12,
+          "id": "rhythm-26",
+          "order": 26,
           "time": "14:00-15:00",
           "title": "沿正式道路和步道寻找野生考拉、King Parrot（王鹦鹉…",
           "text": "沿正式道路和步道寻找野生考拉、King Parrot（王鹦鹉）等鸟类；不喂食、不进入居民私人地。",
@@ -1741,20 +1913,20 @@
           "lng": null
         },
         {
-          "id": "rhythm-13",
-          "order": 13,
+          "id": "rhythm-27",
+          "order": 27,
           "time": "15:00-15:35",
-          "title": "阿波罗湾（住宿）",
+          "title": "驾车约23公里抵达阿波罗湾（Apollo Bay）",
           "text": "驾车约23公里抵达阿波罗湾（Apollo Bay）。",
-          "placeId": "d11-06",
-          "sequence": 6,
-          "priority": "optional",
-          "lat": -38.755,
-          "lng": 143.67
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
         },
         {
-          "id": "rhythm-14",
-          "order": 14,
+          "id": "rhythm-28",
+          "order": 28,
           "time": "15:35以后",
           "title": "入住后在Apollo Bay Foreshore（阿波罗湾海…",
           "text": "入住后在Apollo Bay Foreshore（阿波罗湾海滨）轻松散步、用餐。若轮渡延误或夜航后疲劳，优先删减Anglesea Beach（安格尔西海滩）和灯塔停留，保留Memorial Arch（纪念拱门）、Teddy’s Lookout（泰迪观景台）、Kennett River（肯尼特河）及阿波罗湾住宿。",
@@ -1767,6 +1939,13 @@
       ],
       "unassigned": {
         "booking": [
+          "【待定-6】Puffing Billy 预约（若选方案A）：必须在官网提前买票，不售现场票，热门班次会提前售罄；",
+          "成人 A$43.50（Belgrave→Menzies Creek 往返，2026-04-01-2027-03-31 价目），两人约 A$87。",
+          "班次按官网 2026-07-20-12-21 的「周五至周日」时刻表：10:00 发车、11:55 回到 Belgrave。",
+          "2026-10-04 是维州春假最后一天（春假 9/19-10/4，10/5 开学），务必尽早下单，并在官网确认当日没有 special event 特殊时刻表。",
+          "购票页：官网时刻表与票价。",
+          "注意：本段是「船准点才坐」的条件式安排--船 07:00 抵港与 09:00 应到票房之间只有约1小时45分，恰好等于码头到 Belgrave 的车程，没有富余；",
+          "Spirit of Tasmania 延误较常见，务必把车票当成可作废的沉没成本，不要为了赶火车超速或放弃休息。",
           "预约：本日外围观景点均免费、无需预约。",
           "注意：夜航后驾驶员如困倦，应立即减少停靠点并休息；",
           "每驾驶约2小时至少休息15-20分钟。"
@@ -1789,6 +1968,10 @@
           {
             "label": "Google Maps导航",
             "url": "https://www.google.com/maps/search/?api=1&query=BIG4 Apollo Bay Pisces Holiday Park 311 Great Ocean Road Apollo Bay VIC"
+          },
+          {
+            "label": "官网时刻表与票价",
+            "url": "https://puffingbilly.com.au/timetable/"
           }
         ]
       }
@@ -1996,7 +2179,7 @@
       "region": "墨尔本（Melbourne）-香港（Hong Kong）-北京（Beijing）",
       "route": "墨尔本中央商务区（Melbourne CBD） 短停 → 墨尔本机场（Melbourne Airport）T2（香港航空 HX036）→ 香港国际机场（Hong Kong International Airport）T1／T2 转机（香港航空 HX304）→ 北京首都国际机场（Beijing Capital International Airport）T2",
       "lodging": "飞机上；不安排住宿。",
-      "schedule": "07:00-08:00：若酒店步行可达（单程通常约0.5-2公里），到 Queen Victoria Market（维多利亚女王市场） 早餐／短逛；周二市场06:00-15:00，specialty shopping 09:00才开。当天不去Puffing Billy、动物园或远郊。\n08:30-09:00：从 墨尔本中央商务区（Melbourne CBD） 驾车约23公里前往 墨尔本机场（Melbourne Airport）T2。\n09:30-12:00：TRS商品查验、退税、值机、托运行李和安检。\n13:00-19:40：两人乘香港航空 HX036，墨尔本机场（Melbourne Airport）T2 → 香港国际机场（Hong Kong International Airport）T1，直线航程约7,410公里，计划飞行约9小时40分。\n19:40-20:40：香港国际机场（Hong Kong International Airport） 仅60分钟转机，航站楼内步行／摆渡约1-2公里，由T1前往T2／下一登机口，不购物、不用餐。\n20:40-23:40：乘 HX304，香港国际机场（Hong Kong International Airport）T2 → 北京首都国际机场（Beijing Capital International Airport）T2，直线航程约1,990公里，计划飞行3小时。以上均为各机场当地时间。",
+      "schedule": "07:00-08:00：若酒店步行可达（单程通常约0.5-2公里），到 Queen Victoria Market（维多利亚女王市场） 早餐／短逛；周二市场06:00-15:00，specialty shopping 09:00才开。当天不去Puffing Billy、动物园或远郊--Puffing Billy 最早一班 10:00 从 Belgrave 发车、最短往返 11:55 才回到 Belgrave，加上 Belgrave→墨尔本机场约1小时，落地机场已 13:00，正好是 HX036 的起飞时刻；而国际航班需提前3小时（10:00）到机场办理 TRS 退税与托运，两者相差约4小时，任何组合都不可行。\n08:30-09:00：从 墨尔本中央商务区（Melbourne CBD） 驾车约23公里前往 墨尔本机场（Melbourne Airport）T2。\n09:30-12:00：TRS商品查验、退税、值机、托运行李和安检。\n13:00-19:40：两人乘香港航空 HX036，墨尔本机场（Melbourne Airport）T2 → 香港国际机场（Hong Kong International Airport）T1，直线航程约7,410公里，计划飞行约9小时40分。\n19:40-20:40：香港国际机场（Hong Kong International Airport） 仅60分钟转机，航站楼内步行／摆渡约1-2公里，由T1前往T2／下一登机口，不购物、不用餐。\n20:40-23:40：乘 HX304，香港国际机场（Hong Kong International Airport）T2 → 北京首都国际机场（Beijing Capital International Airport）T2，直线航程约1,990公里，计划飞行3小时。以上均为各机场当地时间。",
       "highlights": "Queen Victoria Market（维多利亚女王市场）：1878年延续至今的工作型市场、鲜食大厅、移民饮食和露天棚架是看点；周二07:00-08:00适合吃早餐并看生鲜摊开市。其余时间为机场与国际航班转场，不再安排动物园或远郊景点。",
       "booking": "Queen Victoria Market（维多利亚女王市场）：周二06:00-15:00营业，specialty shopping 09:00才开；本日07:00-08:00短逛，免费、无需预约。官方营业时间。\n墨尔本机场（Melbourne Airport）／TRS：建议09:30-10:00到达；高价退税商品可能需在托运前查验，护照、登机牌、原始税票和商品放在可取位置。\n香港转机：仅60分钟。在墨尔本值机时必须确认行李直挂北京、一次领取两段登机牌，并让柜台确认实际转机路线；抵港后直接跟随Transfer指示，不购物、不用餐。机票已确定，无另购门票。",
       "weather": "天气（长年气候参考，非逐日预报）：墨尔本中央商务区（Melbourne CBD）／Queen Victoria Market（维多利亚女王市场）／墨尔本机场（Melbourne Airport）通常约9-20°C，清晨偏凉且可能阵雨；香港国际机场（Hong Kong International Airport）10月上旬通常约24-30°C，仍可能受强降雨或热带气旋影响；北京（Beijing）约9-22°C，晴燥且昼夜温差大。随身保留薄外套；出发前24小时重点查香港热带气旋信号，因为60分钟转机几乎没有吸收延误的余量。BOM墨尔本气候｜香港天文台机场气候。",
@@ -2020,7 +2203,7 @@
           "order": 1,
           "time": "07:00-08:00",
           "title": "维多利亚女王市场",
-          "text": "若酒店步行可达（单程通常约0.5-2公里），到 Queen Victoria Market（维多利亚女王市场） 早餐／短逛；周二市场06:00-15:00，specialty shopping 09:00才开。当天不去Puffing Billy、动物园或远郊。",
+          "text": "若酒店步行可达（单程通常约0.5-2公里），到 Queen Victoria Market（维多利亚女王市场） 早餐／短逛；周二市场06:00-15:00，specialty shopping 09:00才开。当天不去Puffing Billy、动物园或远郊--Puffing Billy 最早一班 10:00 从 Belgrave 发车、最短往返 11:55 才回到 Belgrave，加上 Belgrave→墨尔本机场约1小时，落地机场已 13:00，正好是 HX036 的起飞时刻；而国际航班需提前3小时（10:00）到机场办理 TRS 退税与托运，两者相差约4小时，任何组合都不可行。",
           "placeId": "d13-01",
           "sequence": 1,
           "priority": "main",
@@ -2143,6 +2326,76 @@
             "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "10-21°C",
+        "granularity": "place",
+        "basis": "珀斯机场（Perth Airport）",
+        "note": "",
+        "dayAdvisory": "沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "transport",
+      "food": {
+        "summary": "机场周边餐饮集中在航站楼、Perth Airport 工业区和 Ascot，驾车约 5-12 分钟选择较多。",
+        "restaurants": [
+          {
+            "name": "Da Corner",
+            "nameEn": "Da Corner",
+            "lat": -31.969701,
+            "lng": 115.968398,
+            "rating": 4.4,
+            "ratingCount": 57,
+            "ratingSource": "Google 地图（Restaurant Guru 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距珀斯机场约 4 公里，驾车约 7 分钟",
+            "priceLevel": "人均约 A$1-20",
+            "cuisine": "东南亚及亚洲简餐",
+            "recommended": "评论常提到 laksa、炒饭、炒粿条和辣椒油；适合落地后快速吃一顿，店前可停车。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Da-Corner-Perth-Airport"
+          },
+          {
+            "name": "Ascot Riverside Kiosk",
+            "nameEn": "Ascot Riverside Kiosk",
+            "lat": -31.9227384,
+            "lng": 115.9431968,
+            "rating": 4.3,
+            "ratingCount": 70,
+            "ratingSource": "Google 地图（Restaurant Guru 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距珀斯机场约 5 公里，驾车约 8 分钟",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、轻食",
+            "recommended": "位于 Garvey Park 河畔，适合咖啡和简餐；营业日较少，出发前应再次确认。",
+            "hours": "周一、周五 07:00-14:30；周六、周日 07:00-16:00",
+            "sourceUrl": "https://restaurantguru.com/Ascot-Riverside-Kiosk-Perth-Airport"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "机场有多个分航站楼的付费 LongTerm 停车场；接送应使用指定即停区或先在部分 LongTerm/Regional 停车场免费等候。",
+        "lots": [],
+        "rules": [
+          "部分 LongTerm 与 Regional 停车场首 1 小时免费，但不含 LongTerm Undercover 和 Regional Undercover。",
+          "LongTerm/Regional 驶入价为 1-4 小时 A$10，4-24 小时 A$35.20；长期停放宜提前在线预订。",
+          "T2 Express 接送区限 5 分钟，T3/T4 Express 接送区限 6 分钟，超时会收费。",
+          "航站楼前车位仅供立即上下客，不可停车等候；LongTerm 免费穿梭巴士通常约每 15 分钟一班。"
+        ],
+        "sources": [
+          {
+            "label": "Perth Airport 接机规则",
+            "url": "https://www.perthairport.com.au/to-and-from-the-airport/pickup"
+          },
+          {
+            "label": "Perth Airport 标准停车价格",
+            "url": "https://www.perthairport.com.au/parking/standard-parking-prices"
+          },
+          {
+            "label": "Perth Airport LongTerm 停车",
+            "url": "https://edit-prod.perthairport.com.au/parking/long-term"
+          }
+        ]
       }
     },
     {
@@ -2212,6 +2465,82 @@
             "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "10-21°C",
+        "granularity": "nearby",
+        "basis": "卡弗舍姆（Caversham）",
+        "note": "",
+        "dayAdvisory": "沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "园区内可在 Whiteman Park Village 用餐，若想吃更完整的早午餐可驾车约 10 分钟到 Caversham。",
+        "restaurants": [
+          {
+            "name": "Village Cafe Whiteman Park",
+            "nameEn": "Village Cafe Whiteman Park",
+            "lat": -31.8354995,
+            "lng": 115.9483059,
+            "rating": 4.4,
+            "ratingCount": 1662,
+            "ratingSource": "Google 地图（公开商家数据转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距野生动物园约 5 公里，在 Whiteman Park Village",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、澳式简餐",
+            "recommended": "评论较常提到 fish and chips、早餐、汉堡、咖啡和冰淇淋；份量较足，适合带儿童的家庭。",
+            "hours": null,
+            "sourceUrl": "https://wanderlog.com/place/details/2922979/village-cafe-whiteman-park"
+          },
+          {
+            "name": "Maison Saint-Honoré - Caversham",
+            "nameEn": "Maison Saint-Honoré - Caversham",
+            "lat": -31.8756884,
+            "lng": 115.9668188,
+            "rating": 4.3,
+            "ratingCount": 2573,
+            "ratingSource": "Google 地图（公开商家数据转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距野生动物园约 3 公里，驾车约 6 分钟",
+            "priceLevel": "人均约 A$20-40",
+            "cuisine": "法式咖啡馆、甜点",
+            "recommended": "评论集中推荐可颂、马卡龙、crêpe 和 avocado toast；周末可能排队，适合早餐或下午茶。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Maison-Saint-Honore-Caversham"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Whiteman Park 所有公共停车场免费，野生动物园入口外有专用停车区和 ACROD 车位。",
+        "lots": [
+          {
+            "name": "卡弗舍姆野生动物园入口停车场（Caversham Wildlife Park Entrance Car Park）",
+            "nameEn": "Caversham Wildlife Park Entrance Car Park",
+            "lat": -31.8753,
+            "lng": 115.9747,
+            "fee": "free",
+            "feeNote": "Whiteman Park 全部公共停车场免费",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "入口外设 ACROD 车位；车辆必须停在指定停车区，不要驶上草地或软路肩。"
+          }
+        ],
+        "rules": [
+          "只可使用指定公共停车场，禁止停在 No Parking、No Standing 区域或草地。",
+          "园内软路肩容易陷车，官方建议始终行驶在铺装道路上。"
+        ],
+        "sources": [
+          {
+            "label": "Whiteman Park 停车管理",
+            "url": "https://www.whitemanpark.com.au/assets/uploads/documents/edu/Whiteman-Park-Excursion-Management-Plan_2022.pdf"
+          },
+          {
+            "label": "Whiteman Park 无障碍停车",
+            "url": "https://www.whitemanpark.com.au/plan-your-visit/accessibility/physical-access"
+          }
+        ]
       }
     },
     {
@@ -2274,6 +2603,79 @@
           {
             "label": "BOM气候参考",
             "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "10-22°C",
+        "granularity": "place",
+        "basis": "Lancelin Sand Dunes（兰斯林沙丘）",
+        "note": "",
+        "dayAdvisory": "沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "沙丘内没有餐饮，最近的可靠选择都在 Lancelin 镇中心，距入口约 1-2 公里。",
+        "restaurants": [
+          {
+            "name": "Offshore Cafe",
+            "nameEn": "Offshore Cafe",
+            "lat": -31.0241199,
+            "lng": 115.330302,
+            "rating": 4.2,
+            "ratingCount": 493,
+            "ratingSource": "Google 地图（Restaurant Guru 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距沙丘入口约 2 公里",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、澳式简餐",
+            "recommended": "适合早餐、咖啡和简餐，评论认可服务与性价比；可外带后再前往沙丘。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Offshore-Cafe-Lancelin"
+          },
+          {
+            "name": "Lobbster Trap",
+            "nameEn": "Lobbster Trap",
+            "lat": -31.0166328,
+            "lng": 115.3313147,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距沙丘入口约 1 公里",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、龙虾轻食",
+            "recommended": "官网说明主打健康选择、咖啡、鲜榨果汁、无麸质蛋糕和含龙虾的每日特餐；适合早午餐。",
+            "hours": null,
+            "sourceUrl": "https://www.lobbstertrap.com/about_us"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Beacon Road/Beacon Street 入口附近有免费停车区；普通 2WD 应停在入口停车区，不要驶入软沙。",
+        "lots": [
+          {
+            "name": "兰斯林沙丘入口停车区（Lancelin Sand Dunes Entry Car Park）",
+            "nameEn": "Lancelin Sand Dunes Entry Car Park",
+            "lat": -31.0167,
+            "lng": 115.33,
+            "fee": "free",
+            "feeNote": "Off Road Area 免费进入",
+            "capacity": null,
+            "surface": "未铺装硬地，可能有风吹积沙",
+            "note": "2WD 停在入口停车区后步行约 300 米到沙丘；租车通常不承保越野或沙地驾驶。"
+          }
+        ],
+        "rules": [
+          "2WD 不要驶入软沙，入口轨道也可能因风吹积沙而难行。",
+          "车辆必须合法注册；只可进入对公众开放的中段区域。",
+          "官方游客指南记载开放时间为每日 08:00-19:00，天黑后不要进入。"
+        ],
+        "sources": [
+          {
+            "label": "Lancelin Visitors’ Guide",
+            "url": "https://www.lancelin.com.au/wp-content/uploads/2020/lancelin_brochure_2020.pdf"
           }
         ]
       }
@@ -2347,6 +2749,83 @@
             "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "10-22°C",
+        "granularity": "nearby",
+        "basis": "塞万提斯（Cervantes）",
+        "note": "",
+        "dayAdvisory": "沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "Pinnacles Desert Discovery 没有正式餐厅，需自备水和食物；最近完整用餐在约 20 公里外的 Cervantes。",
+        "restaurants": [
+          {
+            "name": "Lobster Shack",
+            "nameEn": "Lobster Shack Cervantes",
+            "lat": -30.4935474,
+            "lng": 115.0686298,
+            "rating": 3.9,
+            "ratingCount": 1903,
+            "ratingSource": "Google 地图（Birdeye 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距尖峰石阵约 20 公里，在 Cervantes 镇上",
+            "priceLevel": null,
+            "cuisine": "海鲜、西澳岩龙虾",
+            "recommended": "主打当地 Western Rock Lobster，常见做法包括龙虾卷、mornay、taco 和整只龙虾；更适合午餐。",
+            "hours": "每日 09:00-17:00",
+            "sourceUrl": "https://reviews.birdeye.com/lobster-shack-cervantes-wa-167868979238565"
+          },
+          {
+            "name": "Cervantes Bar and Bistro",
+            "nameEn": "Cervantes Bar and Bistro",
+            "lat": -30.501,
+            "lng": 115.0685412,
+            "rating": 4.1,
+            "ratingCount": 610,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距尖峰石阵约 19 公里，在 Cervantes 镇上",
+            "priceLevel": null,
+            "cuisine": "澳式酒馆、海鲜",
+            "recommended": "当地旅游页列出的菜单包括本地岩龙虾、line-caught fish、Leeman octopus 和 Albany mussels；适合晚餐。",
+            "hours": "每日 11:00-22:00",
+            "sourceUrl": "https://www.visitpinnaclescountry.com.au/see-and-do/where-to-eat"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Discovery Centre 主停车场可停普通车及长车；进入 Nambung National Park 需缴车辆入园费或展示有效 park pass。",
+        "lots": [
+          {
+            "name": "尖峰石阵探索中心停车场（Pinnacles Desert Discovery Car Park）",
+            "nameEn": "Pinnacles Desert Discovery Car Park",
+            "lat": -30.6030618,
+            "lng": 115.1556217,
+            "fee": "paid",
+            "feeNote": "停车不另收费，但国家公园标准车辆入园费 A$17；有效 park pass 可替代",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "拖挂、房车及车长超过 7 米的车辆必须留在主停车场长车位，不得进入 4 公里沙漠环线。"
+          }
+        ],
+        "rules": [
+          "Pinnacles Desert loop 为未铺装单向环线，但普通 2WD 可通行。",
+          "拖挂、caravan 和超过 7 米车辆禁止驶入环线，应停在主停车场长车位。",
+          "Nambung National Park 收取车辆入园费；2026-08-22 核查标准车辆为 A$17。"
+        ],
+        "sources": [
+          {
+            "label": "Nambung National Park Visitor Guide",
+            "url": "https://exploreparks.dbca.wa.gov.au/sites/default/files/2023-07/nambung-national-park-visitor-guide.pdf"
+          },
+          {
+            "label": "WA Park Entry Fees",
+            "url": "https://exploreparks.dbca.wa.gov.au/park-entry-fees"
+          }
+        ]
       }
     },
     {
@@ -2386,6 +2865,70 @@
           {
             "label": "BOM气候参考",
             "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "10-22°C",
+        "granularity": "place",
+        "basis": "塞万提斯（Cervantes）",
+        "note": "",
+        "dayAdvisory": "沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "lodging",
+      "food": {
+        "summary": "镇内餐饮数量不多但海鲜特色鲜明，晚餐应优先确认厨房营业时间。",
+        "restaurants": [
+          {
+            "name": "Lobster Shack",
+            "nameEn": "Lobster Shack Cervantes",
+            "lat": -30.4935474,
+            "lng": 115.0686298,
+            "rating": 3.9,
+            "ratingCount": 1903,
+            "ratingSource": "Google 地图（Birdeye 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Cervantes 镇中心约 1 公里",
+            "priceLevel": null,
+            "cuisine": "海鲜、西澳岩龙虾",
+            "recommended": "主打 Western Rock Lobster，评论和菜单常见龙虾卷、mornay、taco 与整只龙虾；通常更适合午餐。",
+            "hours": "每日 09:00-17:00",
+            "sourceUrl": "https://reviews.birdeye.com/lobster-shack-cervantes-wa-167868979238565"
+          },
+          {
+            "name": "Cervantes Bar and Bistro",
+            "nameEn": "Cervantes Bar and Bistro",
+            "lat": -30.501,
+            "lng": 115.0685412,
+            "rating": 4.1,
+            "ratingCount": 610,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Cervantes 镇中心",
+            "priceLevel": null,
+            "cuisine": "澳式酒馆、海鲜",
+            "recommended": "推荐关注本地岩龙虾、鲜鱼和海鲜拼盘；营业至晚间，比 Lobster Shack 更适合住宿当晚用餐。",
+            "hours": "每日 11:00-22:00",
+            "sourceUrl": "https://maps.apple.com/place?place-id=I143CA0FB275E5B9E"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "住宿车辆应停在已预订住宿的指定车位；镇中心短停可使用商铺和 Visitor Centre 周边路边位并以现场标志为准。",
+        "lots": [],
+        "rules": [
+          "不要把 Visitor Centre 或商铺周边短停车位当作过夜营地。",
+          "caravan、campervan 和拖挂过夜应进入合法 holiday park 或已预订营地。"
+        ],
+        "sources": [
+          {
+            "label": "Pinnacles Visitor Centre",
+            "url": "https://www.visitpinnaclescountry.com.au/"
+          },
+          {
+            "label": "RAC Cervantes Holiday Park",
+            "url": "https://parksandresorts.rac.com.au/cervantes/"
           }
         ]
       }
@@ -2443,6 +2986,82 @@
             "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "10-22°C",
+        "granularity": "place",
+        "basis": "Lake Thetis（塞蒂斯湖）",
+        "note": "",
+        "dayAdvisory": "越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "Lake Thetis 现场无餐饮，Cervantes 镇中心仅约 1-2 公里，应在镇上补给。",
+        "restaurants": [
+          {
+            "name": "Cervantes Bar and Bistro",
+            "nameEn": "Cervantes Bar and Bistro",
+            "lat": -30.501,
+            "lng": 115.0685412,
+            "rating": 4.1,
+            "ratingCount": 610,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Lake Thetis 约 1.5 公里",
+            "priceLevel": null,
+            "cuisine": "澳式酒馆、海鲜",
+            "recommended": "菜单突出本地岩龙虾、鲜鱼、章鱼与牛排，适合游湖后的正餐。",
+            "hours": "每日 11:00-22:00",
+            "sourceUrl": "https://www.visitpinnaclescountry.com.au/see-and-do/where-to-eat"
+          },
+          {
+            "name": "Lobster Shack",
+            "nameEn": "Lobster Shack Cervantes",
+            "lat": -30.4935474,
+            "lng": 115.0686298,
+            "rating": 3.9,
+            "ratingCount": 1903,
+            "ratingSource": "Google 地图（Birdeye 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Lake Thetis 约 2 公里",
+            "priceLevel": null,
+            "cuisine": "海鲜、西澳岩龙虾",
+            "recommended": "以 Western Rock Lobster 为核心，龙虾卷和多种龙虾做法最具当地特色。",
+            "hours": "每日 09:00-17:00",
+            "sourceUrl": "https://restaurantguru.com/Lobster-Shack-Cervantes-Western-Australia"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "湖边有铺装停车区，步行很短即可到主观景平台；现场无厕所、垃圾桶和遮阴。",
+        "lots": [
+          {
+            "name": "塞蒂斯湖主停车场（Lake Thetis Main Carpark）",
+            "nameEn": "Lake Thetis Main Carpark",
+            "lat": -30.5071005,
+            "lng": 115.0814047,
+            "fee": "unknown",
+            "feeNote": "官方 Lake Thetis 页面未单列停车费；是否核验 Nambung National Park 入园凭证以现场标志为准",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "距主叠层石观景平台很近，前 300 米步道具无障碍通行条件；无厕所和垃圾桶。"
+          }
+        ],
+        "rules": [
+          "只走木栈道和正式步道，不要踩入湖岸脆弱结构。",
+          "现场无厕所、垃圾桶和遮阴，应带水并带走垃圾。"
+        ],
+        "sources": [
+          {
+            "label": "DBCA Lake Thetis",
+            "url": "https://exploreparks.dbca.wa.gov.au/site/lake-thetis"
+          },
+          {
+            "label": "Lake Thetis Main Carpark",
+            "url": "https://www.exploroz.com/places/132638/wa+main-carpark-at-lake-thetis"
+          }
+        ]
       }
     },
     {
@@ -2486,6 +3105,83 @@
         ],
         "weather": [],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "11-23°C",
+        "granularity": "nearby",
+        "basis": "杰拉尔顿（Geraldton）",
+        "note": "",
+        "dayAdvisory": "越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "Foreshore 与 CBD 相连，步行范围内餐厅较多，是本段最适合集中补给和用餐的地点。",
+        "restaurants": [
+          {
+            "name": "Salt Dish",
+            "nameEn": "Salt Dish",
+            "lat": -28.7715352,
+            "lng": 114.6111747,
+            "rating": 4.6,
+            "ratingCount": 473,
+            "ratingSource": "Google 地图（Starworks 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Geraldton Foreshore 约 700 米",
+            "priceLevel": null,
+            "cuisine": "现代澳式、咖啡馆",
+            "recommended": "评论常推荐季节菜单、barramundi、lamb ragu pappardelle、Dutch Baby pancake 和素食选项；繁忙时建议预约。",
+            "hours": "周一至周五 07:30-16:00",
+            "sourceUrl": "https://www.starworks.com.au/score/na%3Ad2c36f503586dfa3"
+          },
+          {
+            "name": "Skeetas Restaurant Bar & Cafe",
+            "nameEn": "Skeetas Restaurant Bar & Cafe",
+            "lat": -28.7688694,
+            "lng": 114.6107199,
+            "rating": 4.2,
+            "ratingCount": 1623,
+            "ratingSource": "Google 地图（公开商家数据转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Geraldton Foreshore 约 1 公里",
+            "priceLevel": null,
+            "cuisine": "现代澳式、海鲜",
+            "recommended": "老牌家庭餐厅，适合海鲜、牛排和葡萄酒正餐；官网显示曾获 Australian Good Food Guide 奖项。",
+            "hours": null,
+            "sourceUrl": "https://skeetas.com.au/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "CBD 有免费 1P、2P、4P 和全天停车区；Foreshore Drive 路边通常为免费 2P，务必看现场标志。",
+        "lots": [
+          {
+            "name": "停车站 1（Parking Station 1, Foreshore Drive）",
+            "nameEn": "Parking Station 1",
+            "lat": -28.7724931,
+            "lng": 114.6087714,
+            "fee": "free",
+            "feeNote": "免费 2 小时",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "适合海滨和 CBD 短停；大型拖挂车应改用 Francis Street 指定 RV 长车位。"
+          }
+        ],
+        "rules": [
+          "Foreshore Drive 路边位多为免费 2P，其他街道可能是 1P 或 4P，必须按标志限时。",
+          "自给式 RV、caravan 和 camping trailer 可使用 Francis Street 指定 24 小时免费长车位，先到先得。",
+          "大型拖挂组合因车位长度限制更适合 Francis Street，不要横占普通车位。"
+        ],
+        "sources": [
+          {
+            "label": "City of Greater Geraldton Parking",
+            "url": "https://www.cgg.wa.gov.au/live/my-home/parking-in-geraldton.aspx"
+          },
+          {
+            "label": "Visit Geraldton RV and Camping",
+            "url": "https://www.visitgeraldton.com.au/rv-and-camping.aspx"
+          }
+        ]
       }
     },
     {
@@ -2559,6 +3255,83 @@
             "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "12-25°C",
+        "granularity": "place",
+        "basis": "Hutt Lagoon（粉红湖）",
+        "note": "",
+        "dayAdvisory": "越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "Hutt Lagoon 观景点没有餐饮设施；可靠正餐主要在约 50 公里外的 Northampton，需提前补水和食物。",
+        "restaurants": [
+          {
+            "name": "The Shearing Shed Cafe",
+            "nameEn": "The Shearing Shed Cafe",
+            "lat": -28.3497454,
+            "lng": 114.6316379,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Pink Lake Lookout 约 50 公里，在 Northampton",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、澳式简餐",
+            "recommended": "可核实地址为 222 Hampton Road；适合作为往返粉红湖途中早餐、咖啡或午餐停靠点。",
+            "hours": null,
+            "sourceUrl": "https://menuweb.menu/restaurants/northampton/the-shearing-shed-cafe"
+          },
+          {
+            "name": "Miners Arms Hotel",
+            "nameEn": "Miners Arms Hotel",
+            "lat": -28.3488576,
+            "lng": 114.631511,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Pink Lake Lookout 约 50 公里，在 Northampton",
+            "priceLevel": null,
+            "cuisine": "澳式酒馆",
+            "recommended": "作为 Northampton 镇内酒馆正餐备选；未找到可可靠核对的具体招牌菜，点餐前查看当日菜单。",
+            "hours": null,
+            "sourceUrl": "https://menuweb.menu/restaurants/northampton/miners-arms-hotel"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Port Gregory Road 上有专门的未铺装 Pink Lake Lookout 停车区；湖边无厕所、商店或遮阴。",
+        "lots": [
+          {
+            "name": "粉红湖观景停车区（Pink Lake Lookout）",
+            "nameEn": "Pink Lake Lookout",
+            "lat": -28.1849303,
+            "lng": 114.2584261,
+            "fee": "free",
+            "feeNote": "未发现收费信息",
+            "capacity": null,
+            "surface": "碎石／未铺装",
+            "note": "从 Port Gregory Road 安全驶入专用停车区；停车区在坡段附近，驶离时注意双向来车。"
+          }
+        ],
+        "rules": [
+          "优先使用专用 Pink Lake Lookout，不要在无安全余量的路肩随意停车。",
+          "现场没有厕所、商店、饮水或遮阴；盐壳尖锐，靠近湖岸应穿包脚鞋。",
+          "不要在 Hutt Lagoon 露营或把观景停车区当作过夜营地。"
+        ],
+        "sources": [
+          {
+            "label": "Australia’s Coral Coast Pink Lake",
+            "url": "https://www.australiascoralcoast.com/destinations/kalbarri-surrounds/pink-lake"
+          },
+          {
+            "label": "Perth is OK Hutt Lagoon",
+            "url": "https://perthisok.com/news/hutt-lagoon-pink-lake/"
+          }
+        ]
       }
     },
     {
@@ -2611,6 +3384,66 @@
             "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "13-25°C",
+        "granularity": "place",
+        "basis": "卡尔巴里（Kalbarri）",
+        "note": "",
+        "dayAdvisory": "越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "lodging",
+      "food": {
+        "summary": "Kalbarri 镇内正餐选择集中，旺季晚餐建议预订；本地海鲜是最可靠的特色。",
+        "restaurants": [
+          {
+            "name": "Finlay's Kalbarri",
+            "nameEn": "Finlay's Kalbarri",
+            "lat": -27.713933,
+            "lng": 114.1654343,
+            "rating": 4.2,
+            "ratingCount": 984,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Kalbarri 镇中心约 500 米",
+            "priceLevel": null,
+            "cuisine": "海鲜、烧烤、精酿啤酒",
+            "recommended": "主打本地海鲜和自酿啤酒，官网称四款自选 beer paddle 很受欢迎；适合轻松晚餐。",
+            "hours": null,
+            "sourceUrl": "https://finlayskalbarri.com.au/"
+          },
+          {
+            "name": "Upstairs Restaurant",
+            "nameEn": "Upstairs Restaurant",
+            "lat": -27.7114858,
+            "lng": 114.1651275,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Kalbarri 镇中心",
+            "priceLevel": null,
+            "cuisine": "现代澳式、本地海鲜",
+            "recommended": "官网菜单重点是 Shark Bay prawns、WA snapper、lobster、sirloin 和 oysters；当地旅游页特别推荐 grilled snapper 与 chicken satay。",
+            "hours": "周一至周六 17:00-21:00，周日休息",
+            "sourceUrl": "https://kalbarrirestaurantcomau.wordpress.com/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "住宿车辆应停在酒店或 caravan park 指定车位；镇中心及海滨路边位按现场限时和禁停标志使用。",
+        "lots": [],
+        "rules": [
+          "拖挂和房车不要横占普通路边位，优先停回住宿营位或使用明确允许长车的区域。",
+          "Kalbarri National Park 内陆景点不允许携带 caravan 或 trailer 时，应先将拖挂留在镇内住宿地。"
+        ],
+        "sources": [
+          {
+            "label": "Kalbarri National Park Visitor Guide",
+            "url": "https://exploreparks.dbca.wa.gov.au/sites/default/files/2023-07/kalbarri-national-park-visitor-guide.pdf"
+          }
+        ]
       }
     },
     {
@@ -2649,6 +3482,83 @@
         "highlights": [],
         "weather": [],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "13-25°C",
+        "granularity": "place",
+        "basis": "Red Bluff（红崖）",
+        "note": "",
+        "dayAdvisory": "越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "Red Bluff 现场无餐饮，最近可靠正餐都在约 5 公里外的 Kalbarri 镇内。",
+        "restaurants": [
+          {
+            "name": "Finlay's Kalbarri",
+            "nameEn": "Finlay's Kalbarri",
+            "lat": -27.713933,
+            "lng": 114.1654343,
+            "rating": 4.2,
+            "ratingCount": 984,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Red Bluff 约 5 公里，在 Kalbarri 镇内",
+            "priceLevel": null,
+            "cuisine": "海鲜、烧烤、精酿啤酒",
+            "recommended": "本地海鲜与自酿啤酒是核心特色，beer paddle 适合多人尝试不同口味。",
+            "hours": null,
+            "sourceUrl": "https://finlayskalbarri.com.au/"
+          },
+          {
+            "name": "Upstairs Restaurant",
+            "nameEn": "Upstairs Restaurant",
+            "lat": -27.7114858,
+            "lng": 114.1651275,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Red Bluff 约 5 公里，在 Kalbarri 镇内",
+            "priceLevel": null,
+            "cuisine": "现代澳式、本地海鲜",
+            "recommended": "推荐从 grilled snapper、Shark Bay prawns、oysters 和当季 lobster 中选择；晚餐宜预订。",
+            "hours": "周一至周六 17:00-21:00，周日休息",
+            "sourceUrl": "https://visitkalbarri.au/upstairs-restaurant-kalbarri-great-food-people/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Red Bluff 有铺装停车场，共约 25 个普通车位、2 个长车位及 1 个无障碍车位。",
+        "lots": [
+          {
+            "name": "红崖停车场（Red Bluff Car Park）",
+            "nameEn": "Red Bluff Car Park",
+            "lat": -27.7489347,
+            "lng": 114.1397861,
+            "fee": "paid",
+            "feeNote": "停车不另收费，但 Kalbarri National Park 标准车辆入园费 A$17；有效 park pass 可替代",
+            "capacity": "约 25 个普通车位、2 个长车位、1 个无障碍车位",
+            "surface": "沥青",
+            "note": "停车场至观景点为短距离铺装步道；现场没有厕所。"
+          }
+        ],
+        "rules": [
+          "按指定车位停放，长车使用两个长车位，不要占用无障碍车位。",
+          "现场无厕所，遵守 Leave No Trace 并带走垃圾。",
+          "Kalbarri National Park 需缴车辆入园费或展示有效 park pass。"
+        ],
+        "sources": [
+          {
+            "label": "DBCA Red Bluff Accessibility",
+            "url": "https://exploreparks.dbca.wa.gov.au/red-bluff/accessibility-information"
+          },
+          {
+            "label": "WA Park Entry Fees",
+            "url": "https://exploreparks.dbca.wa.gov.au/park-entry-fees"
+          }
+        ]
       }
     },
     {
@@ -2713,6 +3623,83 @@
           {
             "label": "BOM卡尔巴里气候",
             "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "13-25°C",
+        "granularity": "place",
+        "basis": "Kalbarri Skywalk（卡尔巴里天空步道）",
+        "note": "但峡谷内无风晴天体感可明显更热",
+        "dayAdvisory": "清晨峡谷可凉、正午暴晒，需至少每人2-3升饮水并留意公园高温关闭信息；南下长途可能遇阵雨、侧风和日落后低温。BOM卡尔巴里气候",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "Skywalk 现场有轻食咖啡亭，但完整正餐仍需回到约 38 公里外的 Kalbarri 镇。",
+        "restaurants": [
+          {
+            "name": "Kalbarri Skywalk Cafe",
+            "nameEn": "Kalbarri Skywalk Cafe",
+            "lat": -27.5546724,
+            "lng": 114.4342592,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Skywalk 观景区内",
+            "priceLevel": null,
+            "cuisine": "咖啡、轻食",
+            "recommended": "WAITOC 页面列出咖啡、蛋糕、wrap、sandwich、panini、toastie 和冰淇淋；适合补给，不等同于完整餐厅。",
+            "hours": "通常每日 08:00-15:00；11月至次年4月可能调整",
+            "sourceUrl": "https://www.waitoc.com/members/business-listing/66053251ccad0-kalbarri-skywalk-cafe"
+          },
+          {
+            "name": "Finlay's Kalbarri",
+            "nameEn": "Finlay's Kalbarri",
+            "lat": -27.713933,
+            "lng": 114.1654343,
+            "rating": 4.2,
+            "ratingCount": 984,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Skywalk 约 38 公里，在 Kalbarri 镇内",
+            "priceLevel": null,
+            "cuisine": "海鲜、烧烤、精酿啤酒",
+            "recommended": "若需要完整正餐，回镇后可选本地海鲜和自酿 beer paddle；不要依赖景区轻食亭解决晚餐。",
+            "hours": null,
+            "sourceUrl": "https://www.sluurpy.com/en/kalbarri/restaurant/4595731/finlay-s-kalbarri"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Skywalk 有正式停车区及无障碍车位，经约 180 米宽阔混凝土步道到观景台；国家公园入园收费。",
+        "lots": [
+          {
+            "name": "卡尔巴里天空步道停车场（Kalbarri Skywalk Car Park）",
+            "nameEn": "Kalbarri Skywalk Car Park",
+            "lat": -27.5546724,
+            "lng": 114.4342592,
+            "fee": "paid",
+            "feeNote": "停车不另收费，但 Kalbarri National Park 标准车辆入园费 A$17；有效 park pass 可替代",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "有指定无障碍车位，距观景平台约 180 米；长车可否进入应服从入口和现场标志。"
+          }
+        ],
+        "rules": [
+          "Kalbarri National Park 需缴车辆入园费或展示有效 park pass。",
+          "公园内没有处理过的饮用水，应自行携带足量饮水。",
+          "不要将 caravan 或 trailer 带往明确禁拖挂的 Loop/Nature's Window 区域。"
+        ],
+        "sources": [
+          {
+            "label": "DBCA Skywalk Accessibility",
+            "url": "https://exploreparks.dbca.wa.gov.au/kalbarri-skywalk/accessibility-information"
+          },
+          {
+            "label": "WA Park Entry Fees",
+            "url": "https://exploreparks.dbca.wa.gov.au/park-entry-fees"
           }
         ]
       }
@@ -2785,6 +3772,84 @@
             "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "13-25°C",
+        "granularity": "place",
+        "basis": "Nature’s Window（自然之窗）",
+        "note": "但峡谷内无风晴天体感可明显更热",
+        "dayAdvisory": "清晨峡谷可凉、正午暴晒，需至少每人2-3升饮水并留意公园高温关闭信息；南下长途可能遇阵雨、侧风和日落后低温。BOM卡尔巴里气候",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "Nature's Window 现场无餐饮和饮用水；最近轻食在 Skywalk Cafe，完整正餐需回 Kalbarri 镇。",
+        "restaurants": [
+          {
+            "name": "Kalbarri Skywalk Cafe",
+            "nameEn": "Kalbarri Skywalk Cafe",
+            "lat": -27.5546724,
+            "lng": 114.4342592,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Nature's Window 停车区约 10 公里，在 Skywalk 观景区",
+            "priceLevel": null,
+            "cuisine": "咖啡、轻食",
+            "recommended": "可买咖啡、冷饮、wrap、sandwich、panini 和冰淇淋；开放时间季节性变化，仍应自备水和应急食物。",
+            "hours": "通常每日 08:00-15:00；11月至次年4月可能调整",
+            "sourceUrl": "https://www.waitoc.com/members/business-listing/66053251ccad0-kalbarri-skywalk-cafe"
+          },
+          {
+            "name": "Finlay's Kalbarri",
+            "nameEn": "Finlay's Kalbarri",
+            "lat": -27.713933,
+            "lng": 114.1654343,
+            "rating": 4.2,
+            "ratingCount": 984,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Nature's Window 约 40 公里，在 Kalbarri 镇内",
+            "priceLevel": null,
+            "cuisine": "海鲜、烧烤、精酿啤酒",
+            "recommended": "完成步道后回镇可选本地海鲜和自酿啤酒；景区气温高时不要把正餐安排挤占饮水与返程时间。",
+            "hours": null,
+            "sourceUrl": "https://finlayskalbarri.com.au/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Loop/Nature's Window 是未铺装停车区，可容约 35 辆轿车/4WD 及 8-10 辆旅游巴士；禁止 caravan 和 trailer。",
+        "lots": [
+          {
+            "name": "自然之窗／环线停车场（The Loop and Nature's Window Car Park）",
+            "nameEn": "The Loop and Nature's Window Car Park",
+            "lat": -27.555,
+            "lng": 114.45,
+            "fee": "paid",
+            "feeNote": "停车不另收费，但 Kalbarri National Park 标准车辆入园费 A$17；有效 park pass 可替代",
+            "capacity": "约 35 辆轿车/4WD，加 8-10 辆旅游巴士",
+            "surface": "碎石／未铺装",
+            "note": "无专用无障碍车位；旺季可能拥堵。caravan 和 trailer 禁止进入，必须留在 Kalbarri 镇内。"
+          }
+        ],
+        "rules": [
+          "caravan 和 trailer 禁止进入 Loop/Nature's Window，应留在 Kalbarri 镇内。",
+          "Nature's Window 往返约 1 公里，后段为岩石路面；不要攀爬或坐在岩窗下。",
+          "现场无饮用水且遮阴有限；Loop Trail 在 11 月至次年 3 月每日 07:00 后关闭。",
+          "Kalbarri National Park 需缴车辆入园费或展示有效 park pass。"
+        ],
+        "sources": [
+          {
+            "label": "DBCA Loop/Nature's Window Accessibility",
+            "url": "https://exploreparks.dbca.wa.gov.au/loop-and-natures-window/accessibility-information"
+          },
+          {
+            "label": "Kalbarri National Park Visitor Guide",
+            "url": "https://exploreparks.dbca.wa.gov.au/sites/default/files/2023-07/kalbarri-national-park-visitor-guide.pdf"
+          }
+        ]
       }
     },
     {
@@ -2819,6 +3884,83 @@
         "highlights": [],
         "weather": [],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "10-21°C",
+        "granularity": "nearby",
+        "basis": "珀斯机场（Perth Airport Area）",
+        "note": "",
+        "dayAdvisory": "清晨峡谷可凉、正午暴晒，需至少每人2-3升饮水并留意公园高温关闭信息；南下长途可能遇阵雨、侧风和日落后低温。BOM卡尔巴里气候",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "lodging",
+      "food": {
+        "summary": "营地本身以自炊设施为主，最近可靠餐饮在 Garvey Park 和 Great Eastern Highway 一带。",
+        "restaurants": [
+          {
+            "name": "Ascot Riverside Kiosk",
+            "nameEn": "Ascot Riverside Kiosk",
+            "lat": -31.9227384,
+            "lng": 115.9431968,
+            "rating": 4.3,
+            "ratingCount": 70,
+            "ratingSource": "Google 地图（Restaurant Guru 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距营地约 2 公里，驾车约 4 分钟",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、轻食",
+            "recommended": "河畔 alfresco 简餐和咖啡，适合早餐；营业日有限，营地官网也建议出发前确认。",
+            "hours": "周一、周五 07:00-14:30；周六、周日 07:00-16:00",
+            "sourceUrl": "https://perthcentral.com.au/pet-friendly-accommodation-perth/dog-parks/"
+          },
+          {
+            "name": "Da Corner",
+            "nameEn": "Da Corner",
+            "lat": -31.969701,
+            "lng": 115.968398,
+            "rating": 4.4,
+            "ratingCount": 57,
+            "ratingSource": "Google 地图（Restaurant Guru 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距营地约 6 公里，驾车约 10 分钟",
+            "priceLevel": "人均约 A$1-20",
+            "cuisine": "东南亚及亚洲简餐",
+            "recommended": "评论常提到 laksa、炒饭、炒粿条和辣椒油；适合打包回营地，店前有免费停车位。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Da-Corner-Perth-Airport"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "营地提供 40 多个大型 powered sites，多数有混凝土板；营位可接待最长约 9 米的 caravan、motorhome 或 camper。",
+        "lots": [
+          {
+            "name": "Perth Central Caravan Park 营位",
+            "nameEn": "Perth Central Caravan Park Powered Sites",
+            "lat": -31.9292224,
+            "lng": 115.9429425,
+            "fee": "paid",
+            "feeNote": "住宿营位收费，须预订；价格随日期与营位类型变化",
+            "capacity": "40 多个大型 powered sites",
+            "surface": "混凝土板，另有按需提供的网垫帐篷位",
+            "note": "官方称可容纳最长约 9 米车辆；入住 14:00，退房 10:00，前台 08:00-18:00。"
+          }
+        ],
+        "rules": [
+          "车辆和拖挂应停在分配营位内，不要占用内部道路或其他营位。",
+          "最长约 9 米的车辆可使用大型营位，超长组合预订前应让营地确认。",
+          "宠物只可进入指定营位，须全程使用短于 2 米牵引绳且不得无人看管。"
+        ],
+        "sources": [
+          {
+            "label": "Perth Central Caravan Park Powered Sites",
+            "url": "https://perthcentral.com.au/accommodation/caravan-park/"
+          },
+          {
+            "label": "BIG4 Powered Site Details",
+            "url": "https://www.big4.com.au/caravan-parks/wa/greater-perth/perth-central-caravan-park/accommodation/powered-site"
+          }
+        ]
       }
     },
     {
@@ -2865,6 +4007,94 @@
           {
             "label": "BOM霍巴特气候",
             "url": "https://www.bom.gov.au/climate/averages/tables/cw_094029.shtml"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "6-15°C",
+        "granularity": "place",
+        "basis": "霍巴特机场（Hobart Airport）",
+        "note": "",
+        "dayAdvisory": "傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层；出发前7天再看BOM逐日预报。BOM霍巴特气候",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "transport",
+      "food": {
+        "summary": "航站楼内外有轻食和咖啡，想吃完整海鲜餐可自驾约 5 分钟到 Barilla Bay。",
+        "restaurants": [
+          {
+            "name": "Crate Cafe",
+            "nameEn": "Crate Cafe",
+            "lat": -42.8361,
+            "lng": 147.5103,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于航站楼前广场，步行可达",
+            "priceLevel": null,
+            "cuisine": "咖啡、三明治与轻食",
+            "recommended": "官网明确提供咖啡、三明治、toastie 和现场制作甜点，适合取车前后快速补给，不宜当作正式正餐。",
+            "hours": null,
+            "sourceUrl": "https://hobartairport.com.au/travellers/dine-and-retail/food-and-drink/crate-cafe-2/"
+          },
+          {
+            "name": "Barilla Bay Oysters",
+            "nameEn": "Barilla Bay Oysters",
+            "lat": -42.81919,
+            "lng": 147.48213,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距机场约 5 分钟车程",
+            "priceLevel": null,
+            "cuisine": "塔斯马尼亚生蚝与海鲜",
+            "recommended": "官方资料确认这里是生蚝养殖场与海鲜门店，适合品尝或购买本地 Pacific oysters；赶飞机时还可提前联系，将冷冻海鲜装入保温箱托运。",
+            "hours": null,
+            "sourceUrl": "https://barillabay.com.au/contact-us/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "机场设 Valet、Premium、Short Term、Long Term、Saver 等付费停车，接送车道只允许即时上下客。",
+        "lots": [
+          {
+            "name": "霍巴特机场 Long Term Car Park",
+            "nameEn": "Hobart Airport Long Term Car Park",
+            "lat": -42.8366,
+            "lng": 147.5069,
+            "fee": "paid",
+            "feeNote": "适合超过 5 天；前 15 分钟免费，后续按官网实时费率",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "步行约 4–8 分钟到航站楼；高峰需求大，官网建议预留找车位时间并按现场标志行驶。"
+          },
+          {
+            "name": "航站楼接送车道",
+            "nameEn": "Drop-off & Pick-up Lane",
+            "lat": -42.8361,
+            "lng": 147.5103,
+            "fee": "free",
+            "feeNote": "仅即时上下客免费，不能停车等人",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "车辆必须有人看管；需要等候请进 Long Term Car Park，前 15 分钟免费。"
+          }
+        ],
+        "rules": [
+          "接送车道只允许乘客上下车，停车管理员可要求滞留车辆驶离。",
+          "需要等待乘客时使用 Long Term Car Park，前 15 分钟免费。",
+          "机场停车需求有时很高，宜预留额外时间；长期停车可提前在线预订。"
+        ],
+        "sources": [
+          {
+            "label": "Hobart Airport Parking",
+            "url": "https://hobartairport.com.au/travellers/transport-and-parking/parking/"
+          },
+          {
+            "label": "Hobart Airport Drop-off & Pick-up",
+            "url": "https://hobartairport.com.au/travellers/transport-and-parking/drop-off-pick-up/"
           }
         ]
       }
@@ -2919,6 +4149,94 @@
             "url": "https://www.bom.gov.au/climate/averages/tables/cw_094029.shtml"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "6-15°C",
+        "granularity": "place",
+        "basis": "亚瑟港（Port Arthur）",
+        "note": "",
+        "dayAdvisory": "傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层；出发前7天再看BOM逐日预报。BOM霍巴特气候",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "lodging",
+      "food": {
+        "summary": "住宿区有一间预约制晚餐餐厅，Port Arthur Historic Site 一带另有午餐与咖啡选择。",
+        "restaurants": [
+          {
+            "name": "On the Bay Restaurant",
+            "nameEn": "On the Bay Restaurant",
+            "lat": -43.138688,
+            "lng": 147.855967,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Stewarts Bay Lodge 内",
+            "priceLevel": null,
+            "cuisine": "现代澳大利亚菜、塔州海鲜",
+            "recommended": "2026 菜单以塔州食材和 native ingredients 为主，包含 pepperberry、wattleseed、saltbush 与海鲜元素。晚餐必须预约，8 月整月关闭。",
+            "hours": "周二至周六早餐 08:00–10:00，晚餐 17:30–19:30；8 月关闭",
+            "sourceUrl": "https://stewartsbaylodge.com.au/guest-information/"
+          },
+          {
+            "name": "1830 Restaurant & Bar",
+            "nameEn": "1830 Restaurant & Bar",
+            "lat": -43.146064,
+            "lng": 147.850531,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距住宿区约 2 公里，位于 Port Arthur Historic Site Visitor Centre",
+            "priceLevel": null,
+            "cuisine": "塔斯曼半岛时令菜",
+            "recommended": "官网明确列出本地鲜鲍鱼与 100% 塔州草饲牛肉，菜单随季节变化。适合参观遗址时安排较正式的午餐，且必须预约。",
+            "hours": "每日午餐 11:30–14:30",
+            "sourceUrl": "https://portarthur.org.au/1830restaurant/"
+          },
+          {
+            "name": "Port Arthur Lavender Cafe",
+            "nameEn": "Port Arthur Lavender Cafe",
+            "lat": -43.1277,
+            "lng": 147.8634,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Stewarts Bay Lodge 约 5 分钟车程",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、塔州食材与薰衣草主题餐饮",
+            "recommended": "官方旅游资料主打薰衣草主题餐饮和塔州本地食材；访客评价中常提及 lavender white hot chocolate，适合白天顺路停靠。",
+            "hours": "每日开放，圣诞节除外；具体时段未核实",
+            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/portarthurlavendercafe/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "住客可使用 Stewarts Bay Lodge 内免费停车，餐厅也在住宿园区内。",
+        "lots": [
+          {
+            "name": "Stewarts Bay Lodge 住客停车场",
+            "nameEn": "Stewarts Bay Lodge On-site Parking",
+            "lat": -43.14,
+            "lng": 147.87,
+            "fee": "free",
+            "feeNote": "住客免费，无需预订",
+            "capacity": null,
+            "surface": null,
+            "note": "园区内停车；大型房车或拖挂的适配情况未在官网公开，抵达后按住宿方指示停放。"
+          }
+        ],
+        "rules": [
+          "On the Bay 晚餐需要预约，停车后步行前往餐厅即可。",
+          "停车权益针对住客；非住客前往餐厅时应服从现场指引。"
+        ],
+        "sources": [
+          {
+            "label": "Stewarts Bay Lodge Guest Information",
+            "url": "https://stewartsbaylodge.com.au/guest-information/"
+          }
+        ]
       }
     },
     {
@@ -2948,6 +4266,98 @@
         "highlights": [],
         "weather": [],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "6-14°C",
+        "granularity": "nearby",
+        "basis": "塔斯曼半岛（Tasman Peninsula）",
+        "note": "",
+        "dayAdvisory": "船上海风会显著降低体感，棋盘石遇雨非常湿滑。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天同时复查巡游海况、BOM预报和公园工程／关闭警报",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "transport",
+      "food": {
+        "summary": "订票中心本身不是餐厅，步行或短途驾车可到 Port Arthur Historic Site 与 Stewarts Bay 的餐厅。",
+        "restaurants": [
+          {
+            "name": "1830 Restaurant & Bar",
+            "nameEn": "1830 Restaurant & Bar",
+            "lat": -43.146064,
+            "lng": 147.850531,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距订票中心约 300 米，位于 Port Arthur Historic Site Visitor Centre",
+            "priceLevel": null,
+            "cuisine": "塔斯曼半岛时令菜",
+            "recommended": "官网列出的代表性食材包括本地鲜鲍鱼和塔州草饲牛肉。只做午餐且需预约，适合巡游结束后安排。",
+            "hours": "每日午餐 11:30–14:30",
+            "sourceUrl": "https://portarthur.org.au/1830restaurant/"
+          },
+          {
+            "name": "Port Arthur Cafe",
+            "nameEn": "Port Arthur Cafe",
+            "lat": -43.146064,
+            "lng": 147.850531,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距订票中心约 300 米",
+            "priceLevel": null,
+            "cuisine": "三明治、咖啡与简餐",
+            "recommended": "遗址官网说明这里提供现场制作三明治，并有 gluten-free、vegetarian 和 vegan 选项；比预约制的 1830 更适合赶行程时快速用餐。",
+            "hours": "每日 09:00–17:00",
+            "sourceUrl": "https://portarthur.org.au/eat-drink/"
+          },
+          {
+            "name": "On the Bay Restaurant",
+            "nameEn": "On the Bay Restaurant",
+            "lat": -43.138688,
+            "lng": 147.855967,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距订票中心约 1.5 公里",
+            "priceLevel": null,
+            "cuisine": "现代澳大利亚菜",
+            "recommended": "菜单强调塔州海陆食材和 native ingredients，适合巡游日晚上正式用餐。晚餐必须预约，且 8 月关闭。",
+            "hours": "周二至周六晚餐 17:30–19:30；8 月关闭",
+            "sourceUrl": "https://stewartsbaylodge.com.au/guest-information/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Port Arthur 出发的巡游客可将车免费停在 6961 Arthur Highway 的订票中心。",
+        "lots": [
+          {
+            "name": "Tasman Island Cruises Booking Centre 停车场",
+            "nameEn": "Tasman Island Cruises Booking Centre Parking",
+            "lat": -43.13999,
+            "lng": 147.851061,
+            "fee": "free",
+            "feeNote": "巡游客免费",
+            "capacity": null,
+            "surface": null,
+            "note": "官方 FAQ 明确称现场有充足免费停车；订票中心位于 Port Arthur Historic Site 入口前约 100 米。"
+          }
+        ],
+        "rules": [
+          "巡游从 6961 Arthur Highway 的订票中心开始并结束，需按预订通知提前报到。",
+          "官网不同页面混入了霍巴特出发产品的停车说明；Port Arthur 出发应以 Pennicott FAQ 的现场免费停车说明为准。"
+        ],
+        "sources": [
+          {
+            "label": "Pennicott Wilderness Journeys FAQ",
+            "url": "https://www.pennicottjourneys.com.au/faq"
+          },
+          {
+            "label": "Tasman Island Cruises",
+            "url": "https://www.tasmancruises.com.au/"
+          }
+        ]
       }
     },
     {
@@ -2985,6 +4395,83 @@
           {
             "label": "工程页面",
             "url": "https://parks.tas.gov.au/be-involved/projects-and-programs/tasmans-arch-and-devils-kitchen-revitalisation-project"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "6-14°C",
+        "granularity": "nearby",
+        "basis": "塔斯曼半岛（Tasman Peninsula）",
+        "note": "",
+        "dayAdvisory": "船上海风会显著降低体感，棋盘石遇雨非常湿滑。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天同时复查巡游海况、BOM预报和公园工程／关闭警报",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "景点现场没有正式餐厅，最近可行选择集中在 Blowhole 与 Eaglehawk Neck，需驾车前往。",
+        "restaurants": [
+          {
+            "name": "Doo-Lishus",
+            "nameEn": "Doo-Lishus",
+            "lat": -43.038063,
+            "lng": 147.944404,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Tasman Arch 约 2 公里，位于 Blowhole 停车场",
+            "priceLevel": null,
+            "cuisine": "炸鱼薯条、海鲜与冰淇淋",
+            "recommended": "Discover Tasmania 明确列出 Fisherman's Catch、scallop & chips、鱼、鱿鱼、扇贝和虾；食材现场手切裹粉，适合作为景区间的快捷午餐。",
+            "hours": null,
+            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/doo-lishus-ptyltd/"
+          },
+          {
+            "name": "Lufra Cafe and Bistro",
+            "nameEn": "Lufra Cafe and Bistro",
+            "lat": -43.009929,
+            "lng": 147.929121,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Tasman Arch 约 5 公里",
+            "priceLevel": null,
+            "cuisine": "塔州海鲜、肉类与澳式 bistro",
+            "recommended": "官方旅游页称菜单以塔州海鲜、区域肉类和现代澳式 bistro 菜为主。晚餐七天供应，建议预订。",
+            "hours": "午餐每日 12:00–14:30；晚餐自 17:30 起",
+            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/whalewatcherscafe/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Tasman Arch 有专用免费停车场，但 2026 年 4 月 15 日至 9 月 18 日景点因工程关闭。",
+        "lots": [
+          {
+            "name": "Tasman Arch Car Park",
+            "nameEn": "Tasman Arch Car Park",
+            "lat": -43.042133,
+            "lng": 147.950944,
+            "fee": "free",
+            "feeNote": "停车场本身免费；进入国家公园需有效 Parks Pass",
+            "capacity": "升级工程规划约 30 车位",
+            "surface": "碎石",
+            "note": "停车场靠近 Tasman Arch 栏杆，并可步行到 Devils Kitchen；2026-04-15 至 2026-09-18 景点和相关步道关闭，厕所保持开放。"
+          }
+        ],
+        "rules": [
+          "2026 年 4 月 15 日至 9 月 18 日 Tasman Arch 与 Devils Kitchen Visitor Site 关闭施工，不能进入景点或相关步道。",
+          "Blowhole Road 部分路段未铺装且停车有限；不要占用狭窄路肩。",
+          "车辆进入 Tasman National Park 应持有效 Parks Pass。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania — Tasman National Park",
+            "url": "https://www.parks.tas.gov.au/Pages/Tasman-National-Park.aspx"
+          },
+          {
+            "label": "Tasman Arch GPS",
+            "url": "https://www.bushtrackerownersgroup.asn.au/places/153825/tas+tasman-arch"
           }
         ]
       }
@@ -3030,6 +4517,79 @@
             "url": "https://parks.tas.gov.au/be-involved/projects-and-programs/tasmans-arch-and-devils-kitchen-revitalisation-project"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "6-14°C",
+        "granularity": "nearby",
+        "basis": "塔斯曼半岛（Tasman Peninsula）",
+        "note": "",
+        "dayAdvisory": "船上海风会显著降低体感，棋盘石遇雨非常湿滑。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天同时复查巡游海况、BOM预报和公园工程／关闭警报",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "景点入口没有餐厅，Lufra 就在停车场对面一带，Blowhole 的 Doo-Lishus 约 5 分钟车程。",
+        "restaurants": [
+          {
+            "name": "Lufra Cafe and Bistro",
+            "nameEn": "Lufra Cafe and Bistro",
+            "lat": -43.009929,
+            "lng": 147.929121,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Tessellated Pavement 停车场对面一带，步行可达",
+            "priceLevel": null,
+            "cuisine": "塔州海鲜与澳式 bistro",
+            "recommended": "菜单主打塔州海鲜、区域肉类和 bistro 菜；用餐区面向 Pirates Bay。午餐和晚餐均有服务，晚餐建议预订。",
+            "hours": "午餐每日 12:00–14:30；晚餐自 17:30 起",
+            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/whalewatcherscafe/"
+          },
+          {
+            "name": "Doo-Lishus",
+            "nameEn": "Doo-Lishus",
+            "lat": -43.038063,
+            "lng": 147.944404,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距景点约 4 公里，约 5 分钟车程",
+            "priceLevel": null,
+            "cuisine": "炸海鲜与冰淇淋",
+            "recommended": "官方旅游页推荐 Fisherman's Catch、scallop & chips 与现场裹粉的鱼、鱿鱼、扇贝和虾，适合景点串联途中快速用餐。",
+            "hours": null,
+            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/doo-lishus-ptyltd/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Pirates Bay Drive 上有一个小型专用停车场，步行约 5–10 分钟下到观景平台。",
+        "lots": [
+          {
+            "name": "Tessellated Pavement Car Park",
+            "nameEn": "Tessellated Pavement Car Park",
+            "lat": -43.009,
+            "lng": 147.945,
+            "fee": "free",
+            "feeNote": "停车本身免费；车辆进入国家公园应持 Parks Pass",
+            "capacity": "小型停车场，容量未公布",
+            "surface": null,
+            "note": "停车场在 Lufra Hotel 对面一带；雨后岩面湿滑，停车后下行时注意台阶和海况。"
+          }
+        ],
+        "rules": [
+          "停车场较小，旺时不要在狭窄道路上违规占用路肩。",
+          "车辆停入国家公园景点停车场应持有效 Tasmania Parks Pass。",
+          "岩面湿滑且海况多变，按现场警示决定是否下到 pavement。"
+        ],
+        "sources": [
+          {
+            "label": "Hobart and Beyond — Tessellated Pavement",
+            "url": "https://hobartandbeyond.com.au/blog/explore-the-tessellated-pavement-at-eaglehawk-neck/"
+          }
+        ]
       }
     },
     {
@@ -3068,6 +4628,98 @@
           {
             "label": "工程页面",
             "url": "https://parks.tas.gov.au/be-involved/projects-and-programs/tasmans-arch-and-devils-kitchen-revitalisation-project"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "7-16°C",
+        "granularity": "place",
+        "basis": "特里阿布纳（Triabunna）",
+        "note": "",
+        "dayAdvisory": "船上海风会显著降低体感，棋盘石遇雨非常湿滑。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天同时复查巡游海况、BOM预报和公园工程／关闭警报",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "lodging",
+      "food": {
+        "summary": "餐饮集中在 Vicary Street 与码头附近，以海鲜快餐、pub 和外带为主。",
+        "restaurants": [
+          {
+            "name": "Spring Bay Hotel",
+            "nameEn": "Spring Bay Hotel",
+            "lat": -42.509281,
+            "lng": 147.914661,
+            "rating": 4.3,
+            "ratingCount": 265,
+            "ratingSource": "Google 地图（由 Menuweb 页面明确汇总）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Triabunna Marina 对面，距镇中心约 300 米",
+            "priceLevel": null,
+            "cuisine": "澳式 pub 餐",
+            "recommended": "官网称酒店位于码头边；公开菜单资料特别提到 Jamaican spiced lentil and veggie curry，也有常规 pub 餐，适合晚间堂食。",
+            "hours": "周一仅酒吧 14:00–20:00；周二 14:00 起；周三 12:00 起；周四至周六 11:00 起；周日关闭",
+            "sourceUrl": "https://springbayhotel.com.au/"
+          },
+          {
+            "name": "Triabunna Takeaway",
+            "nameEn": "Triabunna Takeaway",
+            "lat": -42.508942,
+            "lng": 147.915179,
+            "rating": 4.1,
+            "ratingCount": null,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 23 Vicary Street，镇中心步行可达",
+            "priceLevel": null,
+            "cuisine": "炸鱼薯条、pizza 与三明治",
+            "recommended": "公开评价页明确提到 fish、pizza 与 ham sandwiches，适合抵达较晚时外带；营业时间应当天再次确认。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Triabunna-Takeaway-Triabunna"
+          },
+          {
+            "name": "The Fish Van",
+            "nameEn": "The Fish Van",
+            "lat": -42.509607,
+            "lng": 147.914346,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 19 Esplanade West，码头旁",
+            "priceLevel": null,
+            "cuisine": "海鲜快餐、炸鱼薯条",
+            "recommended": "当地餐饮指南将其列为码头旁的海鲜快餐，适合在渡轮前后吃 fish and chips；座位和服务模式偏简便。",
+            "hours": "周一至周四及周日 11:00–19:00；周五、周六 11:00–19:30",
+            "sourceUrl": "https://www.agfg.com.au/restaurant/the-fish-van-88675"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "小镇有免费路边位和码头公共停车；渡轮码头周边需避开 permit zones。",
+        "lots": [
+          {
+            "name": "Triabunna Marina 公共停车",
+            "nameEn": "Triabunna Marina Parking",
+            "lat": -42.51,
+            "lng": 147.9153,
+            "fee": "free",
+            "feeNote": "码头及周边街道免费",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "可用于小镇访问；靠近渡轮泊位的 permit zones 不得占用，过夜停车以现场标志为准。"
+          }
+        ],
+        "rules": [
+          "码头和周边街道可免费停车，但必须避开 wharf permit zones。",
+          "Vicary Street 与 Charles Street 一带按现场限时、装卸和禁停标志停放。"
+        ],
+        "sources": [
+          {
+            "label": "Encounter Maria Island FAQ",
+            "url": "https://encountermaria.com.au/faq/"
+          },
+          {
+            "label": "MAST Triabunna Wharf",
+            "url": "https://mast.tas.gov.au/facility/triabunna-jetty/"
           }
         ]
       }
@@ -3126,6 +4778,55 @@
           "出发前一晚复查BOM、船班、低潮时间与公园警报。"
         ],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "7-17°C",
+        "granularity": "place",
+        "basis": "Maria Island（玛丽亚岛）",
+        "note": "",
+        "dayAdvisory": "海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水；出发前一晚复查BOM、船班、低潮时间与公园警报",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "transport",
+      "food": {
+        "summary": "Maria Island 全岛没有商店或咖啡馆，必须在 Triabunna 备齐食物并自带全部饮用水。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "岛上没有游客汽车停车场；车辆留在 Triabunna Marina 或周边街道，再步行报到乘船。",
+        "lots": [
+          {
+            "name": "Triabunna Marina 渡轮停车区",
+            "nameEn": "Triabunna Marina Ferry Parking",
+            "lat": -42.51,
+            "lng": 147.9153,
+            "fee": "free",
+            "feeNote": "码头和周边街道免费，可过夜停放；避开 permit zones",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "Maria Island Gateway 在码头旁；所有乘客至少提前 45 分钟报到，车辆留在 Triabunna。"
+          }
+        ],
+        "rules": [
+          "Maria Island 只能乘客运渡轮抵达，游客车辆不能上岛。",
+          "Triabunna Marina 和周边街道免费停车，但必须避开码头 permit zones。",
+          "登船报到时需出示有效 National Parks Pass，并至少提前 45 分钟到 Maria Island Gateway。",
+          "岛上没有商店或咖啡馆；2026 年水位极低且无处理过的饮用水，必须自带全部饮水。"
+        ],
+        "sources": [
+          {
+            "label": "Encounter Maria Island FAQ",
+            "url": "https://encountermaria.com.au/faq/"
+          },
+          {
+            "label": "Encounter Maria Island Checking In",
+            "url": "https://encountermaria.com.au/checking-in/"
+          },
+          {
+            "label": "Parks Tasmania — Maria Island",
+            "url": "https://parks.tas.gov.au/explore-our-parks/maria-island-national-park"
+          }
+        ]
       }
     },
     {
@@ -3167,6 +4868,94 @@
           {
             "label": "Encounter Maria Island官方时刻表",
             "url": "https://encountermaria.com.au/timetable-pricing-luggage-check/"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "7-17°C",
+        "granularity": "place",
+        "basis": "科尔斯湾（Coles Bay）",
+        "note": "",
+        "dayAdvisory": "海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水；出发前一晚复查BOM、船班、低潮时间与公园警报",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "lodging",
+      "food": {
+        "summary": "镇中心餐饮选择不多但覆盖咖啡、pizza、pub 与海鲜；旺季晚餐宜预订。",
+        "restaurants": [
+          {
+            "name": "Geographe Restaurant and Espresso Bar",
+            "nameEn": "Geographe Restaurant and Espresso Bar",
+            "lat": -42.125739,
+            "lng": 148.290356,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 6 Garnet Avenue，镇中心步行可达",
+            "priceLevel": null,
+            "cuisine": "木烤 pizza、海鲜与咖啡",
+            "recommended": "Discover Tasmania 明确列出木烤 pizza、鲜海鲜、咖啡和时令塔州食材，并提供早餐、午餐和晚餐，是镇内覆盖时段最完整的选择。",
+            "hours": "每日早餐、午餐和晚餐；具体时段未核实",
+            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/geographe-restaurant-and-espresso-bar/"
+          },
+          {
+            "name": "Iluka Tavern",
+            "nameEn": "Iluka Tavern",
+            "lat": -42.122942,
+            "lng": 148.284302,
+            "rating": 4.0,
+            "ratingCount": 589,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距镇中心约 700 米",
+            "priceLevel": null,
+            "cuisine": "澳式 pub 餐",
+            "recommended": "适合汉堡、炸鱼薯条和啤酒等轻松晚餐；公开评论强调价格相对亲民、空间适合家庭，旺季仍应预留等位时间。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Iluka-Tavern-Coles-Bay"
+          },
+          {
+            "name": "Granite Freycinet",
+            "nameEn": "Granite Freycinet",
+            "lat": -42.122614,
+            "lng": 148.284495,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距镇中心约 700 米",
+            "priceLevel": null,
+            "cuisine": "早餐、brunch、咖啡与 pizza",
+            "recommended": "白天供应早餐、brunch、咖啡和甜点，周四至周六晚间转为 pizza 与 wine bar；适合看 Muirs Beach 日落时用餐。",
+            "hours": "白天咖啡馆；周四至周六晚间供应 pizza 与 wine",
+            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/granitefreycinet/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Coles Bay 以住宿自带车位和镇内路边位为主；旺季不要把车停在狭窄路肩或阻挡住户出入口。",
+        "lots": [
+          {
+            "name": "Coles Bay 镇中心路边停车",
+            "nameEn": "Coles Bay Town Centre Street Parking",
+            "lat": -42.125,
+            "lng": 148.29,
+            "fee": "unknown",
+            "feeNote": "以现场标志为准",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "住宿应优先使用自带车位；镇内餐厅周边旺季空间有限，不要占用私人车道。"
+          }
+        ],
+        "rules": [
+          "路边停车必须服从现场限时、禁停及私人产权标志。",
+          "前往 Freycinet National Park 的景点停车与镇内停车不是同一体系，入园还需有效 Parks Pass。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania — Freycinet National Park",
+            "url": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park"
           }
         ]
       }
@@ -3220,6 +5009,104 @@
         ],
         "weather": [],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "7-17°C",
+        "granularity": "nearby",
+        "basis": "科尔斯湾（Coles Bay）",
+        "note": "",
+        "dayAdvisory": "上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "步道停车场没有餐饮；最近的正式餐饮在 Freycinet Lodge 或 Coles Bay，需先用餐或自带补给。",
+        "restaurants": [
+          {
+            "name": "Richardson's Bistro",
+            "nameEn": "Richardson's Bistro",
+            "lat": -42.134775,
+            "lng": 148.301631,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Wineglass Bay 步道停车场约 2 公里，位于 Freycinet Lodge",
+            "priceLevel": null,
+            "cuisine": "海鲜、汉堡、牛排与小食",
+            "recommended": "官方页面明确列出 seafood、lodge burgers、steak、grazing plates 和甜点，全天候餐饮比镇上更靠近国家公园步道。",
+            "hours": null,
+            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/richardsons-bistro/"
+          },
+          {
+            "name": "Geographe Restaurant and Espresso Bar",
+            "nameEn": "Geographe Restaurant and Espresso Bar",
+            "lat": -42.125739,
+            "lng": 148.290356,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距步道停车场约 4 公里，位于 Coles Bay 镇中心",
+            "priceLevel": null,
+            "cuisine": "木烤 pizza、海鲜与咖啡",
+            "recommended": "菜单涵盖木烤 pizza、海鲜、咖啡和时令塔州食材，早中晚均可安排，适合徒步前早餐或回程晚餐。",
+            "hours": "每日早餐、午餐和晚餐；具体时段未核实",
+            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/geographe-restaurant-and-espresso-bar/"
+          },
+          {
+            "name": "Iluka Tavern",
+            "nameEn": "Iluka Tavern",
+            "lat": -42.122942,
+            "lng": 148.284302,
+            "rating": 4.0,
+            "ratingCount": 589,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距步道停车场约 5 公里",
+            "priceLevel": null,
+            "cuisine": "澳式 pub 餐",
+            "recommended": "适合徒步后吃汉堡、炸物和喝啤酒；家庭客较多，旺季晚餐时段建议提前到。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Iluka-Tavern-Coles-Bay"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "步道起点有专用停车场，但夏季常在上午较早时段满位；2026 年尚无已落成的新 visitor gateway。",
+        "lots": [
+          {
+            "name": "Wineglass Bay Walking Tracks Car Park",
+            "nameEn": "Wineglass Bay Walking Tracks Car Park",
+            "lat": -42.14581,
+            "lng": 148.289189,
+            "fee": "free",
+            "feeNote": "停车不另收费，但进入 Freycinet National Park 必须持有效 Parks Pass",
+            "capacity": "约 120 车位（非官方旅游指南数据）",
+            "surface": "沥青",
+            "note": "夏季常在 09:00–10:00 前满位；该停车场不适合 caravan/trailer，宜早到或错峰。厕所与饮水水龙头位于停车区。"
+          }
+        ],
+        "rules": [
+          "进入 Freycinet National Park 和前往 Wineglass Bay 必须持有效 Parks Pass。",
+          "夏季停车场常在上午满位，优先 08:00 前抵达或下午错峰；不要把车停在狭窄路肩。",
+          "新 visitor gateway 预计 2027 年才开放，不能把规划中的 shuttle 当作 2026 年确定可用服务。",
+          "Wineglass Bay Walking Tracks Car Park 不适合 caravan 或 trailer。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania — Wineglass Bay Lookout",
+            "url": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park/wineglass-bay-lookout"
+          },
+          {
+            "label": "Wineglass Bay trailhead GPS",
+            "url": "https://www.hikespeak.com/trails/wineglass-bay-hazards-beach-freycinet-tasmania-au/"
+          },
+          {
+            "label": "2027 Visitor Gateway 规划",
+            "url": "https://tasmaniantimes.com/2025/05/proposed-solution-for-freycinet-parking-nightmare/"
+          }
+        ]
       }
     },
     {
@@ -3252,6 +5139,99 @@
         ],
         "weather": [],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "7-17°C",
+        "granularity": "nearby",
+        "basis": "科尔斯湾（Coles Bay）",
+        "note": "",
+        "dayAdvisory": "上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "灯塔没有餐饮和厕所，最近正式餐饮在 Freycinet Lodge 或 Coles Bay。",
+        "restaurants": [
+          {
+            "name": "Richardson's Bistro",
+            "nameEn": "Richardson's Bistro",
+            "lat": -42.134775,
+            "lng": 148.301631,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Cape Tourville 约 7.5 公里",
+            "priceLevel": null,
+            "cuisine": "海鲜、汉堡与牛排",
+            "recommended": "Freycinet Lodge 内的就近正式餐饮，官网列出海鲜、汉堡、牛排和 grazing plates，适合灯塔步道前后用餐。",
+            "hours": null,
+            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/richardsons-bistro/"
+          },
+          {
+            "name": "Geographe Restaurant and Espresso Bar",
+            "nameEn": "Geographe Restaurant and Espresso Bar",
+            "lat": -42.125739,
+            "lng": 148.290356,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Cape Tourville 约 9 公里，位于 Coles Bay",
+            "priceLevel": null,
+            "cuisine": "木烤 pizza、海鲜与咖啡",
+            "recommended": "木烤 pizza、鲜海鲜和全天咖啡是主项，早餐至晚餐均覆盖，适合离园后补给。",
+            "hours": "每日早餐、午餐和晚餐；具体时段未核实",
+            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/geographe-restaurant-and-espresso-bar/"
+          },
+          {
+            "name": "Iluka Tavern",
+            "nameEn": "Iluka Tavern",
+            "lat": -42.122942,
+            "lng": 148.284302,
+            "rating": 4.0,
+            "ratingCount": 589,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Cape Tourville 约 10 公里",
+            "priceLevel": null,
+            "cuisine": "澳式 pub 餐",
+            "recommended": "适合返回 Coles Bay 后吃简便晚餐；汉堡、炸物和饮品比国家公园内选择更休闲。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Iluka-Tavern-Coles-Bay"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Cape Tourville Road 尽头有专用停车场，大型车辆也能进入，但道路弯曲且野生动物多。",
+        "lots": [
+          {
+            "name": "Cape Tourville Car Park",
+            "nameEn": "Cape Tourville Car Park",
+            "lat": -42.122048,
+            "lng": 148.341587,
+            "fee": "free",
+            "feeNote": "停车不另收费，但入园需有效 Parks Pass",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "停车场空间可容纳较大车辆和 caravan；灯塔现场无厕所，最近设施在 7.5 公里外的 Ranger Creek 与 Honeymoon Bay。"
+          }
+        ],
+        "rules": [
+          "进入 Freycinet National Park 必须持有效 Parks Pass。",
+          "Cape Tourville Road 弯曲且野生动物多，尤其避免夜间快速驾驶。",
+          "灯塔停车区没有厕所、饮水或餐饮，先在 Visitor Centre 或 Honeymoon Bay 补给。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania — Cape Tourville",
+            "url": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park/cape-tourville"
+          },
+          {
+            "label": "Cape Tourville trailhead GPS",
+            "url": "https://www.trailhiking.com.au/hikes/cape-tourville/"
+          }
+        ]
       }
     },
     {
@@ -3281,6 +5261,99 @@
         "highlights": [],
         "weather": [],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "7-17°C",
+        "granularity": "nearby",
+        "basis": "科尔斯湾（Coles Bay）",
+        "note": "",
+        "dayAdvisory": "上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "海湾没有商业餐饮，但有野餐桌和电烧烤；正式用餐在 Freycinet Lodge 或 Coles Bay。",
+        "restaurants": [
+          {
+            "name": "Richardson's Bistro",
+            "nameEn": "Richardson's Bistro",
+            "lat": -42.134775,
+            "lng": 148.301631,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Honeymoon Bay 约 1 公里",
+            "priceLevel": null,
+            "cuisine": "海鲜、汉堡、牛排与小食",
+            "recommended": "这是距海湾最近的正式餐饮，官网列出 seafood、lodge burgers、steak 和 grazing plates；适合不想自备野餐的游客。",
+            "hours": null,
+            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/richardsons-bistro/"
+          },
+          {
+            "name": "Geographe Restaurant and Espresso Bar",
+            "nameEn": "Geographe Restaurant and Espresso Bar",
+            "lat": -42.125739,
+            "lng": 148.290356,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Honeymoon Bay 约 3 公里",
+            "priceLevel": null,
+            "cuisine": "木烤 pizza、海鲜与咖啡",
+            "recommended": "全天覆盖的木烤 pizza、海鲜与咖啡适合海湾活动前后；旺季晚餐宜提前确认座位。",
+            "hours": "每日早餐、午餐和晚餐；具体时段未核实",
+            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/geographe-restaurant-and-espresso-bar/"
+          },
+          {
+            "name": "Iluka Tavern",
+            "nameEn": "Iluka Tavern",
+            "lat": -42.122942,
+            "lng": 148.284302,
+            "rating": 4.0,
+            "ratingCount": 589,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Honeymoon Bay 约 4 公里",
+            "priceLevel": null,
+            "cuisine": "澳式 pub 餐",
+            "recommended": "适合海湾日落后返回镇上吃汉堡、炸物和饮品；环境偏家庭与休闲。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Iluka-Tavern-Coles-Bay"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "海湾旁有日间停车位和野餐设施，空间有限；进入国家公园仍需 Parks Pass。",
+        "lots": [
+          {
+            "name": "Honeymoon Bay Day-use Parking",
+            "nameEn": "Honeymoon Bay Day-use Parking",
+            "lat": -42.137095,
+            "lng": 148.299106,
+            "fee": "free",
+            "feeNote": "停车不另收费，但进入国家公园需有效 Parks Pass",
+            "capacity": null,
+            "surface": null,
+            "note": "停车位靠近海湾、野餐桌、电烧烤和厕所；营地与日间停车不是同一用途，勿占用已分配营位。"
+          }
+        ],
+        "rules": [
+          "进入 Freycinet National Park 必须持有效 Parks Pass。",
+          "日间停车不要占用露营预订位或阻挡内部道路。",
+          "海湾有水龙头，但国家公园饮用水稀缺，建议在 Visitor Centre 补满饮水。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania — Freycinet National Park",
+            "url": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park"
+          },
+          {
+            "label": "Honeymoon Bay GPS",
+            "url": "https://caravanparkphotos.com.au/freycinet_honeymoon/index.htm"
+          }
+        ]
       }
     },
     {
@@ -3338,6 +5411,99 @@
             "url": "https://bichenopenguintours.com.au/make-a-booking"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "7-17°C",
+        "granularity": "nearby",
+        "basis": "比舍诺（Bicheno）",
+        "note": "",
+        "dayAdvisory": "上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "报到点位于 Bicheno 镇中心，附近有 pizza、海鲜和咖啡；应在黄昏团集合前留足用餐时间。",
+        "restaurants": [
+          {
+            "name": "Food 'n' Brew Co",
+            "nameEn": "Food 'n' Brew Co",
+            "lat": -41.875283,
+            "lng": 148.303538,
+            "rating": 4.4,
+            "ratingCount": 2332,
+            "ratingSource": "Google 地图（Menuweb 页面汇总）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "与 Penguin Tours 同在 70 Burgess Street，步行即到",
+            "priceLevel": null,
+            "cuisine": "木烤 pizza、现代澳式餐与咖啡",
+            "recommended": "官网主打 woodfired pizza、fresh catches、塔州食材、craft beer 和 wine；可堂食或外带，适合企鹅团前提前吃晚餐。",
+            "hours": "每日午餐与晚餐 12:00–19:30；周末早餐 08:30–11:30",
+            "sourceUrl": "https://foodbrew.com.au/"
+          },
+          {
+            "name": "Lobster Shack Tasmania",
+            "nameEn": "Lobster Shack Tasmania",
+            "lat": -41.87458,
+            "lng": 148.310715,
+            "rating": 4.3,
+            "ratingCount": null,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Penguin Tours 约 800 米，位于 The Gulch 海边",
+            "priceLevel": "公开游记估算约 A$30/人，价格以现场菜单为准",
+            "cuisine": "Southern Rock Lobster 与本地海鲜",
+            "recommended": "官网明确以 Southern Rock Lobster 为主角；公开到访资料推荐 lobster roll、oysters 和 prawns，适合较早吃海鲜晚餐。",
+            "hours": "每日约 11:00–19:00；以官网当天信息为准",
+            "sourceUrl": "https://lobstershacktasmania.com.au/"
+          },
+          {
+            "name": "The Pondering Frog",
+            "nameEn": "The Pondering Frog",
+            "lat": -41.8275,
+            "lng": 148.2705,
+            "rating": 4.5,
+            "ratingCount": 593,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Bicheno 镇中心约 6 公里，需驾车",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、甜点与冰淇淋",
+            "recommended": "公开评论多提到冰淇淋、甜点与公路停靠体验，适合白天进镇前补给；不适合在企鹅团临近集合时再往返。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Pondering-Frog-Bicheno"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Bicheno Penguin Tours 店外有充足免费停车，集合后由旅游车送往私人企鹅栖息地。",
+        "lots": [
+          {
+            "name": "Bicheno Penguin Tours Car Park",
+            "nameEn": "Bicheno Penguin Tours Car Park",
+            "lat": -41.875162,
+            "lng": 148.303386,
+            "fee": "free",
+            "feeNote": "游客免费",
+            "capacity": "官网称有充足车位，未公布数量",
+            "surface": "沥青",
+            "note": "停车在 70 Burgess Street 店外；报到后乘小巴前往私人 rookery，不需自己驾车去观企鹅点。"
+          }
+        ],
+        "rules": [
+          "团次在黄昏出发，具体集合时间以预订确认为准。",
+          "车辆留在店外停车区，游客乘官方小巴前往企鹅栖息地。",
+          "夜间离场时注意 Burgess Street 行人和野生动物。"
+        ],
+        "sources": [
+          {
+            "label": "Bicheno Penguin Tours FAQ",
+            "url": "https://bichenopenguintours.com.au/faqs"
+          },
+          {
+            "label": "Bicheno Penguin Tours Contact",
+            "url": "https://bichenopenguintours.com.au/contact-us"
+          }
+        ]
       }
     },
     {
@@ -3376,6 +5542,99 @@
           "出发前一天复查BOM、Freycinet步道警报及企鹅票面时间。"
         ],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "6-17°C",
+        "granularity": "place",
+        "basis": "朗塞斯顿（Launceston）",
+        "note": "",
+        "dayAdvisory": "上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "lodging",
+      "food": {
+        "summary": "CBD 餐饮选择丰富，以下三家均在中心区，晚餐热门时段建议预约。",
+        "restaurants": [
+          {
+            "name": "Kosaten Launceston",
+            "nameEn": "Kosaten Launceston",
+            "lat": -41.444292,
+            "lng": 147.141651,
+            "rating": 4.6,
+            "ratingCount": 510,
+            "ratingSource": "Google 地图（Sluurpy 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Launceston CBD，距市中心约 1.5 公里",
+            "priceLevel": null,
+            "cuisine": "日式料理与寿司",
+            "recommended": "公开 Google 评论常提到 Japanese fried chicken、marinated lamb、Volcano sushi roll 以及 matcha desserts；通过平板点单并由轨道送餐。",
+            "hours": null,
+            "sourceUrl": "https://www.sluurpy.com/en/launceston/restaurant/4604447/kosaten-launceston"
+          },
+          {
+            "name": "Black Cow Bistro",
+            "nameEn": "Black Cow Bistro",
+            "lat": -41.435381,
+            "lng": 147.139618,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 70 George Street，CBD 步行可达",
+            "priceLevel": null,
+            "cuisine": "塔州牛排与本地食材",
+            "recommended": "官网主打 dry-aged、free-range、grass-fed Tasmanian beef，牛排可选 eye fillet、scotch、rib eye、porterhouse 和 rump，并配 Tamar Valley 葡萄酒。",
+            "hours": "晚餐为主；具体时段以官网预订页为准",
+            "sourceUrl": "https://blackcowbistro.com.au/menus/"
+          },
+          {
+            "name": "Cataract on Paterson",
+            "nameEn": "Cataract on Paterson",
+            "lat": -41.440361,
+            "lng": 147.131007,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 135 Paterson Street，CBD 西侧",
+            "priceLevel": null,
+            "cuisine": "现代澳大利亚菜、牛排与海鲜",
+            "recommended": "官方旅游页特别推荐 seafood platter 和 400°C volcanic stone 上桌自煎的 Stonegrill 牛排，也有 vegan 与 vegetarian 选项。",
+            "hours": "每日晚餐 17:00 起",
+            "sourceUrl": "https://visitnortherntasmania.com.au/eat-and-drink/cataract-on-paterson"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Launceston CBD 有路边咪表和市营停车场；费率、限时及免费时段因停车场而异。",
+        "lots": [
+          {
+            "name": "Bathurst Street Car Park",
+            "nameEn": "Bathurst Street Car Park",
+            "lat": -41.4389,
+            "lng": 147.1345,
+            "fee": "paid",
+            "feeNote": "市政页面公布工作日/周六收费，周日及公共假日免费；实时费率以现场机器为准",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "适合 CBD 日间或晚间停车；不同日期与时段费率不同，进场先看机器和标志。"
+          }
+        ],
+        "rules": [
+          "路边和场内停车均需按具体区域的限时与收费标志执行，不能用全市统一时段推断。",
+          "市中心停车机器接受 card 和 cash，也可使用 EasyPark app。",
+          "多处市营停车场周日及公共假日免费，但仍须检查入口标志；住宅街停车需保留至少 3 米通行宽度。"
+        ],
+        "sources": [
+          {
+            "label": "City of Launceston — Parking Locations and Fees",
+            "url": "https://www.launceston.tas.gov.au/Roads-and-Parking/Parking/Parking-Locations-and-Fees"
+          },
+          {
+            "label": "City of Launceston — Parking",
+            "url": "https://www.launceston.tas.gov.au/Roads-and-Parking/Parking"
+          }
+        ]
       }
     },
     {
@@ -3432,6 +5691,78 @@
           {
             "label": "官方预订",
             "url": "https://bookeo.com/platypus"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "6-17°C",
+        "granularity": "nearby",
+        "basis": "美丽角（Beauty Point）",
+        "note": "",
+        "dayAdvisory": "雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "景点自带简餐咖啡，向南约 300 米的 The River Cafe 是这一带更完整的早餐、午餐选择。",
+        "restaurants": [
+          {
+            "name": "The River Cafe",
+            "nameEn": "The River Cafe",
+            "lat": -41.1487181,
+            "lng": 146.8190815,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Platypus House 约 500 米",
+            "priceLevel": "人均约 A$20-35",
+            "cuisine": "咖啡馆、塔州海鲜",
+            "recommended": "官网明确主打本地野生捕捞塔州海鲜，并供应早餐、午餐、咖啡及自制蛋糕甜点。需要正餐时优先于景点内简餐。",
+            "hours": "每日早餐及午餐时段营业；出发前以官网当日信息为准",
+            "sourceUrl": "https://www.therivercafe.com.au/"
+          },
+          {
+            "name": "Platypus House Cafe",
+            "nameEn": "Platypus House Cafe",
+            "lat": -41.1505521,
+            "lng": 146.824258,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Platypus House 内",
+            "priceLevel": "简餐约 A$8-20",
+            "cuisine": "咖啡、简餐",
+            "recommended": "官方旅游资料确认现场有 Cafe 与 Food and Refreshments，适合参观前后喝咖啡或简单补给。公开资料未提供稳定菜单，不把它当作完整正餐保证。",
+            "hours": null,
+            "sourceUrl": "https://www.spiritoftasmania.com.au/things-to-do/platypus-house/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "景点设免费自有停车区，可停小客车及教练车。",
+        "lots": [
+          {
+            "name": "Platypus House 停车场",
+            "nameEn": "Platypus House Car Park",
+            "lat": -41.1505521,
+            "lng": 146.824258,
+            "fee": "free",
+            "feeNote": "景点配套停车，官方资料未列收费",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "官方设施列表明确包含 Carpark 与 Coach Parking；按现场标线停放，不占用旅游大巴车位。"
+          }
+        ],
+        "rules": [
+          "停车仅用于参观期间，容量及限时未在官方页面公开。",
+          "大型房车应先向景点确认能否使用 Coach Parking。"
+        ],
+        "sources": [
+          {
+            "label": "Spirit of Tasmania：Platypus House 设施",
+            "url": "https://www.spiritoftasmania.com.au/things-to-do/platypus-house/"
           }
         ]
       }
@@ -3493,6 +5824,90 @@
             "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/cradle-mountain-shuttle-bus-information"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "0-10°C",
+        "granularity": "place",
+        "basis": "Dove Lake（鸽子湖）",
+        "note": "",
+        "dayAdvisory": "雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "Dove Lake 湖边无餐饮，必须在游客中心或 Cradle Valley 提前买好食物并随身带走垃圾。",
+        "restaurants": [
+          {
+            "name": "Elements Cafe",
+            "nameEn": "Elements Cafe",
+            "lat": -41.5956589,
+            "lng": 145.9311414,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于游客中心，距 Dove Lake 约 8 公里，需在上接驳车前购买",
+            "priceLevel": "简餐约 A$10-25",
+            "cuisine": "咖啡、三明治、卷饼、派和外带简餐",
+            "recommended": "当地餐饮指南列明可买咖啡、三明治、卷饼、派、汉堡、蛋糕及外带零食。进入园区前购买午餐最稳妥，Dove Lake 没有售餐点。",
+            "hours": null,
+            "sourceUrl": "https://www.cradlemountaintour.com/dining-cradle-mountain"
+          },
+          {
+            "name": "Tavern Bar & Bistro",
+            "nameEn": "Tavern Bar & Bistro",
+            "lat": -41.5950197,
+            "lng": 145.9277969,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Dove Lake 约 8 公里，位于 Cradle Mountain Lodge",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "澳式酒馆餐",
+            "recommended": "官网确认供应午餐和晚餐的 bistro-style meals；当地指南明确提到 pizza、burger 与本地啤酒。只接受现场排队，旺季可能等位。",
+            "hours": "每日 12:00 至较晚时段",
+            "sourceUrl": "https://www.cradlemountainlodge.com.au/food-and-wine/tavern-bar-bistro/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "接驳车运营时应把车停在游客中心；Dove Lake 仅在接驳车停运时开放极少量私家车位。",
+        "lots": [
+          {
+            "name": "Dove Lake 停车区",
+            "nameEn": "Dove Lake Parking Area",
+            "lat": -41.6604066,
+            "lng": 145.9614099,
+            "fee": "mixed",
+            "feeNote": "停车区本身未单列收费，但进入国家公园需有效 Parks Pass，接驳票另按当期政策",
+            "capacity": "9 个普通私家车位、1 个无障碍车位",
+            "surface": "沥青",
+            "note": "只在接驳车运营时间之外允许有限私家车进入；运营时从游客中心换乘，不能把这 10 个车位作为白天自驾方案。"
+          },
+          {
+            "name": "Cradle Mountain Visitor Centre 停车场",
+            "nameEn": "Cradle Mountain Visitor Centre Car Park",
+            "lat": -41.5956589,
+            "lng": 145.9311414,
+            "fee": "mixed",
+            "feeNote": "停车未单列收费；须持 Parks Pass 并办理接驳票",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "白天游 Dove Lake 的标准停车点；先验证 Parks Pass，再领取或购买接驳票。"
+          }
+        ],
+        "rules": [
+          "接驳车每日运营，季节时刻会变；出发前向游客中心确认当日首末班。",
+          "搭乘接驳车必须同时持有效 Parks Pass 与接驳票；Cradle Mountain Day Icon pass 已含接驳。",
+          "Dove Lake 没有餐饮服务，应自带食物并把垃圾带走。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania：Dove Lake 与接驳车",
+            "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/dove-lake"
+          }
+        ]
       }
     },
     {
@@ -3529,6 +5944,79 @@
           {
             "label": "官方接驳说明",
             "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/cradle-mountain-shuttle-bus-information"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "0-10°C",
+        "granularity": "nearby",
+        "basis": "Dove Lake（鸽子湖）",
+        "note": "",
+        "dayAdvisory": "雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "Ronny Creek 只有野餐桌、没有售餐点，应从游客中心带好水和午餐。",
+        "restaurants": [
+          {
+            "name": "Elements Cafe",
+            "nameEn": "Elements Cafe",
+            "lat": -41.5956589,
+            "lng": 145.9311414,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Ronny Creek 约 7 公里，位于接驳车起点",
+            "priceLevel": "简餐约 A$10-25",
+            "cuisine": "咖啡、三明治、派、外带简餐",
+            "recommended": "上接驳车前购买三明治、卷饼或派；这是带进 Ronny Creek 最实际的午餐方案。园内野餐区没有餐饮柜台。",
+            "hours": null,
+            "sourceUrl": "https://www.cradlemountaintour.com/dining-cradle-mountain"
+          },
+          {
+            "name": "Highland Restaurant",
+            "nameEn": "Highland Restaurant",
+            "lat": -41.5950197,
+            "lng": 145.9277969,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Ronny Creek 约 7 公里，返回 Cradle Valley 后用餐",
+            "priceLevel": "人均约 A$60-100",
+            "cuisine": "现代塔州料理",
+            "recommended": "官网说明菜单随季节变化，重点使用塔州本地食材并搭配当地葡萄酒。座位有限，晚餐建议预订，不适合作为步道途中补给。",
+            "hours": "早餐每日 07:00-10:00；晚餐每日 17:30 起",
+            "sourceUrl": "https://www.cradlemountainlodge.com.au/food-and-wine/highland-restaurant/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "接驳车运营时从游客中心乘车到 Ronny Creek；现场停车非常有限。",
+        "lots": [
+          {
+            "name": "Ronny Creek 停车区",
+            "nameEn": "Ronny Creek Parking Area",
+            "lat": -41.6461659,
+            "lng": 145.9358631,
+            "fee": "mixed",
+            "feeNote": "停车未单列收费，但国家公园通行及接驳受 Parks Pass 规则约束",
+            "capacity": "有限，官方未公布具体数量",
+            "surface": "沥青",
+            "note": "Parks Tasmania 明确称 Ronny Creek 停车有限；白天以游客中心接驳为准，不应依赖现场抢位。"
+          }
+        ],
+        "rules": [
+          "接驳路线依次停 Ranger Station、Snake Hill、Ronny Creek 和 Dove Lake。",
+          "接驳运营时间受季节及天气影响，应在游客中心确认末班车。",
+          "野餐桌可用，但没有售餐服务。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania：Cradle Mountain 接驳与停车",
+            "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/dove-lake"
           }
         ]
       }
@@ -3580,6 +6068,78 @@
           {
             "label": "官方场次与订票",
             "url": "https://devilsatcradle.com/admission-tours/"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "0-10°C",
+        "granularity": "nearby",
+        "basis": "Cradle Mountain（摇篮山）",
+        "note": "",
+        "dayAdvisory": "雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "保护园附近没有独立餐饮街，最近可靠选择集中在游客中心和两家 lodge。",
+        "restaurants": [
+          {
+            "name": "Tavern Bar & Bistro",
+            "nameEn": "Tavern Bar & Bistro",
+            "lat": -41.5950197,
+            "lng": 145.9277969,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距保护园约 300 米",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "澳式酒馆餐",
+            "recommended": "适合参观后吃 pizza、burger 等较轻松的酒馆餐；官网确认午晚餐每日供应。walk-in 制，不能预订。",
+            "hours": "每日 12:00 至较晚时段",
+            "sourceUrl": "https://www.cradlemountainlodge.com.au/food-and-wine/tavern-bar-bistro/"
+          },
+          {
+            "name": "Hellyers Restaurant",
+            "nameEn": "Hellyers Restaurant",
+            "lat": -41.5809381,
+            "lng": 145.9374751,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距保护园约 2 公里",
+            "priceLevel": "人均约 A$40-70",
+            "cuisine": "塔州食材料理",
+            "recommended": "官网说明使用特色塔州食材，并搭配塔州葡萄酒、威士忌和烈酒。晚餐座位少，在线预订是明确要求。",
+            "hours": "晚餐 17:00-19:30 最后入座；外带 17:00-19:00，视供应而定",
+            "sourceUrl": "https://www.discoveryholidayparks.com.au/resorts/cradle-mountain/dining"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "保护园设访客停车区，和 Dove Lake 园内道路的接驳限制不是同一停车点。",
+        "lots": [
+          {
+            "name": "Devils at Cradle 访客停车区",
+            "nameEn": "Devils at Cradle Visitor Parking",
+            "lat": -41.595,
+            "lng": 145.93,
+            "fee": "unknown",
+            "feeNote": "公开检索资料未找到独立停车收费说明",
+            "capacity": null,
+            "surface": null,
+            "note": "仅按保护园现场标识停车；不要误入 Cradle Mountain Lodge 住客车位。"
+          }
+        ],
+        "rules": [
+          "若同日游 Dove Lake，仍应另把车停到游客中心并按接驳规则换乘。",
+          "晚间参观结束后道路较暗，取车时注意野生动物。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania：Dove Lake 车辆限制边界",
+            "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/dove-lake"
           }
         ]
       }
@@ -3638,6 +6198,79 @@
             "url": "https://book.spiritoftasmania.com.au/"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "0-10°C",
+        "granularity": "place",
+        "basis": "Cradle Mountain（摇篮山）",
+        "note": "",
+        "dayAdvisory": "下山路可能有雾、雨和野生动物；登船前复查道路、海况与官方短信，晕船药按说明提前服",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "游客中心适合买外带午餐；若要正式晚餐，附近 lodge 选择有限且旺季应预订。",
+        "restaurants": [
+          {
+            "name": "Elements Cafe",
+            "nameEn": "Elements Cafe",
+            "lat": -41.5956589,
+            "lng": 145.9311414,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于游客中心内",
+            "priceLevel": "简餐约 A$10-25",
+            "cuisine": "咖啡、三明治、卷饼、派、汉堡",
+            "recommended": "适合搭接驳前买咖啡、三明治、卷饼、派和零食。当地指南明确建议日游客在这里先买外带午餐。",
+            "hours": null,
+            "sourceUrl": "https://www.cradlemountaintour.com/dining-cradle-mountain"
+          },
+          {
+            "name": "Highland Restaurant",
+            "nameEn": "Highland Restaurant",
+            "lat": -41.5950197,
+            "lng": 145.9277969,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距游客中心约 300 米",
+            "priceLevel": "人均约 A$60-100",
+            "cuisine": "现代塔州料理",
+            "recommended": "主打季节性塔州食材与本地葡萄酒，适合作为徒步后的正式晚餐。官网提示座位有限并建议预订。",
+            "hours": "早餐每日 07:00-10:00；晚餐每日 17:30 起",
+            "sourceUrl": "https://www.cradlemountainlodge.com.au/food-and-wine/highland-restaurant/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "这是白天进入 Dove Lake/Ronny Creek 的主要停车和强制换乘点。",
+        "lots": [
+          {
+            "name": "Cradle Mountain Visitor Centre 停车场",
+            "nameEn": "Cradle Mountain Visitor Centre Car Park",
+            "lat": -41.5956589,
+            "lng": 145.9311414,
+            "fee": "mixed",
+            "feeNote": "停车未单列收费；进入公园需 Parks Pass，接驳票按所持通票类型处理",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "停车后在游客中心验证 Parks Pass、安排接驳票。房车应服从现场长车位与工作人员指引。"
+          }
+        ],
+        "rules": [
+          "所有访客应先在游客中心停车、验证 Parks Pass 并办理接驳票。",
+          "接驳运营时私家车不能依赖进入 Dove Lake；仅停运时有 9 个普通车位和 1 个无障碍位。",
+          "天气会影响道路与接驳时间，务必现场确认。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania：Dove Lake 与 Visitor Centre",
+            "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/dove-lake"
+          }
+        ]
       }
     },
     {
@@ -3667,6 +6300,94 @@
         "highlights": [],
         "weather": [],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "7-16°C",
+        "granularity": "nearby",
+        "basis": "德文波特（Devonport）",
+        "note": "",
+        "dayAdvisory": "下山路可能有雾、雨和野生动物；登船前复查道路、海况与官方短信，晕船药按说明提前服",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "transport",
+      "food": {
+        "summary": "码头有候船 Cafe，但更完整的早午餐和晚餐要过河到 Devonport 市区，预留约 10 分钟车程。",
+        "restaurants": [
+          {
+            "name": "Drift Cafe Restaurant",
+            "nameEn": "Drift Cafe Restaurant",
+            "lat": -41.1622119,
+            "lng": 146.3556951,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距码头约 4 公里，驾车约 8-10 分钟",
+            "priceLevel": "人均约 A$20-35",
+            "cuisine": "早餐、早午餐、炸鱼薯条",
+            "recommended": "官网确认使用塔州本地食材，供应全天早餐、早午餐、午餐及外带 Fish + Chips。适合白天航班前后，但不要压缩到关闭登船前。",
+            "hours": "每日 06:30-16:00；15:00 后仅外带",
+            "sourceUrl": "https://www.driftdevonport.com/"
+          },
+          {
+            "name": "Mrs Jones Restaurant Bar Lounge",
+            "nameEn": "Mrs Jones Restaurant Bar Lounge",
+            "lat": -41.1661117,
+            "lng": 146.3620644,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距码头约 4 公里，驾车约 8-10 分钟",
+            "priceLevel": "人均约 A$40-70",
+            "cuisine": "现代澳洲料理",
+            "recommended": "官方旅游资料称菜单使用新鲜时令食材和塔州供应商产品，并搭配塔州葡萄酒、烈酒、啤酒与 cider。适合时间宽裕的午晚餐。",
+            "hours": null,
+            "sourceUrl": "https://www.spiritoftasmania.com.au/things-to-do/mrs-jones-restaurant-bar-lounge/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "码头有免费但有限的乘客停车与上下客区域，不应视为跨夜长期存车场。",
+        "lots": [
+          {
+            "name": "Spirit of Tasmania Devonport Terminal 乘客停车区",
+            "nameEn": "Spirit of Tasmania Devonport Terminal Passenger Parking",
+            "lat": -41.18,
+            "lng": 146.365,
+            "fee": "free",
+            "feeNote": "官网明确 Devonport terminal 提供免费停车，但数量有限",
+            "capacity": "有限，未公布数量",
+            "surface": "沥青",
+            "note": "仅供乘客短时使用；街边车位也有限。车辆登船应按 Passenger Vehicles 指示进入 check-in 与 marshalling yard。"
+          },
+          {
+            "name": "Devonport Terminal 接送区",
+            "nameEn": "Devonport Terminal Drop-off / Pick-up Zone",
+            "lat": -41.18,
+            "lng": 146.365,
+            "fee": "free",
+            "feeNote": "短时接送区",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "只作接送，不可留车候船或过夜。车辆旅客 check-in 通常在开航前 1.5-2.5 小时开放，并于开航前 45 分钟严格关闭。"
+          }
+        ],
+        "rules": [
+          "官网只确认 limited parking，不承诺长期存车；跨夜离车应另找有明确长期条款的停车设施。",
+          "进入 marshalling yard 后按广播返回车辆，并记住登船后的车辆甲板位置。",
+          "码头周边街边停车有限，不要把街位当作赶船备选。"
+        ],
+        "sources": [
+          {
+            "label": "Spirit of Tasmania：Terminal Information",
+            "url": "https://www.spiritoftasmania.com.au/before-you-sail/terminal-information/"
+          },
+          {
+            "label": "Spirit of Tasmania：Boarding with your vehicle",
+            "url": "https://www.spiritoftasmania.com.au/before-you-sail/boarding-with-your-vehicle/"
+          }
+        ]
       }
     },
     {
@@ -3676,7 +6397,7 @@
       "day": 11,
       "date": "2026-10-04",
       "status": "visit",
-      "order_in_day": 1,
+      "order_in_day": 2,
       "highlights": "开阔沙滩和Surf Coast海风，夜航后恢复站。",
       "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
       "duration": "约40分钟",
@@ -3690,7 +6411,7 @@
         "practical": "疲劳时可删减。"
       },
       "links": [],
-      "sequence": 1,
+      "sequence": 2,
       "dayInfo": {
         "booking": [],
         "highlights": [
@@ -3699,6 +6420,78 @@
         ],
         "weather": [],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "8-18°C",
+        "granularity": "nearby",
+        "basis": "安格尔西（Anglesea）",
+        "note": "",
+        "dayAdvisory": "Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "Anglesea 镇中心距海滩很近，适合先停车步行吃饭，旺季晚餐应预留排队时间。",
+        "restaurants": [
+          {
+            "name": "Morgan's Bar & Grill",
+            "nameEn": "Morgan's Bar & Grill",
+            "lat": -38.404615,
+            "lng": 144.1899538,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Anglesea Beach 约 500 米",
+            "priceLevel": "人均约 A$20-40",
+            "cuisine": "汉堡、牛排、早午餐",
+            "recommended": "官网主打 specialty coffee、milkshake、brunch、精酿啤酒和海岸风格汉堡；当地指南称汉堡选择多，也有无麸质选项。",
+            "hours": null,
+            "sourceUrl": "https://www.morgansbarandgrill.com.au/"
+          },
+          {
+            "name": "A la grecque",
+            "nameEn": "A la grecque",
+            "lat": -38.46513,
+            "lng": 144.09901,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Anglesea Beach 约 10 公里，位于 Aireys Inlet",
+            "priceLevel": "人均约 A$40-70",
+            "cuisine": "现代希腊菜",
+            "recommended": "Anglesea 官方餐饮页面明确介绍其现代希腊料理。适合作为继续向西前往 Aireys Inlet 时的正餐，而不是从海滩步行前往。",
+            "hours": null,
+            "sourceUrl": "https://www.anglesea.com.au/food-and-wine/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "海滩周边以免费海滨和街边车位为主，夏季周末很快满位。",
+        "lots": [
+          {
+            "name": "Anglesea Beach 海滨停车区",
+            "nameEn": "Anglesea Beach Foreshore Parking",
+            "lat": -38.406,
+            "lng": 144.185,
+            "fee": "free",
+            "feeNote": "公开资料未显示常设收费；以现场限时牌为准",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "旺季和冲浪活动时优先留给海滩访客；大型房车不要占多个普通车位。"
+          }
+        ],
+        "rules": [
+          "必须遵守现场时限、无障碍位和禁止停车标志。",
+          "夏季周末建议早到，满位后到镇内合法街位步行，不要停上沙地或草地。"
+        ],
+        "sources": [
+          {
+            "label": "Anglesea 官方地区网站",
+            "url": "https://www.anglesea.com.au/"
+          }
+        ]
       }
     },
     {
@@ -3708,7 +6501,7 @@
       "day": 11,
       "date": "2026-10-04",
       "status": "visit",
-      "order_in_day": 2,
+      "order_in_day": 3,
       "highlights": "红色塔顶、白色塔身与鹰岩海岸；外围观景步道即可。",
       "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
       "duration": "约40分钟",
@@ -3722,7 +6515,7 @@
         "practical": "不把登塔导览设为硬任务。"
       },
       "links": [],
-      "sequence": 2,
+      "sequence": 3,
       "dayInfo": {
         "booking": [
           "Split Point Lighthouse（小红帽灯塔）只有进入灯塔内部参加导览才需另行购票；",
@@ -3740,6 +6533,78 @@
             "url": "https://splitpointlighthouse.com.au/"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "8-18°C",
+        "granularity": "nearby",
+        "basis": "Aireys Inlet（艾瑞斯湾）",
+        "note": "",
+        "dayAdvisory": "Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "灯塔步道旁就有 Tea Rooms；更完整的晚餐可到 Great Ocean Road 镇中心餐厅。",
+        "restaurants": [
+          {
+            "name": "The Lighthouse Tea Rooms",
+            "nameEn": "The Lighthouse Tea Rooms",
+            "lat": -38.4671213,
+            "lng": 144.1049235,
+            "rating": 4.3,
+            "ratingCount": 184,
+            "ratingSource": "Google 地图（由 Restaurant Guru 页面转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Split Point Lighthouse 步行约 200 米",
+            "priceLevel": "人均约 A$10-30",
+            "cuisine": "澳式、法式咖啡馆",
+            "recommended": "评论资料反复提到 scones 配果酱和奶油、Reuben sandwich、培根卷及 milkshake。适合灯塔参观前后吃轻食，周末会忙。",
+            "hours": "页面列示每日 09:00-16:00；出发前再核对",
+            "sourceUrl": "https://restaurantguru.com/Lighthouse-Stables-and-Cafe-Aireys-Inlet"
+          },
+          {
+            "name": "The Captain of Aireys",
+            "nameEn": "The Captain of Aireys",
+            "lat": -38.4651306,
+            "lng": 144.0990102,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距灯塔约 700 米",
+            "priceLevel": "人均约 A$20-40",
+            "cuisine": "木火披萨",
+            "recommended": "大洋路官方旅游页面明确介绍手工拉伸、木火烘烤 pizza，并使用新鲜本地食材。适合家庭分享，较 Tea Rooms 更接近正餐。",
+            "hours": "官方旅游页面称每日营业；具体时段以店家为准",
+            "sourceUrl": "https://www.visitgreatoceanroad.org.au/iamaireysinlet/eat-drink/aireys-inlet-for-foodies/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "灯塔没有大型集中停车楼，主要使用 Federal Street 一带合法街边位后步行上去。",
+        "lots": [
+          {
+            "name": "Split Point Lighthouse / Federal Street 路侧停车区",
+            "nameEn": "Split Point Lighthouse Federal Street Parking",
+            "lat": -38.4671213,
+            "lng": 144.1049235,
+            "fee": "free",
+            "feeNote": "免费街边停车；以现场限时牌为准",
+            "capacity": "少量路侧车位",
+            "surface": "沥青",
+            "note": "从 Tea Rooms 附近步行到灯塔；不要堵住居民车道，旺季满位时回镇中心合法停车。"
+          }
+        ],
+        "rules": [
+          "Aireys Inlet 免费街边位在夏季周末会很快满。",
+          "只停有标线或明确允许的路段，不在弯道、居民出入口或步道入口临停。"
+        ],
+        "sources": [
+          {
+            "label": "Aireys Inlet 游览与停车提示",
+            "url": "https://thewanderbug.com/aireys-inlet-great-ocean-road/"
+          }
+        ]
       }
     },
     {
@@ -3749,7 +6614,7 @@
       "day": 11,
       "date": "2026-10-04",
       "status": "visit",
-      "order_in_day": 3,
+      "order_in_day": 4,
       "highlights": "纪念一战归国军人修建大洋路；理解道路作为战争纪念工程的历史。",
       "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
       "duration": "约20分钟",
@@ -3763,7 +6628,7 @@
         "practical": "正式停车区短停拍照。"
       },
       "links": [],
-      "sequence": 3,
+      "sequence": 4,
       "dayInfo": {
         "booking": [],
         "highlights": [
@@ -3771,6 +6636,83 @@
         ],
         "weather": [],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "8-18°C",
+        "granularity": "nearby",
+        "basis": "Aireys Inlet（艾瑞斯湾）",
+        "note": "",
+        "dayAdvisory": "Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "拱门本身没有餐饮；东侧回 Aireys Inlet 约 6 公里，西侧到 Lorne 约 15 公里。",
+        "restaurants": [
+          {
+            "name": "The Captain of Aireys",
+            "nameEn": "The Captain of Aireys",
+            "lat": -38.4651306,
+            "lng": 144.0990102,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Memorial Arch 约 6 公里，向东回 Aireys Inlet",
+            "priceLevel": "人均约 A$20-40",
+            "cuisine": "木火披萨",
+            "recommended": "官方旅游页面主推手工木火 pizza 和本地食材，适合家庭快速解决正餐。拱门没有餐饮，需专程驾车前往。",
+            "hours": "官方旅游页面称每日营业；具体时段以店家为准",
+            "sourceUrl": "https://www.visitgreatoceanroad.org.au/iamaireysinlet/eat-drink/aireys-inlet-for-foodies/"
+          },
+          {
+            "name": "Totti's Lorne",
+            "nameEn": "Totti's Lorne",
+            "lat": -38.5430178,
+            "lng": 143.9759497,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Memorial Arch 约 15 公里，继续向西到 Lorne",
+            "priceLevel": "人均约 A$45-80",
+            "cuisine": "意大利菜",
+            "recommended": "官网明确推荐 lobster pasta、wood-grilled King George whiting、Apollo Bay calamari、手工 pasta 与 tiramisu。适合继续西行后在 Lorne 正式用餐。",
+            "hours": "周一及周四至周日 12:00-22:00；当前官网未列周二、周三",
+            "sourceUrl": "https://merivale.com/venues/tottis-lorne/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "只有海侧免费 pull-off 短停区，不是大型正式停车场；高速车流旁下车必须特别小心。",
+        "lots": [
+          {
+            "name": "Memorial Arch 海侧短停区",
+            "nameEn": "Memorial Arch Ocean-side Pull-off",
+            "lat": -38.4719983,
+            "lng": 144.0446881,
+            "fee": "free",
+            "feeNote": "免费短停",
+            "capacity": "约 25 辆小客车，另有少量 coach bay",
+            "surface": "沥青",
+            "note": "入口紧邻拱门弯道，提前减速并只从海侧入口驶入；适合 10-15 分钟拍照，不宜久停。"
+          }
+        ],
+        "rules": [
+          "不要穿越车道或走到拱门正下方拍照，该处无行人过街设施且车辆速度高。",
+          "周末满位时继续前行，不得在 Great Ocean Road 车道边随意停车。",
+          "现场无厕所，最近设施在 Aireys Inlet 方向约 4-6 公里。"
+        ],
+        "sources": [
+          {
+            "label": "Great Ocean Road Authority：Eastern View 安全提醒",
+            "url": "https://www.greatoceanroadauthority.vic.gov.au/Environment/Coastal-Operations/Coastal-Reserves/Eastern-View"
+          },
+          {
+            "label": "GreatOceanRoad.com：Memorial Arch 停车",
+            "url": "https://greatoceanroad.com.au/memorial-arch/"
+          }
+        ]
       }
     },
     {
@@ -3780,7 +6722,7 @@
       "day": 11,
       "date": "2026-10-04",
       "status": "visit",
-      "order_in_day": 4,
+      "order_in_day": 5,
       "highlights": "俯瞰大洋路贴着海崖转弯、圣乔治河汇入海湾的经典视角。",
       "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
       "duration": "约30分钟",
@@ -3794,7 +6736,7 @@
         "practical": "本日最经典高位全景。"
       },
       "links": [],
-      "sequence": 4,
+      "sequence": 5,
       "dayInfo": {
         "booking": [],
         "highlights": [
@@ -3803,6 +6745,83 @@
         ],
         "weather": [],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "8-18°C",
+        "granularity": "nearby",
+        "basis": "洛恩（Lorne）",
+        "note": "",
+        "dayAdvisory": "Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "观景台无餐饮，驾车约 5 分钟回 Lorne 海滨主街用餐。",
+        "restaurants": [
+          {
+            "name": "Totti's Lorne",
+            "nameEn": "Totti's Lorne",
+            "lat": -38.5430178,
+            "lng": 143.9759497,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Teddy's Lookout 约 2 公里",
+            "priceLevel": "人均约 A$45-80",
+            "cuisine": "意大利菜",
+            "recommended": "官网菜单亮点包括 lobster pasta、木烤 King George whiting、Apollo Bay calamari、woodfired bread 和 tiramisu。热门时段建议预订。",
+            "hours": "周一及周四至周日 12:00-22:00；当前官网未列周二、周三",
+            "sourceUrl": "https://merivale.com/venues/tottis-lorne/"
+          },
+          {
+            "name": "Lorne Hotel Bistro & Beer Garden",
+            "nameEn": "Lorne Hotel Bistro & Beer Garden",
+            "lat": -38.5430178,
+            "lng": 143.9759497,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Teddy's Lookout 约 2 公里",
+            "priceLevel": "人均约 A$25-50",
+            "cuisine": "澳式酒馆餐",
+            "recommended": "官网列出 schnitzel、burger、季节性 curry 和新鲜 seafood，价格和氛围比同址 Totti's 更休闲。可在 beer garden 看海。",
+            "hours": null,
+            "sourceUrl": "https://merivale.com/venues/lorne-hotel/bistro-beer-garden/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "George Street 尽头有小型免费停车区，步行数百米到观景台；不适合大型房车和拖挂。",
+        "lots": [
+          {
+            "name": "Teddy's Lookout / Queens Park 停车区",
+            "nameEn": "Teddy's Lookout / Queens Park Car Park",
+            "lat": -38.545,
+            "lng": 143.975,
+            "fee": "free",
+            "feeNote": "免费",
+            "capacity": "小型停车区，具体车位数未公布",
+            "surface": "沥青",
+            "note": "位于 George Street 与 Francis Street 附近 rotunda；上山路段陡且窄，大型房车、拖挂应留在镇内再步行或换小车。"
+          }
+        ],
+        "rules": [
+          "观景台没有厕所或其他服务设施。",
+          "小停车区满位时不要堵塞 George Street 或居民车道。",
+          "从停车区到观景台为短步行，Queens Park 环线约 1.6 公里。"
+        ],
+        "sources": [
+          {
+            "label": "Visit Great Ocean Road：Teddy's Lookout",
+            "url": "https://visitgreatoceanroad.org.au/attractions/teddys-lookout/"
+          },
+          {
+            "label": "Visit Great Ocean Road：Queens Park Loop",
+            "url": "https://visitgreatoceanroad.org.au/inspiredbysurfcoast/5-teddys-lookout-and-queens-park-lookout-loop/"
+          }
+        ]
       }
     },
     {
@@ -3812,7 +6831,7 @@
       "day": 11,
       "date": "2026-10-04",
       "status": "visit",
-      "order_in_day": 5,
+      "order_in_day": 6,
       "highlights": "桉树林中野生考拉与王鹦鹉；午后考拉多在树上休息，不保证见到。",
       "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
       "duration": "约1小时",
@@ -3826,7 +6845,7 @@
         "practical": "不喂食、不进入私人地。"
       },
       "links": [],
-      "sequence": 5,
+      "sequence": 6,
       "dayInfo": {
         "booking": [
           "Kennett River（肯尼特河）不喂鸟、不触摸考拉、不占用居民车道；",
@@ -3842,6 +6861,84 @@
           "准备防风防水外层，驾车进入连续弯道前确认精神状态。"
         ],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "8-18°C",
+        "granularity": "place",
+        "basis": "肯尼特河（Kennett River）",
+        "note": "",
+        "dayAdvisory": "Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "Kennett River 只有一间简餐店；若未营业，最近稳定正餐在北侧 Wye River 约 5 公里。",
+        "restaurants": [
+          {
+            "name": "Kafe Koala",
+            "nameEn": "Kafe Koala",
+            "lat": -38.6675038,
+            "lng": 143.8607834,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Kennett River 主停车区旁",
+            "priceLevel": "简餐约 A$10-25",
+            "cuisine": "咖啡、外带简餐",
+            "recommended": "这是聚落内唯一便捷补给点，适合买咖啡和简单外带。公开可靠菜单不足，不能保证特定菜品或每日营业。",
+            "hours": null,
+            "sourceUrl": "https://haveyoursay.greatoceanroadauthority.vic.gov.au/kennettriver"
+          },
+          {
+            "name": "Wye Beach Hotel",
+            "nameEn": "Wye Beach Hotel",
+            "lat": -38.6359763,
+            "lng": 143.8907378,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Kennett River 约 5 公里，向北到 Wye River",
+            "priceLevel": "人均约 A$25-50",
+            "cuisine": "澳式酒馆餐",
+            "recommended": "官网强调使用本地及小型独立生产者的食材与饮品，并有海景与家庭友好环境。Kafe Koala 未营业时，这是最近较稳妥的正餐。",
+            "hours": "官网显示 11:30 起营业；结束时间按当日公告",
+            "sourceUrl": "http://www.wyebeachhotel.com.au/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "只能停 Kafe Koala 前及规划标示的正式公共区域；不得驶入居民私人土地或沿 Grey River Road 随意占道。",
+        "lots": [
+          {
+            "name": "Kafe Koala 公共停车区",
+            "nameEn": "Kafe Koala Public Parking Area",
+            "lat": -38.6675038,
+            "lng": 143.8607834,
+            "fee": "free",
+            "feeNote": "公共短停区，未查到收费",
+            "capacity": "现有容量有限；官方草案目标配置 24 辆小客车、1 辆长车、4 辆中型车及 5 辆摩托车",
+            "surface": "沥青与硬化路肩",
+            "note": "只停正式划线区域。官方容量数字来自 precinct plan 草案，2026 年现场是否全部完成需看标线；大型 coach 不应进入。"
+          }
+        ],
+        "rules": [
+          "不得进入居民私人土地、堵住住宅出入口或为找考拉擅自进入私人花园。",
+          "不要喂食、追逐、摇树或用无人机干扰野生动物；旅游机构已不再把这里宣传为保证看到考拉的地点。",
+          "停车满位就继续前往 Wye River 或 Apollo Bay，不得在 Great Ocean Road 行车道边临停。",
+          "官方 precinct plan 拟排除大型旅游 coach，并用正式车位取代 ad-hoc parking。"
+        ],
+        "sources": [
+          {
+            "label": "Great Ocean Road Authority：Kennett River precinct plan",
+            "url": "https://haveyoursay.greatoceanroadauthority.vic.gov.au/kennettriver"
+          },
+          {
+            "label": "Kennett Community Action Group：访客影响与私地闯入",
+            "url": "https://www.kennettcommunityactiongroup.com.au/news/ourinputinthecrg-tk7lx-8jbky-p65my-z2fd3"
+          }
+        ]
       }
     },
     {
@@ -3851,7 +6948,7 @@
       "day": 11,
       "date": "2026-10-04",
       "status": "visit",
-      "order_in_day": 6,
+      "order_in_day": 7,
       "highlights": "弧形海湾、渔港和Otways雨林门户；傍晚海滨散步。",
       "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
       "duration": "过夜",
@@ -3877,7 +6974,7 @@
           "url": "https://australiannationalsurfingmuseum.com.au/"
         }
       ],
-      "sequence": 6,
+      "sequence": 7,
       "dayInfo": {
         "booking": [
           "当晚Apollo Bay Holiday Park（阿波罗湾假日公园）／BIG4营位须提前预约，并取得普通轿车／SUV车内过夜同意。"
@@ -3895,6 +6992,79 @@
           {
             "label": "灯塔官方信息",
             "url": "https://splitpointlighthouse.com.au/"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "8-18°C",
+        "granularity": "place",
+        "basis": "阿波罗湾（Apollo Bay）",
+        "note": "",
+        "dayAdvisory": "Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "lodging",
+      "food": {
+        "summary": "Apollo Bay 是本段餐饮最集中处，海鲜、早餐和外带选择多；暑期晚餐热门店需提前订位或排队。",
+        "restaurants": [
+          {
+            "name": "Apollo Bay Fishermen's Co-op",
+            "nameEn": "Apollo Bay Fishermen's Co-op",
+            "lat": -38.7584451,
+            "lng": 143.6769592,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Apollo Bay 镇中心约 700 米，位于港口",
+            "priceLevel": "人均约 A$20-40",
+            "cuisine": "海鲜、炸鱼薯条",
+            "recommended": "当地指南称渔民合作社直接把当天时令鱼获做成 Fish and Chips，常见鱼种随当日捕捞变化。适合在码头野餐桌吃，不接受把某一种鱼当作固定供应。",
+            "hours": "多为下午及晚餐时段，指南称周二休息；出发前核对",
+            "sourceUrl": "https://greatoceanroad.com.au/towns/apollo-bay/restaurants/"
+          },
+          {
+            "name": "Bay Leaf Cafe",
+            "nameEn": "Bay Leaf Cafe",
+            "lat": -38.7624798,
+            "lng": 143.6708042,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于镇中心主街，距海滨约 100-300 米",
+            "priceLevel": "人均约 A$15-30",
+            "cuisine": "早餐、咖啡馆",
+            "recommended": "当地指南把 Bay Leaf Cafe 列为镇上早餐标杆，供应完整早餐菜单并较早开门。适合作为自驾出发前的咖啡与早餐。",
+            "hours": null,
+            "sourceUrl": "https://greatoceanroad.com.au/towns/apollo-bay/restaurants/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "镇中心和海滨有路侧停车，但住宿应优先使用酒店自有车位；旺季主街车位紧张。",
+        "lots": [
+          {
+            "name": "Apollo Bay Harbour 公共停车区",
+            "nameEn": "Apollo Bay Harbour Public Parking",
+            "lat": -38.7584451,
+            "lng": 143.6769592,
+            "fee": "free",
+            "feeNote": "公开资料未显示常设收费；现场限时与标志优先",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "适合港口和 Fishermen's Co-op 短停，不作为住宿过夜停车；房车须停合规长车位或营地。"
+          }
+        ],
+        "rules": [
+          "入住后优先使用住宿方分配车位，不把 Great Ocean Road 主街路位当过夜保证。",
+          "暑期、复活节和学校假期应尽早停车，严禁占用装卸区、无障碍位或巴士位。",
+          "拖挂和房车过夜应使用 caravan park 或住宿方明确允许的区域。"
+        ],
+        "sources": [
+          {
+            "label": "Apollo Bay 餐饮与旺季提示",
+            "url": "https://greatoceanroad.com.au/towns/apollo-bay/restaurants/"
           }
         ]
       }
@@ -3934,6 +7104,82 @@
           {
             "label": "Maits Rest官方页面",
             "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "6-17°C",
+        "granularity": "nearby",
+        "basis": "Great Otway National Park（大奥特韦国家公园）",
+        "note": "雨林体感更冷、更潮",
+        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "步道旁没有餐饮设施，最近且选择较集中的补给点在约 17 公里外的 Apollo Bay。",
+        "restaurants": [
+          {
+            "name": "Apollo Bay Bakery",
+            "nameEn": "Apollo Bay Bakery",
+            "lat": -38.7559739,
+            "lng": 143.66917,
+            "rating": 4.4,
+            "ratingCount": 1814,
+            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Maits Rest 约 17 公里，驾车约 20 分钟",
+            "priceLevel": "人均约 A$10-20",
+            "cuisine": "烘焙、咖啡、简餐",
+            "recommended": "当地旅游官网明确称其为 scallop pie（扇贝派）发源招牌店，可选 Mornay 或咖喱口味。也有三明治、沙拉卷及二十多种派，适合自驾途中快速补给。",
+            "hours": "周一至周六 06:00-16:00；周日 06:00-15:00",
+            "sourceUrl": "https://www.apollobaybakery.com.au/"
+          },
+          {
+            "name": "Great Ocean Road Brewhouse",
+            "nameEn": "Great Ocean Road Brewhouse",
+            "lat": -38.7587028,
+            "lng": 143.6702867,
+            "rating": 4.3,
+            "ratingCount": 2822,
+            "ratingSource": "Google 地图（Restaurant Guru 核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Maits Rest 约 17 公里，驾车约 20 分钟",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "澳式酒馆菜、精酿啤酒",
+            "recommended": "官网主打 pub favourites、当地精酿与啤酒品鉴；Google 评论中烤三文鱼配土豆泥和蒜香奶油获得明确好评。适合想坐下来吃正餐、并由非驾驶员体验当地啤酒的同行者。",
+            "hours": null,
+            "sourceUrl": "https://www.greatoceanroadbrewhouse.com.au/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "步道入口有免费小型停车区，但截至核查日官方页面标示景区关闭，不能把“停车场可到达”等同于“步道可进入”。",
+        "lots": [
+          {
+            "name": "Maits Rest Rainforest Walk 停车区",
+            "nameEn": "Maits Rest Rainforest Walk Car Park",
+            "lat": -38.755,
+            "lng": 143.555,
+            "fee": "free",
+            "feeNote": "国家公园日游停车区，未见收费信息",
+            "capacity": null,
+            "surface": "碎石／硬化地面（未核实具体材质）",
+            "note": "停车区就在 Great Ocean Road 旁，步道约 800 米环线；现场无厕所。截至 2026-08-22 Parks Victoria 页面标示该区域关闭，出发前必须复查。"
+          }
+        ],
+        "rules": [
+          "截至 2026-08-22，Parks Victoria 页面标示 Maits Rest 关闭，不得绕过路障或关闭标志进入。",
+          "停车区没有公共厕所；国家公园内禁止露营、带狗和生火。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Victoria：Maits Rest Rainforest Walk",
+            "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
+          },
+          {
+            "label": "Visit Great Ocean Road：Maits Rest",
+            "url": "https://visitgreatoceanroad.org.au/visitotways/local-attractions/discover-maits-rest-a-window-into-the-ancient-otways/"
           }
         ]
       }
@@ -3977,6 +7223,83 @@
           {
             "label": "Maits Rest官方页面",
             "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "8-17°C",
+        "granularity": "place",
+        "basis": "Gibson Steps（吉布森阶梯）",
+        "note": "",
+        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "Gibson Steps 现场没有餐厅，实际可行的正餐点在约 12-14 公里外的 Port Campbell。",
+        "restaurants": [
+          {
+            "name": "Grassroots Deli Cafe",
+            "nameEn": "Grassroots Deli Cafe",
+            "lat": -38.6200124,
+            "lng": 142.9951722,
+            "rating": 4.5,
+            "ratingCount": 923,
+            "ratingSource": "Google 地图（检索结果核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Gibson Steps 约 13 公里，驾车约 15 分钟",
+            "priceLevel": "人均约 A$15-30",
+            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
+            "recommended": "评论集中推荐炸鸡汉堡、牛肉汉堡、家制汤和咖啡，官网也强调当地食材。午餐供应至 14:30，适合白天到访海岸景点时补给。",
+            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
+            "sourceUrl": "https://grassrootsdelicafe.com.au/"
+          },
+          {
+            "name": "12 Rocks Beach Bar Cafe",
+            "nameEn": "12 Rocks Beach Bar Cafe",
+            "lat": -38.6200628,
+            "lng": 142.9941683,
+            "rating": 4.2,
+            "ratingCount": 2188,
+            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Gibson Steps 约 13 公里，驾车约 15 分钟",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
+            "recommended": "官网主打新鲜海鲜和海滨用餐，评论常提到 fish and chips、calamari 与 crispy pork belly。旺季晚餐建议提前到或预约，海景位更抢手。",
+            "hours": "每日 09:30 至晚间（结束时间未固定）",
+            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "阶梯口有很小的免费停车区；更稳妥的方案是停 Twelve Apostles Visitor Centre，再沿官方步道约 1-1.1 公里前往。",
+        "lots": [
+          {
+            "name": "Gibson Steps 小型停车区",
+            "nameEn": "Gibson Steps Car Park",
+            "lat": -38.67,
+            "lng": 143.1,
+            "fee": "free",
+            "feeNote": "国家公园日游停车区，未见收费信息",
+            "capacity": "很少量车位（官方未公布数量）",
+            "surface": null,
+            "note": "车位很少且不适合过夜；满位时不要在 Great Ocean Road 路肩冒险停车，改停 Twelve Apostles Visitor Centre。阶梯曾因落石关闭，已于 2026-02-10 重开，但海滩仍可能因潮汐、巨浪或落石临时关闭。"
+          }
+        ],
+        "rules": [
+          "2025 年 6 月因落石关闭后，Gibson Steps 已于 2026-02-10 完成检查并重开；到场仍须服从最新封闭标志。",
+          "官方游客指南建议停 Twelve Apostles Visitor Centre，沿约 1.1 公里步道前往 Gibson Steps。",
+          "海滩受高潮位和大浪影响会临时关闭，不要靠近石灰岩崖脚。"
+        ],
+        "sources": [
+          {
+            "label": "Great Ocean Road Coast and Parks Authority：Gibson Steps open",
+            "url": "https://www.greatoceanroadauthority.vic.gov.au/Projects/Twelve-Apostles-Visitor-Centre/Gibson-Steps-open"
+          },
+          {
+            "label": "Parks Victoria：Port Campbell National Park visitor guide",
+            "url": "https://www.parks.vic.gov.au/-/media/project/pv/main/parks/documents/visitor-guides-and-publications/port-campbell-national-park/port-campbell-national-park-and-bay-of-islands-coastal-park-visitor-guide.pdf?rev=628d1bb9c3644837b19a52571bb97c63"
           }
         ]
       }
@@ -4036,6 +7359,83 @@
             "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "8-17°C",
+        "granularity": "place",
+        "basis": "Twelve Apostles（十二门徒岩）",
+        "note": "",
+        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "游客中心只有季节性营业的小卖部，正式正餐需前往约 12 公里外的 Port Campbell。",
+        "restaurants": [
+          {
+            "name": "Grassroots Deli Cafe",
+            "nameEn": "Grassroots Deli Cafe",
+            "lat": -38.6200124,
+            "lng": 142.9951722,
+            "rating": 4.5,
+            "ratingCount": 923,
+            "ratingSource": "Google 地图（检索结果核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Twelve Apostles 约 12 公里，驾车约 12 分钟",
+            "priceLevel": "人均约 A$15-30",
+            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
+            "recommended": "炸鸡汉堡、家制汤和咖啡在评论中反复出现，官网强调当地食材。适合白天游览后的早午餐，注意午餐通常 14:30 结束。",
+            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
+            "sourceUrl": "https://grassrootsdelicafe.com.au/"
+          },
+          {
+            "name": "12 Rocks Beach Bar Cafe",
+            "nameEn": "12 Rocks Beach Bar Cafe",
+            "lat": -38.6200628,
+            "lng": 142.9941683,
+            "rating": 4.2,
+            "ratingCount": 2188,
+            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Twelve Apostles 约 12 公里，驾车约 12 分钟",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
+            "recommended": "海鲜、fish and chips、calamari 和 crispy pork belly 是评论中常见选择。餐厅临海，适合把正餐与 Port Campbell 海湾散步安排在一起。",
+            "hours": "每日 09:30 至晚间（结束时间未固定）",
+            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "必须停在 Great Ocean Road 内陆侧的免费游客中心停车场，再经地下通道步行约 600 米往返观景区；旺季会启用交通管理与溢出区。",
+        "lots": [
+          {
+            "name": "十二门徒游客中心停车场",
+            "nameEn": "Twelve Apostles Visitor Centre Car Park",
+            "lat": -38.6655,
+            "lng": 143.1048,
+            "fee": "free",
+            "feeNote": "免费，无国家公园门票",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "停车场在公路内陆侧，沿无障碍步道穿过 Great Ocean Road 地下通道到观景台；官方旅游页给出的观景步道约 600 米至 1.2 公里往返。夏季、学校假期、长周末及复活节前后容易满位并实施交通管制。"
+          }
+        ],
+        "rules": [
+          "游客必须停在指定停车场，不得横穿 Great Ocean Road；使用地下通道前往观景台。",
+          "旺季主停车场满位时服从现场交通员安排；溢出停车区每日会清空并上锁，不适合长时间留车。",
+          "若为 Great Ocean Walk 长线徒步停车，应主动告知入口交通管理人员，并尽量停主停车区。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Victoria：Twelve Apostles",
+            "url": "https://www.parks.vic.gov.au/places-to-see/parks/port-campbell-national-park/things-to-do/twelve-apostles"
+          },
+          {
+            "label": "Visit Great Ocean Road：The 12 Apostles",
+            "url": "https://visitgreatoceanroad.org.au/visit12apostles/the-12-apostles/"
+          }
+        ]
       }
     },
     {
@@ -4090,6 +7490,83 @@
             "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "8-17°C",
+        "granularity": "place",
+        "basis": "坎贝尔港（Port Campbell）",
+        "note": "",
+        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "lodging",
+      "food": {
+        "summary": "小镇餐饮集中在 Lord Street 与海湾一带，旺季晚餐选择不多且容易排队。",
+        "restaurants": [
+          {
+            "name": "Grassroots Deli Cafe",
+            "nameEn": "Grassroots Deli Cafe",
+            "lat": -38.6200124,
+            "lng": 142.9951722,
+            "rating": 4.5,
+            "ratingCount": 923,
+            "ratingSource": "Google 地图（检索结果核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Port Campbell 镇中心约 100 米",
+            "priceLevel": "人均约 A$15-30",
+            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
+            "recommended": "炸鸡汉堡、家制汤、早餐和咖啡是评论高频项，官网强调当地食材与自制调味品。适合早餐或午餐，夏季另有季节性 wood-fired pizza。",
+            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
+            "sourceUrl": "https://grassrootsdelicafe.com.au/"
+          },
+          {
+            "name": "12 Rocks Beach Bar Cafe",
+            "nameEn": "12 Rocks Beach Bar Cafe",
+            "lat": -38.6200628,
+            "lng": 142.9941683,
+            "rating": 4.2,
+            "ratingCount": 2188,
+            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Port Campbell 镇中心约 150 米",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
+            "recommended": "海景座位、新鲜海鲜、fish and chips、calamari 和 crispy pork belly 是主要卖点。适合晚餐，但旺季最好提前预约或错峰。",
+            "hours": "每日 09:30 至晚间（结束时间未固定）",
+            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "镇中心和海滨以免费路边及公共停车位为主，但旺季 Lord Street 和 foreshore 供不应求，并有短时限车位。",
+        "lots": [
+          {
+            "name": "Port Campbell 镇中心／海滨公共停车区",
+            "nameEn": "Port Campbell Town Centre and Foreshore Public Parking",
+            "lat": -38.62,
+            "lng": 142.995,
+            "fee": "free",
+            "feeNote": "Corangamite Shire 资料明确讨论 timed-but-still-free 管理，未引入收费停车",
+            "capacity": null,
+            "surface": "沥青为主",
+            "note": "Lord Street 店铺和海滨附近旺季最紧张；Morris Street 北侧存在 15 分钟等短时限制，须以现场标志为准。不要在公共停车区过夜露营。"
+          }
+        ],
+        "rules": [
+          "所有车位即使免费也必须遵守现场时限、装卸区和无障碍车位标志。",
+          "Council 正在制定停车策略，重点处理旺季拥堵、巴士／房车和禁止公共停车区过夜露营；2026 年出发前应复查最新标志。",
+          "长车不要占用 Lord Street 普通短车位，应按现场指示使用巴士／大车停车区域。"
+        ],
+        "sources": [
+          {
+            "label": "Corangamite Shire：Port Campbell parking strategy in development",
+            "url": "https://www.corangamite.vic.gov.au/Council/News-and-Media/Latest-News/Port-Campbell-parking-strategy-in-development"
+          },
+          {
+            "label": "Port Campbell Parking Strategy consultation",
+            "url": "https://conversations.corangamite.vic.gov.au/pcps"
+          }
+        ]
       }
     },
     {
@@ -4129,6 +7606,78 @@
           {
             "label": "Maits Rest官方页面",
             "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "8-17°C",
+        "granularity": "place",
+        "basis": "London Bridge（伦敦桥）",
+        "note": "",
+        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "London Bridge 现场没有餐饮，最近较稳定的正餐选择在约 8 公里外的 Port Campbell。",
+        "restaurants": [
+          {
+            "name": "Grassroots Deli Cafe",
+            "nameEn": "Grassroots Deli Cafe",
+            "lat": -38.6200124,
+            "lng": 142.9951722,
+            "rating": 4.5,
+            "ratingCount": 923,
+            "ratingSource": "Google 地图（检索结果核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 London Bridge 约 8 公里，驾车约 8-10 分钟",
+            "priceLevel": "人均约 A$15-30",
+            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
+            "recommended": "炸鸡汉堡、家制汤和咖啡评价稳定，适合日间快速补给。午餐通常 14:30 结束，傍晚到访观景点时不要把它当晚餐备选。",
+            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
+            "sourceUrl": "https://grassrootsdelicafe.com.au/"
+          },
+          {
+            "name": "12 Rocks Beach Bar Cafe",
+            "nameEn": "12 Rocks Beach Bar Cafe",
+            "lat": -38.6200628,
+            "lng": 142.9941683,
+            "rating": 4.2,
+            "ratingCount": 2188,
+            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 London Bridge 约 8 公里，驾车约 8-10 分钟",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
+            "recommended": "fish and chips、calamari、海鲜与海景座位最有代表性。营业覆盖晚间，比日间咖啡店更适合看完日落后用餐。",
+            "hours": "每日 09:30 至晚间（结束时间未固定）",
+            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "London Bridge 有免费日游客停车区和无障碍车位，现场没有餐饮补给。",
+        "lots": [
+          {
+            "name": "London Bridge 停车区",
+            "nameEn": "London Bridge Car Park",
+            "lat": -38.62,
+            "lng": 142.93,
+            "fee": "free",
+            "feeNote": "国家公园日游停车区，未见收费信息",
+            "capacity": null,
+            "surface": null,
+            "note": "从 London Bridge Road 进入，停车后步行至观景台；有无障碍停车设施。旺季可能很忙，不要沿接入道路随意停车。"
+          }
+        ],
+        "rules": [
+          "仅使用指定停车区并沿正式步道前往观景台，不要跨越护栏接近不稳定崖缘。",
+          "同区域 The Arch 因崖壁不稳定和步道侵蚀关闭，不要把 London Bridge 开放状态误认为周边所有观景点均开放。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Victoria：London Bridge, The Grotto and The Arch",
+            "url": "https://www.parks.vic.gov.au/places-to-see/parks/port-campbell-national-park/things-to-do/london-bridge"
           }
         ]
       }
@@ -4172,6 +7721,82 @@
             "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "8-17°C",
+        "granularity": "place",
+        "basis": "The Grotto（石窟）",
+        "note": "",
+        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "The Grotto 现场没有餐饮，建议在约 12 公里外的 Port Campbell 用餐。",
+        "restaurants": [
+          {
+            "name": "Grassroots Deli Cafe",
+            "nameEn": "Grassroots Deli Cafe",
+            "lat": -38.6200124,
+            "lng": 142.9951722,
+            "rating": 4.5,
+            "ratingCount": 923,
+            "ratingSource": "Google 地图（检索结果核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 The Grotto 约 12 公里，驾车约 12-15 分钟",
+            "priceLevel": "人均约 A$15-30",
+            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
+            "recommended": "炸鸡汉堡、家制汤、早餐与咖啡适合白天补给。若计划傍晚看海岸景色，应提前用餐，因为这里以早餐和午餐时段为主。",
+            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
+            "sourceUrl": "https://grassrootsdelicafe.com.au/"
+          },
+          {
+            "name": "12 Rocks Beach Bar Cafe",
+            "nameEn": "12 Rocks Beach Bar Cafe",
+            "lat": -38.6200628,
+            "lng": 142.9941683,
+            "rating": 4.2,
+            "ratingCount": 2188,
+            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 The Grotto 约 12 公里，驾车约 12-15 分钟",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
+            "recommended": "评论高频菜包括 fish and chips、calamari 和 crispy pork belly，官网突出海鲜与海景。是看完 The Grotto 后回 Port Campbell 吃晚餐的实用选择。",
+            "hours": "每日 09:30 至晚间（结束时间未固定）",
+            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "The Grotto 入口有免费停车区，第一处观景台距停车区约 300 米，之后下行段较陡。",
+        "lots": [
+          {
+            "name": "The Grotto 停车区",
+            "nameEn": "The Grotto Car Park",
+            "lat": -38.615,
+            "lng": 142.91,
+            "fee": "free",
+            "feeNote": "国家公园日游停车区，未见收费信息",
+            "capacity": null,
+            "surface": null,
+            "note": "从 Great Ocean Road 直接转入停车区；到第一观景平台约 300 米且相对平缓，再向下约 40 米的主观景段更陡并有楼梯，不适合轮椅、婴儿车或行动不便者。"
+          }
+        ],
+        "rules": [
+          "旺季停车位可能紧张，只能在划定区域停车，不要占用转弯和进出通道。",
+          "下层观景段陡且有楼梯；天气恶劣或地面湿滑时应量力而行。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Victoria：London Bridge, The Grotto and The Arch",
+            "url": "https://www.parks.vic.gov.au/places-to-see/parks/port-campbell-national-park/things-to-do/london-bridge"
+          },
+          {
+            "label": "Coastal Stays：The Grotto access",
+            "url": "https://www.coastalstays.com/portcampbell/attractions-grotto/"
+          }
+        ]
       }
     },
     {
@@ -4207,6 +7832,98 @@
           "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。"
         ],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "9-20°C",
+        "granularity": "place",
+        "basis": "墨尔本（Melbourne）",
+        "note": "",
+        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "lodging",
+      "food": {
+        "summary": "车站内有快速餐饮，周边步行数分钟也有代表性的 Melbourne brunch；晚到时优先确认车站店铺关门时间。",
+        "restaurants": [
+          {
+            "name": "Pasha Kebab Southern Cross Station",
+            "nameEn": "Pasha Kebab Southern Cross Station",
+            "lat": -37.8183,
+            "lng": 144.9525,
+            "rating": 4.6,
+            "ratingCount": 97,
+            "ratingSource": "Google 地图（Restaurant Guru 核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Southern Cross Station 内",
+            "priceLevel": "人均约 A$10-20",
+            "cuisine": "土耳其烤肉、Kebab、HSP",
+            "recommended": "Google 评论页明确提到 meat kebab 与 chicken skewers，适合抵达车站后快速解决一餐。属于站内快餐，便利性优先于正式用餐氛围。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Pasha-Kebab-Docklands"
+          },
+          {
+            "name": "Higher Ground",
+            "nameEn": "Higher Ground Melbourne",
+            "lat": -37.8158967,
+            "lng": 144.9531574,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": "未采用：检索结果无法稳定确认当前 Google 数值",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Southern Cross Station 约 300 米，步行约 4 分钟",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "现代澳洲菜、早午餐、咖啡",
+            "recommended": "City of Melbourne 官方介绍点名 Chilli Scrambled Eggs、Avocado Pretzel 和 Blueberry and Ricotta Hotcakes。场地热门且官网建议预订，适合安排较从容的早餐或早午餐。",
+            "hours": null,
+            "sourceUrl": "https://whatson.melbourne.vic.gov.au/eat-and-drink/higher-ground"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "CBD 停车昂贵；车站自带 1075 车位车库，另有 522 Flinders Lane 预订型车库，住宿应优先比较酒店停车与夜间封顶价。",
+        "lots": [
+          {
+            "name": "Southern Cross Station Car Park",
+            "nameEn": "Southern Cross Station Car Park",
+            "lat": -37.8152889,
+            "lng": 144.9516339,
+            "fee": "paid",
+            "feeNote": "工作日 0-0.5 小时 A$15、0.5-1 小时 A$26、1-2 小时 A$37、2-3 小时 A$45、3-4 小时 A$49、4+ 小时 A$57；夜间 A$22；非活动周末 A$15；活动日 A$40",
+            "capacity": "约 1075 车位",
+            "surface": "室内车库",
+            "note": "入口在 Spencer Street 与 Lonsdale Street 一带；工作日 early bird 现场 A$26、线上 A$23，需 06:00-09:30 入场并于 13:30-18:30 离场。Marvel Stadium 活动日价格会变化。"
+          },
+          {
+            "name": "Secure Parking 522 Flinders Lane",
+            "nameEn": "Secure Parking 522 Flinders Lane Car Park",
+            "lat": -37.8194704,
+            "lng": 144.9562005,
+            "fee": "paid",
+            "feeNote": "官网显示 early bird 约 A$15 起、0-3 小时 drive-up 约 A$12 起、单晚 overnight 约 A$40 起；价格随日期和活动浮动",
+            "capacity": null,
+            "surface": "多层车库",
+            "note": "距车站约 400 米，限高 2.0 米；应在线输入实际日期比较价格，活动日和未来日期可能不同。"
+          }
+        ],
+        "rules": [
+          "CBD 路边普通车位通常为 2P；2026-27 中心城区工作日 19:00 前 A$7.30/小时，19:00 后及周末 A$4.20/小时。",
+          "通过 EasyPark 且总停车不超过 15 分钟可免路边停车费；超过 15 分钟则全部时段收费。",
+          "住宿过夜不要依赖短时路边位；同时核对车库限高、活动日价和酒店是否允许多次进出。"
+        ],
+        "sources": [
+          {
+            "label": "Care Park：Southern Cross Station rates",
+            "url": "https://www.carepark.com.au/find-a-care-park/southern-cross-station/"
+          },
+          {
+            "label": "Secure Parking：522 Flinders Lane",
+            "url": "https://www.secureparking.com.au/en-au/car-parks/australia/vic/522-flinders-lane-melbourne-car-park/"
+          },
+          {
+            "label": "City of Melbourne：Kerbside parking and fees",
+            "url": "https://www.melbourne.vic.gov.au/kerbside-parking-and-fees"
+          }
+        ]
       }
     },
     {
@@ -4284,6 +8001,98 @@
             "url": "https://www.hko.gov.hk/en/aviat/amt/monthlymean.htm"
           }
         ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "9-20°C",
+        "granularity": "place",
+        "basis": "Queen Victoria Market（维多利亚女王市场）",
+        "note": "清晨偏凉且可能阵雨",
+        "dayAdvisory": "晴燥且昼夜温差大。随身保留薄外套；出发前24小时重点查香港热带气旋信号，因为60分钟转机几乎没有吸收延误的余量。BOM墨尔本气候｜香港天文台机场气候",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "market",
+      "food": {
+        "summary": "市场内最具代表性的吃法是现做热果酱甜甜圈和 Dairy Produce Hall 的德式香肠；按市场营业日与摊位时段到访。",
+        "restaurants": [
+          {
+            "name": "American Doughnut Kitchen",
+            "nameEn": "American Doughnut Kitchen",
+            "lat": -37.8073881,
+            "lng": 144.9573918,
+            "rating": 4.5,
+            "ratingCount": null,
+            "ratingSource": "Google 地图（Restaurant Guru 核对；评论数来源冲突故置 null）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "市场内，Queen Street 的 F Shed 外",
+            "priceLevel": "人均约 A$5-10",
+            "cuisine": "甜甜圈、街头小吃",
+            "recommended": "招牌只有现炸 hot jam doughnut：覆糖、内填覆盆子果酱，从 1950 年代风格餐车窗口售卖。应趁热吃，是市场官方和 Eater 都明确推荐的经典体验。",
+            "hours": "随 Queen Victoria Market 市场日营业",
+            "sourceUrl": "https://qvm.com.au/shops-stalls/american-doughnut-kitchen/"
+          },
+          {
+            "name": "Bratwurst Shop & Co",
+            "nameEn": "Bratwurst Shop & Co",
+            "lat": -37.8073881,
+            "lng": 144.9573918,
+            "rating": 4.4,
+            "ratingCount": 489,
+            "ratingSource": "Google 地图（Restaurant Guru 核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "市场内 Dairy Produce Hall，Shop 99-100",
+            "priceLevel": "人均约 A$10-20",
+            "cuisine": "德式香肠、三明治、咖啡",
+            "recommended": "可选 classic、spicy、cheese bratwurst 或 weisswurst，放入硬皮长面包并配 sauerkraut 和芥末。市场官方与 Eater 都把它列为代表性摊位，午餐高峰排队但移动较快。",
+            "hours": "每个市场营业日开放",
+            "sourceUrl": "https://qvm.com.au/shops-stalls/bratwurst-shop-co/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "市场有 24 小时地下车库和白天露天停车场；市场日 06:00-09:00 免费，之后按时收费。",
+        "lots": [
+          {
+            "name": "Queen Victoria Market 地下停车场",
+            "nameEn": "Queen Victoria Market Undercover Car Park",
+            "lat": -37.8077715,
+            "lng": 144.9582881,
+            "fee": "mixed",
+            "feeNote": "市场日 06:00-09:00 免费；09:00 后首 2 小时 A$7、其后每小时 A$4、日封顶 A$40；非市场日 0-1 小时 A$4、1-2 小时 A$8、2-3 小时 A$12、日封顶 A$18",
+            "capacity": "506 车位，含 10 个无障碍位、6 个亲子位和 12 个 EV 充电位",
+            "surface": "四层室内车库",
+            "note": "Queen Street 进出，24 小时开放，限高 2.2 米；EV 位在 B2，需自带 Type 2 充电线。"
+          },
+          {
+            "name": "Queen Victoria Market 露天停车场",
+            "nameEn": "Queen Victoria Market Open Air Car Park",
+            "lat": -37.8069,
+            "lng": 144.9577,
+            "fee": "mixed",
+            "feeNote": "与地下停车场同价：市场日 06:00-09:00 免费；09:00 后首 2 小时 A$7、其后每小时 A$4、日封顶 A$40",
+            "capacity": "数百车位（官方未给精确数）",
+            "surface": "露天沥青",
+            "note": "通常 05:00-19:00；Night Market 时 16:30-23:00。无入口限高，适合超过 2.2 米的车辆，但关门前必须驶离，否则可能收 A$30 after-hours exit fee。"
+          }
+        ],
+        "rules": [
+          "市场日为周二、周四、周五、周六和周日；06:00-09:00 免费仅适用于这些市场日。",
+          "地下停车场 24 小时开放；露天停车场通常 19:00 关闭，Night Market 日延至 23:00，关门后取车会产生额外费用。",
+          "两处停车场均从 Queen Street 进入；露天停车场可从 Peel Street、Queen Street 或 Franklin Street 驶出。"
+        ],
+        "sources": [
+          {
+            "label": "Queen Victoria Market：Parking",
+            "url": "https://qvm.com.au/parking/"
+          },
+          {
+            "label": "Queen Victoria Market：Car Park Rates",
+            "url": "https://qvm.com.au/parking/car-park-rates/"
+          },
+          {
+            "label": "Queen Victoria Market：Car Park Access",
+            "url": "https://qvm.com.au/parking/car-park-access/"
+          }
+        ]
       }
     },
     {
@@ -4308,7 +8117,15 @@
         "suggestion": "与 10/4 东段→Apollo Bay、10/5 沉船→Melbourne 方向冲突，已移出主行程；鸸鹋改由 Caversham 覆盖。\n不在本次行程中"
       },
       "links": [],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": {
+        "temperatureRange": "8-18°C",
+        "granularity": "nearby",
+        "basis": "阿波罗湾（Apollo Bay）",
+        "note": "",
+        "dayAdvisory": "Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态",
+        "source": "长年气候参考，非逐日预报"
+      }
     },
     {
       "id": "wv-warrn",
@@ -4332,7 +8149,15 @@
         "suggestion": "与 Tower Hill 一并移出；10/5 午餐在 Port Campbell。\n不在本次行程中"
       },
       "links": [],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": {
+        "temperatureRange": "8-18°C",
+        "granularity": "nearby",
+        "basis": "阿波罗湾（Apollo Bay）",
+        "note": "",
+        "dayAdvisory": "Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态",
+        "source": "长年气候参考，非逐日预报"
+      }
     },
     {
       "id": "wv-loch",
@@ -4361,6 +8186,83 @@
         "highlights": [],
         "weather": [],
         "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "8-17°C",
+        "granularity": "nearby",
+        "basis": "Gibson Steps（吉布森阶梯）",
+        "note": "",
+        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "attraction",
+      "food": {
+        "summary": "Loch Ard Gorge 现场没有餐饮，最近的成规模餐饮在约 8 公里外的 Port Campbell。",
+        "restaurants": [
+          {
+            "name": "Grassroots Deli Cafe",
+            "nameEn": "Grassroots Deli Cafe",
+            "lat": -38.6200124,
+            "lng": 142.9951722,
+            "rating": 4.5,
+            "ratingCount": 923,
+            "ratingSource": "Google 地图（检索结果核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Loch Ard Gorge 约 8 公里，驾车约 8-10 分钟",
+            "priceLevel": "人均约 A$15-30",
+            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
+            "recommended": "评论常推荐炸鸡汉堡、牛肉汉堡、家制汤与咖啡。白天营业为主，适合先吃午餐再回景区走步道。",
+            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
+            "sourceUrl": "https://grassrootsdelicafe.com.au/"
+          },
+          {
+            "name": "12 Rocks Beach Bar Cafe",
+            "nameEn": "12 Rocks Beach Bar Cafe",
+            "lat": -38.6200628,
+            "lng": 142.9941683,
+            "rating": 4.2,
+            "ratingCount": 2188,
+            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Loch Ard Gorge 约 8 公里，驾车约 8-10 分钟",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
+            "recommended": "官网突出新鲜海鲜与海景，评论常点 fish and chips、calamari 和 crispy pork belly。适合作为峡谷游览后的晚餐点。",
+            "hours": "每日 09:30 至晚间（结束时间未固定）",
+            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "景区有三个免费停车区；房车、拖挂和长车必须使用 Loch Ard Gorge 主停车场。",
+        "lots": [
+          {
+            "name": "洛克阿德峡谷主停车场",
+            "nameEn": "Loch Ard Gorge Main Car Park",
+            "lat": -38.647,
+            "lng": 143.07,
+            "fee": "free",
+            "feeNote": "景区免费开放，未见停车收费",
+            "capacity": null,
+            "surface": null,
+            "note": "主停车场可停长车、房车和拖挂，并有无障碍车位；另外两个西侧停车区服务 Poombeeyt Koontapool 和 Mutton Bird Island，但不适合大车。现场没有厕所。"
+          }
+        ],
+        "rules": [
+          "长车、房车和拖挂必须停 Loch Ard Gorge 主停车场，不要进入西侧两个较小停车区。",
+          "截至 2026-08-22，通往峡谷沙滩的阶梯因地质不稳定仍关闭，计划 2026 年 10 月完成修复；上方观景步道与主停车场仍可使用。",
+          "三个停车区彼此分开，离车前记住停车区名称，避免沿 7 公里联通步道返回时走错。"
+        ],
+        "sources": [
+          {
+            "label": "Great Ocean Road Coast and Parks Authority：Loch Ard Gorge",
+            "url": "https://www.greatoceanroadauthority.vic.gov.au/Land-We-Manage/National-Parks/Port-Campbell-National-Park/Loch-Ard-Gorge"
+          },
+          {
+            "label": "Visit Great Ocean Road：Loch Ard Gorge",
+            "url": "https://visitgreatoceanroad.org.au/visit12apostles/loch-ard-gorge/"
+          }
+        ]
       }
     },
     {
@@ -4395,7 +8297,15 @@
           "url": "https://tacinc.com.au/tasmanian-aboriginal-place-names/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": {
+        "temperatureRange": "6-15°C",
+        "granularity": "place",
+        "basis": "霍巴特机场（Hobart Airport）",
+        "note": "",
+        "dayAdvisory": "傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层；出发前7天再看BOM逐日预报。BOM霍巴特气候",
+        "source": "长年气候参考，非逐日预报"
+      }
     },
     {
       "id": "skip-01",
@@ -4429,7 +8339,8 @@
           "url": "https://www.noongarculture.org.au/boorloo-perth/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-08",
@@ -4463,7 +8374,8 @@
           "url": "https://www.rottnestisland.com/learn/history/aboriginal-history"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-09",
@@ -4497,7 +8409,8 @@
           "url": "https://www.newnorcia.com.au/history/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-10",
@@ -4531,7 +8444,8 @@
           "url": "https://www.ningaloo.com/indigenous-culture/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-11",
@@ -4565,7 +8479,8 @@
           "url": "https://whc.unesco.org/en/list/578/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-12",
@@ -4599,7 +8514,8 @@
           "url": "https://livingkaurna.com.au/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-13",
@@ -4633,7 +8549,8 @@
           "url": "https://www.tourkangarooisland.com.au/island-stories/aboriginal-culture"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-14",
@@ -4667,7 +8584,8 @@
           "url": "https://www.environment.sa.gov.au/topics/animals-and-plants/threatened-species-and-ecological-communities/australian-sea-lion"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-15",
@@ -4701,7 +8619,8 @@
           "url": "https://www.burrandiesaboriginalcorporation.com.au/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-16",
@@ -4739,7 +8658,8 @@
           "url": "https://whc.unesco.org/en/list/698/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-17",
@@ -4773,7 +8693,8 @@
           "url": "https://www.limestonecoast.org.au/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-18",
@@ -4807,7 +8728,8 @@
           "url": "https://www.agsa.sa.gov.au/whats-on/tarnanthi/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-19",
@@ -4841,7 +8763,8 @@
           "url": "https://www.zoossa.com.au/conservation/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-20",
@@ -4875,7 +8798,8 @@
           "url": "https://www.adelaidehills.org.au/see-and-do/aboriginal-culture/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-21",
@@ -4909,7 +8833,8 @@
           "url": "https://www.jurlique.com.au/pages/our-story"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-22",
@@ -4943,7 +8868,8 @@
           "url": "https://sawhalecentre.com.au/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-25",
@@ -4977,7 +8903,8 @@
           "url": "https://www.bonorong.com.au/rescue/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-26",
@@ -5011,7 +8938,8 @@
           "url": "https://whc.unesco.org/en/list/1306/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-30",
@@ -5045,7 +8973,8 @@
           "url": "https://tacinc.com.au/tasmanian-aboriginal-place-names/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-31",
@@ -5079,7 +9008,8 @@
           "url": "https://parks.tas.gov.au/explore-our-parks/south-bruny-national-park/cultural-heritage"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-32",
@@ -5113,7 +9043,8 @@
           "url": "https://www.femaleconvicts.org.au/places/ross-female-factory"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-33",
@@ -5147,7 +9078,8 @@
           "url": "https://parks.tas.gov.au/explore-our-parks/highfield-historic-site"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-35",
@@ -5181,7 +9113,8 @@
           "url": "https://www.abc.net.au/news/2014-02-28/lyrebirds-threaten-tasmanian-forests/5291682"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-36",
@@ -5215,7 +9148,8 @@
           "url": "https://www.dcceew.gov.au/environment/marine/marine-species/cetaceans"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-39",
@@ -5249,7 +9183,8 @@
           "url": "https://www.zooaquarium.org.au/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-40",
@@ -5287,7 +9222,8 @@
           "url": "https://www.abc.net.au/news/topic/seals"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-49",
@@ -5321,41 +9257,140 @@
           "url": "https://www.nationaltrust.org.au/places/flinders-street-station/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
-      "id": "skip-51",
+      "id": "wv-puffing",
       "name": "Puffing Billy Railway（普芬比利蒸汽火车）",
       "name_en": "Puffing Billy Railway, Victoria 城市／区域：Belgrave—Gembrook／Dandenong Ranges",
-      "day": null,
-      "date": null,
-      "status": "skip",
-      "order_in_day": null,
-      "highlights": "Dandenong Ranges 的历史窄轨蒸汽铁路，往返与接驳通常需要半天以上，车票需预约。\n深度补充：窄轨铁路穿过Dandenong Ranges湿润森林、蕨类谷地与小镇，半程和全程耗时差异大。蒸汽牵引、开放车厢和桥梁是核心，但“腿伸窗外”只可在官方允许车厢和区段进行。\n扩展阅读：景点／自然官方资料",
-      "weather": "",
-      "duration": "",
-      "transport": "",
-      "notes": "【人文／文化】\n线路始建于 1900 年，原为偏远社区运输，后经志愿者与遗产铁路体系保存；“坐在窗台伸腿”须严格按官方开放车厢与规则。\n深度补充：线路1900年服务偏远社区，后由志愿者和遗产铁路组织恢复，体现澳洲地方铁路从实用交通转为文化遗产的过程。志愿维护和森林火灾风险是持续运营的重要背景。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排，尤其不能放在10/6中午国际航班前；下次单独半天至一天。\n不在本次行程中",
-      "lat": -37.907,
-      "lng": 145.355,
+      "day": 11,
+      "date": "2026-10-04",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "【可选】1900年通车的窄轨蒸汽铁路。选 Belgrave→Menzies Creek（曼齐斯溪）往返，单程25分钟，跨 Monbulk Creek 弧形木栈桥，是官方明确提供「坐在车厢窗台」体验的班次；Menzies Creek Museum（铁路博物馆）免费，仅周五至周日 10:30-12:00 开放，10/4 正好周日。\n扩展阅读：官网时刻表与票价",
+      "weather": "天气（长年气候参考，非逐日预报）：Belgrave（贝尔格雷夫）／Dandenong Ranges（丹德农山脉）通常约7-17°C，山区湿冷、易起雾，蒸汽火车开放式车厢体感更低；吉朗（Geelong）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）约8-18°C。乘车须带防风外套和帽子。",
+      "duration": "可选约2小时（火车往返50分钟＋博物馆约70分钟）",
+      "transport": "吉朗码头驾车约107公里／约1小时45分到 Belgrave；停 Belgrave Metro Station Car Park",
+      "notes": "【人文／文化】\n线路1900年为偏远社区运输而建，后由志愿者和遗产铁路组织恢复运营。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n【可选】仅在 Spirit of Tasmania 07:00 准点抵达吉朗时执行：07:30 驶离码头 → 驾车约107公里／1小时45分 → 09:15 到 Belgrave 停车取票（官方要求发车前60分钟到票房，09:30 硬截止）→ 10:00 发车 → 11:55 回到 Belgrave → 12:15 出发前往小红帽灯塔。\n【必须预约】官网提前购票，不售现场票；成人 A$43.50×2≈A$87。2026-10-04 为维州春假最后一天，售罄风险高。\n【中止条件】07:35 未驶离码头、09:25 未到票房或驾驶员困倦，立即放弃火车（车票作废），改回原方案经安格尔西直接进入大洋路。\n【10/6 不可行】最早班次 10:00 发车、11:55 返回，加 Belgrave→墨尔本机场约1小时，与 13:00 起飞的 HX036、10:00 到机场的要求相差约4小时。\n\n可选纳入本次行程（10/4）",
+      "lat": -37.9075,
+      "lng": 145.3556,
       "geocode_source": "known",
-      "priority": "skip",
+      "priority": "optional",
       "sections": {
         "practical": "",
-        "culture": "线路始建于 1900 年，原为偏远社区运输，后经志愿者与遗产铁路体系保存；“坐在窗台伸腿”须严格按官方开放车厢与规则。\n深度补充：线路1900年服务偏远社区，后由志愿者和遗产铁路组织恢复，体现澳洲地方铁路从实用交通转为文化遗产的过程。志愿维护和森林火灾风险是持续运营的重要背景。\n扩展阅读：人文／历史延伸阅读",
-        "suggestion": "本次不安排，尤其不能放在10/6中午国际航班前；下次单独半天至一天。\n不在本次行程中"
+        "culture": "线路1900年为偏远社区运输而建，后由志愿者和遗产铁路组织恢复运营。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "【可选】仅在 Spirit of Tasmania 07:00 准点抵达吉朗时执行：07:30 驶离码头 → 驾车约107公里／1小时45分 → 09:15 到 Belgrave 停车取票（官方要求发车前60分钟到票房，09:30 硬截止）→ 10:00 发车 → 11:55 回到 Belgrave → 12:15 出发前往小红帽灯塔。\n【必须预约】官网提前购票，不售现场票；成人 A$43.50×2≈A$87。2026-10-04 为维州春假最后一天，售罄风险高。\n【中止条件】07:35 未驶离码头、09:25 未到票房或驾驶员困倦，立即放弃火车（车票作废），改回原方案经安格尔西直接进入大洋路。\n【10/6 不可行】最早班次 10:00 发车、11:55 返回，加 Belgrave→墨尔本机场约1小时，与 13:00 起飞的 HX036、10:00 到机场的要求相差约4小时。\n\n可选纳入本次行程（10/4）"
       },
       "links": [
         {
-          "label": "景点／自然官方资料",
-          "url": "https://puffingbilly.com.au/visit-us/"
+          "label": "官网时刻表与票价",
+          "url": "https://puffingbilly.com.au/timetable/"
         },
         {
           "label": "人文／历史延伸阅读",
           "url": "https://puffingbilly.com.au/about/history/"
         }
       ],
-      "sequence": null
+      "sequence": 1,
+      "dayInfo": {
+        "booking": [],
+        "highlights": [
+          "【待定-6】Puffing Billy Railway（普芬比利蒸汽火车，可选）：1900年通车的窄轨蒸汽铁路，Belgrave→Menzies Creek 段包含最经典的 Monbulk Creek 弧形木栈桥，也是官方明确提供「坐在车厢窗台上」体验的班次。",
+          "选这一段而不是 Lakeside／Gembrook，是因为它全程仅约2小时（含博物馆），是唯一能塞进大洋路当日的长度；",
+          "且博物馆免费、只在周五至周日开，10/4 正好是周日。"
+        ],
+        "weather": [],
+        "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "8-18°C",
+        "granularity": "nearby",
+        "basis": "吉朗（Geelong）",
+        "note": "",
+        "dayAdvisory": "Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "transport",
+      "food": {
+        "summary": "Belgrave 镇中心餐饮充足，两家选择均可从蒸汽火车站步行抵达。",
+        "restaurants": [
+          {
+            "name": "Babaji's Kerala Kitchen Belgrave",
+            "nameEn": "Babaji's Kerala Kitchen Belgrave",
+            "lat": -37.9100522,
+            "lng": 145.353318,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Puffing Billy Belgrave Station 步行约 5 分钟",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "印度 Kerala 菜",
+            "recommended": "官网明确是 Kerala 南印度餐厅，并提供 vegan、vegetarian 与 gluten-free 选择。适合火车前后吃咖喱、米饭类正餐或 chai。",
+            "hours": "周一、周二、周四、周日 12:00-20:00；周五、周六 12:00-21:00；周三休息",
+            "sourceUrl": "https://www.babajiskitchen.com.au/our-restaurants/belgrave.html"
+          },
+          {
+            "name": "Micawber Tavern",
+            "nameEn": "Micawber Tavern",
+            "lat": -37.900262,
+            "lng": 145.3568283,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距车站约 1 公里",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "澳式酒馆餐",
+            "recommended": "Puffing Billy 官方介绍确认供应当代季节性 bistro 菜单、Guinness、本地及国际啤酒，并有 beer garden。适合火车行程后吃 pub meal。",
+            "hours": "每日营业；具体餐时以官网为准",
+            "sourceUrl": "https://puffingbillyrailway.org.au/visit-us/things-to-do-in-the-region/micawber-tavern/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "首选 Belgrave Metro Station 新多层停车楼；免费但主要服务通勤，周末和活动日应早到。",
+        "lots": [
+          {
+            "name": "Belgrave Metro Station 多层停车场",
+            "nameEn": "Belgrave Station Multi-deck Car Park",
+            "lat": -37.9096952,
+            "lng": 145.3548577,
+            "fee": "free",
+            "feeNote": "维州通勤停车项目；公开旅游交通资料列为免费停车",
+            "capacity": "640 个车位，其中 16 个地面层无障碍车位",
+            "surface": "混凝土多层停车楼",
+            "note": "入口有实时余位显示、CCTV、照明和电梯；从 Metro station 步行约 2 分钟到 Puffing Billy。"
+          },
+          {
+            "name": "Belgrave Station 上下客区",
+            "nameEn": "Belgrave Station Pick-up / Drop-off Zone",
+            "lat": -37.9096952,
+            "lng": 145.3548577,
+            "fee": "free",
+            "feeNote": "仅短时接送",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "新停车项目包含专用 pick-up/drop-off zones；不可在此长时间等候。"
+          }
+        ],
+        "rules": [
+          "停车楼主要为公共交通通勤者建设，周末热门班次仍可能满位，应至少提前到达。",
+          "不要把 Woolworths 等商业停车场当全天停车，须遵守商场限时牌。",
+          "无障碍车位位于地面层。"
+        ],
+        "sources": [
+          {
+            "label": "VicTrack：Belgrave Station 640-space car park",
+            "url": "https://www.victrack.com.au/news/2024/hundreds-more-spaces-added-at-belgrave-station-car-park"
+          },
+          {
+            "label": "Car Parks for Commuters：Belgrave Station",
+            "url": "https://carparks.vic.gov.au/project/belgrave-station-car-park/"
+          }
+        ]
+      }
     },
     {
       "id": "skip-52",
@@ -5389,7 +9424,8 @@
           "url": "https://www.zoo.org.au/about-us/history/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-53",
@@ -5423,7 +9459,8 @@
           "url": "https://www.bunuronglc.org/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "meta-1",
@@ -5457,7 +9494,8 @@
           "url": "https://www.australiascoralcoast.com/plan-your-visit/about-the-region/aboriginal-culture/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "meta-2",
@@ -5491,7 +9529,8 @@
           "url": "https://www.tmag.tas.gov.au/first_peoples"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "meta-3",
@@ -5529,7 +9568,8 @@
           "url": "https://www.greatoceanroad.vic.gov.au/history/"
         }
       ],
-      "sequence": null
+      "sequence": null,
+      "weatherDetail": null
     }
   ],
   "wishlistCount": 53,

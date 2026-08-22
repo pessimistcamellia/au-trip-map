@@ -1,0 +1,1057 @@
+{
+  "schemaVersion": 1,
+  "region": "tas-north-vic-east",
+  "checkedAt": "2026-08-22",
+  "places": {
+    "d9-01": {
+      "category": "attraction",
+      "categoryNote": "鸭嘴兽与针鼹室内保育展示景点。",
+      "food": {
+        "summary": "景点自带简餐咖啡，向南约 300 米的 The River Cafe 是这一带更完整的早餐、午餐选择。",
+        "restaurants": [
+          {
+            "name": "The River Cafe",
+            "nameEn": "The River Cafe",
+            "lat": -41.1487181,
+            "lng": 146.8190815,
+            "coordinateSource": "Nominatim（OSM）",
+            "rating": 4.5,
+            "ratingCount": 514,
+            "ratingSource": "Tripadvisor（East Phoenix 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Platypus House 约 500 米",
+            "priceLevel": "人均约 A$20-35",
+            "cuisine": "咖啡馆、塔州海鲜",
+            "recommended": "官网明确主打本地野生捕捞塔州海鲜，并供应早餐、午餐、咖啡及自制蛋糕甜点。需要正餐时优先于景点内简餐。",
+            "hours": "每日早餐及午餐时段营业；出发前以官网当日信息为准",
+            "sourceUrl": "https://www.eastphoenixau.com/t-pages/the-river-cafe-beauty-point-tas.html"
+          },
+          {
+            "name": "Platypus House Cafe",
+            "nameEn": "Platypus House Cafe",
+            "lat": -41.1505521,
+            "lng": 146.824258,
+            "coordinateSource": "Nominatim（OSM）",
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Platypus House 内",
+            "priceLevel": "简餐约 A$8-20",
+            "cuisine": "咖啡、简餐",
+            "recommended": "官方旅游资料确认现场有 Cafe 与 Food and Refreshments，适合参观前后喝咖啡或简单补给。公开资料未提供稳定菜单，不把它当作完整正餐保证。",
+            "hours": null,
+            "sourceUrl": "https://www.spiritoftasmania.com.au/things-to-do/platypus-house/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "景点设免费自有停车区，可停小客车及教练车。",
+        "lots": [
+          {
+            "name": "Platypus House 停车场",
+            "nameEn": "Platypus House Car Park",
+            "lat": -41.1505521,
+            "lng": 146.824258,
+            "coordinateSource": "Nominatim（OSM）",
+            "fee": "free",
+            "feeNote": "景点配套停车，官方资料未列收费",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "官方设施列表明确包含 Carpark 与 Coach Parking；按现场标线停放，不占用旅游大巴车位。"
+          }
+        ],
+        "rules": [
+          "停车仅用于参观期间，容量及限时未在官方页面公开。",
+          "大型房车应先向景点确认能否使用 Coach Parking。"
+        ],
+        "sources": [
+          {
+            "label": "Spirit of Tasmania：Platypus House 设施",
+            "url": "https://www.spiritoftasmania.com.au/things-to-do/platypus-house/"
+          }
+        ]
+      }
+    },
+    "d9-02": {
+      "category": "attraction",
+      "categoryNote": "国家公园内的高山湖泊与环湖步道景点。",
+      "food": {
+        "summary": "Dove Lake 湖边无餐饮，必须在游客中心或 Cradle Valley 提前买好食物并随身带走垃圾。",
+        "restaurants": [
+          {
+            "name": "Elements Cafe",
+            "nameEn": "Elements Cafe",
+            "lat": -41.5956589,
+            "lng": 145.9311414,
+            "coordinateSource": "Nominatim（OSM，Cradle Mountain Ranger Station/Visitor Centre 地址）",
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于游客中心，距 Dove Lake 约 8 公里，需在上接驳车前购买",
+            "priceLevel": "简餐约 A$10-25",
+            "cuisine": "咖啡、三明治、卷饼、派和外带简餐",
+            "recommended": "当地餐饮指南列明可买咖啡、三明治、卷饼、派、汉堡、蛋糕及外带零食。进入园区前购买午餐最稳妥，Dove Lake 没有售餐点。",
+            "hours": null,
+            "sourceUrl": "https://www.cradlemountaintour.com/dining-cradle-mountain"
+          },
+          {
+            "name": "Tavern Bar & Bistro",
+            "nameEn": "Tavern Bar & Bistro",
+            "lat": -41.5950197,
+            "lng": 145.9277969,
+            "coordinateSource": "Nominatim（OSM，Peppers Cradle Mountain Lodge）",
+            "rating": 3.7,
+            "ratingCount": 911,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Dove Lake 约 8 公里，位于 Cradle Mountain Lodge",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "澳式酒馆餐",
+            "recommended": "官网确认供应午餐和晚餐的 bistro-style meals；当地指南明确提到 pizza、burger 与本地啤酒。只接受现场排队，旺季可能等位。",
+            "hours": "每日 12:00 至较晚时段",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504288-d4106262-Reviews-Tavern_Bar_And_Bistro-Cradle_Mountain_Lake_St_Clair_National_Park_Tasmania.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "接驳车运营时应把车停在游客中心；Dove Lake 仅在接驳车停运时开放极少量私家车位。",
+        "lots": [
+          {
+            "name": "Dove Lake 停车区",
+            "nameEn": "Dove Lake Parking Area",
+            "lat": -41.6604066,
+            "lng": 145.9614099,
+            "coordinateSource": "Nominatim（OSM，Dove Lake）",
+            "fee": "mixed",
+            "feeNote": "停车区本身未单列收费，但进入国家公园需有效 Parks Pass，接驳票另按当期政策",
+            "capacity": "9 个普通私家车位、1 个无障碍车位",
+            "surface": "沥青",
+            "note": "只在接驳车运营时间之外允许有限私家车进入；运营时从游客中心换乘，不能把这 10 个车位作为白天自驾方案。"
+          },
+          {
+            "name": "Cradle Mountain Visitor Centre 停车场",
+            "nameEn": "Cradle Mountain Visitor Centre Car Park",
+            "lat": -41.5956589,
+            "lng": 145.9311414,
+            "coordinateSource": "Nominatim（OSM）",
+            "fee": "mixed",
+            "feeNote": "停车未单列收费；须持 Parks Pass 并办理接驳票",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "白天游 Dove Lake 的标准停车点；先验证 Parks Pass，再领取或购买接驳票。"
+          }
+        ],
+        "rules": [
+          "接驳车每日运营，季节时刻会变；出发前向游客中心确认当日首末班。",
+          "搭乘接驳车必须同时持有效 Parks Pass 与接驳票；Cradle Mountain Day Icon pass 已含接驳。",
+          "Dove Lake 没有餐饮服务，应自带食物并把垃圾带走。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania：Dove Lake 与接驳车",
+            "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/dove-lake"
+          }
+        ]
+      }
+    },
+    "d9-03": {
+      "category": "attraction",
+      "categoryNote": "国家公园接驳站、步道入口与野餐点。",
+      "food": {
+        "summary": "Ronny Creek 只有野餐桌、没有售餐点，应从游客中心带好水和午餐。",
+        "restaurants": [
+          {
+            "name": "Elements Cafe",
+            "nameEn": "Elements Cafe",
+            "lat": -41.5956589,
+            "lng": 145.9311414,
+            "coordinateSource": "Nominatim（OSM，游客中心地址）",
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Ronny Creek 约 7 公里，位于接驳车起点",
+            "priceLevel": "简餐约 A$10-25",
+            "cuisine": "咖啡、三明治、派、外带简餐",
+            "recommended": "上接驳车前购买三明治、卷饼或派；这是带进 Ronny Creek 最实际的午餐方案。园内野餐区没有餐饮柜台。",
+            "hours": null,
+            "sourceUrl": "https://www.cradlemountaintour.com/dining-cradle-mountain"
+          },
+          {
+            "name": "Highland Restaurant",
+            "nameEn": "Highland Restaurant",
+            "lat": -41.5950197,
+            "lng": 145.9277969,
+            "coordinateSource": "Nominatim（OSM，Peppers Cradle Mountain Lodge）",
+            "rating": 4.0,
+            "ratingCount": 478,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Ronny Creek 约 7 公里，返回 Cradle Valley 后用餐",
+            "priceLevel": "人均约 A$60-100",
+            "cuisine": "现代塔州料理",
+            "recommended": "官网说明菜单随季节变化，重点使用塔州本地食材并搭配当地葡萄酒。座位有限，晚餐建议预订，不适合作为步道途中补给。",
+            "hours": "早餐每日 07:00-10:00；晚餐每日 17:30 起",
+            "sourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g504288-d1724951-Reviews-Highland_Restaurant-Cradle_Mountain_Lake_St_Clair_National_Park_Tasmania.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "接驳车运营时从游客中心乘车到 Ronny Creek；现场停车非常有限。",
+        "lots": [
+          {
+            "name": "Ronny Creek 停车区",
+            "nameEn": "Ronny Creek Parking Area",
+            "lat": -41.6461659,
+            "lng": 145.9358631,
+            "coordinateSource": "Nominatim（OSM，Ronny Creek）",
+            "fee": "mixed",
+            "feeNote": "停车未单列收费，但国家公园通行及接驳受 Parks Pass 规则约束",
+            "capacity": "有限，官方未公布具体数量",
+            "surface": "沥青",
+            "note": "Parks Tasmania 明确称 Ronny Creek 停车有限；白天以游客中心接驳为准，不应依赖现场抢位。"
+          }
+        ],
+        "rules": [
+          "接驳路线依次停 Ranger Station、Snake Hill、Ronny Creek 和 Dove Lake。",
+          "接驳运营时间受季节及天气影响，应在游客中心确认末班车。",
+          "野餐桌可用，但没有售餐服务。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania：Cradle Mountain 接驳与停车",
+            "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/dove-lake"
+          }
+        ]
+      }
+    },
+    "d9-04": {
+      "category": "attraction",
+      "categoryNote": "塔斯马尼亚恶魔及本地野生动物保育园。",
+      "food": {
+        "summary": "保护园附近没有独立餐饮街，最近可靠选择集中在游客中心和两家 lodge。",
+        "restaurants": [
+          {
+            "name": "Tavern Bar & Bistro",
+            "nameEn": "Tavern Bar & Bistro",
+            "lat": -41.5950197,
+            "lng": 145.9277969,
+            "coordinateSource": "Nominatim（OSM，Cradle Mountain Lodge）",
+            "rating": 3.7,
+            "ratingCount": 911,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距保护园约 300 米",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "澳式酒馆餐",
+            "recommended": "适合参观后吃 pizza、burger 等较轻松的酒馆餐；官网确认午晚餐每日供应。walk-in 制，不能预订。",
+            "hours": "每日 12:00 至较晚时段",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504288-d4106262-Reviews-Tavern_Bar_And_Bistro-Cradle_Mountain_Lake_St_Clair_National_Park_Tasmania.html"
+          },
+          {
+            "name": "Hellyers Restaurant",
+            "nameEn": "Hellyers Restaurant",
+            "lat": -41.5809381,
+            "lng": 145.9374751,
+            "coordinateSource": "Nominatim（OSM，Discovery Resorts 路段地址）",
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距保护园约 2 公里",
+            "priceLevel": "人均约 A$40-70",
+            "cuisine": "塔州食材料理",
+            "recommended": "官网说明使用特色塔州食材，并搭配塔州葡萄酒、威士忌和烈酒。晚餐座位少，在线预订是明确要求。",
+            "hours": "晚餐 17:00-19:30 最后入座；外带 17:00-19:00，视供应而定",
+            "sourceUrl": "https://www.discoveryholidayparks.com.au/resorts/cradle-mountain/dining"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "保护园设访客停车区，和 Dove Lake 园内道路的接驳限制不是同一停车点。",
+        "lots": [
+          {
+            "name": "Devils at Cradle 访客停车区",
+            "nameEn": "Devils at Cradle Visitor Parking",
+            "lat": -41.595,
+            "lng": 145.93,
+            "coordinateSource": "任务提供的景点坐标；以现场入口标识核对",
+            "fee": "unknown",
+            "feeNote": "公开检索资料未找到独立停车收费说明",
+            "capacity": null,
+            "surface": null,
+            "note": "仅按保护园现场标识停车；不要误入 Cradle Mountain Lodge 住客车位。"
+          }
+        ],
+        "rules": [
+          "若同日游 Dove Lake，仍应另把车停到游客中心并按接驳规则换乘。",
+          "晚间参观结束后道路较暗，取车时注意野生动物。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania：Dove Lake 车辆限制边界",
+            "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/dove-lake"
+          }
+        ]
+      }
+    },
+    "d10-01": {
+      "category": "attraction",
+      "categoryNote": "国家公园游客服务、通行证验证与接驳换乘中心。",
+      "food": {
+        "summary": "游客中心适合买外带午餐；若要正式晚餐，附近 lodge 选择有限且旺季应预订。",
+        "restaurants": [
+          {
+            "name": "Elements Cafe",
+            "nameEn": "Elements Cafe",
+            "lat": -41.5956589,
+            "lng": 145.9311414,
+            "coordinateSource": "Nominatim（OSM）",
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于游客中心内",
+            "priceLevel": "简餐约 A$10-25",
+            "cuisine": "咖啡、三明治、卷饼、派、汉堡",
+            "recommended": "适合搭接驳前买咖啡、三明治、卷饼、派和零食。当地指南明确建议日游客在这里先买外带午餐。",
+            "hours": null,
+            "sourceUrl": "https://www.cradlemountaintour.com/dining-cradle-mountain"
+          },
+          {
+            "name": "Highland Restaurant",
+            "nameEn": "Highland Restaurant",
+            "lat": -41.5950197,
+            "lng": 145.9277969,
+            "coordinateSource": "Nominatim（OSM，Cradle Mountain Lodge）",
+            "rating": 4.0,
+            "ratingCount": 478,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距游客中心约 300 米",
+            "priceLevel": "人均约 A$60-100",
+            "cuisine": "现代塔州料理",
+            "recommended": "主打季节性塔州食材与本地葡萄酒，适合作为徒步后的正式晚餐。官网提示座位有限并建议预订。",
+            "hours": "早餐每日 07:00-10:00；晚餐每日 17:30 起",
+            "sourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g504288-d1724951-Reviews-Highland_Restaurant-Cradle_Mountain_Lake_St_Clair_National_Park_Tasmania.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "这是白天进入 Dove Lake/Ronny Creek 的主要停车和强制换乘点。",
+        "lots": [
+          {
+            "name": "Cradle Mountain Visitor Centre 停车场",
+            "nameEn": "Cradle Mountain Visitor Centre Car Park",
+            "lat": -41.5956589,
+            "lng": 145.9311414,
+            "coordinateSource": "Nominatim（OSM）",
+            "fee": "mixed",
+            "feeNote": "停车未单列收费；进入公园需 Parks Pass，接驳票按所持通票类型处理",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "停车后在游客中心验证 Parks Pass、安排接驳票。房车应服从现场长车位与工作人员指引。"
+          }
+        ],
+        "rules": [
+          "所有访客应先在游客中心停车、验证 Parks Pass 并办理接驳票。",
+          "接驳运营时私家车不能依赖进入 Dove Lake；仅停运时有 9 个普通车位和 1 个无障碍位。",
+          "天气会影响道路与接驳时间，务必现场确认。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania：Dove Lake 与 Visitor Centre",
+            "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/dove-lake"
+          }
+        ]
+      }
+    },
+    "d10-02": {
+      "category": "transport",
+      "categoryNote": "Spirit of Tasmania 跨海渡轮客运与车辆登船码头。",
+      "food": {
+        "summary": "码头有候船 Cafe，但更完整的早午餐和晚餐要过河到 Devonport 市区，预留约 10 分钟车程。",
+        "restaurants": [
+          {
+            "name": "Drift Cafe Restaurant",
+            "nameEn": "Drift Cafe Restaurant",
+            "lat": -41.1622119,
+            "lng": 146.3556951,
+            "coordinateSource": "Nominatim（OSM）",
+            "rating": 4.4,
+            "ratingCount": 917,
+            "ratingSource": "Google 地图（Starworks 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距码头约 4 公里，驾车约 8-10 分钟",
+            "priceLevel": "人均约 A$20-35",
+            "cuisine": "早餐、早午餐、炸鱼薯条",
+            "recommended": "官网确认使用塔州本地食材，供应全天早餐、早午餐、午餐及外带 Fish + Chips。适合白天航班前后，但不要压缩到关闭登船前。",
+            "hours": "每日 06:30-16:00；15:00 后仅外带",
+            "sourceUrl": "https://www.starworks.com.au/score/na%3A0ac2d0faaf9078c7"
+          },
+          {
+            "name": "Mrs Jones Restaurant Bar Lounge",
+            "nameEn": "Mrs Jones Restaurant Bar Lounge",
+            "lat": -41.1661117,
+            "lng": 146.3620644,
+            "coordinateSource": "Nominatim（OSM，35 Bluff Road 路段）",
+            "rating": 4.1,
+            "ratingCount": 4055,
+            "ratingSource": "Menuweb",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距码头约 4 公里，驾车约 8-10 分钟",
+            "priceLevel": "人均约 A$40-70",
+            "cuisine": "现代澳洲料理",
+            "recommended": "官方旅游资料称菜单使用新鲜时令食材和塔州供应商产品，并搭配塔州葡萄酒、烈酒、啤酒与 cider。适合时间宽裕的午晚餐。",
+            "hours": null,
+            "sourceUrl": "https://menuweb.menu/restaurants/devonport/mrs-jones-restaurant-bar-lounge"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "码头有免费但有限的乘客停车与上下客区域，不应视为跨夜长期存车场。",
+        "lots": [
+          {
+            "name": "Spirit of Tasmania Devonport Terminal 乘客停车区",
+            "nameEn": "Spirit of Tasmania Devonport Terminal Passenger Parking",
+            "lat": -41.18,
+            "lng": 146.365,
+            "coordinateSource": "任务提供的码头坐标；Spirit of Tasmania 官方页面核对位置",
+            "fee": "free",
+            "feeNote": "官网明确 Devonport terminal 提供免费停车，但数量有限",
+            "capacity": "有限，未公布数量",
+            "surface": "沥青",
+            "note": "仅供乘客短时使用；街边车位也有限。车辆登船应按 Passenger Vehicles 指示进入 check-in 与 marshalling yard。"
+          },
+          {
+            "name": "Devonport Terminal 接送区",
+            "nameEn": "Devonport Terminal Drop-off / Pick-up Zone",
+            "lat": -41.18,
+            "lng": 146.365,
+            "coordinateSource": "任务提供的码头坐标；Spirit of Tasmania 官方页面",
+            "fee": "free",
+            "feeNote": "短时接送区",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "只作接送，不可留车候船或过夜。车辆旅客 check-in 通常在开航前 1.5-2.5 小时开放，并于开航前 45 分钟严格关闭。"
+          }
+        ],
+        "rules": [
+          "官网只确认 limited parking，不承诺长期存车；跨夜离车应另找有明确长期条款的停车设施。",
+          "进入 marshalling yard 后按广播返回车辆，并记住登船后的车辆甲板位置。",
+          "码头周边街边停车有限，不要把街位当作赶船备选。"
+        ],
+        "sources": [
+          {
+            "label": "Spirit of Tasmania：Terminal Information",
+            "url": "https://www.spiritoftasmania.com.au/before-you-sail/terminal-information/"
+          },
+          {
+            "label": "Spirit of Tasmania：Boarding with your vehicle",
+            "url": "https://www.spiritoftasmania.com.au/before-you-sail/boarding-with-your-vehicle/"
+          }
+        ]
+      }
+    },
+    "wv-puffing": {
+      "category": "transport",
+      "categoryNote": "Puffing Billy Railway 的 Belgrave 窄轨蒸汽火车始发站。",
+      "food": {
+        "summary": "Belgrave 镇中心餐饮充足，两家选择均可从蒸汽火车站步行抵达。",
+        "restaurants": [
+          {
+            "name": "Babaji's Kerala Kitchen Belgrave",
+            "nameEn": "Babaji's Kerala Kitchen Belgrave",
+            "lat": -37.9100522,
+            "lng": 145.353318,
+            "coordinateSource": "Nominatim（OSM，1644 Burwood Highway）",
+            "rating": 4.0,
+            "ratingCount": 926,
+            "ratingSource": "Menuweb",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Puffing Billy Belgrave Station 步行约 5 分钟",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "印度 Kerala 菜",
+            "recommended": "官网明确是 Kerala 南印度餐厅，并提供 vegan、vegetarian 与 gluten-free 选择。适合火车前后吃咖喱、米饭类正餐或 chai。",
+            "hours": "周一、周二、周四、周日 12:00-20:00；周五、周六 12:00-21:00；周三休息",
+            "sourceUrl": "https://menuweb.menu/restaurants/belgrave-vic/babajis-kerala-kitchen/reviews"
+          },
+          {
+            "name": "Micawber Tavern",
+            "nameEn": "Micawber Tavern",
+            "lat": -37.900262,
+            "lng": 145.3568283,
+            "coordinateSource": "Nominatim（OSM）",
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距车站约 1 公里",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "澳式酒馆餐",
+            "recommended": "Puffing Billy 官方介绍确认供应当代季节性 bistro 菜单、Guinness、本地及国际啤酒，并有 beer garden。适合火车行程后吃 pub meal。",
+            "hours": "每日营业；具体餐时以官网为准",
+            "sourceUrl": "https://puffingbillyrailway.org.au/visit-us/things-to-do-in-the-region/micawber-tavern/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "首选 Belgrave Metro Station 新多层停车楼；免费但主要服务通勤，周末和活动日应早到。",
+        "lots": [
+          {
+            "name": "Belgrave Metro Station 多层停车场",
+            "nameEn": "Belgrave Station Multi-deck Car Park",
+            "lat": -37.9096952,
+            "lng": 145.3548577,
+            "coordinateSource": "Nominatim（OSM，Belgrave Station）",
+            "fee": "free",
+            "feeNote": "维州通勤停车项目；公开旅游交通资料列为免费停车",
+            "capacity": "640 个车位，其中 16 个地面层无障碍车位",
+            "surface": "混凝土多层停车楼",
+            "note": "入口有实时余位显示、CCTV、照明和电梯；从 Metro station 步行约 2 分钟到 Puffing Billy。"
+          },
+          {
+            "name": "Belgrave Station 上下客区",
+            "nameEn": "Belgrave Station Pick-up / Drop-off Zone",
+            "lat": -37.9096952,
+            "lng": 145.3548577,
+            "coordinateSource": "Nominatim（OSM）",
+            "fee": "free",
+            "feeNote": "仅短时接送",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "新停车项目包含专用 pick-up/drop-off zones；不可在此长时间等候。"
+          }
+        ],
+        "rules": [
+          "停车楼主要为公共交通通勤者建设，周末热门班次仍可能满位，应至少提前到达。",
+          "不要把 Woolworths 等商业停车场当全天停车，须遵守商场限时牌。",
+          "无障碍车位位于地面层。"
+        ],
+        "sources": [
+          {
+            "label": "VicTrack：Belgrave Station 640-space car park",
+            "url": "https://www.victrack.com.au/news/2024/hundreds-more-spaces-added-at-belgrave-station-car-park"
+          },
+          {
+            "label": "Car Parks for Commuters：Belgrave Station",
+            "url": "https://carparks.vic.gov.au/project/belgrave-station-car-park/"
+          }
+        ]
+      }
+    },
+    "d11-01": {
+      "category": "attraction",
+      "categoryNote": "海滩、冲浪与海滨步行景点。",
+      "food": {
+        "summary": "Anglesea 镇中心距海滩很近，适合先停车步行吃饭，旺季晚餐应预留排队时间。",
+        "restaurants": [
+          {
+            "name": "Morgan's Bar & Grill",
+            "nameEn": "Morgan's Bar & Grill",
+            "lat": -38.404615,
+            "lng": 144.1899538,
+            "coordinateSource": "Nominatim（OSM）",
+            "rating": 4.1,
+            "ratingCount": 403,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Anglesea Beach 约 500 米",
+            "priceLevel": "人均约 A$20-40",
+            "cuisine": "汉堡、牛排、早午餐",
+            "recommended": "官网主打 specialty coffee、milkshake、brunch、精酿啤酒和海岸风格汉堡；当地指南称汉堡选择多，也有无麸质选项。",
+            "hours": null,
+            "sourceUrl": "https://www.sluurpy.com/en/anglesea/restaurant/4620404/morgans-bar-and-grill"
+          },
+          {
+            "name": "A la grecque",
+            "nameEn": "A la grecque",
+            "lat": -38.46513,
+            "lng": 144.09901,
+            "coordinateSource": "Nominatim（OSM，Aireys Inlet 餐饮区邻近点）",
+            "rating": 4.2,
+            "ratingCount": 1940,
+            "ratingSource": "Menuweb",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Anglesea Beach 约 10 公里，位于 Aireys Inlet",
+            "priceLevel": "人均约 A$40-70",
+            "cuisine": "现代希腊菜",
+            "recommended": "Anglesea 官方餐饮页面明确介绍其现代希腊料理。适合作为继续向西前往 Aireys Inlet 时的正餐，而不是从海滩步行前往。",
+            "hours": null,
+            "sourceUrl": "https://menuweb.menu/restaurants/aireys-inlet/a-la-greque/reviews"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "海滩周边以免费海滨和街边车位为主，夏季周末很快满位。",
+        "lots": [
+          {
+            "name": "Anglesea Beach 海滨停车区",
+            "nameEn": "Anglesea Beach Foreshore Parking",
+            "lat": -38.406,
+            "lng": 144.185,
+            "coordinateSource": "任务提供的海滩坐标；以现场停车标线核对",
+            "fee": "free",
+            "feeNote": "公开资料未显示常设收费；以现场限时牌为准",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "旺季和冲浪活动时优先留给海滩访客；大型房车不要占多个普通车位。"
+          }
+        ],
+        "rules": [
+          "必须遵守现场时限、无障碍位和禁止停车标志。",
+          "夏季周末建议早到，满位后到镇内合法街位步行，不要停上沙地或草地。"
+        ],
+        "sources": [
+          {
+            "label": "Anglesea 官方地区网站",
+            "url": "https://www.anglesea.com.au/"
+          }
+        ]
+      }
+    },
+    "d11-02": {
+      "category": "attraction",
+      "categoryNote": "历史灯塔、海岸步道与观景景点。",
+      "food": {
+        "summary": "灯塔步道旁就有 Tea Rooms；更完整的晚餐可到 Great Ocean Road 镇中心餐厅。",
+        "restaurants": [
+          {
+            "name": "The Lighthouse Tea Rooms",
+            "nameEn": "The Lighthouse Tea Rooms",
+            "lat": -38.4671213,
+            "lng": 144.1049235,
+            "coordinateSource": "Nominatim（OSM）",
+            "rating": 4.3,
+            "ratingCount": 184,
+            "ratingSource": "Google 地图（由 Restaurant Guru 页面转引）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Split Point Lighthouse 步行约 200 米",
+            "priceLevel": "人均约 A$10-30",
+            "cuisine": "澳式、法式咖啡馆",
+            "recommended": "评论资料反复提到 scones 配果酱和奶油、Reuben sandwich、培根卷及 milkshake。适合灯塔参观前后吃轻食，周末会忙。",
+            "hours": "页面列示每日 09:00-16:00；出发前再核对",
+            "sourceUrl": "https://restaurantguru.com/Lighthouse-Stables-and-Cafe-Aireys-Inlet"
+          },
+          {
+            "name": "The Captain of Aireys",
+            "nameEn": "The Captain of Aireys",
+            "lat": -38.4651306,
+            "lng": 144.0990102,
+            "coordinateSource": "Nominatim（OSM）",
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距灯塔约 700 米",
+            "priceLevel": "人均约 A$20-40",
+            "cuisine": "木火披萨",
+            "recommended": "大洋路官方旅游页面明确介绍手工拉伸、木火烘烤 pizza，并使用新鲜本地食材。适合家庭分享，较 Tea Rooms 更接近正餐。",
+            "hours": "官方旅游页面称每日营业；具体时段以店家为准",
+            "sourceUrl": "https://www.visitgreatoceanroad.org.au/iamaireysinlet/eat-drink/aireys-inlet-for-foodies/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "灯塔没有大型集中停车楼，主要使用 Federal Street 一带合法街边位后步行上去。",
+        "lots": [
+          {
+            "name": "Split Point Lighthouse / Federal Street 路侧停车区",
+            "nameEn": "Split Point Lighthouse Federal Street Parking",
+            "lat": -38.4671213,
+            "lng": 144.1049235,
+            "coordinateSource": "Nominatim（OSM，The Lighthouse Tea Rooms）",
+            "fee": "free",
+            "feeNote": "免费街边停车；以现场限时牌为准",
+            "capacity": "少量路侧车位",
+            "surface": "沥青",
+            "note": "从 Tea Rooms 附近步行到灯塔；不要堵住居民车道，旺季满位时回镇中心合法停车。"
+          }
+        ],
+        "rules": [
+          "Aireys Inlet 免费街边位在夏季周末会很快满。",
+          "只停有标线或明确允许的路段，不在弯道、居民出入口或步道入口临停。"
+        ],
+        "sources": [
+          {
+            "label": "Aireys Inlet 游览与停车提示",
+            "url": "https://thewanderbug.com/aireys-inlet-great-ocean-road/"
+          }
+        ]
+      }
+    },
+    "d11-03": {
+      "category": "attraction",
+      "categoryNote": "Great Ocean Road 历史纪念拱门与短暂停靠拍照点。",
+      "food": {
+        "summary": "拱门本身没有餐饮；东侧回 Aireys Inlet 约 6 公里，西侧到 Lorne 约 15 公里。",
+        "restaurants": [
+          {
+            "name": "The Captain of Aireys",
+            "nameEn": "The Captain of Aireys",
+            "lat": -38.4651306,
+            "lng": 144.0990102,
+            "coordinateSource": "Nominatim（OSM）",
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Memorial Arch 约 6 公里，向东回 Aireys Inlet",
+            "priceLevel": "人均约 A$20-40",
+            "cuisine": "木火披萨",
+            "recommended": "官方旅游页面主推手工木火 pizza 和本地食材，适合家庭快速解决正餐。拱门没有餐饮，需专程驾车前往。",
+            "hours": "官方旅游页面称每日营业；具体时段以店家为准",
+            "sourceUrl": "https://www.visitgreatoceanroad.org.au/iamaireysinlet/eat-drink/aireys-inlet-for-foodies/"
+          },
+          {
+            "name": "Totti's Lorne",
+            "nameEn": "Totti's Lorne",
+            "lat": -38.5430178,
+            "lng": 143.9759497,
+            "coordinateSource": "Nominatim（OSM，176 Mountjoy Parade）",
+            "rating": 3.8,
+            "ratingCount": null,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Memorial Arch 约 15 公里，继续向西到 Lorne",
+            "priceLevel": "人均约 A$45-80",
+            "cuisine": "意大利菜",
+            "recommended": "官网明确推荐 lobster pasta、wood-grilled King George whiting、Apollo Bay calamari、手工 pasta 与 tiramisu。适合继续西行后在 Lorne 正式用餐。",
+            "hours": "周一及周四至周日 12:00-22:00；当前官网未列周二、周三",
+            "sourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g261659-d26469178-Reviews-Totti_s_Lorne-Lorne_Victoria.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "只有海侧免费 pull-off 短停区，不是大型正式停车场；高速车流旁下车必须特别小心。",
+        "lots": [
+          {
+            "name": "Memorial Arch 海侧短停区",
+            "nameEn": "Memorial Arch Ocean-side Pull-off",
+            "lat": -38.4719983,
+            "lng": 144.0446881,
+            "coordinateSource": "Nominatim（OSM）",
+            "fee": "free",
+            "feeNote": "免费短停",
+            "capacity": "约 25 辆小客车，另有少量 coach bay",
+            "surface": "沥青",
+            "note": "入口紧邻拱门弯道，提前减速并只从海侧入口驶入；适合 10-15 分钟拍照，不宜久停。"
+          }
+        ],
+        "rules": [
+          "不要穿越车道或走到拱门正下方拍照，该处无行人过街设施且车辆速度高。",
+          "周末满位时继续前行，不得在 Great Ocean Road 车道边随意停车。",
+          "现场无厕所，最近设施在 Aireys Inlet 方向约 4-6 公里。"
+        ],
+        "sources": [
+          {
+            "label": "Great Ocean Road Authority：Eastern View 安全提醒",
+            "url": "https://www.greatoceanroadauthority.vic.gov.au/Environment/Coastal-Operations/Coastal-Reserves/Eastern-View"
+          },
+          {
+            "label": "GreatOceanRoad.com：Memorial Arch 停车",
+            "url": "https://greatoceanroad.com.au/memorial-arch/"
+          }
+        ]
+      }
+    },
+    "d11-04": {
+      "category": "attraction",
+      "categoryNote": "Lorne 山坡海岸观景台与短步道。",
+      "food": {
+        "summary": "观景台无餐饮，驾车约 5 分钟回 Lorne 海滨主街用餐。",
+        "restaurants": [
+          {
+            "name": "Totti's Lorne",
+            "nameEn": "Totti's Lorne",
+            "lat": -38.5430178,
+            "lng": 143.9759497,
+            "coordinateSource": "Nominatim（OSM，176 Mountjoy Parade）",
+            "rating": 3.8,
+            "ratingCount": null,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Teddy's Lookout 约 2 公里",
+            "priceLevel": "人均约 A$45-80",
+            "cuisine": "意大利菜",
+            "recommended": "官网菜单亮点包括 lobster pasta、木烤 King George whiting、Apollo Bay calamari、woodfired bread 和 tiramisu。热门时段建议预订。",
+            "hours": "周一及周四至周日 12:00-22:00；当前官网未列周二、周三",
+            "sourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g261659-d26469178-Reviews-Totti_s_Lorne-Lorne_Victoria.html"
+          },
+          {
+            "name": "Lorne Hotel Bistro & Beer Garden",
+            "nameEn": "Lorne Hotel Bistro & Beer Garden",
+            "lat": -38.5430178,
+            "lng": 143.9759497,
+            "coordinateSource": "Nominatim（OSM，176 Mountjoy Parade）",
+            "rating": 3.4,
+            "ratingCount": 503,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Teddy's Lookout 约 2 公里",
+            "priceLevel": "人均约 A$25-50",
+            "cuisine": "澳式酒馆餐",
+            "recommended": "官网列出 schnitzel、burger、季节性 curry 和新鲜 seafood，价格和氛围比同址 Totti's 更休闲。可在 beer garden 看海。",
+            "hours": null,
+            "sourceUrl": "https://www.tripadvisor.co.nz/Restaurant_Review-g261659-d1501972-Reviews-Lorne_Hotel_Bistro_Beer_Garden-Lorne_Victoria.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "George Street 尽头有小型免费停车区，步行数百米到观景台；不适合大型房车和拖挂。",
+        "lots": [
+          {
+            "name": "Teddy's Lookout / Queens Park 停车区",
+            "nameEn": "Teddy's Lookout / Queens Park Car Park",
+            "lat": -38.545,
+            "lng": 143.975,
+            "coordinateSource": "任务提供的观景台坐标；官方页面核对 George Street 入口",
+            "fee": "free",
+            "feeNote": "免费",
+            "capacity": "小型停车区，具体车位数未公布",
+            "surface": "沥青",
+            "note": "位于 George Street 与 Francis Street 附近 rotunda；上山路段陡且窄，大型房车、拖挂应留在镇内再步行或换小车。"
+          }
+        ],
+        "rules": [
+          "观景台没有厕所或其他服务设施。",
+          "小停车区满位时不要堵塞 George Street 或居民车道。",
+          "从停车区到观景台为短步行，Queens Park 环线约 1.6 公里。"
+        ],
+        "sources": [
+          {
+            "label": "Visit Great Ocean Road：Teddy's Lookout",
+            "url": "https://visitgreatoceanroad.org.au/attractions/teddys-lookout/"
+          },
+          {
+            "label": "Visit Great Ocean Road：Queens Park Loop",
+            "url": "https://visitgreatoceanroad.org.au/inspiredbysurfcoast/5-teddys-lookout-and-queens-park-lookout-loop/"
+          }
+        ]
+      }
+    },
+    "d11-05": {
+      "category": "attraction",
+      "categoryNote": "小型海岸聚落、河口与野生动物观察停靠点。",
+      "food": {
+        "summary": "Kennett River 只有一间简餐店；若未营业，最近稳定正餐在北侧 Wye River 约 5 公里。",
+        "restaurants": [
+          {
+            "name": "Kafe Koala",
+            "nameEn": "Kafe Koala",
+            "lat": -38.6675038,
+            "lng": 143.8607834,
+            "coordinateSource": "Nominatim（OSM）",
+            "rating": 4.1,
+            "ratingCount": 161,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Kennett River 主停车区旁",
+            "priceLevel": "简餐约 A$10-25",
+            "cuisine": "咖啡、外带简餐",
+            "recommended": "这是聚落内唯一便捷补给点，适合买咖啡和简单外带。公开可靠菜单不足，不能保证特定菜品或每日营业。",
+            "hours": null,
+            "sourceUrl": "https://www.tripadvisor.co.uk/Restaurant_Review-g2006087-d6654525-Reviews-Kafe_Koala-Kennett_River_Victoria.html"
+          },
+          {
+            "name": "Wye Beach Hotel",
+            "nameEn": "Wye Beach Hotel",
+            "lat": -38.6359763,
+            "lng": 143.8907378,
+            "coordinateSource": "Nominatim（OSM）",
+            "rating": 4.0,
+            "ratingCount": 701,
+            "ratingSource": "Clubs and Pubs Near Me",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Kennett River 约 5 公里，向北到 Wye River",
+            "priceLevel": "人均约 A$25-50",
+            "cuisine": "澳式酒馆餐",
+            "recommended": "官网强调使用本地及小型独立生产者的食材与饮品，并有海景与家庭友好环境。Kafe Koala 未营业时，这是最近较稳妥的正餐。",
+            "hours": "官网显示 11:30 起营业；结束时间按当日公告",
+            "sourceUrl": "https://clubsandpubsnearme.com.au/pubs/wye-beach-hotel-wye-river-vic"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "只能停 Kafe Koala 前及规划标示的正式公共区域；不得驶入居民私人土地或沿 Grey River Road 随意占道。",
+        "lots": [
+          {
+            "name": "Kafe Koala 公共停车区",
+            "nameEn": "Kafe Koala Public Parking Area",
+            "lat": -38.6675038,
+            "lng": 143.8607834,
+            "coordinateSource": "Nominatim（OSM）",
+            "fee": "free",
+            "feeNote": "公共短停区，未查到收费",
+            "capacity": "现有容量有限；官方草案目标配置 24 辆小客车、1 辆长车、4 辆中型车及 5 辆摩托车",
+            "surface": "沥青与硬化路肩",
+            "note": "只停正式划线区域。官方容量数字来自 precinct plan 草案，2026 年现场是否全部完成需看标线；大型 coach 不应进入。"
+          }
+        ],
+        "rules": [
+          "不得进入居民私人土地、堵住住宅出入口或为找考拉擅自进入私人花园。",
+          "不要喂食、追逐、摇树或用无人机干扰野生动物；旅游机构已不再把这里宣传为保证看到考拉的地点。",
+          "停车满位就继续前往 Wye River 或 Apollo Bay，不得在 Great Ocean Road 行车道边临停。",
+          "官方 precinct plan 拟排除大型旅游 coach，并用正式车位取代 ad-hoc parking。"
+        ],
+        "sources": [
+          {
+            "label": "Great Ocean Road Authority：Kennett River precinct plan",
+            "url": "https://haveyoursay.greatoceanroadauthority.vic.gov.au/kennettriver"
+          },
+          {
+            "label": "Kennett Community Action Group：访客影响与私地闯入",
+            "url": "https://www.kennettcommunityactiongroup.com.au/news/ourinputinthecrg-tk7lx-8jbky-p65my-z2fd3"
+          }
+        ]
+      }
+    },
+    "d11-06": {
+      "category": "lodging",
+      "categoryNote": "大洋路沿线住宿小镇与夜间补给中心。",
+      "food": {
+        "summary": "Apollo Bay 是本段餐饮最集中处，海鲜、早餐和外带选择多；暑期晚餐热门店需提前订位或排队。",
+        "restaurants": [
+          {
+            "name": "Apollo Bay Fishermen's Co-op",
+            "nameEn": "Apollo Bay Fishermen's Co-op",
+            "lat": -38.7584451,
+            "lng": 143.6769592,
+            "coordinateSource": "Nominatim（OSM，Apollo Bay Boat Harbour）",
+            "rating": 4.1,
+            "ratingCount": 562,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Apollo Bay 镇中心约 700 米，位于港口",
+            "priceLevel": "人均约 A$20-40",
+            "cuisine": "海鲜、炸鱼薯条",
+            "recommended": "当地指南称渔民合作社直接把当天时令鱼获做成 Fish and Chips，常见鱼种随当日捕捞变化。适合在码头野餐桌吃，不接受把某一种鱼当作固定供应。",
+            "hours": "多为下午及晚餐时段，指南称周二休息；出发前核对",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g261654-d5327744-Reviews-Apollo_Bay_Fishermen_s_Co_op-Apollo_Bay_Victoria.html"
+          },
+          {
+            "name": "Bay Leaf Cafe",
+            "nameEn": "Bay Leaf Cafe",
+            "lat": -38.7624798,
+            "lng": 143.6708042,
+            "coordinateSource": "Nominatim（OSM，Great Ocean Road 镇中心路段）",
+            "rating": 3.9,
+            "ratingCount": 1779,
+            "ratingSource": "Menuweb",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于镇中心主街，距海滨约 100-300 米",
+            "priceLevel": "人均约 A$15-30",
+            "cuisine": "早餐、咖啡馆",
+            "recommended": "当地指南把 Bay Leaf Cafe 列为镇上早餐标杆，供应完整早餐菜单并较早开门。适合作为自驾出发前的咖啡与早餐。",
+            "hours": null,
+            "sourceUrl": "https://menuweb.menu/restaurants/apollo-bay/bay-leaf-cafe-1/reviews"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "镇中心和海滨有路侧停车，但住宿应优先使用酒店自有车位；旺季主街车位紧张。",
+        "lots": [
+          {
+            "name": "Apollo Bay Harbour 公共停车区",
+            "nameEn": "Apollo Bay Harbour Public Parking",
+            "lat": -38.7584451,
+            "lng": 143.6769592,
+            "coordinateSource": "Nominatim（OSM，Apollo Bay Boat Harbour）",
+            "fee": "free",
+            "feeNote": "公开资料未显示常设收费；现场限时与标志优先",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "适合港口和 Fishermen's Co-op 短停，不作为住宿过夜停车；房车须停合规长车位或营地。"
+          }
+        ],
+        "rules": [
+          "入住后优先使用住宿方分配车位，不把 Great Ocean Road 主街路位当过夜保证。",
+          "暑期、复活节和学校假期应尽早停车，严禁占用装卸区、无障碍位或巴士位。",
+          "拖挂和房车过夜应使用 caravan park 或住宿方明确允许的区域。"
+        ],
+        "sources": [
+          {
+            "label": "Apollo Bay 餐饮与旺季提示",
+            "url": "https://greatoceanroad.com.au/towns/apollo-bay/restaurants/"
+          }
+        ]
+      }
+    }
+  },
+  "uncertain": [
+    {
+      "placeId": "d9-01",
+      "field": "food.restaurants.rating",
+      "issue": "Platypus House Cafe：检索店名+Beauty Point+rating/reviews，并核对 Wanderlog、官方景点页；结果均对应景点整体，不能归属咖啡馆。",
+      "handled": "继续将 rating、ratingCount 与 ratingSource 保持为 null；不采用无法在来源页复核的搜索摘要分数。"
+    },
+    {
+      "placeId": "d9-02",
+      "field": "food.restaurants.rating",
+      "issue": "Elements Cafe：检索店名+Cradle Mountain+rating/reviews，并核对 Wanderlog、当地餐饮指南；未见可归属的星级与评论数。",
+      "handled": "继续将 rating、ratingCount 与 ratingSource 保持为 null；不采用无法在来源页复核的搜索摘要分数。"
+    },
+    {
+      "placeId": "d9-03",
+      "field": "food.restaurants.rating",
+      "issue": "Elements Cafe：检索店名+Cradle Mountain+rating/reviews，并核对 Wanderlog、当地餐饮指南；未见可归属的星级与评论数。",
+      "handled": "继续将 rating、ratingCount 与 ratingSource 保持为 null；不采用无法在来源页复核的搜索摘要分数。"
+    },
+    {
+      "placeId": "d9-04",
+      "field": "parking.fee",
+      "issue": "Devils at Cradle 未公开单独停车收费、容量和路面资料。",
+      "handled": "fee 写 unknown，其余未知字段置 null，并要求以现场标识为准。"
+    },
+    {
+      "placeId": "d9-04",
+      "field": "food.restaurants.rating",
+      "issue": "Hellyers Restaurant：检索店名+Cradle Mountain+Tripadvisor/rating/reviews，并核对 Trivago 与官网；公开分数对应度假村整体或无评论数，未采用。",
+      "handled": "继续将 rating、ratingCount 与 ratingSource 保持为 null；不采用无法在来源页复核的搜索摘要分数。"
+    },
+    {
+      "placeId": "d10-01",
+      "field": "food.restaurants.rating",
+      "issue": "Elements Cafe：检索店名+Cradle Mountain+rating/reviews，并核对 Wanderlog、当地餐饮指南；未见可归属的星级与评论数。",
+      "handled": "继续将 rating、ratingCount 与 ratingSource 保持为 null；不采用无法在来源页复核的搜索摘要分数。"
+    },
+    {
+      "placeId": "d10-02",
+      "field": "parking.longTerm",
+      "issue": "码头官网只确认免费但有限的乘客停车，未承诺跨夜长期存车。",
+      "handled": "明确标注不可把码头停车视为长期方案，未编造长时停车场。"
+    },
+    {
+      "placeId": "wv-puffing",
+      "field": "food.restaurants.rating",
+      "issue": "Micawber Tavern：检索店名+Belgrave+Tripadvisor/Google/rating/reviews；搜索摘要声称 Tripadvisor 分数，但返回页面不显示该分数，无法用 sourceUrl 复核。",
+      "handled": "继续将 rating、ratingCount 与 ratingSource 保持为 null；不采用无法在来源页复核的搜索摘要分数。"
+    },
+    {
+      "placeId": "d11-02",
+      "field": "food.restaurants.rating",
+      "issue": "The Captain of Aireys：检索店名+Aireys Inlet+Tripadvisor/Google/rating/reviews，并核对当地活动页与 LinkedIn；搜索摘要有分数但返回页面不显示，未采用。",
+      "handled": "继续将 rating、ratingCount 与 ratingSource 保持为 null；不采用无法在来源页复核的搜索摘要分数。"
+    },
+    {
+      "placeId": "d11-03",
+      "field": "parking",
+      "issue": "拱门处是海侧 pull-off 短停区，并非有正式专名的大型停车场。",
+      "handled": "按 Nominatim 的 Memorial Arch 坐标填写，并明确约 25 车位及高速车流风险。"
+    },
+    {
+      "placeId": "d11-03",
+      "field": "food.restaurants.rating",
+      "issue": "The Captain of Aireys：检索店名+Aireys Inlet+Tripadvisor/Google/rating/reviews，并核对当地活动页与 LinkedIn；搜索摘要有分数但返回页面不显示，未采用。",
+      "handled": "继续将 rating、ratingCount 与 ratingSource 保持为 null；不采用无法在来源页复核的搜索摘要分数。"
+    },
+    {
+      "placeId": "d11-05",
+      "field": "parking.capacity",
+      "issue": "Kennett River 的 24 个小客车等容量来自 precinct plan 草案，无法确认 2026-08-22 是否全部按草案完工。",
+      "handled": "在 capacity 与 note 中明确标为草案目标，要求按现场标线停车。"
+    }
+  ]
+}

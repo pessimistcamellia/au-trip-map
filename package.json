@@ -6,11 +6,11 @@
   "packageManager": "pnpm@10.15.0",
   "scripts": {
     "dev": "vite",
-    "generate:data": "python3 scripts/generate_app_data.py",
+    "generate:data": "python3 scripts/generate_app_data.py && python3 scripts/enrich_place_data.py",
     "generate:icons": "python3 scripts/generate_icons.py",
     "typecheck": "vue-tsc --noEmit",
     "test": "vitest run",
-    "build": "python3 scripts/generate_app_data.py && python3 scripts/generate_icons.py && vue-tsc --noEmit && vite build && python3 scripts/prepare_github_pages.py",
+    "build": "python3 scripts/generate_app_data.py && python3 scripts/enrich_place_data.py && python3 scripts/generate_icons.py && vue-tsc --noEmit && vite build && python3 scripts/prepare_github_pages.py",
     "preview": "vite preview"
   },
   "dependencies": {

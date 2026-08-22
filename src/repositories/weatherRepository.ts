@@ -26,19 +26,24 @@ export class StaticWeatherRepository implements IWeatherRepository {
   async getWeather(place: IPlace): Promise<IWeatherReference> {
     const forecast = await this.provider.getForecast(place)
     if (forecast) return forecast
-    const summary = place.dayInfo?.weather.join('\n') || place.weather
+    // 逐点气候由数据增强阶段拆好；没有拆到的点才回落到日级原文。
+    const detail = place.weatherDetail ?? null
+    const summary = detail?.note || place.dayInfo?.weather.join('\n') || place.weather
     return {
       placeId: place.id,
       kind: 'climate-reference',
-      granularity: place.dayInfo?.weather.length ? 'place' : 'regional',
-      temperatureRange: extractTemperatureRange(summary),
+      granularity: detail?.granularity ?? 'regional',
+      temperatureRange: detail?.temperatureRange ?? extractTemperatureRange(summary),
       precipitation: null,
       humidity: null,
       uvIndex: null,
       sunshine: null,
+      basis: detail?.basis ?? '',
+      note: detail?.note ?? '',
+      dayAdvisory: detail?.dayAdvisory ?? '',
       summary,
       forecastStatus: 'outside-forecast-window',
-      updatedAt: '2026-08-21',
+      updatedAt: '2026-08-22',
     }
   }
 }

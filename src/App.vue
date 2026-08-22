@@ -3,14 +3,21 @@ import { useOnline } from '@vueuse/core'
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useRegisterSW } from 'virtual:pwa-register/vue'
+import DayTimeline from './components/DayTimeline.vue'
 import JournalView from './components/JournalView.vue'
+import PlaceFoodPanel from './components/PlaceFoodPanel.vue'
+import PlaceParkingPanel from './components/PlaceParkingPanel.vue'
+import PlaceWeatherPanel from './components/PlaceWeatherPanel.vue'
 import TripRhythmMap from './components/TripRhythmMap.vue'
 import { journalRepository } from './repositories/journalRepository'
 import { staticTripData } from './repositories/tripRepository'
 import { weatherRepository } from './repositories/weatherRepository'
 import {
+  getPlaceDetailCategories,
   getPlaceDetailLinksByCategory,
   getPlaceDetailSections,
+  getPlaceFood,
+  getPlaceParking,
   hasPlaceDetails,
 } from './services/placeDetails'
 import {
@@ -23,9 +30,9 @@ import type {
   IWeatherReference,
   MainView,
   PlaceDetailCategory,
+  PlaceTextCategory,
 } from './types'
 import {
-  buildNavigationUrl,
   daysUntil,
   getEmptyDaySummary,
   getPlacesForDay,
@@ -61,7 +68,6 @@ const exporting = ref(false)
 const rhythmView = ref<'text' | 'map'>(
   sessionStorage.getItem('au-trip-map:rhythm-view') === 'map' ? 'map' : 'text',
 )
-const detailTabs: PlaceDetailCategory[] = ['看点', '实用', '天气', '文化']
 const activeDetailTab = ref<PlaceDetailCategory>('看点')
 const weatherReference = ref<IWeatherReference | null>(null)
 const detailVisible = computed({
@@ -72,7 +78,16 @@ const detailVisible = computed({
 })
 
 const { needRefresh, updateServiceWorker } = useRegisterSW({
-  onRegisteredSW: () => undefined,
+  // 主动轮询，避免长期停留的页面一直用旧缓存看不到新内容。
+  onRegisteredSW: (_url, registration) => {
+    if (!registration) return
+    window.setInterval(
+      () => {
+        if (navigator.onLine) void registration.update()
+      },
+      60 * 1000,
+    )
+  },
   onRegisterError: () => {
     dataError.value = '离线服务初始化失败，请联网刷新后重试。'
   },
@@ -128,7 +143,7 @@ function setRhythmView(view: 'text' | 'map'): void {
 
 function openPlace(place: IPlace): void {
   if (!hasPlaceDetails(place)) return
-  activeDetailTab.value = '看点'
+  activeDetailTab.value = getPlaceDetailCategories(place)[0] ?? '看点'
   selectedPlace.value = place
   void weatherRepository.getWeather(place).then((value) => {
     if (selectedPlace.value?.id === place.id) weatherReference.value = value
@@ -146,13 +161,29 @@ function closeJournal(): void {
 }
 
 function detailSection(place: IPlace, tab: PlaceDetailCategory) {
-  return getPlaceDetailSections(place).find((section) => section.category === tab)!
+  return getPlaceDetailSections(place).find((section) => section.category === tab)
 }
 
+const detailTabs = computed<PlaceDetailCategory[]>(() =>
+  selectedPlace.value ? getPlaceDetailCategories(selectedPlace.value) : [],
+)
 const detailTabLinks = computed(() =>
   selectedPlace.value
     ? getPlaceDetailLinksByCategory(selectedPlace.value, activeDetailTab.value)
     : [],
+)
+const detailTabItems = computed<string[]>(() => {
+  if (!selectedPlace.value || activeDetailTab.value === '美食') return []
+  return (
+    detailSection(selectedPlace.value, activeDetailTab.value as PlaceTextCategory)
+      ?.items ?? []
+  )
+})
+const selectedFood = computed(() =>
+  selectedPlace.value ? getPlaceFood(selectedPlace.value) : null,
+)
+const selectedParking = computed(() =>
+  selectedPlace.value ? getPlaceParking(selectedPlace.value) : null,
 )
 
 async function exportTrip(): Promise<void> {
@@ -465,16 +496,16 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleEscape))
               </div>
             </header>
 
-            <ol v-if="rhythmView === 'text'" class="rhythm-list">
-              <li v-for="node in selectedDay.rhythm" :key="node.id">
-                <span class="rhythm-order">{{ node.order }}</span>
-                <article>
-                  <time>{{ node.time }}</time>
-                  <strong>{{ node.title }}</strong>
-                  <p>{{ node.text }}</p>
-                </article>
-              </li>
-            </ol>
+            <DayTimeline
+              v-if="rhythmView === 'text'"
+              :day="selectedDay"
+              :places="dayPlaces"
+              :online="online"
+              :completed-ids="store.completedSet"
+              @toggle-completed="store.toggleCompleted"
+              @open-place="openPlace"
+              @open-journal="openJournal"
+            />
             <TripRhythmMap
               v-else
               :nodes="selectedDay.rhythm"
@@ -514,60 +545,6 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleEscape))
             </article>
           </details>
 
-          <section class="timeline" aria-label="当日地点">
-            <article
-              v-for="place in dayPlaces"
-              :key="place.id"
-              :class="{ done: store.completedSet.has(place.id) }"
-            >
-              <button
-                class="timeline-check"
-                type="button"
-                :aria-label="
-                  store.completedSet.has(place.id)
-                    ? `取消完成 ${place.name}`
-                    : `标记完成 ${place.name}`
-                "
-                @click="store.toggleCompleted(place.id)"
-              >
-                <span class="timeline-sequence">{{ place.sequence ?? '—' }}</span>
-              </button>
-              <div class="timeline-content">
-                <div class="place-title-line">
-                  <div>
-                    <span v-if="place.priority === 'optional'" class="optional-label">可选</span>
-                    <span class="place-name-line">
-                      <strong>{{ place.name }}</strong>
-                      <a
-                        v-if="place.lat !== null"
-                        class="place-navigate"
-                        :href="online ? buildNavigationUrl(place) : undefined"
-                        :aria-disabled="!online"
-                        :aria-label="`在 Google 地图导航到 ${place.name}`"
-                        :title="online ? '在 Google 地图导航' : '离线状态不可导航'"
-                        target="_blank"
-                        rel="noreferrer"
-                      ><van-icon name="guide-o" /></a>
-                    </span>
-                  </div>
-                  <nav :aria-label="`${place.name} 操作`">
-                    <span v-if="place.lat === null" class="not-mapped">未上图</span>
-                    <button
-                      v-if="hasPlaceDetails(place)"
-                      type="button"
-                      @click="openPlace(place)"
-                    >更多</button>
-                  </nav>
-                </div>
-                <small>{{ place.duration }} · {{ place.transport }}</small>
-                <p>{{ place.highlights }}</p>
-                <button class="journal-link" type="button" @click="openJournal(place)">
-                  <van-icon name="records-o" />
-                  随手记
-                </button>
-              </div>
-            </article>
-          </section>
         </section>
 
         <section v-else-if="activeView === 'search'" class="search-view">
@@ -736,7 +713,11 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleEscape))
           <p>{{ selectedPlace.name_en }}</p>
         </header>
 
-        <div class="detail-tabs" role="tablist">
+        <div
+          class="detail-tabs"
+          role="tablist"
+          :style="{ '--tab-count': detailTabs.length }"
+        >
           <button
             v-for="tab in detailTabs"
             :key="tab"
@@ -750,37 +731,51 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleEscape))
         </div>
         <section class="detail-body">
           <header>
-            <small>{{ activeDetailTab === '天气' ? '气候参考与预报状态' : '已按用途整理' }}</small>
+            <small>
+              {{
+                activeDetailTab === '天气'
+                  ? '本目的地气候参考'
+                  : activeDetailTab === '美食'
+                    ? '附近高分餐厅'
+                    : '已按用途整理'
+              }}
+            </small>
             <h3>{{ activeDetailTab }}</h3>
           </header>
-          <div v-if="detailSection(selectedPlace, activeDetailTab).items.length" class="detail-items">
-            <p
-              v-for="item in detailSection(selectedPlace, activeDetailTab).items"
-              :key="item"
-            >{{ item }}</p>
-          </div>
-          <div v-else class="detail-empty">暂无这一类资料</div>
 
-          <section v-if="activeDetailTab === '天气' && weatherReference" class="weather-reference">
-            <div>
-              <small>温度</small>
-              <strong>{{ weatherReference.temperatureRange ?? '资料未结构化' }}</strong>
+          <PlaceFoodPanel
+            v-if="activeDetailTab === '美食' && selectedFood"
+            :food="selectedFood"
+            :online="online"
+          />
+          <template v-else-if="activeDetailTab === '天气'">
+            <PlaceWeatherPanel
+              v-if="weatherReference"
+              :place-name="selectedPlace.name"
+              :reference="weatherReference"
+              :links="detailTabLinks"
+              :online="online"
+            />
+            <div v-else class="detail-empty">正在读取气候参考</div>
+          </template>
+          <template v-else>
+            <div v-if="detailTabItems.length" class="detail-items">
+              <p v-for="item in detailTabItems" :key="item">{{ item }}</p>
             </div>
-            <div>
-              <small>降雨概率／强度／时长</small>
-              <strong>暂无临近预报</strong>
+            <div v-else-if="activeDetailTab !== '实用' || !selectedParking" class="detail-empty">
+              暂无这一类资料
             </div>
-            <div>
-              <small>湿度／UV／晴朗程度</small>
-              <strong>暂无临近预报</strong>
-            </div>
-            <p>
-              当前为{{ weatherReference.granularity === 'place' ? '地点' : '区域' }}级长年气候参考。
-              旅行日期尚超出可靠逐小时预报范围，临近后才会请求动态 provider。
-            </p>
-          </section>
+            <PlaceParkingPanel
+              v-if="activeDetailTab === '实用' && selectedParking"
+              :parking="selectedParking"
+              :online="online"
+            />
+          </template>
 
-          <div v-if="detailTabLinks.length" class="detail-reading">
+          <div
+            v-if="detailTabLinks.length && activeDetailTab !== '天气'"
+            class="detail-reading"
+          >
             <h3>延伸阅读</h3>
             <a
               v-for="link in detailTabLinks"

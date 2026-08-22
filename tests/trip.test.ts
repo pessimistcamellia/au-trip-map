@@ -11,11 +11,19 @@ import {
   StaticWeatherRepository,
 } from '../src/repositories/weatherRepository'
 import {
+  getPlaceCategoryBadge,
+  inferPlaceCategory,
+} from '../src/services/placeCategory'
+import {
   categorizeLink,
+  getPlaceDetailCategories,
   getPlaceDetailLinks,
   getPlaceDetailLinksByCategory,
   getPlaceDetailSections,
+  getPlaceFood,
+  getPlaceParking,
   hasPlaceDetails,
+  shouldShowFoodTab,
 } from '../src/services/placeDetails'
 import {
   escapeHtml,
@@ -38,15 +46,31 @@ import {
 
 const data = rawTripData as ITripData
 
+interface ITestRect {
+  left: number
+  top: number
+  width: number
+  height: number
+}
+
+function rectanglesOverlap(left: ITestRect, right: ITestRect): boolean {
+  return !(
+    left.left + left.width <= right.left ||
+    right.left + right.width <= left.left ||
+    left.top + left.height <= right.top ||
+    right.top + right.height <= left.top
+  )
+}
+
 describe('静态行程数据', () => {
   it('完整覆盖 13 天、83 条地点和 skip 状态', () => {
     expect(data.days).toHaveLength(13)
     expect(data.places).toHaveLength(83)
     expect(data.places.filter((place) => place.status === 'visit')).toHaveLength(
-      50,
+      51,
     )
     expect(data.places.filter((place) => place.status === 'skip')).toHaveLength(
-      33,
+      32,
     )
     expect(
       data.places.filter(
@@ -63,6 +87,14 @@ describe('静态行程数据', () => {
     expect(places.find((place) => place.id === 'wv-loch')?.priority).toBe(
       'optional',
     )
+  })
+
+  it('10 月 4 日以可选 Puffing Billy 开头，其余顺序后移', () => {
+    const places = getPlacesForDay(data.places, 11)
+    expect(places[0].id).toBe('wv-puffing')
+    expect(places[0].priority).toBe('optional')
+    expect(places[1].id).toBe('d11-01')
+    expect(places[places.length - 1].id).toBe('d11-06')
   })
 
   it('数据层提供稳定序号，地图沿用序号且 optional 保持一致', () => {
@@ -118,29 +150,121 @@ describe('静态行程数据', () => {
     expect(getMapLabelSide({ left: 0 }, 0)).toBe('right')
   })
 
-  it('密集地图地名标签自动错位且不压住相邻编号', () => {
+  it('密集地图地名标签保持完整且避开其他标签与全部编号', () => {
+    const width = 328
+    const height = 430
+    const positions = [
+      { left: 150, top: 150 },
+      { left: 106, top: 142 },
+    ]
     const layouts = calculateMapLabelLayouts(
       [
         { title: '兰斯林沙丘' },
         { title: '尖峰石阵／南邦国家公园' },
       ],
-      [
-        { left: 150, top: 150 },
-        { left: 106, top: 142 },
-      ],
-      328,
-      430,
+      positions,
+      width,
+      height,
     )
+    const markerRects = positions.map((position) => ({
+      left: position.left - 22,
+      top: position.top - 44,
+      width: 44,
+      height: 44,
+    }))
+
     expect(layouts).toHaveLength(2)
-    expect(layouts[1]).not.toEqual(layouts[0])
     expect(
-      layouts.some(
+      layouts.every(
         (layout) =>
-          layout.offsetX !== 0 ||
-          layout.offsetY !== 0 ||
-          layout.side === 'left',
+          layout.left >= 4 &&
+          layout.left + layout.width <= width - 4 &&
+          layout.top >= 4 &&
+          layout.top + layout.height <= height - 4,
       ),
     ).toBe(true)
+    expect(rectanglesOverlap(layouts[0], layouts[1])).toBe(false)
+    expect(
+      layouts.every((layout) =>
+        markerRects.every((marker) => !rectanglesOverlap(layout, marker)),
+      ),
+    ).toBe(true)
+  })
+
+  it('坐标塌陷时仍为每个点返回容器内标签矩形', () => {
+    const width = 328
+    const height = 430
+    const points = Array.from({ length: 8 }, (_, index) => ({
+      title: `重合地点${index + 1}`,
+    }))
+    const positions = points.map(() => ({ left: 164, top: 215 }))
+
+    expect(() =>
+      calculateMapLabelLayouts(points, positions, width, height),
+    ).not.toThrow()
+    const layouts = calculateMapLabelLayouts(points, positions, width, height)
+
+    expect(layouts).toHaveLength(points.length)
+    expect(
+      layouts.every(
+        (layout) =>
+          layout.left >= 4 &&
+          layout.left + layout.width <= width - 4 &&
+          layout.top >= 4 &&
+          layout.top + layout.height <= height - 4,
+      ),
+    ).toBe(true)
+  })
+
+  it('八点密集地图仍能为标签找到无碰撞空位', () => {
+    const width = 328
+    const height = 430
+    const positions = [
+      { left: 145.876, top: 241.156 },
+      { left: 81.169, top: 192.199 },
+      { left: 81.387, top: 279.936 },
+      { left: 167.804, top: 146.858 },
+      { left: 208.39, top: 277.227 },
+      { left: 117.432, top: 233.285 },
+      { left: 116.522, top: 232.994 },
+      { left: 253.478, top: 186.844 },
+    ]
+    const layouts = calculateMapLabelLayouts(
+      [
+        { title: '梅茨雨林步道' },
+        { title: '吉布森阶梯' },
+        { title: '十二门徒岩' },
+        { title: '洛克阿德峡谷' },
+        { title: '坎贝尔港' },
+        { title: '伦敦桥' },
+        { title: '石窟' },
+        { title: '墨尔本（住宿）' },
+      ],
+      positions,
+      width,
+      height,
+    )
+    const markerRects = positions.map((position) => ({
+      left: position.left - 22,
+      top: position.top - 44,
+      width: 44,
+      height: 44,
+    }))
+
+    for (const [index, layout] of layouts.entries()) {
+      expect(layout.left).toBeGreaterThanOrEqual(4)
+      expect(layout.left + layout.width).toBeLessThanOrEqual(width - 4)
+      expect(layout.top).toBeGreaterThanOrEqual(4)
+      expect(layout.top + layout.height).toBeLessThanOrEqual(height - 4)
+      expect(
+        layouts
+          .slice(index + 1)
+          .every((other) => !rectanglesOverlap(layout, other)),
+      ).toBe(true)
+      expect(
+        markerRects.every((marker) => !rectanglesOverlap(layout, marker)),
+      ).toBe(true)
+    }
   })
 
   it('无坐标节奏节点保留在文字列表且地图过滤不报错', () => {
@@ -193,6 +317,8 @@ describe('目的地信息分类与 repository', () => {
         sections: {},
         links: [],
         dayInfo: { booking: [], highlights: [], weather: [], links: [] },
+        food: undefined,
+        parking: undefined,
       }),
     ).toBe(false)
   })
@@ -238,6 +364,126 @@ describe('目的地信息分类与 repository', () => {
     expect(weather.temperatureRange).toMatch(/°C/)
     expect(weather.precipitation).toBeNull()
     expect(weather.uvIndex).toBeNull()
+  })
+})
+
+describe('目的地类别与图标', () => {
+  it('按机场、码头、住宿、市场分别给出类别与官方图标键', () => {
+    const badges = ['d2-01', 'd10-02', 'd12-07', 'd13-01', 'd8-01'].map((id) => {
+      const place = data.places.find((item) => item.id === id)!
+      return { id, ...getPlaceCategoryBadge(place) }
+    })
+    expect(badges).toEqual([
+      { id: 'd2-01', category: 'transport', label: '机场', iconKey: 'flight' },
+      { id: 'd10-02', category: 'transport', label: '码头', iconKey: 'boat' },
+      { id: 'd12-07', category: 'lodging', label: '住宿', iconKey: 'hotel' },
+      { id: 'd13-01', category: 'market', label: '市场', iconKey: 'storefront' },
+      { id: 'd8-01', category: 'attraction', label: '景点', iconKey: 'landscape' },
+    ])
+  })
+
+  it('缺少类别数据时按名称兜底，住宿标记不被车站抢走', () => {
+    expect(
+      inferPlaceCategory({ name: '墨尔本（住宿）', name_en: 'Southern Cross Station' }),
+    ).toBe('lodging')
+    expect(inferPlaceCategory({ name: '霍巴特机场', name_en: 'Hobart Airport' })).toBe(
+      'transport',
+    )
+    expect(inferPlaceCategory({ name: '酒杯湾观景台', name_en: 'Wineglass Bay' })).toBe(
+      'attraction',
+    )
+  })
+
+  it('每个当日行程点都有类别、附近美食与停车资料', () => {
+    const rhythmPlaceIds = new Set(
+      data.days.flatMap((day) =>
+        day.rhythm.map((node) => node.placeId).filter((id): id is string => Boolean(id)),
+      ),
+    )
+    const places = data.places.filter((place) => rhythmPlaceIds.has(place.id))
+    expect(places.length).toBeGreaterThanOrEqual(46)
+    expect(places.filter((place) => !place.category)).toEqual([])
+    expect(places.filter((place) => getPlaceFood(place) === null)).toEqual([])
+    expect(places.filter((place) => getPlaceParking(place) === null)).toEqual([])
+  })
+
+  it('餐厅条目带可核对来源，评分要么是真实数字要么为空', () => {
+    const restaurants = data.places.flatMap((place) => place.food?.restaurants ?? [])
+    expect(restaurants.length).toBeGreaterThan(80)
+    for (const restaurant of restaurants) {
+      expect(restaurant.name).not.toBe('')
+      expect(restaurant.sourceUrl).toMatch(/^https?:\/\//)
+      if (restaurant.rating !== null) {
+        expect(restaurant.rating).toBeGreaterThan(0)
+        expect(restaurant.rating).toBeLessThanOrEqual(5)
+      }
+    }
+  })
+
+  it('停车收费口径只用受支持的取值', () => {
+    const lots = data.places.flatMap((place) => place.parking?.lots ?? [])
+    expect(lots.length).toBeGreaterThan(0)
+    for (const lot of lots) {
+      expect(['free', 'paid', 'mixed', 'unknown']).toContain(lot.fee)
+    }
+  })
+})
+
+describe('美食页签与逐点天气', () => {
+  it('非餐厅目的地才出现美食页签，且空分类不占位', () => {
+    const airport = data.places.find((item) => item.id === 'd2-01')!
+    expect(shouldShowFoodTab(airport)).toBe(true)
+    expect(getPlaceDetailCategories(airport)).toContain('美食')
+    expect(getPlaceDetailCategories(airport)).not.toContain('文化')
+    expect(shouldShowFoodTab({ ...airport, category: 'restaurant' })).toBe(false)
+    expect(getPlaceDetailCategories({ ...airport, category: 'restaurant' })).not.toContain(
+      '美食',
+    )
+  })
+
+  it('天气只讲当前这一个点，不再罗列同日其它目的地', async () => {
+    const weatherRepository = new StaticWeatherRepository(
+      new StaticClimateWeatherProvider(),
+    )
+    const airport = data.places.find((item) => item.id === 'd2-01')!
+    const weather = await weatherRepository.getWeather(airport)
+
+    expect(weather.temperatureRange).toBe('10-21°C')
+    expect(weather.granularity).toBe('place')
+    expect(`${weather.note}${weather.temperatureRange}`).not.toContain('兰斯林')
+    expect(`${weather.note}${weather.temperatureRange}`).not.toContain('尖峰石阵')
+  })
+
+  it('同一天不同点各自取到所属区域的温度', async () => {
+    const weatherRepository = new StaticWeatherRepository(
+      new StaticClimateWeatherProvider(),
+    )
+    const platypus = data.places.find((item) => item.id === 'd9-01')!
+    const ronnyCreek = data.places.find((item) => item.id === 'd9-03')!
+
+    const beautyPoint = await weatherRepository.getWeather(platypus)
+    const cradle = await weatherRepository.getWeather(ronnyCreek)
+
+    expect(beautyPoint.temperatureRange).toBe('6-17°C')
+    expect(cradle.temperatureRange).toBe('0-10°C')
+    expect(cradle.granularity).toBe('nearby')
+    expect(cradle.basis).toContain('鸽子湖')
+  })
+
+  it('每个当日行程点都有逐点气候，并保留当日共同提示', () => {
+    const rhythmPlaceIds = new Set(
+      data.days.flatMap((day) =>
+        day.rhythm.map((node) => node.placeId).filter((id): id is string => Boolean(id)),
+      ),
+    )
+    const places = data.places.filter((place) => rhythmPlaceIds.has(place.id))
+    expect(places.filter((place) => !place.weatherDetail)).toEqual([])
+    expect(
+      places.filter((place) => !place.weatherDetail?.temperatureRange),
+    ).toEqual([])
+    expect(
+      places.filter((place) => !place.weatherDetail?.dayAdvisory).map((place) => place.id),
+    ).toEqual([])
   })
 })
 
