@@ -33,12 +33,14 @@ const props = defineProps<{
   places: IPlace[]
   online: boolean
   completedIds: Set<string>
+  focusedPlaceId: string | null
 }>()
 
 const emit = defineEmits<{
   toggleCompleted: [placeId: string]
   openPlace: [place: IPlace]
   openJournal: [place: IPlace]
+  locatePlace: [place: IPlace]
 }>()
 
 const stops = computed<IStop[]>(() =>
@@ -67,9 +69,11 @@ function badgeOf(place: IPlace) {
     <li
       v-for="stop in stops"
       :key="stop.key"
+      :data-place-id="stop.place?.id"
       :class="{
         'is-stop': Boolean(stop.place),
         done: stop.place ? completedIds.has(stop.place.id) : false,
+        focused: stop.place?.id === focusedPlaceId,
       }"
     >
       <button
@@ -101,7 +105,15 @@ function badgeOf(place: IPlace) {
             <span v-if="stop.place.priority === 'optional'" class="optional-label">可选</span>
           </div>
           <h4>
-            {{ stop.place.name }}
+            <span>{{ stop.place.name }}</span>
+            <button
+              v-if="stop.place.lat !== null"
+              class="place-locate"
+              type="button"
+              :aria-label="`在当日地图定位 ${stop.place.name}`"
+              title="在当日地图定位"
+              @click="emit('locatePlace', stop.place)"
+            ><van-icon name="location-o" /></button>
             <a
               v-if="stop.place.lat !== null"
               class="place-navigate"

@@ -65,9 +65,12 @@ const installPrompt = ref<IInstallPromptEvent | null>(null)
 const notice = ref('')
 const includeJournalsInExport = ref(false)
 const exporting = ref(false)
-const rhythmView = ref<'text' | 'map'>(
-  sessionStorage.getItem('au-trip-map:rhythm-view') === 'map' ? 'map' : 'text',
-)
+const rhythmView = ref<'text' | 'map'>('map')
+const datePickerExpanded = ref(false)
+const focusedPlaceId = ref<string | null>(null)
+const focusRequest = ref(0)
+const rhythmMapSection = ref<HTMLElement | null>(null)
+const rhythmTextSection = ref<HTMLElement | null>(null)
 const activeDetailTab = ref<PlaceDetailCategory>('看点')
 const weatherReference = ref<IWeatherReference | null>(null)
 const detailVisible = computed({
@@ -138,7 +141,32 @@ function setView(view: MainView): void {
 
 function setRhythmView(view: 'text' | 'map'): void {
   rhythmView.value = view
-  sessionStorage.setItem('au-trip-map:rhythm-view', view)
+  const target = view === 'map' ? rhythmMapSection.value : rhythmTextSection.value
+  target?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
+
+function selectDay(day: number): void {
+  selectedDayNumber.value = day
+  datePickerExpanded.value = false
+  focusedPlaceId.value = null
+}
+
+async function locatePlaceOnMap(place: IPlace): Promise<void> {
+  if (place.lat === null || place.lng === null) return
+  focusedPlaceId.value = place.id
+  focusRequest.value += 1
+  rhythmView.value = 'map'
+  await nextTick()
+  rhythmMapSection.value?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+}
+
+async function locatePlaceInTimeline(placeId: string): Promise<void> {
+  focusedPlaceId.value = placeId
+  rhythmView.value = 'text'
+  await nextTick()
+  rhythmTextSection.value
+    ?.querySelector<HTMLElement>(`[data-place-id="${placeId}"]`)
+    ?.scrollIntoView({ behavior: 'smooth', block: 'center' })
 }
 
 function openPlace(place: IPlace): void {
@@ -186,6 +214,31 @@ const selectedParking = computed(() =>
   selectedPlace.value ? getPlaceParking(selectedPlace.value) : null,
 )
 
+function stripRouteDetail(value: string): string {
+  let result = value.trim()
+  let previous = ''
+  while (result !== previous) {
+    previous = result
+    result = result.replace(/（[^（）]*）/g, '')
+  }
+  return result
+    .replace(/【[^】]*】/g, '')
+    .replace(/\s*T\d\b.*$/i, '')
+    .replace(/\s+/g, ' ')
+    .trim()
+}
+
+const routeEndpoints = computed(() => {
+  const sections = selectedDay.value.route
+    .split('→')
+    .map(stripRouteDetail)
+    .filter(Boolean)
+  return {
+    start: sections[0] ?? '待确认',
+    end: sections.at(-1) ?? sections[0] ?? '待确认',
+  }
+})
+
 async function exportTrip(): Promise<void> {
   if (exporting.value) return
   exporting.value = true
@@ -205,6 +258,22 @@ async function exportTrip(): Promise<void> {
 
 function handleEscape(event: KeyboardEvent): void {
   if (event.key === 'Escape' && detailVisible.value) detailVisible.value = false
+}
+
+function handleRhythmScroll(): void {
+  if (activeView.value !== 'itinerary') return
+  const stickyOffset = 120
+  if (
+    rhythmTextSection.value &&
+    rhythmTextSection.value.getBoundingClientRect().top <= stickyOffset
+  ) {
+    rhythmView.value = 'text'
+  } else if (
+    rhythmMapSection.value &&
+    rhythmMapSection.value.getBoundingClientRect().top <= stickyOffset
+  ) {
+    rhythmView.value = 'map'
+  }
 }
 
 async function installApp(): Promise<void> {
@@ -230,6 +299,7 @@ watch(
 )
 
 watch(selectedDayNumber, async () => {
+  focusedPlaceId.value = null
   await nextTick()
   document
     .querySelector(`[data-day="${selectedDayNumber.value}"]`)
@@ -254,9 +324,13 @@ onMounted(() => {
     installPrompt.value = event as IInstallPromptEvent
   })
   window.addEventListener('keydown', handleEscape)
+  window.addEventListener('scroll', handleRhythmScroll, { passive: true })
 })
 
-onBeforeUnmount(() => window.removeEventListener('keydown', handleEscape))
+onBeforeUnmount(() => {
+  window.removeEventListener('keydown', handleEscape)
+  window.removeEventListener('scroll', handleRhythmScroll)
+})
 </script>
 
 <template>
@@ -449,25 +523,58 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleEscape))
         </section>
 
         <section v-else-if="activeView === 'itinerary'" class="itinerary-view">
-          <div class="date-strip" role="tablist" aria-label="选择行程日期">
+          <div class="date-picker">
             <button
-              v-for="day in data.days"
-              :key="day.day"
-              :data-day="day.day"
-              :aria-selected="selectedDayNumber === day.day"
-              role="tab"
+              class="date-picker-bar"
               type="button"
-              @click="selectedDayNumber = day.day"
+              :aria-expanded="datePickerExpanded"
+              aria-controls="trip-date-options"
+              @click="datePickerExpanded = !datePickerExpanded"
             >
-              <small>{{ day.date.slice(5).replace('-', '/') }}</small>
-              <strong>{{ day.weekday }}</strong>
+              <span class="date-picker-day">第 {{ selectedDay.day }} 天</span>
+              <span>
+                <strong>{{ selectedDay.date.slice(5).replace('-', '/') }}</strong>
+                {{ selectedDay.weekday }}
+              </span>
+              <span class="date-picker-route">
+                {{ routeEndpoints.start }} → {{ routeEndpoints.end }}
+              </span>
+              <van-icon :name="datePickerExpanded ? 'arrow-up' : 'arrow-down'" />
             </button>
+            <div
+              v-if="datePickerExpanded"
+              id="trip-date-options"
+              class="date-strip"
+              role="tablist"
+              aria-label="选择行程日期"
+            >
+              <button
+                v-for="day in data.days"
+                :key="day.day"
+                :data-day="day.day"
+                :aria-selected="selectedDayNumber === day.day"
+                role="tab"
+                type="button"
+                @click="selectDay(day.day)"
+              >
+                <small>{{ day.date.slice(5).replace('-', '/') }}</small>
+                <strong>{{ day.weekday }}</strong>
+              </button>
+            </div>
           </div>
 
-          <section class="day-summary coordinate-pattern">
-            <p>第 {{ selectedDay.day }} 天</p>
-            <h2>{{ selectedDay.region }}</h2>
-            <span>{{ selectedDay.route }}</span>
+          <section class="day-summary">
+            <strong>第 {{ selectedDay.day }} 天</strong>
+            <dl>
+              <div>
+                <dt>起点</dt>
+                <dd>{{ routeEndpoints.start }}</dd>
+              </div>
+              <div>
+                <dt>终点</dt>
+                <dd>{{ routeEndpoints.end }}</dd>
+              </div>
+            </dl>
           </section>
 
           <section class="rhythm-panel">
@@ -480,38 +587,47 @@ onBeforeUnmount(() => window.removeEventListener('keydown', handleEscape))
                 <button
                   type="button"
                   role="tab"
-                  :aria-selected="rhythmView === 'text'"
-                  @click="setRhythmView('text')"
-                >
-                  文字
-                </button>
-                <button
-                  type="button"
-                  role="tab"
                   :aria-selected="rhythmView === 'map'"
                   @click="setRhythmView('map')"
                 >
                   地图
                 </button>
+                <button
+                  type="button"
+                  role="tab"
+                  :aria-selected="rhythmView === 'text'"
+                  @click="setRhythmView('text')"
+                >
+                  文字
+                </button>
               </div>
             </header>
 
-            <DayTimeline
-              v-if="rhythmView === 'text'"
-              :day="selectedDay"
-              :places="dayPlaces"
-              :online="online"
-              :completed-ids="store.completedSet"
-              @toggle-completed="store.toggleCompleted"
-              @open-place="openPlace"
-              @open-journal="openJournal"
-            />
-            <TripRhythmMap
-              v-else
-              :nodes="selectedDay.rhythm"
-              :online="online"
-              @switch-to-text="setRhythmView('text')"
-            />
+            <section ref="rhythmMapSection" class="rhythm-section rhythm-map-section">
+              <h4>地图</h4>
+              <TripRhythmMap
+                :nodes="selectedDay.rhythm"
+                :online="online"
+                :focused-place-id="focusedPlaceId"
+                :focus-request="focusRequest"
+                @select-point="locatePlaceInTimeline"
+                @switch-to-text="setRhythmView('text')"
+              />
+            </section>
+            <section ref="rhythmTextSection" class="rhythm-section rhythm-text-section">
+              <h4>文字</h4>
+              <DayTimeline
+                :day="selectedDay"
+                :places="dayPlaces"
+                :online="online"
+                :completed-ids="store.completedSet"
+                :focused-place-id="focusedPlaceId"
+                @toggle-completed="store.toggleCompleted"
+                @open-place="openPlace"
+                @open-journal="openJournal"
+                @locate-place="locatePlaceOnMap"
+              />
+            </section>
           </section>
 
           <details class="day-details">

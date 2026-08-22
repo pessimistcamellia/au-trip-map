@@ -2,7 +2,6 @@
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import type { IRhythmNode } from '../types'
 import {
-  buildNavigationUrl,
   calculateMapLabelLayouts,
   calculateMapViewport,
   getMappableRhythmNodes,
@@ -32,10 +31,13 @@ interface ITile {
 const props = defineProps<{
   nodes: IRhythmNode[]
   online: boolean
+  focusedPlaceId: string | null
+  focusRequest: number
 }>()
 
 const emit = defineEmits<{
   switchToText: []
+  selectPoint: [placeId: string]
 }>()
 
 const TILE_SIZE = 256
@@ -47,10 +49,11 @@ const center = ref<ICoordinate>({ lat: -31.95, lng: 115.86 })
 const route = ref<ICoordinate[]>([])
 const routeState = ref<'idle' | 'loading' | 'road' | 'straight'>('idle')
 const tileFailures = ref(0)
-const selectedPoint = ref<IMapPoint | null>(null)
+const pulsePlaceId = ref<string | null>(null)
 const resetNotice = ref('')
 let resizeObserver: ResizeObserver | null = null
 let resetNoticeTimer: number | undefined
+let pulseTimer: number | undefined
 let drag:
   | { pointerId: number; x: number; y: number; centerX: number; centerY: number }
   | undefined
@@ -227,7 +230,6 @@ async function loadRoute(): Promise<void> {
 
 function resetMap(): void {
   tileFailures.value = 0
-  selectedPoint.value = null
   void nextTick(() => {
     fitPoints()
     void loadRoute()
@@ -249,6 +251,21 @@ watch(
   { deep: true },
 )
 
+watch(
+  () => [props.focusedPlaceId, props.focusRequest] as const,
+  ([placeId]) => {
+    if (!placeId) return
+    const point = points.value.find((candidate) => candidate.placeId === placeId)
+    if (!point) return
+    center.value = { lat: point.lat, lng: point.lng }
+    pulsePlaceId.value = placeId
+    window.clearTimeout(pulseTimer)
+    pulseTimer = window.setTimeout(() => {
+      pulsePlaceId.value = null
+    }, 1100)
+  },
+)
+
 onMounted(() => {
   resizeObserver = new ResizeObserver(([entry]) => {
     width.value = entry.contentRect.width
@@ -262,6 +279,7 @@ onMounted(() => {
 onBeforeUnmount(() => {
   resizeObserver?.disconnect()
   window.clearTimeout(resetNoticeTimer)
+  window.clearTimeout(pulseTimer)
 })
 </script>
 
@@ -322,7 +340,8 @@ onBeforeUnmount(() => {
           :key="point.id"
           class="map-marker"
           :class="{
-            selected: selectedPoint?.id === point.id,
+            selected: focusedPlaceId === point.placeId,
+            pulsing: pulsePlaceId === point.placeId,
             optional: point.priority === 'optional',
           }"
           :style="{
@@ -330,11 +349,10 @@ onBeforeUnmount(() => {
             top: `${markerPositions[index].top}px`,
           }"
           type="button"
-          :aria-label="`第 ${point.sequence ?? index + 1} 点，${point.title}${point.priority === 'optional' ? '，可选' : ''}，查看时间`"
-          :aria-pressed="selectedPoint?.id === point.id"
+          :aria-label="`第 ${point.sequence ?? index + 1} 点，${point.title}${point.priority === 'optional' ? '，可选' : ''}，定位到文字行程`"
+          :aria-pressed="focusedPlaceId === point.placeId"
           @pointerdown.stop
-          @focus="selectedPoint = point"
-          @click="selectedPoint = point"
+          @click="point.placeId && emit('selectPoint', point.placeId)"
         >
           <b>{{ point.sequence ?? index + 1 }}</b>
           <small v-if="point.priority === 'optional'">可选</small>
@@ -369,25 +387,6 @@ onBeforeUnmount(() => {
         <small class="map-attribution">
           © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a>
         </small>
-        <aside v-if="selectedPoint" class="map-point-card">
-          <button
-            type="button"
-            aria-label="关闭地点时间"
-            @pointerdown.stop
-            @click.stop="selectedPoint = null"
-          >
-            <van-icon name="cross" />
-          </button>
-          <small>{{ selectedPoint.time }}</small>
-          <strong>{{ selectedPoint.title }}</strong>
-          <a
-            :href="buildNavigationUrl(selectedPoint)"
-            target="_blank"
-            rel="noreferrer"
-          >
-            在 Google 地图导航 <van-icon name="share-o" />
-          </a>
-        </aside>
         <div v-if="resetNotice" class="map-reset-notice" role="status">
           {{ resetNotice }}
         </div>
