@@ -314,7 +314,8 @@ def main() -> None:
             "startDate": "2026-09-24",
             "endDate": "2026-10-06",
             "timezone": "Australia/Hobart",
-            "myMapsUrl": "https://www.google.com/maps/d/edit?mid=10eTWDmGzd0nwA4sFuDWaxVEcO5QP0_4",
+            # viewer 而非 edit：edit 链接对非所有者一律要求编辑权限
+            "myMapsUrl": "https://www.google.com/maps/d/viewer?mid=10eTWDmGzd0nwA4sFuDWaxVEcO5QP0_4",
             "sourceRevision": 444,
         },
         "days": days,
