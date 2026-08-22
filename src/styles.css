@@ -108,10 +108,12 @@ summary:focus-visible {
   outline-offset: 2px;
 }
 
+/* 用独立的 scale 属性而不是 transform，否则会覆盖元素自身的 translate
+   （地图标记依赖 translate 定位，被覆盖后按下即位移，click 会丢失）。 */
 button:active,
 .quick-actions a:active,
 .detail-actions a:active {
-  transform: scale(0.98);
+  scale: 0.98;
 }
 
 .app-shell {
@@ -893,21 +895,35 @@ a[aria-disabled="true"] {
 .stop-actions {
   display: flex;
   align-items: center;
-  gap: 4px;
-  margin-top: 2px;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 6px;
+  border-top: 1px solid var(--line);
 }
 
 .stop-actions button {
-  display: flex;
-  min-height: 44px;
+  display: inline-flex;
+  min-height: 40px;
   align-items: center;
   gap: 5px;
-  padding: 0 8px 0 0;
+  margin: 0;
+  padding: 0;
   border: 0;
   background: transparent;
   color: var(--accent-strong);
   font-size: 12px;
   font-weight: 800;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+.stop-actions button:last-child {
+  margin-left: auto;
+}
+
+.stop-actions .van-icon {
+  font-size: 15px;
+  line-height: 1;
 }
 
 .rhythm-map-shell {
@@ -918,7 +934,9 @@ a[aria-disabled="true"] {
   position: relative;
   height: min(52dvh, 430px);
   min-height: 340px;
-  overflow: hidden;
+  /* clip 而非 hidden：hidden 会让容器成为可滚动盒，聚焦标记按钮时浏览器会
+     把它滚进视野，导致 pointerdown 与 pointerup 落在不同元素上，click 丢失。 */
+  overflow: clip;
   border: 1px solid var(--line);
   border-radius: 13px;
   background: var(--map-canvas);
@@ -1283,18 +1301,18 @@ summary {
 }
 
 .journal-link {
-  display: flex;
+  display: inline-flex;
   width: fit-content;
-  min-height: 44px;
+  min-height: 40px;
   align-items: center;
   gap: 6px;
-  margin-top: 5px;
   padding: 0;
   border: 0;
   background: transparent;
   color: var(--accent-strong);
   font-size: 12px;
   font-weight: 800;
+  line-height: 1;
   white-space: nowrap;
 }
 
@@ -1502,7 +1520,13 @@ summary {
 }
 
 .place-detail {
+  display: flex;
   min-height: 86dvh;
+  flex-direction: column;
+}
+
+.place-detail .detail-body {
+  flex: 1;
 }
 
 .detail-header {
@@ -1549,7 +1573,7 @@ summary {
 }
 
 .detail-body {
-  padding: 18px 18px calc(34px + env(safe-area-inset-bottom));
+  padding: 18px 18px 24px;
 }
 
 .detail-body > header {
@@ -1779,6 +1803,34 @@ summary {
   font-size: 13px;
   font-weight: 700;
   text-decoration: none;
+}
+
+.detail-footer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px 20px calc(16px + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--line);
+  background: var(--surface);
+}
+
+.detail-footer button {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  gap: 6px;
+  padding: 0 14px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--accent-strong);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.detail-footer button[aria-pressed="true"] {
+  border-color: transparent;
+  background: var(--accent-soft);
 }
 
 .copy-toast {

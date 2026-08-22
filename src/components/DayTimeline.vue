@@ -37,7 +37,6 @@ const props = defineProps<{
 }>()
 
 const emit = defineEmits<{
-  toggleCompleted: [placeId: string]
   openPlace: [place: IPlace]
   openJournal: [place: IPlace]
   locatePlace: [place: IPlace]
@@ -120,25 +119,17 @@ function badgeOf(place: IPlace) {
           <p class="stop-route">{{ stop.text }}</p>
           <p v-if="stop.doing" class="stop-doing">{{ stop.doing }}</p>
           <div class="stop-actions">
-            <button
-              v-if="hasPlaceDetails(stop.place)"
-              type="button"
-              @click="emit('openPlace', stop.place)"
-            >
-              更多
-            </button>
             <button class="journal-link" type="button" @click="emit('openJournal', stop.place)">
               <van-icon name="records-o" />
               随手记
             </button>
             <button
-              class="completion-link"
+              v-if="hasPlaceDetails(stop.place)"
+              class="detail-link"
               type="button"
-              :aria-pressed="completedIds.has(stop.place.id)"
-              @click="emit('toggleCompleted', stop.place.id)"
+              @click="emit('openPlace', stop.place)"
             >
-              <van-icon :name="completedIds.has(stop.place.id) ? 'passed' : 'circle'" />
-              {{ completedIds.has(stop.place.id) ? '已完成' : '标记完成' }}
+              更多
             </button>
           </div>
         </template>

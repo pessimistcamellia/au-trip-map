@@ -641,7 +641,6 @@ onBeforeUnmount(() => {
                 :online="online"
                 :completed-ids="store.completedSet"
                 :focused-place-id="focusedPlaceId"
-                @toggle-completed="store.toggleCompleted"
                 @open-place="openPlace"
                 @open-journal="openJournal"
                 @locate-place="locatePlaceOnMap"
@@ -923,6 +922,17 @@ onBeforeUnmount(() => {
             </a>
           </div>
         </section>
+
+        <footer class="detail-footer">
+          <button
+            type="button"
+            :aria-pressed="store.completedSet.has(selectedPlace.id)"
+            @click="store.toggleCompleted(selectedPlace.id)"
+          >
+            <van-icon :name="store.completedSet.has(selectedPlace.id) ? 'passed' : 'circle'" />
+            {{ store.completedSet.has(selectedPlace.id) ? '已完成' : '标记完成' }}
+          </button>
+        </footer>
       </article>
     </van-popup>
 
