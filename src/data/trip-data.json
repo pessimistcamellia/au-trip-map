@@ -2639,16 +2639,16 @@
             "nameEn": "Lobbster Trap",
             "lat": -31.0166328,
             "lng": 115.3313147,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.5,
+            "ratingCount": 97,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距沙丘入口约 1 公里",
             "priceLevel": null,
             "cuisine": "咖啡馆、龙虾轻食",
             "recommended": "官网说明主打健康选择、咖啡、鲜榨果汁、无麸质蛋糕和含龙虾的每日特餐；适合早午餐。",
             "hours": null,
-            "sourceUrl": "https://www.lobbstertrap.com/about_us"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g495064-d11877349-Reviews-Lobbster_Trap-Lancelin_Western_Australia.html"
           }
         ]
       },
@@ -3289,16 +3289,16 @@
             "nameEn": "Miners Arms Hotel",
             "lat": -28.3488576,
             "lng": 114.631511,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 3.8,
+            "ratingCount": 24,
+            "ratingSource": "Tripadvisor（Foodeist 转引）",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Pink Lake Lookout 约 50 公里，在 Northampton",
             "priceLevel": null,
             "cuisine": "澳式酒馆",
             "recommended": "作为 Northampton 镇内酒馆正餐备选；未找到可可靠核对的具体招牌菜，点餐前查看当日菜单。",
             "hours": null,
-            "sourceUrl": "https://menuweb.menu/restaurants/northampton/miners-arms-hotel"
+            "sourceUrl": "https://foodeist.com/place/miners-arms-hotel"
           }
         ]
       },
@@ -3418,16 +3418,16 @@
             "nameEn": "Upstairs Restaurant",
             "lat": -27.7114858,
             "lng": 114.1651275,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 3.8,
+            "ratingCount": 2136,
+            "ratingSource": "Menuweb",
             "ratingCheckedAt": "2026-08-22",
             "distance": "位于 Kalbarri 镇中心",
             "priceLevel": null,
             "cuisine": "现代澳式、本地海鲜",
             "recommended": "官网菜单重点是 Shark Bay prawns、WA snapper、lobster、sirloin 和 oysters；当地旅游页特别推荐 grilled snapper 与 chicken satay。",
             "hours": "周一至周六 17:00-21:00，周日休息",
-            "sourceUrl": "https://kalbarrirestaurantcomau.wordpress.com/"
+            "sourceUrl": "https://menuweb.menu/restaurants/kalbarri/restaurant-upstairs"
           }
         ]
       },
@@ -3516,16 +3516,16 @@
             "nameEn": "Upstairs Restaurant",
             "lat": -27.7114858,
             "lng": 114.1651275,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 3.8,
+            "ratingCount": 2136,
+            "ratingSource": "Menuweb",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Red Bluff 约 5 公里，在 Kalbarri 镇内",
             "priceLevel": null,
             "cuisine": "现代澳式、本地海鲜",
             "recommended": "推荐从 grilled snapper、Shark Bay prawns、oysters 和当季 lobster 中选择；晚餐宜预订。",
             "hours": "周一至周六 17:00-21:00，周日休息",
-            "sourceUrl": "https://visitkalbarri.au/upstairs-restaurant-kalbarri-great-food-people/"
+            "sourceUrl": "https://menuweb.menu/restaurants/kalbarri/restaurant-upstairs"
           }
         ]
       },
@@ -3643,16 +3643,16 @@
             "nameEn": "Kalbarri Skywalk Cafe",
             "lat": -27.5546724,
             "lng": 114.4342592,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.2,
+            "ratingCount": 173,
+            "ratingSource": "Menuweb",
             "ratingCheckedAt": "2026-08-22",
             "distance": "位于 Skywalk 观景区内",
             "priceLevel": null,
             "cuisine": "咖啡、轻食",
             "recommended": "WAITOC 页面列出咖啡、蛋糕、wrap、sandwich、panini、toastie 和冰淇淋；适合补给，不等同于完整餐厅。",
             "hours": "通常每日 08:00-15:00；11月至次年4月可能调整",
-            "sourceUrl": "https://www.waitoc.com/members/business-listing/66053251ccad0-kalbarri-skywalk-cafe"
+            "sourceUrl": "https://menuweb.menu/restaurants/kalbarri/kalbarri-skywalk-cafe"
           },
           {
             "name": "Finlay's Kalbarri",
@@ -3790,16 +3790,16 @@
             "nameEn": "Kalbarri Skywalk Cafe",
             "lat": -27.5546724,
             "lng": 114.4342592,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.2,
+            "ratingCount": 173,
+            "ratingSource": "Menuweb",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Nature's Window 停车区约 10 公里，在 Skywalk 观景区",
             "priceLevel": null,
             "cuisine": "咖啡、轻食",
             "recommended": "可买咖啡、冷饮、wrap、sandwich、panini 和冰淇淋；开放时间季节性变化，仍应自备水和应急食物。",
             "hours": "通常每日 08:00-15:00；11月至次年4月可能调整",
-            "sourceUrl": "https://www.waitoc.com/members/business-listing/66053251ccad0-kalbarri-skywalk-cafe"
+            "sourceUrl": "https://menuweb.menu/restaurants/kalbarri/kalbarri-skywalk-cafe"
           },
           {
             "name": "Finlay's Kalbarri",
@@ -4043,16 +4043,16 @@
             "nameEn": "Barilla Bay Oysters",
             "lat": -42.81919,
             "lng": 147.48213,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.2,
+            "ratingCount": 3303,
+            "ratingSource": "Menuweb",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距机场约 5 分钟车程",
             "priceLevel": null,
             "cuisine": "塔斯马尼亚生蚝与海鲜",
             "recommended": "官方资料确认这里是生蚝养殖场与海鲜门店，适合品尝或购买本地 Pacific oysters；赶飞机时还可提前联系，将冷冻海鲜装入保温箱托运。",
             "hours": null,
-            "sourceUrl": "https://barillabay.com.au/contact-us/"
+            "sourceUrl": "https://menuweb.menu/restaurants/hobart/barilla-bay-oyster-farm/reviews"
           }
         ]
       },
@@ -4167,48 +4167,48 @@
             "nameEn": "On the Bay Restaurant",
             "lat": -43.138688,
             "lng": 147.855967,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.1,
+            "ratingCount": 477,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "位于 Stewarts Bay Lodge 内",
             "priceLevel": null,
             "cuisine": "现代澳大利亚菜、塔州海鲜",
             "recommended": "2026 菜单以塔州食材和 native ingredients 为主，包含 pepperberry、wattleseed、saltbush 与海鲜元素。晚餐必须预约，8 月整月关闭。",
             "hours": "周二至周六早餐 08:00–10:00，晚餐 17:30–19:30；8 月关闭",
-            "sourceUrl": "https://stewartsbaylodge.com.au/guest-information/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504319-d1489238-Reviews-On_the_Bay_Restaurant-Port_Arthur_Tasmania.html"
           },
           {
             "name": "1830 Restaurant & Bar",
             "nameEn": "1830 Restaurant & Bar",
             "lat": -43.146064,
             "lng": 147.850531,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.4,
+            "ratingCount": 164,
+            "ratingSource": "Tripadvisor（Foodeist 转引）",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距住宿区约 2 公里，位于 Port Arthur Historic Site Visitor Centre",
             "priceLevel": null,
             "cuisine": "塔斯曼半岛时令菜",
             "recommended": "官网明确列出本地鲜鲍鱼与 100% 塔州草饲牛肉，菜单随季节变化。适合参观遗址时安排较正式的午餐，且必须预约。",
             "hours": "每日午餐 11:30–14:30",
-            "sourceUrl": "https://portarthur.org.au/1830restaurant/"
+            "sourceUrl": "https://foodeist.com/place/1830-restaurant-and-bar"
           },
           {
             "name": "Port Arthur Lavender Cafe",
             "nameEn": "Port Arthur Lavender Cafe",
             "lat": -43.1277,
             "lng": 147.8634,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.2,
+            "ratingCount": 451,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Stewarts Bay Lodge 约 5 分钟车程",
             "priceLevel": null,
             "cuisine": "咖啡馆、塔州食材与薰衣草主题餐饮",
             "recommended": "官方旅游资料主打薰衣草主题餐饮和塔州本地食材；访客评价中常提及 lavender white hot chocolate，适合白天顺路停靠。",
             "hours": "每日开放，圣诞节除外；具体时段未核实",
-            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/portarthurlavendercafe/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504319-d7278327-Reviews-Port_Arthur_Lavender-Port_Arthur_Tasmania.html"
           }
         ]
       },
@@ -4284,48 +4284,48 @@
             "nameEn": "1830 Restaurant & Bar",
             "lat": -43.146064,
             "lng": 147.850531,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.4,
+            "ratingCount": 164,
+            "ratingSource": "Tripadvisor（Foodeist 转引）",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距订票中心约 300 米，位于 Port Arthur Historic Site Visitor Centre",
             "priceLevel": null,
             "cuisine": "塔斯曼半岛时令菜",
             "recommended": "官网列出的代表性食材包括本地鲜鲍鱼和塔州草饲牛肉。只做午餐且需预约，适合巡游结束后安排。",
             "hours": "每日午餐 11:30–14:30",
-            "sourceUrl": "https://portarthur.org.au/1830restaurant/"
+            "sourceUrl": "https://foodeist.com/place/1830-restaurant-and-bar"
           },
           {
             "name": "Port Arthur Cafe",
             "nameEn": "Port Arthur Cafe",
             "lat": -43.146064,
             "lng": 147.850531,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 3.8,
+            "ratingCount": 300,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距订票中心约 300 米",
             "priceLevel": null,
             "cuisine": "三明治、咖啡与简餐",
             "recommended": "遗址官网说明这里提供现场制作三明治，并有 gluten-free、vegetarian 和 vegan 选项；比预约制的 1830 更适合赶行程时快速用餐。",
             "hours": "每日 09:00–17:00",
-            "sourceUrl": "https://portarthur.org.au/eat-drink/"
+            "sourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g504319-d5482042-Reviews-Port_Cafe_Port_Arthur_Historic_Site-Port_Arthur_Tasmania.html"
           },
           {
             "name": "On the Bay Restaurant",
             "nameEn": "On the Bay Restaurant",
             "lat": -43.138688,
             "lng": 147.855967,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.1,
+            "ratingCount": 477,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距订票中心约 1.5 公里",
             "priceLevel": null,
             "cuisine": "现代澳大利亚菜",
             "recommended": "菜单强调塔州海陆食材和 native ingredients，适合巡游日晚上正式用餐。晚餐必须预约，且 8 月关闭。",
             "hours": "周二至周六晚餐 17:30–19:30；8 月关闭",
-            "sourceUrl": "https://stewartsbaylodge.com.au/guest-information/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504319-d1489238-Reviews-On_the_Bay_Restaurant-Port_Arthur_Tasmania.html"
           }
         ]
       },
@@ -4415,32 +4415,32 @@
             "nameEn": "Doo-Lishus",
             "lat": -43.038063,
             "lng": 147.944404,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.3,
+            "ratingCount": 397,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Tasman Arch 约 2 公里，位于 Blowhole 停车场",
             "priceLevel": null,
             "cuisine": "炸鱼薯条、海鲜与冰淇淋",
             "recommended": "Discover Tasmania 明确列出 Fisherman's Catch、scallop & chips、鱼、鱿鱼、扇贝和虾；食材现场手切裹粉，适合作为景区间的快捷午餐。",
             "hours": null,
-            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/doo-lishus-ptyltd/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d2309775-Reviews-DOO_Lishus-Eaglehawk_Neck_Tasmania.html"
           },
           {
             "name": "Lufra Cafe and Bistro",
             "nameEn": "Lufra Cafe and Bistro",
             "lat": -43.009929,
             "lng": 147.929121,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 3.7,
+            "ratingCount": 257,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Tasman Arch 约 5 公里",
             "priceLevel": null,
             "cuisine": "塔州海鲜、肉类与澳式 bistro",
             "recommended": "官方旅游页称菜单以塔州海鲜、区域肉类和现代澳式 bistro 菜为主。晚餐七天供应，建议预订。",
             "hours": "午餐每日 12:00–14:30；晚餐自 17:30 起",
-            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/whalewatcherscafe/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d1177960-Reviews-Lufra_Bistro-Eaglehawk_Neck_Tasmania.html"
           }
         ]
       },
@@ -4535,32 +4535,32 @@
             "nameEn": "Lufra Cafe and Bistro",
             "lat": -43.009929,
             "lng": 147.929121,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 3.7,
+            "ratingCount": 257,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "位于 Tessellated Pavement 停车场对面一带，步行可达",
             "priceLevel": null,
             "cuisine": "塔州海鲜与澳式 bistro",
             "recommended": "菜单主打塔州海鲜、区域肉类和 bistro 菜；用餐区面向 Pirates Bay。午餐和晚餐均有服务，晚餐建议预订。",
             "hours": "午餐每日 12:00–14:30；晚餐自 17:30 起",
-            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/whalewatcherscafe/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d1177960-Reviews-Lufra_Bistro-Eaglehawk_Neck_Tasmania.html"
           },
           {
             "name": "Doo-Lishus",
             "nameEn": "Doo-Lishus",
             "lat": -43.038063,
             "lng": 147.944404,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.3,
+            "ratingCount": 397,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距景点约 4 公里，约 5 分钟车程",
             "priceLevel": null,
             "cuisine": "炸海鲜与冰淇淋",
             "recommended": "官方旅游页推荐 Fisherman's Catch、scallop & chips 与现场裹粉的鱼、鱿鱼、扇贝和虾，适合景点串联途中快速用餐。",
             "hours": null,
-            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/doo-lishus-ptyltd/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d2309775-Reviews-DOO_Lishus-Eaglehawk_Neck_Tasmania.html"
           }
         ]
       },
@@ -4680,16 +4680,16 @@
             "nameEn": "The Fish Van",
             "lat": -42.509607,
             "lng": 147.914346,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.4,
+            "ratingCount": 427,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "位于 19 Esplanade West，码头旁",
             "priceLevel": null,
             "cuisine": "海鲜快餐、炸鱼薯条",
             "recommended": "当地餐饮指南将其列为码头旁的海鲜快餐，适合在渡轮前后吃 fish and chips；座位和服务模式偏简便。",
             "hours": "周一至周四及周日 11:00–19:00；周五、周六 11:00–19:30",
-            "sourceUrl": "https://www.agfg.com.au/restaurant/the-fish-van-88675"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g1761244-d4022125-Reviews-The_Fish_Van-Triabunna_Glamorgan_Spring_Bay_Tasmania.html"
           }
         ]
       },
@@ -4888,16 +4888,16 @@
             "nameEn": "Geographe Restaurant and Espresso Bar",
             "lat": -42.125739,
             "lng": 148.290356,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.4,
+            "ratingCount": 369,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "位于 6 Garnet Avenue，镇中心步行可达",
             "priceLevel": null,
             "cuisine": "木烤 pizza、海鲜与咖啡",
             "recommended": "Discover Tasmania 明确列出木烤 pizza、鲜海鲜、咖啡和时令塔州食材，并提供早餐、午餐和晚餐，是镇内覆盖时段最完整的选择。",
             "hours": "每日早餐、午餐和晚餐；具体时段未核实",
-            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/geographe-restaurant-and-espresso-bar/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504300-d13185937-Reviews-Geographe_Restaurant_Espresso_Bar-Coles_Bay_Freycinet_Glamorgan_Spring_Bay_Tasma.html"
           },
           {
             "name": "Iluka Tavern",
@@ -4920,16 +4920,16 @@
             "nameEn": "Granite Freycinet",
             "lat": -42.122614,
             "lng": 148.284495,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.2,
+            "ratingCount": 33,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距镇中心约 700 米",
             "priceLevel": null,
             "cuisine": "早餐、brunch、咖啡与 pizza",
             "recommended": "白天供应早餐、brunch、咖啡和甜点，周四至周六晚间转为 pizza 与 wine bar；适合看 Muirs Beach 日落时用餐。",
             "hours": "白天咖啡馆；周四至周六晚间供应 pizza 与 wine",
-            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/granitefreycinet/"
+            "sourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g504300-d19259361-Reviews-Granite_Freycinet-Coles_Bay_Freycinet_Glamorgan_Spring_Bay_Tasmania.html"
           }
         ]
       },
@@ -5027,32 +5027,32 @@
             "nameEn": "Richardson's Bistro",
             "lat": -42.134775,
             "lng": 148.301631,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 3.6,
+            "ratingCount": 332,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Wineglass Bay 步道停车场约 2 公里，位于 Freycinet Lodge",
             "priceLevel": null,
             "cuisine": "海鲜、汉堡、牛排与小食",
             "recommended": "官方页面明确列出 seafood、lodge burgers、steak、grazing plates 和甜点，全天候餐饮比镇上更靠近国家公园步道。",
             "hours": null,
-            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/richardsons-bistro/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504299-d2324743-Reviews-Richardson_s_Bistro-Freycinet_Glamorgan_Spring_Bay_Tasmania.html"
           },
           {
             "name": "Geographe Restaurant and Espresso Bar",
             "nameEn": "Geographe Restaurant and Espresso Bar",
             "lat": -42.125739,
             "lng": 148.290356,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.4,
+            "ratingCount": 369,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距步道停车场约 4 公里，位于 Coles Bay 镇中心",
             "priceLevel": null,
             "cuisine": "木烤 pizza、海鲜与咖啡",
             "recommended": "菜单涵盖木烤 pizza、海鲜、咖啡和时令塔州食材，早中晚均可安排，适合徒步前早餐或回程晚餐。",
             "hours": "每日早餐、午餐和晚餐；具体时段未核实",
-            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/geographe-restaurant-and-espresso-bar/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504300-d13185937-Reviews-Geographe_Restaurant_Espresso_Bar-Coles_Bay_Freycinet_Glamorgan_Spring_Bay_Tasma.html"
           },
           {
             "name": "Iluka Tavern",
@@ -5157,32 +5157,32 @@
             "nameEn": "Richardson's Bistro",
             "lat": -42.134775,
             "lng": 148.301631,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 3.6,
+            "ratingCount": 332,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Cape Tourville 约 7.5 公里",
             "priceLevel": null,
             "cuisine": "海鲜、汉堡与牛排",
             "recommended": "Freycinet Lodge 内的就近正式餐饮，官网列出海鲜、汉堡、牛排和 grazing plates，适合灯塔步道前后用餐。",
             "hours": null,
-            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/richardsons-bistro/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504299-d2324743-Reviews-Richardson_s_Bistro-Freycinet_Glamorgan_Spring_Bay_Tasmania.html"
           },
           {
             "name": "Geographe Restaurant and Espresso Bar",
             "nameEn": "Geographe Restaurant and Espresso Bar",
             "lat": -42.125739,
             "lng": 148.290356,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.4,
+            "ratingCount": 369,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Cape Tourville 约 9 公里，位于 Coles Bay",
             "priceLevel": null,
             "cuisine": "木烤 pizza、海鲜与咖啡",
             "recommended": "木烤 pizza、鲜海鲜和全天咖啡是主项，早餐至晚餐均覆盖，适合离园后补给。",
             "hours": "每日早餐、午餐和晚餐；具体时段未核实",
-            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/geographe-restaurant-and-espresso-bar/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504300-d13185937-Reviews-Geographe_Restaurant_Espresso_Bar-Coles_Bay_Freycinet_Glamorgan_Spring_Bay_Tasma.html"
           },
           {
             "name": "Iluka Tavern",
@@ -5279,32 +5279,32 @@
             "nameEn": "Richardson's Bistro",
             "lat": -42.134775,
             "lng": 148.301631,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 3.6,
+            "ratingCount": 332,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Honeymoon Bay 约 1 公里",
             "priceLevel": null,
             "cuisine": "海鲜、汉堡、牛排与小食",
             "recommended": "这是距海湾最近的正式餐饮，官网列出 seafood、lodge burgers、steak 和 grazing plates；适合不想自备野餐的游客。",
             "hours": null,
-            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/richardsons-bistro/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504299-d2324743-Reviews-Richardson_s_Bistro-Freycinet_Glamorgan_Spring_Bay_Tasmania.html"
           },
           {
             "name": "Geographe Restaurant and Espresso Bar",
             "nameEn": "Geographe Restaurant and Espresso Bar",
             "lat": -42.125739,
             "lng": 148.290356,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.4,
+            "ratingCount": 369,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Honeymoon Bay 约 3 公里",
             "priceLevel": null,
             "cuisine": "木烤 pizza、海鲜与咖啡",
             "recommended": "全天覆盖的木烤 pizza、海鲜与咖啡适合海湾活动前后；旺季晚餐宜提前确认座位。",
             "hours": "每日早餐、午餐和晚餐；具体时段未核实",
-            "sourceUrl": "https://www.discovertasmania.com.au/things-to-do/food-and-drink/geographe-restaurant-and-espresso-bar/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504300-d13185937-Reviews-Geographe_Restaurant_Espresso_Bar-Coles_Bay_Freycinet_Glamorgan_Spring_Bay_Tasma.html"
           },
           {
             "name": "Iluka Tavern",
@@ -5576,32 +5576,32 @@
             "nameEn": "Black Cow Bistro",
             "lat": -41.435381,
             "lng": 147.139618,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.5,
+            "ratingCount": 1122,
+            "ratingSource": "Google 地图（Starworks 转引）",
             "ratingCheckedAt": "2026-08-22",
             "distance": "位于 70 George Street，CBD 步行可达",
             "priceLevel": null,
             "cuisine": "塔州牛排与本地食材",
             "recommended": "官网主打 dry-aged、free-range、grass-fed Tasmanian beef，牛排可选 eye fillet、scotch、rib eye、porterhouse 和 rump，并配 Tamar Valley 葡萄酒。",
             "hours": "晚餐为主；具体时段以官网预订页为准",
-            "sourceUrl": "https://blackcowbistro.com.au/menus/"
+            "sourceUrl": "https://www.starworks.com.au/score/na%3A7274da7ebd274a75"
           },
           {
             "name": "Cataract on Paterson",
             "nameEn": "Cataract on Paterson",
             "lat": -41.440361,
             "lng": 147.131007,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.6,
+            "ratingCount": 2991,
+            "ratingSource": "Google 地图（Starworks 转引）",
             "ratingCheckedAt": "2026-08-22",
             "distance": "位于 135 Paterson Street，CBD 西侧",
             "priceLevel": null,
             "cuisine": "现代澳大利亚菜、牛排与海鲜",
             "recommended": "官方旅游页特别推荐 seafood platter 和 400°C volcanic stone 上桌自煎的 Stonegrill 牛排，也有 vegan 与 vegetarian 选项。",
             "hours": "每日晚餐 17:00 起",
-            "sourceUrl": "https://visitnortherntasmania.com.au/eat-and-drink/cataract-on-paterson"
+            "sourceUrl": "https://www.starworks.com.au/score/na%3A7274da7ebd274a75"
           }
         ]
       },
@@ -5711,16 +5711,16 @@
             "nameEn": "The River Cafe",
             "lat": -41.1487181,
             "lng": 146.8190815,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.5,
+            "ratingCount": 514,
+            "ratingSource": "Tripadvisor（East Phoenix 转引）",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Platypus House 约 500 米",
             "priceLevel": "人均约 A$20-35",
             "cuisine": "咖啡馆、塔州海鲜",
             "recommended": "官网明确主打本地野生捕捞塔州海鲜，并供应早餐、午餐、咖啡及自制蛋糕甜点。需要正餐时优先于景点内简餐。",
             "hours": "每日早餐及午餐时段营业；出发前以官网当日信息为准",
-            "sourceUrl": "https://www.therivercafe.com.au/"
+            "sourceUrl": "https://www.eastphoenixau.com/t-pages/the-river-cafe-beauty-point-tas.html"
           },
           {
             "name": "Platypus House Cafe",
@@ -5858,16 +5858,16 @@
             "nameEn": "Tavern Bar & Bistro",
             "lat": -41.5950197,
             "lng": 145.9277969,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 3.7,
+            "ratingCount": 911,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Dove Lake 约 8 公里，位于 Cradle Mountain Lodge",
             "priceLevel": "人均约 A$25-45",
             "cuisine": "澳式酒馆餐",
             "recommended": "官网确认供应午餐和晚餐的 bistro-style meals；当地指南明确提到 pizza、burger 与本地啤酒。只接受现场排队，旺季可能等位。",
             "hours": "每日 12:00 至较晚时段",
-            "sourceUrl": "https://www.cradlemountainlodge.com.au/food-and-wine/tavern-bar-bistro/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504288-d4106262-Reviews-Tavern_Bar_And_Bistro-Cradle_Mountain_Lake_St_Clair_National_Park_Tasmania.html"
           }
         ]
       },
@@ -5980,16 +5980,16 @@
             "nameEn": "Highland Restaurant",
             "lat": -41.5950197,
             "lng": 145.9277969,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.0,
+            "ratingCount": 478,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Ronny Creek 约 7 公里，返回 Cradle Valley 后用餐",
             "priceLevel": "人均约 A$60-100",
             "cuisine": "现代塔州料理",
             "recommended": "官网说明菜单随季节变化，重点使用塔州本地食材并搭配当地葡萄酒。座位有限，晚餐建议预订，不适合作为步道途中补给。",
             "hours": "早餐每日 07:00-10:00；晚餐每日 17:30 起",
-            "sourceUrl": "https://www.cradlemountainlodge.com.au/food-and-wine/highland-restaurant/"
+            "sourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g504288-d1724951-Reviews-Highland_Restaurant-Cradle_Mountain_Lake_St_Clair_National_Park_Tasmania.html"
           }
         ]
       },
@@ -6088,16 +6088,16 @@
             "nameEn": "Tavern Bar & Bistro",
             "lat": -41.5950197,
             "lng": 145.9277969,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 3.7,
+            "ratingCount": 911,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距保护园约 300 米",
             "priceLevel": "人均约 A$25-45",
             "cuisine": "澳式酒馆餐",
             "recommended": "适合参观后吃 pizza、burger 等较轻松的酒馆餐；官网确认午晚餐每日供应。walk-in 制，不能预订。",
             "hours": "每日 12:00 至较晚时段",
-            "sourceUrl": "https://www.cradlemountainlodge.com.au/food-and-wine/tavern-bar-bistro/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504288-d4106262-Reviews-Tavern_Bar_And_Bistro-Cradle_Mountain_Lake_St_Clair_National_Park_Tasmania.html"
           },
           {
             "name": "Hellyers Restaurant",
@@ -6232,16 +6232,16 @@
             "nameEn": "Highland Restaurant",
             "lat": -41.5950197,
             "lng": 145.9277969,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.0,
+            "ratingCount": 478,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距游客中心约 300 米",
             "priceLevel": "人均约 A$60-100",
             "cuisine": "现代塔州料理",
             "recommended": "主打季节性塔州食材与本地葡萄酒，适合作为徒步后的正式晚餐。官网提示座位有限并建议预订。",
             "hours": "早餐每日 07:00-10:00；晚餐每日 17:30 起",
-            "sourceUrl": "https://www.cradlemountainlodge.com.au/food-and-wine/highland-restaurant/"
+            "sourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g504288-d1724951-Reviews-Highland_Restaurant-Cradle_Mountain_Lake_St_Clair_National_Park_Tasmania.html"
           }
         ]
       },
@@ -6318,32 +6318,32 @@
             "nameEn": "Drift Cafe Restaurant",
             "lat": -41.1622119,
             "lng": 146.3556951,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.4,
+            "ratingCount": 917,
+            "ratingSource": "Google 地图（Starworks 转引）",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距码头约 4 公里，驾车约 8-10 分钟",
             "priceLevel": "人均约 A$20-35",
             "cuisine": "早餐、早午餐、炸鱼薯条",
             "recommended": "官网确认使用塔州本地食材，供应全天早餐、早午餐、午餐及外带 Fish + Chips。适合白天航班前后，但不要压缩到关闭登船前。",
             "hours": "每日 06:30-16:00；15:00 后仅外带",
-            "sourceUrl": "https://www.driftdevonport.com/"
+            "sourceUrl": "https://www.starworks.com.au/score/na%3A0ac2d0faaf9078c7"
           },
           {
             "name": "Mrs Jones Restaurant Bar Lounge",
             "nameEn": "Mrs Jones Restaurant Bar Lounge",
             "lat": -41.1661117,
             "lng": 146.3620644,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.1,
+            "ratingCount": 4055,
+            "ratingSource": "Menuweb",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距码头约 4 公里，驾车约 8-10 分钟",
             "priceLevel": "人均约 A$40-70",
             "cuisine": "现代澳洲料理",
             "recommended": "官方旅游资料称菜单使用新鲜时令食材和塔州供应商产品，并搭配塔州葡萄酒、烈酒、啤酒与 cider。适合时间宽裕的午晚餐。",
             "hours": null,
-            "sourceUrl": "https://www.spiritoftasmania.com.au/things-to-do/mrs-jones-restaurant-bar-lounge/"
+            "sourceUrl": "https://menuweb.menu/restaurants/devonport/mrs-jones-restaurant-bar-lounge"
           }
         ]
       },
@@ -6438,32 +6438,32 @@
             "nameEn": "Morgan's Bar & Grill",
             "lat": -38.404615,
             "lng": 144.1899538,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.1,
+            "ratingCount": 403,
+            "ratingSource": "Google 地图（Sluurpy 转引）",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Anglesea Beach 约 500 米",
             "priceLevel": "人均约 A$20-40",
             "cuisine": "汉堡、牛排、早午餐",
             "recommended": "官网主打 specialty coffee、milkshake、brunch、精酿啤酒和海岸风格汉堡；当地指南称汉堡选择多，也有无麸质选项。",
             "hours": null,
-            "sourceUrl": "https://www.morgansbarandgrill.com.au/"
+            "sourceUrl": "https://www.sluurpy.com/en/anglesea/restaurant/4620404/morgans-bar-and-grill"
           },
           {
             "name": "A la grecque",
             "nameEn": "A la grecque",
             "lat": -38.46513,
             "lng": 144.09901,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.2,
+            "ratingCount": 1940,
+            "ratingSource": "Menuweb",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Anglesea Beach 约 10 公里，位于 Aireys Inlet",
             "priceLevel": "人均约 A$40-70",
             "cuisine": "现代希腊菜",
             "recommended": "Anglesea 官方餐饮页面明确介绍其现代希腊料理。适合作为继续向西前往 Aireys Inlet 时的正餐，而不是从海滩步行前往。",
             "hours": null,
-            "sourceUrl": "https://www.anglesea.com.au/food-and-wine/"
+            "sourceUrl": "https://menuweb.menu/restaurants/aireys-inlet/a-la-greque/reviews"
           }
         ]
       },
@@ -6670,16 +6670,16 @@
             "nameEn": "Totti's Lorne",
             "lat": -38.5430178,
             "lng": 143.9759497,
-            "rating": null,
+            "rating": 3.8,
             "ratingCount": null,
-            "ratingSource": null,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Memorial Arch 约 15 公里，继续向西到 Lorne",
             "priceLevel": "人均约 A$45-80",
             "cuisine": "意大利菜",
             "recommended": "官网明确推荐 lobster pasta、wood-grilled King George whiting、Apollo Bay calamari、手工 pasta 与 tiramisu。适合继续西行后在 Lorne 正式用餐。",
             "hours": "周一及周四至周日 12:00-22:00；当前官网未列周二、周三",
-            "sourceUrl": "https://merivale.com/venues/tottis-lorne/"
+            "sourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g261659-d26469178-Reviews-Totti_s_Lorne-Lorne_Victoria.html"
           }
         ]
       },
@@ -6763,32 +6763,32 @@
             "nameEn": "Totti's Lorne",
             "lat": -38.5430178,
             "lng": 143.9759497,
-            "rating": null,
+            "rating": 3.8,
             "ratingCount": null,
-            "ratingSource": null,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Teddy's Lookout 约 2 公里",
             "priceLevel": "人均约 A$45-80",
             "cuisine": "意大利菜",
             "recommended": "官网菜单亮点包括 lobster pasta、木烤 King George whiting、Apollo Bay calamari、woodfired bread 和 tiramisu。热门时段建议预订。",
             "hours": "周一及周四至周日 12:00-22:00；当前官网未列周二、周三",
-            "sourceUrl": "https://merivale.com/venues/tottis-lorne/"
+            "sourceUrl": "https://www.tripadvisor.com/Restaurant_Review-g261659-d26469178-Reviews-Totti_s_Lorne-Lorne_Victoria.html"
           },
           {
             "name": "Lorne Hotel Bistro & Beer Garden",
             "nameEn": "Lorne Hotel Bistro & Beer Garden",
             "lat": -38.5430178,
             "lng": 143.9759497,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 3.4,
+            "ratingCount": 503,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Teddy's Lookout 约 2 公里",
             "priceLevel": "人均约 A$25-50",
             "cuisine": "澳式酒馆餐",
             "recommended": "官网列出 schnitzel、burger、季节性 curry 和新鲜 seafood，价格和氛围比同址 Totti's 更休闲。可在 beer garden 看海。",
             "hours": null,
-            "sourceUrl": "https://merivale.com/venues/lorne-hotel/bistro-beer-garden/"
+            "sourceUrl": "https://www.tripadvisor.co.nz/Restaurant_Review-g261659-d1501972-Reviews-Lorne_Hotel_Bistro_Beer_Garden-Lorne_Victoria.html"
           }
         ]
       },
@@ -6879,32 +6879,32 @@
             "nameEn": "Kafe Koala",
             "lat": -38.6675038,
             "lng": 143.8607834,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.1,
+            "ratingCount": 161,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "位于 Kennett River 主停车区旁",
             "priceLevel": "简餐约 A$10-25",
             "cuisine": "咖啡、外带简餐",
             "recommended": "这是聚落内唯一便捷补给点，适合买咖啡和简单外带。公开可靠菜单不足，不能保证特定菜品或每日营业。",
             "hours": null,
-            "sourceUrl": "https://haveyoursay.greatoceanroadauthority.vic.gov.au/kennettriver"
+            "sourceUrl": "https://www.tripadvisor.co.uk/Restaurant_Review-g2006087-d6654525-Reviews-Kafe_Koala-Kennett_River_Victoria.html"
           },
           {
             "name": "Wye Beach Hotel",
             "nameEn": "Wye Beach Hotel",
             "lat": -38.6359763,
             "lng": 143.8907378,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.0,
+            "ratingCount": 701,
+            "ratingSource": "Clubs and Pubs Near Me",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Kennett River 约 5 公里，向北到 Wye River",
             "priceLevel": "人均约 A$25-50",
             "cuisine": "澳式酒馆餐",
             "recommended": "官网强调使用本地及小型独立生产者的食材与饮品，并有海景与家庭友好环境。Kafe Koala 未营业时，这是最近较稳妥的正餐。",
             "hours": "官网显示 11:30 起营业；结束时间按当日公告",
-            "sourceUrl": "http://www.wyebeachhotel.com.au/"
+            "sourceUrl": "https://clubsandpubsnearme.com.au/pubs/wye-beach-hotel-wye-river-vic"
           }
         ]
       },
@@ -7012,32 +7012,32 @@
             "nameEn": "Apollo Bay Fishermen's Co-op",
             "lat": -38.7584451,
             "lng": 143.6769592,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.1,
+            "ratingCount": 562,
+            "ratingSource": "Tripadvisor",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Apollo Bay 镇中心约 700 米，位于港口",
             "priceLevel": "人均约 A$20-40",
             "cuisine": "海鲜、炸鱼薯条",
             "recommended": "当地指南称渔民合作社直接把当天时令鱼获做成 Fish and Chips，常见鱼种随当日捕捞变化。适合在码头野餐桌吃，不接受把某一种鱼当作固定供应。",
             "hours": "多为下午及晚餐时段，指南称周二休息；出发前核对",
-            "sourceUrl": "https://greatoceanroad.com.au/towns/apollo-bay/restaurants/"
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g261654-d5327744-Reviews-Apollo_Bay_Fishermen_s_Co_op-Apollo_Bay_Victoria.html"
           },
           {
             "name": "Bay Leaf Cafe",
             "nameEn": "Bay Leaf Cafe",
             "lat": -38.7624798,
             "lng": 143.6708042,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 3.9,
+            "ratingCount": 1779,
+            "ratingSource": "Menuweb",
             "ratingCheckedAt": "2026-08-22",
             "distance": "位于镇中心主街，距海滨约 100-300 米",
             "priceLevel": "人均约 A$15-30",
             "cuisine": "早餐、咖啡馆",
             "recommended": "当地指南把 Bay Leaf Cafe 列为镇上早餐标杆，供应完整早餐菜单并较早开门。适合作为自驾出发前的咖啡与早餐。",
             "hours": null,
-            "sourceUrl": "https://greatoceanroad.com.au/towns/apollo-bay/restaurants/"
+            "sourceUrl": "https://menuweb.menu/restaurants/apollo-bay/bay-leaf-cafe-1/reviews"
           }
         ]
       },
@@ -7866,16 +7866,16 @@
             "nameEn": "Higher Ground Melbourne",
             "lat": -37.8158967,
             "lng": 144.9531574,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": "未采用：检索结果无法稳定确认当前 Google 数值",
+            "rating": 4.1,
+            "ratingCount": 739,
+            "ratingSource": "Tripadvisor（Australian Policy 转引）",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Southern Cross Station 约 300 米，步行约 4 分钟",
             "priceLevel": "人均约 A$25-45",
             "cuisine": "现代澳洲菜、早午餐、咖啡",
             "recommended": "City of Melbourne 官方介绍点名 Chilli Scrambled Eggs、Avocado Pretzel 和 Blueberry and Ricotta Hotcakes。场地热门且官网建议预订，适合安排较从容的早餐或早午餐。",
             "hours": null,
-            "sourceUrl": "https://whatson.melbourne.vic.gov.au/eat-and-drink/higher-ground"
+            "sourceUrl": "https://australianpolicy.org/tech/higher-ground-melbourne-brunch-menu/"
           }
         ]
       },
@@ -9320,16 +9320,16 @@
             "nameEn": "Babaji's Kerala Kitchen Belgrave",
             "lat": -37.9100522,
             "lng": 145.353318,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
+            "rating": 4.0,
+            "ratingCount": 926,
+            "ratingSource": "Menuweb",
             "ratingCheckedAt": "2026-08-22",
             "distance": "距 Puffing Billy Belgrave Station 步行约 5 分钟",
             "priceLevel": "人均约 A$25-45",
             "cuisine": "印度 Kerala 菜",
             "recommended": "官网明确是 Kerala 南印度餐厅，并提供 vegan、vegetarian 与 gluten-free 选择。适合火车前后吃咖喱、米饭类正餐或 chai。",
             "hours": "周一、周二、周四、周日 12:00-20:00；周五、周六 12:00-21:00；周三休息",
-            "sourceUrl": "https://www.babajiskitchen.com.au/our-restaurants/belgrave.html"
+            "sourceUrl": "https://menuweb.menu/restaurants/belgrave-vic/babajis-kerala-kitchen/reviews"
           },
           {
             "name": "Micawber Tavern",
