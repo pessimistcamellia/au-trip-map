@@ -164,9 +164,14 @@ async function locatePlaceInTimeline(placeId: string): Promise<void> {
   focusedPlaceId.value = placeId
   rhythmView.value = 'text'
   await nextTick()
-  rhythmTextSection.value
-    ?.querySelector<HTMLElement>(`[data-place-id="${placeId}"]`)
-    ?.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  window.requestAnimationFrame(() => {
+    const target = rhythmTextSection.value?.querySelector<HTMLElement>(
+      `[data-place-id="${placeId}"]`,
+    )
+    if (!target) return
+    target.focus({ preventScroll: true })
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  })
 }
 
 function openPlace(place: IPlace): void {
@@ -236,6 +241,23 @@ const routeEndpoints = computed(() => {
   return {
     start: sections[0] ?? '待确认',
     end: sections.at(-1) ?? sections[0] ?? '待确认',
+  }
+})
+
+function firstTimePart(value: string): string {
+  return value.split(/[-–—]/)[0]?.trim() || '待定'
+}
+
+function lastTimePart(value: string): string {
+  const parts = value.split(/[-–—]/).map((item) => item.trim()).filter(Boolean)
+  return parts.at(-1) || '待定'
+}
+
+const routeTimes = computed(() => {
+  const rhythm = selectedDay.value.rhythm
+  return {
+    start: firstTimePart(rhythm[0]?.time ?? ''),
+    end: lastTimePart(rhythm.at(-1)?.time ?? ''),
   }
 })
 
@@ -524,23 +546,34 @@ onBeforeUnmount(() => {
 
         <section v-else-if="activeView === 'itinerary'" class="itinerary-view">
           <div class="date-picker">
-            <button
-              class="date-picker-bar"
-              type="button"
-              :aria-expanded="datePickerExpanded"
-              aria-controls="trip-date-options"
-              @click="datePickerExpanded = !datePickerExpanded"
-            >
-              <span class="date-picker-day">第 {{ selectedDay.day }} 天</span>
-              <span>
-                <strong>{{ selectedDay.date.slice(5).replace('-', '/') }}</strong>
-                {{ selectedDay.weekday }}
-              </span>
-              <span class="date-picker-route">
-                {{ routeEndpoints.start }} → {{ routeEndpoints.end }}
-              </span>
-              <van-icon :name="datePickerExpanded ? 'arrow-up' : 'arrow-down'" />
-            </button>
+            <section class="day-summary">
+              <button
+                class="day-selector"
+                type="button"
+                :aria-expanded="datePickerExpanded"
+                aria-controls="trip-date-options"
+                @click="datePickerExpanded = !datePickerExpanded"
+              >
+                <strong>第 {{ selectedDay.day }} 天</strong>
+                <span>
+                  {{ selectedDay.date.slice(5).replace('-', '/') }}
+                  {{ selectedDay.weekday }}
+                </span>
+                <van-icon :name="datePickerExpanded ? 'arrow-up' : 'arrow-down'" />
+              </button>
+              <dl>
+                <div>
+                  <dt>起点</dt>
+                  <dd>{{ routeEndpoints.start }}</dd>
+                  <time>{{ routeTimes.start }}</time>
+                </div>
+                <div>
+                  <dt>终点</dt>
+                  <dd>{{ routeEndpoints.end }}</dd>
+                  <time>{{ routeTimes.end }}</time>
+                </div>
+              </dl>
+            </section>
             <div
               v-if="datePickerExpanded"
               id="trip-date-options"
@@ -562,20 +595,6 @@ onBeforeUnmount(() => {
               </button>
             </div>
           </div>
-
-          <section class="day-summary">
-            <strong>第 {{ selectedDay.day }} 天</strong>
-            <dl>
-              <div>
-                <dt>起点</dt>
-                <dd>{{ routeEndpoints.start }}</dd>
-              </div>
-              <div>
-                <dt>终点</dt>
-                <dd>{{ routeEndpoints.end }}</dd>
-              </div>
-            </dl>
-          </section>
 
           <section class="rhythm-panel">
             <header class="rhythm-heading">

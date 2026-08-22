@@ -51,6 +51,7 @@ const routeState = ref<'idle' | 'loading' | 'road' | 'straight'>('idle')
 const tileFailures = ref(0)
 const pulsePlaceId = ref<string | null>(null)
 const resetNotice = ref('')
+const mapInteractive = ref(false)
 let resizeObserver: ResizeObserver | null = null
 let resetNoticeTimer: number | undefined
 let pulseTimer: number | undefined
@@ -164,6 +165,7 @@ function changeZoom(delta: number): void {
 }
 
 function startDrag(event: PointerEvent): void {
+  if (event.pointerType === 'touch' && !mapInteractive.value) return
   if (
     !shouldStartMapDrag(
       mapUnavailable.value,
@@ -193,8 +195,18 @@ function stopDrag(event: PointerEvent): void {
 }
 
 function wheelZoom(event: WheelEvent): void {
+  if (!mapInteractive.value) return
   event.preventDefault()
   changeZoom(event.deltaY > 0 ? -1 : 1)
+}
+
+function toggleMapInteraction(): void {
+  mapInteractive.value = !mapInteractive.value
+  if (!mapInteractive.value) drag = undefined
+}
+
+function selectMapPoint(point: IMapPoint): void {
+  if (point.placeId) emit('selectPoint', point.placeId)
 }
 
 async function loadRoute(): Promise<void> {
@@ -230,6 +242,7 @@ async function loadRoute(): Promise<void> {
 
 function resetMap(): void {
   tileFailures.value = 0
+  mapInteractive.value = false
   void nextTick(() => {
     fitPoints()
     void loadRoute()
@@ -288,7 +301,7 @@ onBeforeUnmount(() => {
     <div
       ref="container"
       class="rhythm-map"
-      :class="{ dragging: drag }"
+      :class="{ dragging: drag, interactive: mapInteractive }"
       @pointerdown="startDrag"
       @pointermove="moveDrag"
       @pointerup="stopDrag"
@@ -352,7 +365,7 @@ onBeforeUnmount(() => {
           :aria-label="`第 ${point.sequence ?? index + 1} 点，${point.title}${point.priority === 'optional' ? '，可选' : ''}，定位到文字行程`"
           :aria-pressed="focusedPlaceId === point.placeId"
           @pointerdown.stop
-          @click="point.placeId && emit('selectPoint', point.placeId)"
+          @click.stop.prevent="selectMapPoint(point)"
         >
           <b>{{ point.sequence ?? index + 1 }}</b>
           <small v-if="point.priority === 'optional'">可选</small>
@@ -380,6 +393,16 @@ onBeforeUnmount(() => {
           <van-icon name="expand-o" />
           回到全览
         </button>
+        <button
+          class="map-gesture-button"
+          type="button"
+          :aria-pressed="mapInteractive"
+          @pointerdown.stop
+          @click.stop="toggleMapInteraction"
+        >
+          <van-icon :name="mapInteractive ? 'passed' : 'expand-o'" />
+          {{ mapInteractive ? '完成' : '操作地图' }}
+        </button>
         <div class="map-controls" aria-label="地图缩放">
           <button type="button" aria-label="放大地图" @pointerdown.stop @click.stop="changeZoom(1)">＋</button>
           <button type="button" aria-label="缩小地图" @pointerdown.stop @click.stop="changeZoom(-1)">−</button>
@@ -387,6 +410,9 @@ onBeforeUnmount(() => {
         <small class="map-attribution">
           © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a>
         </small>
+        <div v-if="!mapInteractive" class="map-scroll-hint">
+          单指上下滑动页面
+        </div>
         <div v-if="resetNotice" class="map-reset-notice" role="status">
           {{ resetNotice }}
         </div>

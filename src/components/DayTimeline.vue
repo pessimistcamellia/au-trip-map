@@ -70,6 +70,7 @@ function badgeOf(place: IPlace) {
       v-for="stop in stops"
       :key="stop.key"
       :data-place-id="stop.place?.id"
+      :tabindex="stop.place ? -1 : undefined"
       :class="{
         'is-stop': Boolean(stop.place),
         done: stop.place ? completedIds.has(stop.place.id) : false,
@@ -80,13 +81,11 @@ function badgeOf(place: IPlace) {
         v-if="stop.place"
         class="stop-index"
         type="button"
-        :aria-label="
-          completedIds.has(stop.place.id)
-            ? `取消完成 ${stop.place.name}`
-            : `标记完成 ${stop.place.name}`
-        "
-        :aria-pressed="completedIds.has(stop.place.id)"
-        @click="emit('toggleCompleted', stop.place.id)"
+        :disabled="stop.place.lat === null"
+        :aria-label="`在当日地图定位 ${stop.place.name}`"
+        :aria-pressed="stop.place.id === focusedPlaceId"
+        :title="stop.place.lat === null ? '这个地点没有地图坐标' : '在当日地图定位'"
+        @click="emit('locatePlace', stop.place)"
       >
         {{ stop.sequence ?? '·' }}
       </button>
@@ -106,14 +105,6 @@ function badgeOf(place: IPlace) {
           </div>
           <h4>
             <span>{{ stop.place.name }}</span>
-            <button
-              v-if="stop.place.lat !== null"
-              class="place-locate"
-              type="button"
-              :aria-label="`在当日地图定位 ${stop.place.name}`"
-              title="在当日地图定位"
-              @click="emit('locatePlace', stop.place)"
-            ><van-icon name="location-o" /></button>
             <a
               v-if="stop.place.lat !== null"
               class="place-navigate"
@@ -139,6 +130,15 @@ function badgeOf(place: IPlace) {
             <button class="journal-link" type="button" @click="emit('openJournal', stop.place)">
               <van-icon name="records-o" />
               随手记
+            </button>
+            <button
+              class="completion-link"
+              type="button"
+              :aria-pressed="completedIds.has(stop.place.id)"
+              @click="emit('toggleCompleted', stop.place.id)"
+            >
+              <van-icon :name="completedIds.has(stop.place.id) ? 'passed' : 'circle'" />
+              {{ completedIds.has(stop.place.id) ? '已完成' : '标记完成' }}
             </button>
           </div>
         </template>
