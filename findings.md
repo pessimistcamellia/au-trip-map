@@ -151,3 +151,13 @@
 - 文字序号原先承担“完成”状态，和地图序号的语义不一致。现统一为定位按钮；完成状态移到卡片底部文字操作，不丢功能。
 - 嵌入地图若设置 `touch-action:none`，单指上下滑会被地图拖动截走。采用明确协作模式：默认 `touch-action:pan-y`，单指滚动页面、滚轮也不截获；点击「操作地图」后切到 `touch-action:none`，允许拖动与滚轮缩放，`+/-` 始终可缩放，点「完成」退出地图操作。
 - marker 回跳增加三层稳定性：marker `click.stop.prevent` 调独立函数；父组件 `nextTick + requestAnimationFrame` 后寻找 `data-place-id`；目标卡先 `focus({preventScroll:true})` 再 `scrollIntoView(block:start)`。390×844 实测点 4 回跳后卡片 top≈189px、sticky 页签变为「文字」。
+
+## 2026-08-22 marker 点击失效根因：全局 `:active` transform 覆盖定位 transform
+- 之前几轮验收都用 `element.click()` 脚本触发，脚本点击不经过 pointer 序列，所以一直是「通过」；用真实输入事件（Chrome DevTools 真实点击）复现后立刻失败：`scrollY` 保持 0、无 `li.focused`。
+- 事件插桩结果：`pointerdown` 命中 `.map-marker > b`，但 `pointerup` 与 `click` 的 target 都变成了容器 `.rhythm-map`。浏览器只有在 down / up 命中同一元素时才派发 `click`，因此 `click` 永远不落在 marker 上。
+- 逐帧读 computed transform 给出结论：`pointerdown` 时 marker 的 transform 是 `matrix(0.98,0,0,0.98,0,0)`，`pointerup` 时才是 `matrix(1,0,0,1,-22,-44)`。即按下瞬间 marker 自身的 `translate(-50%,-100%)` 被丢掉，元素整体向右下位移 22×44px，手指位置已经不在它身上。
+- 根因是 `styles.css` 的全局 `button:active { transform: scale(0.98) }`：`transform` 是单一属性，会整体覆盖 `.map-marker` 用于定位的 `transform: translate(-50%,-100%)`。所有依赖 transform 定位的按钮都会中这个雷。
+- 修法：全局按压反馈改用独立的 `scale` 属性（`button:active { scale: 0.98 }`）。`scale` / `translate` / `rotate` 是各自独立的变换属性，不会互相覆盖，marker 定位保持不变。
+- 顺带把 `.rhythm-map` 的 `overflow: hidden` 改为 `overflow: clip`：`hidden` 会让容器成为可滚动盒，聚焦内部 marker 时浏览器可能把它滚进视野，同样会让 down / up 命中不同元素。`clip` 不产生滚动盒。
+- 排版：卡片底部改成一行 `justify-content: space-between` 的 footer，`随手记` 在左下、`更多` 在右下并与右上角导航图标同列；两个按钮统一 `min-height: 40px`、`line-height: 1`、图标 15px，`journal-link` 原先多出的 `margin-top: 5px` 是截图里三个按钮高低不齐的直接原因。
+- `标记完成` 从卡片移除，改放在「更多」弹层底部 footer，首页「已完成 N/47」计数因此仍可推进；`.place-detail` 改为 flex 列并让 `.detail-body` 占满剩余高度，footer 贴底。
