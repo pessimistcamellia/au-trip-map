@@ -171,14 +171,6 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>跳过 Puffing Billy Rai…</name>
-        <styleUrl>#sty_skip</styleUrl>
-        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;Dandenong Ranges 的历史窄轨蒸汽铁路，往返与接驳通常需要半天以上，车票需预约。  &lt;br/&gt;**深度补充：**窄轨铁路穿过Dandenong Ranges湿润森林、蕨类谷地与小镇，半程和全程耗时差异大。蒸汽牵引、开放车厢和桥梁是核心，但“腿伸窗外”只可在官方允许车厢和区段进行。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://puffingbilly.com.au/visit-us/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;线路始建于 1900 年，原为偏远社区运输，后经志愿者与遗产铁路体系保存；“坐在窗台伸腿”须严格按官方开放车厢与规则。  &lt;br/&gt;**深度补充：**线路1900年服务偏远社区，后由志愿者和遗产铁路组织恢复，体现澳洲地方铁路从实用交通转为文化遗产的过程。志愿维护和森林火灾风险是持续运营的重要背景。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://puffingbilly.com.au/about/history/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排，尤其不能放在10/6中午国际航班前；下次单独半天至一天。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Puffing Billy Railway, Victoria 城市／区域：Belgrave—Gembrook／Dandenong Ranges&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
-        <Point>
-          <coordinates>145.355,-37.907,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
         <name>跳过 Rottnest Island/W…</name>
         <styleUrl>#sty_skip</styleUrl>
         <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;短尾矮袋鼠最有名，但岛上还有盐湖、海岸与海洋生态。动物自拍需保持距离，不触摸、不喂食。  &lt;br/&gt;**深度补充：**Wadjemup有短尾矮袋鼠、盐湖、海草床、珊瑚与沙丘系统。Quokka多在清晨、傍晚活跃；自拍应由人退让、保持距离，不喂食、不触摸，也不要为追照片挡住动物通道。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.rottnestisland.com/see-do/wildlife-nature/quokkas)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;Wadjemup 对 Noongar 人也是痛苦的历史地点：殖民时期曾监禁大量 Aboriginal men，岛上有墓地与纪念空间。它不应只被包装成“微笑袋鼠岛”。  &lt;br/&gt;**深度补充：**岛上曾作为殖民时期原住民监狱，数千名Aboriginal men被关押，许多人死于此并葬在岛上。Wadjemup Project、墓地和纪念空间是理解岛屿不可绕过的部分，不能只讲“微笑袋鼠”。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.rottnestisland.com/learn/history/aboriginal-history)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；需要从 Perth／Fremantle 单独留一整天，建议下次深做。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Rottnest Island／Wadjemup／Quokka, Western Australia 城市／区域：Wadjemup／Rottnest Island（Perth／Fremantle 外海）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
@@ -274,7 +266,7 @@
           <coordinates>138.6007,-34.9285,0</coordinates>
         </Point>
       </Placemark>
-      <description>点位数：32</description>
+      <description>点位数：31</description>
     </Folder>
   </Document>
 </kml>
