@@ -152,7 +152,30 @@
 - 关闭状态如实进入界面：Maits Rest 步道、Loch Ard Gorge 沙滩阶梯、Tasman Arch／Devils Kitchen 施工等均写在对应「实用」页签，并要求出发前复查官方页面。
 - 自动化：`corepack pnpm typecheck` 通过；Vitest 34/34 通过（新增类别图标、名称兜底、调研数据完整性、评分来源、收费口径、美食页签、逐点天气 9 条）；`corepack pnpm build` 通过，主 JS 635 kB、CSS 92 kB，precache 14 条 / 732 KiB。
 - Chrome MCP 390×844×2 实测：D2 机场为 flight 图标／「机场」，D10 码头为 boat／「码头」，D13 女王市场为 storefront／「市场」；十二门徒五页签单行、停车卡片与 Parks Victoria 规则齐全；酒杯湾天气显示 7-17°C 并标注「采用最近的科尔斯湾（Coles Bay）作为参考」；浅深主题均无横向溢出。
+
+## 2026-08-22 企鹅观赏与返程节奏调整
+- `doc-content.md`／`days-raw.txt`：10/1改为Coles Bay午后直达Launceston；10/5保留十二门徒、Loch Ard仅短停、取消London Bridge／The Grotto并直达St Kilda，观赏后才回酒店。
+- `animal-section.md`／愿望清单：Bicheno改为本次不看，小蓝企鹅改由St Kilda覆盖；新增St Kilda票务待定项。
+- `build_itinerary.py`／`itinerary.json`：新增`d12-08` St Kilda；`d8-04`、`d12-05`、`d12-06`改skip；保持10/2 Platypus House→Cradle过夜、10/3 Cradle→Devonport。
+- `build_kml.py`／KML：D8改名“酒杯湾→朗塞斯顿”，D12–13图层加入St Kilda；本次不看层包含Bicheno、London Bridge、The Grotto。
+- `src/data/trip-data.json`／测试：地点85条（visit 50／skip 35）、愿望清单54条；新增10/1与10/5断言，节奏解析覆盖St Kilda。
+- 验证通过：`corepack pnpm typecheck`、Vitest 35/35、`corepack pnpm build`；仅保留既有主chunk大于500 kB警告。
+- 未commit、未push；10/6未改。
 - 发布：`main` 推到 `3fd34f6`（功能、文档、带评分的数据重建三条提交），`gh-pages` 推到 `71986c5`，线上加载 `index-B6LMl6Rc.js`。
 - 线上 390×844 验收：9/25 时间轴 1 机场／2-4 景点／5 住宿图标与类别正确，车程节点以小圆点串在同一条竖线上；机场弹层页签为「看点／实用／天气／美食」各 86.5px 均分；天气只显示「珀斯机场 10-21°C」并把同日提示单独放在「当日共同提示」；美食页签 Da Corner 4.4（57 条）等 4 家均带导航与来源；实用页签给出 Perth Airport 首小时免费范围、驶入价与接送区限时。
 - 评分补齐结果：103 家餐厅中 93 家取到评分（Google 地图转引 55、Tripadvisor 32、其它聚合站 6），10 家仍无可核实评分，保持「暂无可核实评分」。
 - 遗留冲突：工作区出现另一路并行改动（St Kilda 企鹅场次、Platypus House 订票、`build_itinerary.py`／KML 重建），把带 `placeId` 的行程点由 46 改成 41、地点总数改成 85，导致两条计数断言失败，且新点「霍巴特（过境，不硬塞市区）」缺类别／美食／停车。该批改动未提交，等确认后再决定是否并入。
+
+## 2026-08-22 地图／文字同页与双向定位
+- 已按 `redesign-existing-projects` 审计日程页：保留现有 Vue 3、Vant 与原生 OSM，不加依赖；重点减少重复标题、套盒与长期占屏日期按钮。
+- `App.vue` 已改为地图在上、文字在下同时渲染；sticky「按当天时间顺序／行程节奏／地图／文字」只做页内平滑跳转。
+- 日期选择改为默认折叠 bar，选日后自动收起；日摘要由约 190px 的区域＋完整路线压到 72px，只显示第几天、起点、终点。
+- `DayTimeline.vue` 在 Google 导航图标前新增蓝色定位图标，并以 `data-place-id` 暴露文字锚点；当前地图选中的文字卡同步蓝色描边。
+- `TripRhythmMap.vue` 移除 marker 点击后的 Google 导航卡；marker 改为直接回到对应文字卡。文字定位只平移 center、不改变 zoom，marker 蓝色脉冲约 1.1 秒后保持异色。
+- 阶段检查：`corepack pnpm typecheck` 通过；390×844 本地运行态验证点 2 文字→地图与点 4 地图→文字均成功，旧高亮均被新点替换，页面无横向溢出。
+- 补充滚动联动：手动滚到文字段时 sticky 页签自动切为「文字」，回到地图段切为「地图」；不是只有点击页签时才更新。
+- 深色 390×844 复验：日期展开可用、选日后收起，sticky top=0，页面 390/390 无横向溢出；选中 marker 使用 `#78A6FF`，浅色使用 `#2F6FED`。
+- 第二轮自动化：`corepack pnpm typecheck`、当前工作树 Vitest 35/35 通过。
+- 为排除待确认行程改动干扰，从 `02a24fd` 建 detached 干净工作树，仅应用本次四个前端文件：typecheck、基线 Vitest 34/34、production build 全通过；输出 JS 635.75 kB、CSS 106.29 kB，PWA precache 14 条 / 740.80 KiB。唯一警告仍是既有主 chunk 大于 500 kB。
+- 数据契约复核：基线 46 个可地图化节奏点全部有 `placeId`，因此每个 marker 都能可靠回到文字锚点，不存在可点但无响应的编号。
+- 本轮未提交、未推送、未发布；用户未明确要求 Git 操作，且工作区仍保留此前选择「先留本地」的 St Kilda／KML 并行改动。
