@@ -912,24 +912,24 @@
       "category": "lodging",
       "categoryNote": "大洋路沿线住宿小镇与夜间补给中心。",
       "food": {
-        "summary": "Apollo Bay 是本段餐饮最集中处，海鲜、早餐和外带选择多；暑期晚餐热门店需提前订位或排队。",
+        "summary": "Apollo Bay 是本段餐饮最集中处，海鲜、早餐和外带选择多；暑期晚餐热门店需提前订位或排队。港口的渔民合作社老店正在改建，海鲜要到镇内 Pascoe Street 临时店买。",
         "restaurants": [
           {
-            "name": "Apollo Bay Fishermen's Co-op",
-            "nameEn": "Apollo Bay Fishermen's Co-op",
-            "lat": -38.7584451,
-            "lng": 143.6769592,
-            "coordinateSource": "Nominatim（OSM，Apollo Bay Boat Harbour）",
+            "name": "渔民合作社炸鱼薯条（Pascoe St 临时店）",
+            "nameEn": "Apollo Bay Fishermen's Co-op — 18 Pascoe Street",
+            "lat": -38.7578726,
+            "lng": 143.6686883,
+            "coordinateSource": "Nominatim（OSM，18 Pascoe Street 门店）",
             "rating": 4.1,
             "ratingCount": 562,
-            "ratingSource": "Tripadvisor",
+            "ratingSource": "Tripadvisor（评分属港口老店，临时店无独立评分）",
             "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Apollo Bay 镇中心约 700 米，位于港口",
+            "distance": "位于镇中心 Pascoe Street，距主街约 200 米",
             "priceLevel": "人均约 A$20-40",
             "cuisine": "海鲜、炸鱼薯条",
-            "recommended": "当地指南称渔民合作社直接把当天时令鱼获做成 Fish and Chips，常见鱼种随当日捕捞变化。适合在码头野餐桌吃，不接受把某一种鱼当作固定供应。",
-            "hours": "多为下午及晚餐时段，指南称周二休息；出发前核对",
-            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g261654-d5327744-Reviews-Apollo_Bay_Fishermen_s_Co_op-Apollo_Bay_Victoria.html"
+            "recommended": "把当天鱼获直接做成 Fish and Chips，鱼种随捕捞变化。注意港口老店已于 2025-10-06 停业进入改建，2026 年 4 月起主体施工、港区对公众封闭，全部工程预计 2027 年中完成；行程期间只能到 Pascoe Street 临时店，不要按旧攻略开去码头。",
+            "hours": "临时店 11:00-19:00，周二至周日（周一休）；镇上另有零售鱼档，周末 09:00-17:00、周一 09:00-14:00",
+            "sourceUrl": "https://www.apollobayfishcoop.com.au/"
           },
           {
             "name": "Bay Leaf Cafe",
@@ -951,22 +951,23 @@
         ]
       },
       "parking": {
-        "summary": "镇中心和海滨有路侧停车，但住宿应优先使用酒店自有车位；旺季主街车位紧张。",
+        "summary": "镇中心和海滨有路侧停车，但住宿应优先使用酒店自有车位；旺季主街车位紧张。港区正在改建施工，别把码头当停车备选。",
         "lots": [
           {
-            "name": "Apollo Bay Harbour 公共停车区",
-            "nameEn": "Apollo Bay Harbour Public Parking",
-            "lat": -38.7584451,
-            "lng": 143.6769592,
-            "coordinateSource": "Nominatim（OSM，Apollo Bay Boat Harbour）",
+            "name": "Pascoe Street 及主街路侧停车",
+            "nameEn": "Pascoe Street / Great Ocean Road kerbside parking",
+            "lat": -38.7572727,
+            "lng": 143.6681404,
+            "coordinateSource": "Nominatim（OSM，Pascoe Street）",
             "fee": "free",
             "feeNote": "公开资料未显示常设收费；现场限时与标志优先",
             "capacity": null,
             "surface": "沥青",
-            "note": "适合港口和 Fishermen's Co-op 短停，不作为住宿过夜停车；房车须停合规长车位或营地。"
+            "note": "买海鲜和吃晚餐用这一带路侧位短停，不作为住宿过夜停车；房车须停合规长车位或营地。"
           }
         ],
         "rules": [
+          "港口改建自 2026 年 4 月进入主体施工，港区对公众封闭，Mothers Beach 停车场被施工方占用，不要按旧攻略开进港口停车。",
           "入住后优先使用住宿方分配车位，不把 Great Ocean Road 主街路位当过夜保证。",
           "暑期、复活节和学校假期应尽早停车，严禁占用装卸区、无障碍位或巴士位。",
           "拖挂和房车过夜应使用 caravan park 或住宿方明确允许的区域。"
@@ -975,6 +976,10 @@
           {
             "label": "Apollo Bay 餐饮与旺季提示",
             "url": "https://greatoceanroad.com.au/towns/apollo-bay/restaurants/"
+          },
+          {
+            "label": "GORCAPA 港口改建进度与封闭范围",
+            "url": "https://www.greatoceanroadauthority.vic.gov.au/Latest-News/Work-progressing-on-Apollo-Bay-Harbour-Redevelopment"
           }
         ]
       }
