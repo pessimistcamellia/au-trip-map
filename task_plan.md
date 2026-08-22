@@ -184,10 +184,42 @@
 - [x] 发布线上并复验生产构建
 - **状态：** complete
 
+### 阶段 29：Puffing Billy 可行性与条件式插入
+- [x] 核对仓库现状（愿望清单／itinerary.json／KML 原为「本次不看」）
+- [x] 实证官网时刻表、票价、检票规则与 Menzies Creek 博物馆开放时间
+- [x] 用 Spirit of Tasmania 排班 API 取得 10/3 夜航实际抵港时刻（07:00，夏令时）
+- [x] 用 OSRM 核算码头／Belgrave／大洋路各段车程
+- [x] 以「船准点才坐」的可选点写入 doc-content.md、itinerary.json、KML、trip-data.json
+- [x] 补测试并通过 typecheck / test / build
+- **状态：** complete
+
+### 阶段 30：地名标签矩形定位与自动更新
+- [x] 定位「用户看不到地名」双因：旧 SW 缓存 + 贴边标签被容器压成竖条
+- [x] 标签改为 JS 计算最终矩形（left/top/width），去掉 transform 横向偏移
+- [x] PWA 改 autoUpdate（clientsClaim / skipWaiting）并加 60s 版本轮询
+- [x] 更新单测、通过 typecheck / test / build
+- [x] 发布并在线上复验 13 天全览 + 缩放极限
+- **状态：** complete
+
+### 阶段 31：节奏与目的地卡片合并、POI 类别与美食停车
+- [x] 摸清节奏节点与地点对应关系（含无 placeId 的行车／活动节点）
+- [x] 下载 Google Material Symbols 官方图标（景点／住宿／机场／码头／车站／餐厅／市场）
+- [x] 新增 `placeCategory` 服务与 `PlaceCategory`、`IPlaceFood`、`IPlaceParking` 类型
+- [x] 调研 48 个 POI 的真实附近餐厅（103 家，含来源）与停车信息
+- [x] 新增 `scripts/enrich_place_data.py` 合并 `data/extras/*.json`，并把日级天气按地名直配／坐标就近拆成逐点
+- [x] 将行程节奏与目的地卡片合并为单条编号时间轴（保留车程、做什么、导航、随手记、更多）
+- [x] 详情弹层新增「美食」页签，「实用」页签补停车卡片，页签数量动态均分
+- [x] 补 9 条单测（类别图标、美食页签、逐点天气、调研数据完整性），typecheck / test / build 全通过
+- [x] 390×844 明暗双主题验收：图标 mask、五页签单行、无横向溢出
+- [ ] 补齐缺失的餐厅评分（56 家待补）
+- [ ] 提交、发布 gh-pages 并线上复验
+- **状态：** in-progress
+
 ## 关键问题
 1. Tower Hill / Warrnambool 是否彻底放弃，还是仅作「时间极充裕时的西延可选」？
 2. Loch Ard Gorge 是否作为 10/5 十二门徒后的顺路可选短停？
 3. 飞书云文档是否需同步本地更新？
+4. Puffing Billy 是否接受「船准点才坐、晚到即弃票」的条件式安排，并尽早在官网下单 10/4 10:00 班次？
 
 ## 已做决策
 | 决策 | 理由 |
@@ -195,6 +227,8 @@
 | 以每日主行程七列表为权威 | Codex 末轮与用户确认的塔州／大洋路顺序均已写入主表 |
 | Tower Hill／Warrnambool 改「不在本次」 | 与 10/4 东段→Apollo Bay、10/5 沉船→墨尔本方向冲突 |
 | Loch Ard 标为可选短停 | 地理上紧挨十二门徒，不破坏主线 |
+| Puffing Billy 放 10/4 上午且只取 Menzies Creek 往返 | 10/6 与航班冲突约 4 小时；10/5 周一只开 2h55+ 的 Lakeside 往返；Menzies Creek 往返仅约 2 小时且周五至周日限定，10/4 正好周日 |
+| 该点写成可选＋中止条件而非主线 | 船 07:00 抵港与 09:00 应到票房只差 1h45，恰等于车程，没有延误余量 |
 
 ## 遇到的错误
 | 错误 | 尝试次数 | 解决方案 |

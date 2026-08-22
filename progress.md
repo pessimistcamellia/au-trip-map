@@ -117,3 +117,38 @@
 - 浅色标签为白色表面，深色标签为 `rgba(35, 38, 39, 0.96)` 配 `rgb(244, 214, 110)`，两套均可读。
 - 自动化通过：typecheck、Vitest 22/22、build；precache 14 条 / 568.72 KiB。
 - 已发布 main `d0dfa43` 与 gh-pages；生产 URL 加载 `index-BYrCZxs6.js`，线上 Day 2 实测五个中文地名、14px 字号、两条密集点引导线、页面宽 390/390。
+
+## 2026-08-22 Puffing Billy 可行性与条件式插入
+- 已读 `task_plan.md` / `progress.md` / `findings.md` 续作；确认蒸汽小火车原为「本次不看」。
+- 已用官网时刻表、Spirit of Tasmania 排班 API、维州学期表与 OSRM 车程完成三个时间窗核算（详见 findings.md）。
+- 结论：10/6 不可行（首班 10:00 vs 13:00 起飞、10:00 须到机场）；10/5 周一只有 2h55+ 的 Lakeside 往返且须 09:00 前离开十二门徒，代价过大；10/4 上午 10:00 Belgrave→Menzies Creek 往返（11:55 返回）可行但零富余。
+- 已改文件：
+  - `doc-content.md`：新增【待定-6】；总览 10/3 补夏令时、10/4 补可选火车与 09:30 硬截止；删减优先级把火车列为最先删除；必订清单新增车票行；10/4 主行程拆为「方案A 坐火车／方案B 原方案」并写中止条件；10/4 重点体验与预约注意补火车段；10/6 补「为什么不可行」的算式；愿望清单该行由「不在本次行程中」改为「可选纳入本次行程（10/4）」。
+  - `itinerary.json`：`skip-51` → `wv-puffing`，day 11 / 2026-10-04 / status visit / order 1，坐标改为 Belgrave 车站；`d11-01`—`d11-06` 顺序后移为 2—7；`trip.notes` 补本次修订。
+  - `build_itinerary.py`：同步 `extra_visit` 与 `enrich_map`，并同步 d11 顺序，避免重建时丢失。
+  - `au-trip-map.kml` / `layers/*`：`build_kml.py` 重建，D11 图层 6→7 点，「本次不看」32→31 点。
+  - `src/data/trip-data.json`：`scripts/generate_app_data.py` 重建；10/4 节奏已把火车段匹配到序号 1。
+  - `tests/trip.test.ts`：visit 50→51、skip 33→32，新增「10/4 以可选 Puffing Billy 开头」用例。
+- 验证：`corepack pnpm typecheck` 通过；Vitest 23/23 通过；`corepack pnpm build` 通过，precache 14 条 / 579.90 KiB。
+- 未做：未 commit / push；未同步飞书云文档（仍待【待定-5】确认）；10/5 大洋路主线未删减（火车放在 10/4 后不需要为它砍点）。
+
+## 2026-08-22 地图地名标签修复、验证与部署
+- `tests/trip.test.ts` 已改用 `left / top / width / height / align / anchored` 结构，覆盖容器边界、标签互斥、marker 互斥、八点坐标塌陷和 10/5 八点密集实测坐标；保留 `getMapLabelSide` 左右边缘语义。
+- 线上首轮复验发现碰撞回退仍可能直接采用重叠矩形；补充容器空位遍历。第二轮发现浏览器字体真实字宽会把理论 30px 单行标签换成 47px 两行；最终统一按两行高度预留碰撞空间。
+- 最终本地验证：`corepack pnpm typecheck` 通过；Vitest 25/25 通过；`corepack pnpm build` 通过，PWA precache 14 条 / 580.31 KiB。
+- 最终部署：仅提交并推送 `gh-pages`，提交 `f9037c9`，GitHub Pages 状态 `built`；线上加载 `index-qEts-Hf6.js`。
+- 390×844 线上 13 天全览：逐日标签／marker 数为 `0/0、5/5、4/4、2/2、2/2、4/4、2/2、5/5、4/4、2/2、7/7、8/8、1/1`；共 46/46，越界、宽度小于 50px、标签重叠、marker 重叠均为 0，最小宽度 54px。
+- 缩放复验：10/5（8 点）与 10/1（5 点）均连续缩小 5 次到 zoom 3，再放大 3 次到 zoom 6；四个场景的越界、挤压、标签重叠、marker 重叠均为 0，最小宽度分别为 54px、60px。
+- 10/1 实际标签：酒杯湾观景台、图维尔角灯塔步道、蜜月湾、比舍诺企鹅归巢团、朗塞斯顿（住宿）；五个标签均未截断。
+- 线上 `sw.js` 同时包含 `skipWaiting`、`clientsClaim`，并预缓存最终 bundle。
+
+## 2026-08-22 节奏与卡片合并、类别图标、美食与停车
+- 摸清结构：每日节奏共 46 个带 `placeId` 的行程点，其余为行车／活动节点；旧版「行程节奏」文字列表与下方「当日地点」卡片确实在重复表达同一批点。
+- 合并为 `src/components/DayTimeline.vue`：单条竖线编号时间轴，行程点渲染成卡片（类别图标＋类别名、时间、地名＋导航图标、节奏原文的车程与预计到达、看点玩法、更多、随手记、完成勾选、可选角标），非行程点用小圆点＋时间＋文字串在同一条线上。节奏原文与看点玩法去标点后互相包含时只留一条，避免同一句读两遍。
+- 类别图标取 Google Material Symbols Rounded 官方 SVG（`src/assets/poi/`）：景点 landscape、住宿 hotel、机场 flight、码头 directions_boat、车站 train、餐厅 restaurant、市场 storefront。最初用内联 `style` 绑定 `mask-image` 失败——Vite 把小 SVG 内联成含引号的 data URI，未加引号的 `url()` 整条声明被浏览器丢弃、`maskImage` 计算值为 `none`，只剩一个纯色方块；改为在 `styles.css` 里按类名写 `mask-image`，交给 Vite 处理资源路径后正常。
+- 调研数据：4 个并行子代理产出 `data/extras/{wa,tas-south,tas-north-vic-east,vic-west}.json`，覆盖 48 个点、103 家餐厅与全部停车信息，坐标来自 OSM Overpass／Nominatim，评分与推荐菜均带来源 URL。查不到 Google 评分的 56 家保持 `rating: null`，界面显示「暂无可核实评分」，另起一个子代理按可核对来源补齐。
+- 天气拆点：`scripts/enrich_place_data.py` 把「A／B／C 约 10-21°C；D 约 12-25°C」按分句拆成温度分段，先按中英地名直配（27 个），配不上的用 haversine 就近归属到最近分段（24 个），并保留分段间的补充说明与当日共同提示。界面上机场只显示机场那一段，`nearby` 会标出「采用最近的 XX 作为参考」。
+- 详情弹层：页签改为按资料动态生成（看点／实用／天气／文化／美食），空分类不占位；`--tab-count` 让页签始终单行均分（390px 下 5 个各 68px）。美食页签显示评分、评价数、距离、人均、推荐菜与逐店导航；实用页签追加停车卡片（免费／收费口径、车位、路面、房车提示）＋官方停车规则＋来源。
+- 关闭状态如实进入界面：Maits Rest 步道、Loch Ard Gorge 沙滩阶梯、Tasman Arch／Devils Kitchen 施工等均写在对应「实用」页签，并要求出发前复查官方页面。
+- 自动化：`corepack pnpm typecheck` 通过；Vitest 34/34 通过（新增类别图标、名称兜底、调研数据完整性、评分来源、收费口径、美食页签、逐点天气 9 条）；`corepack pnpm build` 通过，主 JS 635 kB、CSS 92 kB，precache 14 条 / 732 KiB。
+- Chrome MCP 390×844×2 实测：D2 机场为 flight 图标／「机场」，D10 码头为 boat／「码头」，D13 女王市场为 storefront／「市场」；十二门徒五页签单行、停车卡片与 Parks Victoria 规则齐全；酒杯湾天气显示 7-17°C 并标注「采用最近的科尔斯湾（Coles Bay）作为参考」；浅深主题均无横向溢出。
