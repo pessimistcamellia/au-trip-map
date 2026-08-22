@@ -190,3 +190,14 @@
 - 从 `9522c96` 建 detached 干净工作树，仅应用本轮四个前端文件：typecheck、基线 Vitest 34/34、production build 全通过；产物 `index-D-Lg9blC.js`／`index-Bsrv490v.css`，PWA precache 14 条 / 741.44 KiB。唯一警告仍是既有主 chunk 大于 500 kB。
 - 已发布：功能提交 `d869e4a`、验收文档 `95c1197`，`gh-pages` 为 `8bfdbbf`。生产链接带版本参数 `?v=20260822c`，线上已加载 `index-D-Lg9blC.js`。
 - 线上 390×844 最终复验：旧黄色 bar 不存在；合并卡显示「第2天／09/25周五／珀斯机场04:20／塞万提斯日落后」；文字序号2→地图2，地图4→文字卡4（top≈189px）且 sticky 页签切到文字；默认 touchAction=`pan-y`，地图操作模式为 `none`，退出后恢复 `pan-y`；页面 390/390 无溢出。
+
+## 2026-08-22 marker 真实点击修复与卡片底部按钮重排
+- 先用真实输入事件复现：地图 marker 真实点击后 `scrollY` 保持 0、无 `li.focused`；同一个 marker 用脚本 `element.click()` 却能正常跳转并滚动到 1408.5。这解释了前几轮为什么“验收通过”却在手机上没反应——之前只验了脚本点击。
+- 事件与几何插桩定位根因：`pointerdown` 命中 `.map-marker > b`，`pointerup` / `click` 的 target 变成容器；按下瞬间 marker computed transform 为 `matrix(0.98,0,0,0.98,0,0)`，抬起时才是 `matrix(1,0,0,1,-22,-44)`。全局 `button:active { transform: scale(0.98) }` 覆盖了 marker 定位用的 `translate(-50%,-100%)`，元素向右下位移 22×44px，down/up 不在同一元素，`click` 不派发。
+- 修法：全局按压反馈改为独立的 `scale: 0.98`；`.rhythm-map` 的 `overflow: hidden` 改为 `overflow: clip`，避免聚焦 marker 时容器滚动造成二次命中偏移。
+- 卡片底部改为单行 footer：`随手记` 左下、`更多` 右下并与右上角导航图标同列；两者统一 `min-height: 40px`、`line-height: 1`、图标 15px，并去掉 `journal-link` 多余的 `margin-top: 5px`（截图里三个按钮高低不齐的直接原因）。
+- 删除卡片上的 `标记完成`；完成开关移到「更多」弹层底部 footer，`.place-detail` 改 flex 列、`.detail-body` 占满剩余高度使 footer 贴底。首页「已完成 N/48」仍可推进。
+- 本地 390×844 真实点击复验：地图点 2 → 文字卡「卡弗舍姆野生动物园」滚到 top=84；文字序号 5 → marker 5 变为 `aria-pressed=true`、页面回到地图段。深浅两套主题下 footer 基线一致。
+- `corepack pnpm typecheck` 通过、Vitest 35/35 通过。从 `39242b8` 建干净工作树跑 production build 全通过，产物 `index-DjXkCUWv.js`／`index-t_--K-o4.css`，PWA precache 14 条 / 742.13 KiB，唯一警告仍是既有主 chunk 大于 500 kB。
+- 已发布：`main` 到 `4945128`（功能 `39242b8` + 文档），`gh-pages` 到 `91ce234`。线上 390×844 真实点击复验：`button:active` 规则为 `scale: 0.98`；地图点 4 → 文字卡「尖峰石阵／南邦国家公园」top≈197px、页签切到「文字」、全局仅 1 个高亮；文字序号 1 → marker 1 `aria-pressed=true`、页面回到地图段（mapTop=82）；页面 390/390 无横向溢出。
+- 并行的 St Kilda 企鹅场次、KML 与行程数据改动仍未提交，本次构建同样从干净工作树出，未把它们带进发布。
