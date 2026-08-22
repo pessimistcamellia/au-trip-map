@@ -179,3 +179,12 @@
 - 为排除待确认行程改动干扰，从 `02a24fd` 建 detached 干净工作树，仅应用本次四个前端文件：typecheck、基线 Vitest 34/34、production build 全通过；输出 JS 635.75 kB、CSS 106.29 kB，PWA precache 14 条 / 740.80 KiB。唯一警告仍是既有主 chunk 大于 500 kB。
 - 数据契约复核：基线 46 个可地图化节奏点全部有 `placeId`，因此每个 marker 都能可靠回到文字锚点，不存在可点但无响应的编号。
 - 本轮未提交、未推送、未发布；用户未明确要求 Git 操作，且工作区仍保留此前选择「先留本地」的 St Kilda／KML 并行改动。
+
+## 2026-08-22 日期摘要合并、序号定位与地图触摸协作
+- 删除独立黄色日期 bar；`day-summary` 合并日期选择与路线摘要，左侧「第 N 天／MM/DD 周X／箭头」可展开 13 天选项，选日后自动收起，右侧显示起点／终点及右对齐时间。
+- D2 390×844 实测合并卡高 94px，正文为「第2天／09/25周五／珀斯机场 04:20／塞万提斯 日落后」，页面 390/390 无横向溢出。
+- 移除地点标题后的蓝色定位 icon；左侧数字序号直接定位地图并触发蓝色脉冲。原完成开关移动到「更多／随手记」同行，序号不再混用完成语义。
+- 地图 marker 点击改为稳定的 `click.stop.prevent`，父组件经 animation frame 聚焦并滚到文字锚点。实测点 2 文字→地图后 marker 2 脉冲；地图点 4→文字后卡片 4 位于视口上部、页签为「文字」、全局仅 1 个高亮。
+- 地图默认 `touch-action:pan-y` 并显示「单指上下滑动页面」；点「操作地图」后切为 `none`，点「完成」恢复。实测 computed touchAction 为 `pan-y → none → pan-y`。
+- 当前工作树 `corepack pnpm typecheck` 与 Vitest 35/35 通过。
+- 从 `9522c96` 建 detached 干净工作树，仅应用本轮四个前端文件：typecheck、基线 Vitest 34/34、production build 全通过；产物 `index-D-Lg9blC.js`／`index-Bsrv490v.css`，PWA precache 14 条 / 741.44 KiB。唯一警告仍是既有主 chunk 大于 500 kB。
