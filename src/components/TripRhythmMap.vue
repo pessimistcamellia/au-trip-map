@@ -306,17 +306,15 @@ onBeforeUnmount(() => {
           />
           <line
             v-for="(layout, index) in markerLabelLayouts"
-            v-show="layout.offsetX !== 0 || layout.offsetY !== 0"
+            v-show="!layout.anchored"
             :key="`label-leader-${points[index].id}`"
             class="map-label-leader"
             :x1="markerPositions[index].left"
             :y1="markerPositions[index].top - 22"
             :x2="
-              markerPositions[index].left +
-              layout.offsetX +
-              (layout.side === 'right' ? 23 : -23)
+              layout.align === 'right' ? layout.left : layout.left + layout.width
             "
-            :y2="markerPositions[index].top - 27 + layout.offsetY"
+            :y2="layout.top + layout.height / 2"
           />
         </svg>
         <button
@@ -345,10 +343,11 @@ onBeforeUnmount(() => {
           v-for="(point, index) in points"
           :key="`label-${point.id}`"
           class="map-place-label"
-          :class="markerLabelLayouts[index].side"
+          :class="markerLabelLayouts[index].align"
           :style="{
-            left: `${markerPositions[index].left + markerLabelLayouts[index].offsetX}px`,
-            top: `${markerPositions[index].top - 27 + markerLabelLayouts[index].offsetY}px`,
+            left: `${markerLabelLayouts[index].left}px`,
+            top: `${markerLabelLayouts[index].top}px`,
+            width: `${markerLabelLayouts[index].width}px`,
           }"
           aria-hidden="true"
         >

@@ -26,7 +26,7 @@ export default defineConfig({
     vue(),
     stripVantCdnFontFallback(),
     VitePWA({
-      registerType: 'prompt',
+      registerType: 'autoUpdate',
       includeAssets: ['icons/*.png', 'offline.html', 'robots.txt'],
       manifest: {
         name: '澳洲行程路书',
@@ -64,6 +64,8 @@ export default defineConfig({
         navigateFallback: `${base}index.html`,
         globPatterns: ['**/*.{js,css,html,json,png,svg,woff2}'],
         cleanupOutdatedCaches: true,
+        clientsClaim: true,
+        skipWaiting: true,
       },
       devOptions: {
         enabled: true,

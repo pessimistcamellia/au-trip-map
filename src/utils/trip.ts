@@ -127,9 +127,12 @@ export function getMapLabelSide(
 }
 
 export interface IMapLabelLayout {
-  side: 'left' | 'right'
-  offsetX: number
-  offsetY: number
+  left: number
+  top: number
+  width: number
+  height: number
+  align: 'left' | 'right'
+  anchored: boolean
 }
 
 interface ILayoutRect {
@@ -155,12 +158,17 @@ function estimateMapLabelSize(title: string): { width: number; height: number } 
     0,
   )
   const contentWidth = textUnits * 14
-  const width = Math.min(118, Math.max(52, contentWidth + 16))
+  // 盒模型为 border-box：左右各 8px 内边距加 1px 描边，共 18px。
+  const width = Math.min(122, Math.max(54, Math.ceil(contentWidth) + 18))
   return {
     width,
-    height: contentWidth > width - 16 ? 47 : 30,
+    // 字体实际字宽可能让理论单行文本换行，碰撞矩形统一按两行高度预留。
+    height: 47,
   }
 }
+
+const MARKER_GAP = 23
+const MARKER_ANCHOR_OFFSET = 27
 
 export function calculateMapLabelLayouts(
   points: Array<{ title: string }>,
@@ -179,74 +187,100 @@ export function calculateMapLabelLayouts(
   const placementOrder = positions
     .map((position, index) => ({ index, top: position.top }))
     .sort((left, right) => left.top - right.top)
+
   for (const { index } of placementOrder) {
-    const point = points[index]
     const position = positions[index]
-    const size = estimateMapLabelSize(point.title)
+    const size = estimateMapLabelSize(points[index].title)
+    const anchorY = position.top - MARKER_ANCHOR_OFFSET
     const preferred = getMapLabelSide(position, width)
-    const alternate = preferred === 'left' ? 'right' : 'left'
-    const verticalOffsets = [
-      0, -24, 24, -48, 48, -72, 72, -96, 96, -120, 120, -144, 144, -168,
-      168,
-    ]
-    const candidates: IMapLabelLayout[] = verticalOffsets.flatMap(
-      (offsetY) => [
-        { side: preferred, offsetX: 0, offsetY },
-        { side: alternate, offsetX: 0, offsetY },
-        {
-          side: 'right' as const,
-          offsetX: 4 - (position.left + 23),
-          offsetY,
-        },
-        {
-          side: 'left' as const,
-          offsetX: width - 4 + 23 - position.left,
-          offsetY,
-        },
-      ],
-    )
-    let selected: IMapLabelLayout | undefined
-    let selectedWasPlaced = false
-    for (const candidate of candidates) {
-      const { side, offsetX, offsetY } = candidate
-      const rect = {
+    const sides = preferred === 'right' ? ['right', 'left'] : ['left', 'right']
+    // 横向永远由 JS 定位：靠边时用 transform 会先被容器压缩宽度，把地名挤成竖条。
+    const columns = sides
+      .map((side) => ({
+        side: side as 'left' | 'right',
         left:
           side === 'right'
-            ? position.left + offsetX + 23
-            : position.left + offsetX - 23 - size.width,
-        top: position.top - 27 + offsetY - size.height / 2,
-        ...size,
-      }
-      const inBounds =
-        rect.left >= 4 &&
-        rect.left + rect.width <= width - 4 &&
-        rect.top >= 4 &&
-        rect.top + rect.height <= height - 4
-      const avoidsLabels = placed.every(
-        (previous) => !rectanglesOverlap(rect, previous),
-      )
-      const avoidsOtherMarkers = markerRects.every(
-        (marker) => !rectanglesOverlap(rect, marker, 1),
-      )
-      if (inBounds && avoidsLabels && avoidsOtherMarkers) {
-        placed.push(rect)
-        selected = candidate
-        selectedWasPlaced = true
+            ? position.left + MARKER_GAP
+            : position.left - MARKER_GAP - size.width,
+      }))
+      .concat([
+        { side: 'right', left: 4 },
+        { side: 'left', left: width - 4 - size.width },
+      ])
+    const verticalOffsets = [
+      0, -26, 26, -52, 52, -78, 78, -104, 104, -130, 130, -156, 156,
+    ]
+
+    let chosen: ILayoutRect | undefined
+    let anchored = false
+    let align: 'left' | 'right' = preferred
+    const isAvailable = (rect: ILayoutRect) =>
+      rect.left >= 4 &&
+      rect.left + rect.width <= width - 4 &&
+      rect.top >= 4 &&
+      rect.top + rect.height <= height - 4 &&
+      !placed.some((previous) => rectanglesOverlap(rect, previous)) &&
+      !markerRects.some((marker) => rectanglesOverlap(rect, marker, 1))
+    for (const offsetY of verticalOffsets) {
+      for (const column of columns) {
+        const rect = {
+          left: column.left,
+          top: anchorY + offsetY - size.height / 2,
+          ...size,
+        }
+        if (!isAvailable(rect)) continue
+        chosen = rect
+        align = column.side
+        anchored =
+          offsetY === 0 &&
+          (column.left === position.left + MARKER_GAP ||
+            column.left === position.left - MARKER_GAP - size.width)
         break
       }
+      if (chosen) break
     }
-    selected ??= { side: preferred, offsetX: 0, offsetY: 0 }
-    layouts[index] = selected
-    if (!selectedWasPlaced) {
-      placed.push({
-        left:
-          selected.side === 'right'
-            ? position.left + selected.offsetX + 23
-            : position.left + selected.offsetX - 23 - size.width,
-        top: position.top - 27 + selected.offsetY - size.height / 2,
+
+    if (!chosen) {
+      // 密集场景必须遍历容器空位，不能用可能碰撞的夹紧矩形作为首选回退。
+      const maxLeft = width - 4 - size.width
+      const maxTop = height - 4 - size.height
+      const fallbackCandidates: ILayoutRect[] = []
+      for (let top = 4; top <= maxTop; top += 4) {
+        for (let left = 4; left <= maxLeft; left += 4) {
+          fallbackCandidates.push({ left, top, ...size })
+        }
+      }
+      fallbackCandidates.push(
+        { left: maxLeft, top: 4, ...size },
+        { left: 4, top: maxTop, ...size },
+        { left: maxLeft, top: maxTop, ...size },
+      )
+      chosen = fallbackCandidates
+        .filter(isAvailable)
+        .sort((left, right) => {
+          const leftDistance = Math.hypot(
+            left.left + left.width / 2 - position.left,
+            left.top + left.height / 2 - anchorY,
+          )
+          const rightDistance = Math.hypot(
+            right.left + right.width / 2 - position.left,
+            right.top + right.height / 2 - anchorY,
+          )
+          return leftDistance - rightDistance
+        })[0]
+    }
+
+    if (!chosen) {
+      chosen = {
+        left: Math.max(4, Math.min(width - 4 - size.width, position.left + MARKER_GAP)),
+        top: Math.max(4, Math.min(height - 4 - size.height, anchorY - size.height / 2)),
         ...size,
-      })
+      }
+      align = preferred
     }
+
+    placed.push(chosen)
+    layouts[index] = { ...chosen, align, anchored }
   }
   return layouts
 }
