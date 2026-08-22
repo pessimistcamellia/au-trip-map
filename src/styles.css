@@ -718,6 +718,12 @@ a[aria-disabled="true"] {
   stroke-width: 1.5;
 }
 
+.map-route .map-label-leader {
+  stroke: var(--map-leader);
+  stroke-dasharray: 2 3;
+  stroke-width: 1.5;
+}
+
 .map-marker {
   position: absolute;
   z-index: 3;
@@ -769,6 +775,36 @@ a[aria-disabled="true"] {
   font-weight: 800;
   line-height: 1.4;
   white-space: nowrap;
+}
+
+.map-place-label {
+  position: absolute;
+  z-index: 2;
+  display: -webkit-box;
+  max-width: min(31vw, 118px);
+  overflow: hidden;
+  padding: 5px 8px;
+  border: 1px solid var(--map-control-line);
+  border-radius: 7px;
+  background: var(--map-control-bg);
+  box-shadow: 0 2px 8px rgba(48, 50, 47, 0.16);
+  color: var(--map-control-text);
+  font-size: 14px;
+  font-weight: 750;
+  line-height: 1.25;
+  text-wrap: balance;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  pointer-events: none;
+}
+
+.map-place-label.right {
+  transform: translate(23px, -50%);
+}
+
+.map-place-label.left {
+  transform: translate(calc(-100% - 23px), -50%);
+  text-align: right;
 }
 
 .map-fit-button {

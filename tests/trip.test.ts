@@ -24,8 +24,10 @@ import {
 import type { ITripData } from '../src/types'
 import {
   buildNavigationUrl,
+  calculateMapLabelLayouts,
   calculateMapViewport,
   getEmptyDaySummary,
+  getMapLabelSide,
   getMappableRhythmNodes,
   getPlacesForDay,
   searchPlaces,
@@ -106,6 +108,39 @@ describe('静态行程数据', () => {
       'd2-05',
     ])
     expect(points.at(-1)?.time).toBe('日落后')
+  })
+
+  it('地图地名标签始终朝容器内部展开', () => {
+    expect(getMapLabelSide({ left: 30 }, 390)).toBe('right')
+    expect(getMapLabelSide({ left: 160 }, 390)).toBe('right')
+    expect(getMapLabelSide({ left: 230 }, 390)).toBe('left')
+    expect(getMapLabelSide({ left: 360 }, 390)).toBe('left')
+    expect(getMapLabelSide({ left: 0 }, 0)).toBe('right')
+  })
+
+  it('密集地图地名标签自动错位且不压住相邻编号', () => {
+    const layouts = calculateMapLabelLayouts(
+      [
+        { title: '兰斯林沙丘' },
+        { title: '尖峰石阵／南邦国家公园' },
+      ],
+      [
+        { left: 150, top: 150 },
+        { left: 106, top: 142 },
+      ],
+      328,
+      430,
+    )
+    expect(layouts).toHaveLength(2)
+    expect(layouts[1]).not.toEqual(layouts[0])
+    expect(
+      layouts.some(
+        (layout) =>
+          layout.offsetX !== 0 ||
+          layout.offsetY !== 0 ||
+          layout.side === 'left',
+      ),
+    ).toBe(true)
   })
 
   it('无坐标节奏节点保留在文字列表且地图过滤不报错', () => {

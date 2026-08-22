@@ -108,3 +108,11 @@
 - 已提交并推送 main：`e3f43a4 style(theme): 重做清新鹅黄双主题视觉`；gh-pages 构建提交 `b835264`，Pages 状态 `built`。
 - 生产 URL 最终复验加载新资产 `index-BBn-oepo.js`／`index-CA6WLbD0.css`；light 与 dark 启动时 `theme-color` 分别为 `#FAFAF7`／`#191B1C`，无横向溢出。线上 dark Day 2 为 5 个清晰 marker、地图 328×430、路线 `#F4CB4F`。
 - 真实限制：PWA manifest 的 `background_color` 只能配置单值，采用 light 主底 `#FAFAF7`；dark 首屏由 head 内同步主题引导脚本和动态 `theme-color` 消除旧黑褐闪屏。
+
+## 2026-08-22 地图常显地名
+- 能力判断：Google Maps JavaScript API 可用 Advanced Marker 自定义地名，但需要 API key 与计费；私人 My Maps iframe 不能由本应用按缩放级别可靠控制标签。现有 OSM 地图的 marker 与覆盖层均由本应用渲染，适合直接实现。
+- 地名标签采用固定 14px 字号，不随地图 zoom 缩小；最多两行，点在地图左半区时向右展开、右半区时向左展开，避免被容器边缘裁切。
+- marker 最小避让距离调到 72px；标签按地图从上到下布局，并在常规相邻位置不足时放到地图边缘，以虚线指回编号点。
+- Chrome MCP 390×844×2：Day 2 五个标签和 Day 12 八个标签均无标签互压、无标签遮挡其他编号，页面宽 390/390；连续放大后字体仍为 14px，“回到全览”可恢复初始视野。
+- 浅色标签为白色表面，深色标签为 `rgba(35, 38, 39, 0.96)` 配 `rgb(244, 214, 110)`，两套均可读。
+- 自动化通过：typecheck、Vitest 22/22、build；precache 14 条 / 568.72 KiB。

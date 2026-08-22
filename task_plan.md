@@ -176,6 +176,14 @@
 - [x] 打开生产 URL 双主题复验并记录真实限制
 - **状态：** complete
 
+### 阶段 28：地图常显地名标签
+- [x] 核验 Google Maps／My Maps 与现有 OSM 自定义标注能力
+- [x] 为每个当日 marker 增加不随缩放变小的中文地名标签
+- [x] 验证 5／8 点视野、浅深主题、拖动缩放与全览
+- [x] 通过 typecheck、test、build
+- [ ] 发布线上并复验生产构建
+- **状态：** in_progress
+
 ## 关键问题
 1. Tower Hill / Warrnambool 是否彻底放弃，还是仅作「时间极充裕时的西延可选」？
 2. Loch Ard Gorge 是否作为 10/5 十二门徒后的顺路可选短停？

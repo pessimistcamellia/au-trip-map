@@ -115,6 +115,142 @@ export function spreadMapMarkerPositions(
   return placed
 }
 
+export function getMapLabelSide(
+  position: { left: number },
+  width: number,
+): 'left' | 'right' {
+  if (width <= 0) return 'right'
+  const edgeGuard = Math.min(120, width * 0.32)
+  if (position.left <= edgeGuard) return 'right'
+  if (position.left >= width - edgeGuard) return 'left'
+  return position.left < width / 2 ? 'right' : 'left'
+}
+
+export interface IMapLabelLayout {
+  side: 'left' | 'right'
+  offsetX: number
+  offsetY: number
+}
+
+interface ILayoutRect {
+  left: number
+  top: number
+  width: number
+  height: number
+}
+
+function rectanglesOverlap(left: ILayoutRect, right: ILayoutRect, gap = 4): boolean {
+  return !(
+    left.left + left.width + gap <= right.left ||
+    right.left + right.width + gap <= left.left ||
+    left.top + left.height + gap <= right.top ||
+    right.top + right.height + gap <= left.top
+  )
+}
+
+function estimateMapLabelSize(title: string): { width: number; height: number } {
+  const textUnits = [...title].reduce(
+    (total, character) =>
+      total + (/[\u2E80-\u9FFF]/u.test(character) ? 1 : 0.58),
+    0,
+  )
+  const contentWidth = textUnits * 14
+  const width = Math.min(118, Math.max(52, contentWidth + 16))
+  return {
+    width,
+    height: contentWidth > width - 16 ? 47 : 30,
+  }
+}
+
+export function calculateMapLabelLayouts(
+  points: Array<{ title: string }>,
+  positions: Array<{ left: number; top: number }>,
+  width: number,
+  height: number,
+): IMapLabelLayout[] {
+  const placed: ILayoutRect[] = []
+  const layouts = Array<IMapLabelLayout>(points.length)
+  const markerRects = positions.map((position) => ({
+    left: position.left - 22,
+    top: position.top - 44,
+    width: 44,
+    height: 44,
+  }))
+  const placementOrder = positions
+    .map((position, index) => ({ index, top: position.top }))
+    .sort((left, right) => left.top - right.top)
+  for (const { index } of placementOrder) {
+    const point = points[index]
+    const position = positions[index]
+    const size = estimateMapLabelSize(point.title)
+    const preferred = getMapLabelSide(position, width)
+    const alternate = preferred === 'left' ? 'right' : 'left'
+    const verticalOffsets = [
+      0, -24, 24, -48, 48, -72, 72, -96, 96, -120, 120, -144, 144, -168,
+      168,
+    ]
+    const candidates: IMapLabelLayout[] = verticalOffsets.flatMap(
+      (offsetY) => [
+        { side: preferred, offsetX: 0, offsetY },
+        { side: alternate, offsetX: 0, offsetY },
+        {
+          side: 'right' as const,
+          offsetX: 4 - (position.left + 23),
+          offsetY,
+        },
+        {
+          side: 'left' as const,
+          offsetX: width - 4 + 23 - position.left,
+          offsetY,
+        },
+      ],
+    )
+    let selected: IMapLabelLayout | undefined
+    let selectedWasPlaced = false
+    for (const candidate of candidates) {
+      const { side, offsetX, offsetY } = candidate
+      const rect = {
+        left:
+          side === 'right'
+            ? position.left + offsetX + 23
+            : position.left + offsetX - 23 - size.width,
+        top: position.top - 27 + offsetY - size.height / 2,
+        ...size,
+      }
+      const inBounds =
+        rect.left >= 4 &&
+        rect.left + rect.width <= width - 4 &&
+        rect.top >= 4 &&
+        rect.top + rect.height <= height - 4
+      const avoidsLabels = placed.every(
+        (previous) => !rectanglesOverlap(rect, previous),
+      )
+      const avoidsOtherMarkers = markerRects.every(
+        (marker) => !rectanglesOverlap(rect, marker, 1),
+      )
+      if (inBounds && avoidsLabels && avoidsOtherMarkers) {
+        placed.push(rect)
+        selected = candidate
+        selectedWasPlaced = true
+        break
+      }
+    }
+    selected ??= { side: preferred, offsetX: 0, offsetY: 0 }
+    layouts[index] = selected
+    if (!selectedWasPlaced) {
+      placed.push({
+        left:
+          selected.side === 'right'
+            ? position.left + selected.offsetX + 23
+            : position.left + selected.offsetX - 23 - size.width,
+        top: position.top - 27 + selected.offsetY - size.height / 2,
+        ...size,
+      })
+    }
+  }
+  return layouts
+}
+
 export const GOOGLE_OFFLINE_HELP_URL =
   'https://support.google.com/maps/answer/6291838?hl=zh-Hans'
 
