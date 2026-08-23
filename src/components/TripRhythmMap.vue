@@ -549,7 +549,7 @@ onBeforeUnmount(() => {
         <p>
           {{ online ? '无坐标节点仍完整保留在文字列表。' : '文字行程已缓存，可继续离线查看。' }}
         </p>
-        <button type="button" @click="emit('switchToText')">切回文字</button>
+        <button type="button" @click="emit('switchToText')">查看文字列表</button>
       </div>
     </div>
 
@@ -557,7 +557,7 @@ onBeforeUnmount(() => {
       <span v-if="routeState === 'loading'">正在匹配驾车道路…</span>
       <span v-else-if="routeState === 'road'">路线沿实际驾车道路绘制</span>
       <span v-else-if="routeState === 'straight'">路线服务不可用，当前为直线示意</span>
-      <span v-if="missingCount">另有 {{ missingCount }} 条无坐标节奏仅在文字视图显示</span>
+      <span v-if="missingCount">另有 {{ missingCount }} 条无坐标节奏仅在下方文字列表显示</span>
     </div>
   </section>
 </template>

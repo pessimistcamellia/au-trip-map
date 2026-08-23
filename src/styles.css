@@ -632,31 +632,6 @@ a[aria-disabled="true"] {
   margin: 0 0 12px;
 }
 
-.rhythm-heading {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  margin: 0 0 12px;
-  padding: 4px 2px;
-}
-
-.rhythm-heading h3,
-.rhythm-heading p {
-  margin: 0;
-}
-
-.rhythm-heading h3 {
-  margin-top: 2px;
-  font-size: 19px;
-  letter-spacing: -0.02em;
-}
-
-.rhythm-heading p {
-  color: var(--muted);
-  font-size: 11px;
-}
-
 .rhythm-section {
   scroll-margin-top: calc(112px + env(safe-area-inset-top));
 }

@@ -573,14 +573,7 @@ onBeforeUnmount(() => {
             </div>
           </div>
 
-          <section class="rhythm-panel">
-            <header class="rhythm-heading">
-              <div>
-                <p>按当天时间顺序</p>
-                <h3>行程节奏</h3>
-              </div>
-            </header>
-
+          <section class="rhythm-panel" aria-label="行程节奏">
             <section ref="rhythmMapSection" class="rhythm-section rhythm-map-section">
               <TripRhythmMap
                 :nodes="selectedDay.rhythm"
