@@ -224,3 +224,6 @@
 - 已发布：功能 `c312cac`、文档 `d1ac451`，`gh-pages` 为 `298f0bc`；干净 worktree `/tmp/au-h37-build` 构建产物 `index-BIc_4LKW.js`／`index-C2VIRZCZ.css`，PWA precache 14 条 / 741.53 KiB，唯一警告仍是既有主 chunk 大于 500 kB。
 - 线上 390×844 复验（`?v=20260823c`）：已加载上述新资产；`.rhythm-heading` 不存在、正文无「按当天时间顺序／行程节奏」；「地图」标题行操作为「操作地图／回到全览」、画布内旧控件 0；卡片 footer 顺序「更多／随手记」；页面宽 390/390。
 - 线上真实点击复验双向定位未退化：地图 marker 4 → 文字卡「尖峰石阵／南邦国家公园」top=159（吸顶摘要 bottom=102，未被遮挡），全局仅 1 个高亮；文字序号 5 → marker 5 `aria-pressed=true` 且页面回到地图段（mapTop=159）。
+- 已发布：功能 `c312cac`、文档 `d1ac451`，`gh-pages` 为 `298f0bc`；干净 worktree `/tmp/au-h37-build` 构建产物 `index-BIc_4LKW.js`／`index-C2VIRZCZ.css`，PWA precache 14 条 / 741.53 KiB，唯一警告仍是既有主 chunk 大于 500 kB。
+- 线上 390×844 复验（`?v=20260823c`）：已加载上述新资产；`.rhythm-heading` 不存在、正文无「按当天时间顺序／行程节奏」；「地图」标题行操作为「操作地图／回到全览」、画布内旧控件 0；卡片 footer 顺序「更多／随手记」；页面宽 390/390。
+- 线上真实点击复验双向定位未退化：地图 marker 4 → 文字卡「尖峰石阵／南邦国家公园」top=159（吸顶摘要 bottom=102，未被遮挡），全局仅 1 个高亮；文字序号 5 → marker 5 `aria-pressed=true` 且页面回到地图段（mapTop=159）。
