@@ -34,6 +34,7 @@ import {
   buildNavigationUrl,
   calculateMapLabelLayouts,
   calculateMapViewport,
+  calculatePinchZoom,
   getEmptyDaySummary,
   getMapLabelSide,
   getMappableRhythmNodes,
@@ -594,6 +595,14 @@ describe('地图导航', () => {
     expect(shouldStartMapDrag(false, true)).toBe(false)
     expect(shouldStartMapDrag(false, false)).toBe(true)
     expect(shouldStartMapDrag(true, false)).toBe(false)
+  })
+
+  it('双指距离按倍数换算缩放层级并限制地图范围', () => {
+    expect(calculatePinchZoom(8, 100, 200)).toBe(9)
+    expect(calculatePinchZoom(8, 100, 50)).toBe(7)
+    expect(calculatePinchZoom(16, 100, 400)).toBe(16)
+    expect(calculatePinchZoom(3, 100, 10)).toBe(3)
+    expect(calculatePinchZoom(8, 0, 200)).toBe(8)
   })
 })
 

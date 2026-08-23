@@ -119,10 +119,6 @@ function badgeOf(place: IPlace) {
           <p class="stop-route">{{ stop.text }}</p>
           <p v-if="stop.doing" class="stop-doing">{{ stop.doing }}</p>
           <div class="stop-actions">
-            <button class="journal-link" type="button" @click="emit('openJournal', stop.place)">
-              <van-icon name="records-o" />
-              随手记
-            </button>
             <button
               v-if="hasPlaceDetails(stop.place)"
               class="detail-link"
@@ -130,6 +126,10 @@ function badgeOf(place: IPlace) {
               @click="emit('openPlace', stop.place)"
             >
               更多
+            </button>
+            <button class="journal-link" type="button" @click="emit('openJournal', stop.place)">
+              <van-icon name="records-o" />
+              随手记
             </button>
           </div>
         </template>

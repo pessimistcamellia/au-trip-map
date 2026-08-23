@@ -25,6 +25,16 @@ export function shouldStartMapDrag(
   return !mapUnavailable && !targetIsControl
 }
 
+export function calculatePinchZoom(
+  startZoom: number,
+  startDistance: number,
+  currentDistance: number,
+): number {
+  if (startDistance <= 0 || currentDistance <= 0) return startZoom
+  const nextZoom = Math.round(startZoom + Math.log2(currentDistance / startDistance))
+  return Math.max(3, Math.min(16, nextZoom))
+}
+
 const TILE_SIZE = 256
 
 function projectCoordinate(

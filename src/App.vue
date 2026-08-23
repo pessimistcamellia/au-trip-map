@@ -65,7 +65,6 @@ const installPrompt = ref<IInstallPromptEvent | null>(null)
 const notice = ref('')
 const includeJournalsInExport = ref(false)
 const exporting = ref(false)
-const rhythmView = ref<'text' | 'map'>('map')
 const datePickerExpanded = ref(false)
 const focusedPlaceId = ref<string | null>(null)
 const focusRequest = ref(0)
@@ -139,10 +138,8 @@ function setView(view: MainView): void {
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
-function setRhythmView(view: 'text' | 'map'): void {
-  rhythmView.value = view
-  const target = view === 'map' ? rhythmMapSection.value : rhythmTextSection.value
-  target?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+function scrollToTimeline(): void {
+  rhythmTextSection.value?.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
 function selectDay(day: number): void {
@@ -155,14 +152,12 @@ async function locatePlaceOnMap(place: IPlace): Promise<void> {
   if (place.lat === null || place.lng === null) return
   focusedPlaceId.value = place.id
   focusRequest.value += 1
-  rhythmView.value = 'map'
   await nextTick()
   rhythmMapSection.value?.scrollIntoView({ behavior: 'smooth', block: 'start' })
 }
 
 async function locatePlaceInTimeline(placeId: string): Promise<void> {
   focusedPlaceId.value = placeId
-  rhythmView.value = 'text'
   await nextTick()
   window.requestAnimationFrame(() => {
     const target = rhythmTextSection.value?.querySelector<HTMLElement>(
@@ -282,22 +277,6 @@ function handleEscape(event: KeyboardEvent): void {
   if (event.key === 'Escape' && detailVisible.value) detailVisible.value = false
 }
 
-function handleRhythmScroll(): void {
-  if (activeView.value !== 'itinerary') return
-  const stickyOffset = 120
-  if (
-    rhythmTextSection.value &&
-    rhythmTextSection.value.getBoundingClientRect().top <= stickyOffset
-  ) {
-    rhythmView.value = 'text'
-  } else if (
-    rhythmMapSection.value &&
-    rhythmMapSection.value.getBoundingClientRect().top <= stickyOffset
-  ) {
-    rhythmView.value = 'map'
-  }
-}
-
 async function installApp(): Promise<void> {
   if (!installPrompt.value) return
   await installPrompt.value.prompt()
@@ -346,12 +325,10 @@ onMounted(() => {
     installPrompt.value = event as IInstallPromptEvent
   })
   window.addEventListener('keydown', handleEscape)
-  window.addEventListener('scroll', handleRhythmScroll, { passive: true })
 })
 
 onBeforeUnmount(() => {
   window.removeEventListener('keydown', handleEscape)
-  window.removeEventListener('scroll', handleRhythmScroll)
 })
 </script>
 
@@ -602,35 +579,16 @@ onBeforeUnmount(() => {
                 <p>按当天时间顺序</p>
                 <h3>行程节奏</h3>
               </div>
-              <div class="rhythm-switch" role="tablist" aria-label="行程节奏视图">
-                <button
-                  type="button"
-                  role="tab"
-                  :aria-selected="rhythmView === 'map'"
-                  @click="setRhythmView('map')"
-                >
-                  地图
-                </button>
-                <button
-                  type="button"
-                  role="tab"
-                  :aria-selected="rhythmView === 'text'"
-                  @click="setRhythmView('text')"
-                >
-                  文字
-                </button>
-              </div>
             </header>
 
             <section ref="rhythmMapSection" class="rhythm-section rhythm-map-section">
-              <h4>地图</h4>
               <TripRhythmMap
                 :nodes="selectedDay.rhythm"
                 :online="online"
                 :focused-place-id="focusedPlaceId"
                 :focus-request="focusRequest"
                 @select-point="locatePlaceInTimeline"
-                @switch-to-text="setRhythmView('text')"
+                @switch-to-text="scrollToTimeline"
               />
             </section>
             <section ref="rhythmTextSection" class="rhythm-section rhythm-text-section">

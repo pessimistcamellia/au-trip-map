@@ -4,6 +4,7 @@ import type { IRhythmNode } from '../types'
 import {
   calculateMapLabelLayouts,
   calculateMapViewport,
+  calculatePinchZoom,
   getMappableRhythmNodes,
   shouldStartMapDrag,
   spreadMapMarkerPositions,
@@ -26,6 +27,17 @@ interface ITile {
   left: number
   top: number
   url: string
+}
+
+interface IPointerPosition {
+  clientX: number
+  clientY: number
+}
+
+interface IPinchGesture {
+  startDistance: number
+  startZoom: number
+  anchor: ICoordinate
 }
 
 const props = defineProps<{
@@ -58,6 +70,8 @@ let pulseTimer: number | undefined
 let drag:
   | { pointerId: number; x: number; y: number; centerX: number; centerY: number }
   | undefined
+const activeTouchPointers = new Map<number, IPointerPosition>()
+let pinch: IPinchGesture | undefined
 
 const points = computed<IMapPoint[]>(() =>
   getMappableRhythmNodes(props.nodes),
@@ -164,6 +178,75 @@ function changeZoom(delta: number): void {
   zoom.value = Math.max(3, Math.min(16, zoom.value + delta))
 }
 
+function touchPair(): [IPointerPosition, IPointerPosition] | null {
+  const pointers = [...activeTouchPointers.values()]
+  return pointers.length >= 2 ? [pointers[0], pointers[1]] : null
+}
+
+function pointerDistance(
+  first: IPointerPosition,
+  second: IPointerPosition,
+): number {
+  return Math.hypot(
+    second.clientX - first.clientX,
+    second.clientY - first.clientY,
+  )
+}
+
+function pointerMidpoint(
+  first: IPointerPosition,
+  second: IPointerPosition,
+): IPointerPosition {
+  return {
+    clientX: (first.clientX + second.clientX) / 2,
+    clientY: (first.clientY + second.clientY) / 2,
+  }
+}
+
+function coordinateAtPointer(
+  pointer: IPointerPosition,
+  level: number,
+): ICoordinate {
+  const rect = container.value?.getBoundingClientRect()
+  const centerAtLevel = project(center.value, level)
+  const offsetX = pointer.clientX - (rect?.left ?? 0) - width.value / 2
+  const offsetY = pointer.clientY - (rect?.top ?? 0) - height.value / 2
+  return unproject(centerAtLevel.x + offsetX, centerAtLevel.y + offsetY, level)
+}
+
+function startPinch(): void {
+  const pair = touchPair()
+  if (!pair) return
+  const midpoint = pointerMidpoint(...pair)
+  pinch = {
+    startDistance: pointerDistance(...pair),
+    startZoom: zoom.value,
+    anchor: coordinateAtPointer(midpoint, zoom.value),
+  }
+  drag = undefined
+}
+
+function updatePinch(): void {
+  const pair = touchPair()
+  if (!pair || !pinch) return
+  const midpoint = pointerMidpoint(...pair)
+  const nextZoom = calculatePinchZoom(
+    pinch.startZoom,
+    pinch.startDistance,
+    pointerDistance(...pair),
+  )
+  const rect = container.value?.getBoundingClientRect()
+  const anchorAtNextZoom = project(pinch.anchor, nextZoom)
+  const offsetX = midpoint.clientX - (rect?.left ?? 0) - width.value / 2
+  const offsetY = midpoint.clientY - (rect?.top ?? 0) - height.value / 2
+  zoom.value = nextZoom
+  center.value = unproject(
+    anchorAtNextZoom.x - offsetX,
+    anchorAtNextZoom.y - offsetY,
+    nextZoom,
+  )
+}
+
 function startDrag(event: PointerEvent): void {
   if (event.pointerType === 'touch' && !mapInteractive.value) return
   if (
@@ -173,6 +256,16 @@ function startDrag(event: PointerEvent): void {
     )
   ) return
   container.value?.setPointerCapture(event.pointerId)
+  if (event.pointerType === 'touch') {
+    activeTouchPointers.set(event.pointerId, {
+      clientX: event.clientX,
+      clientY: event.clientY,
+    })
+    if (activeTouchPointers.size >= 2) {
+      startPinch()
+      return
+    }
+  }
   drag = {
     pointerId: event.pointerId,
     x: event.clientX,
@@ -183,6 +276,16 @@ function startDrag(event: PointerEvent): void {
 }
 
 function moveDrag(event: PointerEvent): void {
+  if (event.pointerType === 'touch' && activeTouchPointers.has(event.pointerId)) {
+    activeTouchPointers.set(event.pointerId, {
+      clientX: event.clientX,
+      clientY: event.clientY,
+    })
+    if (activeTouchPointers.size >= 2) {
+      updatePinch()
+      return
+    }
+  }
   if (!drag || drag.pointerId !== event.pointerId) return
   center.value = unproject(
     drag.centerX - (event.clientX - drag.x),
@@ -191,6 +294,24 @@ function moveDrag(event: PointerEvent): void {
 }
 
 function stopDrag(event: PointerEvent): void {
+  if (event.pointerType === 'touch') {
+    activeTouchPointers.delete(event.pointerId)
+    pinch = undefined
+    const remaining = [...activeTouchPointers.entries()][0]
+    if (remaining && mapInteractive.value) {
+      const [pointerId, pointer] = remaining
+      drag = {
+        pointerId,
+        x: pointer.clientX,
+        y: pointer.clientY,
+        centerX: centerPixel.value.x,
+        centerY: centerPixel.value.y,
+      }
+    } else {
+      drag = undefined
+    }
+    return
+  }
   if (drag?.pointerId === event.pointerId) drag = undefined
 }
 
@@ -202,7 +323,11 @@ function wheelZoom(event: WheelEvent): void {
 
 function toggleMapInteraction(): void {
   mapInteractive.value = !mapInteractive.value
-  if (!mapInteractive.value) drag = undefined
+  if (!mapInteractive.value) {
+    drag = undefined
+    pinch = undefined
+    activeTouchPointers.clear()
+  }
 }
 
 function selectMapPoint(point: IMapPoint): void {
@@ -243,6 +368,9 @@ async function loadRoute(): Promise<void> {
 function resetMap(): void {
   tileFailures.value = 0
   mapInteractive.value = false
+  drag = undefined
+  pinch = undefined
+  activeTouchPointers.clear()
   void nextTick(() => {
     fitPoints()
     void loadRoute()
@@ -298,6 +426,29 @@ onBeforeUnmount(() => {
 
 <template>
   <section class="rhythm-map-shell" aria-label="当日行程地图">
+    <header class="map-toolbar">
+      <div>
+        <h4>地图</h4>
+        <small v-if="!mapUnavailable">
+          {{ mapInteractive ? '单指移动，双指缩放' : '单指上下滑动页面' }}
+        </small>
+      </div>
+      <nav v-if="!mapUnavailable" class="map-toolbar-actions" aria-label="地图操作">
+        <button
+          type="button"
+          :aria-pressed="mapInteractive"
+          @click="toggleMapInteraction"
+        >
+          {{ mapInteractive ? '完成' : '操作地图' }}
+        </button>
+        <button type="button" @click="resetToOverview">
+          回到全览
+        </button>
+      </nav>
+      <span v-if="resetNotice" class="map-toolbar-notice" role="status">
+        {{ resetNotice }}
+      </span>
+    </header>
     <div
       ref="container"
       class="rhythm-map"
@@ -384,25 +535,6 @@ onBeforeUnmount(() => {
         >
           {{ point.title }}
         </span>
-        <button
-          class="map-fit-button"
-          type="button"
-          @pointerdown.stop
-          @click.stop="resetToOverview"
-        >
-          <van-icon name="expand-o" />
-          回到全览
-        </button>
-        <button
-          class="map-gesture-button"
-          type="button"
-          :aria-pressed="mapInteractive"
-          @pointerdown.stop
-          @click.stop="toggleMapInteraction"
-        >
-          <van-icon :name="mapInteractive ? 'passed' : 'expand-o'" />
-          {{ mapInteractive ? '完成' : '操作地图' }}
-        </button>
         <div class="map-controls" aria-label="地图缩放">
           <button type="button" aria-label="放大地图" @pointerdown.stop @click.stop="changeZoom(1)">＋</button>
           <button type="button" aria-label="缩小地图" @pointerdown.stop @click.stop="changeZoom(-1)">−</button>
@@ -410,12 +542,6 @@ onBeforeUnmount(() => {
         <small class="map-attribution">
           © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a>
         </small>
-        <div v-if="!mapInteractive" class="map-scroll-hint">
-          单指上下滑动页面
-        </div>
-        <div v-if="resetNotice" class="map-reset-notice" role="status">
-          {{ resetNotice }}
-        </div>
       </template>
       <div v-else class="map-empty">
         <van-icon :name="online ? 'location-o' : 'warning-o'" />
