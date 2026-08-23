@@ -210,3 +210,8 @@
 - 新增 active touch pointer 与 pinch 状态：默认 `touch-action: pan-y`；进入操作模式后为 `none`，单指平移、双指按距离比缩放并保持两指中点下的地理位置稳定；退出时清空 pointer／pinch 状态。
 - 浏览器双指事件链验证：Day 3 初始 zoom 6，操作模式下两指距离 100→200 后 zoom 7；点「完成」后重复同样输入仍为 zoom 7。状态文案同步为「单指移动，双指缩放」与「单指上下滑动页面」。
 - 阶段性自动化：`corepack pnpm typecheck` 通过；Vitest 36/36 通过，新增 pinch 倍数换算、上下界与非法距离回退测试。
+- 为避免把工作区另一批 St Kilda／KML／行程数据改动带进发布，本轮仅提交 9 个相关文件；`tests/trip.test.ts` 使用缓存补丁只暂存 pinch 测试，保留其余未提交变更。功能提交为 `6680b02`。
+- 干净 detached worktree `/tmp/au-redesign-build` 复验：typecheck、基线 Vitest 35/35、production build 全通过；产物 `index-dep_TNs3.js`／`index-21BnmtYe.css`，PWA precache 14 条 / 741.90 KiB，唯一警告仍是既有主 chunk 大于 500 kB。
+- 已推送 `main` 到 `6680b02`，`gh-pages` 到 `e8a6f1f`。生产 URL `?v=20260823b` 已加载上述新资产。
+- 线上 390×844 暗色最终复验：无地图／文字页签；日期摘要 `pickerTop=0`；地图画布内旧操作控件为 0；标题行操作为「操作地图／回到全览」；卡片 footer 顺序为「更多／随手记」；页面宽 390/390。
+- 线上地图操作模式 `touchAction=none`，双指距离加倍后 zoom 7→8；回到全览后真实点击 marker 3，文字卡「兰斯林沙丘」滚到 top=112，吸顶摘要 bottom=102，仅一个 marker 保持高亮。双向定位未退化。
