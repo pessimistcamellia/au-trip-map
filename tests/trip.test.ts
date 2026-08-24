@@ -30,6 +30,7 @@ import {
   generateStaticTripHtml,
 } from '../src/services/staticTripExport'
 import type { ITripData } from '../src/types'
+import { getBottomNavVisibility } from '../src/utils/bottomNav'
 import {
   buildNavigationUrl,
   calculateMapLabelLayouts,
@@ -64,21 +65,21 @@ function rectanglesOverlap(left: ITestRect, right: ITestRect): boolean {
 }
 
 describe('静态行程数据', () => {
-  it('完整覆盖 13 天、83 条地点和 skip 状态', () => {
+  it('完整覆盖 13 天、85 条地点和 skip 状态', () => {
     expect(data.days).toHaveLength(13)
-    expect(data.places).toHaveLength(83)
+    expect(data.places).toHaveLength(85)
     expect(data.places.filter((place) => place.status === 'visit')).toHaveLength(
-      51,
+      50,
     )
     expect(data.places.filter((place) => place.status === 'skip')).toHaveLength(
-      32,
+      35,
     )
     expect(
       data.places.filter(
         (place) => place.lat !== null && place.lng !== null,
       ),
     ).toHaveLength(79)
-    expect(data.wishlistCount).toBe(53)
+    expect(data.wishlistCount).toBe(54)
   })
 
   it('按日排序并保留 10 月 5 日可选 Loch Ard', () => {
@@ -87,6 +88,41 @@ describe('静态行程数据', () => {
     expect(places.some((place) => place.id === 'wv-loch')).toBe(true)
     expect(places.find((place) => place.id === 'wv-loch')?.priority).toBe(
       'optional',
+    )
+    expect(places.map((place) => place.id)).toEqual([
+      'd12-01',
+      'd12-02',
+      'd12-03',
+      'wv-loch',
+      'd12-04',
+      'd12-08',
+      'd12-07',
+    ])
+    expect(places.find((place) => place.id === 'd12-08')).toMatchObject({
+      name: '圣基尔达企鹅观赏平台',
+      sequence: 6,
+    })
+    expect(data.places.find((place) => place.id === 'd12-05')?.status).toBe(
+      'skip',
+    )
+    expect(data.places.find((place) => place.id === 'd12-06')?.status).toBe(
+      'skip',
+    )
+  })
+
+  it('10 月 1 日取消比舍诺并在下午直达朗塞斯顿', () => {
+    const places = getPlacesForDay(data.places, 8)
+    expect(places.map((place) => place.id)).toEqual([
+      'd8-01',
+      'd8-02',
+      'd8-03',
+      'd8-05',
+    ])
+    expect(data.places.find((place) => place.id === 'd8-04')?.status).toBe(
+      'skip',
+    )
+    expect(data.days.find((day) => day.day === 8)?.schedule).toContain(
+      '约176公里',
     )
   })
 
@@ -402,7 +438,7 @@ describe('目的地类别与图标', () => {
       ),
     )
     const places = data.places.filter((place) => rhythmPlaceIds.has(place.id))
-    expect(places.length).toBeGreaterThanOrEqual(46)
+    expect(places.length).toBeGreaterThanOrEqual(44)
     expect(places.filter((place) => !place.category)).toEqual([])
     expect(places.filter((place) => getPlaceFood(place) === null)).toEqual([])
     expect(places.filter((place) => getPlaceParking(place) === null)).toEqual([])
@@ -629,5 +665,72 @@ describe('搜索和日程选择', () => {
     expect(
       selectRelevantDay(data.days, new Date('2026-08-19T00:00:00+10:00')).day,
     ).toBe(1)
+  })
+})
+
+describe('移动端底栏滚动显隐', () => {
+  const base = {
+    viewportHeight: 844,
+    documentHeight: 3000,
+    currentVisible: true,
+  }
+
+  it('顶部和接近页底时始终显示', () => {
+    expect(
+      getBottomNavVisibility({
+        ...base,
+        currentY: 8,
+        direction: 'down',
+        directionDistance: 100,
+      }),
+    ).toBe(true)
+    expect(
+      getBottomNavVisibility({
+        ...base,
+        currentY: 2120,
+        direction: 'down',
+        directionDistance: 100,
+      }),
+    ).toBe(true)
+  })
+
+  it('持续下滑后隐藏，轻微上滑后恢复', () => {
+    expect(
+      getBottomNavVisibility({
+        ...base,
+        currentY: 500,
+        direction: 'down',
+        directionDistance: 80,
+      }),
+    ).toBe(false)
+    expect(
+      getBottomNavVisibility({
+        ...base,
+        currentY: 480,
+        direction: 'up',
+        directionDistance: 20,
+        currentVisible: false,
+      }),
+    ).toBe(true)
+  })
+
+  it('未达到方向阈值时维持当前状态，避免抖动', () => {
+    expect(
+      getBottomNavVisibility({
+        ...base,
+        currentY: 500,
+        direction: 'down',
+        directionDistance: 24,
+      }),
+    ).toBe(true)
+    expect(
+      getBottomNavVisibility({
+        ...base,
+        currentY: 480,
+        direction: 'up',
+        directionDistance: 8,
+        currentVisible: false,
+      }),
+    ).toBe(false)
   })
 })

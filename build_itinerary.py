@@ -7,6 +7,26 @@ from pathlib import Path
 
 out_dir = Path.home() / "au-trip-map"
 wishes = json.loads((out_dir / "wishlist-raw.json").read_text())
+existing_itinerary_path = out_dir / "itinerary.json"
+existing_coordinates = {}
+if existing_itinerary_path.exists():
+    existing_places = json.loads(existing_itinerary_path.read_text()).get("places", [])
+    existing_coordinates = {
+        place["id"]: (
+            place.get("lat"),
+            place.get("lng"),
+            place.get("geocode_source"),
+        )
+        for place in existing_places
+    }
+existing_coordinates.update(
+    {
+        "d7-02": (-42.125, 148.29, "known"),
+        "d8-05": (-41.4332, 147.1441, "known"),
+        "d12-08": (-37.8648, 144.9731, "known"),
+        "wv-puffing": (-37.9075, 145.3556, "known"),
+    }
+)
 
 base = date(2026, 9, 24)
 
@@ -291,26 +311,15 @@ visits = [
         "轻量短停。",
     ),
     (
-        "d8-04",
-        "比舍诺企鹅归巢团",
-        "Bicheno Penguin Tours, Bicheno TAS",
-        8,
-        4,
-        "私人修复栖息地、低干扰照明和向导讲解；日落后首批小蓝企鹅上岸。",
-        "约50分钟（约19:30—20:30）",
-        "1/70 Burgess Street签到",
-        "成人AUD76/人须预约；禁闪光灯；团后夜间驾车约160公里去朗塞斯顿。",
-    ),
-    (
         "d8-05",
         "朗塞斯顿（住宿）",
         "Launceston, Tasmania",
         8,
-        5,
-        "overnight固定住宿，靠近次日通往塔玛河谷道路。",
+        4,
+        "下午抵达朗塞斯顿，固定住宿并为次日塔玛河谷行程休息。",
         "过夜",
-        "驾车约160公里自比舍诺",
-        "首选Peppers Silo Hotel；须late check-in。",
+        "约13:00自科尔斯湾出发，驾车约176公里／预留2.5小时",
+        "首选Peppers Silo Hotel；预计15:20—15:40抵达，不再夜驾。",
     ),
     (
         "d9-01",
@@ -482,33 +491,22 @@ visits = [
         "坎贝尔港",
         "Port Campbell, Victoria",
         12,
-        4,
+        5,
         "受保护的小海湾、渔港和沉船海岸补给中心；午餐和恢复体力。",
         "约55分钟",
         "驾车约12公里",
         "午餐加油短暂休整。",
     ),
     (
-        "d12-05",
-        "伦敦桥",
-        "London Bridge Lookout, Port Campbell VIC",
-        12,
-        5,
-        "1990年连接陆地的拱桥部分突然坍塌，留下独立海蚀拱门。",
-        "约30分钟",
-        "驾车约18公里",
-        "进度落后可删减。",
-    ),
-    (
-        "d12-06",
-        "石窟",
-        "The Grotto, Port Campbell VIC",
+        "d12-08",
+        "圣基尔达企鹅观赏平台",
+        "St Kilda Pier Penguin Viewing Platform, Melbourne VIC",
         12,
         6,
-        "sinkhole、洞穴与拱门叠成天然画框。",
-        "约30分钟",
-        "驾车约4公里",
-        "进度落后可删减；15:10左右必须离开沉船海岸回墨尔本。",
+        "St Kilda Pier／Breakwater 高架平台观看小蓝企鹅归巢；免费但必须持票。",
+        "第一场约19:57起（票面为准）",
+        "从沉船海岸直接驶往 St Kilda，不先回酒店",
+        "目标第一场；周二10:00开放未来一周票，热门易满。停车有限，平台入口在码头内约450米。",
     ),
     (
         "d12-07",
@@ -536,37 +534,15 @@ visits = [
 
 extra_visit = [
     (
-        "wv-tower",
-        "塔山野生动物保护区",
-        "Tower Hill Wildlife Reserve, Victoria",
-        11,
-        7,
-        "鸸鹋、袋鼠、考拉机会；不投喂。",
-        "约1.5小时（愿望清单建议）",
-        "大洋路西段顺路",
-        "【注意】愿望清单标「已纳入」、建议10/4下船后顺路；但更新后的每日主行程表未列入本点。保留为本次要看候选／愿望清单条目。",
-    ),
-    (
-        "wv-warrn",
-        "沃南布尔",
-        "Warrnambool, Victoria",
-        11,
-        8,
-        "午餐与补给短停；本次不住；Logans Beach观鲸不再硬塞。",
-        "约45分钟（愿望清单建议）",
-        "大洋路西段",
-        "【注意】愿望清单标「已纳入」；更新后每日主行程表未列入。",
-    ),
-    (
         "wv-loch",
         "洛克阿德峡谷",
         "Loch Ard Gorge, Port Campbell VIC",
         12,
-        8,
+        4,
         "沉船海岸经典峡谷；愿望清单建议白天留1.5—2小时。",
-        "约1.5—2小时（愿望清单建议）",
+        "可选短停约20分钟",
         "十二门徒岩附近",
-        "【注意】愿望清单标「已纳入」；更新后每日主行程表（10/5）未列入，可能被十二门徒／伦敦桥／石窟替代。按地理邻近放在沉船海岸日。",
+        "【可选】仅在14:15前能离开沉船海岸时短停；不得挤占 St Kilda 第一场硬截止。",
     ),
     (
         "wv-puffing",
@@ -601,18 +577,17 @@ enrich_map = {
     "d4-02": ["Kalbarri"],
     "d7-01": ["Maria"],
     "d8-01": ["Wineglass"],
-    "d8-04": ["Bicheno"],
     "d9-01": ["Platypus"],
     "d9-02": ["Cradle"],
     "d9-04": ["Devils"],
+    "d11-06": ["Apollo"],
     "d12-03": ["Twelve"],
     "d12-04": ["Port Campbell"],
-    "d11-06": ["Apollo"],
+    "d12-08": ["St Kilda"],
     "d13-01": ["Queen Victoria"],
     "wv-tower": ["Tower Hill"],
     "wv-warrn": ["Warrnambool"],
     "wv-loch": ["Loch Ard"],
-    "wv-puffing": ["Puffing Billy"],
 }
 
 places = []
@@ -694,9 +669,17 @@ for i, w in enumerate(wishes, 1):
     name_en = f"{en_guess}, {loc}" if loc else en_guess + ", Australia"
     culture = w.get("人文、历史、作品与文化现象", "")
     sug = w.get("本次建议", "")
+    if "比舍诺" in name or "Bicheno" in name:
+        skip_id = "d8-04"
+    elif "Tower Hill" in name or "塔山" in name:
+        skip_id = "wv-tower"
+    elif "Warrnambool" in name or "沃南布尔" in name:
+        skip_id = "wv-warrn"
+    else:
+        skip_id = f"skip-{i:02d}"
     skips.append(
         {
-            "id": f"skip-{i:02d}",
+            "id": skip_id,
             "name": name,
             "name_en": name_en,
             "day": None,
@@ -713,6 +696,45 @@ for i, w in enumerate(wishes, 1):
             "geocode_source": None,
         }
     )
+
+skips.extend(
+    [
+        {
+            "id": "d12-05",
+            "name": "伦敦桥",
+            "name_en": "London Bridge Lookout, Port Campbell VIC",
+            "day": None,
+            "date": None,
+            "status": "skip",
+            "order_in_day": None,
+            "highlights": "为确保10/5赶上 St Kilda 第一场企鹅归巢，本次取消西向绕行。",
+            "weather": "",
+            "duration": "",
+            "transport": "",
+            "notes": "本次不看；十二门徒后最晚14:15—14:30离开沉船海岸，直接驶往 St Kilda。",
+            "lat": -38.62,
+            "lng": 142.93,
+            "geocode_source": "known",
+        },
+        {
+            "id": "d12-06",
+            "name": "石窟",
+            "name_en": "The Grotto, Port Campbell VIC",
+            "day": None,
+            "date": None,
+            "status": "skip",
+            "order_in_day": None,
+            "highlights": "为确保10/5赶上 St Kilda 第一场企鹅归巢，本次取消西向绕行。",
+            "weather": "",
+            "duration": "",
+            "transport": "",
+            "notes": "本次不看；不再从 Port Campbell 向西延伸。",
+            "lat": -38.615,
+            "lng": 142.91,
+            "geocode_source": "known",
+        },
+    ]
+)
 
 meta = []
 for w in wishes:
@@ -753,13 +775,17 @@ for w in wishes:
         )
 
 places = places + skips + meta
+for place in places:
+    coordinate = existing_coordinates.get(place["id"])
+    if coordinate:
+        place["lat"], place["lng"], place["geocode_source"] = coordinate
 
 data = {
     "trip": {
         "name": "澳大利亚自驾行程",
         "dates": "2026-09-24 — 2026-10-06",
         "source_doc": "https://guanghe.feishu.cn/docx/TAoHd0QFyoo7lpxGk9DcpN0nnCc",
-        "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内，未放入地图坐标层；详见报告。",
+        "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内，未放入地图坐标层。10/1取消Bicheno企鹅与夜驾，科尔斯湾午后直达朗塞斯顿；10/2仍为Platypus House→Cradle过夜，10/3从摇篮山直达Devonport。10/5保留十二门徒、压缩Loch Ard与午餐，取消London Bridge／The Grotto，直接驶往St Kilda第一场企鹅归巢。",
     },
     "places": places,
 }

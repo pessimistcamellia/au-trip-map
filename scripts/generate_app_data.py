@@ -118,7 +118,8 @@ def place_aliases(place: dict) -> list[str]:
             candidate = normalized(
                 re.sub(
                     r"机场周边营地|野生动物园|国家公园|游客中心|观景台|灯塔步道|"
-                    r"雨林步道|住宿区|住宿|天气缓冲|机场|镇",
+                    r"雨林步道|住宿区|住宿|天气缓冲|企鹅观赏平台|"
+                    r"Penguin Viewing Platform|Railway|Station|机场|镇",
                     "",
                     part,
                 )
@@ -128,6 +129,8 @@ def place_aliases(place: dict) -> list[str]:
         candidate = normalized(value)
         if len(candidate) >= 3:
             aliases.add(candidate)
+    if place.get("id") == "wv-puffing":
+        aliases.add(normalized("Belgrave"))
     return sorted(aliases, key=len, reverse=True)
 
 
@@ -296,7 +299,9 @@ def main() -> None:
             [
             place
             for place in places
-            if place.get("day") == day["day"] and place.get("status") == "visit"
+            if place.get("day") == day["day"]
+            and place.get("status") == "visit"
+            and (place.get("order_in_day") or 0) > 0
             ],
             key=lambda place: place.get("order_in_day") or 999,
         )
@@ -325,7 +330,8 @@ def main() -> None:
         "animals": plain((ROOT / "animal-section.md").read_text()),
         "pending": [
             "Tower Hill 与 Warrnambool 是否彻底放弃",
-            "Loch Ard Gorge 是否固定保留",
+            "St Kilda 第一场实际票面时间与余票",
+            "Platypus House 10/2 10:00 场次是否已订",
             "关键住宿、交通和门票的实际预订状态",
             "租车合同是否允许在持牌营地内睡车",
         ],

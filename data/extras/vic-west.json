@@ -612,6 +612,81 @@
         ]
       }
     },
+    "d12-08": {
+      "category": "attraction",
+      "categoryNote": "St Kilda Pier／Breakwater 高架平台是野生小蓝企鹅归巢观赏点，本次以合规观赏为主要目的。",
+      "food": {
+        "summary": "码头入口与 St Kilda Sea Baths 一带有海滨餐厅；若要赶企鹅第一场，优先在入场前吃简餐或提前订位，不要把正餐安排在归巢时段。",
+        "restaurants": [
+          {
+            "name": "Republica St Kilda Beach",
+            "nameEn": "Republica St Kilda Beach",
+            "lat": -37.8677,
+            "lng": 144.9747,
+            "coordinateSource": "St Kilda Sea Baths 官方地址 10-18 Jacka Boulevard 的近似中心",
+            "rating": 4.4,
+            "ratingCount": 3621,
+            "ratingSource": "Google 地图（本地商家聚合页核对）",
+            "ratingCheckedAt": "2026-08-24",
+            "distance": "距 St Kilda Pier 入口约 250 米，步行约 3-4 分钟",
+            "priceLevel": "人均约 A$25-50",
+            "cuisine": "现代澳洲菜、海鲜、披萨",
+            "recommended": "海滨位置适合在候场前快速用餐；常见推荐包括 fish & chips、披萨、海鲜和 focaccia。周一晚有披萨活动，但具体菜单与厨房截止时间以当日官网为准。",
+            "hours": "周一至周五 12:00 至晚间；周六、周日 08:30 至晚间",
+            "sourceUrl": "https://republica.net.au/"
+          },
+          {
+            "name": "Donovans",
+            "nameEn": "Donovans",
+            "lat": -37.8692,
+            "lng": 144.9766,
+            "coordinateSource": "40 Jacka Boulevard 地址点近似坐标",
+            "rating": 4.5,
+            "ratingCount": 1329,
+            "ratingSource": "Google 地图（本地商家聚合页核对）",
+            "ratingCheckedAt": "2026-08-24",
+            "distance": "距 St Kilda Pier 入口约 500 米，步行约 6-7 分钟",
+            "priceLevel": "人均约 A$60-100",
+            "cuisine": "现代澳洲菜、海鲜",
+            "recommended": "适合希望在海滨吃正式晚餐的情况；价格和用餐时长都高于 Republica。赶第一场企鹅时只建议提前订较早时段，否则改为观赏后用餐。",
+            "hours": null,
+            "sourceUrl": "https://donovans.com.au/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "最直接的是 St Kilda Sea Baths 停车场，超过 400 个车位但傍晚和活动日仍可能紧张；Jacka Boulevard 周边规则分段变化，不要把路边位默认当免费停车。",
+        "lots": [
+          {
+            "name": "St Kilda Sea Baths Car Park",
+            "nameEn": "St Kilda Sea Baths Car Park",
+            "lat": -37.8679,
+            "lng": 144.975,
+            "coordinateSource": "Care Park 官方页面与 10-18 Jacka Boulevard 地址范围",
+            "fee": "paid",
+            "feeNote": "动态 drive-up／online 价格；新计费日从每日 05:00 开始，具体金额以入场牌与官网日期报价为准",
+            "capacity": "超过 400 个车位",
+            "surface": "露天及地下车库",
+            "note": "从 Jacka Boulevard 新入口进出；地下车库限高 2.0 米，午夜关闭、05:00 重开。露天区无高度限制。"
+          }
+        ],
+        "rules": [
+          "17:45-18:15 抵达仍应预留找车位、步行约 450 米进入码头和排队时间；暖天、周末或活动日要更早。",
+          "Jacka Boulevard 与周边路边位可能是收费、限时、居民专用或临时活动管制；只按停车位旁当日标志执行。",
+          "企鹅观赏结束较晚，若停地下车库要留意午夜关闭；不要停在 clearway、施工围挡或居民车道。"
+        ],
+        "sources": [
+          {
+            "label": "Care Park：St Kilda Sea Baths parking",
+            "url": "https://www.carepark.com.au/find-a-care-park/st-kilda-sea-baths/"
+          },
+          {
+            "label": "City of Port Phillip：St Kilda Pier Foreshore Upgrade",
+            "url": "https://www.portphillip.vic.gov.au/about-the-council/projects-and-works/st-kilda-pier-foreshore-upgrade/"
+          }
+        ]
+      }
+    },
     "d13-01": {
       "category": "market",
       "categoryNote": "本身是综合食品与零售市场，餐饮摊位是游览体验的重要组成部分。",

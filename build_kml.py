@@ -50,7 +50,7 @@ LAYERS = [
         "ffffff00",
     ),
     (
-        "D8 10/1 酒杯湾／比舍诺",
+        "D8 10/1 酒杯湾→朗塞斯顿",
         "sty_d8",
         ICON.format("blu-circle"),
         lambda p: p.get("day") == 8,
@@ -71,7 +71,7 @@ LAYERS = [
         "ffc472ff",
     ),
     (
-        "D12–13 10/5–6 沉船海岸／墨尔本",
+        "D12–13 10/5–6 沉船海岸／St Kilda／墨尔本",
         "sty_d1213",
         ICON.format("wht-circle"),
         lambda p: p.get("day") in (12, 13),
@@ -247,8 +247,11 @@ def main():
 
     layers_dir = out_dir / "layers"
     layers_dir.mkdir(exist_ok=True)
-    # clear old
+    # 只清理本脚本生成的图层，保留手工维护的集合点图层。
+    preserved_layer_names = {"集合点_霍巴特跟团.kml"}
     for old in layers_dir.glob("*.kml"):
+        if old.name in preserved_layer_names:
+            continue
         old.unlink()
     for layer in LAYERS:
         safe = re.sub(r"[^\w\-]+", "_", layer[0], flags=re.UNICODE).strip("_")[:50]

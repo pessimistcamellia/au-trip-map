@@ -33,6 +33,10 @@ import type {
   PlaceTextCategory,
 } from './types'
 import {
+  getBottomNavVisibility,
+  type ScrollDirection,
+} from './utils/bottomNav'
+import {
   daysUntil,
   getEmptyDaySummary,
   getPlacesForDay,
@@ -72,6 +76,11 @@ const rhythmMapSection = ref<HTMLElement | null>(null)
 const rhythmTextSection = ref<HTMLElement | null>(null)
 const activeDetailTab = ref<PlaceDetailCategory>('看点')
 const weatherReference = ref<IWeatherReference | null>(null)
+const bottomNavVisible = ref(true)
+let lastScrollY = 0
+let scrollDirection: ScrollDirection = null
+let directionStartY = 0
+let scrollFrame = 0
 const detailVisible = computed({
   get: () => Boolean(selectedPlace.value),
   set: (value: boolean) => {
@@ -135,6 +144,7 @@ const preparationItems = [
 function setView(view: MainView): void {
   if (isSkipPage.value) void router.push('/')
   activeView.value = view
+  bottomNavVisible.value = true
   window.scrollTo({ top: 0, behavior: 'smooth' })
 }
 
@@ -186,6 +196,34 @@ function openJournal(place?: IPlace): void {
 
 function closeJournal(): void {
   journalPlace.value = undefined
+  bottomNavVisible.value = true
+}
+
+function updateBottomNavVisibility(): void {
+  scrollFrame = 0
+  const currentY = Math.max(0, window.scrollY)
+  const nextDirection: ScrollDirection =
+    currentY > lastScrollY ? 'down' : currentY < lastScrollY ? 'up' : scrollDirection
+
+  if (nextDirection !== scrollDirection) {
+    scrollDirection = nextDirection
+    directionStartY = lastScrollY
+  }
+
+  bottomNavVisible.value = getBottomNavVisibility({
+    currentY,
+    direction: scrollDirection,
+    directionDistance: Math.abs(currentY - directionStartY),
+    viewportHeight: window.innerHeight,
+    documentHeight: document.documentElement.scrollHeight,
+    currentVisible: bottomNavVisible.value,
+  })
+  lastScrollY = currentY
+}
+
+function handleScroll(): void {
+  if (scrollFrame) return
+  scrollFrame = window.requestAnimationFrame(updateBottomNavVisibility)
 }
 
 function detailSection(place: IPlace, tab: PlaceDetailCategory) {
@@ -320,15 +358,20 @@ onMounted(() => {
     }, 350)
   }
   applyTheme()
+  lastScrollY = Math.max(0, window.scrollY)
+  directionStartY = lastScrollY
   window.addEventListener('beforeinstallprompt', (event) => {
     event.preventDefault()
     installPrompt.value = event as IInstallPromptEvent
   })
   window.addEventListener('keydown', handleEscape)
+  window.addEventListener('scroll', handleScroll, { passive: true })
 })
 
 onBeforeUnmount(() => {
   window.removeEventListener('keydown', handleEscape)
+  window.removeEventListener('scroll', handleScroll)
+  if (scrollFrame) window.cancelAnimationFrame(scrollFrame)
 })
 </script>
 
@@ -756,7 +799,14 @@ onBeforeUnmount(() => {
       </template>
     </main>
 
-    <nav v-if="!isSkipPage && journalPlace === undefined" class="bottom-nav" aria-label="主要导航">
+    <nav
+      v-if="!isSkipPage && journalPlace === undefined"
+      class="bottom-nav"
+      :class="{ 'is-hidden': !bottomNavVisible }"
+      :aria-hidden="!bottomNavVisible"
+      :inert="!bottomNavVisible"
+      aria-label="主要导航"
+    >
       <button
         v-for="item in [
           { id: 'today', label: '今天', icon: 'home-o' },

@@ -3,7 +3,7 @@
     "name": "澳大利亚自驾行程",
     "dates": "2026-09-24 — 2026-10-06",
     "source_doc": "https://guanghe.feishu.cn/docx/TAoHd0QFyoo7lpxGk9DcpN0nnCc",
-    "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内，未放入地图坐标层。口径以每日主行程为准（2026-08-19 对齐 Codex 末轮共识）：塔州 Port Arthur→Triabunna→Maria→Coles Bay→Bicheno/Launceston→Cradle→Spirit；大洋路 10/4 东段 Apollo Bay，10/5 沉船海岸回墨尔本；Tower Hill／Warrnambool 不在本次；Loch Ard 为 10/5 可选短停。Puffing Billy 于 2026-08-22 复核后改为 10/4 上午可选点（10:00 Belgrave→Menzies Creek 往返），条件是夜航准点抵港；10/6 中午国际航班前仍不可行。",
+    "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内，未放入地图坐标层。10/1取消Bicheno企鹅与夜驾，科尔斯湾午后直达朗塞斯顿；10/2仍为Platypus House→Cradle过夜，10/3从摇篮山直达Devonport。10/5保留十二门徒、压缩Loch Ard与午餐，取消London Bridge／The Grotto，直接驶往St Kilda第一场企鹅归巢。",
     "startDate": "2026-09-24",
     "endDate": "2026-10-06",
     "timezone": "Australia/Hobart",
@@ -1072,13 +1072,13 @@
       "day": 8,
       "date": "2026-10-01",
       "weekday": "周四",
-      "region": "科尔斯湾（Coles Bay）-Wineglass Bay（酒杯湾）-比舍诺（Bicheno）-朗塞斯顿（Launceston）",
-      "route": "科尔斯湾（Coles Bay）→ Wineglass Bay Lookout（酒杯湾观景台）→ Cape Tourville Lighthouse Walk（图维尔角灯塔步道）／Honeymoon Bay（蜜月湾）→ 比舍诺（Bicheno）→ Bicheno Penguin Tours（比舍诺企鹅归巢团）→ 朗塞斯顿（Launceston）",
-      "lodging": "当晚住朗塞斯顿（Launceston）固定住宿，不车宿：企鹅团结束后需夜间驾驶约160公里／2小时，住宿必须有24小时前台或书面确认late self check-in，并尽量靠近次日通往Tamar Valley（塔玛河谷）的道路。\n首选：Peppers Silo Hotel Launceston（朗塞斯顿辣椒筒仓酒店）（89-91 Lindsay Street；24小时前台、有停车，次日驶入West Tamar Highway较方便）｜Google Maps导航。\n订房要求：明确备注预计22:45-23:30抵达；如果企鹅票只能订到较晚场次，应同步更新酒店预计到店时间。",
-      "schedule": "08:15-08:30：从科尔斯湾（Coles Bay）住宿驾车约3-10公里到Wineglass Bay Car Park（酒杯湾停车场）。\n08:30-10:15：往返步行约2.6公里至Wineglass Bay Lookout（酒杯湾观景台）；连续上坡和台阶，按体能慢走、利用休息座椅，不下海滩。约09:00-10:00抵达观景台时，白沙、蓝绿色海水和Hazards（哈泽兹山脉）在晴朗日已经很清楚，白天观赏本身完全值得。\n10:15-10:30：驾车约7公里前往Cape Tourville Lighthouse Walk（图维尔角灯塔步道）。\n10:30-11:10：走约600米轻量环线，从高处看Freycinet（菲欣纳）海岸、The Nuggets（鸡块岩）和外海；带望远镜留意迁徙鲸类。\n11:10-11:25：驾车约6公里到Honeymoon Bay（蜜月湾）。\n11:25-12:00：海湾短停、休息和拍摄花岗岩海岸。\n12:00-13:00：回科尔斯湾（Coles Bay）约5公里用午餐并加油。\n13:00-13:40：驾车约38-40公里前往比舍诺（Bicheno）。\n13:40-14:30：游览Bicheno Blowhole（比舍诺喷水洞）；只站在正式观景范围内。\n14:30-18:30：在Waubs Bay（沃布斯湾）／Whalers Lookout（捕鲸人观景台）一带轻量散步、休息并提前吃晚餐，不再安排长徒步。\n18:45-19:20：驾车约1-3公里到Bicheno Penguin Tours（比舍诺企鹅归巢团，1/70 Burgess Street）签到；实际签到时间以票面为准。\n约19:30-20:30：乘短程接驳车进入私人企鹅栖息地，步行约500米、约50分钟，观看Little penguin（小蓝企鹅）归巢；首场时间随日暮调整。\n约20:30-22:30：团后驾车约160公里前往朗塞斯顿（Launceston）；若订到更晚场次，整体顺延，途中安排一次短休息。",
-      "highlights": "Wineglass Bay Lookout（酒杯湾观景台）：标志性的弧形白沙湾、蓝绿色海水和粉红花岗岩山体在晴朗白天同样是核心景观，不依赖晚霞；上午约09:00-11:00光线已足以呈现水色，通常也比傍晚从容。本方案只走观景台往返线。\nCape Tourville Lighthouse Walk（图维尔角灯塔步道）：600米左右轻量环线以外海、岛礁和Freycinet（菲欣纳）海岸全景为特色；白天视野最好，春季可带望远镜岸观鲸类。\nBicheno Penguin Tours（比舍诺企鹅归巢团）：私人修复栖息地、低干扰照明和向导讲解比自行追企鹅更稳定；最佳就是日落后首批企鹅上岸的官方场次。9月至1月处繁殖季，动物数量和具体出现时间仍不保证。",
-      "booking": "Bicheno Penguin Tours（比舍诺企鹅归巢团）必须预约：9月至1月成人AUD 76／人；官方建议提前数周预订，所有游客自行到1/70 Burgess Street集合，不提供住宿接送。官方预订。季节场次约19:30-21:30之间随日暮安排，优先订当晚第一场；票面时间优先于本表。禁止闪光灯、追逐和堵住企鹅通道。\nFreycinet National Park（菲欣纳国家公园）：需有效parks pass；Wineglass Bay Lookout（酒杯湾观景台）官方为2.6公里往返、1-1.5小时、Grade 3，坡陡且台阶多。\n夜间驾驶：比舍诺至朗塞斯顿约160公里／2小时，途经Lake Leake Highway；补满油、降低车速并留意袋鼠、沙袋鼠和袋熊。驾驶员若明显困倦，必须在安全地点休息，不以赶酒店预计时间为目标。",
-      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）／比舍诺（Bicheno）约7-17°C，朗塞斯顿（Launceston）约6-17°C；上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间。",
+      "region": "科尔斯湾（Coles Bay）-Wineglass Bay（酒杯湾）-朗塞斯顿（Launceston）",
+      "route": "科尔斯湾（Coles Bay）→ Wineglass Bay Lookout（酒杯湾观景台）→ Cape Tourville Lighthouse Walk（图维尔角灯塔步道）／Honeymoon Bay（蜜月湾）→ 朗塞斯顿（Launceston）",
+      "lodging": "当晚仍住朗塞斯顿（Launceston）固定住宿，不车宿：约15:20-15:40抵达，不再因企鹅团夜驾。\n首选：Peppers Silo Hotel Launceston（朗塞斯顿辣椒筒仓酒店）（89-91 Lindsay Street；有停车，次日驶入West Tamar Highway方便）｜Google Maps导航。",
+      "schedule": "08:15-08:30：从科尔斯湾（Coles Bay）住宿驾车约3-10公里到Wineglass Bay Car Park（酒杯湾停车场）。\n08:30-10:15：往返步行约2.6公里至Wineglass Bay Lookout（酒杯湾观景台）；连续上坡和台阶，按体能慢走、利用休息座椅，不下海滩。\n10:15-10:30：驾车约7公里前往Cape Tourville Lighthouse Walk（图维尔角灯塔步道）。\n10:30-11:10：走约600米轻量环线，从高处看Freycinet（菲欣纳）海岸、The Nuggets（鸡块岩）和外海。\n11:10-11:25：驾车约6公里到Honeymoon Bay（蜜月湾）。\n11:25-12:00：海湾短停、休息和拍摄花岗岩海岸。\n12:00-13:00：回科尔斯湾（Coles Bay）约5公里用午餐并加油。\n13:00-15:20／15:40：从科尔斯湾直接驾车约176公里前往朗塞斯顿（Launceston），按2.5小时预留；不再前往比舍诺，也不再夜驾。\n抵达后：办理入住、补给并休息，为10/2鸭嘴兽之家和摇篮山段保留体力。",
+      "highlights": "Wineglass Bay Lookout（酒杯湾观景台）：保留上午完整观景窗口；晴朗白天即可看清弧形白沙、蓝绿色海水与Hazards（哈泽兹山脉）。\nCape Tourville／Honeymoon Bay：保持轻量短停。\n路线调整：Bicheno Penguin Tours已确定取消；塔州东海岸企鹅不再作为必看窗口，小蓝企鹅改由10/5 St Kilda覆盖。",
+      "booking": "Freycinet National Park：需有效parks pass；Wineglass Bay Lookout官方为2.6公里往返、1-1.5小时、Grade 3。\n驾驶：约13:00从Coles Bay直达Launceston，约176公里，按2.5小时预留；全程白天完成。",
+      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）约7-17°C，朗塞斯顿（Launceston）约6-17°C；上午步道可能湿滑，沿途可能有阵雨和侧风。带防风防水层、防滑鞋；出发前一天复查BOM与Freycinet步道警报。",
       "links": [
         {
           "label": "Peppers Silo Hotel Launceston（朗塞斯顿辣椒筒仓酒店）",
@@ -1087,10 +1087,6 @@
         {
           "label": "Google Maps导航",
           "url": "https://www.google.com/maps/search/?api=1&query=Peppers Silo Hotel Launceston 89 91 Lindsay Street"
-        },
-        {
-          "label": "官方预订",
-          "url": "https://bichenopenguintours.com.au/make-a-booking"
         }
       ],
       "rhythm": [
@@ -1099,7 +1095,7 @@
           "order": 1,
           "time": "08:15-10:15",
           "title": "酒杯湾观景台",
-          "text": "从科尔斯湾（Coles Bay）住宿驾车约3-10公里到Wineglass Bay Car Park（酒杯湾停车场）。\n往返步行约2.6公里至Wineglass Bay Lookout（酒杯湾观景台）；连续上坡和台阶，按体能慢走、利用休息座椅，不下海滩。约09:00-10:00抵达观景台时，白沙、蓝绿色海水和Hazards（哈泽兹山脉）在晴朗日已经很清楚，白天观赏本身完全值得。",
+          "text": "从科尔斯湾（Coles Bay）住宿驾车约3-10公里到Wineglass Bay Car Park（酒杯湾停车场）。\n往返步行约2.6公里至Wineglass Bay Lookout（酒杯湾观景台）；连续上坡和台阶，按体能慢走、利用休息座椅，不下海滩。",
           "placeId": "d8-01",
           "sequence": 1,
           "priority": "main",
@@ -1123,7 +1119,7 @@
           "order": 3,
           "time": "10:30-11:10",
           "title": "走约600米轻量环线，从高处看Freycinet（菲欣纳）海…",
-          "text": "走约600米轻量环线，从高处看Freycinet（菲欣纳）海岸、The Nuggets（鸡块岩）和外海；带望远镜留意迁徙鲸类。",
+          "text": "走约600米轻量环线，从高处看Freycinet（菲欣纳）海岸、The Nuggets（鸡块岩）和外海。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -1169,81 +1165,36 @@
         {
           "id": "rhythm-7",
           "order": 7,
-          "time": "13:00-13:40",
-          "title": "驾车约38-40公里前往比舍诺（Bicheno）",
-          "text": "驾车约38-40公里前往比舍诺（Bicheno）。",
-          "placeId": null,
-          "sequence": null,
-          "priority": null,
-          "lat": null,
-          "lng": null
+          "time": "13:00-15:20／15:40",
+          "title": "朗塞斯顿（住宿）",
+          "text": "从科尔斯湾直接驾车约176公里前往朗塞斯顿（Launceston），按2.5小时预留；不再前往比舍诺，也不再夜驾。",
+          "placeId": "d8-05",
+          "sequence": 4,
+          "priority": "main",
+          "lat": -41.4332,
+          "lng": 147.1441
         },
         {
           "id": "rhythm-8",
           "order": 8,
-          "time": "13:40-14:30",
-          "title": "游览Bicheno Blowhole（比舍诺喷水洞）",
-          "text": "游览Bicheno Blowhole（比舍诺喷水洞）；只站在正式观景范围内。",
+          "time": "抵达后",
+          "title": "办理入住、补给并休息，为10/2鸭嘴兽之家和摇篮山段保留体力",
+          "text": "办理入住、补给并休息，为10/2鸭嘴兽之家和摇篮山段保留体力。",
           "placeId": null,
           "sequence": null,
           "priority": null,
           "lat": null,
           "lng": null
-        },
-        {
-          "id": "rhythm-9",
-          "order": 9,
-          "time": "14:30-18:30",
-          "title": "在Waubs Bay（沃布斯湾）／Whalers Looko…",
-          "text": "在Waubs Bay（沃布斯湾）／Whalers Lookout（捕鲸人观景台）一带轻量散步、休息并提前吃晚餐，不再安排长徒步。",
-          "placeId": null,
-          "sequence": null,
-          "priority": null,
-          "lat": null,
-          "lng": null
-        },
-        {
-          "id": "rhythm-10",
-          "order": 10,
-          "time": "18:45-19:20",
-          "title": "比舍诺企鹅归巢团",
-          "text": "驾车约1-3公里到Bicheno Penguin Tours（比舍诺企鹅归巢团，1/70 Burgess Street）签到；实际签到时间以票面为准。",
-          "placeId": "d8-04",
-          "sequence": 4,
-          "priority": "main",
-          "lat": -41.873,
-          "lng": 148.301
-        },
-        {
-          "id": "rhythm-11",
-          "order": 11,
-          "time": "约19:30-20:30",
-          "title": "乘短程接驳车进入私人企鹅栖息地，步行约500米、约50分钟，…",
-          "text": "乘短程接驳车进入私人企鹅栖息地，步行约500米、约50分钟，观看Little penguin（小蓝企鹅）归巢；首场时间随日暮调整。",
-          "placeId": null,
-          "sequence": null,
-          "priority": null,
-          "lat": null,
-          "lng": null
-        },
-        {
-          "id": "rhythm-12",
-          "order": 12,
-          "time": "约20:30-22:30",
-          "title": "朗塞斯顿（住宿）",
-          "text": "团后驾车约160公里前往朗塞斯顿（Launceston）；若订到更晚场次，整体顺延，途中安排一次短休息。",
-          "placeId": "d8-05",
-          "sequence": 5,
-          "priority": "main",
-          "lat": -41.4332,
-          "lng": 147.1441
         }
       ],
       "unassigned": {
         "booking": [
-          "Freycinet National Park（菲欣纳国家公园）：需有效parks pass；"
+          "Freycinet National Park：需有效parks pass；"
         ],
-        "highlights": [],
+        "highlights": [
+          "路线调整：Bicheno Penguin Tours已确定取消；",
+          "塔州东海岸企鹅不再作为必看窗口，小蓝企鹅改由10/5 St Kilda覆盖。"
+        ],
         "weather": [],
         "links": [
           {
@@ -1615,33 +1566,9 @@
         {
           "id": "rhythm-2",
           "order": 2,
-          "time": "方案A（可选，坐蒸汽火车）",
-          "title": "07:30-09:15：驾车约107公里／约1小时45分直奔…",
-          "text": "07:30-09:15：驾车约107公里／约1小时45分直奔 Belgrave（贝尔格雷夫），途中只加油和买便利店早餐，不进墨尔本市区。",
-          "placeId": null,
-          "sequence": null,
-          "priority": null,
-          "lat": null,
-          "lng": null
-        },
-        {
-          "id": "rhythm-3",
-          "order": 3,
-          "time": "09:15-09:30",
-          "title": "停 Belgrave Metro Station Car P…",
-          "text": "停 Belgrave Metro Station Car Park（640车位；车站所在 Old Monbulk Road 不能停车），步行到票房取票。官方要求发车前 60分钟（09:00） 到票房，09:30 为硬截止，火车不等人。",
-          "placeId": null,
-          "sequence": null,
-          "priority": null,
-          "lat": null,
-          "lng": null
-        },
-        {
-          "id": "rhythm-4",
-          "order": 4,
-          "time": "10:00-10:25",
+          "time": "方案A（可选，坐蒸汽火车）-10:25",
           "title": "Puffing Billy Railway（普芬比利蒸汽火车）",
-          "text": "Belgrave → Menzies Creek（曼齐斯溪），25分钟，跨 Monbulk Creek 弧形木栈桥、穿 Dandenong Ranges（丹德农山脉）森林。",
+          "text": "07:30-09:15：驾车约107公里／约1小时45分直奔 Belgrave（贝尔格雷夫），途中只加油和买便利店早餐，不进墨尔本市区。\n停 Belgrave Metro Station Car Park（640车位；车站所在 Old Monbulk Road 不能停车），步行到票房取票。官方要求发车前 60分钟（09:00） 到票房，09:30 为硬截止，火车不等人。\nBelgrave → Menzies Creek（曼齐斯溪），25分钟，跨 Monbulk Creek 弧形木栈桥、穿 Dandenong Ranges（丹德农山脉）森林。",
           "placeId": "wv-puffing",
           "sequence": 1,
           "priority": "optional",
@@ -1649,8 +1576,8 @@
           "lng": 145.3556
         },
         {
-          "id": "rhythm-5",
-          "order": 5,
+          "id": "rhythm-3",
+          "order": 3,
           "time": "10:25-11:35",
           "title": "Menzies Creek Museum（曼齐斯溪铁路博物馆",
           "text": "Menzies Creek Museum（曼齐斯溪铁路博物馆；免费，周五至周日 10:30-12:00）看80余件机车与车厢展品，Little Toot Café 补热饮。",
@@ -1661,8 +1588,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-6",
-          "order": 6,
+          "id": "rhythm-4",
+          "order": 4,
           "time": "11:35-11:55",
           "title": "乘同一列车返回 Belgrave",
           "text": "乘同一列车返回 Belgrave。",
@@ -1673,8 +1600,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-7",
-          "order": 7,
+          "id": "rhythm-5",
+          "order": 5,
           "time": "11:55-12:15",
           "title": "回停车场、洗手间、买外带午餐",
           "text": "回停车场、洗手间、买外带午餐。",
@@ -1685,8 +1612,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-8",
-          "order": 8,
+          "id": "rhythm-6",
+          "order": 6,
           "time": "12:15-15:00",
           "title": "小红帽灯塔",
           "text": "驾车约164公里／约2小时45分直奔 Split Point Lighthouse（小红帽灯塔），午餐在车上解决；本日不去安格尔西（Anglesea），也不在洛恩（Lorne）坐下来吃饭。",
@@ -1697,8 +1624,8 @@
           "lng": 144.105
         },
         {
-          "id": "rhythm-9",
-          "order": 9,
+          "id": "rhythm-7",
+          "order": 7,
           "time": "15:00-15:30",
           "title": "灯塔外围观景步道",
           "text": "灯塔外围观景步道。",
@@ -1709,8 +1636,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-10",
-          "order": 10,
+          "id": "rhythm-8",
+          "order": 8,
           "time": "15:35-16:00",
           "title": "大洋路纪念拱门",
           "text": "Great Ocean Road Memorial Arch（大洋路纪念拱门）短停拍照。",
@@ -1721,8 +1648,8 @@
           "lng": 144.025
         },
         {
-          "id": "rhythm-11",
-          "order": 11,
+          "id": "rhythm-9",
+          "order": 9,
           "time": "16:20-16:45",
           "title": "泰迪观景台",
           "text": "Teddy’s Lookout（泰迪观景台）高位全景。",
@@ -1733,8 +1660,8 @@
           "lng": 143.975
         },
         {
-          "id": "rhythm-12",
-          "order": 12,
+          "id": "rhythm-10",
+          "order": 10,
           "time": "17:20-18:15",
           "title": "肯尼特河",
           "text": "肯尼特河（Kennett River）找野生考拉与 King Parrot（王鹦鹉）；黄昏正是考拉活动时段，比原方案的 14:00 更好。",
@@ -1745,8 +1672,8 @@
           "lng": 143.84
         },
         {
-          "id": "rhythm-13",
-          "order": 13,
+          "id": "rhythm-11",
+          "order": 11,
           "time": "18:45",
           "title": "阿波罗湾（住宿）",
           "text": "抵达阿波罗湾（Apollo Bay）入住；当日日落约 19:05-19:15，天黑前到达。",
@@ -1757,8 +1684,8 @@
           "lng": 143.67
         },
         {
-          "id": "rhythm-14",
-          "order": 14,
+          "id": "rhythm-12",
+          "order": 12,
           "time": "中止条件（任一触发即放弃火车）",
           "title": "07:35 仍未驶离码头",
           "text": "07:35 仍未驶离码头；或 09:25 未到 Belgrave 票房；或驾驶员夜航后明显困倦。放弃即损失约 A$87 车票，改走方案B。",
@@ -1769,8 +1696,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-15",
-          "order": 15,
+          "id": "rhythm-13",
+          "order": 13,
           "time": "方案B（不坐火车＝原方案，船晚到／疲劳时的默认）",
           "title": "07:00-08:00：下船、早餐、加油和简单补给",
           "text": "07:00-08:00：下船、早餐、加油和简单补给。",
@@ -1781,8 +1708,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-16",
-          "order": 16,
+          "id": "rhythm-14",
+          "order": 14,
           "time": "08:00-09:00",
           "title": "驾车约56公里前往安格尔西（Anglesea）",
           "text": "驾车约56公里前往安格尔西（Anglesea）。",
@@ -1793,8 +1720,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-17",
-          "order": 17,
+          "id": "rhythm-15",
+          "order": 15,
           "time": "09:00-09:40",
           "title": "安格尔西海滩",
           "text": "在Anglesea Beach（安格尔西海滩）吹海风、舒展身体。",
@@ -1805,8 +1732,8 @@
           "lng": 144.185
         },
         {
-          "id": "rhythm-18",
-          "order": 18,
+          "id": "rhythm-16",
+          "order": 16,
           "time": "09:40-10:00",
           "title": "驾车约10公里前往Split Point Lighthous…",
           "text": "驾车约10公里前往Split Point Lighthouse（小红帽灯塔）。",
@@ -1817,8 +1744,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-19",
-          "order": 19,
+          "id": "rhythm-17",
+          "order": 17,
           "time": "10:00-10:40",
           "title": "从外围观景步道看红顶白塔和鹰岩海岸",
           "text": "从外围观景步道看红顶白塔和鹰岩海岸；不把登塔导览设为硬任务。",
@@ -1829,8 +1756,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-20",
-          "order": 20,
+          "id": "rhythm-18",
+          "order": 18,
           "time": "10:40-11:05",
           "title": "驾车约16公里前往Great Ocean Road Memo…",
           "text": "驾车约16公里前往Great Ocean Road Memorial Arch（大洋路纪念拱门）。",
@@ -1841,8 +1768,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-21",
-          "order": 21,
+          "id": "rhythm-19",
+          "order": 19,
           "time": "11:05-11:25",
           "title": "在正式停车区短停拍照",
           "text": "在正式停车区短停拍照。",
@@ -1853,8 +1780,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-22",
-          "order": 22,
+          "id": "rhythm-20",
+          "order": 20,
           "time": "11:25-11:50",
           "title": "驾车约14公里到Teddy’s Lookout（泰迪观景台）",
           "text": "驾车约14公里到Teddy’s Lookout（泰迪观景台）。",
@@ -1865,8 +1792,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-23",
-          "order": 23,
+          "id": "rhythm-21",
+          "order": 21,
           "time": "11:50-12:20",
           "title": "俯瞰大洋路贴着海崖转弯、Saint George River…",
           "text": "俯瞰大洋路贴着海崖转弯、Saint George River（圣乔治河）汇入海湾的经典视角。",
@@ -1877,8 +1804,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-24",
-          "order": 24,
+          "id": "rhythm-22",
+          "order": 22,
           "time": "12:20-13:20",
           "title": "驾车约3公里进入洛恩（Lorne）午餐",
           "text": "驾车约3公里进入洛恩（Lorne）午餐。",
@@ -1889,8 +1816,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-25",
-          "order": 25,
+          "id": "rhythm-23",
+          "order": 23,
           "time": "13:20-14:00",
           "title": "驾车约24公里前往肯尼特河（Kennett River）",
           "text": "驾车约24公里前往肯尼特河（Kennett River）。",
@@ -1901,8 +1828,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-26",
-          "order": 26,
+          "id": "rhythm-24",
+          "order": 24,
           "time": "14:00-15:00",
           "title": "沿正式道路和步道寻找野生考拉、King Parrot（王鹦鹉…",
           "text": "沿正式道路和步道寻找野生考拉、King Parrot（王鹦鹉）等鸟类；不喂食、不进入居民私人地。",
@@ -1913,8 +1840,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-27",
-          "order": 27,
+          "id": "rhythm-25",
+          "order": 25,
           "time": "15:00-15:35",
           "title": "驾车约23公里抵达阿波罗湾（Apollo Bay）",
           "text": "驾车约23公里抵达阿波罗湾（Apollo Bay）。",
@@ -1925,8 +1852,8 @@
           "lng": null
         },
         {
-          "id": "rhythm-28",
-          "order": 28,
+          "id": "rhythm-26",
+          "order": 26,
           "time": "15:35以后",
           "title": "入住后在Apollo Bay Foreshore（阿波罗湾海…",
           "text": "入住后在Apollo Bay Foreshore（阿波罗湾海滨）轻松散步、用餐。若轮渡延误或夜航后疲劳，优先删减Anglesea Beach（安格尔西海滩）和灯塔停留，保留Memorial Arch（纪念拱门）、Teddy’s Lookout（泰迪观景台）、Kennett River（肯尼特河）及阿波罗湾住宿。",
@@ -1939,13 +1866,6 @@
       ],
       "unassigned": {
         "booking": [
-          "【待定-6】Puffing Billy 预约（若选方案A）：必须在官网提前买票，不售现场票，热门班次会提前售罄；",
-          "成人 A$43.50（Belgrave→Menzies Creek 往返，2026-04-01-2027-03-31 价目），两人约 A$87。",
-          "班次按官网 2026-07-20-12-21 的「周五至周日」时刻表：10:00 发车、11:55 回到 Belgrave。",
-          "2026-10-04 是维州春假最后一天（春假 9/19-10/4，10/5 开学），务必尽早下单，并在官网确认当日没有 special event 特殊时刻表。",
-          "购票页：官网时刻表与票价。",
-          "注意：本段是「船准点才坐」的条件式安排--船 07:00 抵港与 09:00 应到票房之间只有约1小时45分，恰好等于码头到 Belgrave 的车程，没有富余；",
-          "Spirit of Tasmania 延误较常见，务必把车票当成可作废的沉没成本，不要为了赶火车超速或放弃休息。",
           "预约：本日外围观景点均免费、无需预约。",
           "注意：夜航后驾驶员如困倦，应立即减少停靠点并休息；",
           "每驾驶约2小时至少休息15-20分钟。"
@@ -1968,10 +1888,6 @@
           {
             "label": "Google Maps导航",
             "url": "https://www.google.com/maps/search/?api=1&query=BIG4 Apollo Bay Pisces Holiday Park 311 Great Ocean Road Apollo Bay VIC"
-          },
-          {
-            "label": "官网时刻表与票价",
-            "url": "https://puffingbilly.com.au/timetable/"
           }
         ]
       }
@@ -1980,17 +1896,17 @@
       "day": 12,
       "date": "2026-10-05",
       "weekday": "周一",
-      "region": "阿波罗湾（Apollo Bay）-沉船海岸（Shipwreck Coast）-墨尔本（Melbourne）",
-      "route": "阿波罗湾（Apollo Bay）→ Maits Rest Rainforest Walk（梅茨雨林步道）→ Gibson Steps（吉布森阶梯）→ Twelve Apostles（十二门徒岩）→ 【待定-2】Loch Ard Gorge（洛克阿德峡谷，可选） → 坎贝尔港（Port Campbell）→ London Bridge（伦敦桥）→ The Grotto（石窟）→ 墨尔本（Melbourne）",
-      "lodging": "首选：West Melbourne／Southern Cross 酒店。\n车宿：本晚不建议；需整理行李并保证次日国际航班。市区路边、车站和普通停车场不作为车宿点。",
-      "schedule": "07:30-08:00：从阿波罗湾（Apollo Bay）驾车约17公里到Maits Rest Rainforest Walk（梅茨雨林步道）。\n08:00-09:00：完成约800米轻量环线，在高大的Myrtle Beech（桃金娘山毛榉）、树蕨和苔藓林下漫步。\n09:00-10:25：驾车约70公里前往Gibson Steps（吉布森阶梯）。\n10:25-11:10：视现场开放、潮位和浪况决定是否下到海滩；关闭时只在上方正式观景点停留。\n11:10-11:20：驾车约2公里到Twelve Apostles（十二门徒岩）。\n11:20-12:20：走主观景台观看石灰岩柱和南大洋海岸。\n【待定-2】可选 12:20-12:50：驾车约2-3公里到 Loch Ard Gorge（洛克阿德峡谷）短停约20-40分钟；进度落后则跳过。\n12:20／12:50-13:10：驾车约10-12公里到坎贝尔港（Port Campbell）。\n13:10-13:55：午餐、加油和短暂休整。\n13:55-14:20：驾车约18公里到London Bridge（伦敦桥）。\n14:20-14:45：从正式观景台看海蚀拱门与坍塌后的地貌。\n14:45-14:55：驾车约4公里返回The Grotto（石窟）。\n14:55-15:20：沿台阶到正式观景位看洞穴、sinkhole与海蚀拱门形成的框景。\n15:20-18:55：驾车约230公里返回墨尔本（Melbourne），途中至少休息20分钟；入住West Melbourne／Southern Cross附近酒店。若天气或进度落后，优先删除【待定-2】Loch Ard，再删减London Bridge（伦敦桥）和The Grotto（石窟）中的一个，保证天黑前完成主要乡间路段。",
-      "highlights": "Maits Rest Rainforest Walk（梅茨雨林步道）：约800米、通常20-30分钟的轻量环线，以古老Myrtle Beech（桃金娘山毛榉）、巨大树蕨、苔藓和湿润雨林声景为特色；清晨光线柔和、游客较少，也最符合你的轻量徒步需求。\nGibson Steps（吉布森阶梯）：从海滩高度仰望高崖和Gog／Magog岩柱，尺度感与十二门徒主观景台完全不同；上午且低潮、风浪温和、步道开放时最好。\nTwelve Apostles（十二门徒岩）：石灰岩海岸经历海蚀洞-拱门-孤柱的持续演化；虽然本次不是日落时段，中午前后仍可清楚观察海岸结构。\nPort Campbell（坎贝尔港）：受保护的小海湾、渔港和沉船海岸补给中心是特色；本日用作午餐和恢复体力。\nLondon Bridge（伦敦桥）：1990年连接陆地的拱桥部分突然坍塌，留下独立海蚀拱门；下午侧光有助于表现岩层。\nThe Grotto（石窟）：sinkhole、洞穴与拱门叠成天然画框；下午光线足、潮位适中时层次最好。",
-      "booking": "预约：Maits Rest Rainforest Walk（梅茨雨林步道）、Gibson Steps（吉布森阶梯）、Twelve Apostles（十二门徒岩）、London Bridge（伦敦桥）和The Grotto（石窟）均免费、无需门票预约。出发前查看Parks Victoria的changed conditions／closures；Maits Rest官方页面。\n注意：Gibson Steps（吉布森阶梯）受落石、潮位和大浪影响，关闭时绝不翻越闸门；Maits Rest木栈道雨后湿滑，穿防滑鞋。最后返回墨尔本约230公里，15:10左右必须离开沉船海岸；如当天疲劳或天气恶化，减少观景点，不以赶景点为代价夜间疲劳驾驶。",
-      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "region": "阿波罗湾（Apollo Bay）-沉船海岸（Shipwreck Coast）-St Kilda-墨尔本（Melbourne）",
+      "route": "阿波罗湾（Apollo Bay）→ Maits Rest Rainforest Walk（梅茨雨林步道）→ Gibson Steps（吉布森阶梯）→ Twelve Apostles（十二门徒岩）→ Loch Ard Gorge（洛克阿德峡谷，可选短停）→ 坎贝尔港（Port Campbell）→ St Kilda Pier／Breakwater企鹅观赏平台 → 墨尔本（Melbourne）",
+      "lodging": "首选：West Melbourne／Southern Cross酒店。\n关键：先去St Kilda看企鹅，观赏后才回酒店；本晚不车宿。",
+      "schedule": "07:30-08:00：从阿波罗湾（Apollo Bay）驾车约17公里到Maits Rest Rainforest Walk（梅茨雨林步道）。\n08:00-08:40：完成约800米轻量环线；若步道仍关闭则直接跳过。\n08:40-10:05：驾车约70公里前往Gibson Steps（吉布森阶梯）。\n10:05-10:35：只做开放区域短停；关闭时不下海滩。\n10:35-10:45：驾车约2公里到Twelve Apostles（十二门徒岩）。\n10:45-11:45：保留完整主观景台时间。\n11:45-12:15：可选前往Loch Ard Gorge（洛克阿德峡谷）短停约20分钟；任何延误都直接跳过。\n12:15-13:00：到坎贝尔港（Port Campbell）完成外带午餐、加油和洗手间，不安排坐下正餐。\n最迟14:15-14:30：必须离开沉船海岸，London Bridge（伦敦桥）与The Grotto（石窟）本次取消；直接驶往St Kilda，不先回West Melbourne酒店。\n约17:45-18:15：抵达St Kilda周边，按现场规则停车；停车有限，预留步行和排队余量。\n约18:15-19:30：步行进入St Kilda Pier，平台入口在码头内约450米；提前到Breakwater高架观赏平台候场。\n约19:57：目标参加第一场小蓝企鹅归巢观赏；2026-10-05日落约19:27 AEDT，第一场暂按日落后约30分钟估算，最终以票面为准。若只抢到第二场，则约20:57。\n观赏后：再前往West Melbourne／Southern Cross附近酒店入住并整理次日航班行李。",
+      "highlights": "Twelve Apostles（十二门徒岩）：保留本日完整主观景台时间，是沉船海岸硬任务。\nLoch Ard Gorge（洛克阿德峡谷）：仅作为约20分钟顺路可选短停，不得挤占离开海岸硬截止。\nSt Kilda小蓝企鹅：在St Kilda Pier／Breakwater高架平台合规观看归巢；免费但必须持票。",
+      "booking": "St Kilda票务：penguins.org.au周二10:00开放未来一周免费票，热门易满；【待定-2】目标第一场，暂估约19:57；第二场约20:57，最终以票面为准。\n现场：停车有限；平台入口位于码头内约450米，必须预留停车、步行与排队时间。\n删减：London Bridge与The Grotto已改为本次不看；不得先回酒店。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾／大奥特韦约6-17°C，沉船海岸约8-17°C，墨尔本约9-20°C；海岸强风、急雨和海雾变化快。出发前复查Parks Victoria关闭信息与墨尔本逐小时天气。",
       "links": [
         {
-          "label": "Maits Rest官方页面",
-          "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
+          "label": "penguins.org.au",
+          "url": "https://www.penguins.org.au/"
         }
       ],
       "rhythm": [
@@ -2009,9 +1925,9 @@
         {
           "id": "rhythm-2",
           "order": 2,
-          "time": "08:00-09:00",
-          "title": "完成约800米轻量环线，在高大的Myrtle Beech（桃…",
-          "text": "完成约800米轻量环线，在高大的Myrtle Beech（桃金娘山毛榉）、树蕨和苔藓林下漫步。",
+          "time": "08:00-08:40",
+          "title": "完成约800米轻量环线",
+          "text": "完成约800米轻量环线；若步道仍关闭则直接跳过。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -2021,7 +1937,7 @@
         {
           "id": "rhythm-3",
           "order": 3,
-          "time": "09:00-10:25",
+          "time": "08:40-10:05",
           "title": "吉布森阶梯",
           "text": "驾车约70公里前往Gibson Steps（吉布森阶梯）。",
           "placeId": "d12-02",
@@ -2033,9 +1949,9 @@
         {
           "id": "rhythm-4",
           "order": 4,
-          "time": "10:25-11:10",
-          "title": "视现场开放、潮位和浪况决定是否下到海滩",
-          "text": "视现场开放、潮位和浪况决定是否下到海滩；关闭时只在上方正式观景点停留。",
+          "time": "10:05-10:35",
+          "title": "只做开放区域短停",
+          "text": "只做开放区域短停；关闭时不下海滩。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -2045,21 +1961,21 @@
         {
           "id": "rhythm-5",
           "order": 5,
-          "time": "11:10-11:20",
+          "time": "10:35-10:45",
           "title": "十二门徒岩",
           "text": "驾车约2公里到Twelve Apostles（十二门徒岩）。",
           "placeId": "d12-03",
           "sequence": 3,
-          "priority": "optional",
+          "priority": "main",
           "lat": -38.6655,
           "lng": 143.1048
         },
         {
           "id": "rhythm-6",
           "order": 6,
-          "time": "11:20-12:20",
-          "title": "走主观景台观看石灰岩柱和南大洋海岸",
-          "text": "走主观景台观看石灰岩柱和南大洋海岸。",
+          "time": "10:45-11:45",
+          "title": "保留完整主观景台时间",
+          "text": "保留完整主观景台时间。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -2069,11 +1985,11 @@
         {
           "id": "rhythm-7",
           "order": 7,
-          "time": "12:20-12:50",
+          "time": "11:45-12:15",
           "title": "洛克阿德峡谷",
-          "text": "驾车约2-3公里到 Loch Ard Gorge（洛克阿德峡谷）短停约20-40分钟；进度落后则跳过。",
+          "text": "可选前往Loch Ard Gorge（洛克阿德峡谷）短停约20分钟；任何延误都直接跳过。",
           "placeId": "wv-loch",
-          "sequence": 8,
+          "sequence": 4,
           "priority": "optional",
           "lat": -38.647,
           "lng": 143.07
@@ -2081,11 +1997,11 @@
         {
           "id": "rhythm-8",
           "order": 8,
-          "time": "12:20／12:50-13:10",
+          "time": "12:15-13:00",
           "title": "坎贝尔港",
-          "text": "驾车约10-12公里到坎贝尔港（Port Campbell）。",
+          "text": "到坎贝尔港（Port Campbell）完成外带午餐、加油和洗手间，不安排坐下正餐。",
           "placeId": "d12-04",
-          "sequence": 4,
+          "sequence": 5,
           "priority": "main",
           "lat": -38.619,
           "lng": 142.995
@@ -2093,9 +2009,9 @@
         {
           "id": "rhythm-9",
           "order": 9,
-          "time": "13:10-13:55",
-          "title": "午餐、加油和短暂休整",
-          "text": "午餐、加油和短暂休整。",
+          "time": "最迟14:15-14:30",
+          "title": "必须离开沉船海岸，London Bridge（伦敦桥）与Th…",
+          "text": "必须离开沉船海岸，London Bridge（伦敦桥）与The Grotto（石窟）本次取消；直接驶往St Kilda，不先回West Melbourne酒店。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -2105,45 +2021,33 @@
         {
           "id": "rhythm-10",
           "order": 10,
-          "time": "13:55-14:20",
-          "title": "伦敦桥",
-          "text": "驾车约18公里到London Bridge（伦敦桥）。",
-          "placeId": "d12-05",
-          "sequence": 5,
-          "priority": "main",
-          "lat": -38.62,
-          "lng": 142.93
+          "time": "约17:45-18:15",
+          "title": "抵达St Kilda周边，按现场规则停车",
+          "text": "抵达St Kilda周边，按现场规则停车；停车有限，预留步行和排队余量。",
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
         },
         {
           "id": "rhythm-11",
           "order": 11,
-          "time": "14:20-14:45",
-          "title": "从正式观景台看海蚀拱门与坍塌后的地貌",
-          "text": "从正式观景台看海蚀拱门与坍塌后的地貌。",
-          "placeId": null,
-          "sequence": null,
-          "priority": null,
-          "lat": null,
-          "lng": null
+          "time": "约18:15-19:30",
+          "title": "圣基尔达企鹅观赏平台",
+          "text": "步行进入St Kilda Pier，平台入口在码头内约450米；提前到Breakwater高架观赏平台候场。",
+          "placeId": "d12-08",
+          "sequence": 6,
+          "priority": "main",
+          "lat": -37.8648,
+          "lng": 144.9731
         },
         {
           "id": "rhythm-12",
           "order": 12,
-          "time": "14:45-14:55",
-          "title": "石窟",
-          "text": "驾车约4公里返回The Grotto（石窟）。",
-          "placeId": "d12-06",
-          "sequence": 6,
-          "priority": "main",
-          "lat": -38.615,
-          "lng": 142.91
-        },
-        {
-          "id": "rhythm-13",
-          "order": 13,
-          "time": "14:55-15:20",
-          "title": "沿台阶到正式观景位看洞穴、sinkhole与海蚀拱门形成的框…",
-          "text": "沿台阶到正式观景位看洞穴、sinkhole与海蚀拱门形成的框景。",
+          "time": "约19:57",
+          "title": "目标参加第一场小蓝企鹅归巢观赏",
+          "text": "目标参加第一场小蓝企鹅归巢观赏；2026-10-05日落约19:27 AEDT，第一场暂按日落后约30分钟估算，最终以票面为准。若只抢到第二场，则约20:57。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -2151,11 +2055,11 @@
           "lng": null
         },
         {
-          "id": "rhythm-14",
-          "order": 14,
-          "time": "15:20-18:55",
+          "id": "rhythm-13",
+          "order": 13,
+          "time": "观赏后",
           "title": "墨尔本（住宿）",
-          "text": "驾车约230公里返回墨尔本（Melbourne），途中至少休息20分钟；入住West Melbourne／Southern Cross附近酒店。若天气或进度落后，优先删除【待定-2】Loch Ard，再删减London Bridge（伦敦桥）和The Grotto（石窟）中的一个，保证天黑前完成主要乡间路段。",
+          "text": "再前往West Melbourne／Southern Cross附近酒店入住并整理次日航班行李。",
           "placeId": "d12-07",
           "sequence": 7,
           "priority": "main",
@@ -2164,12 +2068,23 @@
         }
       ],
       "unassigned": {
-        "booking": [],
-        "highlights": [],
-        "weather": [
-          "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；"
+        "booking": [
+          "St Kilda票务：penguins.org.au周二10:00开放未来一周免费票，热门易满；",
+          "【待定-2】目标第一场，暂估约19:57；",
+          "第二场约20:57，最终以票面为准。",
+          "现场：停车有限；",
+          "平台入口位于码头内约450米，必须预留停车、步行与排队时间。",
+          "删减：London Bridge与The Grotto已改为本次不看；",
+          "不得先回酒店。"
         ],
-        "links": []
+        "highlights": [],
+        "weather": [],
+        "links": [
+          {
+            "label": "penguins.org.au",
+            "url": "https://www.penguins.org.au/"
+          }
+        ]
       }
     },
     {
@@ -4969,10 +4884,10 @@
       "status": "visit",
       "order_in_day": 1,
       "highlights": "弧形白沙湾、蓝绿色海水和粉红花岗岩山体；上午09:00-11:00光线已足以呈现水色。",
-      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）／比舍诺（Bicheno）约7-17°C，朗塞斯顿（Launceston）约6-17°C；上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间。",
+      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾约7-17°C，朗塞斯顿约6-17°C；上午步道可能湿滑，沿途可能有阵雨和侧风。",
       "duration": "约1.5-2小时",
       "transport": "往返步行约2.6公里Grade 3",
-      "notes": "不下海滩；需有效parks pass。\n\n【愿望清单·景点／自然】\nHazards 花岗岩山体、白沙湾与 sheltered coves 是核心。Lookout 往返与下到海滩是两种完全不同的体力安排。\n深度补充：Hazards山体由粉红花岗岩构成，白沙湾、蓝绿色浅水和sheltered coves形成强烈色彩对比。Lookout与下到海滩体力差异大；本行程只做观景台，可避免占用额外2-3小时。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\nFreycinet Peninsula 属于 Oyster Bay nation、toorerno-maire-mener clan 的文化范围。欧洲名称来自法国航海者；理解地名能避免把海湾只看成明信片。\n深度补充：半岛位于Oyster Bay nation相关Country；欧洲名称来自法国航海探测。Wineglass Bay名称常被附会为捕鲸血水，证据并不统一，阅读时应区分有文献支持的历史和旅游传说。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/1上午已纳入主行程：约08:30-10:15完成Wineglass Bay Lookout（酒杯湾观景台）往返，晴朗白天可清楚看见弧形白沙、蓝绿色海水与Hazards（哈泽兹山脉）；不再坚持晚霞，以便当晚参加比舍诺企鹅归巢团。\n已纳入本次行程",
+      "notes": "不下海滩；需有效parks pass。\n\n【愿望清单·景点／自然】\nHazards 花岗岩山体、白沙湾与 sheltered coves 是核心。Lookout 往返与下到海滩是两种完全不同的体力安排。\n深度补充：Hazards山体由粉红花岗岩构成，白沙湾、蓝绿色浅水和sheltered coves形成强烈色彩对比。Lookout与下到海滩体力差异大；本行程只做观景台，可避免占用额外2-3小时。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\nFreycinet Peninsula 属于 Oyster Bay nation、toorerno-maire-mener clan 的文化范围。欧洲名称来自法国航海者；理解地名能避免把海湾只看成明信片。\n深度补充：半岛位于Oyster Bay nation相关Country；欧洲名称来自法国航海探测。Wineglass Bay名称常被附会为捕鲸血水，证据并不统一，阅读时应区分有文献支持的历史和旅游传说。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/1上午已纳入主行程：约08:30-10:15完成Wineglass Bay Lookout（酒杯湾观景台）往返，晴朗白天可清楚看见弧形白沙、蓝绿色海水与Hazards（哈泽兹山脉）；午餐后直接驾车前往朗塞斯顿，不再前往比舍诺。\n已纳入本次行程",
       "lat": -42.145,
       "lng": 148.29,
       "geocode_source": "known",
@@ -4981,7 +4896,7 @@
         "practical": "不下海滩；需有效parks pass。",
         "nature": "Hazards 花岗岩山体、白沙湾与 sheltered coves 是核心。Lookout 往返与下到海滩是两种完全不同的体力安排。\n深度补充：Hazards山体由粉红花岗岩构成，白沙湾、蓝绿色浅水和sheltered coves形成强烈色彩对比。Lookout与下到海滩体力差异大；本行程只做观景台，可避免占用额外2-3小时。\n扩展阅读：景点／自然官方资料",
         "culture": "Freycinet Peninsula 属于 Oyster Bay nation、toorerno-maire-mener clan 的文化范围。欧洲名称来自法国航海者；理解地名能避免把海湾只看成明信片。\n深度补充：半岛位于Oyster Bay nation相关Country；欧洲名称来自法国航海探测。Wineglass Bay名称常被附会为捕鲸血水，证据并不统一，阅读时应区分有文献支持的历史和旅游传说。\n扩展阅读：人文／历史延伸阅读",
-        "suggestion": "10/1上午已纳入主行程：约08:30-10:15完成Wineglass Bay Lookout（酒杯湾观景台）往返，晴朗白天可清楚看见弧形白沙、蓝绿色海水与Hazards（哈泽兹山脉）；不再坚持晚霞，以便当晚参加比舍诺企鹅归巢团。\n已纳入本次行程"
+        "suggestion": "10/1上午已纳入主行程：约08:30-10:15完成Wineglass Bay Lookout（酒杯湾观景台）往返，晴朗白天可清楚看见弧形白沙、蓝绿色海水与Hazards（哈泽兹山脉）；午餐后直接驾车前往朗塞斯顿，不再前往比舍诺。\n已纳入本次行程"
       },
       "links": [
         {
@@ -5000,12 +4915,11 @@
       "sequence": 1,
       "dayInfo": {
         "booking": [
-          "Wineglass Bay Lookout（酒杯湾观景台）官方为2.6公里往返、1-1.5小时、Grade 3，坡陡且台阶多。"
+          "Wineglass Bay Lookout官方为2.6公里往返、1-1.5小时、Grade 3。"
         ],
         "highlights": [
-          "Wineglass Bay Lookout（酒杯湾观景台）：标志性的弧形白沙湾、蓝绿色海水和粉红花岗岩山体在晴朗白天同样是核心景观，不依赖晚霞；",
-          "上午约09:00-11:00光线已足以呈现水色，通常也比傍晚从容。",
-          "本方案只走观景台往返线。"
+          "Wineglass Bay Lookout（酒杯湾观景台）：保留上午完整观景窗口；",
+          "晴朗白天即可看清弧形白沙、蓝绿色海水与Hazards（哈泽兹山脉）。"
         ],
         "weather": [],
         "links": []
@@ -5015,7 +4929,7 @@
         "granularity": "nearby",
         "basis": "科尔斯湾（Coles Bay）",
         "note": "",
-        "dayAdvisory": "上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间",
+        "dayAdvisory": "上午步道可能湿滑，沿途可能有阵雨和侧风。带防风防水层、防滑鞋；出发前一天复查BOM与Freycinet步道警报",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "attraction",
@@ -5034,8 +4948,8 @@
             "distance": "距 Wineglass Bay 步道停车场约 2 公里，位于 Freycinet Lodge",
             "priceLevel": null,
             "cuisine": "海鲜、汉堡、牛排与小食",
-            "recommended": "官方页面明确列出 seafood、lodge burgers、steak、grazing plates 和甜点，全天候餐饮比镇上更靠近国家公园步道。",
-            "hours": null,
+            "recommended": "官方页面明确列出 seafood、lodge burgers、steak、grazing plates 和甜点，全天候餐饮比镇上更靠近国家公园步道。官网标注冬季暂时关闭、菜单改在 Hazards Bar and Lounge 供应（每日 10:00 起，餐点供应至 19:00）；10 月初通常已过冬季但未见明确复业日期，出发前先电话 03 6256 7222 确认。",
+            "hours": "冬季暂停；复业时段以官网与电话确认为准",
             "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504299-d2324743-Reviews-Richardson_s_Bistro-Freycinet_Glamorgan_Spring_Bay_Tasmania.html"
           },
           {
@@ -5118,7 +5032,7 @@
       "status": "visit",
       "order_in_day": 2,
       "highlights": "约600米轻量环线；高处看菲欣纳海岸、The Nuggets和外海；可岸观鲸类。",
-      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）／比舍诺（Bicheno）约7-17°C，朗塞斯顿（Launceston）约6-17°C；上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间。",
+      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾约7-17°C，朗塞斯顿约6-17°C；上午步道可能湿滑，沿途可能有阵雨和侧风。",
       "duration": "约40分钟",
       "transport": "驾车约7公里",
       "notes": "白天视野最好。",
@@ -5133,10 +5047,7 @@
       "sequence": 2,
       "dayInfo": {
         "booking": [],
-        "highlights": [
-          "Cape Tourville Lighthouse Walk（图维尔角灯塔步道）：600米左右轻量环线以外海、岛礁和Freycinet（菲欣纳）海岸全景为特色；",
-          "白天视野最好，春季可带望远镜岸观鲸类。"
-        ],
+        "highlights": [],
         "weather": [],
         "links": []
       },
@@ -5145,7 +5056,7 @@
         "granularity": "nearby",
         "basis": "科尔斯湾（Coles Bay）",
         "note": "",
-        "dayAdvisory": "上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间",
+        "dayAdvisory": "上午步道可能湿滑，沿途可能有阵雨和侧风。带防风防水层、防滑鞋；出发前一天复查BOM与Freycinet步道警报",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "attraction",
@@ -5164,8 +5075,8 @@
             "distance": "距 Cape Tourville 约 7.5 公里",
             "priceLevel": null,
             "cuisine": "海鲜、汉堡与牛排",
-            "recommended": "Freycinet Lodge 内的就近正式餐饮，官网列出海鲜、汉堡、牛排和 grazing plates，适合灯塔步道前后用餐。",
-            "hours": null,
+            "recommended": "Freycinet Lodge 内的就近正式餐饮，官网列出海鲜、汉堡、牛排和 grazing plates，适合灯塔步道前后用餐。官网标注冬季暂时关闭、菜单改在 Hazards Bar and Lounge 供应（每日 10:00 起，餐点供应至 19:00）；10 月初通常已过冬季但未见明确复业日期，出发前先电话 03 6256 7222 确认。",
+            "hours": "冬季暂停；复业时段以官网与电话确认为准",
             "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504299-d2324743-Reviews-Richardson_s_Bistro-Freycinet_Glamorgan_Spring_Bay_Tasmania.html"
           },
           {
@@ -5243,7 +5154,7 @@
       "status": "visit",
       "order_in_day": 3,
       "highlights": "海湾短停、休息和拍摄花岗岩海岸。",
-      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）／比舍诺（Bicheno）约7-17°C，朗塞斯顿（Launceston）约6-17°C；上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间。",
+      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾约7-17°C，朗塞斯顿约6-17°C；上午步道可能湿滑，沿途可能有阵雨和侧风。",
       "duration": "约35分钟",
       "transport": "驾车约6公里",
       "notes": "轻量短停。",
@@ -5258,7 +5169,9 @@
       "sequence": 3,
       "dayInfo": {
         "booking": [],
-        "highlights": [],
+        "highlights": [
+          "Cape Tourville／Honeymoon Bay：保持轻量短停。"
+        ],
         "weather": [],
         "links": []
       },
@@ -5267,7 +5180,7 @@
         "granularity": "nearby",
         "basis": "科尔斯湾（Coles Bay）",
         "note": "",
-        "dayAdvisory": "上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间",
+        "dayAdvisory": "上午步道可能湿滑，沿途可能有阵雨和侧风。带防风防水层、防滑鞋；出发前一天复查BOM与Freycinet步道警报",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "attraction",
@@ -5286,8 +5199,8 @@
             "distance": "距 Honeymoon Bay 约 1 公里",
             "priceLevel": null,
             "cuisine": "海鲜、汉堡、牛排与小食",
-            "recommended": "这是距海湾最近的正式餐饮，官网列出 seafood、lodge burgers、steak 和 grazing plates；适合不想自备野餐的游客。",
-            "hours": null,
+            "recommended": "这是距海湾最近的正式餐饮，官网列出 seafood、lodge burgers、steak 和 grazing plates；适合不想自备野餐的游客。官网标注冬季暂时关闭、菜单改在 Hazards Bar and Lounge 供应（每日 10:00 起，餐点供应至 19:00）；10 月初通常已过冬季但未见明确复业日期，出发前先电话 03 6256 7222 确认。",
+            "hours": "冬季暂停；复业时段以官网与电话确认为准",
             "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504299-d2324743-Reviews-Richardson_s_Bistro-Freycinet_Glamorgan_Spring_Bay_Tasmania.html"
           },
           {
@@ -5357,189 +5270,38 @@
       }
     },
     {
-      "id": "d8-04",
-      "name": "比舍诺企鹅归巢团",
-      "name_en": "Bicheno Penguin Tours, Bicheno TAS",
-      "day": 8,
-      "date": "2026-10-01",
-      "status": "visit",
-      "order_in_day": 4,
-      "highlights": "私人修复栖息地、低干扰照明和向导讲解；日落后首批小蓝企鹅上岸。",
-      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）／比舍诺（Bicheno）约7-17°C，朗塞斯顿（Launceston）约6-17°C；上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间。",
-      "duration": "约50分钟（约19:30-20:30）",
-      "transport": "1/70 Burgess Street签到",
-      "notes": "成人AUD76/人须预约；禁闪光灯；团后夜间驾车约160公里去朗塞斯顿。\n\n【愿望清单·景点／自然】\n小蓝企鹅通常在日落后归巢，低光、安静和不使用闪光灯是基本规则；导览比自行寻找更可控。\n深度补充：小蓝企鹅在海上觅食后于日落后归巢，数量、登陆位置和时间受季节与海况影响。合规导览使用低干扰照明并限制距离；闪光灯、追逐和堵住通道都会伤害繁殖行为。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n企鹅观赏体现旅游与野生动物栖息地之间的边界。网上“追着企鹅拍”不是可复制的体验，应服从向导和照明限制。\n深度补充：企鹅旅游展示现代野生动物管理的核心矛盾：游客想更近，保护则要求更暗、更安静和更可预测。选择有规则的导览而非自行寻找，体现对栖息地的尊重。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/1已纳入主行程：白天完成Wineglass Bay（酒杯湾）沿线后前往比舍诺（Bicheno），预订Bicheno Penguin Tours（比舍诺企鹅归巢团）繁殖季首场；团后驾车约160公里到朗塞斯顿（Launceston）。\n已纳入本次行程",
-      "lat": -41.873,
-      "lng": 148.301,
-      "geocode_source": "known",
-      "priority": "main",
-      "sections": {
-        "practical": "成人AUD76/人须预约；禁闪光灯；团后夜间驾车约160公里去朗塞斯顿。",
-        "nature": "小蓝企鹅通常在日落后归巢，低光、安静和不使用闪光灯是基本规则；导览比自行寻找更可控。\n深度补充：小蓝企鹅在海上觅食后于日落后归巢，数量、登陆位置和时间受季节与海况影响。合规导览使用低干扰照明并限制距离；闪光灯、追逐和堵住通道都会伤害繁殖行为。\n扩展阅读：景点／自然官方资料",
-        "culture": "企鹅观赏体现旅游与野生动物栖息地之间的边界。网上“追着企鹅拍”不是可复制的体验，应服从向导和照明限制。\n深度补充：企鹅旅游展示现代野生动物管理的核心矛盾：游客想更近，保护则要求更暗、更安静和更可预测。选择有规则的导览而非自行寻找，体现对栖息地的尊重。\n扩展阅读：人文／历史延伸阅读",
-        "suggestion": "10/1已纳入主行程：白天完成Wineglass Bay（酒杯湾）沿线后前往比舍诺（Bicheno），预订Bicheno Penguin Tours（比舍诺企鹅归巢团）繁殖季首场；团后驾车约160公里到朗塞斯顿（Launceston）。\n已纳入本次行程"
-      },
-      "links": [
-        {
-          "label": "景点／自然官方资料",
-          "url": "https://www.bichenopenguintours.com.au/"
-        },
-        {
-          "label": "人文／历史延伸阅读",
-          "url": "https://nre.tas.gov.au/wildlife-management/fauna-of-tasmania/birds/complete-list-of-tasmanian-birds/little-penguin"
-        }
-      ],
-      "sequence": 4,
-      "dayInfo": {
-        "booking": [
-          "Bicheno Penguin Tours（比舍诺企鹅归巢团）必须预约：9月至1月成人AUD 76／人；",
-          "官方建议提前数周预订，所有游客自行到1/70 Burgess Street集合，不提供住宿接送。",
-          "官方预订。",
-          "季节场次约19:30-21:30之间随日暮安排，优先订当晚第一场；",
-          "票面时间优先于本表。",
-          "禁止闪光灯、追逐和堵住企鹅通道。"
-        ],
-        "highlights": [
-          "Bicheno Penguin Tours（比舍诺企鹅归巢团）：私人修复栖息地、低干扰照明和向导讲解比自行追企鹅更稳定；",
-          "最佳就是日落后首批企鹅上岸的官方场次。",
-          "9月至1月处繁殖季，动物数量和具体出现时间仍不保证。"
-        ],
-        "weather": [],
-        "links": [
-          {
-            "label": "官方预订",
-            "url": "https://bichenopenguintours.com.au/make-a-booking"
-          }
-        ]
-      },
-      "weatherDetail": {
-        "temperatureRange": "7-17°C",
-        "granularity": "nearby",
-        "basis": "比舍诺（Bicheno）",
-        "note": "",
-        "dayAdvisory": "上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间",
-        "source": "长年气候参考，非逐日预报"
-      },
-      "category": "attraction",
-      "food": {
-        "summary": "报到点位于 Bicheno 镇中心，附近有 pizza、海鲜和咖啡；应在黄昏团集合前留足用餐时间。",
-        "restaurants": [
-          {
-            "name": "Food 'n' Brew Co",
-            "nameEn": "Food 'n' Brew Co",
-            "lat": -41.875283,
-            "lng": 148.303538,
-            "rating": 4.4,
-            "ratingCount": 2332,
-            "ratingSource": "Google 地图（Menuweb 页面汇总）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "与 Penguin Tours 同在 70 Burgess Street，步行即到",
-            "priceLevel": null,
-            "cuisine": "木烤 pizza、现代澳式餐与咖啡",
-            "recommended": "官网主打 woodfired pizza、fresh catches、塔州食材、craft beer 和 wine；可堂食或外带，适合企鹅团前提前吃晚餐。",
-            "hours": "每日午餐与晚餐 12:00–19:30；周末早餐 08:30–11:30",
-            "sourceUrl": "https://foodbrew.com.au/"
-          },
-          {
-            "name": "Lobster Shack Tasmania",
-            "nameEn": "Lobster Shack Tasmania",
-            "lat": -41.87458,
-            "lng": 148.310715,
-            "rating": 4.3,
-            "ratingCount": null,
-            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Penguin Tours 约 800 米，位于 The Gulch 海边",
-            "priceLevel": "公开游记估算约 A$30/人，价格以现场菜单为准",
-            "cuisine": "Southern Rock Lobster 与本地海鲜",
-            "recommended": "官网明确以 Southern Rock Lobster 为主角；公开到访资料推荐 lobster roll、oysters 和 prawns，适合较早吃海鲜晚餐。",
-            "hours": "每日约 11:00–19:00；以官网当天信息为准",
-            "sourceUrl": "https://lobstershacktasmania.com.au/"
-          },
-          {
-            "name": "The Pondering Frog",
-            "nameEn": "The Pondering Frog",
-            "lat": -41.8275,
-            "lng": 148.2705,
-            "rating": 4.5,
-            "ratingCount": 593,
-            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Bicheno 镇中心约 6 公里，需驾车",
-            "priceLevel": null,
-            "cuisine": "咖啡馆、甜点与冰淇淋",
-            "recommended": "公开评论多提到冰淇淋、甜点与公路停靠体验，适合白天进镇前补给；不适合在企鹅团临近集合时再往返。",
-            "hours": null,
-            "sourceUrl": "https://restaurantguru.com/Pondering-Frog-Bicheno"
-          }
-        ]
-      },
-      "parking": {
-        "summary": "Bicheno Penguin Tours 店外有充足免费停车，集合后由旅游车送往私人企鹅栖息地。",
-        "lots": [
-          {
-            "name": "Bicheno Penguin Tours Car Park",
-            "nameEn": "Bicheno Penguin Tours Car Park",
-            "lat": -41.875162,
-            "lng": 148.303386,
-            "fee": "free",
-            "feeNote": "游客免费",
-            "capacity": "官网称有充足车位，未公布数量",
-            "surface": "沥青",
-            "note": "停车在 70 Burgess Street 店外；报到后乘小巴前往私人 rookery，不需自己驾车去观企鹅点。"
-          }
-        ],
-        "rules": [
-          "团次在黄昏出发，具体集合时间以预订确认为准。",
-          "车辆留在店外停车区，游客乘官方小巴前往企鹅栖息地。",
-          "夜间离场时注意 Burgess Street 行人和野生动物。"
-        ],
-        "sources": [
-          {
-            "label": "Bicheno Penguin Tours FAQ",
-            "url": "https://bichenopenguintours.com.au/faqs"
-          },
-          {
-            "label": "Bicheno Penguin Tours Contact",
-            "url": "https://bichenopenguintours.com.au/contact-us"
-          }
-        ]
-      }
-    },
-    {
       "id": "d8-05",
       "name": "朗塞斯顿（住宿）",
       "name_en": "Launceston, Tasmania",
       "day": 8,
       "date": "2026-10-01",
       "status": "visit",
-      "order_in_day": 5,
-      "highlights": "overnight固定住宿，靠近次日通往塔玛河谷道路。",
-      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）／比舍诺（Bicheno）约7-17°C，朗塞斯顿（Launceston）约6-17°C；上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间。",
+      "order_in_day": 4,
+      "highlights": "下午抵达朗塞斯顿，固定住宿并为次日塔玛河谷行程休息。",
+      "weather": "天气（长年气候参考，非逐日预报）：科尔斯湾约7-17°C，朗塞斯顿约6-17°C；上午步道可能湿滑，沿途可能有阵雨和侧风。",
       "duration": "过夜",
-      "transport": "驾车约160公里自比舍诺",
-      "notes": "首选Peppers Silo Hotel；须late check-in。",
+      "transport": "约13:00自科尔斯湾出发，驾车约176公里／预留2.5小时",
+      "notes": "首选Peppers Silo Hotel；预计15:20-15:40抵达，不再夜驾。",
       "lat": -41.4332,
       "lng": 147.1441,
       "geocode_source": "known",
       "priority": "main",
       "sections": {
-        "practical": "首选Peppers Silo Hotel；须late check-in。"
+        "practical": "首选Peppers Silo Hotel；预计15:20-15:40抵达，不再夜驾。"
       },
       "links": [],
-      "sequence": 5,
+      "sequence": 4,
       "dayInfo": {
         "booking": [
-          "夜间驾驶：比舍诺至朗塞斯顿约160公里／2小时，途经Lake Leake Highway；",
-          "补满油、降低车速并留意袋鼠、沙袋鼠和袋熊。",
-          "驾驶员若明显困倦，必须在安全地点休息，不以赶酒店预计时间为目标。"
+          "驾驶：约13:00从Coles Bay直达Launceston，约176公里，按2.5小时预留；",
+          "全程白天完成。"
         ],
         "highlights": [],
         "weather": [
-          "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）／比舍诺（Bicheno）约7-17°C，朗塞斯顿（Launceston）约6-17°C；",
-          "上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。",
-          "带防风防水层、保暖衣物、防滑鞋和头灯；",
-          "出发前一天复查BOM、Freycinet步道警报及企鹅票面时间。"
+          "天气（长年气候参考，非逐日预报）：科尔斯湾（Coles Bay）约7-17°C，朗塞斯顿（Launceston）约6-17°C；",
+          "上午步道可能湿滑，沿途可能有阵雨和侧风。",
+          "带防风防水层、防滑鞋；",
+          "出发前一天复查BOM与Freycinet步道警报。"
         ],
         "links": []
       },
@@ -5548,7 +5310,7 @@
         "granularity": "place",
         "basis": "朗塞斯顿（Launceston）",
         "note": "",
-        "dayAdvisory": "上午步道可能湿滑，海边风大，企鹅团站立等候时体感更低，夜间内陆公路可能有雾。带防风防水层、保暖衣物、防滑鞋和头灯；出发前一天复查BOM、Freycinet步道警报及企鹅票面时间",
+        "dayAdvisory": "上午步道可能湿滑，沿途可能有阵雨和侧风。带防风防水层、防滑鞋；出发前一天复查BOM与Freycinet步道警报",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "lodging",
@@ -7005,23 +6767,23 @@
       },
       "category": "lodging",
       "food": {
-        "summary": "Apollo Bay 是本段餐饮最集中处，海鲜、早餐和外带选择多；暑期晚餐热门店需提前订位或排队。",
+        "summary": "Apollo Bay 是本段餐饮最集中处，海鲜、早餐和外带选择多；暑期晚餐热门店需提前订位或排队。港口的渔民合作社老店正在改建，海鲜要到镇内 Pascoe Street 临时店买。",
         "restaurants": [
           {
-            "name": "Apollo Bay Fishermen's Co-op",
-            "nameEn": "Apollo Bay Fishermen's Co-op",
-            "lat": -38.7584451,
-            "lng": 143.6769592,
+            "name": "渔民合作社炸鱼薯条（Pascoe St 临时店）",
+            "nameEn": "Apollo Bay Fishermen's Co-op — 18 Pascoe Street",
+            "lat": -38.7578726,
+            "lng": 143.6686883,
             "rating": 4.1,
             "ratingCount": 562,
-            "ratingSource": "Tripadvisor",
+            "ratingSource": "Tripadvisor（评分属港口老店，临时店无独立评分）",
             "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Apollo Bay 镇中心约 700 米，位于港口",
+            "distance": "位于镇中心 Pascoe Street，距主街约 200 米",
             "priceLevel": "人均约 A$20-40",
             "cuisine": "海鲜、炸鱼薯条",
-            "recommended": "当地指南称渔民合作社直接把当天时令鱼获做成 Fish and Chips，常见鱼种随当日捕捞变化。适合在码头野餐桌吃，不接受把某一种鱼当作固定供应。",
-            "hours": "多为下午及晚餐时段，指南称周二休息；出发前核对",
-            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g261654-d5327744-Reviews-Apollo_Bay_Fishermen_s_Co_op-Apollo_Bay_Victoria.html"
+            "recommended": "把当天鱼获直接做成 Fish and Chips，鱼种随捕捞变化。注意港口老店已于 2025-10-06 停业进入改建，2026 年 4 月起主体施工、港区对公众封闭，全部工程预计 2027 年中完成；行程期间只能到 Pascoe Street 临时店，不要按旧攻略开去码头。",
+            "hours": "临时店 11:00-19:00，周二至周日（周一休）；镇上另有零售鱼档，周末 09:00-17:00、周一 09:00-14:00",
+            "sourceUrl": "https://www.apollobayfishcoop.com.au/"
           },
           {
             "name": "Bay Leaf Cafe",
@@ -7042,21 +6804,22 @@
         ]
       },
       "parking": {
-        "summary": "镇中心和海滨有路侧停车，但住宿应优先使用酒店自有车位；旺季主街车位紧张。",
+        "summary": "镇中心和海滨有路侧停车，但住宿应优先使用酒店自有车位；旺季主街车位紧张。港区正在改建施工，别把码头当停车备选。",
         "lots": [
           {
-            "name": "Apollo Bay Harbour 公共停车区",
-            "nameEn": "Apollo Bay Harbour Public Parking",
-            "lat": -38.7584451,
-            "lng": 143.6769592,
+            "name": "Pascoe Street 及主街路侧停车",
+            "nameEn": "Pascoe Street / Great Ocean Road kerbside parking",
+            "lat": -38.7572727,
+            "lng": 143.6681404,
             "fee": "free",
             "feeNote": "公开资料未显示常设收费；现场限时与标志优先",
             "capacity": null,
             "surface": "沥青",
-            "note": "适合港口和 Fishermen's Co-op 短停，不作为住宿过夜停车；房车须停合规长车位或营地。"
+            "note": "买海鲜和吃晚餐用这一带路侧位短停，不作为住宿过夜停车；房车须停合规长车位或营地。"
           }
         ],
         "rules": [
+          "港口改建自 2026 年 4 月进入主体施工，港区对公众封闭，Mothers Beach 停车场被施工方占用，不要按旧攻略开进港口停车。",
           "入住后优先使用住宿方分配车位，不把 Great Ocean Road 主街路位当过夜保证。",
           "暑期、复活节和学校假期应尽早停车，严禁占用装卸区、无障碍位或巴士位。",
           "拖挂和房车过夜应使用 caravan park 或住宿方明确允许的区域。"
@@ -7065,6 +6828,10 @@
           {
             "label": "Apollo Bay 餐饮与旺季提示",
             "url": "https://greatoceanroad.com.au/towns/apollo-bay/restaurants/"
+          },
+          {
+            "label": "GORCAPA 港口改建进度与封闭范围",
+            "url": "https://www.greatoceanroadauthority.vic.gov.au/Latest-News/Work-progressing-on-Apollo-Bay-Harbour-Redevelopment"
           }
         ]
       }
@@ -7078,7 +6845,7 @@
       "status": "visit",
       "order_in_day": 1,
       "highlights": "约800米轻量环线：桃金娘山毛榉、树蕨和苔藓林下；清晨游客较少。",
-      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾／大奥特韦约6-17°C，沉船海岸约8-17°C，墨尔本约9-20°C；海岸强风、急雨和海雾变化快。",
       "duration": "约1小时",
       "transport": "驾车约17公里自阿波罗湾",
       "notes": "雨后木栈道湿滑。",
@@ -7092,27 +6859,17 @@
       "links": [],
       "sequence": 1,
       "dayInfo": {
-        "booking": [
-          "预约：Maits Rest Rainforest Walk（梅茨雨林步道）、Gibson Steps（吉布森阶梯）、Twelve Apostles（十二门徒岩）、London Bridge（伦敦桥）和The Grotto（石窟）均免费、无需门票预约。"
-        ],
-        "highlights": [
-          "Maits Rest Rainforest Walk（梅茨雨林步道）：约800米、通常20-30分钟的轻量环线，以古老Myrtle Beech（桃金娘山毛榉）、巨大树蕨、苔藓和湿润雨林声景为特色；",
-          "清晨光线柔和、游客较少，也最符合你的轻量徒步需求。"
-        ],
+        "booking": [],
+        "highlights": [],
         "weather": [],
-        "links": [
-          {
-            "label": "Maits Rest官方页面",
-            "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
-          }
-        ]
+        "links": []
       },
       "weatherDetail": {
         "temperatureRange": "6-17°C",
         "granularity": "nearby",
-        "basis": "Great Otway National Park（大奥特韦国家公园）",
-        "note": "雨林体感更冷、更潮",
-        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "basis": "阿波罗湾",
+        "note": "",
+        "dayAdvisory": "海岸强风、急雨和海雾变化快。出发前复查Parks Victoria关闭信息与墨尔本逐小时天气",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "attraction",
@@ -7193,7 +6950,7 @@
       "status": "visit",
       "order_in_day": 2,
       "highlights": "从海滩仰望高崖和Gog/Magog岩柱；尺度感与十二门徒主观景台不同。",
-      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾／大奥特韦约6-17°C，沉船海岸约8-17°C，墨尔本约9-20°C；海岸强风、急雨和海雾变化快。",
       "duration": "约45分钟",
       "transport": "驾车约70公里",
       "notes": "受落石潮位大浪影响，关闭时绝不翻越闸门。",
@@ -7207,31 +6964,17 @@
       "links": [],
       "sequence": 2,
       "dayInfo": {
-        "booking": [
-          "预约：Maits Rest Rainforest Walk（梅茨雨林步道）、Gibson Steps（吉布森阶梯）、Twelve Apostles（十二门徒岩）、London Bridge（伦敦桥）和The Grotto（石窟）均免费、无需门票预约。",
-          "注意：Gibson Steps（吉布森阶梯）受落石、潮位和大浪影响，关闭时绝不翻越闸门；",
-          "Maits Rest木栈道雨后湿滑，穿防滑鞋。"
-        ],
-        "highlights": [
-          "Gibson Steps（吉布森阶梯）：从海滩高度仰望高崖和Gog／Magog岩柱，尺度感与十二门徒主观景台完全不同；",
-          "上午且低潮、风浪温和、步道开放时最好。"
-        ],
-        "weather": [
-          "Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；"
-        ],
-        "links": [
-          {
-            "label": "Maits Rest官方页面",
-            "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
-          }
-        ]
+        "booking": [],
+        "highlights": [],
+        "weather": [],
+        "links": []
       },
       "weatherDetail": {
-        "temperatureRange": "8-17°C",
-        "granularity": "place",
-        "basis": "Gibson Steps（吉布森阶梯）",
+        "temperatureRange": "6-17°C",
+        "granularity": "nearby",
+        "basis": "阿波罗湾",
         "note": "",
-        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "dayAdvisory": "海岸强风、急雨和海雾变化快。出发前复查Parks Victoria关闭信息与墨尔本逐小时天气",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "attraction",
@@ -7313,19 +7056,19 @@
       "status": "visit",
       "order_in_day": 3,
       "highlights": "石灰岩海岸海蚀洞-拱门-孤柱持续演化；中午前后仍可清楚观察海岸结构。",
-      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾／大奥特韦约6-17°C，沉船海岸约8-17°C，墨尔本约9-20°C；海岸强风、急雨和海雾变化快。",
       "duration": "约1小时",
       "transport": "驾车约2公里",
-      "notes": "免费无需预约。\n\n【愿望清单·景点／自然】\n海蚀洞-拱门-独立岩柱持续演化；名称虽叫十二门徒，形成与存留的岩柱数量并非固定 12。官方建议日出或日落看颜色变化。\n深度补充：岩柱来自石灰岩海岸被浪蚀成洞穴、拱门再坍塌为孤柱；数量从来不是稳定的“十二”。日出与日落分别强调轮廓和金色岩面，风、海雾和雨会快速改变能见度。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n位于 Eastern Maar／Gadubanud cultural landscape。殖民旅游命名不应遮住传统土地与持续的海岸文化联系。\n深度补充：旅游命名从“ Sow and Piglets”改为Twelve Apostles，显示品牌如何重塑地景；它位于Eastern Maar/Gadubanud文化景观，现代游客中心与步道更新也涉及Traditional Owner合作。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/4 日落＋10/5 可选日出；以安全与能见度为先。\n已纳入本次行程",
+      "notes": "免费无需预约。\n\n【愿望清单·景点／自然】\n海蚀洞-拱门-独立岩柱持续演化；名称虽叫十二门徒，形成与存留的岩柱数量并非固定 12。官方建议日出或日落看颜色变化。\n深度补充：岩柱来自石灰岩海岸被浪蚀成洞穴、拱门再坍塌为孤柱；数量从来不是稳定的“十二”。日出与日落分别强调轮廓和金色岩面，风、海雾和雨会快速改变能见度。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n位于 Eastern Maar／Gadubanud cultural landscape。殖民旅游命名不应遮住传统土地与持续的海岸文化联系。\n深度补充：旅游命名从“ Sow and Piglets”改为Twelve Apostles，显示品牌如何重塑地景；它位于Eastern Maar/Gadubanud文化景观，现代游客中心与步道更新也涉及Traditional Owner合作。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/5约10:45-11:45保留完整主观景台时间，是沉船海岸硬任务；随后只在不影响St Kilda第一场的前提下短停Loch Ard。\n已纳入本次行程",
       "lat": -38.6655,
       "lng": 143.1048,
       "geocode_source": "known",
-      "priority": "optional",
+      "priority": "main",
       "sections": {
         "practical": "免费无需预约。",
         "nature": "海蚀洞-拱门-独立岩柱持续演化；名称虽叫十二门徒，形成与存留的岩柱数量并非固定 12。官方建议日出或日落看颜色变化。\n深度补充：岩柱来自石灰岩海岸被浪蚀成洞穴、拱门再坍塌为孤柱；数量从来不是稳定的“十二”。日出与日落分别强调轮廓和金色岩面，风、海雾和雨会快速改变能见度。\n扩展阅读：景点／自然官方资料",
         "culture": "位于 Eastern Maar／Gadubanud cultural landscape。殖民旅游命名不应遮住传统土地与持续的海岸文化联系。\n深度补充：旅游命名从“ Sow and Piglets”改为Twelve Apostles，显示品牌如何重塑地景；它位于Eastern Maar/Gadubanud文化景观，现代游客中心与步道更新也涉及Traditional Owner合作。\n扩展阅读：人文／历史延伸阅读",
-        "suggestion": "10/4 日落＋10/5 可选日出；以安全与能见度为先。\n已纳入本次行程"
+        "suggestion": "10/5约10:45-11:45保留完整主观景台时间，是沉船海岸硬任务；随后只在不影响St Kilda第一场的前提下短停Loch Ard。\n已纳入本次行程"
       },
       "links": [
         {
@@ -7343,29 +7086,19 @@
       ],
       "sequence": 3,
       "dayInfo": {
-        "booking": [
-          "预约：Maits Rest Rainforest Walk（梅茨雨林步道）、Gibson Steps（吉布森阶梯）、Twelve Apostles（十二门徒岩）、London Bridge（伦敦桥）和The Grotto（石窟）均免费、无需门票预约。"
-        ],
+        "booking": [],
         "highlights": [
-          "Twelve Apostles（十二门徒岩）：石灰岩海岸经历海蚀洞-拱门-孤柱的持续演化；",
-          "虽然本次不是日落时段，中午前后仍可清楚观察海岸结构。"
+          "Twelve Apostles（十二门徒岩）：保留本日完整主观景台时间，是沉船海岸硬任务。"
         ],
-        "weather": [
-          "Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；"
-        ],
-        "links": [
-          {
-            "label": "Maits Rest官方页面",
-            "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
-          }
-        ]
+        "weather": [],
+        "links": []
       },
       "weatherDetail": {
-        "temperatureRange": "8-17°C",
-        "granularity": "place",
-        "basis": "Twelve Apostles（十二门徒岩）",
+        "temperatureRange": "6-17°C",
+        "granularity": "nearby",
+        "basis": "阿波罗湾",
         "note": "",
-        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "dayAdvisory": "海岸强风、急雨和海雾变化快。出发前复查Parks Victoria关闭信息与墨尔本逐小时天气",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "attraction",
@@ -7445,9 +7178,9 @@
       "day": 12,
       "date": "2026-10-05",
       "status": "visit",
-      "order_in_day": 4,
+      "order_in_day": 5,
       "highlights": "受保护的小海湾、渔港和沉船海岸补给中心；午餐和恢复体力。",
-      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾／大奥特韦约6-17°C，沉船海岸约8-17°C，墨尔本约9-20°C；海岸强风、急雨和海雾变化快。",
       "duration": "约55分钟",
       "transport": "驾车约12公里",
       "notes": "午餐加油短暂休整。\n\n【愿望清单·景点／自然】\n适合作为看日落与日出的住宿基地，餐饮和补给选择有限，旺季需提前订。\n深度补充：镇位于受保护的小海湾，是沉船海岸少数可集中补给、住宿和步行的基地。周边悬崖暴露、天气多变，住一晚能把十二门徒日落和次日日出拆开，避免夜驾。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n港镇服务于渔业、道路旅游与国家公园；它的价值是把大洋路从赶路变成慢看，而不只是“离十二门徒最近”。\n深度补充：渔业、道路旅游与国家公园服务共同塑造小镇。它也说明大洋路从战间期交通工程转为全球旅游线路后，地方住房、季节就业与环境承载面临的压力。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/4 住宿；正规住宿／营地。\n已纳入本次行程",
@@ -7471,32 +7204,21 @@
           "url": "https://www.corangamite.vic.gov.au/Places-and-Events/Towns/Port-Campbell"
         }
       ],
-      "sequence": 4,
+      "sequence": 5,
       "dayInfo": {
-        "booking": [
-          "出发前查看Parks Victoria的changed conditions／closures；",
-          "Maits Rest官方页面。"
-        ],
-        "highlights": [
-          "Port Campbell（坎贝尔港）：受保护的小海湾、渔港和沉船海岸补给中心是特色；",
-          "本日用作午餐和恢复体力。"
-        ],
+        "booking": [],
+        "highlights": [],
         "weather": [
-          "Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；"
+          "出发前复查Parks Victoria关闭信息与墨尔本逐小时天气。"
         ],
-        "links": [
-          {
-            "label": "Maits Rest官方页面",
-            "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
-          }
-        ]
+        "links": []
       },
       "weatherDetail": {
-        "temperatureRange": "8-17°C",
-        "granularity": "place",
-        "basis": "坎贝尔港（Port Campbell）",
+        "temperatureRange": "6-17°C",
+        "granularity": "nearby",
+        "basis": "阿波罗湾",
         "note": "",
-        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "dayAdvisory": "海岸强风、急雨和海雾变化快。出发前复查Parks Victoria关闭信息与墨尔本逐小时天气",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "lodging",
@@ -7570,231 +7292,122 @@
       }
     },
     {
-      "id": "d12-05",
-      "name": "伦敦桥",
-      "name_en": "London Bridge Lookout, Port Campbell VIC",
-      "day": 12,
-      "date": "2026-10-05",
-      "status": "visit",
-      "order_in_day": 5,
-      "highlights": "1990年连接陆地的拱桥部分突然坍塌，留下独立海蚀拱门。",
-      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
-      "duration": "约30分钟",
-      "transport": "驾车约18公里",
-      "notes": "进度落后可删减。",
-      "lat": -38.62,
-      "lng": 142.93,
-      "geocode_source": "known",
-      "priority": "main",
-      "sections": {
-        "practical": "进度落后可删减。"
-      },
-      "links": [],
-      "sequence": 5,
-      "dayInfo": {
-        "booking": [
-          "预约：Maits Rest Rainforest Walk（梅茨雨林步道）、Gibson Steps（吉布森阶梯）、Twelve Apostles（十二门徒岩）、London Bridge（伦敦桥）和The Grotto（石窟）均免费、无需门票预约。"
-        ],
-        "highlights": [
-          "London Bridge（伦敦桥）：1990年连接陆地的拱桥部分突然坍塌，留下独立海蚀拱门；",
-          "下午侧光有助于表现岩层。"
-        ],
-        "weather": [
-          "Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；"
-        ],
-        "links": [
-          {
-            "label": "Maits Rest官方页面",
-            "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
-          }
-        ]
-      },
-      "weatherDetail": {
-        "temperatureRange": "8-17°C",
-        "granularity": "place",
-        "basis": "London Bridge（伦敦桥）",
-        "note": "",
-        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
-        "source": "长年气候参考，非逐日预报"
-      },
-      "category": "attraction",
-      "food": {
-        "summary": "London Bridge 现场没有餐饮，最近较稳定的正餐选择在约 8 公里外的 Port Campbell。",
-        "restaurants": [
-          {
-            "name": "Grassroots Deli Cafe",
-            "nameEn": "Grassroots Deli Cafe",
-            "lat": -38.6200124,
-            "lng": 142.9951722,
-            "rating": 4.5,
-            "ratingCount": 923,
-            "ratingSource": "Google 地图（检索结果核对）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 London Bridge 约 8 公里，驾车约 8-10 分钟",
-            "priceLevel": "人均约 A$15-30",
-            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
-            "recommended": "炸鸡汉堡、家制汤和咖啡评价稳定，适合日间快速补给。午餐通常 14:30 结束，傍晚到访观景点时不要把它当晚餐备选。",
-            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
-            "sourceUrl": "https://grassrootsdelicafe.com.au/"
-          },
-          {
-            "name": "12 Rocks Beach Bar Cafe",
-            "nameEn": "12 Rocks Beach Bar Cafe",
-            "lat": -38.6200628,
-            "lng": 142.9941683,
-            "rating": 4.2,
-            "ratingCount": 2188,
-            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 London Bridge 约 8 公里，驾车约 8-10 分钟",
-            "priceLevel": "人均约 A$25-45",
-            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
-            "recommended": "fish and chips、calamari、海鲜与海景座位最有代表性。营业覆盖晚间，比日间咖啡店更适合看完日落后用餐。",
-            "hours": "每日 09:30 至晚间（结束时间未固定）",
-            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
-          }
-        ]
-      },
-      "parking": {
-        "summary": "London Bridge 有免费日游客停车区和无障碍车位，现场没有餐饮补给。",
-        "lots": [
-          {
-            "name": "London Bridge 停车区",
-            "nameEn": "London Bridge Car Park",
-            "lat": -38.62,
-            "lng": 142.93,
-            "fee": "free",
-            "feeNote": "国家公园日游停车区，未见收费信息",
-            "capacity": null,
-            "surface": null,
-            "note": "从 London Bridge Road 进入，停车后步行至观景台；有无障碍停车设施。旺季可能很忙，不要沿接入道路随意停车。"
-          }
-        ],
-        "rules": [
-          "仅使用指定停车区并沿正式步道前往观景台，不要跨越护栏接近不稳定崖缘。",
-          "同区域 The Arch 因崖壁不稳定和步道侵蚀关闭，不要把 London Bridge 开放状态误认为周边所有观景点均开放。"
-        ],
-        "sources": [
-          {
-            "label": "Parks Victoria：London Bridge, The Grotto and The Arch",
-            "url": "https://www.parks.vic.gov.au/places-to-see/parks/port-campbell-national-park/things-to-do/london-bridge"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d12-06",
-      "name": "石窟",
-      "name_en": "The Grotto, Port Campbell VIC",
+      "id": "d12-08",
+      "name": "圣基尔达企鹅观赏平台",
+      "name_en": "St Kilda Pier Penguin Viewing Platform, Melbourne VIC",
       "day": 12,
       "date": "2026-10-05",
       "status": "visit",
       "order_in_day": 6,
-      "highlights": "sinkhole、洞穴与拱门叠成天然画框。",
-      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
-      "duration": "约30分钟",
-      "transport": "驾车约4公里",
-      "notes": "进度落后可删减；15:10左右必须离开沉船海岸回墨尔本。",
-      "lat": -38.615,
-      "lng": 142.91,
+      "highlights": "St Kilda Pier／Breakwater 高架平台观看小蓝企鹅归巢；免费但必须持票。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾／大奥特韦约6-17°C，沉船海岸约8-17°C，墨尔本约9-20°C；海岸强风、急雨和海雾变化快。",
+      "duration": "第一场约19:57起（票面为准）",
+      "transport": "从沉船海岸直接驶往 St Kilda，不先回酒店",
+      "notes": "目标第一场；周二10:00开放未来一周票，热门易满。停车有限，平台入口在码头内约450米。\n\n【愿望清单·景点／自然】\nSt Kilda Pier／Breakwater高架平台可观看野生小蓝企鹅日落后归巢；免费但必须持票，需遵守低光、安静及现场管理规则。\n深度补充：2026-10-05墨尔本日落约19:27 AEDT，第一场暂按日落后约30分钟估算；企鹅出现时间和数量受海况、季节与个体活动影响，不保证。\n扩展阅读：官方资料\n\n【愿望清单·人文】\n市区海滨企鹅群体现城市基础设施、游客管理与野生动物栖息地保护之间的平衡；应只在指定高架平台观看，不自行进入Breakwater。\n扩展阅读：官方资料\n\n【愿望清单·本次建议】\n10/5已纳入：14:15-14:30前离开沉船海岸，直接到St Kilda，不先回酒店；目标抢第一场，观赏后再去West Melbourne住宿。\n已纳入本次行程",
+      "lat": -37.8648,
+      "lng": 144.9731,
       "geocode_source": "known",
       "priority": "main",
       "sections": {
-        "practical": "进度落后可删减；15:10左右必须离开沉船海岸回墨尔本。"
+        "practical": "目标第一场；周二10:00开放未来一周票，热门易满。停车有限，平台入口在码头内约450米。",
+        "nature": "St Kilda Pier／Breakwater高架平台可观看野生小蓝企鹅日落后归巢；免费但必须持票，需遵守低光、安静及现场管理规则。\n深度补充：2026-10-05墨尔本日落约19:27 AEDT，第一场暂按日落后约30分钟估算；企鹅出现时间和数量受海况、季节与个体活动影响，不保证。\n扩展阅读：官方资料",
+        "culture": "市区海滨企鹅群体现城市基础设施、游客管理与野生动物栖息地保护之间的平衡；应只在指定高架平台观看，不自行进入Breakwater。\n扩展阅读：官方资料",
+        "suggestion": "10/5已纳入：14:15-14:30前离开沉船海岸，直接到St Kilda，不先回酒店；目标抢第一场，观赏后再去West Melbourne住宿。\n已纳入本次行程"
       },
-      "links": [],
+      "links": [
+        {
+          "label": "官方资料",
+          "url": "https://www.penguins.org.au/"
+        },
+        {
+          "label": "官方资料",
+          "url": "https://www.penguins.org.au/"
+        }
+      ],
       "sequence": 6,
       "dayInfo": {
-        "booking": [
-          "预约：Maits Rest Rainforest Walk（梅茨雨林步道）、Gibson Steps（吉布森阶梯）、Twelve Apostles（十二门徒岩）、London Bridge（伦敦桥）和The Grotto（石窟）均免费、无需门票预约。"
-        ],
+        "booking": [],
         "highlights": [
-          "The Grotto（石窟）：sinkhole、洞穴与拱门叠成天然画框；",
-          "下午光线足、潮位适中时层次最好。"
+          "St Kilda小蓝企鹅：在St Kilda Pier／Breakwater高架平台合规观看归巢；",
+          "免费但必须持票。"
         ],
-        "weather": [
-          "Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；"
-        ],
-        "links": [
-          {
-            "label": "Maits Rest官方页面",
-            "url": "https://www.parks.vic.gov.au/places-to-see/sites/maits-rest-rainforest-walk"
-          }
-        ]
+        "weather": [],
+        "links": []
       },
       "weatherDetail": {
-        "temperatureRange": "8-17°C",
-        "granularity": "place",
-        "basis": "The Grotto（石窟）",
+        "temperatureRange": "9-20°C",
+        "granularity": "nearby",
+        "basis": "墨尔本",
         "note": "",
-        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "dayAdvisory": "海岸强风、急雨和海雾变化快。出发前复查Parks Victoria关闭信息与墨尔本逐小时天气",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "attraction",
       "food": {
-        "summary": "The Grotto 现场没有餐饮，建议在约 12 公里外的 Port Campbell 用餐。",
+        "summary": "码头入口与 St Kilda Sea Baths 一带有海滨餐厅；若要赶企鹅第一场，优先在入场前吃简餐或提前订位，不要把正餐安排在归巢时段。",
         "restaurants": [
           {
-            "name": "Grassroots Deli Cafe",
-            "nameEn": "Grassroots Deli Cafe",
-            "lat": -38.6200124,
-            "lng": 142.9951722,
-            "rating": 4.5,
-            "ratingCount": 923,
-            "ratingSource": "Google 地图（检索结果核对）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 The Grotto 约 12 公里，驾车约 12-15 分钟",
-            "priceLevel": "人均约 A$15-30",
-            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
-            "recommended": "炸鸡汉堡、家制汤、早餐与咖啡适合白天补给。若计划傍晚看海岸景色，应提前用餐，因为这里以早餐和午餐时段为主。",
-            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
-            "sourceUrl": "https://grassrootsdelicafe.com.au/"
+            "name": "Republica St Kilda Beach",
+            "nameEn": "Republica St Kilda Beach",
+            "lat": -37.8677,
+            "lng": 144.9747,
+            "rating": 4.4,
+            "ratingCount": 3621,
+            "ratingSource": "Google 地图（本地商家聚合页核对）",
+            "ratingCheckedAt": "2026-08-24",
+            "distance": "距 St Kilda Pier 入口约 250 米，步行约 3-4 分钟",
+            "priceLevel": "人均约 A$25-50",
+            "cuisine": "现代澳洲菜、海鲜、披萨",
+            "recommended": "海滨位置适合在候场前快速用餐；常见推荐包括 fish & chips、披萨、海鲜和 focaccia。周一晚有披萨活动，但具体菜单与厨房截止时间以当日官网为准。",
+            "hours": "周一至周五 12:00 至晚间；周六、周日 08:30 至晚间",
+            "sourceUrl": "https://republica.net.au/"
           },
           {
-            "name": "12 Rocks Beach Bar Cafe",
-            "nameEn": "12 Rocks Beach Bar Cafe",
-            "lat": -38.6200628,
-            "lng": 142.9941683,
-            "rating": 4.2,
-            "ratingCount": 2188,
-            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 The Grotto 约 12 公里，驾车约 12-15 分钟",
-            "priceLevel": "人均约 A$25-45",
-            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
-            "recommended": "评论高频菜包括 fish and chips、calamari 和 crispy pork belly，官网突出海鲜与海景。是看完 The Grotto 后回 Port Campbell 吃晚餐的实用选择。",
-            "hours": "每日 09:30 至晚间（结束时间未固定）",
-            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
+            "name": "Donovans",
+            "nameEn": "Donovans",
+            "lat": -37.8692,
+            "lng": 144.9766,
+            "rating": 4.5,
+            "ratingCount": 1329,
+            "ratingSource": "Google 地图（本地商家聚合页核对）",
+            "ratingCheckedAt": "2026-08-24",
+            "distance": "距 St Kilda Pier 入口约 500 米，步行约 6-7 分钟",
+            "priceLevel": "人均约 A$60-100",
+            "cuisine": "现代澳洲菜、海鲜",
+            "recommended": "适合希望在海滨吃正式晚餐的情况；价格和用餐时长都高于 Republica。赶第一场企鹅时只建议提前订较早时段，否则改为观赏后用餐。",
+            "hours": null,
+            "sourceUrl": "https://donovans.com.au/"
           }
         ]
       },
       "parking": {
-        "summary": "The Grotto 入口有免费停车区，第一处观景台距停车区约 300 米，之后下行段较陡。",
+        "summary": "最直接的是 St Kilda Sea Baths 停车场，超过 400 个车位但傍晚和活动日仍可能紧张；Jacka Boulevard 周边规则分段变化，不要把路边位默认当免费停车。",
         "lots": [
           {
-            "name": "The Grotto 停车区",
-            "nameEn": "The Grotto Car Park",
-            "lat": -38.615,
-            "lng": 142.91,
-            "fee": "free",
-            "feeNote": "国家公园日游停车区，未见收费信息",
-            "capacity": null,
-            "surface": null,
-            "note": "从 Great Ocean Road 直接转入停车区；到第一观景平台约 300 米且相对平缓，再向下约 40 米的主观景段更陡并有楼梯，不适合轮椅、婴儿车或行动不便者。"
+            "name": "St Kilda Sea Baths Car Park",
+            "nameEn": "St Kilda Sea Baths Car Park",
+            "lat": -37.8679,
+            "lng": 144.975,
+            "fee": "paid",
+            "feeNote": "动态 drive-up／online 价格；新计费日从每日 05:00 开始，具体金额以入场牌与官网日期报价为准",
+            "capacity": "超过 400 个车位",
+            "surface": "露天及地下车库",
+            "note": "从 Jacka Boulevard 新入口进出；地下车库限高 2.0 米，午夜关闭、05:00 重开。露天区无高度限制。"
           }
         ],
         "rules": [
-          "旺季停车位可能紧张，只能在划定区域停车，不要占用转弯和进出通道。",
-          "下层观景段陡且有楼梯；天气恶劣或地面湿滑时应量力而行。"
+          "17:45-18:15 抵达仍应预留找车位、步行约 450 米进入码头和排队时间；暖天、周末或活动日要更早。",
+          "Jacka Boulevard 与周边路边位可能是收费、限时、居民专用或临时活动管制；只按停车位旁当日标志执行。",
+          "企鹅观赏结束较晚，若停地下车库要留意午夜关闭；不要停在 clearway、施工围挡或居民车道。"
         ],
         "sources": [
           {
-            "label": "Parks Victoria：London Bridge, The Grotto and The Arch",
-            "url": "https://www.parks.vic.gov.au/places-to-see/parks/port-campbell-national-park/things-to-do/london-bridge"
+            "label": "Care Park：St Kilda Sea Baths parking",
+            "url": "https://www.carepark.com.au/find-a-care-park/st-kilda-sea-baths/"
           },
           {
-            "label": "Coastal Stays：The Grotto access",
-            "url": "https://www.coastalstays.com/portcampbell/attractions-grotto/"
+            "label": "City of Port Phillip：St Kilda Pier Foreshore Upgrade",
+            "url": "https://www.portphillip.vic.gov.au/about-the-council/projects-and-works/st-kilda-pier-foreshore-upgrade/"
           }
         ]
       }
@@ -7808,7 +7421,7 @@
       "status": "visit",
       "order_in_day": 7,
       "highlights": "入住West Melbourne／Southern Cross附近酒店，整理行李保证次日国际航班。",
-      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾／大奥特韦约6-17°C，沉船海岸约8-17°C，墨尔本约9-20°C；海岸强风、急雨和海雾变化快。",
       "duration": "过夜",
       "transport": "驾车约230公里",
       "notes": "本晚不车宿。",
@@ -7822,23 +7435,21 @@
       "links": [],
       "sequence": 7,
       "dayInfo": {
-        "booking": [
-          "最后返回墨尔本约230公里，15:10左右必须离开沉船海岸；",
-          "如当天疲劳或天气恶化，减少观景点，不以赶景点为代价夜间疲劳驾驶。"
-        ],
+        "booking": [],
         "highlights": [],
         "weather": [
-          "墨尔本（Melbourne）约9-20°C。",
-          "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。"
+          "天气（长年气候参考，非逐日预报）：阿波罗湾／大奥特韦约6-17°C，沉船海岸约8-17°C，墨尔本约9-20°C；",
+          "海岸强风、急雨和海雾变化快。",
+          "出发前复查Parks Victoria关闭信息与墨尔本逐小时天气。"
         ],
         "links": []
       },
       "weatherDetail": {
         "temperatureRange": "9-20°C",
         "granularity": "place",
-        "basis": "墨尔本（Melbourne）",
+        "basis": "墨尔本",
         "note": "",
-        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "dayAdvisory": "海岸强风、急雨和海雾变化快。出发前复查Parks Victoria关闭信息与墨尔本逐小时天气",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "lodging",
@@ -8096,103 +7707,53 @@
       }
     },
     {
-      "id": "wv-tower",
-      "name": "塔山野生动物保护区",
-      "name_en": "Tower Hill Wildlife Reserve, Victoria",
-      "day": null,
-      "date": null,
-      "status": "skip",
-      "order_in_day": null,
-      "highlights": "愿望清单保留；与现行大洋路东段主线冲突，不在本次主行程。",
-      "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
-      "duration": "",
-      "transport": "",
-      "notes": "【本次建议】与 10/4 东段→Apollo Bay、10/5 沉船→Melbourne 方向冲突，已移出主行程；鸸鹋改由 Caversham 覆盖。\n不在本次行程中",
-      "lat": -38.317,
-      "lng": 142.36,
-      "geocode_source": "known",
-      "priority": "skip",
-      "sections": {
-        "practical": "",
-        "suggestion": "与 10/4 东段→Apollo Bay、10/5 沉船→Melbourne 方向冲突，已移出主行程；鸸鹋改由 Caversham 覆盖。\n不在本次行程中"
-      },
-      "links": [],
-      "sequence": null,
-      "weatherDetail": {
-        "temperatureRange": "8-18°C",
-        "granularity": "nearby",
-        "basis": "阿波罗湾（Apollo Bay）",
-        "note": "",
-        "dayAdvisory": "Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态",
-        "source": "长年气候参考，非逐日预报"
-      }
-    },
-    {
-      "id": "wv-warrn",
-      "name": "沃南布尔",
-      "name_en": "Warrnambool, Victoria",
-      "day": null,
-      "date": null,
-      "status": "skip",
-      "order_in_day": null,
-      "highlights": "愿望清单保留；不在本次主行程。",
-      "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
-      "duration": "",
-      "transport": "",
-      "notes": "【本次建议】与 Tower Hill 一并移出；10/5 午餐在 Port Campbell。\n不在本次行程中",
-      "lat": -38.3839,
-      "lng": 142.488,
-      "geocode_source": "known",
-      "priority": "skip",
-      "sections": {
-        "practical": "",
-        "suggestion": "与 Tower Hill 一并移出；10/5 午餐在 Port Campbell。\n不在本次行程中"
-      },
-      "links": [],
-      "sequence": null,
-      "weatherDetail": {
-        "temperatureRange": "8-18°C",
-        "granularity": "nearby",
-        "basis": "阿波罗湾（Apollo Bay）",
-        "note": "",
-        "dayAdvisory": "Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态",
-        "source": "长年气候参考，非逐日预报"
-      }
-    },
-    {
       "id": "wv-loch",
       "name": "洛克阿德峡谷",
       "name_en": "Loch Ard Gorge, Port Campbell VIC",
       "day": 12,
       "date": "2026-10-05",
       "status": "visit",
-      "order_in_day": 9,
-      "highlights": "【可选】紧挨十二门徒的沉船海岸峡谷；进度提前时短停20-40分钟，落后则删除。",
-      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾（Apollo Bay）／Great Otway National Park（大奥特韦国家公园）约6-17°C，雨林体感更冷、更潮；Gibson Steps（吉布森阶梯）／Twelve Apostles（十二门徒岩）／坎贝尔港（Port Campbell）／London Bridge（伦敦桥）／The Grotto（石窟）约8-17°C；墨尔本（Melbourne）约9-20°C。沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准。",
-      "duration": "可选约20-40分钟",
-      "transport": "十二门徒岩附近顺路（约2-3公里）",
-      "notes": "【注意】主行程硬任务不含本点；作为十二门徒后的顺路可选。进度落后优先删除，保证15:10前离开沉船海岸回墨尔本。\n\n可选纳入本次行程",
+      "order_in_day": 4,
+      "highlights": "沉船海岸经典峡谷；愿望清单建议白天留1.5-2小时。",
+      "weather": "天气（长年气候参考，非逐日预报）：阿波罗湾／大奥特韦约6-17°C，沉船海岸约8-17°C，墨尔本约9-20°C；海岸强风、急雨和海雾变化快。",
+      "duration": "可选短停约20分钟",
+      "transport": "十二门徒岩附近",
+      "notes": "【可选】仅在14:15前能离开沉船海岸时短停；不得挤占 St Kilda 第一场硬截止。\n\n【愿望清单·景点／自然】\n石灰岩峡湾与步道以 1878 年 Loch Ard 号沉船命名；海况猛烈，不能下到封闭区域或跨护栏。\n深度补充：狭窄峡口、垂直石灰岩壁和强浪展示海蚀洞-峡湾持续演化。不同支线通往主海湾、Razorback等视角，封闭会随侵蚀与施工变化，必须以现场为准。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n仅两名幸存者 Tom Pearce 与 Eva Carmichael 的故事成为 Shipwreck Coast 最常讲述的海难叙事；阅读现场牌示能让地貌不只是“拍照点”。\n深度补充：1878年Loch Ard号沉船仅Tom Pearce与Eva Carmichael幸存，故事塑造“Shipwreck Coast”公共记忆。现场命名、纪念和浪漫化叙事值得与真实移民航运风险比较。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/5十二门徒后仅作约20分钟可选短停；任何延误都取消，确保14:15-14:30前离开沉船海岸赶St Kilda。\n可选纳入本次行程",
       "lat": -38.647,
       "lng": 143.07,
       "geocode_source": "known",
       "priority": "optional",
       "sections": {
-        "practical": "【注意】主行程硬任务不含本点；作为十二门徒后的顺路可选。进度落后优先删除，保证15:10前离开沉船海岸回墨尔本。\n\n可选纳入本次行程"
+        "practical": "【可选】仅在14:15前能离开沉船海岸时短停；不得挤占 St Kilda 第一场硬截止。",
+        "nature": "石灰岩峡湾与步道以 1878 年 Loch Ard 号沉船命名；海况猛烈，不能下到封闭区域或跨护栏。\n深度补充：狭窄峡口、垂直石灰岩壁和强浪展示海蚀洞-峡湾持续演化。不同支线通往主海湾、Razorback等视角，封闭会随侵蚀与施工变化，必须以现场为准。\n扩展阅读：景点／自然官方资料",
+        "culture": "仅两名幸存者 Tom Pearce 与 Eva Carmichael 的故事成为 Shipwreck Coast 最常讲述的海难叙事；阅读现场牌示能让地貌不只是“拍照点”。\n深度补充：1878年Loch Ard号沉船仅Tom Pearce与Eva Carmichael幸存，故事塑造“Shipwreck Coast”公共记忆。现场命名、纪念和浪漫化叙事值得与真实移民航运风险比较。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "10/5十二门徒后仅作约20分钟可选短停；任何延误都取消，确保14:15-14:30前离开沉船海岸赶St Kilda。\n可选纳入本次行程"
       },
-      "links": [],
-      "sequence": 8,
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.visitvictoria.com/regions/great-ocean-road/see-and-do/nature-and-wildlife/beaches-and-coastlines/loch-ard-gorge"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://collections.museumsvictoria.com.au/articles/3731"
+        }
+      ],
+      "sequence": 4,
       "dayInfo": {
         "booking": [],
-        "highlights": [],
+        "highlights": [
+          "Loch Ard Gorge（洛克阿德峡谷）：仅作为约20分钟顺路可选短停，不得挤占离开海岸硬截止。"
+        ],
         "weather": [],
         "links": []
       },
       "weatherDetail": {
-        "temperatureRange": "8-17°C",
+        "temperatureRange": "6-17°C",
         "granularity": "nearby",
-        "basis": "Gibson Steps（吉布森阶梯）",
+        "basis": "阿波罗湾",
         "note": "",
-        "dayAdvisory": "沉船海岸强风、急雨和海雾变化快，海滩是否开放以现场警示为准",
+        "dayAdvisory": "海岸强风、急雨和海雾变化快。出发前复查Parks Victoria关闭信息与墨尔本逐小时天气",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "attraction",
@@ -8266,28 +7827,166 @@
       }
     },
     {
+      "id": "wv-puffing",
+      "name": "Puffing Billy Railway（普芬比利蒸汽火车）",
+      "name_en": "Puffing Billy Railway, Belgrave VIC",
+      "day": 11,
+      "date": "2026-10-04",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "【可选】窄轨蒸汽铁路；取 Belgrave→Menzies Creek 往返（单程25分钟），含免费铁路博物馆。",
+      "weather": "天气（长年气候参考，非逐日预报）：吉朗（Geelong）／安格尔西（Anglesea）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）通常约8-18°C。Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态。",
+      "duration": "可选约2小时（火车往返50分钟＋博物馆约70分钟）",
+      "transport": "吉朗码头驾车约107公里／约1小时45分到 Belgrave",
+      "notes": "【可选】仅在 Spirit of Tasmania 07:00 准点抵港时执行；官方要求发车前60分钟到票房、09:30 硬截止。必须官网预约。10/6 中午国际航班前不可行。",
+      "lat": -37.9075,
+      "lng": 145.3556,
+      "geocode_source": "known",
+      "priority": "optional",
+      "sections": {
+        "practical": "【可选】仅在 Spirit of Tasmania 07:00 准点抵港时执行；官方要求发车前60分钟到票房、09:30 硬截止。必须官网预约。10/6 中午国际航班前不可行。"
+      },
+      "links": [],
+      "sequence": 1,
+      "dayInfo": {
+        "booking": [
+          "【待定-6】Puffing Billy 预约（若选方案A）：必须在官网提前买票，不售现场票，热门班次会提前售罄；",
+          "成人 A$43.50（Belgrave→Menzies Creek 往返，2026-04-01-2027-03-31 价目），两人约 A$87。",
+          "班次按官网 2026-07-20-12-21 的「周五至周日」时刻表：10:00 发车、11:55 回到 Belgrave。",
+          "2026-10-04 是维州春假最后一天（春假 9/19-10/4，10/5 开学），务必尽早下单，并在官网确认当日没有 special event 特殊时刻表。",
+          "购票页：官网时刻表与票价。",
+          "注意：本段是「船准点才坐」的条件式安排--船 07:00 抵港与 09:00 应到票房之间只有约1小时45分，恰好等于码头到 Belgrave 的车程，没有富余；",
+          "Spirit of Tasmania 延误较常见，务必把车票当成可作废的沉没成本，不要为了赶火车超速或放弃休息。"
+        ],
+        "highlights": [
+          "【待定-6】Puffing Billy Railway（普芬比利蒸汽火车，可选）：1900年通车的窄轨蒸汽铁路，Belgrave→Menzies Creek 段包含最经典的 Monbulk Creek 弧形木栈桥，也是官方明确提供「坐在车厢窗台上」体验的班次。",
+          "选这一段而不是 Lakeside／Gembrook，是因为它全程仅约2小时（含博物馆），是唯一能塞进大洋路当日的长度；",
+          "且博物馆免费、只在周五至周日开，10/4 正好是周日。"
+        ],
+        "weather": [],
+        "links": [
+          {
+            "label": "官网时刻表与票价",
+            "url": "https://puffingbilly.com.au/timetable/"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "8-18°C",
+        "granularity": "nearby",
+        "basis": "吉朗（Geelong）",
+        "note": "",
+        "dayAdvisory": "Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "transport",
+      "food": {
+        "summary": "Belgrave 镇中心餐饮充足，两家选择均可从蒸汽火车站步行抵达。",
+        "restaurants": [
+          {
+            "name": "Babaji's Kerala Kitchen Belgrave",
+            "nameEn": "Babaji's Kerala Kitchen Belgrave",
+            "lat": -37.9100522,
+            "lng": 145.353318,
+            "rating": 4.0,
+            "ratingCount": 926,
+            "ratingSource": "Menuweb",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Puffing Billy Belgrave Station 步行约 5 分钟",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "印度 Kerala 菜",
+            "recommended": "官网明确是 Kerala 南印度餐厅，并提供 vegan、vegetarian 与 gluten-free 选择。适合火车前后吃咖喱、米饭类正餐或 chai。",
+            "hours": "周一、周二、周四、周日 12:00-20:00；周五、周六 12:00-21:00；周三休息",
+            "sourceUrl": "https://menuweb.menu/restaurants/belgrave-vic/babajis-kerala-kitchen/reviews"
+          },
+          {
+            "name": "Micawber Tavern",
+            "nameEn": "Micawber Tavern",
+            "lat": -37.900262,
+            "lng": 145.3568283,
+            "rating": null,
+            "ratingCount": null,
+            "ratingSource": null,
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距车站约 1 公里",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "澳式酒馆餐",
+            "recommended": "Puffing Billy 官方介绍确认供应当代季节性 bistro 菜单、Guinness、本地及国际啤酒，并有 beer garden。适合火车行程后吃 pub meal。",
+            "hours": "每日营业；具体餐时以官网为准",
+            "sourceUrl": "https://puffingbillyrailway.org.au/visit-us/things-to-do-in-the-region/micawber-tavern/"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "首选 Belgrave Metro Station 新多层停车楼；免费但主要服务通勤，周末和活动日应早到。",
+        "lots": [
+          {
+            "name": "Belgrave Metro Station 多层停车场",
+            "nameEn": "Belgrave Station Multi-deck Car Park",
+            "lat": -37.9096952,
+            "lng": 145.3548577,
+            "fee": "free",
+            "feeNote": "维州通勤停车项目；公开旅游交通资料列为免费停车",
+            "capacity": "640 个车位，其中 16 个地面层无障碍车位",
+            "surface": "混凝土多层停车楼",
+            "note": "入口有实时余位显示、CCTV、照明和电梯；从 Metro station 步行约 2 分钟到 Puffing Billy。"
+          },
+          {
+            "name": "Belgrave Station 上下客区",
+            "nameEn": "Belgrave Station Pick-up / Drop-off Zone",
+            "lat": -37.9096952,
+            "lng": 145.3548577,
+            "fee": "free",
+            "feeNote": "仅短时接送",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "新停车项目包含专用 pick-up/drop-off zones；不可在此长时间等候。"
+          }
+        ],
+        "rules": [
+          "停车楼主要为公共交通通勤者建设，周末热门班次仍可能满位，应至少提前到达。",
+          "不要把 Woolworths 等商业停车场当全天停车，须遵守商场限时牌。",
+          "无障碍车位位于地面层。"
+        ],
+        "sources": [
+          {
+            "label": "VicTrack：Belgrave Station 640-space car park",
+            "url": "https://www.victrack.com.au/news/2024/hundreds-more-spaces-added-at-belgrave-station-car-park"
+          },
+          {
+            "label": "Car Parks for Commuters：Belgrave Station",
+            "url": "https://carparks.vic.gov.au/project/belgrave-station-car-park/"
+          }
+        ]
+      }
+    },
+    {
       "id": "d5-hobart",
       "name": "霍巴特（过境，不硬塞市区）",
       "name_en": "Hobart, Tasmania, Australia",
       "day": 5,
       "date": "2026-09-28",
-      "status": "skip",
+      "status": "visit",
       "order_in_day": 0,
-      "highlights": "过境取车转场；不安排 City Walk／Rosny Hill／连住霍巴特。",
+      "highlights": "Waterfront、Salamanca、Battery Point 与 kunanyi / Mount Wellington 构成城市核心；MONA 若参观需单独半天。\n深度补充：Derwent／timtumili minanya河口、kunanyi高地、海港和强风共同决定城市景观。Waterfront、Salamanca与Battery Point适合步行，kunanyi则可能在同一天经历雨、雪、低云和强风。\n扩展阅读：景点／自然官方资料",
       "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）清晨通常约10-21°C；霍巴特机场（Hobart Airport）／亚瑟港（Port Arthur）约6-15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层；出发前7天再看BOM逐日预报。BOM霍巴特气候。",
       "duration": "过境",
       "transport": "机场落地后直驱亚瑟港",
-      "notes": "仅作跨州落地与取车转场；不安排落地 City Walk／Rosny Hill／连住霍巴特。\n\n【人文】\nnipaluna 位于 Muwinina Country；砂岩仓库、南极科研与港口史并存。kunanyi 是重要的 Aboriginal 地名。城市的文化名片也包括 MONA 对当代艺术与旅游形象的重塑。\n深度补充：nipaluna位于Muwinina Country。砂岩仓库、捕鲸与航运、南极科研、MONA及环境政治构成多重城市性格；双重命名让原住民语言重新进入公共空间。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n9/28抵达后只安排Rosny Hill Nature Recreation Area（罗斯尼山自然休闲区）日落；9/28-9/29连住霍巴特，作为两次自然一日团的接送基地。\n已纳入本次行程",
+      "notes": "愿望清单标已纳入，但每日主行程明确：不安排落地City Walk／Rosny Hill。仅作跨州落地与取车转场。\n\n【人文】\nnipaluna 位于 Muwinina Country；砂岩仓库、南极科研与港口史并存。kunanyi 是重要的 Aboriginal 地名。城市的文化名片也包括 MONA 对当代艺术与旅游形象的重塑。\n深度补充：nipaluna位于Muwinina Country。砂岩仓库、捕鲸与航运、南极科研、MONA及环境政治构成多重城市性格；双重命名让原住民语言重新进入公共空间。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n9/28抵达后只安排Rosny Hill Nature Recreation Area（罗斯尼山自然休闲区）日落；9/28-9/29连住霍巴特，作为两次自然一日团的接送基地。\n已纳入本次行程",
       "lat": -42.8821,
       "lng": 147.3272,
       "geocode_source": "known",
-      "priority": "skip",
+      "priority": "main",
       "sections": {
-        "practical": "仅作跨州落地与取车转场；不安排落地 City Walk／Rosny Hill／连住霍巴特。",
+        "practical": "愿望清单标已纳入，但每日主行程明确：不安排落地City Walk／Rosny Hill。仅作跨州落地与取车转场。",
         "culture": "nipaluna 位于 Muwinina Country；砂岩仓库、南极科研与港口史并存。kunanyi 是重要的 Aboriginal 地名。城市的文化名片也包括 MONA 对当代艺术与旅游形象的重塑。\n深度补充：nipaluna位于Muwinina Country。砂岩仓库、捕鲸与航运、南极科研、MONA及环境政治构成多重城市性格；双重命名让原住民语言重新进入公共空间。\n扩展阅读：人文／历史延伸阅读",
         "suggestion": "9/28抵达后只安排Rosny Hill Nature Recreation Area（罗斯尼山自然休闲区）日落；9/28-9/29连住霍巴特，作为两次自然一日团的接送基地。\n已纳入本次行程"
       },
       "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.discovertasmania.com.au/regions/hobart-and-south/hobart/"
+        },
         {
           "label": "BOM霍巴特气候",
           "url": "https://www.bom.gov.au/climate/averages/tables/cw_094029.shtml"
@@ -9082,6 +8781,126 @@
       "weatherDetail": null
     },
     {
+      "id": "d8-04",
+      "name": "比舍诺（Bicheno）／Little Penguin（小企鹅）",
+      "name_en": "比舍诺（Bicheno）／Little Penguin（小企鹅）, Tasmania／lutruwita 城市／区域：Bicheno／东海岸",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "小蓝企鹅通常在日落后归巢，低光、安静和不使用闪光灯是基本规则；导览比自行寻找更可控。\n深度补充：小蓝企鹅在海上觅食后于日落后归巢，数量、登陆位置和时间受季节与海况影响。合规导览使用低干扰照明并限制距离；闪光灯、追逐和堵住通道都会伤害繁殖行为。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n企鹅观赏体现旅游与野生动物栖息地之间的边界。网上“追着企鹅拍”不是可复制的体验，应服从向导和照明限制。\n深度补充：企鹅旅游展示现代野生动物管理的核心矛盾：游客想更近，保护则要求更暗、更安静和更可预测。选择有规则的导览而非自行寻找，体现对栖息地的尊重。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n已确认取消。10/1完成Wineglass Bay（酒杯湾）白天行程后约13:00从科尔斯湾直接前往朗塞斯顿，不再去比舍诺、不看塔州东海岸企鹅，也不再夜驾；小蓝企鹅改由10/5 St Kilda覆盖。\n不在本次行程中",
+      "lat": -41.873,
+      "lng": 148.301,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "企鹅观赏体现旅游与野生动物栖息地之间的边界。网上“追着企鹅拍”不是可复制的体验，应服从向导和照明限制。\n深度补充：企鹅旅游展示现代野生动物管理的核心矛盾：游客想更近，保护则要求更暗、更安静和更可预测。选择有规则的导览而非自行寻找，体现对栖息地的尊重。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "已确认取消。10/1完成Wineglass Bay（酒杯湾）白天行程后约13:00从科尔斯湾直接前往朗塞斯顿，不再去比舍诺、不看塔州东海岸企鹅，也不再夜驾；小蓝企鹅改由10/5 St Kilda覆盖。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.bichenopenguintours.com.au/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://nre.tas.gov.au/wildlife-management/fauna-of-tasmania/birds/complete-list-of-tasmanian-birds/little-penguin"
+        }
+      ],
+      "sequence": null,
+      "weatherDetail": null,
+      "category": "attraction",
+      "food": {
+        "summary": "报到点位于 Bicheno 镇中心，附近有 pizza、海鲜和咖啡；应在黄昏团集合前留足用餐时间。",
+        "restaurants": [
+          {
+            "name": "Food 'n' Brew Co",
+            "nameEn": "Food 'n' Brew Co",
+            "lat": -41.875283,
+            "lng": 148.303538,
+            "rating": 4.4,
+            "ratingCount": 2332,
+            "ratingSource": "Google 地图（Menuweb 页面汇总）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "与 Penguin Tours 同在 70 Burgess Street，步行即到",
+            "priceLevel": null,
+            "cuisine": "木烤 pizza、现代澳式餐与咖啡",
+            "recommended": "官网主打 woodfired pizza、fresh catches、塔州食材、craft beer 和 wine；可堂食或外带，适合企鹅团前提前吃晚餐。",
+            "hours": "每日午餐与晚餐 12:00–19:30；周末早餐 08:30–11:30",
+            "sourceUrl": "https://foodbrew.com.au/"
+          },
+          {
+            "name": "Lobster Shack Tasmania",
+            "nameEn": "Lobster Shack Tasmania",
+            "lat": -41.87458,
+            "lng": 148.310715,
+            "rating": 4.3,
+            "ratingCount": null,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Penguin Tours 约 800 米，位于 The Gulch 海边",
+            "priceLevel": "公开游记估算约 A$30/人，价格以现场菜单为准",
+            "cuisine": "Southern Rock Lobster 与本地海鲜",
+            "recommended": "官网明确以 Southern Rock Lobster 为主角；公开到访资料推荐 lobster roll、oysters 和 prawns，适合较早吃海鲜晚餐。",
+            "hours": "每日约 11:00–19:00；以官网当天信息为准",
+            "sourceUrl": "https://lobstershacktasmania.com.au/"
+          },
+          {
+            "name": "The Pondering Frog",
+            "nameEn": "The Pondering Frog",
+            "lat": -41.8275,
+            "lng": 148.2705,
+            "rating": 4.5,
+            "ratingCount": 593,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Bicheno 镇中心约 6 公里，需驾车",
+            "priceLevel": null,
+            "cuisine": "咖啡馆、甜点与冰淇淋",
+            "recommended": "公开评论多提到冰淇淋、甜点与公路停靠体验，适合白天进镇前补给；不适合在企鹅团临近集合时再往返。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Pondering-Frog-Bicheno"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Bicheno Penguin Tours 店外有充足免费停车，集合后由旅游车送往私人企鹅栖息地。",
+        "lots": [
+          {
+            "name": "Bicheno Penguin Tours Car Park",
+            "nameEn": "Bicheno Penguin Tours Car Park",
+            "lat": -41.875162,
+            "lng": 148.303386,
+            "fee": "free",
+            "feeNote": "游客免费",
+            "capacity": "官网称有充足车位，未公布数量",
+            "surface": "沥青",
+            "note": "停车在 70 Burgess Street 店外；报到后乘小巴前往私人 rookery，不需自己驾车去观企鹅点。"
+          }
+        ],
+        "rules": [
+          "团次在黄昏出发，具体集合时间以预订确认为准。",
+          "车辆留在店外停车区，游客乘官方小巴前往企鹅栖息地。",
+          "夜间离场时注意 Burgess Street 行人和野生动物。"
+        ],
+        "sources": [
+          {
+            "label": "Bicheno Penguin Tours FAQ",
+            "url": "https://bichenopenguintours.com.au/faqs"
+          },
+          {
+            "label": "Bicheno Penguin Tours Contact",
+            "url": "https://bichenopenguintours.com.au/contact-us"
+          }
+        ]
+      }
+    },
+    {
       "id": "skip-35",
       "name": "Lyrebird（琴鸟）",
       "name_en": "Lyrebird, Tasmania／lutruwita 城市／区域：塔州部分森林（引入物种，非塔州原生）",
@@ -9226,6 +9045,76 @@
       "weatherDetail": null
     },
     {
+      "id": "wv-tower",
+      "name": "Tower Hill Wildlife Reserve／Emu（塔山野生动物保护区／鸸鹋）",
+      "name_en": "Tower Hill Wildlife Reserve／Emu, Victoria 城市／区域：Tower Hill（近 Warrnambool）",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "火山口内有湿地、林地与野生动物；鸸鹋、袋鼠、考拉可能出现但不保证。最佳时段为清晨或傍晚。\n深度补充：近3万年前的火山口包含火山锥、湖泊、湿地和再生林地，鸸鹋、袋鼠、考拉和水鸟在不同生境活动。春季有幼鸟，清晨与傍晚更活跃；鸸鹋可能抢食，绝不可投喂。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n这里的生态修复曾参考 Eugene von Guérard 1855 年画作重建植被，是艺术成为生态证据的罕见案例；当地 Aboriginal cultural tours 能把火山地貌、食物与药用植物联系起来。\n深度补充：生态恢复曾参考Eugene von Guérard 1855年画作重建植被，是艺术成为生态证据的经典案例。Eastern Maar／Gunditjmara文化导览又把火山、食物、药用植物与Country连接起来。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n与10/4东段至Apollo Bay、10/5十二门徒后赶St Kilda的方向冲突，已确定不在本次行程；鸸鹋由9/25 Caversham覆盖。\n不在本次行程中",
+      "lat": -38.317,
+      "lng": 142.36,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "这里的生态修复曾参考 Eugene von Guérard 1855 年画作重建植被，是艺术成为生态证据的罕见案例；当地 Aboriginal cultural tours 能把火山地貌、食物与药用植物联系起来。\n深度补充：生态恢复曾参考Eugene von Guérard 1855年画作重建植被，是艺术成为生态证据的经典案例。Eastern Maar／Gunditjmara文化导览又把火山、食物、药用植物与Country连接起来。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "与10/4东段至Apollo Bay、10/5十二门徒后赶St Kilda的方向冲突，已确定不在本次行程；鸸鹋由9/25 Caversham覆盖。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://www.parks.vic.gov.au/places-to-see/parks/tower-hill-wildlife-reserve"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.worngundidj.org.au/tower-hill/"
+        }
+      ],
+      "sequence": null,
+      "weatherDetail": null
+    },
+    {
+      "id": "wv-warrn",
+      "name": "沃南布尔（Warrnambool）",
+      "name_en": "沃南布尔（Warrnambool）, Victoria 城市／区域：Warrnambool",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "是 Shipwreck Coast 西段服务中心；Logans Beach 的 southern right whale 观赏具有季节性，10月初可能已接近季末，不能保证。\n深度补充：城市位于暴露的南大洋海岸，Logans Beach平台面向南露脊鲸季节性育幼区；10月初可能已过主季。Lake Pertobe、海滨步道和附近Tower Hill提供城市与自然的不同层次。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n区域与 Eastern Maar people 有持续文化联系；海难、捕鲸与港口史构成城市记忆。\n深度补充：Eastern Maar Country、海难、捕鲸、港口与农业服务史构成城市记忆。电影《Oddball》把Middle Island小企鹅保护与Maremma护卫犬故事转化为地方文化符号。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n与本次大洋路两日主线方向冲突，已确定不西延沃南布尔；10/5午餐仍在Port Campbell。\n不在本次行程中",
+      "lat": -38.3839,
+      "lng": 142.488,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "",
+        "culture": "区域与 Eastern Maar people 有持续文化联系；海难、捕鲸与港口史构成城市记忆。\n深度补充：Eastern Maar Country、海难、捕鲸、港口与农业服务史构成城市记忆。电影《Oddball》把Middle Island小企鹅保护与Maremma护卫犬故事转化为地方文化符号。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "与本次大洋路两日主线方向冲突，已确定不西延沃南布尔；10/5午餐仍在Port Campbell。\n不在本次行程中"
+      },
+      "links": [
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://visitgreatoceanroad.org.au/destinations/warrnambool/"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://www.warrnambool.vic.gov.au/oddball"
+        }
+      ],
+      "sequence": null,
+      "weatherDetail": null
+    },
+    {
       "id": "skip-49",
       "name": "Flinders Street Station（弗林德斯街车站）",
       "name_en": "Flinders Street Station, Victoria 城市／区域：Melbourne CBD",
@@ -9261,136 +9150,39 @@
       "weatherDetail": null
     },
     {
-      "id": "wv-puffing",
+      "id": "skip-51",
       "name": "Puffing Billy Railway（普芬比利蒸汽火车）",
       "name_en": "Puffing Billy Railway, Victoria 城市／区域：Belgrave—Gembrook／Dandenong Ranges",
-      "day": 11,
-      "date": "2026-10-04",
-      "status": "visit",
-      "order_in_day": 1,
-      "highlights": "【可选】1900年通车的窄轨蒸汽铁路。选 Belgrave→Menzies Creek（曼齐斯溪）往返，单程25分钟，跨 Monbulk Creek 弧形木栈桥，是官方明确提供「坐在车厢窗台」体验的班次；Menzies Creek Museum（铁路博物馆）免费，仅周五至周日 10:30-12:00 开放，10/4 正好周日。\n扩展阅读：官网时刻表与票价",
-      "weather": "天气（长年气候参考，非逐日预报）：Belgrave（贝尔格雷夫）／Dandenong Ranges（丹德农山脉）通常约7-17°C，山区湿冷、易起雾，蒸汽火车开放式车厢体感更低；吉朗（Geelong）／Aireys Inlet（艾瑞斯湾）／洛恩（Lorne）／肯尼特河（Kennett River）／阿波罗湾（Apollo Bay）约8-18°C。乘车须带防风外套和帽子。",
-      "duration": "可选约2小时（火车往返50分钟＋博物馆约70分钟）",
-      "transport": "吉朗码头驾车约107公里／约1小时45分到 Belgrave；停 Belgrave Metro Station Car Park",
-      "notes": "【人文／文化】\n线路1900年为偏远社区运输而建，后由志愿者和遗产铁路组织恢复运营。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n【可选】仅在 Spirit of Tasmania 07:00 准点抵达吉朗时执行：07:30 驶离码头 → 驾车约107公里／1小时45分 → 09:15 到 Belgrave 停车取票（官方要求发车前60分钟到票房，09:30 硬截止）→ 10:00 发车 → 11:55 回到 Belgrave → 12:15 出发前往小红帽灯塔。\n【必须预约】官网提前购票，不售现场票；成人 A$43.50×2≈A$87。2026-10-04 为维州春假最后一天，售罄风险高。\n【中止条件】07:35 未驶离码头、09:25 未到票房或驾驶员困倦，立即放弃火车（车票作废），改回原方案经安格尔西直接进入大洋路。\n【10/6 不可行】最早班次 10:00 发车、11:55 返回，加 Belgrave→墨尔本机场约1小时，与 13:00 起飞的 HX036、10:00 到机场的要求相差约4小时。\n\n可选纳入本次行程（10/4）",
-      "lat": -37.9075,
-      "lng": 145.3556,
-      "geocode_source": "known",
-      "priority": "optional",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "Dandenong Ranges 的历史窄轨蒸汽铁路，往返与接驳通常需要半天以上，车票需预约。\n深度补充：窄轨铁路穿过Dandenong Ranges湿润森林、蕨类谷地与小镇，半程和全程耗时差异大。蒸汽牵引、开放车厢和桥梁是核心，但“腿伸窗外”只可在官方允许车厢和区段进行。\n扩展阅读：景点／自然官方资料",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "【人文／文化】\n线路始建于 1900 年，原为偏远社区运输，后经志愿者与遗产铁路体系保存；“坐在窗台伸腿”须严格按官方开放车厢与规则。\n深度补充：线路1900年服务偏远社区，后由志愿者和遗产铁路组织恢复，体现澳洲地方铁路从实用交通转为文化遗产的过程。志愿维护和森林火灾风险是持续运营的重要背景。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排，尤其不能放在10/6中午国际航班前；下次单独半天至一天。\n不在本次行程中",
+      "lat": null,
+      "lng": null,
+      "geocode_source": null,
+      "priority": "skip",
       "sections": {
         "practical": "",
-        "culture": "线路1900年为偏远社区运输而建，后由志愿者和遗产铁路组织恢复运营。\n扩展阅读：人文／历史延伸阅读",
-        "suggestion": "【可选】仅在 Spirit of Tasmania 07:00 准点抵达吉朗时执行：07:30 驶离码头 → 驾车约107公里／1小时45分 → 09:15 到 Belgrave 停车取票（官方要求发车前60分钟到票房，09:30 硬截止）→ 10:00 发车 → 11:55 回到 Belgrave → 12:15 出发前往小红帽灯塔。\n【必须预约】官网提前购票，不售现场票；成人 A$43.50×2≈A$87。2026-10-04 为维州春假最后一天，售罄风险高。\n【中止条件】07:35 未驶离码头、09:25 未到票房或驾驶员困倦，立即放弃火车（车票作废），改回原方案经安格尔西直接进入大洋路。\n【10/6 不可行】最早班次 10:00 发车、11:55 返回，加 Belgrave→墨尔本机场约1小时，与 13:00 起飞的 HX036、10:00 到机场的要求相差约4小时。\n\n可选纳入本次行程（10/4）"
+        "culture": "线路始建于 1900 年，原为偏远社区运输，后经志愿者与遗产铁路体系保存；“坐在窗台伸腿”须严格按官方开放车厢与规则。\n深度补充：线路1900年服务偏远社区，后由志愿者和遗产铁路组织恢复，体现澳洲地方铁路从实用交通转为文化遗产的过程。志愿维护和森林火灾风险是持续运营的重要背景。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "本次不安排，尤其不能放在10/6中午国际航班前；下次单独半天至一天。\n不在本次行程中"
       },
       "links": [
         {
-          "label": "官网时刻表与票价",
-          "url": "https://puffingbilly.com.au/timetable/"
+          "label": "景点／自然官方资料",
+          "url": "https://puffingbilly.com.au/visit-us/"
         },
         {
           "label": "人文／历史延伸阅读",
           "url": "https://puffingbilly.com.au/about/history/"
         }
       ],
-      "sequence": 1,
-      "dayInfo": {
-        "booking": [],
-        "highlights": [
-          "【待定-6】Puffing Billy Railway（普芬比利蒸汽火车，可选）：1900年通车的窄轨蒸汽铁路，Belgrave→Menzies Creek 段包含最经典的 Monbulk Creek 弧形木栈桥，也是官方明确提供「坐在车厢窗台上」体验的班次。",
-          "选这一段而不是 Lakeside／Gembrook，是因为它全程仅约2小时（含博物馆），是唯一能塞进大洋路当日的长度；",
-          "且博物馆免费、只在周五至周日开，10/4 正好是周日。"
-        ],
-        "weather": [],
-        "links": []
-      },
-      "weatherDetail": {
-        "temperatureRange": "8-18°C",
-        "granularity": "nearby",
-        "basis": "吉朗（Geelong）",
-        "note": "",
-        "dayAdvisory": "Surf Coast和大洋路沿海可能在一天内反复出现阵雨、海雾与强侧风；准备防风防水外层，驾车进入连续弯道前确认精神状态",
-        "source": "长年气候参考，非逐日预报"
-      },
-      "category": "transport",
-      "food": {
-        "summary": "Belgrave 镇中心餐饮充足，两家选择均可从蒸汽火车站步行抵达。",
-        "restaurants": [
-          {
-            "name": "Babaji's Kerala Kitchen Belgrave",
-            "nameEn": "Babaji's Kerala Kitchen Belgrave",
-            "lat": -37.9100522,
-            "lng": 145.353318,
-            "rating": 4.0,
-            "ratingCount": 926,
-            "ratingSource": "Menuweb",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Puffing Billy Belgrave Station 步行约 5 分钟",
-            "priceLevel": "人均约 A$25-45",
-            "cuisine": "印度 Kerala 菜",
-            "recommended": "官网明确是 Kerala 南印度餐厅，并提供 vegan、vegetarian 与 gluten-free 选择。适合火车前后吃咖喱、米饭类正餐或 chai。",
-            "hours": "周一、周二、周四、周日 12:00-20:00；周五、周六 12:00-21:00；周三休息",
-            "sourceUrl": "https://menuweb.menu/restaurants/belgrave-vic/babajis-kerala-kitchen/reviews"
-          },
-          {
-            "name": "Micawber Tavern",
-            "nameEn": "Micawber Tavern",
-            "lat": -37.900262,
-            "lng": 145.3568283,
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距车站约 1 公里",
-            "priceLevel": "人均约 A$25-45",
-            "cuisine": "澳式酒馆餐",
-            "recommended": "Puffing Billy 官方介绍确认供应当代季节性 bistro 菜单、Guinness、本地及国际啤酒，并有 beer garden。适合火车行程后吃 pub meal。",
-            "hours": "每日营业；具体餐时以官网为准",
-            "sourceUrl": "https://puffingbillyrailway.org.au/visit-us/things-to-do-in-the-region/micawber-tavern/"
-          }
-        ]
-      },
-      "parking": {
-        "summary": "首选 Belgrave Metro Station 新多层停车楼；免费但主要服务通勤，周末和活动日应早到。",
-        "lots": [
-          {
-            "name": "Belgrave Metro Station 多层停车场",
-            "nameEn": "Belgrave Station Multi-deck Car Park",
-            "lat": -37.9096952,
-            "lng": 145.3548577,
-            "fee": "free",
-            "feeNote": "维州通勤停车项目；公开旅游交通资料列为免费停车",
-            "capacity": "640 个车位，其中 16 个地面层无障碍车位",
-            "surface": "混凝土多层停车楼",
-            "note": "入口有实时余位显示、CCTV、照明和电梯；从 Metro station 步行约 2 分钟到 Puffing Billy。"
-          },
-          {
-            "name": "Belgrave Station 上下客区",
-            "nameEn": "Belgrave Station Pick-up / Drop-off Zone",
-            "lat": -37.9096952,
-            "lng": 145.3548577,
-            "fee": "free",
-            "feeNote": "仅短时接送",
-            "capacity": null,
-            "surface": "沥青",
-            "note": "新停车项目包含专用 pick-up/drop-off zones；不可在此长时间等候。"
-          }
-        ],
-        "rules": [
-          "停车楼主要为公共交通通勤者建设，周末热门班次仍可能满位，应至少提前到达。",
-          "不要把 Woolworths 等商业停车场当全天停车，须遵守商场限时牌。",
-          "无障碍车位位于地面层。"
-        ],
-        "sources": [
-          {
-            "label": "VicTrack：Belgrave Station 640-space car park",
-            "url": "https://www.victrack.com.au/news/2024/hundreds-more-spaces-added-at-belgrave-station-car-park"
-          },
-          {
-            "label": "Car Parks for Commuters：Belgrave Station",
-            "url": "https://carparks.vic.gov.au/project/belgrave-station-car-park/"
-          }
-        ]
-      }
+      "sequence": null,
+      "weatherDetail": null
     },
     {
       "id": "skip-52",
@@ -9400,11 +9192,11 @@
       "date": null,
       "status": "skip",
       "order_in_day": null,
-      "highlights": "大型城市动物园，若完整参观需半天；已有多个野生动物点时边际价值下降。\n深度补充：园区位于Royal Park，完整参观通常需半天；物种展区强调栖息地、濒危项目和行为丰富化。若已安排Bonorong、Maria Island、Cradle，再加入会压缩自然栖息地体验。\n扩展阅读：景点／自然官方资料",
+      "highlights": "大型城市动物园，若完整参观需半天；已有多个野生动物点时边际价值下降。\n深度补充：园区位于Royal Park，完整参观通常需半天；物种展区强调栖息地、濒危项目和行为丰富化。若已安排Bonorong、Maria Island、Cradle与Tower Hill，再加入会压缩自然栖息地体验。\n扩展阅读：景点／自然官方资料",
       "weather": "",
       "duration": "",
       "transport": "",
-      "notes": "【人文／文化】\n开园于 19 世纪，今天由 Zoos Victoria 运营并强调物种保育；历史动物园展示观念与现代福利标准有显著变化。\n深度补充：1857年成立，是澳洲最早的动物园之一，其历史反映从19世纪异域动物收藏到现代保育机构的伦理变化。比较旧象舍等遗产与现代表达，能看到动物福利观念演进。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；Bonorong 未去；Maria Island、Cradle／Devils@Cradle 与 Caversham 已覆盖主要动物愿望。\n不在本次行程中",
+      "notes": "【人文／文化】\n开园于 19 世纪，今天由 Zoos Victoria 运营并强调物种保育；历史动物园展示观念与现代福利标准有显著变化。\n深度补充：1857年成立，是澳洲最早的动物园之一，其历史反映从19世纪异域动物收藏到现代保育机构的伦理变化。比较旧象舍等遗产与现代表达，能看到动物福利观念演进。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；Bonorong、Maria Island、Cradle 与 Tower Hill 已覆盖主要动物愿望。\n不在本次行程中",
       "lat": -37.784,
       "lng": 144.951,
       "geocode_source": "known",
@@ -9412,7 +9204,7 @@
       "sections": {
         "practical": "",
         "culture": "开园于 19 世纪，今天由 Zoos Victoria 运营并强调物种保育；历史动物园展示观念与现代福利标准有显著变化。\n深度补充：1857年成立，是澳洲最早的动物园之一，其历史反映从19世纪异域动物收藏到现代保育机构的伦理变化。比较旧象舍等遗产与现代表达，能看到动物福利观念演进。\n扩展阅读：人文／历史延伸阅读",
-        "suggestion": "本次不安排；Bonorong 未去；Maria Island、Cradle／Devils@Cradle 与 Caversham 已覆盖主要动物愿望。\n不在本次行程中"
+        "suggestion": "本次不安排；Bonorong、Maria Island、Cradle 与 Tower Hill 已覆盖主要动物愿望。\n不在本次行程中"
       },
       "links": [
         {
@@ -9428,7 +9220,7 @@
       "weatherDetail": null
     },
     {
-      "id": "skip-53",
+      "id": "skip-54",
       "name": "Phillip Island／Little Penguin（菲利普岛／小企鹅）",
       "name_en": "Phillip Island／Little Penguin, Victoria 城市／区域：Phillip Island／Millowl",
       "day": null,
@@ -9440,9 +9232,9 @@
       "duration": "",
       "transport": "",
       "notes": "【人文／文化】\n其文化意义在于大规模野生动物旅游如何通过栖息地管理、观景平台和严格规则降低干扰。\n深度补充：Millowl是Bunurong Country。企鹅保护从住房开发威胁、栖息地回购到大规模生态旅游管理，是地方政策与野生动物保护结合的案例；岛上也有赛车文化等完全不同的现代身份。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n本次不安排；10/5需要完成大洋路进城，不能再绕 Phillip Island。\n不在本次行程中",
-      "lat": -38.51,
-      "lng": 145.23,
-      "geocode_source": "known",
+      "lat": null,
+      "lng": null,
+      "geocode_source": null,
       "priority": "skip",
       "sections": {
         "practical": "",
@@ -9461,6 +9253,186 @@
       ],
       "sequence": null,
       "weatherDetail": null
+    },
+    {
+      "id": "d12-05",
+      "name": "伦敦桥",
+      "name_en": "London Bridge Lookout, Port Campbell VIC",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "为确保10/5赶上 St Kilda 第一场企鹅归巢，本次取消西向绕行。",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "本次不看；十二门徒后最晚14:15-14:30离开沉船海岸，直接驶往 St Kilda。",
+      "lat": -38.62,
+      "lng": 142.93,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "本次不看；十二门徒后最晚14:15-14:30离开沉船海岸，直接驶往 St Kilda。"
+      },
+      "links": [],
+      "sequence": null,
+      "weatherDetail": null,
+      "category": "attraction",
+      "food": {
+        "summary": "London Bridge 现场没有餐饮，最近较稳定的正餐选择在约 8 公里外的 Port Campbell。",
+        "restaurants": [
+          {
+            "name": "Grassroots Deli Cafe",
+            "nameEn": "Grassroots Deli Cafe",
+            "lat": -38.6200124,
+            "lng": 142.9951722,
+            "rating": 4.5,
+            "ratingCount": 923,
+            "ratingSource": "Google 地图（检索结果核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 London Bridge 约 8 公里，驾车约 8-10 分钟",
+            "priceLevel": "人均约 A$15-30",
+            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
+            "recommended": "炸鸡汉堡、家制汤和咖啡评价稳定，适合日间快速补给。午餐通常 14:30 结束，傍晚到访观景点时不要把它当晚餐备选。",
+            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
+            "sourceUrl": "https://grassrootsdelicafe.com.au/"
+          },
+          {
+            "name": "12 Rocks Beach Bar Cafe",
+            "nameEn": "12 Rocks Beach Bar Cafe",
+            "lat": -38.6200628,
+            "lng": 142.9941683,
+            "rating": 4.2,
+            "ratingCount": 2188,
+            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 London Bridge 约 8 公里，驾车约 8-10 分钟",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
+            "recommended": "fish and chips、calamari、海鲜与海景座位最有代表性。营业覆盖晚间，比日间咖啡店更适合看完日落后用餐。",
+            "hours": "每日 09:30 至晚间（结束时间未固定）",
+            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "London Bridge 有免费日游客停车区和无障碍车位，现场没有餐饮补给。",
+        "lots": [
+          {
+            "name": "London Bridge 停车区",
+            "nameEn": "London Bridge Car Park",
+            "lat": -38.62,
+            "lng": 142.93,
+            "fee": "free",
+            "feeNote": "国家公园日游停车区，未见收费信息",
+            "capacity": null,
+            "surface": null,
+            "note": "从 London Bridge Road 进入，停车后步行至观景台；有无障碍停车设施。旺季可能很忙，不要沿接入道路随意停车。"
+          }
+        ],
+        "rules": [
+          "仅使用指定停车区并沿正式步道前往观景台，不要跨越护栏接近不稳定崖缘。",
+          "同区域 The Arch 因崖壁不稳定和步道侵蚀关闭，不要把 London Bridge 开放状态误认为周边所有观景点均开放。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Victoria：London Bridge, The Grotto and The Arch",
+            "url": "https://www.parks.vic.gov.au/places-to-see/parks/port-campbell-national-park/things-to-do/london-bridge"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d12-06",
+      "name": "石窟",
+      "name_en": "The Grotto, Port Campbell VIC",
+      "day": null,
+      "date": null,
+      "status": "skip",
+      "order_in_day": null,
+      "highlights": "为确保10/5赶上 St Kilda 第一场企鹅归巢，本次取消西向绕行。",
+      "weather": "",
+      "duration": "",
+      "transport": "",
+      "notes": "本次不看；不再从 Port Campbell 向西延伸。",
+      "lat": -38.615,
+      "lng": 142.91,
+      "geocode_source": "known",
+      "priority": "skip",
+      "sections": {
+        "practical": "本次不看；不再从 Port Campbell 向西延伸。"
+      },
+      "links": [],
+      "sequence": null,
+      "weatherDetail": null,
+      "category": "attraction",
+      "food": {
+        "summary": "The Grotto 现场没有餐饮，建议在约 12 公里外的 Port Campbell 用餐。",
+        "restaurants": [
+          {
+            "name": "Grassroots Deli Cafe",
+            "nameEn": "Grassroots Deli Cafe",
+            "lat": -38.6200124,
+            "lng": 142.9951722,
+            "rating": 4.5,
+            "ratingCount": 923,
+            "ratingSource": "Google 地图（检索结果核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 The Grotto 约 12 公里，驾车约 12-15 分钟",
+            "priceLevel": "人均约 A$15-30",
+            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
+            "recommended": "炸鸡汉堡、家制汤、早餐与咖啡适合白天补给。若计划傍晚看海岸景色，应提前用餐，因为这里以早餐和午餐时段为主。",
+            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
+            "sourceUrl": "https://grassrootsdelicafe.com.au/"
+          },
+          {
+            "name": "12 Rocks Beach Bar Cafe",
+            "nameEn": "12 Rocks Beach Bar Cafe",
+            "lat": -38.6200628,
+            "lng": 142.9941683,
+            "rating": 4.2,
+            "ratingCount": 2188,
+            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 The Grotto 约 12 公里，驾车约 12-15 分钟",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
+            "recommended": "评论高频菜包括 fish and chips、calamari 和 crispy pork belly，官网突出海鲜与海景。是看完 The Grotto 后回 Port Campbell 吃晚餐的实用选择。",
+            "hours": "每日 09:30 至晚间（结束时间未固定）",
+            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "The Grotto 入口有免费停车区，第一处观景台距停车区约 300 米，之后下行段较陡。",
+        "lots": [
+          {
+            "name": "The Grotto 停车区",
+            "nameEn": "The Grotto Car Park",
+            "lat": -38.615,
+            "lng": 142.91,
+            "fee": "free",
+            "feeNote": "国家公园日游停车区，未见收费信息",
+            "capacity": null,
+            "surface": null,
+            "note": "从 Great Ocean Road 直接转入停车区；到第一观景平台约 300 米且相对平缓，再向下约 40 米的主观景段更陡并有楼梯，不适合轮椅、婴儿车或行动不便者。"
+          }
+        ],
+        "rules": [
+          "旺季停车位可能紧张，只能在划定区域停车，不要占用转弯和进出通道。",
+          "下层观景段陡且有楼梯；天气恶劣或地面湿滑时应量力而行。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Victoria：London Bridge, The Grotto and The Arch",
+            "url": "https://www.parks.vic.gov.au/places-to-see/parks/port-campbell-national-park/things-to-do/london-bridge"
+          },
+          {
+            "label": "Coastal Stays：The Grotto access",
+            "url": "https://www.coastalstays.com/portcampbell/attractions-grotto/"
+          }
+        ]
+      }
     },
     {
       "id": "meta-1",
@@ -9544,7 +9516,7 @@
       "weather": "",
       "duration": "",
       "transport": "路线／主题条目",
-      "notes": "路线或主题条目，不单独打点。\n\n【人文】\n它是第一次世界大战阵亡者纪念道路，主要由归国军人于 1919-1932 年修建。道路也穿越 Wadawurrung、Gadubanud、Eastern Maar 等传统土地。\n深度补充：它由归国军人于1919-1932年修筑并作为一战纪念道路，也穿越Wadawurrung、Gadubanud、Eastern Maar等Traditional Country。劳动史、战争纪念与原住民土地应同时进入叙事。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n因塔州延长至10/3夜航，本次改为10/4-10/5两天完成：10/4塔山＋沉船海岸，10/5沿海公路回墨尔本；不做单日往返。\n已纳入本次行程",
+      "notes": "路线或主题条目，不单独打点。\n\n【人文】\n它是第一次世界大战阵亡者纪念道路，主要由归国军人于 1919-1932 年修建。道路也穿越 Wadawurrung、Gadubanud、Eastern Maar 等传统土地。\n深度补充：它由归国军人于1919-1932年修筑并作为一战纪念道路，也穿越Wadawurrung、Gadubanud、Eastern Maar等Traditional Country。劳动史、战争纪念与原住民土地应同时进入叙事。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n因塔州延长至10/3夜航，本次改为10/4-10/5两天完成：10/4走大洋路东段至Apollo Bay，10/5保留十二门徒后直接赶St Kilda企鹅；不西延Tower Hill／Warrnambool。\n已纳入本次行程",
       "lat": null,
       "lng": null,
       "geocode_source": "not_a_point",
@@ -9552,7 +9524,7 @@
       "sections": {
         "practical": "路线或主题条目，不单独打点。",
         "culture": "它是第一次世界大战阵亡者纪念道路，主要由归国军人于 1919-1932 年修建。道路也穿越 Wadawurrung、Gadubanud、Eastern Maar 等传统土地。\n深度补充：它由归国军人于1919-1932年修筑并作为一战纪念道路，也穿越Wadawurrung、Gadubanud、Eastern Maar等Traditional Country。劳动史、战争纪念与原住民土地应同时进入叙事。\n扩展阅读：人文／历史延伸阅读",
-        "suggestion": "因塔州延长至10/3夜航，本次改为10/4-10/5两天完成：10/4塔山＋沉船海岸，10/5沿海公路回墨尔本；不做单日往返。\n已纳入本次行程"
+        "suggestion": "因塔州延长至10/3夜航，本次改为10/4-10/5两天完成：10/4走大洋路东段至Apollo Bay，10/5保留十二门徒后直接赶St Kilda企鹅；不西延Tower Hill／Warrnambool。\n已纳入本次行程"
       },
       "links": [
         {
@@ -9572,12 +9544,13 @@
       "weatherDetail": null
     }
   ],
-  "wishlistCount": 53,
+  "wishlistCount": 54,
   "carStayStandard": "## 车宿统一判断标准\n\n只有同时满足以下条件才把“睡车里”列为可选：车辆本身适合安全睡眠且租赁合同允许；地点为持牌营地、明确获准的 campground／holiday park，或当地政府明确标识的短时 RV／24 小时休息区；现场没有“禁止露营／禁止过夜”标识；能合法处理厕所、污水和垃圾。普通轿车、城市停车场、国家公园观景停车场、海边路肩和机场停车场一律不按可车宿地点处理。法规参考已并入各区说明：西澳政府露营规则、塔州保护地露营规定、Spirit of Tasmania 运输条款。",
-  "animals": "# 动物覆盖核对\n\n| 动物 | 最新行程情况 | 结论 |\n|-|-|-|\n| Koala（考拉） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）可稳定看到；抱考拉票当前AUD 35／人，当天09:00先到先得，名额少，且有身高、体力和动物福利限制。 | 能看到；抱考拉不保证 |\n| Wombat（袋熊） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）可看；9/30 Maria Island（玛丽亚岛）野生袋熊出现概率很高。野生袋熊不能触摸、追逐或喂食。 | 能看到；不能摸或抱 |\n| Tasmanian devil（袋獾） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）有固定展区；9/30 Maria Island（玛丽亚岛）野生袋獾白天偶遇概率低；10/2已安排Devils@Cradle（摇篮山恶魔保护园）17:30 After Dark Feeding Tour（夜间喂食团），可稳定观察Tasmanian devil（袋獾）及两种quoll并听保育讲解。 | 能看到；已有塔州专门袋獾保育夜场 |\n| Short-beaked echidna（短喙针鼹） | 10/2 Platypus House（鸭嘴兽之家）的Echidna Garden（针鼹花园）可稳定看到Short-beaked echidna（短喙针鼹）；9/30 Maria Island（玛丽亚岛）及10/2-10/3 Cradle Mountain（摇篮山）仍有野外偶遇机会。 | 能看到；野外个体不保证 |\n| Platypus（鸭嘴兽） | 10/2已安排Platypus House（鸭嘴兽之家）10:00向导团，可在白天稳定看到Platypus（鸭嘴兽）；本次不再绕行The Tasmanian Arboretum（塔斯马尼亚树木园），避免压缩摇篮山时间。 | 能看到；另有野外观察机会 |\n| Little penguin（小蓝企鹅） | 10/1已安排Bicheno Penguin Tours（比舍诺企鹅归巢团），在私人修复栖息地由向导带领观看Little penguin（小蓝企鹅）日落后归巢；9月至1月为繁殖季，需提前订票并遵守低光、安静和禁闪光灯规则。 | 已安排专业野外归巢导览；出现时间和数量不保证 |\n| Lyrebird（琴鸟） | 当前行程没有专门观察点；野外偶遇不可作为安排承诺。 | 不能保证看到 |\n| Emu（鸸鹋） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）有固定展区。【待定-1】Tower Hill（塔山）已不在主行程。 | 能看到（Caversham 展区）；野外不保证 |\n| Dolphin（海豚） | 9/29 Tasman Island Cruises（塔斯曼岛巡游）会寻找Dolphin（海豚）；9/30 仅为客运渡轮上岛步行，不含环岛巡游船。本次仍未去Monkey Mia（蒙基米亚），野生海豚出现不保证。 | 有机会；不保证 |\n| Humpback whale（座头鲸） | 9/29 Tasman Island Cruises（塔斯曼岛巡游）会在迁徙季主动寻找；10/1 Cape Tourville（图维尔角）可岸观。9/30 客运渡轮不是观鲸产品。野生偶遇不保证。 | 有机会；不保证 |\n| Whale shark（鲸鲨） | 当前路线不到 Ningaloo Reef（宁格鲁礁），也未安排鲸鲨项目。 | 看不到 |\n| Southern right whale（南露脊鲸） | 9/29 Tasman Island Cruises（塔斯曼岛巡游）会寻找；Freycinet（菲欣纳）和Maria Island（玛丽亚岛）沿海也有季节性偶遇可能，没有任何地点或船团能保证看到。 | 有机会；不保证 |\n\n判断口径：固定展区或已预约的圈养展示记为“能看到”；野生动物、鲸豚和迁徙物种均只记为“有机会”，不写成保证。10/1的Bicheno Penguin Tours（比舍诺企鹅归巢团）提供合规野外归巢观察；10/2的Platypus House（鸭嘴兽之家）可稳定看到Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）。",
+  "animals": "# 动物覆盖核对\n\n| 动物 | 最新行程情况 | 结论 |\n|-|-|-|\n| Koala（考拉） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）可稳定看到；抱考拉票当前AUD 35／人，当天09:00先到先得，名额少，且有身高、体力和动物福利限制。 | 能看到；抱考拉不保证 |\n| Wombat（袋熊） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）可看；9/30 Maria Island（玛丽亚岛）野生袋熊出现概率很高。野生袋熊不能触摸、追逐或喂食。 | 能看到；不能摸或抱 |\n| Tasmanian devil（袋獾） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）有固定展区；9/30 Maria Island（玛丽亚岛）野生袋獾白天偶遇概率低；10/2已安排Devils@Cradle（摇篮山恶魔保护园）17:30 After Dark Feeding Tour（夜间喂食团），可稳定观察Tasmanian devil（袋獾）及两种quoll并听保育讲解。 | 能看到；已有塔州专门袋獾保育夜场 |\n| Short-beaked echidna（短喙针鼹） | 10/2 Platypus House（鸭嘴兽之家）的Echidna Garden（针鼹花园）可稳定看到Short-beaked echidna（短喙针鼹）；9/30 Maria Island（玛丽亚岛）及10/2-10/3 Cradle Mountain（摇篮山）仍有野外偶遇机会。 | 能看到；野外个体不保证 |\n| Platypus（鸭嘴兽） | 10/2已安排Platypus House（鸭嘴兽之家）10:00向导团，可在白天稳定看到Platypus（鸭嘴兽）；本次不再绕行The Tasmanian Arboretum（塔斯马尼亚树木园），避免压缩摇篮山时间。 | 能看到；另有野外观察机会 |\n| Little penguin（小蓝企鹅） | 10/1 Bicheno企鹅已确定取消，塔州东海岸企鹅不再作为必看窗口。改为10/5在St Kilda Pier／Breakwater高架平台观看归巢；免费但须持票，【待定-2】第一场暂按约19:57 AEDT，最终以票面为准。 | 改由墨尔本St Kilda覆盖；出现时间和数量不保证 |\n| Lyrebird（琴鸟） | 当前行程没有专门观察点；野外偶遇不可作为安排承诺。 | 不能保证看到 |\n| Emu（鸸鹋） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）有固定展区。【待定-1】Tower Hill（塔山）已不在主行程；野生鸸鹋不再作为承诺机会。 | 能看到（Caversham 展区）；野外不保证 |\n| Dolphin（海豚） | 9/29 Tasman Island Cruises（塔斯曼岛巡游）会寻找Dolphin（海豚）；9/30 仅为 Encounter Maria Island 客运渡轮上岛步行，不含环岛巡游船。本次仍未去Monkey Mia（蒙基米亚），野生海豚出现不保证。 | 有机会；不保证 |\n| Humpback whale（座头鲸） | 9/29 Tasman Island Cruises（塔斯曼岛巡游）会在迁徙季主动寻找；10/1 Cape Tourville（图维尔角）可岸观。9/30 客运渡轮不是观鲸产品。野生偶遇不保证。 | 有机会；不保证 |\n| Whale shark（鲸鲨） | 当前路线不到 Ningaloo Reef（宁格鲁礁），也未安排鲸鲨项目。 | 看不到 |\n| Southern right whale（南露脊鲸） | 9/29 Tasman Island Cruises（塔斯曼岛巡游）会寻找；Freycinet（菲欣纳）和Maria Island（玛丽亚岛）沿海也有季节性偶遇可能，没有任何地点或船团能保证看到。 | 有机会；不保证 |\n\n判断口径：固定展区或已预约的圈养展示记为“能看到”；野生动物、鲸豚和迁徙物种均只记为“有机会”，不写成保证。10/5的St Kilda Pier／Breakwater高架平台提供合规野外归巢观察；塔州东海岸企鹅已取消；10/2的Platypus House（鸭嘴兽之家）可稳定看到Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）。Tower Hill（塔山）不在本次主行程。",
   "pending": [
     "Tower Hill 与 Warrnambool 是否彻底放弃",
-    "Loch Ard Gorge 是否固定保留",
+    "St Kilda 第一场实际票面时间与余票",
+    "Platypus House 10/2 10:00 场次是否已订",
     "关键住宿、交通和门票的实际预订状态",
     "租车合同是否允许在持牌营地内睡车"
   ]
