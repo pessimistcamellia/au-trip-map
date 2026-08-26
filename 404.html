@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta id="theme-color" name="theme-color" content="#fafaf7" />
+    <meta
+      name="description"
+      content="2026 澳大利亚自驾行程离线路书，含 13 天日程、路线地图、随手记和静态路书下载。"
+    />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="澳洲路书" />
+    <link rel="apple-touch-icon" href="/au-trip-map/icons/icon-192.png" />
+    <script>
+      try {
+        const saved = JSON.parse(localStorage.getItem('au-trip-map:user-state:v1') || '{}')
+        const dark =
+          saved.theme === 'dark' ||
+          (saved.theme !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches)
+        const background = dark ? '#191b1c' : '#fafaf7'
+        document.documentElement.dataset.theme = dark ? 'dark' : 'light'
+        document.documentElement.style.backgroundColor = background
+        document.documentElement.style.colorScheme = dark ? 'dark' : 'light'
+        document.querySelector('#theme-color').setAttribute('content', background)
+      } catch {}
+    </script>
+    <title>澳洲行程路书</title>
+    <script type="module" crossorigin src="/au-trip-map/assets/index-BAuikcAE.js"></script>
+    <link rel="stylesheet" crossorigin href="/au-trip-map/assets/index-CsB0Trhb.css">
+  <link rel="manifest" href="/au-trip-map/manifest.webmanifest"></head>
+  <body>
+    <noscript>此应用需要启用 JavaScript。</noscript>
+    <div id="app"></div>
+  </body>
+</html>
