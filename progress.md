@@ -1,5 +1,21 @@
 # 进度日志
 
+## 2026-08-27 10/2 Discovery Parks 带电营位回写飞书
+- 原文档 `TAoHd0QFyoo7lpxGk9DcpN0nnCc` 原地更新，revision 522 → 530；未新建文档。
+- 改动：每日主行程 10/2 住宿列与路线终点、行程总览当晚住宿、必订清单、待定问题第 3 项；本地 `doc-content.md`、`trip-data.json`、`itinerary.json` 同步为已确认 Powered 营位。
+
+## 2026-08-26 车宿营地方案回写飞书（TAoHd0QFyoo7lpxGk9DcpN0nnCc）
+- 全程 `docs +update --command block_replace` 原地改单元格，未新建文档；revision 514 → 522。
+- 改动：每日主行程 9/25、9/26 住宿建议列（首选／备选／兜底／排除全部换成实测结果）、行程总览当晚住宿两格、必订清单项目与状态、待定问题第 4 项。
+- 本地 `doc-content.md` 同步同一口径，待确认项按琥珀色高亮标注。
+
+## 2026-08-26 Quest Savoy 停车收费
+- 核对酒店无院内车位，官方推荐 Market Place；住客折扣约 AUD 27／8–24h，三晚连停约 AUD 81。
+- 排除 Centrepoint 过夜方案（非 24 小时、关闸取车另收费）。
+
+## 2026-08-26 Maria Island 向导与动物观察点
+- 核对 Parks Tasmania 与 Tours Tasmania 产品：跟团会在标准步行线路上找动物，有固定热点，但不是保证每种都看到的猎奇团。
+
 ## 2026-08-26 亚瑟港交通与 Maria Island 方案
 - 纠正 07:55 时间归属：这是 Maria Island Hobart 集合时间；Tasman Island Cruises 自驾版为 09:15 在 Port Arthur 签到。
 - 排除 734 公交、Pennicott 普通 Port Arthur Bus 和私人接送；只有 07:30 Full Day Tour 专车能按时接上巡游，但官方升级差价超过 ¥300／人，需由运营商确认能否给现有订单单独加车位。
@@ -361,3 +377,11 @@
 - 补充路线核算：Ashgrove Cheese 比 Sheffield 更贴 Bass Highway，适合作为 20—40 分钟补给短停；若主目标是尽量留在摇篮山，下午只走入口短线并在 15:00 前离开，不赌 Dove Lake 末班 shuttle。
 - 10/3 具体航班号、Melbourne 到达机场／航站楼、10/3 墨尔本住宿和维州新租车仍待确认；本轮先给出安全可执行方案与营位直链，未改飞书、My Maps 或路书正式数据。
 - 聚合班表新增候选为 Jetstar JQ738（约 20:20—20:50 起飞），比早先查到但有效期不覆盖 10 月的 JQ742 更接近；航司官网指定日期结果仍未成功加载，因此不得视为票面确认。
+
+## 2026-08-26 补发已确认住宿改动到线上
+- 用户反馈线上路书刷新后仍是旧内容。根因：住宿同步那一轮只改了本地文件，既没 commit 也没重新构建、没推 `gh-pages`，线上仍停留在 8/24 的 `752bb28`（企鹅行程与移动底栏）。数据本身没问题。
+- 发布前做了数据完整性核对：与已发布版对比无字段丢失（`LOST KEYS: []`），`places` 86（+1 住宿点）、`days` 13 不变；`days.rhythm` 由 117 降至 83 属预期，来源是霍巴特两天改为含接送的当日团、10/1 不经比舍诺、10/4 直达十二门徒过夜、10/5 改走大洋路东段回墨尔本。
+- 已提交并推送 `main`：`55290ee`（行程与住宿数据）、`6f85aaf`（规划文档）；`dev-dist/` 已加入 `.gitignore`，不再进版本库。
+- typecheck、Vitest 40 项、production build 全部通过；构建产物为 `index-hwkir1JF.js` / `index-CsB0Trhb.css`，PWA precache 14 条 / 683.43 KiB。
+- `gh-pages` 已推到 `074849b`，但 GitHub Pages 构建长时间停在 `building`。查明为平台故障：GitHub Actions `major_outage`、Pages `degraded_performance`，`pages build and deployment` 工作流排队且无 job 生成（历史构建仅 21—27 秒）。官方 16:14 UTC 公告已定位并在逐步恢复流量。
+- 结论：发布链路已补齐，线上生效时间取决于 GitHub 恢复；仍需注意 10/3 的飞机改线尚未写入正式数据，线上会继续显示塔州精神号夜航。
