@@ -162,22 +162,105 @@ function rectanglesOverlap(left: ILayoutRect, right: ILayoutRect, gap = 4): bool
 }
 
 const MAP_LABEL_FONT_SIZE = 14
+const MAP_LABEL_LINE_HEIGHT = 17.5
 const MAP_LABEL_MAX_WIDTH = 122
-// 盒模型为 border-box：左右各 8px 内边距加 1px 描边，共 18px。
+// 盒模型为 border-box：左右各 8px 内边距加 1px 描边，共 18px；上下同理共 12px。
 const MAP_LABEL_INSET = 18
-const MAP_LABEL_LINES = 2
+const MAP_LABEL_BLOCK_INSET = 12
+const MAP_LABEL_MAX_LINES = 3
+const MAP_LABEL_MIN_LINES = 2
+const MAP_LABEL_CAPACITY =
+  (MAP_LABEL_MAX_WIDTH - MAP_LABEL_INSET) / MAP_LABEL_FONT_SIZE
+
+// 字宽单位以 1em 为基准，实测标签字体（14px / weight 750）后各留约 5% 余量，
+// 避免估算偏窄导致浏览器多折一行、把文字裁掉半截。
+const CJK_UNIT = 1.04
+const LATIN_UNIT = 0.62
+const SPACE_UNIT = 0.3
+const CJK_PATTERN = /[\u2E80-\u9FFF]/u
 
 function measureTextUnits(text: string): number {
-  return [...text].reduce(
-    (total, character) =>
-      total + (/[\u2E80-\u9FFF]/u.test(character) ? 1 : 0.58),
-    0,
-  )
+  return [...text].reduce((total, character) => {
+    if (CJK_PATTERN.test(character)) return total + CJK_UNIT
+    if (/\s/u.test(character)) return total + SPACE_UNIT
+    return total + LATIN_UNIT
+  }, 0)
+}
+
+interface ILabelToken {
+  text: string
+  units: number
+  spaced: boolean
+  end: number
+}
+
+/** 中日韩逐字可断行，拉丁按空白成词，与浏览器换行规则保持一致。 */
+function tokenizeLabel(text: string): ILabelToken[] {
+  const tokens: ILabelToken[] = []
+  let buffer = ''
+  let spaced = false
+  let index = 0
+  const flush = (end: number): void => {
+    if (!buffer) return
+    tokens.push({ text: buffer, units: measureTextUnits(buffer), spaced, end })
+    buffer = ''
+    spaced = false
+  }
+
+  for (const character of text) {
+    if (/\s/u.test(character)) {
+      flush(index)
+      spaced = true
+    } else if (CJK_PATTERN.test(character)) {
+      flush(index)
+      tokens.push({
+        text: character,
+        units: CJK_UNIT,
+        spaced,
+        end: index + character.length,
+      })
+      spaced = false
+    } else {
+      buffer += character
+    }
+    index += character.length
+  }
+  flush(index)
+  return tokens
+}
+
+interface ILabelLine {
+  text: string
+  units: number
+  end: number
+}
+
+function wrapLabelLines(text: string, capacity: number): ILabelLine[] {
+  const lines: ILabelLine[] = []
+  let current: ILabelLine | null = null
+
+  for (const token of tokenizeLabel(text)) {
+    const separator: number = current && token.spaced ? SPACE_UNIT : 0
+    if (current && current.units + separator + token.units > capacity) {
+      lines.push(current)
+      current = { text: token.text, units: token.units, end: token.end }
+      continue
+    }
+    current = current
+      ? {
+          text: `${current.text}${token.spaced ? ' ' : ''}${token.text}`,
+          units: current.units + separator + token.units,
+          end: token.end,
+        }
+      : { text: token.text, units: token.units, end: token.end }
+  }
+  if (current) lines.push(current)
+  return lines
 }
 
 /**
- * 地图标签只有两行可用高度，超长地名靠 CSS 裁切会露出半行文字，
- * 因此先去掉括号补充说明，再按两行宽度预算截断并补省略号。
+ * 地图标签最多三行，超长地名靠 CSS 裁切会露出半行文字，
+ * 因此先去掉括号补充说明，再按真实换行位置截断并补省略号。
  */
 export function formatMapLabel(title: string): string {
   const stripped =
@@ -186,31 +269,37 @@ export function formatMapLabel(title: string): string {
       .replace(/\([^)]*\)/g, '')
       .replace(/\s+/g, ' ')
       .trim() || title.trim()
-  const budget =
-    ((MAP_LABEL_MAX_WIDTH - MAP_LABEL_INSET) * MAP_LABEL_LINES) /
-    MAP_LABEL_FONT_SIZE
-  if (measureTextUnits(stripped) <= budget) return stripped
-  let kept = ''
-  let used = measureTextUnits('…')
-  for (const character of stripped) {
-    const next = measureTextUnits(character)
-    if (used + next > budget) break
-    kept += character
-    used += next
+  const lines = wrapLabelLines(stripped, MAP_LABEL_CAPACITY)
+  if (lines.length <= MAP_LABEL_MAX_LINES) return stripped
+
+  const lastLineStart = lines[MAP_LABEL_MAX_LINES - 2].end
+  const ellipsisUnits = measureTextUnits('…')
+  let kept = stripped.slice(0, lines[MAP_LABEL_MAX_LINES - 1].end).trimEnd()
+  while (
+    kept.length > lastLineStart &&
+    measureTextUnits(kept.slice(lastLineStart).trimStart()) + ellipsisUnits >
+      MAP_LABEL_CAPACITY
+  ) {
+    kept = kept.slice(0, -1).trimEnd()
   }
-  return `${kept.trimEnd()}…`
+  return `${kept}…`
 }
 
 function estimateMapLabelSize(title: string): { width: number; height: number } {
-  const contentWidth = measureTextUnits(formatMapLabel(title)) * MAP_LABEL_FONT_SIZE
+  const lines = wrapLabelLines(formatMapLabel(title), MAP_LABEL_CAPACITY)
+  const longest = lines.reduce((widest, line) => Math.max(widest, line.units), 0)
   const width = Math.min(
     MAP_LABEL_MAX_WIDTH,
-    Math.max(54, Math.ceil(contentWidth) + MAP_LABEL_INSET),
+    Math.max(54, Math.ceil(longest * MAP_LABEL_FONT_SIZE) + MAP_LABEL_INSET),
+  )
+  // 单行文本按两行预留，留出字体差异导致意外折行的余量。
+  const lineCount = Math.min(
+    MAP_LABEL_MAX_LINES,
+    Math.max(MAP_LABEL_MIN_LINES, lines.length),
   )
   return {
     width,
-    // 字体实际字宽可能让理论单行文本换行，碰撞矩形统一按两行高度预留。
-    height: 47,
+    height: Math.ceil(lineCount * MAP_LABEL_LINE_HEIGHT) + MAP_LABEL_BLOCK_INSET,
   }
 }
 

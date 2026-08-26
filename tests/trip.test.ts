@@ -344,7 +344,7 @@ describe('静态行程数据', () => {
     }
   })
 
-  it('地图标签去掉括号补充说明，并把超长地名截到两行内', () => {
+  it('地图标签去掉括号补充说明，并把超长地名限制在三行内', () => {
     expect(formatMapLabel('Mantra Melbourne Airport（住宿）')).toBe(
       'Mantra Melbourne Airport',
     )
@@ -358,13 +358,19 @@ describe('静态行程数据', () => {
       'Twelve Apostles Motel & Country Retreat Princetown'.length,
     )
 
-    const layouts = calculateMapLabelLayouts(
-      [{ title: 'Mantra Melbourne Airport（住宿）' }],
-      [{ left: 164, top: 215 }],
+    const [threeLine, twoLine] = calculateMapLabelLayouts(
+      [{ title: 'Mantra Melbourne Airport（住宿）' }, { title: '朗塞斯顿机场' }],
+      [
+        { left: 90, top: 120 },
+        { left: 240, top: 320 },
+      ],
       328,
       430,
     )
-    expect(layouts[0].height).toBe(47)
+    // 三行文本必须拿到三行高度，两行以内仍按两行预留。
+    expect(threeLine.height).toBe(65)
+    expect(threeLine.width).toBeLessThan(122)
+    expect(twoLine.height).toBe(47)
   })
 
   it('无坐标节奏节点保留在文字列表且地图过滤不报错', () => {
