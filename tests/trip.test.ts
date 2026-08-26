@@ -65,11 +65,11 @@ function rectanglesOverlap(left: ITestRect, right: ITestRect): boolean {
 }
 
 describe('静态行程数据', () => {
-  it('完整覆盖 13 天、85 条地点和 skip 状态', () => {
+  it('完整覆盖 13 天、86 条地点和 skip 状态', () => {
     expect(data.days).toHaveLength(13)
-    expect(data.places).toHaveLength(85)
+    expect(data.places).toHaveLength(86)
     expect(data.places.filter((place) => place.status === 'visit')).toHaveLength(
-      50,
+      51,
     )
     expect(data.places.filter((place) => place.status === 'skip')).toHaveLength(
       35,
@@ -78,23 +78,31 @@ describe('静态行程数据', () => {
       data.places.filter(
         (place) => place.lat !== null && place.lng !== null,
       ),
-    ).toHaveLength(79)
+    ).toHaveLength(81)
     expect(data.wishlistCount).toBe(54)
   })
 
-  it('按日排序并保留 10 月 5 日可选 Loch Ard', () => {
-    const places = getPlacesForDay(data.places, 12)
-    expect(places[0].id).toBe('d12-01')
+  it('10 月 4 日完成沉船海岸核心点并住十二门徒附近', () => {
+    const places = getPlacesForDay(data.places, 11)
+    expect(places[0].id).toBe('d11-01')
     expect(places.some((place) => place.id === 'wv-loch')).toBe(true)
-    expect(places.find((place) => place.id === 'wv-loch')?.priority).toBe(
-      'optional',
-    )
+    expect(places.map((place) => place.id)).toEqual([
+      'd11-01',
+      'd11-02',
+      'd11-03',
+      'wv-loch',
+      'd11-06',
+    ])
+  })
+
+  it('10 月 5 日沿大洋路东行并保留 St Kilda 企鹅', () => {
+    const places = getPlacesForDay(data.places, 12)
     expect(places.map((place) => place.id)).toEqual([
       'd12-01',
       'd12-02',
       'd12-03',
-      'wv-loch',
       'd12-04',
+      'd12-09',
       'd12-08',
       'd12-07',
     ])
@@ -110,9 +118,10 @@ describe('静态行程数据', () => {
     )
   })
 
-  it('10 月 1 日取消比舍诺并在下午直达朗塞斯顿', () => {
+  it('10 月 1 日从霍巴特经酒杯湾直达朗塞斯顿', () => {
     const places = getPlacesForDay(data.places, 8)
     expect(places.map((place) => place.id)).toEqual([
+      'd8-00',
       'd8-01',
       'd8-02',
       'd8-03',
@@ -126,11 +135,10 @@ describe('静态行程数据', () => {
     )
   })
 
-  it('10 月 4 日以可选 Puffing Billy 开头，其余顺序后移', () => {
+  it('10 月 4 日不再绕行 Puffing Billy', () => {
     const places = getPlacesForDay(data.places, 11)
-    expect(places[0].id).toBe('wv-puffing')
-    expect(places[0].priority).toBe('optional')
-    expect(places[1].id).toBe('d11-01')
+    expect(places.some((place) => place.id === 'wv-puffing')).toBe(false)
+    expect(places[0].id).toBe('d11-01')
     expect(places[places.length - 1].id).toBe('d11-06')
   })
 
@@ -438,7 +446,7 @@ describe('目的地类别与图标', () => {
       ),
     )
     const places = data.places.filter((place) => rhythmPlaceIds.has(place.id))
-    expect(places.length).toBeGreaterThanOrEqual(44)
+    expect(places.length).toBeGreaterThanOrEqual(43)
     expect(places.filter((place) => !place.category)).toEqual([])
     expect(places.filter((place) => getPlaceFood(place) === null)).toEqual([])
     expect(places.filter((place) => getPlaceParking(place) === null)).toEqual([])

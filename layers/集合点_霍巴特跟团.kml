@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>集合点 霍巴特跟团</name>
+    <Style id="sty_meetup">
+      <IconStyle>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/pink-stars.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sty_meetup_walk">
+      <LineStyle>
+        <color>ffff00ff</color>
+        <width>5</width>
+      </LineStyle>
+    </Style>
+    <Style id="sty_lodge">
+      <IconStyle>
+        <color>ff7000ff</color>
+        <scale>1.2</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal2/icon10.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>集合点 霍巴特跟团</name>
+      <Placemark>
+        <name>集合点A 9/29 塔斯曼半岛 Pennicott</name>
+        <styleUrl>#sty_meetup</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-29 · 第6天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;地址&lt;/b&gt;&lt;br/&gt;Pennicott Wilderness Journeys, Dock Head Building, Franklin Wharf, Hobart TAS 7000&lt;br/&gt;&lt;br/&gt;&lt;b&gt;时刻&lt;/b&gt;&lt;br/&gt;07:15 报到，约 07:30 发车，约 18:00 返回霍巴特。晚间可送回市区酒店，清晨不接酒店。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;Constitution Dock 开启桥旁。三小时环塔斯曼岛巡游在 9/29 已售罄，同一集合点的替代是 Cape Raoul 巡游。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;与集合点B距离&lt;/b&gt;&lt;br/&gt;直线约 138 米，步行约 200 米，约 3 分钟。</description>
+        <Point>
+          <coordinates>147.3334439,-42.8833175,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>集合点B 9/30 玛利亚岛 游客中心</name>
+        <styleUrl>#sty_meetup</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-30 · 第7天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;地址&lt;/b&gt;&lt;br/&gt;Tasmanian Travel and Information Centre, 20 Davey Street, Hobart TAS 7000&lt;br/&gt;&lt;br/&gt;&lt;b&gt;时刻&lt;/b&gt;&lt;br/&gt;冬季班次 07:55 集合，08:00 发车，约 17:00 回到同一地点。需提前 10 分钟到场，迟到不等。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;Davey Street 与 Elizabeth Street 路口一带。Klook 该日可售，成人约 ¥1,030，含渡轮与国家公园入园费。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;与集合点A距离&lt;/b&gt;&lt;br/&gt;直线约 138 米，步行约 200 米，约 3 分钟。</description>
+        <Point>
+          <coordinates>147.3317875,-42.8830688,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>推荐住宿 Quest Savoy 洋红房屋</name>
+        <styleUrl>#sty_lodge</styleUrl>
+        <description>&lt;b&gt;入住&lt;/b&gt; 2026-09-28 至 10-01，两人独享整套公寓&lt;br/&gt;&lt;br/&gt;&lt;b&gt;地址&lt;/b&gt;&lt;br/&gt;38 Elizabeth Street, Hobart TAS 7000&lt;br/&gt;&lt;br/&gt;&lt;b&gt;到集合点&lt;/b&gt;&lt;br/&gt;步行约 4–7 分钟到 20 Davey Street 与 Franklin Wharf。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;设施&lt;/b&gt;&lt;br/&gt;厨房/厨房角含微波炉、电热水壶；对面商场有超市。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;价格（可免费取消）&lt;/b&gt;&lt;br/&gt;携程副楼经济一室公寓约 ¥853/晚（含税优惠后）；Booking 整套公寓约 CNY 2,509/三晚。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;预订&lt;/b&gt;&lt;br/&gt;Booking https://www.booking.com/hotel/au/quest-savoy.html?checkin=2026-09-28&amp;checkout=2026-10-01&amp;group_adults=2&amp;no_rooms=1&lt;br/&gt;携程 https://hotels.ctrip.com/hotels/detail/?hotelId=737197&amp;checkIn=2026-09-28&amp;checkOut=2026-10-01&amp;adult=2</description>
+        <Point>
+          <coordinates>147.32894,-42.88223,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>两集合点步行路径 约200米</name>
+        <styleUrl>#sty_meetup_walk</styleUrl>
+        <description>Davey Street 沿线平路步行，约 200 米、约 3 分钟。</description>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>
+            147.331958,-42.883152,0
+            147.331848,-42.883273,0
+            147.331829,-42.883297,0
+            147.331767,-42.883375,0
+            147.332147,-42.883554,0
+            147.332245,-42.8836,0
+            147.332323,-42.883635,0
+            147.33259,-42.883755,0
+            147.332692,-42.8838,0
+            147.332703,-42.883789,0
+            147.332717,-42.883779,0
+            147.332734,-42.88377,0
+            147.33275,-42.883763,0
+            147.332768,-42.883756,0
+            147.332784,-42.883747,0
+            147.332798,-42.883736,0
+            147.332805,-42.883729,0
+            147.333132,-42.88339,0
+            147.333253,-42.883268,0
+            147.333294,-42.883229,0
+            147.333301,-42.883224,0
+          </coordinates>
+        </LineString>
+      </Placemark>
+    </Folder>
+  </Document>
+</kml>

@@ -77,156 +77,6 @@
         ]
       }
     },
-    "d12-02": {
-      "category": "attraction",
-      "categoryNote": "海蚀崖阶梯、海滩与观景点，主要目的为自然景观游览。",
-      "food": {
-        "summary": "Gibson Steps 现场没有餐厅，实际可行的正餐点在约 12-14 公里外的 Port Campbell。",
-        "restaurants": [
-          {
-            "name": "Grassroots Deli Cafe",
-            "nameEn": "Grassroots Deli Cafe",
-            "lat": -38.6200124,
-            "lng": 142.9951722,
-            "coordinateSource": "Nominatim（OSM way 438799554）",
-            "rating": 4.5,
-            "ratingCount": 923,
-            "ratingSource": "Google 地图（检索结果核对）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Gibson Steps 约 13 公里，驾车约 15 分钟",
-            "priceLevel": "人均约 A$15-30",
-            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
-            "recommended": "评论集中推荐炸鸡汉堡、牛肉汉堡、家制汤和咖啡，官网也强调当地食材。午餐供应至 14:30，适合白天到访海岸景点时补给。",
-            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
-            "sourceUrl": "https://grassrootsdelicafe.com.au/"
-          },
-          {
-            "name": "12 Rocks Beach Bar Cafe",
-            "nameEn": "12 Rocks Beach Bar Cafe",
-            "lat": -38.6200628,
-            "lng": 142.9941683,
-            "coordinateSource": "Nominatim（19 Lord Street 地址点）",
-            "rating": 4.2,
-            "ratingCount": 2188,
-            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Gibson Steps 约 13 公里，驾车约 15 分钟",
-            "priceLevel": "人均约 A$25-45",
-            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
-            "recommended": "官网主打新鲜海鲜和海滨用餐，评论常提到 fish and chips、calamari 与 crispy pork belly。旺季晚餐建议提前到或预约，海景位更抢手。",
-            "hours": "每日 09:30 至晚间（结束时间未固定）",
-            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
-          }
-        ]
-      },
-      "parking": {
-        "summary": "阶梯口有很小的免费停车区；更稳妥的方案是停 Twelve Apostles Visitor Centre，再沿官方步道约 1-1.1 公里前往。",
-        "lots": [
-          {
-            "name": "Gibson Steps 小型停车区",
-            "nameEn": "Gibson Steps Car Park",
-            "lat": -38.67,
-            "lng": 143.1,
-            "coordinateSource": "本任务给定 POI 坐标（小停车区近似点）",
-            "fee": "free",
-            "feeNote": "国家公园日游停车区，未见收费信息",
-            "capacity": "很少量车位（官方未公布数量）",
-            "surface": null,
-            "note": "车位很少且不适合过夜；满位时不要在 Great Ocean Road 路肩冒险停车，改停 Twelve Apostles Visitor Centre。阶梯曾因落石关闭，已于 2026-02-10 重开，但海滩仍可能因潮汐、巨浪或落石临时关闭。"
-          }
-        ],
-        "rules": [
-          "2025 年 6 月因落石关闭后，Gibson Steps 已于 2026-02-10 完成检查并重开；到场仍须服从最新封闭标志。",
-          "官方游客指南建议停 Twelve Apostles Visitor Centre，沿约 1.1 公里步道前往 Gibson Steps。",
-          "海滩受高潮位和大浪影响会临时关闭，不要靠近石灰岩崖脚。"
-        ],
-        "sources": [
-          {
-            "label": "Great Ocean Road Coast and Parks Authority：Gibson Steps open",
-            "url": "https://www.greatoceanroadauthority.vic.gov.au/Projects/Twelve-Apostles-Visitor-Centre/Gibson-Steps-open"
-          },
-          {
-            "label": "Parks Victoria：Port Campbell National Park visitor guide",
-            "url": "https://www.parks.vic.gov.au/-/media/project/pv/main/parks/documents/visitor-guides-and-publications/port-campbell-national-park/port-campbell-national-park-and-bay-of-islands-coastal-park-visitor-guide.pdf?rev=628d1bb9c3644837b19a52571bb97c63"
-          }
-        ]
-      }
-    },
-    "d12-03": {
-      "category": "attraction",
-      "categoryNote": "国家公园内的海蚀柱观景区，主要目的为自然景观游览。",
-      "food": {
-        "summary": "游客中心只有季节性营业的小卖部，正式正餐需前往约 12 公里外的 Port Campbell。",
-        "restaurants": [
-          {
-            "name": "Grassroots Deli Cafe",
-            "nameEn": "Grassroots Deli Cafe",
-            "lat": -38.6200124,
-            "lng": 142.9951722,
-            "coordinateSource": "Nominatim（OSM way 438799554）",
-            "rating": 4.5,
-            "ratingCount": 923,
-            "ratingSource": "Google 地图（检索结果核对）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Twelve Apostles 约 12 公里，驾车约 12 分钟",
-            "priceLevel": "人均约 A$15-30",
-            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
-            "recommended": "炸鸡汉堡、家制汤和咖啡在评论中反复出现，官网强调当地食材。适合白天游览后的早午餐，注意午餐通常 14:30 结束。",
-            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
-            "sourceUrl": "https://grassrootsdelicafe.com.au/"
-          },
-          {
-            "name": "12 Rocks Beach Bar Cafe",
-            "nameEn": "12 Rocks Beach Bar Cafe",
-            "lat": -38.6200628,
-            "lng": 142.9941683,
-            "coordinateSource": "Nominatim（19 Lord Street 地址点）",
-            "rating": 4.2,
-            "ratingCount": 2188,
-            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Twelve Apostles 约 12 公里，驾车约 12 分钟",
-            "priceLevel": "人均约 A$25-45",
-            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
-            "recommended": "海鲜、fish and chips、calamari 和 crispy pork belly 是评论中常见选择。餐厅临海，适合把正餐与 Port Campbell 海湾散步安排在一起。",
-            "hours": "每日 09:30 至晚间（结束时间未固定）",
-            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
-          }
-        ]
-      },
-      "parking": {
-        "summary": "必须停在 Great Ocean Road 内陆侧的免费游客中心停车场，再经地下通道步行约 600 米往返观景区；旺季会启用交通管理与溢出区。",
-        "lots": [
-          {
-            "name": "十二门徒游客中心停车场",
-            "nameEn": "Twelve Apostles Visitor Centre Car Park",
-            "lat": -38.6655,
-            "lng": 143.1048,
-            "coordinateSource": "本任务给定 POI 坐标（游客中心停车场与观景区入口近似）",
-            "fee": "free",
-            "feeNote": "免费，无国家公园门票",
-            "capacity": null,
-            "surface": "沥青",
-            "note": "停车场在公路内陆侧，沿无障碍步道穿过 Great Ocean Road 地下通道到观景台；官方旅游页给出的观景步道约 600 米至 1.2 公里往返。夏季、学校假期、长周末及复活节前后容易满位并实施交通管制。"
-          }
-        ],
-        "rules": [
-          "游客必须停在指定停车场，不得横穿 Great Ocean Road；使用地下通道前往观景台。",
-          "旺季主停车场满位时服从现场交通员安排；溢出停车区每日会清空并上锁，不适合长时间留车。",
-          "若为 Great Ocean Walk 长线徒步停车，应主动告知入口交通管理人员，并尽量停主停车区。"
-        ],
-        "sources": [
-          {
-            "label": "Parks Victoria：Twelve Apostles",
-            "url": "https://www.parks.vic.gov.au/places-to-see/parks/port-campbell-national-park/things-to-do/twelve-apostles"
-          },
-          {
-            "label": "Visit Great Ocean Road：The 12 Apostles",
-            "url": "https://visitgreatoceanroad.org.au/visit12apostles/the-12-apostles/"
-          }
-        ]
-      }
-    },
     "wv-loch": {
       "category": "attraction",
       "categoryNote": "海蚀峡谷、沉船历史与多条观景步道组成的自然景区。",
@@ -298,81 +148,6 @@
           {
             "label": "Visit Great Ocean Road：Loch Ard Gorge",
             "url": "https://visitgreatoceanroad.org.au/visit12apostles/loch-ard-gorge/"
-          }
-        ]
-      }
-    },
-    "d12-04": {
-      "category": "lodging",
-      "categoryNote": "本路书将 Port Campbell 作为大洋路西段住宿、补给和用餐小镇，而非单一景点。",
-      "food": {
-        "summary": "小镇餐饮集中在 Lord Street 与海湾一带，旺季晚餐选择不多且容易排队。",
-        "restaurants": [
-          {
-            "name": "Grassroots Deli Cafe",
-            "nameEn": "Grassroots Deli Cafe",
-            "lat": -38.6200124,
-            "lng": 142.9951722,
-            "coordinateSource": "Nominatim（OSM way 438799554）",
-            "rating": 4.5,
-            "ratingCount": 923,
-            "ratingSource": "Google 地图（检索结果核对）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Port Campbell 镇中心约 100 米",
-            "priceLevel": "人均约 A$15-30",
-            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
-            "recommended": "炸鸡汉堡、家制汤、早餐和咖啡是评论高频项，官网强调当地食材与自制调味品。适合早餐或午餐，夏季另有季节性 wood-fired pizza。",
-            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
-            "sourceUrl": "https://grassrootsdelicafe.com.au/"
-          },
-          {
-            "name": "12 Rocks Beach Bar Cafe",
-            "nameEn": "12 Rocks Beach Bar Cafe",
-            "lat": -38.6200628,
-            "lng": 142.9941683,
-            "coordinateSource": "Nominatim（19 Lord Street 地址点）",
-            "rating": 4.2,
-            "ratingCount": 2188,
-            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Port Campbell 镇中心约 150 米",
-            "priceLevel": "人均约 A$25-45",
-            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
-            "recommended": "海景座位、新鲜海鲜、fish and chips、calamari 和 crispy pork belly 是主要卖点。适合晚餐，但旺季最好提前预约或错峰。",
-            "hours": "每日 09:30 至晚间（结束时间未固定）",
-            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
-          }
-        ]
-      },
-      "parking": {
-        "summary": "镇中心和海滨以免费路边及公共停车位为主，但旺季 Lord Street 和 foreshore 供不应求，并有短时限车位。",
-        "lots": [
-          {
-            "name": "Port Campbell 镇中心／海滨公共停车区",
-            "nameEn": "Port Campbell Town Centre and Foreshore Public Parking",
-            "lat": -38.62,
-            "lng": 142.995,
-            "coordinateSource": "本任务给定 Port Campbell 镇中心坐标",
-            "fee": "free",
-            "feeNote": "Corangamite Shire 资料明确讨论 timed-but-still-free 管理，未引入收费停车",
-            "capacity": null,
-            "surface": "沥青为主",
-            "note": "Lord Street 店铺和海滨附近旺季最紧张；Morris Street 北侧存在 15 分钟等短时限制，须以现场标志为准。不要在公共停车区过夜露营。"
-          }
-        ],
-        "rules": [
-          "所有车位即使免费也必须遵守现场时限、装卸区和无障碍车位标志。",
-          "Council 正在制定停车策略，重点处理旺季拥堵、巴士／房车和禁止公共停车区过夜露营；2026 年出发前应复查最新标志。",
-          "长车不要占用 Lord Street 普通短车位，应按现场指示使用巴士／大车停车区域。"
-        ],
-        "sources": [
-          {
-            "label": "Corangamite Shire：Port Campbell parking strategy in development",
-            "url": "https://www.corangamite.vic.gov.au/Council/News-and-Media/Latest-News/Port-Campbell-parking-strategy-in-development"
-          },
-          {
-            "label": "Port Campbell Parking Strategy consultation",
-            "url": "https://conversations.corangamite.vic.gov.au/pcps"
           }
         ]
       }
@@ -517,97 +292,6 @@
           {
             "label": "Coastal Stays：The Grotto access",
             "url": "https://www.coastalstays.com/portcampbell/attractions-grotto/"
-          }
-        ]
-      }
-    },
-    "d12-07": {
-      "category": "lodging",
-      "categoryNote": "本 POI 指南十字星站一带的住宿落脚区；虽然紧邻交通枢纽，本路书的主要目的仍是住宿。",
-      "food": {
-        "summary": "车站内有快速餐饮，周边步行数分钟也有代表性的 Melbourne brunch；晚到时优先确认车站店铺关门时间。",
-        "restaurants": [
-          {
-            "name": "Pasha Kebab Southern Cross Station",
-            "nameEn": "Pasha Kebab Southern Cross Station",
-            "lat": -37.8183,
-            "lng": 144.9525,
-            "coordinateSource": "Southern Cross Station 官方地址范围；本任务给定站点坐标（店铺位于 Shop 6/99 Spencer St 站内）",
-            "rating": 4.6,
-            "ratingCount": 97,
-            "ratingSource": "Google 地图（Restaurant Guru 核对）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "位于 Southern Cross Station 内",
-            "priceLevel": "人均约 A$10-20",
-            "cuisine": "土耳其烤肉、Kebab、HSP",
-            "recommended": "Google 评论页明确提到 meat kebab 与 chicken skewers，适合抵达车站后快速解决一餐。属于站内快餐，便利性优先于正式用餐氛围。",
-            "hours": null,
-            "sourceUrl": "https://restaurantguru.com/Pasha-Kebab-Docklands"
-          },
-          {
-            "name": "Higher Ground",
-            "nameEn": "Higher Ground Melbourne",
-            "lat": -37.8158967,
-            "lng": 144.9531574,
-            "coordinateSource": "Nominatim（OSM node 4957928429）",
-            "rating": 4.1,
-            "ratingCount": 739,
-            "ratingSource": "Tripadvisor（Australian Policy 转引）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Southern Cross Station 约 300 米，步行约 4 分钟",
-            "priceLevel": "人均约 A$25-45",
-            "cuisine": "现代澳洲菜、早午餐、咖啡",
-            "recommended": "City of Melbourne 官方介绍点名 Chilli Scrambled Eggs、Avocado Pretzel 和 Blueberry and Ricotta Hotcakes。场地热门且官网建议预订，适合安排较从容的早餐或早午餐。",
-            "hours": null,
-            "sourceUrl": "https://australianpolicy.org/tech/higher-ground-melbourne-brunch-menu/"
-          }
-        ]
-      },
-      "parking": {
-        "summary": "CBD 停车昂贵；车站自带 1075 车位车库，另有 522 Flinders Lane 预订型车库，住宿应优先比较酒店停车与夜间封顶价。",
-        "lots": [
-          {
-            "name": "Southern Cross Station Car Park",
-            "nameEn": "Southern Cross Station Car Park",
-            "lat": -37.8152889,
-            "lng": 144.9516339,
-            "coordinateSource": "Nominatim（OSM node 667225622）",
-            "fee": "paid",
-            "feeNote": "工作日 0-0.5 小时 A$15、0.5-1 小时 A$26、1-2 小时 A$37、2-3 小时 A$45、3-4 小时 A$49、4+ 小时 A$57；夜间 A$22；非活动周末 A$15；活动日 A$40",
-            "capacity": "约 1075 车位",
-            "surface": "室内车库",
-            "note": "入口在 Spencer Street 与 Lonsdale Street 一带；工作日 early bird 现场 A$26、线上 A$23，需 06:00-09:30 入场并于 13:30-18:30 离场。Marvel Stadium 活动日价格会变化。"
-          },
-          {
-            "name": "Secure Parking 522 Flinders Lane",
-            "nameEn": "Secure Parking 522 Flinders Lane Car Park",
-            "lat": -37.8194704,
-            "lng": 144.9562005,
-            "coordinateSource": "Nominatim（522-552 Flinders Lane 地址点）",
-            "fee": "paid",
-            "feeNote": "官网显示 early bird 约 A$15 起、0-3 小时 drive-up 约 A$12 起、单晚 overnight 约 A$40 起；价格随日期和活动浮动",
-            "capacity": null,
-            "surface": "多层车库",
-            "note": "距车站约 400 米，限高 2.0 米；应在线输入实际日期比较价格，活动日和未来日期可能不同。"
-          }
-        ],
-        "rules": [
-          "CBD 路边普通车位通常为 2P；2026-27 中心城区工作日 19:00 前 A$7.30/小时，19:00 后及周末 A$4.20/小时。",
-          "通过 EasyPark 且总停车不超过 15 分钟可免路边停车费；超过 15 分钟则全部时段收费。",
-          "住宿过夜不要依赖短时路边位；同时核对车库限高、活动日价和酒店是否允许多次进出。"
-        ],
-        "sources": [
-          {
-            "label": "Care Park：Southern Cross Station rates",
-            "url": "https://www.carepark.com.au/find-a-care-park/southern-cross-station/"
-          },
-          {
-            "label": "Secure Parking：522 Flinders Lane",
-            "url": "https://www.secureparking.com.au/en-au/car-parks/australia/vic/522-flinders-lane-melbourne-car-park/"
-          },
-          {
-            "label": "City of Melbourne：Kerbside parking and fees",
-            "url": "https://www.melbourne.vic.gov.au/kerbside-parking-and-fees"
           }
         ]
       }
@@ -777,6 +461,231 @@
           }
         ]
       }
+    },
+    "d11-02": {
+      "category": "attraction",
+      "categoryNote": "海蚀崖阶梯、海滩与观景点，主要目的为自然景观游览。",
+      "food": {
+        "summary": "Gibson Steps 现场没有餐厅，实际可行的正餐点在约 12-14 公里外的 Port Campbell。",
+        "restaurants": [
+          {
+            "name": "Grassroots Deli Cafe",
+            "nameEn": "Grassroots Deli Cafe",
+            "lat": -38.6200124,
+            "lng": 142.9951722,
+            "coordinateSource": "Nominatim（OSM way 438799554）",
+            "rating": 4.5,
+            "ratingCount": 923,
+            "ratingSource": "Google 地图（检索结果核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Gibson Steps 约 13 公里，驾车约 15 分钟",
+            "priceLevel": "人均约 A$15-30",
+            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
+            "recommended": "评论集中推荐炸鸡汉堡、牛肉汉堡、家制汤和咖啡，官网也强调当地食材。午餐供应至 14:30，适合白天到访海岸景点时补给。",
+            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
+            "sourceUrl": "https://grassrootsdelicafe.com.au/"
+          },
+          {
+            "name": "12 Rocks Beach Bar Cafe",
+            "nameEn": "12 Rocks Beach Bar Cafe",
+            "lat": -38.6200628,
+            "lng": 142.9941683,
+            "coordinateSource": "Nominatim（19 Lord Street 地址点）",
+            "rating": 4.2,
+            "ratingCount": 2188,
+            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Gibson Steps 约 13 公里，驾车约 15 分钟",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
+            "recommended": "官网主打新鲜海鲜和海滨用餐，评论常提到 fish and chips、calamari 与 crispy pork belly。旺季晚餐建议提前到或预约，海景位更抢手。",
+            "hours": "每日 09:30 至晚间（结束时间未固定）",
+            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "阶梯口有很小的免费停车区；更稳妥的方案是停 Twelve Apostles Visitor Centre，再沿官方步道约 1-1.1 公里前往。",
+        "lots": [
+          {
+            "name": "Gibson Steps 小型停车区",
+            "nameEn": "Gibson Steps Car Park",
+            "lat": -38.67,
+            "lng": 143.1,
+            "coordinateSource": "本任务给定 POI 坐标（小停车区近似点）",
+            "fee": "free",
+            "feeNote": "国家公园日游停车区，未见收费信息",
+            "capacity": "很少量车位（官方未公布数量）",
+            "surface": null,
+            "note": "车位很少且不适合过夜；满位时不要在 Great Ocean Road 路肩冒险停车，改停 Twelve Apostles Visitor Centre。阶梯曾因落石关闭，已于 2026-02-10 重开，但海滩仍可能因潮汐、巨浪或落石临时关闭。"
+          }
+        ],
+        "rules": [
+          "2025 年 6 月因落石关闭后，Gibson Steps 已于 2026-02-10 完成检查并重开；到场仍须服从最新封闭标志。",
+          "官方游客指南建议停 Twelve Apostles Visitor Centre，沿约 1.1 公里步道前往 Gibson Steps。",
+          "海滩受高潮位和大浪影响会临时关闭，不要靠近石灰岩崖脚。"
+        ],
+        "sources": [
+          {
+            "label": "Great Ocean Road Coast and Parks Authority：Gibson Steps open",
+            "url": "https://www.greatoceanroadauthority.vic.gov.au/Projects/Twelve-Apostles-Visitor-Centre/Gibson-Steps-open"
+          },
+          {
+            "label": "Parks Victoria：Port Campbell National Park visitor guide",
+            "url": "https://www.parks.vic.gov.au/-/media/project/pv/main/parks/documents/visitor-guides-and-publications/port-campbell-national-park/port-campbell-national-park-and-bay-of-islands-coastal-park-visitor-guide.pdf?rev=628d1bb9c3644837b19a52571bb97c63"
+          }
+        ]
+      }
+    },
+    "d11-01": {
+      "category": "attraction",
+      "categoryNote": "国家公园内的海蚀柱观景区，主要目的为自然景观游览。",
+      "food": {
+        "summary": "游客中心只有季节性营业的小卖部，正式正餐需前往约 12 公里外的 Port Campbell。",
+        "restaurants": [
+          {
+            "name": "Grassroots Deli Cafe",
+            "nameEn": "Grassroots Deli Cafe",
+            "lat": -38.6200124,
+            "lng": 142.9951722,
+            "coordinateSource": "Nominatim（OSM way 438799554）",
+            "rating": 4.5,
+            "ratingCount": 923,
+            "ratingSource": "Google 地图（检索结果核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Twelve Apostles 约 12 公里，驾车约 12 分钟",
+            "priceLevel": "人均约 A$15-30",
+            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
+            "recommended": "炸鸡汉堡、家制汤和咖啡在评论中反复出现，官网强调当地食材。适合白天游览后的早午餐，注意午餐通常 14:30 结束。",
+            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
+            "sourceUrl": "https://grassrootsdelicafe.com.au/"
+          },
+          {
+            "name": "12 Rocks Beach Bar Cafe",
+            "nameEn": "12 Rocks Beach Bar Cafe",
+            "lat": -38.6200628,
+            "lng": 142.9941683,
+            "coordinateSource": "Nominatim（19 Lord Street 地址点）",
+            "rating": 4.2,
+            "ratingCount": 2188,
+            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Twelve Apostles 约 12 公里，驾车约 12 分钟",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
+            "recommended": "海鲜、fish and chips、calamari 和 crispy pork belly 是评论中常见选择。餐厅临海，适合把正餐与 Port Campbell 海湾散步安排在一起。",
+            "hours": "每日 09:30 至晚间（结束时间未固定）",
+            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "必须停在 Great Ocean Road 内陆侧的免费游客中心停车场，再经地下通道步行约 600 米往返观景区；旺季会启用交通管理与溢出区。",
+        "lots": [
+          {
+            "name": "十二门徒游客中心停车场",
+            "nameEn": "Twelve Apostles Visitor Centre Car Park",
+            "lat": -38.6655,
+            "lng": 143.1048,
+            "coordinateSource": "本任务给定 POI 坐标（游客中心停车场与观景区入口近似）",
+            "fee": "free",
+            "feeNote": "免费，无国家公园门票",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "停车场在公路内陆侧，沿无障碍步道穿过 Great Ocean Road 地下通道到观景台；官方旅游页给出的观景步道约 600 米至 1.2 公里往返。夏季、学校假期、长周末及复活节前后容易满位并实施交通管制。"
+          }
+        ],
+        "rules": [
+          "游客必须停在指定停车场，不得横穿 Great Ocean Road；使用地下通道前往观景台。",
+          "旺季主停车场满位时服从现场交通员安排；溢出停车区每日会清空并上锁，不适合长时间留车。",
+          "若为 Great Ocean Walk 长线徒步停车，应主动告知入口交通管理人员，并尽量停主停车区。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Victoria：Twelve Apostles",
+            "url": "https://www.parks.vic.gov.au/places-to-see/parks/port-campbell-national-park/things-to-do/twelve-apostles"
+          },
+          {
+            "label": "Visit Great Ocean Road：The 12 Apostles",
+            "url": "https://visitgreatoceanroad.org.au/visit12apostles/the-12-apostles/"
+          }
+        ]
+      }
+    },
+    "d11-03": {
+      "category": "lodging",
+      "categoryNote": "本路书将 Port Campbell 作为大洋路西段住宿、补给和用餐小镇，而非单一景点。",
+      "food": {
+        "summary": "小镇餐饮集中在 Lord Street 与海湾一带，旺季晚餐选择不多且容易排队。",
+        "restaurants": [
+          {
+            "name": "Grassroots Deli Cafe",
+            "nameEn": "Grassroots Deli Cafe",
+            "lat": -38.6200124,
+            "lng": 142.9951722,
+            "coordinateSource": "Nominatim（OSM way 438799554）",
+            "rating": 4.5,
+            "ratingCount": 923,
+            "ratingSource": "Google 地图（检索结果核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Port Campbell 镇中心约 100 米",
+            "priceLevel": "人均约 A$15-30",
+            "cuisine": "咖啡、早餐、汉堡、当地食材简餐",
+            "recommended": "炸鸡汉堡、家制汤、早餐和咖啡是评论高频项，官网强调当地食材与自制调味品。适合早餐或午餐，夏季另有季节性 wood-fired pizza。",
+            "hours": "早餐 07:30-11:30；午餐 12:00-14:30（每日）",
+            "sourceUrl": "https://grassrootsdelicafe.com.au/"
+          },
+          {
+            "name": "12 Rocks Beach Bar Cafe",
+            "nameEn": "12 Rocks Beach Bar Cafe",
+            "lat": -38.6200628,
+            "lng": 142.9941683,
+            "coordinateSource": "Nominatim（19 Lord Street 地址点）",
+            "rating": 4.2,
+            "ratingCount": 2188,
+            "ratingSource": "Google 地图（Wanderlog 聚合页核对）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Port Campbell 镇中心约 150 米",
+            "priceLevel": "人均约 A$25-45",
+            "cuisine": "海鲜、现代澳洲菜、酒吧简餐",
+            "recommended": "海景座位、新鲜海鲜、fish and chips、calamari 和 crispy pork belly 是主要卖点。适合晚餐，但旺季最好提前预约或错峰。",
+            "hours": "每日 09:30 至晚间（结束时间未固定）",
+            "sourceUrl": "https://12rocksbeachbar.com.au/contact"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "镇中心和海滨以免费路边及公共停车位为主，但旺季 Lord Street 和 foreshore 供不应求，并有短时限车位。",
+        "lots": [
+          {
+            "name": "Port Campbell 镇中心／海滨公共停车区",
+            "nameEn": "Port Campbell Town Centre and Foreshore Public Parking",
+            "lat": -38.62,
+            "lng": 142.995,
+            "coordinateSource": "本任务给定 Port Campbell 镇中心坐标",
+            "fee": "free",
+            "feeNote": "Corangamite Shire 资料明确讨论 timed-but-still-free 管理，未引入收费停车",
+            "capacity": null,
+            "surface": "沥青为主",
+            "note": "Lord Street 店铺和海滨附近旺季最紧张；Morris Street 北侧存在 15 分钟等短时限制，须以现场标志为准。不要在公共停车区过夜露营。"
+          }
+        ],
+        "rules": [
+          "所有车位即使免费也必须遵守现场时限、装卸区和无障碍车位标志。",
+          "Council 正在制定停车策略，重点处理旺季拥堵、巴士／房车和禁止公共停车区过夜露营；2026 年出发前应复查最新标志。",
+          "长车不要占用 Lord Street 普通短车位，应按现场指示使用巴士／大车停车区域。"
+        ],
+        "sources": [
+          {
+            "label": "Corangamite Shire：Port Campbell parking strategy in development",
+            "url": "https://www.corangamite.vic.gov.au/Council/News-and-Media/Latest-News/Port-Campbell-parking-strategy-in-development"
+          },
+          {
+            "label": "Port Campbell Parking Strategy consultation",
+            "url": "https://conversations.corangamite.vic.gov.au/pcps"
+          }
+        ]
+      }
     }
   },
   "uncertain": [
@@ -787,7 +696,7 @@
       "handled": "保留停车区资料但明确写出关闭状态，要求出发前复查官方页面；未知字段置 null。"
     },
     {
-      "placeId": "d12-02",
+      "placeId": "d11-02",
       "field": "parking",
       "issue": "Gibson Steps 小停车区无官方容量数据，阶梯与海滩可能因落石、潮汐或巨浪再次临时关闭。",
       "handled": "写明 2026-02-10 已重开，同时给出 Twelve Apostles Visitor Centre 约 1-1.1 公里替代停车方案。"
@@ -799,7 +708,7 @@
       "handled": "仅推荐仍开放的主停车场和上方观景步道，明确禁止进入关闭的沙滩阶梯。"
     },
     {
-      "placeId": "d12-03",
+      "placeId": "d11-01",
       "field": "parking.capacity",
       "issue": "十二门徒停车场官方页面未公布固定车位数，旺季还会动态启用溢出停车区。",
       "handled": "capacity 置 null，并记录旺季交通管理及溢出区夜间清场规则。"

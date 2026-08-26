@@ -1,0 +1,98 @@
+{
+  "schemaVersion": 1,
+  "region": "confirmed-stays-and-meeting-points",
+  "checkedAt": "2026-08-25",
+  "places": {
+    "d5-02": {
+      "category": "lodging",
+      "food": {
+        "summary": "酒店位于霍巴特 CBD，餐饮与超市可步行解决；具体营业时间以当天 Google 地图为准。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "本次以步行前往跟团集合点为主；如自驾入住，停车方式与费用以 Quest Savoy 订单和前台说明为准。",
+        "lots": [],
+        "rules": ["不要把酒店附近路边位视为免费过夜停车，按现场标志和酒店说明停车。"],
+        "sources": []
+      }
+    },
+    "d6-00": {
+      "category": "transport",
+      "food": {
+        "summary": "Franklin Wharf 周边可步行购买早餐和外带饮品；旅行团供餐情况以电子票为准。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "从 Quest Savoy 步行前往最稳妥，不建议为集合点单独驾车找位。",
+        "lots": [],
+        "rules": ["至少提前 15 分钟到达，并以电子票标注的具体码头位置为准。"],
+        "sources": []
+      }
+    },
+    "d7-00": {
+      "category": "transport",
+      "food": {
+        "summary": "20 Davey Street 位于霍巴特 CBD，可在出发前步行购买早餐和外带午餐。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "从 Quest Savoy 步行前往最稳妥；集合点并不等于可长时间停车的位置。",
+        "lots": [],
+        "rules": ["至少提前 15 分钟到达，并以电子票标注的上车位置为准。"],
+        "sources": []
+      }
+    },
+    "d8-00": {
+      "category": "lodging",
+      "food": {
+        "summary": "清晨退房前应提前准备早餐和车上补给，避免延误前往 Freycinet 的长途行程。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "按 Quest Savoy 的退房与停车说明取车装行李，06:00 左右离开。",
+        "lots": [],
+        "rules": ["离店前确认没有遗留行李，并检查当日油量与路况。"],
+        "sources": []
+      }
+    },
+    "d8-05": {
+      "category": "lodging",
+      "food": {
+        "summary": "住宿位于朗塞斯顿市区；抵达后可就近补给次日早餐和摇篮山所需食物。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "停车方式与费用以 Centennial Inn on Bathurst 订单和现场说明为准。",
+        "lots": [],
+        "rules": ["不要占用未分配车位；次日出发前确认车辆可正常驶离。"],
+        "sources": []
+      }
+    },
+    "d11-06": {
+      "category": "lodging",
+      "food": {
+        "summary": "住宿靠近十二门徒但周边餐饮有限，宜在 Port Campbell 完成正餐或提前采购。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "使用住宿方指定车位；停车细节以 Twelve Apostles Motel & Country Retreat 订单和现场说明为准。",
+        "lots": [],
+        "rules": ["夜间不要把国家公园观景停车场当作住宿停车位。"],
+        "sources": []
+      }
+    },
+    "d12-07": {
+      "category": "lodging",
+      "food": {
+        "summary": "酒店位于墨尔本 CBD，企鹅观赏后以尽快入住休息为主，周边夜间餐饮以当天营业情况为准。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "CBD 停车限制较多，使用酒店确认的停车方案；费用与出入时间以订单和前台说明为准。",
+        "lots": [],
+        "rules": ["不要依赖路边过夜停车；次日上午前往机场前预留取车和驶出车库时间。"],
+        "sources": []
+      }
+    }
+  }
+}

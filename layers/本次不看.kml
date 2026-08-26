@@ -16,6 +16,14 @@
         <width>3</width>
       </LineStyle>
     </Style>
+    <Style id="sty_confirmed_lodging">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal2/icon10.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Folder>
       <name>本次不看</name>
       <Placemark>
@@ -61,7 +69,7 @@
       <Placemark>
         <name>跳过 Bruny Island/luna…</name>
         <styleUrl>#sty_skip</styleUrl>
-        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;需车渡，岛上距离比地图看起来长；美食点分散，适合完整一天或过夜。  &lt;br/&gt;**深度补充：**岛由狭窄The Neck连接南北两部分，海崖、雨林、海鸟与海产点分散；车渡排队和岛内慢路使一日行程比地图更耗时。南部更野，北部更接近农场与食品体验。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.discovertasmania.com.au/regions/hobart-and-south/bruny-island/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;这里是 Nuenonne people 的 Country，与 Truganini 的生命史密切相关。应避免把岛只压缩为生蚝与网红阶梯，最好把原住民历史、捕鲸与灯塔史一起看。  &lt;br/&gt;**深度补充：**这里是Nuenonne people的Country，并与Truganini生命史密切相关；灯塔、捕鲸、木材和农业史也很突出。现代“生蚝奶酪岛”品牌不应遮蔽殖民暴力和原住民持续文化。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://parks.tas.gov.au/explore-our-parks/south-bruny-national-park/cultural-heritage)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次让出9/29给 Tasman Island（塔斯曼岛）荒野巡游和 Tasmanian Devil Unzoo（塔斯马尼亚袋獾无笼动物园）；Bruny Island（布鲁尼岛）保留在原始愿望清单，但不再进入本次主行程。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Bruny Island／lunawanna-alonnah, Tasmania／lutruwita 城市／区域：Bruny Island／lunawanna-alonnah（Hobart 南部）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;需车渡，岛上距离比地图看起来长；美食点分散，适合完整一天或过夜。  &lt;br/&gt;**深度补充：**岛由狭窄The Neck连接南北两部分，海崖、雨林、海鸟与海产点分散；车渡排队和岛内慢路使一日行程比地图更耗时。南部更野，北部更接近农场与食品体验。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.discovertasmania.com.au/regions/hobart-and-south/bruny-island/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;这里是 Nuenonne people 的 Country，与 Truganini 的生命史密切相关。应避免把岛只压缩为生蚝与网红阶梯，最好把原住民历史、捕鲸与灯塔史一起看。  &lt;br/&gt;**深度补充：**这里是Nuenonne people的Country，并与Truganini生命史密切相关；灯塔、捕鲸、木材和农业史也很突出。现代“生蚝奶酪岛”品牌不应遮蔽殖民暴力和原住民持续文化。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://parks.tas.gov.au/explore-our-parks/south-bruny-national-park/cultural-heritage)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;已让出给 Tasman Island Cruises（塔斯曼岛巡游）与 Platypus House／Devils@Cradle 等动物优先项；Bruny Island（布鲁尼岛）保留在愿望清单，不进入本次主行程。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Bruny Island／lunawanna-alonnah, Tasmania／lutruwita 城市／区域：Bruny Island／lunawanna-alonnah（Hobart 南部）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
         <Point>
           <coordinates>147.28,-43.37,0</coordinates>
         </Point>
@@ -117,7 +125,7 @@
       <Placemark>
         <name>跳过 Melbourne Zoo</name>
         <styleUrl>#sty_skip</styleUrl>
-        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;大型城市动物园，若完整参观需半天；已有多个野生动物点时边际价值下降。  &lt;br/&gt;**深度补充：**园区位于Royal Park，完整参观通常需半天；物种展区强调栖息地、濒危项目和行为丰富化。若已安排Bonorong、Maria Island、Cradle与Tower Hill，再加入会压缩自然栖息地体验。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.zoo.org.au/melbourne/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;开园于 19 世纪，今天由 Zoos Victoria 运营并强调物种保育；历史动物园展示观念与现代福利标准有显著变化。  &lt;br/&gt;**深度补充：**1857年成立，是澳洲最早的动物园之一，其历史反映从19世纪异域动物收藏到现代保育机构的伦理变化。比较旧象舍等遗产与现代表达，能看到动物福利观念演进。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.zoo.org.au/about-us/history/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；Bonorong、Maria Island、Cradle 与 Tower Hill 已覆盖主要动物愿望。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Melbourne Zoo, Victoria 城市／区域：Parkville, Melbourne&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;大型城市动物园，若完整参观需半天；已有多个野生动物点时边际价值下降。  &lt;br/&gt;**深度补充：**园区位于Royal Park，完整参观通常需半天；物种展区强调栖息地、濒危项目和行为丰富化。若已安排Bonorong、Maria Island、Cradle与Tower Hill，再加入会压缩自然栖息地体验。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.zoo.org.au/melbourne/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;开园于 19 世纪，今天由 Zoos Victoria 运营并强调物种保育；历史动物园展示观念与现代福利标准有显著变化。  &lt;br/&gt;**深度补充：**1857年成立，是澳洲最早的动物园之一，其历史反映从19世纪异域动物收藏到现代保育机构的伦理变化。比较旧象舍等遗产与现代表达，能看到动物福利观念演进。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.zoo.org.au/about-us/history/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；Caversham、Maria Island、Cradle／Devils@Cradle 已覆盖主要动物愿望（Bonorong、Tower Hill 均不在本次）。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Melbourne Zoo, Victoria 城市／区域：Parkville, Melbourne&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
         <Point>
           <coordinates>144.951,-37.784,0</coordinates>
         </Point>
@@ -144,6 +152,14 @@
         <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;世界遗产海岸礁系统，部分位置可从岸边入水。鲸鲨主季多在较早月份，座头鲸季较晚；具体月份、海况和动物出现都不保证。  &lt;br/&gt;**深度补充：**Nyinggulu是少数可从岸边接近的大型裙礁系统，珊瑚礁、鲸鲨、蝠鲼、座头鲸与海龟共享季节性海域。动物游泳受季节、海况和许可运营控制；不下水也可通过Cape Range地貌、海岸步道与岸观理解世界遗产价值。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://whc.unesco.org/en/list/1369/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;Nyinggulu 是 Baiyungu、Thalanyji 与 Yinigurdira people 长期连接的海陆文化景观。世界遗产价值同时包含海洋生态与大陆喀斯特。  &lt;br/&gt;**深度补充：**世界遗产地跨越Baiyungu、Thalanyji、Yinigurdira等Traditional Owners的海陆Country。更深的阅读应把珊瑚礁与大陆喀斯特、原住民知识和当代保育放在同一框架。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.ningaloo.com/indigenous-culture/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排：距离 Kalbarri 以北仍很远，至少需额外 4—6 天；且若不想下水，不必为鲸鲨专程赶路。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Ningaloo Reef／Nyinggulu, Western Australia 城市／区域：Exmouth、Coral Bay／Ningaloo Coast&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
         <Point>
           <coordinates>113.84,-22.23,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>跳过 Phillip Island/Li…</name>
+        <styleUrl>#sty_skip</styleUrl>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;企鹅归巢在日落后，需预订并遵守摄影限制；从墨尔本往返时间长。  &lt;br/&gt;**深度补充：**Penguin Parade依日落后归巢运行，季节影响时间、数量和体感；分级观景台和地下视角价格不同。严格禁拍或限拍规则旨在减少光线和人群对企鹅路径的干扰。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.penguins.org.au/attractions/penguin-parade/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;其文化意义在于大规模野生动物旅游如何通过栖息地管理、观景平台和严格规则降低干扰。  &lt;br/&gt;**深度补充：**Millowl是Bunurong Country。企鹅保护从住房开发威胁、栖息地回购到大规模生态旅游管理，是地方政策与野生动物保护结合的案例；岛上也有赛车文化等完全不同的现代身份。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.bunuronglc.org/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;本次不安排；10/5需要完成大洋路进城，不能再绕 Phillip Island。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Phillip Island／Little Penguin, Victoria 城市／区域：Phillip Island／Millowl&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; Phillip Island Penguin Parade（Summerland Beach）官方地址近似坐标</description>
+        <Point>
+          <coordinates>145.1421,-38.5062,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -181,7 +197,7 @@
       <Placemark>
         <name>跳过 Tower Hill Wildli…</name>
         <styleUrl>#sty_skip</styleUrl>
-        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;火山口内有湿地、林地与野生动物；鸸鹋、袋鼠、考拉可能出现但不保证。最佳时段为清晨或傍晚。  &lt;br/&gt;**深度补充：**近3万年前的火山口包含火山锥、湖泊、湿地和再生林地，鸸鹋、袋鼠、考拉和水鸟在不同生境活动。春季有幼鸟，清晨与傍晚更活跃；鸸鹋可能抢食，绝不可投喂。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.parks.vic.gov.au/places-to-see/parks/tower-hill-wildlife-reserve)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;这里的生态修复曾参考 Eugene von Guérard 1855 年画作重建植被，是艺术成为生态证据的罕见案例；当地 Aboriginal cultural tours 能把火山地貌、食物与药用植物联系起来。  &lt;br/&gt;**深度补充：**生态恢复曾参考Eugene von Guérard 1855年画作重建植被，是艺术成为生态证据的经典案例。Eastern Maar／Gunditjmara文化导览又把火山、食物、药用植物与Country连接起来。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.worngundidj.org.au/tower-hill/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;与10/4东段至Apollo Bay、10/5十二门徒后赶St Kilda的方向冲突，已确定不在本次行程；鸸鹋由9/25 Caversham覆盖。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Tower Hill Wildlife Reserve／Emu, Victoria 城市／区域：Tower Hill（近 Warrnambool）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;火山口内有湿地、林地与野生动物；鸸鹋、袋鼠、考拉可能出现但不保证。最佳时段为清晨或傍晚。  &lt;br/&gt;**深度补充：**近3万年前的火山口包含火山锥、湖泊、湿地和再生林地，鸸鹋、袋鼠、考拉和水鸟在不同生境活动。春季有幼鸟，清晨与傍晚更活跃；鸸鹋可能抢食，绝不可投喂。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.parks.vic.gov.au/places-to-see/parks/tower-hill-wildlife-reserve)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;这里的生态修复曾参考 Eugene von Guérard 1855 年画作重建植被，是艺术成为生态证据的罕见案例；当地 Aboriginal cultural tours 能把火山地貌、食物与药用植物联系起来。  &lt;br/&gt;**深度补充：**生态恢复曾参考Eugene von Guérard 1855年画作重建植被，是艺术成为生态证据的经典案例。Eastern Maar／Gunditjmara文化导览又把火山、食物、药用植物与Country连接起来。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.worngundidj.org.au/tower-hill/)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;&amp;lt;span style=&amp;quot;background-color:#FFF3CD;color:#856404;&amp;quot;&amp;gt;【待定-1】与现行 10/4 东段→阿波罗湾、10/5 沉船→墨尔本主线方向冲突，已移出主行程；鸸鹋改由 9/25 Caversham 覆盖&amp;lt;/span&amp;gt;。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Tower Hill Wildlife Reserve／Emu, Victoria 城市／区域：Tower Hill（近 Warrnambool）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
         <Point>
           <coordinates>142.36,-38.317,0</coordinates>
         </Point>
@@ -213,7 +229,7 @@
       <Placemark>
         <name>跳过 比舍诺/Little Penguin</name>
         <styleUrl>#sty_skip</styleUrl>
-        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;小蓝企鹅通常在日落后归巢，低光、安静和不使用闪光灯是基本规则；导览比自行寻找更可控。  &lt;br/&gt;**深度补充：**小蓝企鹅在海上觅食后于日落后归巢，数量、登陆位置和时间受季节与海况影响。合规导览使用低干扰照明并限制距离；闪光灯、追逐和堵住通道都会伤害繁殖行为。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.bichenopenguintours.com.au/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;企鹅观赏体现旅游与野生动物栖息地之间的边界。网上“追着企鹅拍”不是可复制的体验，应服从向导和照明限制。  &lt;br/&gt;**深度补充：**企鹅旅游展示现代野生动物管理的核心矛盾：游客想更近，保护则要求更暗、更安静和更可预测。选择有规则的导览而非自行寻找，体现对栖息地的尊重。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://nre.tas.gov.au/wildlife-management/fauna-of-tasmania/birds/complete-list-of-tasmanian-birds/little-penguin)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;已确认取消。10/1完成Wineglass Bay（酒杯湾）白天行程后约13:00从科尔斯湾直接前往朗塞斯顿，不再去比舍诺、不看塔州东海岸企鹅，也不再夜驾；小蓝企鹅改由10/5 St Kilda覆盖。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; 比舍诺（Bicheno）／Little Penguin（小企鹅）, Tasmania／lutruwita 城市／区域：Bicheno／东海岸&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;小蓝企鹅通常在日落后归巢，低光、安静和不使用闪光灯是基本规则；导览比自行寻找更可控。  &lt;br/&gt;**深度补充：**小蓝企鹅在海上觅食后于日落后归巢，数量、登陆位置和时间受季节与海况影响。合规导览使用低干扰照明并限制距离；闪光灯、追逐和堵住通道都会伤害繁殖行为。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://www.bichenopenguintours.com.au/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;企鹅观赏体现旅游与野生动物栖息地之间的边界。网上“追着企鹅拍”不是可复制的体验，应服从向导和照明限制。  &lt;br/&gt;**深度补充：**企鹅旅游展示现代野生动物管理的核心矛盾：游客想更近，保护则要求更暗、更安静和更可预测。选择有规则的导览而非自行寻找，体现对栖息地的尊重。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://nre.tas.gov.au/wildlife-management/fauna-of-tasmania/birds/complete-list-of-tasmanian-birds/little-penguin)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;已确认取消。10/1约13:00从科尔斯湾直接前往朗塞斯顿，不再去比舍诺、不再夜驾；小蓝企鹅改由10/5 St Kilda覆盖。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; 比舍诺（Bicheno）／Little Penguin（小企鹅）, Tasmania／lutruwita 城市／区域：Bicheno／东海岸&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
         <Point>
           <coordinates>148.301,-41.873,0</coordinates>
         </Point>
@@ -221,7 +237,7 @@
       <Placemark>
         <name>跳过 沃南布尔</name>
         <styleUrl>#sty_skip</styleUrl>
-        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;是 Shipwreck Coast 西段服务中心；Logans Beach 的 southern right whale 观赏具有季节性，10月初可能已接近季末，不能保证。  &lt;br/&gt;**深度补充：**城市位于暴露的南大洋海岸，Logans Beach平台面向南露脊鲸季节性育幼区；10月初可能已过主季。Lake Pertobe、海滨步道和附近Tower Hill提供城市与自然的不同层次。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://visitgreatoceanroad.org.au/destinations/warrnambool/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;区域与 Eastern Maar people 有持续文化联系；海难、捕鲸与港口史构成城市记忆。  &lt;br/&gt;**深度补充：**Eastern Maar Country、海难、捕鲸、港口与农业服务史构成城市记忆。电影《Oddball》把Middle Island小企鹅保护与Maremma护卫犬故事转化为地方文化符号。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.warrnambool.vic.gov.au/oddball)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;与本次大洋路两日主线方向冲突，已确定不西延沃南布尔；10/5午餐仍在Port Campbell。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; 沃南布尔（Warrnambool）, Victoria 城市／区域：Warrnambool&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <description>&lt;b&gt;状态&lt;/b&gt; 本次不看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;是 Shipwreck Coast 西段服务中心；Logans Beach 的 southern right whale 观赏具有季节性，10月初可能已接近季末，不能保证。  &lt;br/&gt;**深度补充：**城市位于暴露的南大洋海岸，Logans Beach平台面向南露脊鲸季节性育幼区；10月初可能已过主季。Lake Pertobe、海滨步道和附近Tower Hill提供城市与自然的不同层次。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://visitgreatoceanroad.org.au/destinations/warrnambool/)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【人文／文化】&lt;br/&gt;区域与 Eastern Maar people 有持续文化联系；海难、捕鲸与港口史构成城市记忆。  &lt;br/&gt;**深度补充：**Eastern Maar Country、海难、捕鲸、港口与农业服务史构成城市记忆。电影《Oddball》把Middle Island小企鹅保护与Maremma护卫犬故事转化为地方文化符号。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://www.warrnambool.vic.gov.au/oddball)&lt;br/&gt;&lt;br/&gt;【本次建议】&lt;br/&gt;与 Tower Hill 一并移出本次主线；10/5 午餐改在坎贝尔港（Port Campbell）。  &lt;br/&gt;**不在本次行程中**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; 沃南布尔（Warrnambool）, Victoria 城市／区域：Warrnambool&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
         <Point>
           <coordinates>142.488,-38.3839,0</coordinates>
         </Point>
@@ -274,7 +290,7 @@
           <coordinates>138.6007,-34.9285,0</coordinates>
         </Point>
       </Placemark>
-      <description>点位数：32</description>
+      <description>点位数：33</description>
     </Folder>
   </Document>
 </kml>

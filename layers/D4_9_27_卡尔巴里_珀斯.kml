@@ -16,6 +16,14 @@
         <width>3</width>
       </LineStyle>
     </Style>
+    <Style id="sty_confirmed_lodging">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal2/icon10.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
     <Folder>
       <name>D4 9/27 卡尔巴里→珀斯</name>
       <Placemark>
@@ -35,11 +43,11 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>D4-3 珀斯机场周边营地</name>
-        <styleUrl>#sty_d4</styleUrl>
-        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-27 · 第4天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 3&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;当晚改住机场附近，避免次日长途赶机场。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**Kalbarri National Park（卡尔巴里国家公园）／Kalbarri Skywalk（卡尔巴里天空步道）／Nature’s Window（自然之窗）通常约13—25°C，但峡谷内无风晴天体感可明显更热；杰拉尔顿（Geraldton）约11—23°C，珀斯机场周边（Perth Airport Area）约10—21°C。清晨峡谷可凉、正午暴晒，需至少每人2—3升饮水并留意公园高温关闭信息；南下长途可能遇阵雨、侧风和日落后低温。[BOM卡尔巴里气候](https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 过夜&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 南下约414公里经杰拉尔顿&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;首选Perth Central Caravan Park；备选Discovery Parks Perth Airport。须书面同意车内过夜。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Perth Central Caravan Park, Ascot WA&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <name>D4-3 Sweet Home Proper…</name>
+        <styleUrl>#sty_confirmed_lodging</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-27 · 第4天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 3&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;已确认的珀斯机场附近住宿；次日搭乘VA594前往霍巴特。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**Kalbarri National Park（卡尔巴里国家公园）／Kalbarri Skywalk（卡尔巴里天空步道）／Nature’s Window（自然之窗）通常约13—25°C，但峡谷内无风晴天体感可明显更热；杰拉尔顿（Geraldton）约11—23°C，珀斯机场周边（Perth Airport Area）约10—21°C。清晨峡谷可凉、正午暴晒，需至少每人2—3升饮水并留意公园高温关闭信息；南下长途可能遇阵雨、侧风和日落后低温。[BOM卡尔巴里气候](https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 过夜&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 自卡尔巴里经杰拉尔顿南下约420公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;9月27日入住、9月28日退房；按订单说明自助入住。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Sweet Home Property, 4A Wallace Street, Belmont WA 6104&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; google_maps</description>
         <Point>
-          <coordinates>115.936,-31.927,0</coordinates>
+          <coordinates>115.9308002,-31.943206,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -48,7 +56,7 @@
         <description>第4天按顺序串联（示意）</description>
         <LineString>
           <tessellate>1</tessellate>
-          <coordinates>114.445,-27.549,0 114.45,-27.555,0 115.936,-31.927,0</coordinates>
+          <coordinates>114.445,-27.549,0 114.45,-27.555,0 115.9308002,-31.943206,0</coordinates>
         </LineString>
       </Placemark>
       <description>点位数：3</description>

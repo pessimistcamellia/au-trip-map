@@ -455,234 +455,7 @@
         ]
       }
     },
-    "wv-puffing": {
-      "category": "transport",
-      "categoryNote": "Puffing Billy Railway 的 Belgrave 窄轨蒸汽火车始发站。",
-      "food": {
-        "summary": "Belgrave 镇中心餐饮充足，两家选择均可从蒸汽火车站步行抵达。",
-        "restaurants": [
-          {
-            "name": "Babaji's Kerala Kitchen Belgrave",
-            "nameEn": "Babaji's Kerala Kitchen Belgrave",
-            "lat": -37.9100522,
-            "lng": 145.353318,
-            "coordinateSource": "Nominatim（OSM，1644 Burwood Highway）",
-            "rating": 4.0,
-            "ratingCount": 926,
-            "ratingSource": "Menuweb",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Puffing Billy Belgrave Station 步行约 5 分钟",
-            "priceLevel": "人均约 A$25-45",
-            "cuisine": "印度 Kerala 菜",
-            "recommended": "官网明确是 Kerala 南印度餐厅，并提供 vegan、vegetarian 与 gluten-free 选择。适合火车前后吃咖喱、米饭类正餐或 chai。",
-            "hours": "周一、周二、周四、周日 12:00-20:00；周五、周六 12:00-21:00；周三休息",
-            "sourceUrl": "https://menuweb.menu/restaurants/belgrave-vic/babajis-kerala-kitchen/reviews"
-          },
-          {
-            "name": "Micawber Tavern",
-            "nameEn": "Micawber Tavern",
-            "lat": -37.900262,
-            "lng": 145.3568283,
-            "coordinateSource": "Nominatim（OSM）",
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距车站约 1 公里",
-            "priceLevel": "人均约 A$25-45",
-            "cuisine": "澳式酒馆餐",
-            "recommended": "Puffing Billy 官方介绍确认供应当代季节性 bistro 菜单、Guinness、本地及国际啤酒，并有 beer garden。适合火车行程后吃 pub meal。",
-            "hours": "每日营业；具体餐时以官网为准",
-            "sourceUrl": "https://puffingbillyrailway.org.au/visit-us/things-to-do-in-the-region/micawber-tavern/"
-          }
-        ]
-      },
-      "parking": {
-        "summary": "首选 Belgrave Metro Station 新多层停车楼；免费但主要服务通勤，周末和活动日应早到。",
-        "lots": [
-          {
-            "name": "Belgrave Metro Station 多层停车场",
-            "nameEn": "Belgrave Station Multi-deck Car Park",
-            "lat": -37.9096952,
-            "lng": 145.3548577,
-            "coordinateSource": "Nominatim（OSM，Belgrave Station）",
-            "fee": "free",
-            "feeNote": "维州通勤停车项目；公开旅游交通资料列为免费停车",
-            "capacity": "640 个车位，其中 16 个地面层无障碍车位",
-            "surface": "混凝土多层停车楼",
-            "note": "入口有实时余位显示、CCTV、照明和电梯；从 Metro station 步行约 2 分钟到 Puffing Billy。"
-          },
-          {
-            "name": "Belgrave Station 上下客区",
-            "nameEn": "Belgrave Station Pick-up / Drop-off Zone",
-            "lat": -37.9096952,
-            "lng": 145.3548577,
-            "coordinateSource": "Nominatim（OSM）",
-            "fee": "free",
-            "feeNote": "仅短时接送",
-            "capacity": null,
-            "surface": "沥青",
-            "note": "新停车项目包含专用 pick-up/drop-off zones；不可在此长时间等候。"
-          }
-        ],
-        "rules": [
-          "停车楼主要为公共交通通勤者建设，周末热门班次仍可能满位，应至少提前到达。",
-          "不要把 Woolworths 等商业停车场当全天停车，须遵守商场限时牌。",
-          "无障碍车位位于地面层。"
-        ],
-        "sources": [
-          {
-            "label": "VicTrack：Belgrave Station 640-space car park",
-            "url": "https://www.victrack.com.au/news/2024/hundreds-more-spaces-added-at-belgrave-station-car-park"
-          },
-          {
-            "label": "Car Parks for Commuters：Belgrave Station",
-            "url": "https://carparks.vic.gov.au/project/belgrave-station-car-park/"
-          }
-        ]
-      }
-    },
-    "d11-01": {
-      "category": "attraction",
-      "categoryNote": "海滩、冲浪与海滨步行景点。",
-      "food": {
-        "summary": "Anglesea 镇中心距海滩很近，适合先停车步行吃饭，旺季晚餐应预留排队时间。",
-        "restaurants": [
-          {
-            "name": "Morgan's Bar & Grill",
-            "nameEn": "Morgan's Bar & Grill",
-            "lat": -38.404615,
-            "lng": 144.1899538,
-            "coordinateSource": "Nominatim（OSM）",
-            "rating": 4.1,
-            "ratingCount": 403,
-            "ratingSource": "Google 地图（Sluurpy 转引）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Anglesea Beach 约 500 米",
-            "priceLevel": "人均约 A$20-40",
-            "cuisine": "汉堡、牛排、早午餐",
-            "recommended": "官网主打 specialty coffee、milkshake、brunch、精酿啤酒和海岸风格汉堡；当地指南称汉堡选择多，也有无麸质选项。",
-            "hours": null,
-            "sourceUrl": "https://www.sluurpy.com/en/anglesea/restaurant/4620404/morgans-bar-and-grill"
-          },
-          {
-            "name": "A la grecque",
-            "nameEn": "A la grecque",
-            "lat": -38.46513,
-            "lng": 144.09901,
-            "coordinateSource": "Nominatim（OSM，Aireys Inlet 餐饮区邻近点）",
-            "rating": 4.2,
-            "ratingCount": 1940,
-            "ratingSource": "Menuweb",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Anglesea Beach 约 10 公里，位于 Aireys Inlet",
-            "priceLevel": "人均约 A$40-70",
-            "cuisine": "现代希腊菜",
-            "recommended": "Anglesea 官方餐饮页面明确介绍其现代希腊料理。适合作为继续向西前往 Aireys Inlet 时的正餐，而不是从海滩步行前往。",
-            "hours": null,
-            "sourceUrl": "https://menuweb.menu/restaurants/aireys-inlet/a-la-greque/reviews"
-          }
-        ]
-      },
-      "parking": {
-        "summary": "海滩周边以免费海滨和街边车位为主，夏季周末很快满位。",
-        "lots": [
-          {
-            "name": "Anglesea Beach 海滨停车区",
-            "nameEn": "Anglesea Beach Foreshore Parking",
-            "lat": -38.406,
-            "lng": 144.185,
-            "coordinateSource": "任务提供的海滩坐标；以现场停车标线核对",
-            "fee": "free",
-            "feeNote": "公开资料未显示常设收费；以现场限时牌为准",
-            "capacity": null,
-            "surface": "沥青",
-            "note": "旺季和冲浪活动时优先留给海滩访客；大型房车不要占多个普通车位。"
-          }
-        ],
-        "rules": [
-          "必须遵守现场时限、无障碍位和禁止停车标志。",
-          "夏季周末建议早到，满位后到镇内合法街位步行，不要停上沙地或草地。"
-        ],
-        "sources": [
-          {
-            "label": "Anglesea 官方地区网站",
-            "url": "https://www.anglesea.com.au/"
-          }
-        ]
-      }
-    },
-    "d11-02": {
-      "category": "attraction",
-      "categoryNote": "历史灯塔、海岸步道与观景景点。",
-      "food": {
-        "summary": "灯塔步道旁就有 Tea Rooms；更完整的晚餐可到 Great Ocean Road 镇中心餐厅。",
-        "restaurants": [
-          {
-            "name": "The Lighthouse Tea Rooms",
-            "nameEn": "The Lighthouse Tea Rooms",
-            "lat": -38.4671213,
-            "lng": 144.1049235,
-            "coordinateSource": "Nominatim（OSM）",
-            "rating": 4.3,
-            "ratingCount": 184,
-            "ratingSource": "Google 地图（由 Restaurant Guru 页面转引）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Split Point Lighthouse 步行约 200 米",
-            "priceLevel": "人均约 A$10-30",
-            "cuisine": "澳式、法式咖啡馆",
-            "recommended": "评论资料反复提到 scones 配果酱和奶油、Reuben sandwich、培根卷及 milkshake。适合灯塔参观前后吃轻食，周末会忙。",
-            "hours": "页面列示每日 09:00-16:00；出发前再核对",
-            "sourceUrl": "https://restaurantguru.com/Lighthouse-Stables-and-Cafe-Aireys-Inlet"
-          },
-          {
-            "name": "The Captain of Aireys",
-            "nameEn": "The Captain of Aireys",
-            "lat": -38.4651306,
-            "lng": 144.0990102,
-            "coordinateSource": "Nominatim（OSM）",
-            "rating": null,
-            "ratingCount": null,
-            "ratingSource": null,
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距灯塔约 700 米",
-            "priceLevel": "人均约 A$20-40",
-            "cuisine": "木火披萨",
-            "recommended": "大洋路官方旅游页面明确介绍手工拉伸、木火烘烤 pizza，并使用新鲜本地食材。适合家庭分享，较 Tea Rooms 更接近正餐。",
-            "hours": "官方旅游页面称每日营业；具体时段以店家为准",
-            "sourceUrl": "https://www.visitgreatoceanroad.org.au/iamaireysinlet/eat-drink/aireys-inlet-for-foodies/"
-          }
-        ]
-      },
-      "parking": {
-        "summary": "灯塔没有大型集中停车楼，主要使用 Federal Street 一带合法街边位后步行上去。",
-        "lots": [
-          {
-            "name": "Split Point Lighthouse / Federal Street 路侧停车区",
-            "nameEn": "Split Point Lighthouse Federal Street Parking",
-            "lat": -38.4671213,
-            "lng": 144.1049235,
-            "coordinateSource": "Nominatim（OSM，The Lighthouse Tea Rooms）",
-            "fee": "free",
-            "feeNote": "免费街边停车；以现场限时牌为准",
-            "capacity": "少量路侧车位",
-            "surface": "沥青",
-            "note": "从 Tea Rooms 附近步行到灯塔；不要堵住居民车道，旺季满位时回镇中心合法停车。"
-          }
-        ],
-        "rules": [
-          "Aireys Inlet 免费街边位在夏季周末会很快满。",
-          "只停有标线或明确允许的路段，不在弯道、居民出入口或步道入口临停。"
-        ],
-        "sources": [
-          {
-            "label": "Aireys Inlet 游览与停车提示",
-            "url": "https://thewanderbug.com/aireys-inlet-great-ocean-road/"
-          }
-        ]
-      }
-    },
-    "d11-03": {
+    "d12-09": {
       "category": "attraction",
       "categoryNote": "Great Ocean Road 历史纪念拱门与短暂停靠拍照点。",
       "food": {
@@ -757,7 +530,7 @@
         ]
       }
     },
-    "d11-04": {
+    "d12-04": {
       "category": "attraction",
       "categoryNote": "Lorne 山坡海岸观景台与短步道。",
       "food": {
@@ -832,7 +605,7 @@
         ]
       }
     },
-    "d11-05": {
+    "d12-03": {
       "category": "attraction",
       "categoryNote": "小型海岸聚落、河口与野生动物观察停靠点。",
       "food": {
@@ -908,7 +681,7 @@
         ]
       }
     },
-    "d11-06": {
+    "d12-02": {
       "category": "lodging",
       "categoryNote": "大洋路沿线住宿小镇与夜间补给中心。",
       "food": {
@@ -1041,22 +814,23 @@
       "handled": "继续将 rating、ratingCount 与 ratingSource 保持为 null；不采用无法在来源页复核的搜索摘要分数。"
     },
     {
-      "placeId": "d11-03",
+      "placeId": "d12-09",
       "field": "parking",
       "issue": "拱门处是海侧 pull-off 短停区，并非有正式专名的大型停车场。",
       "handled": "按 Nominatim 的 Memorial Arch 坐标填写，并明确约 25 车位及高速车流风险。"
     },
     {
-      "placeId": "d11-03",
+      "placeId": "d12-09",
       "field": "food.restaurants.rating",
       "issue": "The Captain of Aireys：检索店名+Aireys Inlet+Tripadvisor/Google/rating/reviews，并核对当地活动页与 LinkedIn；搜索摘要有分数但返回页面不显示，未采用。",
       "handled": "继续将 rating、ratingCount 与 ratingSource 保持为 null；不采用无法在来源页复核的搜索摘要分数。"
     },
     {
-      "placeId": "d11-05",
+      "placeId": "d12-03",
       "field": "parking.capacity",
       "issue": "Kennett River 的 24 个小客车等容量来自 precinct plan 草案，无法确认 2026-08-22 是否全部按草案完工。",
       "handled": "在 capacity 与 note 中明确标为草案目标，要求按现场标线停车。"
     }
-  ]
+  ],
+  "uncertainties": []
 }
