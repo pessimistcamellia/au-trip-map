@@ -34,7 +34,27 @@
 - **状态：** complete
 
 ## 当前阶段
-阶段 40（进行中）
+阶段 53（进行中）
+
+### 阶段 53：修复线上路书未更新与地图长地名裁切
+- [x] 定位「刷新无效」根因：上轮 `pnpm run build` 输出被 `head -8` 截断，`sw.js` / `404.html` 未生成，旧 Service Worker 继续供旧缓存
+- [x] 完整重建并重新发布 gh-pages（`5c9e021`），线上恢复 SW 注册与 10/3 新行程
+- [x] 修复地图标签把「Mantra Melbourne Airport（住宿）」裁成半行：改为 JS 侧统一去括号并按两行预算截断
+- [ ] 发布标签修复并在移动端视口线上验收
+- [ ] 待用户确认后再同步飞书云文档与 My Maps 的 10/2 营地、10/3 改飞
+- **状态：** in-progress
+
+### 阶段 52：9/25 改订「能洗热水澡」的营地
+- [x] 核实 Sandy Cape 是否有淋浴（官方页确认 no showers，旧写法有误）
+- [x] 复核 RAC Cervantes 单晚房态，纠正「3 晚起订」误判
+- [x] 实测 Jurien Bay Tourist Park 与 Green Head 的 9/25 价格与预订方式
+- [x] 按有热水淋浴重排首选／备选／兜底并回写飞书与本地
+- **状态：** complete
+
+### 阶段 51：10/2 Discovery Parks 带电营位回写飞书
+- [x] 定位飞书文档 10/2 住宿、总览、必订清单、待定问题第 3 项
+- [x] 按已确认 powered 营位原地更新，并同步 `doc-content.md`
+- **状态：** complete
 
 ### 阶段 6：PWA 需求与数据审计
 - [x] 对照飞书最新版与本地全部材料
@@ -352,6 +372,12 @@
 - [x] 核对 Tasman Island Cruises 自驾版真实签到时间、地点与 Hobart 发车时刻
 - [x] 核查公共巴士、Pennicott 普通接驳、同团早班车、私人转运与租车的时间／预算可行性
 - [x] 对比 Tours Tasmania 跟团与 Encounter Maria Island 自购船票的包含项
+- **状态：** complete
+
+### 阶段 50：车宿与营地方案回写飞书云文档
+- [x] 定位 9/25、9/26 住宿建议单元格与总览、必订清单、待定问题对应 block
+- [x] 原地替换首选／备选／兜底／排除方案（未新建文档）
+- [x] 同步本地 `doc-content.md` 并复核飞书更新结果
 - **状态：** complete
 
 ## 关键问题

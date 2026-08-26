@@ -1,5 +1,11 @@
 # 进度日志
 
+## 2026-08-27 9/25 改订有热水淋浴的营地
+- 用户实地核对指出 Sandy Cape 不能洗澡；查西澳官方页确认 `no showers`，旧文档写的「冷水淋浴」来自地方旅游站，已作废。
+- 直连 Summerstar `/api/v1/availability/get-availability`（park=5）拿到 Jurien Bay Tourist Park 9/25 实价；RAC 的 Newbook 结果为 JS 异步加载，curl 三次只得 `Loading availability`，改用 Chrome 驱动页面读出真实房态。
+- 纠正上一轮误判：RAC Cervantes 9/25 单晚可订，之前把 Winter Special 的阶梯折扣读成了 3 晚起订。
+- 飞书 revision 530 → 535，改 9/25 住宿列、总览、必订清单、待定问题第 4 项；本地 `doc-content.md` 同步。
+
 ## 2026-08-27 10/2 Discovery Parks 带电营位回写飞书
 - 原文档 `TAoHd0QFyoo7lpxGk9DcpN0nnCc` 原地更新，revision 522 → 530；未新建文档。
 - 改动：每日主行程 10/2 住宿列与路线终点、行程总览当晚住宿、必订清单、待定问题第 3 项；本地 `doc-content.md`、`trip-data.json`、`itinerary.json` 同步为已确认 Powered 营位。
@@ -385,3 +391,10 @@
 - typecheck、Vitest 40 项、production build 全部通过；构建产物为 `index-hwkir1JF.js` / `index-CsB0Trhb.css`，PWA precache 14 条 / 683.43 KiB。
 - `gh-pages` 已推到 `074849b`，但 GitHub Pages 构建长时间停在 `building`。查明为平台故障：GitHub Actions `major_outage`、Pages `degraded_performance`，`pages build and deployment` 工作流排队且无 job 生成（历史构建仅 21—27 秒）。官方 16:14 UTC 公告已定位并在逐步恢复流量。
 - 结论：发布链路已补齐，线上生效时间取决于 GitHub 恢复；仍需注意 10/3 的飞机改线尚未写入正式数据，线上会继续显示塔州精神号夜航。
+
+## 2026-08-26 修复「刷新没用」与地图长地名裁切
+- 用户再次反馈线上路书刷新无效。根因不是没推送，而是上一轮发布不完整：执行 `pnpm run build` 时把输出接到 `head -8`，管道提前关闭导致构建在 `vite build` 后被中断，`sw.js`、`workbox-*.js` 与 `404.html` 全部没生成。线上因此没有新 Service Worker 接管，旧 SW 继续用 8/24 的预缓存回应导航请求，硬刷新也绕不过去。
+- 已完整重建并重发 `gh-pages`（`5c9e021`）：`sw.js` 与 404 回退补齐，线上确认 SW 重新注册、缓存就位、无离线初始化报错，10/3 页面显示延长摇篮山＋朗塞斯顿飞墨尔本，当日终点时间为 21:10。
+- 线上验收时发现地图标签缺陷：`Mantra Melbourne Airport（住宿）` 在 122px 宽的标签盒里需要 4 行，`-webkit-line-clamp: 2` 在当前 Chrome 下计算样式被解析成 `flow-root`，省略号未生效，只按 47px 高度硬裁，露出半行文字（实测 `scrollHeight` 80 / `clientHeight` 47）。
+- 修法不依赖 CSS 裁切：在 `src/utils/trip.ts` 新增 `formatMapLabel`，先去掉括号补充说明（`（住宿）`、`（延长游览）`），仍超两行预算时按字宽单位截断并补省略号；碰撞矩形与渲染文本共用同一函数，避免布局与实际显示不一致。
+- typecheck、Vitest 43 项、production build 均通过；新增一条测试锁定去括号、截断与 47px 高度。

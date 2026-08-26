@@ -1,5 +1,12 @@
 # 发现记录
 
+## 2026-08-26 Quest Savoy 公共停车收费
+- 酒店无院内车位。客人停车场为 Sultan 的 Market Place Car Park，4–6 Market Place，步行约 5 分钟，24 小时开放，限高 2.2 m。
+- 第三方渠道当前文案：住客折扣封顶 **AUD 27／8–24 小时连续停车**，须前台验证票后再出场，费用付给停车场而非酒店。更早渠道曾写 AUD 32。入住时以前台当场确认为准。
+- 按 9/28 傍晚入场、10/1 上午离场连停三晚估算：若折扣按每 24 小时计，约 **3 × AUD 27 = AUD 81**（约 ¥370–400）。不验证则按公开小时价累加，可能明显高于折扣价。
+- 对面 Centrepoint 市府停车场有过夜费 AUD 8，但营业时间不到晚上，关闸后取车另收约 AUD 67，不适合连停三晚。
+- 9/29、9/30 均为霍巴特往返当日团，可不在这三晚租车，改 10/1 退房后取车则停车费为 0。
+
 ## 2026-08-26 亚瑟港早班交通与 Maria Island 团／船对比
 - 用户把两个日期的时间混在了一起：`07:55` 是 9/30 Tours Tasmania Maria Island 冬季团在 Hobart `20 Davey Street` 的集合时间；9/29 Pennicott Tasman Island Cruises 自驾版官方要求 `09:15` 前到 `6961 Arthur Highway, Port Arthur` 签到，10:00 开船。
 - Hobart→Port Arthur 的公共 734 路工作日仅 15:45 从 Hobart 发车，不可用。Pennicott 普通 Port Arthur Bus 约 07:45 发车、09:30—10:00 到，也赶不上 09:15 签到。唯一时间严丝合缝的共享车是同运营商 Full Day Tour 专车：07:15 Franklin Wharf 签到、07:30 发车、09:15 抵达；需让 Pennicott 把现有 cruise-only 订单改为／附加到该车，不能用普通 A$40 bus 直接替代。
@@ -7,6 +14,21 @@
 - Tours Tasmania Maria Island 团 A$225／成人，包含 Hobart—Triabunna 往返、Encounter Maria Island 往返船票、National Park fees、最多15人的向导、讲解与带队步行，并按天气／潮汐／队伍调整路线；不含午餐、零食和饮水，只会途中短停方便购买。
 - 自买 Encounter Maria Island 当日往返船票 A$59／成人，**不含** National Parks Pass；需自行到 Triabunna、提前45分钟签到、自备全部食物饮水、自行规划 Painted/Fossil Cliffs 与潮汐、无向导讲解。若计划买 Holiday Vehicle Pass，可从 9/30 起生效并在渡轮签到时出示电子版／照片，同时覆盖后续 Freycinet 与 Cradle 入园（Cradle shuttle 另购）。
 - 无车时无法用普通公共交通当天往返 Maria Island：737 从 Hobart 每日约16:00才发往 Triabunna；反向班车约10:05已离开 Triabunna，也接不上16:15返岸渡轮。因此 DIY 仍需另找接送／租车，Tours Tasmania 的价值不只是城区接驳。
+- Tours Tasmania 的 Maria Island 团不是专场猎奇 safari，而是沿 Darlington—Painted Cliffs—Fossil Cliffs 标准短线边走边看。向导会讲解并主动指出沿途动物，也会停下来从安全距离观察；官方要求保持约 2 米、不追逐不投喂。固定热点：登岛码头旁草地、Darlington 草坪／营地、去 Painted Cliffs 上坡牧场、Fossil Cliffs 开阔草原／旧跑道。袋熊、Cape Barren goose、wallaby、Forester kangaroo 白天常见；袋獾夜间活动，日间偶遇不保证。9/30 属冬季时刻，袋熊白天更常出来吃草。
+- Encounter Maria Island 官方班表：9 月已是夏季船期。去程 8:30／10:00／11:30／15:15；返程 9:15／10:45／14:30／**16:15（末班）**。官方 Hobart shuttle 全年默认 **08:00 Brooke Street Pier → 衔接 10:00 去程船**，返程固定衔接 **16:15 末班船 → 17:00 Triabunna 发车**。只有旺季加开的 **06:45 shuttle 才衔接最早的 08:30 船**；mariaislandshuttle 写 06:45 为 10 月—4 月，9/30 不一定有。Tours Tasmania 冬季团（至 9/30）Hobart 08:00／Triabunna 09:30，对应的也是 10:00 去程而非 8:30。
+
+## 2026-08-27 9/25 需带淋浴的营地重查（纠正两处旧结论）
+- **纠正一：Sandy Cape 没有淋浴。** 西澳官方旅游页明确 `no power, no drinking water and no showers`；`visitturquoisecoast.com.au` 写「limited cold showers」与官方矛盾。以官方为准，此前写入文档的「冷水淋浴」是错的，已不适合本次。
+- **纠正二：RAC Cervantes 并非 3 晚起订。** 2026-08-27 用浏览器直接驱动其 Newbook 引擎实测 `25 Sep 2026` 单晚：`Powered Firm Ground Site` 标准价 AUD 77／RAC 会员 AUD 71，`Unpowered Camping Site` 标准价 AUD 71／会员 AUD 65，均可订。此前的「3 晚起订」应是把 `Winter Special - Stay 2 nights save 15%, Stay 3 nights save 33%` 的阶梯折扣误读为最低住宿要求。同日 `Powered Tent Site`、`Powered Campervan Site`、`One Bedroom Studio` 显示 currently unavailable。
+- 报价是在访客选择器为 1 位成人时读到的；两人总价须在结算页确认。RAC 设施含共用卫浴楼、营地厨房、泳池、活动室，热水淋浴齐全，且就在 Cervantes 镇内，尖峰石阵日落后仅约 20 公里。
+- RAC 预订表单的 `Equipment type` 下拉含 `Car & Swag (NO trailer)`、`Car and Single Room Tent (Small)`、`Rooftop Tent`，说明系统支持申报轿车类装备；但 Unpowered Camping Site 文案写 `small campervans and tents only`，睡车内仍需下单时取得同意。
+- Jurien Bay Tourist Park（Summerstar，Roberts Street）2026-08-27 实测 9/25—9/26 两位成人：`Powered camping site` 总价 AUD 72（G'Day 会员 64.80），`Unpowered camping site` AUD 47（预付优惠 43），另有 1 房 unit AUD 239→220。设施含热水淋浴的 ablution block、营地厨房、投币洗衣、饮用水、免费 Wi-Fi，可免费取消至入住前 72 小时。两种营位页面均标 `Tents only`，睡车内需电话 08 9652 1595 确认。
+- Green Head Caravan Park（9 Green Head Road）有热水淋浴、营地厨房、洗衣；官网价目 unpowered 两人 off-peak AUD 30、peak 40、super peak 45，但**只能电话 (08) 9953 1131 预订**，且在 Jurien Bay 以北约 50 公里，只作兜底。
+- Milligan Island Eco Campsite（Green Head—Leeman 之间，AUD 30—35／晚）虽可在 Shire of Coorow 平台在线订，但官方明确 no running water、no power、仅 long drop toilets，同样不能洗澡，不列入。
+
+## 2026-08-27 10/2 Discovery Parks 带电营位已确认
+- 用户确认已订 Discovery Parks – Cradle Mountain（游客中心门口）的 Powered 带电营位，10/2 入住、10/3 退房；住宿状态从「待重新预订」改为已确认。
+- 地址沿用此前携程核验：3832 Cradle Mountain Road, Cradle Mountain TAS 7306。具体营位号／官方房型代码未提供，文档中琥珀色标注。
 
 ## 2026-08-26 西澳 9/25—9/26 合法车宿与营地
 - 西澳法规只允许持牌营地、当地政府批准地点或明确标有 24 小时停留的道路休息区；普通海滩、景区和镇内停车位不能按合法车宿点处理。Main Roads 官方 GIS 当前把 Coomallo 标为 `STAY_24_HOUR=No`，把 Galena North／South、Nerren Nerren 标为 `Yes`。
@@ -17,6 +39,7 @@
 - 9/26 Kalbarri：Kalbarri Tudor 官方 Newbook 实测 9/26—09/27 单晚仍显示 Unpowered、Powered、RV、Ensuite Powered 均可 `Book now`；页面单人初始报价分别约 AUD 68／78／79／85，2 人最终价以结算页为准。Unpowered 页面支持 `Rooftop tent / Car` 设备类型，镇内步行约 4 分钟到海滩和餐饮：https://kalbarritudor.com.au/book-now/
 - Anchorage 官网 2026-07-01 后两人价：non-powered AUD 45、powered AUD 48、河景 AUD 53；但单晚必须电话 08 9937 1181，普通轿车内睡眠也需取得书面／邮件同意。Murchison River 官网价 unpowered AUD 38、powered AUD 42，未取得 9/26 在线库存确认。
 - Kalbarri 镇内和国家公园均禁止免费露营；最近明确合法免费点为 Galena 24-hour Rest Area（约距镇 77 km），会破坏 9/26 晚到镇及 9/27 清晨游览节奏，只作付费营地全部失败时的兜底。
+- 以上首选／备选／兜底／排除已于 2026-08-26 原地写入飞书文档 `TAoHd0QFyoo7lpxGk9DcpN0nnCc`（revision 522）与本地 `doc-content.md`，覆盖每日主行程住宿列、行程总览、必订清单和待定问题第 4 项。
 
 ## 2026-08-26 剩余需提前预约项目
 - 用户已确认预订 9/29 Tasman Island 与 9/30 Maria Island；本次仅核查其余容量受限活动，不计飞机与船票。
