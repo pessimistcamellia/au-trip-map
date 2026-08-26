@@ -398,3 +398,6 @@
 - 线上验收时发现地图标签缺陷：`Mantra Melbourne Airport（住宿）` 在 122px 宽的标签盒里需要 4 行，`-webkit-line-clamp: 2` 在当前 Chrome 下计算样式被解析成 `flow-root`，省略号未生效，只按 47px 高度硬裁，露出半行文字（实测 `scrollHeight` 80 / `clientHeight` 47）。
 - 修法不依赖 CSS 裁切：在 `src/utils/trip.ts` 新增 `formatMapLabel`，先去掉括号补充说明（`（住宿）`、`（延长游览）`），仍超两行预算时按字宽单位截断并补省略号；碰撞矩形与渲染文本共用同一函数，避免布局与实际显示不一致。
 - typecheck、Vitest 43 项、production build 均通过；新增一条测试锁定去括号、截断与 47px 高度。
+- 首版修复仍不彻底：只按总字宽估算，忽略了英文按单词换行。`Mantra Melbourne Airport` 在 104px 正文宽度下必然折三行（实测 `Melbourne Airport` 单行需 127.9px），因此仍露半行。改为在 `wrapLabelLines` 里模拟浏览器换行：中日韩逐字断行、拉丁按空白成词，标签高度按真实行数取 2—3 行，并用画布实测校准字宽系数（中日韩 1.04、拉丁 0.62、空格 0.30，各留约 5% 余量）；`-webkit-line-clamp` 同步改为 3。
+- gh-pages `eb46189` 已发布，Pages 构建 `built`。线上实测三条标签均 `clipped: false`：`摇篮山` 62×30、`朗塞斯顿机场` 106×30、`Mantra Melbourne Airport` 97×65 三行完整显示。
+- 发布链路补充经验：Service Worker 更新后当前文档仍跑旧 bundle，必须再 reload 一次才会切到新 `index-*.js`；验收时要核对 `script[src]` 的实际哈希，不能只看 Pages 构建状态。
