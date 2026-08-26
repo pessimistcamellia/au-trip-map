@@ -5,6 +5,7 @@ import {
   calculateMapLabelLayouts,
   calculateMapViewport,
   calculatePinchZoom,
+  formatMapLabel,
   getMappableRhythmNodes,
   shouldStartMapDrag,
   spreadMapMarkerPositions,
@@ -533,7 +534,7 @@ onBeforeUnmount(() => {
           }"
           aria-hidden="true"
         >
-          {{ point.title }}
+          {{ formatMapLabel(point.title) }}
         </span>
         <div class="map-controls" aria-label="地图缩放">
           <button type="button" aria-label="放大地图" @pointerdown.stop @click.stop="changeZoom(1)">＋</button>

@@ -161,15 +161,52 @@ function rectanglesOverlap(left: ILayoutRect, right: ILayoutRect, gap = 4): bool
   )
 }
 
-function estimateMapLabelSize(title: string): { width: number; height: number } {
-  const textUnits = [...title].reduce(
+const MAP_LABEL_FONT_SIZE = 14
+const MAP_LABEL_MAX_WIDTH = 122
+// 盒模型为 border-box：左右各 8px 内边距加 1px 描边，共 18px。
+const MAP_LABEL_INSET = 18
+const MAP_LABEL_LINES = 2
+
+function measureTextUnits(text: string): number {
+  return [...text].reduce(
     (total, character) =>
       total + (/[\u2E80-\u9FFF]/u.test(character) ? 1 : 0.58),
     0,
   )
-  const contentWidth = textUnits * 14
-  // 盒模型为 border-box：左右各 8px 内边距加 1px 描边，共 18px。
-  const width = Math.min(122, Math.max(54, Math.ceil(contentWidth) + 18))
+}
+
+/**
+ * 地图标签只有两行可用高度，超长地名靠 CSS 裁切会露出半行文字，
+ * 因此先去掉括号补充说明，再按两行宽度预算截断并补省略号。
+ */
+export function formatMapLabel(title: string): string {
+  const stripped =
+    title
+      .replace(/（[^）]*）/g, '')
+      .replace(/\([^)]*\)/g, '')
+      .replace(/\s+/g, ' ')
+      .trim() || title.trim()
+  const budget =
+    ((MAP_LABEL_MAX_WIDTH - MAP_LABEL_INSET) * MAP_LABEL_LINES) /
+    MAP_LABEL_FONT_SIZE
+  if (measureTextUnits(stripped) <= budget) return stripped
+  let kept = ''
+  let used = measureTextUnits('…')
+  for (const character of stripped) {
+    const next = measureTextUnits(character)
+    if (used + next > budget) break
+    kept += character
+    used += next
+  }
+  return `${kept.trimEnd()}…`
+}
+
+function estimateMapLabelSize(title: string): { width: number; height: number } {
+  const contentWidth = measureTextUnits(formatMapLabel(title)) * MAP_LABEL_FONT_SIZE
+  const width = Math.min(
+    MAP_LABEL_MAX_WIDTH,
+    Math.max(54, Math.ceil(contentWidth) + MAP_LABEL_INSET),
+  )
   return {
     width,
     // 字体实际字宽可能让理论单行文本换行，碰撞矩形统一按两行高度预留。

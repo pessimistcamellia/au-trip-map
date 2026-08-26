@@ -36,6 +36,7 @@ import {
   calculateMapLabelLayouts,
   calculateMapViewport,
   calculatePinchZoom,
+  formatMapLabel,
   getEmptyDaySummary,
   getMapLabelSide,
   getMappableRhythmNodes,
@@ -341,6 +342,29 @@ describe('静态行程数据', () => {
         markerRects.every((marker) => !rectanglesOverlap(layout, marker)),
       ).toBe(true)
     }
+  })
+
+  it('地图标签去掉括号补充说明，并把超长地名截到两行内', () => {
+    expect(formatMapLabel('Mantra Melbourne Airport（住宿）')).toBe(
+      'Mantra Melbourne Airport',
+    )
+    expect(formatMapLabel('摇篮山（延长游览）')).toBe('摇篮山')
+
+    const long = formatMapLabel(
+      'Twelve Apostles Motel & Country Retreat Princetown',
+    )
+    expect(long.endsWith('…')).toBe(true)
+    expect(long.length).toBeLessThan(
+      'Twelve Apostles Motel & Country Retreat Princetown'.length,
+    )
+
+    const layouts = calculateMapLabelLayouts(
+      [{ title: 'Mantra Melbourne Airport（住宿）' }],
+      [{ left: 164, top: 215 }],
+      328,
+      430,
+    )
+    expect(layouts[0].height).toBe(47)
   })
 
   it('无坐标节奏节点保留在文字列表且地图过滤不报错', () => {
