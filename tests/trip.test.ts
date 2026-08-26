@@ -65,11 +65,11 @@ function rectanglesOverlap(left: ITestRect, right: ITestRect): boolean {
 }
 
 describe('静态行程数据', () => {
-  it('完整覆盖 13 天、86 条地点和 skip 状态', () => {
+  it('完整覆盖 13 天、88 条地点和 skip 状态', () => {
     expect(data.days).toHaveLength(13)
-    expect(data.places).toHaveLength(86)
+    expect(data.places).toHaveLength(88)
     expect(data.places.filter((place) => place.status === 'visit')).toHaveLength(
-      51,
+      53,
     )
     expect(data.places.filter((place) => place.status === 'skip')).toHaveLength(
       35,
@@ -78,8 +78,39 @@ describe('静态行程数据', () => {
       data.places.filter(
         (place) => place.lat !== null && place.lng !== null,
       ),
-    ).toHaveLength(81)
+    ).toHaveLength(83)
     expect(data.wishlistCount).toBe(54)
+  })
+
+  it('10 月 3 日改为延长摇篮山后从朗塞斯顿飞墨尔本', () => {
+    const places = getPlacesForDay(data.places, 10)
+    expect(places.map((place) => place.id)).toEqual([
+      'd10-01',
+      'd10-02',
+      'd10-03',
+    ])
+    expect(places[1]).toMatchObject({ name: '朗塞斯顿机场' })
+    expect(places[2]).toMatchObject({
+      name: 'Mantra Melbourne Airport（住宿）',
+      category: 'lodging',
+    })
+    const day = data.days.find((item) => item.date === '2026-10-03')!
+    expect(day.route).not.toContain('Spirit of Tasmania')
+    expect(day.lodging).toContain('Mantra Melbourne Airport')
+    expect(
+      data.places.filter((place) => place.name.includes('德文波特码头')),
+    ).toEqual([])
+  })
+
+  it('10 月 2 日在摇篮山营地过夜', () => {
+    const places = getPlacesForDay(data.places, 9)
+    expect(places.at(-1)).toMatchObject({
+      id: 'd9-05',
+      category: 'lodging',
+    })
+    const day = data.days.find((item) => item.date === '2026-10-02')!
+    expect(day.lodging).toContain('Discovery Parks')
+    expect(day.lodging).toContain('待预订')
   })
 
   it('10 月 4 日完成沉船海岸核心点并住十二门徒附近', () => {
@@ -414,13 +445,14 @@ describe('目的地信息分类与 repository', () => {
 
 describe('目的地类别与图标', () => {
   it('按机场、码头、住宿、市场分别给出类别与官方图标键', () => {
-    const badges = ['d2-01', 'd10-02', 'd12-07', 'd13-01', 'd8-01'].map((id) => {
+    const badges = ['d2-01', 'd6-00', 'd10-02', 'd12-07', 'd13-01', 'd8-01'].map((id) => {
       const place = data.places.find((item) => item.id === id)!
       return { id, ...getPlaceCategoryBadge(place) }
     })
     expect(badges).toEqual([
       { id: 'd2-01', category: 'transport', label: '机场', iconKey: 'flight' },
-      { id: 'd10-02', category: 'transport', label: '码头', iconKey: 'boat' },
+      { id: 'd6-00', category: 'transport', label: '码头', iconKey: 'boat' },
+      { id: 'd10-02', category: 'transport', label: '机场', iconKey: 'flight' },
       { id: 'd12-07', category: 'lodging', label: '住宿', iconKey: 'hotel' },
       { id: 'd13-01', category: 'market', label: '市场', iconKey: 'storefront' },
       { id: 'd8-01', category: 'attraction', label: '景点', iconKey: 'landscape' },
@@ -512,7 +544,7 @@ describe('美食页签与逐点天气', () => {
     expect(beautyPoint.temperatureRange).toBe('6-17°C')
     expect(cradle.temperatureRange).toBe('0-10°C')
     expect(cradle.granularity).toBe('nearby')
-    expect(cradle.basis).toContain('鸽子湖')
+    expect(cradle.basis).toContain('摇篮山')
   })
 
   it('每个当日行程点都有逐点气候，并保留当日共同提示', () => {

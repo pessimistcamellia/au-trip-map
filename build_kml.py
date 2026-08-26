@@ -12,7 +12,9 @@ data = json.loads((out_dir / "itinerary.json").read_text())
 
 ICON = "http://maps.google.com/mapfiles/kml/paddle/{}.png"
 LODGING_ICON = "http://maps.google.com/mapfiles/kml/pal2/icon10.png"
-CONFIRMED_LODGING_IDS = {"d4-03", "d5-02", "d8-05", "d11-06", "d12-07"}
+CONFIRMED_LODGING_IDS = {"d4-03", "d5-02", "d8-05", "d10-03", "d11-06", "d12-07"}
+# 10/2 营位已核实有位但尚未下单，先不套用「已确认住宿」图标。
+PENDING_LODGING_IDS = {"d9-05"}
 # Quest Savoy 只在 D5–6 图层保留一个地图点；其余日期仍在路书中展示。
 KML_EXCLUDED_IDS = {"d6-04", "d7-02", "d8-00"}
 
@@ -61,14 +63,14 @@ LAYERS = [
         "ffff0000",
     ),
     (
-        "D9–10 10/2–3 摇篮山／夜航",
+        "D9–10 10/2–3 摇篮山／朗塞斯顿飞墨尔本",
         "sty_d910",
         ICON.format("purple-circle"),
         lambda p: p.get("day") in (9, 10),
         "ff800080",
     ),
     (
-        "D11 10/4 吉朗→十二门徒",
+        "D11 10/4 墨尔本→十二门徒",
         "sty_d11",
         ICON.format("pink-circle"),
         lambda p: p.get("day") == 11,

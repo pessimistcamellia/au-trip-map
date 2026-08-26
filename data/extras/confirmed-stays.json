@@ -68,6 +68,76 @@
         "sources": []
       }
     },
+    "d9-05": {
+      "category": "lodging",
+      "food": {
+        "summary": "营地有营地厨房、石头厨房与 BBQ，可自炊；园区 Hellyers 餐厅酒吧另按当日营业时间。国家公园范围内禁止营火与明火。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "营位本身即车位，车辆直接停在所订营位旁；官方条款为每个订单仅一辆车。",
+        "lots": [],
+        "rules": [
+          "选 Unpowered Site 16 Feet（适合 tents／campervans／small motorhomes）；同价的 Unpowered Gravel Site 14 Feet 官方明确不可搭帐篷或遮阳篷。",
+          "入住 14:00、退房 10:00；22:00 后为安静时段。",
+          "偏远山区供水有限，建议按每人每天约 9 升自备饮水，进园前把车载水箱加满。"
+        ],
+        "sources": [
+          {
+            "label": "Discovery Resorts – Cradle Mountain 官方页",
+            "url": "https://www.discoveryholidayparks.com.au/caravan-parks/tasmania/north-west/cradle-mountain"
+          },
+          {
+            "label": "16 Feet 无电营位（10/2—10/3 带日期直链）",
+            "url": "https://www.discoveryholidayparks.com.au/caravan-parks/tasmania/north-west/cradle-mountain/unpowered-site?adults=2&arrive=2026-10-02&depart=2026-10-03&propertyCode=TCRA&accommodationCode=TCRA-2-69-RT"
+          }
+        ]
+      }
+    },
+    "d10-02": {
+      "category": "transport",
+      "food": {
+        "summary": "航站楼内餐饮以当日营业为准；20:00 晚班建议在 Elizabeth Town、Deloraine 或朗塞斯顿市区先解决正餐，不依赖机场。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "本日是还车，不需要停车位；直接驶入租车公司还车区，按合同要求满油交车。",
+        "lots": [],
+        "rules": [
+          "按 17:30 抵达还车区规划，留出加油、卸行李与步行进航站楼的时间。",
+          "机场不接受 21:00 之后取车；还车柜台营业时段以租车合同为准，不要指望钥匙箱。",
+          "优先在摇篮山园内自助泵或 Elizabeth Town／Deloraine 加满油，不要压到机场附近再找加油站。"
+        ],
+        "sources": [
+          {
+            "label": "朗塞斯顿机场官方值机说明",
+            "url": "https://www.launcestonairport.com.au/check-in-overview"
+          },
+          {
+            "label": "朗塞斯顿机场租车说明",
+            "url": "https://www.launcestonairport.com.au/car-rental"
+          }
+        ]
+      }
+    },
+    "d10-03": {
+      "category": "lodging",
+      "food": {
+        "summary": "酒店位于 Tullamarine 机场区，落地已晚，宜在机场或酒店内解决简餐，不进 CBD。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "本日无自驾（塔州段已在朗塞斯顿还车，维州段次日在墨尔本市区提车），只需使用酒店免费按需接送。",
+        "lots": [],
+        "rules": ["次日前往市区租车点前，先确认接送班次或改用网约车，避免耽误提车时间。"],
+        "sources": [
+          {
+            "label": "Mantra Melbourne Airport 官方联系页",
+            "url": "https://www.mantramelbourneairport.com.au/contact-us/"
+          }
+        ]
+      }
+    },
     "d11-06": {
       "category": "lodging",
       "food": {

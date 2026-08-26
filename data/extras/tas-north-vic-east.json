@@ -368,93 +368,6 @@
         ]
       }
     },
-    "d10-02": {
-      "category": "transport",
-      "categoryNote": "Spirit of Tasmania 跨海渡轮客运与车辆登船码头。",
-      "food": {
-        "summary": "码头有候船 Cafe，但更完整的早午餐和晚餐要过河到 Devonport 市区，预留约 10 分钟车程。",
-        "restaurants": [
-          {
-            "name": "Drift Cafe Restaurant",
-            "nameEn": "Drift Cafe Restaurant",
-            "lat": -41.1622119,
-            "lng": 146.3556951,
-            "coordinateSource": "Nominatim（OSM）",
-            "rating": 4.4,
-            "ratingCount": 917,
-            "ratingSource": "Google 地图（Starworks 转引）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距码头约 4 公里，驾车约 8-10 分钟",
-            "priceLevel": "人均约 A$20-35",
-            "cuisine": "早餐、早午餐、炸鱼薯条",
-            "recommended": "官网确认使用塔州本地食材，供应全天早餐、早午餐、午餐及外带 Fish + Chips。适合白天航班前后，但不要压缩到关闭登船前。",
-            "hours": "每日 06:30-16:00；15:00 后仅外带",
-            "sourceUrl": "https://www.starworks.com.au/score/na%3A0ac2d0faaf9078c7"
-          },
-          {
-            "name": "Mrs Jones Restaurant Bar Lounge",
-            "nameEn": "Mrs Jones Restaurant Bar Lounge",
-            "lat": -41.1661117,
-            "lng": 146.3620644,
-            "coordinateSource": "Nominatim（OSM，35 Bluff Road 路段）",
-            "rating": 4.1,
-            "ratingCount": 4055,
-            "ratingSource": "Menuweb",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距码头约 4 公里，驾车约 8-10 分钟",
-            "priceLevel": "人均约 A$40-70",
-            "cuisine": "现代澳洲料理",
-            "recommended": "官方旅游资料称菜单使用新鲜时令食材和塔州供应商产品，并搭配塔州葡萄酒、烈酒、啤酒与 cider。适合时间宽裕的午晚餐。",
-            "hours": null,
-            "sourceUrl": "https://menuweb.menu/restaurants/devonport/mrs-jones-restaurant-bar-lounge"
-          }
-        ]
-      },
-      "parking": {
-        "summary": "码头有免费但有限的乘客停车与上下客区域，不应视为跨夜长期存车场。",
-        "lots": [
-          {
-            "name": "Spirit of Tasmania Devonport Terminal 乘客停车区",
-            "nameEn": "Spirit of Tasmania Devonport Terminal Passenger Parking",
-            "lat": -41.18,
-            "lng": 146.365,
-            "coordinateSource": "任务提供的码头坐标；Spirit of Tasmania 官方页面核对位置",
-            "fee": "free",
-            "feeNote": "官网明确 Devonport terminal 提供免费停车，但数量有限",
-            "capacity": "有限，未公布数量",
-            "surface": "沥青",
-            "note": "仅供乘客短时使用；街边车位也有限。车辆登船应按 Passenger Vehicles 指示进入 check-in 与 marshalling yard。"
-          },
-          {
-            "name": "Devonport Terminal 接送区",
-            "nameEn": "Devonport Terminal Drop-off / Pick-up Zone",
-            "lat": -41.18,
-            "lng": 146.365,
-            "coordinateSource": "任务提供的码头坐标；Spirit of Tasmania 官方页面",
-            "fee": "free",
-            "feeNote": "短时接送区",
-            "capacity": null,
-            "surface": "沥青",
-            "note": "只作接送，不可留车候船或过夜。车辆旅客 check-in 通常在开航前 1.5-2.5 小时开放，并于开航前 45 分钟严格关闭。"
-          }
-        ],
-        "rules": [
-          "官网只确认 limited parking，不承诺长期存车；跨夜离车应另找有明确长期条款的停车设施。",
-          "进入 marshalling yard 后按广播返回车辆，并记住登船后的车辆甲板位置。",
-          "码头周边街边停车有限，不要把街位当作赶船备选。"
-        ],
-        "sources": [
-          {
-            "label": "Spirit of Tasmania：Terminal Information",
-            "url": "https://www.spiritoftasmania.com.au/before-you-sail/terminal-information/"
-          },
-          {
-            "label": "Spirit of Tasmania：Boarding with your vehicle",
-            "url": "https://www.spiritoftasmania.com.au/before-you-sail/boarding-with-your-vehicle/"
-          }
-        ]
-      }
-    },
     "d12-09": {
       "category": "attraction",
       "categoryNote": "Great Ocean Road 历史纪念拱门与短暂停靠拍照点。",
@@ -794,12 +707,6 @@
       "field": "food.restaurants.rating",
       "issue": "Elements Cafe：检索店名+Cradle Mountain+rating/reviews，并核对 Wanderlog、当地餐饮指南；未见可归属的星级与评论数。",
       "handled": "继续将 rating、ratingCount 与 ratingSource 保持为 null；不采用无法在来源页复核的搜索摘要分数。"
-    },
-    {
-      "placeId": "d10-02",
-      "field": "parking.longTerm",
-      "issue": "码头官网只确认免费但有限的乘客停车，未承诺跨夜长期存车。",
-      "handled": "明确标注不可把码头停车视为长期方案，未编造长时停车场。"
     },
     {
       "placeId": "wv-puffing",

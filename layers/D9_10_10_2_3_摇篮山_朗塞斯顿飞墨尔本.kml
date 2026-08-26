@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>D9–10 10/2–3 摇篮山／夜航</name>
+    <name>D9–10 10/2–3 摇篮山／朗塞斯顿飞墨尔本</name>
     <Style id="sty_d910">
       <IconStyle>
         <scale>1.0</scale>
@@ -25,7 +25,7 @@
       </IconStyle>
     </Style>
     <Folder>
-      <name>D9–10 10/2–3 摇篮山／夜航</name>
+      <name>D9–10 10/2–3 摇篮山／朗塞斯顿飞墨尔本</name>
       <Placemark>
         <name>D9-1 鸭嘴兽之家</name>
         <styleUrl>#sty_d910</styleUrl>
@@ -59,19 +59,35 @@
         </Point>
       </Placemark>
       <Placemark>
+        <name>D9-5 Discovery Parks –…</name>
+        <styleUrl>#sty_d910</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-02 · 第9天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 5&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;小屋售罄，改订可搭帐篷的无电营位；营地厨房、卫浴与投币洗衣可用。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**朗塞斯顿（Launceston）／美丽角（Beauty Point）约6—17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0—10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 过夜（帐篷）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 自Devils@Cradle短程驾车&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;选Unpowered Site 16 Feet；14 Feet gravel营位官方禁止搭帐篷。国家公园区域禁明火。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Discovery Parks Cradle Mountain, 3832 Cradle Mountain Road, Cradle Mountain TAS 7306&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; google_maps</description>
+        <Point>
+          <coordinates>145.937834,-41.58018,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
         <name>D10-1 摇篮山</name>
         <styleUrl>#sty_d910</styleUrl>
-        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-03 · 第10天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 1&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;补位罗尼溪／鸽子湖能见度，或走铅笔松瀑布／魔法森林步道；11:15必须结束。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**Cradle Mountain（摇篮山）约0—10°C，德文波特（Devonport）约7—16°C，Bass Strait（巴斯海峡）／吉朗（Geelong）约7—17°C。下山路可能有雾、雨和野生动物；登船前复查道路、海况与官方短信，晕船药按说明提前服。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约2.5小时上午&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 公园内shuttle&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;之后下山赶Spirit of Tasmania。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Cradle Mountain Visitor Centre, TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-03 · 第10天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 1&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;航班改到傍晚后可从容用完上午与午后：补罗尼溪／鸽子湖，或走魔法森林步道与铅笔松瀑布短线。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**Cradle Mountain（摇篮山）约0—10°C，雨、雨夹雪与强风均可能；朗塞斯顿（Launceston）约6—17°C；墨尔本（Melbourne）约9—19°C。下山路可能有雾、雨和野生动物，10月初朗塞斯顿日落约在傍晚六点前后，14:30出发可基本避开黄昏山路路杀风险。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 约08:45—13:30&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 公园内shuttle&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;赶飞机日不等末班接驳；鸽子湖最迟12:30—13:00开始返程候车。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Cradle Mountain Visitor Centre, TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
         <Point>
           <coordinates>145.93,-41.595,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>D10-2 德文波特码头</name>
+        <name>D10-2 朗塞斯顿机场</name>
         <styleUrl>#sty_d910</styleUrl>
-        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-03 · 第10天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 2&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;夜航德文波特→吉朗；海上约430公里。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**Cradle Mountain（摇篮山）约0—10°C，德文波特（Devonport）约7—16°C，Bass Strait（巴斯海峡）／吉朗（Geelong）约7—17°C。下山路可能有雾、雨和野生动物；登船前复查道路、海况与官方短信，晕船药按说明提前服。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 18:45开船—次日07:00&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 驾车约85公里自摇篮山&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;16:15 check-in，18:00截止；船上客舱，不能睡车内。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Spirit of Tasmania Terminal, Devonport TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-03 · 第10天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 2&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;还车、加满油后搭约20:00航班飞墨尔本，取代原德文波特夜航。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**Cradle Mountain（摇篮山）约0—10°C，雨、雨夹雪与强风均可能；朗塞斯顿（Launceston）约6—17°C；墨尔本（Melbourne）约9—19°C。下山路可能有雾、雨和野生动物，10月初朗塞斯顿日落约在傍晚六点前后，14:30出发可基本避开黄昏山路路杀风险。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 17:30到还车区，约20:00起飞&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 自摇篮山驾车约147公里／2小时15分&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;14:30从游客中心出发；Jetstar柜台起飞前120分钟开放。班号与实际时刻以票面为准。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Launceston Airport, Western Junction TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
         <Point>
-          <coordinates>146.365,-41.18,0</coordinates>
+          <coordinates>147.2139,-41.5453,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D10-3 Mantra Melbourne …</name>
+        <styleUrl>#sty_confirmed_lodging</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-10-03 · 第10天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 3&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;已确认的墨尔本机场住宿；落地当晚不进CBD，直接休息。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**Cradle Mountain（摇篮山）约0—10°C，雨、雨夹雪与强风均可能；朗塞斯顿（Launceston）约6—17°C；墨尔本（Melbourne）约9—19°C。下山路可能有雾、雨和野生动物，10月初朗塞斯顿日落约在傍晚六点前后，14:30出发可基本避开黄昏山路路杀风险。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 过夜&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 墨尔本机场约4分钟，有免费按需接送&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;10月3日入住、10月4日退房。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Mantra Melbourne Airport, 2 Trade Park Drive, Tullamarine VIC 3043&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; google_maps</description>
+        <Point>
+          <coordinates>144.874784,-37.694241,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -80,10 +96,19 @@
         <description>第9天按顺序串联（示意）</description>
         <LineString>
           <tessellate>1</tessellate>
-          <coordinates>146.82,-41.16,0 145.96,-41.655,0 145.95,-41.64,0 145.93,-41.595,0</coordinates>
+          <coordinates>146.82,-41.16,0 145.96,-41.655,0 145.95,-41.64,0 145.93,-41.595,0 145.937834,-41.58018,0</coordinates>
         </LineString>
       </Placemark>
-      <description>点位数：6</description>
+      <Placemark>
+        <name>D10 当日路线</name>
+        <styleUrl>#sty_d910_line</styleUrl>
+        <description>第10天按顺序串联（示意）</description>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>145.93,-41.595,0 147.2139,-41.5453,0 144.874784,-37.694241,0</coordinates>
+        </LineString>
+      </Placemark>
+      <description>点位数：8</description>
     </Folder>
   </Document>
 </kml>
