@@ -1,5 +1,51 @@
 # 进度日志
 
+## 2026-08-26 亚瑟港交通与 Maria Island 方案
+- 纠正 07:55 时间归属：这是 Maria Island Hobart 集合时间；Tasman Island Cruises 自驾版为 09:15 在 Port Arthur 签到。
+- 排除 734 公交、Pennicott 普通 Port Arthur Bus 和私人接送；只有 07:30 Full Day Tour 专车能按时接上巡游，但官方升级差价超过 ¥300／人，需由运营商确认能否给现有订单单独加车位。
+- 完成 Tours Tasmania 跟团与 Encounter Maria Island 自购船票的费用、交通、Parks Pass、向导、路线与餐食差异核对。
+
+## 2026-08-26 西澳 9/25—9/26 车宿／营地
+- 按行程拆成 Cervantes 与 Kalbarri 两晚，核对西澳车宿法规、Main Roads 官方 24 小时休息区图层及当地禁宿规则。
+- 排除 9/25 RAC Cervantes（三晚起订）、Nambung Station（实时 0 余位）和普通海边／景区停车场。
+- 直接调用 SpacetoCo 官方实时库存接口核完 Sandy Cape 主营地 108 个已上架子营位；9/25 单晚有 30 个可订，确认 Site 100 等页面明确接受普通 Vehicle/4WD，AUD 25／晚。
+- 实测 Kalbarri Tudor 9/26 单晚仍有 unpowered／powered／RV／ensuite powered 营位；补充 Anchorage、Murchison River 和 Galena 24h Rest Area 作为分层备选。
+
+## 2026-08-26 公园／Caversham 网购链接
+- 已核对官方入口：Freycinet 走 Tasmania Parks Pass 网购；Cradle Icon Day Pass 无网店；Caversham 普通票走 Roller。
+
+## 2026-08-26 剩余预约项目核查
+- 按最新主行程排除已订的 Tasman Island、Maria Island 及飞机／船票，逐项核对剩余团和容量受限活动。
+- 实测 10/2 Platypus House 10:00 仍有 9 位；Devils@Cradle 17:30 已进入候补。
+- 找到同晚可直接订的 Devils@Cradle Sunset Experience 19:00，功能上覆盖袋獾喂食且包含更多小团内容。
+- 核准 St Kilda 抢票时间、Caversham 抱考拉现场规则、Tasmania Parks Pass 与 Cradle shuttle 购买方式。
+
+## 2026-08-24 阿波罗湾 10/4 过夜
+- 窗口：2026-10-04 入住／10-05 退房；维州春假最后一天，整套公寓普遍超 ¥800。
+- 预算内且独立卫浴+简易厨房（微波、水壶、冰箱）：Apollo Stay 三人房约 CNY 669，私人入口，免费停车，8.4／382；整套两居约 CNY 2,162。
+- 整套木屋：Holiday Park 经济家庭房 CNY 831（私人厨房）；两居小屋 CNY 941。Airbnb 镇内 Outlook 客用套房约 TWD 3,996（约 ¥900），4.93／767。
+- 排除：YHA／Brewhouse 共用卫浴。
+
+## 2026-08-24 珀斯机场 9/27 过夜
+- 约束：9/28 VA594 09:50 珀斯 T1，需还租车；Kalbarri 当天长途南下，适合 Belmont／Redcliffe 10 分钟级车程。
+- 最便宜且独立卫浴、有规模评价：Home Sweet Perth（24 Katoomba Place, Belmont）私人卫浴可取消约 CNY 678；¥473 那档未标私人卫浴，不推荐。8.4／307，免费停车。
+- 民宿备选：Ellard B&B 距机场 2.8 km，8.6／1463，含早约 CNY 871。Airbnb Belmont 独立套房 4.93／92 约 TWD 4717，更贵。
+- 酒店兜底：Sanno Marracoonda Redcliffe 2.4 km，8.0／4988，约 CNY 980。ibis budget 评分约 6–7，未作为品质推荐。携程检索跳登录。
+
+## 2026-08-24 摇篮山 10/2 过夜调研
+- 自驾：可开到游客中心；接驳时段内 Dove Lake Road 不对私家车开放。Parks Tasmania 接驳约 8:45–17:00（9月中至10月第一个周日夏令时前）；成人另购接驳 AUD 15.50／72h（Icon Pass／Overland 含）。末班接驳后 30 分钟起鸽子湖仅约 9+1 残障车位。房车禁止上 Dove Lake Road。Waldheim 为园内木屋，公共卫生间／淋浴，不符合独立卫浴。
+- 住区：Cradle Valley 最近（黄昏袋熊、早接驳、Devils@Cradle）；Wilmot 约 35–50 分钟、更暗、符合预算；Sheffield 约 50–60 分钟，壁画镇但挤 10/3 缓冲。银河：10/2 亏凸月约 70%，但当日月亮约 08:39 落下、次日约 01:10 再升，上半夜有暗空窗口；核心已过最佳季，高地多云。极光：塔州南海岸更好；鸽子湖朝南被山挡住地平线，不宜作为选房理由。
+- 预算：山谷独立卫浴木屋当晚无 ≤¥900。Booking 符合条件：The Old Wilmot Bakehouse 约 CNY 746+68 税；Kentish Hills Retreat（Sheffield）CNY 886 含税。Cradle Highlander 10/2 无房（其他日约 ¥1500+）。携程 Discovery Parks 标准木屋约 ¥1898。Airbnb 整套最低约 TWD 4111（Railton，略超 ¥900）。
+
+## 2026-08-24 集合点附近可取消住宿 + My Maps 标记
+- 新需求：两人独享、步行10分钟或 Uber10分钟到两集合点、近超市、≤900/晚、水壶+微波炉、Booking/Airbnb/携程、可取消；洋红色房屋图标标到截图所在图层。
+- 授权预判已一次性告知：必须 Google（编辑 My Maps）；建议 Airbnb、Booking、携程。用户去吃饭期间先做公开检索。
+- 两集合点已确认：Pennicott Dock Head Building Franklin Wharf；游客中心 20 Davey Street；直线约 140 m。
+- 入住窗口按 2026-09-28 入住、10-01 退房（覆盖 9/29、9/30 早集合；9/30 傍晚可离开或续住）。
+- 首选 Quest Savoy，38 Elizabeth St：携程可免费取消约 ¥853/晚（副楼经济一室公寓）；Booking 可免费取消整套公寓约 CNY 2,509/三晚。步行约 4–7 分钟到两集合点；对面 Centrepoint 有超市。
+- Airbnb 步行范围内可取消房源三晚约 ¥2,999，超 ¥900/晚；东岸 Geilston Bay 约 ¥819/晚需 Uber。
+- My Maps 已加入 Quest Savoy 点，但被默认写进 D2 图层；未能稳定改成洋红房屋图标。本地 KML 已加同坐标房屋样式点。
+
 ## 2026-08-19
 - 定位 Codex session JSONL，确认可完整读取。
 - 提取 38 条用户指令与末轮塔州／大洋路共识。
@@ -224,6 +270,94 @@
 - 已发布：功能 `c312cac`、文档 `d1ac451`，`gh-pages` 为 `298f0bc`；干净 worktree `/tmp/au-h37-build` 构建产物 `index-BIc_4LKW.js`／`index-C2VIRZCZ.css`，PWA precache 14 条 / 741.53 KiB，唯一警告仍是既有主 chunk 大于 500 kB。
 - 线上 390×844 复验（`?v=20260823c`）：已加载上述新资产；`.rhythm-heading` 不存在、正文无「按当天时间顺序／行程节奏」；「地图」标题行操作为「操作地图／回到全览」、画布内旧控件 0；卡片 footer 顺序「更多／随手记」；页面宽 390/390。
 - 线上真实点击复验双向定位未退化：地图 marker 4 → 文字卡「尖峰石阵／南邦国家公园」top=159（吸顶摘要 bottom=102，未被遮挡），全局仅 1 个高亮；文字序号 5 → marker 5 `aria-pressed=true` 且页面回到地图段（mapTop=159）。
+
+## 2026-08-24 霍巴特跟团集合点与住宿调研
+- 用户拟 2026-09-28 至 10-01 在霍巴特连住三晚，9/29 参加塔斯曼岛当日团、9/30 参加玛利亚岛当日团。
+- 房源条件：自助入住、厨房、约 ¥600–900／晚；Airbnb 优先旅客精选，Booking 优先高评分。
+- Chrome CDP 已就绪，已在用户浏览器打开 Booking 与 Airbnb 登录页；当前等待用户自行完成登录，不索取或读取账号密码。
+- 用户完成登录后，已核查 Klook／GetYourGuide 2026-09-29、09-30 的真实日期日历、平台价格、退改和集合信息。
+- 9/29 Tasman Island 三小时环岛巡游在 Klook 与 GetYourGuide 均已无库存；找到同运营商、同 Franklin Wharf 集合的 Cape Raoul 90 分钟巡游作为最接近替代。
+- 9/30 Maria Island 主动探索一日游在 Klook 与 GetYourGuide 均可选，集合于 20 Davey Street；两个旅行团集合点约 140 m。
+- 完成 Booking／Airbnb 候选逐项核查：价格、评分、自助入住、厨房配置、位置和超市便利度均已比对，并形成分档推荐。
 - 已发布：功能 `c312cac`、文档 `d1ac451`，`gh-pages` 为 `298f0bc`；干净 worktree `/tmp/au-h37-build` 构建产物 `index-BIc_4LKW.js`／`index-C2VIRZCZ.css`，PWA precache 14 条 / 741.53 KiB，唯一警告仍是既有主 chunk 大于 500 kB。
 - 线上 390×844 复验（`?v=20260823c`）：已加载上述新资产；`.rhythm-heading` 不存在、正文无「按当天时间顺序／行程节奏」；「地图」标题行操作为「操作地图／回到全览」、画布内旧控件 0；卡片 footer 顺序「更多／随手记」；页面宽 390/390。
 - 线上真实点击复验双向定位未退化：地图 marker 4 → 文字卡「尖峰石阵／南邦国家公园」top=159（吸顶摘要 bottom=102，未被遮挡），全局仅 1 个高亮；文字序号 5 → marker 5 `aria-pressed=true` 且页面回到地图段（mapTop=159）。
+
+## 2026-08-24 飞书 Docx 原地同步（TAoHd0QFyoo7lpxGk9DcpN0nnCc）
+- 目标文档从 `findings.md` 直接取得 token `TAoHd0QFyoo7lpxGk9DcpN0nnCc`，未新建文档；全程 `lark-cli docs +update --command block_replace` 原地改，起始 `revision_id=444`。
+- 线上确为旧版：正文含比舍诺／Bicheno、London Bridge、The Grotto，主表 10/1 仍写「科尔斯湾—比舍诺—朗塞斯顿」。
+- 已按 15:29 时点的 `doc-content.md`（Coles Bay→Launceston／Puffing Billy 可选／10/5 St Kilda 企鹅）推送 27 个 block：主表 10/1 全 7 格、10/4 四格、10/5 全 7 格、10/6 当日行程 1 格，动物覆盖 7 格＋判断口径 1 格。当前 `revision_id=486`。
+- 单元格结构：主表每格是单个 `<p>` block，可逐格 `block_replace`；已写脚本把本地 Markdown 转飞书 XML，并按 `<a>→<b>→<span>` 规范化行内嵌套、沿用原文 `rgb(255,233,40)` 景点高亮（取消项 London Bridge／The Grotto／Bicheno 不再高亮）。
+- **冲突未决**：15:48 新增 `scripts/sync_authoritative_routes.py`、15:50 运行后把 `doc-content.md` 改写为另一套权威路线（9/30→Swansea、10/1→Sheffield、10/2 自 Sheffield 出发、10/4→内陆→Port Campbell、10/5 沿海东行且不去 St Kilda，Puffing Billy 移除），与本次已推送内容相反。
+- 该改写只覆盖主表日行、总览与必订清单；`动物覆盖核对`（小蓝企鹅仍写 10/5 St Kilda）与愿望清单 St Kilda／Puffing Billy 行仍是旧口径，本地文件当前自相矛盾，故暂停推送剩余 46 个 block，等待确认哪一版为准。
+
+## 2026-08-24 飞书 Docx 按 A 方案同步完成（TAoHd0QFyoo7lpxGk9DcpN0nnCc）
+- 用户拍板 A 方案。全程 `lark-cli docs +update` 原地更新，未新建文档；`revision_id` 444 → 505。
+- 本轮补推：愿望清单 13 处状态；整表 `block_replace` 重建愿望清单（54 行，新增 St Kilda Pier／Little Penguin 行并置于 Melbourne Zoo 与 Phillip Island 之间）；文首 `待定问题／行程总览（权威口径）／必订清单（行动用）` 三节以 `block_insert_after` 插入页首。
+- 全文校验：本地 `doc-content.md` 与线上逐格比对差异为 0；结构 7 个标题、6 张表（待定 7 行／总览 14 行／必订 14 行／主表 14 行／动物 13 行／愿望 55 行）全部对齐。
+- 清理：删除本次替换新引入的 1 个空段落 `JWVtd5bw0osekLxNDSzcpeTbnng`；原文档既有的 6 个空段落属原始排版，保留不动。
+- 本地回滚 B：`doc-content.md` 主表 9/30、10/1、10/2、10/4、10/5 由线上 A 内容反解重建；总览／必订清单／优先级／删减优先级按 `scripts/sync_authoritative_routes.py` 的映射反向还原；补回被删的待定问题第 2、6 行与必订清单 Puffing Billy、St Kilda 两行。
+- `days-raw.txt` 的 DAY 7／8／9／11／12 按 A 重建（此前为 B，是 B 脚本的数据源，不回滚会再次冲突）。
+- `data/extras/{tas-south,tas-north-vic-east,vic-west}.json` 经 `git checkout` 回到 B 之前状态：`wv-puffing`、`d11-01`—`d11-06`、`d12-01`、`d12-02`、`d8-02` 均已恢复，`d12-lorne`／`d12-torquay`／Swansea／Sheffield 标记清零。
+- `itinerary.json`、`src/data/trip-data.json`、`layers/*.kml` 未被 B 触及，抽检 St Kilda／Puffing Billy／Launceston 均在，图层名仍为 `D8_10_1_酒杯湾_朗塞斯顿`、`D12_13_10_5_6_沉船海岸_St_Kilda_墨尔本`。
+- 未执行 `scripts/sync_authoritative_routes.py`；未 commit／push。
+
+## 2026-08-24 A 方案续作：线上复核 + 本地 B 残留清理
+- 起点核对：`lark-cli auth status` 正常（user 身份有效）；`docs +fetch` 读到线上 `revision_id=505`。上一轮的 Connection failed 并未造成线上缺失。
+- **线上已完整，无需补推**：逐格比对 `doc-content.md` 与线上，6 张表（待定 7 行／总览 14 行／必订 14 行／主表 14 行／动物 13 行／愿望 55 行）单元格差异 0；5 个非表格段落全文一致；7 个标题结构一致。愿望清单状态与 St Kilda Pier 行、文首三节均已在线。54 处飞书黄色高亮 `rgba(255,246,122,0.8)` 覆盖全部【待定-1/2/3/6】。本轮未对飞书做任何写操作。
+- 本地实际残留的 B（上一轮未覆盖到的文件）：
+  - `animal-section.md`：小蓝企鹅／鸸鹋／海豚／座头鲸 4 行＋判断口径为 B（写成「St Kilda 已取消、本次不安排企鹅」）。已按 `doc-content.md` 的权威 A 段落整体重写，现两者逐行一致。
+  - `wishlist-raw.json`：13 行共 16 个字段为 B（Bicheno 写 Swansea→Sheffield；大洋路、Loch Ard、十二门徒、坎贝尔港、Apollo/Lorne/Torquay 写成 10/4 住 Port Campbell；Puffing Billy 与 St Kilda 写成取消）。已按权威愿望清单表重写 4 个内容列，内容差异归零；`St Kilda Pier` 的 `_status` 由 `skip` 改回 `visit`（A 中它是 `d12-08` 访问点，且 A 的 skip 编号里本就没有 `skip-53`）。
+  - `build_itinerary.py`：整份 `visits`／`extra_visit`／`enrich_map`／坐标覆盖／trip notes 均为 B，且把 `d7-02` 坐标写成 Swansea、`d8-05` 写成 Sheffield，还把 Puffing Billy 与 St Kilda 的 skip id 劫持为 `wv-puffing`／`d12-08`。已由权威 `itinerary.json` 反解重建全部数据块，并删除 `d12-lorne`／`d12-torquay`。
+  - `build_kml.py`：D7／D8／D11／D12–13 四个图层名为 B。已改回 A 名；保留本轮之前新增的「保留手工维护的集合点图层」逻辑。
+- 验证（均在沙箱执行，未覆盖仓库产物）：
+  - `build_itinerary.py` → `/tmp/au_bi_test`：输出 `places=85 visit=50 skip=35`，与现有 `itinerary.json` 的 id 集合、顺序、day／date／status／order_in_day、坐标、`trip` 块全部一致；连跑两次结果稳定。
+  - `build_kml.py` → `/tmp/au_kml_test`：`au-trip-map.kml` 与仓库现有文件**逐字节相同**，11 个图层文件名与内容全部相同。
+- 已知差异（非 B 残留，未改动）：`itinerary.json` 里 d8-*／d12-* 的 `weather` 是 `days-raw.txt` 全文的截断版，且 14 个点的【愿望清单·…】附文是旧快照。重跑生成器会刷新这两处并连带影响 `src/data/trip-data.json` 与测试，超出本轮范围，故未重新生成。
+- `data/extras/*.json` 与 HEAD 一致，已含 `wv-puffing`／`d11-01`／`d11-06`／`d12-01`／`d12-02`／`d8-02`，无 `d12-lorne`／`d12-torquay`；`vic-west.json` 仍缺 `d12-08`（St Kilda）的类别／美食／停车，为既有缺口。
+- `doc-content.md`、`days-raw.txt`、`itinerary.json`、`src/data/trip-data.json`、`au-trip-map.kml`、`layers/*` 复核后本就是 A，未改动。
+- 未执行 `scripts/sync_authoritative_routes.py`（该脚本仍是 B 的来源，只改 `doc-content.md` 与 `data/extras/*`）；未 commit／push；未改 10/6 航班。
+
+## 2026-08-24 按指定会话与最新云文档更新路书
+- 用户纠正权威来源：只使用会话 `a25175a5-7da0-48fa-bb57-b2f5a240d04d` 的 A 方案及飞书云文档 `TAoHd0QFyoo7lpxGk9DcpN0nnCc`，不再使用多维表格或其他旧文档。
+- 重新读取线上文档 `revision_id=506`，确认 10/1 已取消 Bicheno Penguin Tours，Coles Bay 午后直达 Launceston；10/5 已加入 St Kilda Pier／Breakwater 市区小蓝企鹅归巢，最迟 14:15—14:30 离开沉船海岸。
+- 误建的 Base 表 `tblvLdl9tzoAyW36` 已立即删除，未继续修改多维表格。
+- 路书数据重新生成：13 天、85 个地点；Day 12 显示 St Kilda 且不显示 Bicheno。为 St Kilda 补齐景点类别、附近餐饮和停车资料，调研覆盖变为 49 个地点、105 家餐厅、52 处停车。
+- 移动底栏实现方向阈值显隐：顶部显示、持续下滑 64px 后隐藏、上滑 18px 恢复、接近页底恢复；切换主导航与关闭随手记时恢复。使用 `requestAnimationFrame` 节流、`inert` 和 reduced-motion 兼容。
+- 390×844 目标场景在隔离浏览器复验：10/5 出现“圣基尔达企鹅观赏平台”，Bicheno 不在当天正文；底栏状态依次为顶部显示、下滑隐藏、上滑显示、页底显示。
+- 验证：`corepack pnpm typecheck` 通过；Vitest 39/39 通过；production build 通过，PWA precache 14 条／736.56 KiB。仅保留既有主 chunk 大于 500 kB 警告。
+- 已删除会把 A 方案覆盖回错误 Base 路线的未跟踪脚本 `scripts/sync_authoritative_routes.py`，避免后续误运行。
+- 本地 D8／D12／“本次不看”KML 已是 A 方案；在线 Google My Maps 仍待在浏览器空闲后同步，避免与同一浏览器中的住宿检索会话互相抢占页面。
+
+## 2026-08-25 在线 Google My Maps 已与权威口径对齐
+- 浏览器共享给多个会话、标签被反复抢占，且 MCP 上传受路径策略限制；改为用 CDP 脚本（`/tmp/mymaps_reimport.py`、`/tmp/rename_layer.py`）直接操作已登录的编辑器标签。
+- D8：先删掉「D8-4 比舍诺企鹅归巢团」并把图层名改为「D8 10/1 酒杯湾→朗塞斯顿」，再用 `layers/D8_10_1_酒杯湾_朗塞斯顿.kml` 整层替换，现为 4 点＋当日路线，路线不再绕比舍诺。
+- D12–13：用 `layers/D12_13_10_5_6_沉船海岸_St_Kilda_墨尔本.kml` 整层替换，含圣基尔达企鹅观赏平台，去掉伦敦桥与石窟；图层名改为「D12–13 10/5–6 沉船海岸／St Kilda／墨尔本」。
+- D11：在线还是旧版（塔山、沃南布尔，无 Puffing Billy），按当前行程数据整层替换为 7 点＋路线。
+- 本次不看：整层替换为 33 个愿望点，新增比舍诺／伦敦桥／石窟；并给 `itinerary.json` 里 Phillip Island 的 skip 记录补上坐标，使其重新出现在愿望清单层。
+- 复验：线上十层逐项读取，D8、D11、D12–13、本次不看 均与本地 KML 一致，其余图层未改动，霍巴特两个★集合点仍在 D5–6。
+- 数据：`build_kml.py`、`scripts/generate_app_data.py`、`scripts/enrich_place_data.py` 重跑，`trip-data.json` 相对提交版仅多出 Phillip Island 坐标；`tests/trip.test.ts` 中有坐标地点数由 79 改为 80。
+- 验证：`corepack pnpm typecheck` 通过，Vitest 39/39 通过。未 commit、未 push。
+
+## 2026-08-25 已确认住宿同步完成
+- 已核准并同步 5 个有效订单：Sweet Home Property、Quest Savoy、Centennial Inn on Bathurst、Twelve Apostles Motel & Country Retreat、Brady Hotels Central Melbourne。Discovery Parks - Cradle Mountain 的现订单日期为 10/3—10/4，用户确认订错；10/2 继续标为待重新预订，未伪装成已确认住宿。
+- 飞书云文档 `TAoHd0QFyoo7lpxGk9DcpN0nnCc` 已原地更新，未新建文档；总览、必订清单、逐日行程和住宿说明已采用同一口径。
+- 本地 `days-raw.txt`、`doc-content.md`、`build_itinerary.py`、`build_kml.py`、`itinerary.json`、`src/data/trip-data.json`、相关 KML 和 extras 已同步；Day 8 不经比舍诺，Day 11 直接前往十二门徒并住宿，Day 12 从十二门徒附近沿大洋路东行至 St Kilda 与墨尔本。
+- Google My Maps 六个受影响图层已重导入并逐层刷新验收：D4、D5–6、D7、D8、D11、D12–13。5 个已确认住宿点均只出现一次；Quest Savoy 未跨日重复加点。
+- My Maps 不保留 KML 中的 `pal2/icon10.png`，导入后会退化为蓝色默认针；已逐点改用内置 `1602-hotel-bed` 图标，并设为 `highlight=000000`。在线复验 5 点均为黑底白床，与用户截图一致。
+- 已完成 typecheck、Vitest 和 production build；未 commit、未 push、未部署。
+
+## 2026-08-26 修正 My Maps 图层顺序
+- 用户发现在线图层顺序错乱（D3 之后直接跳 D9）。根因是上一轮的整层重新导入：My Maps 每次「取代所有项目」成功后会把该图层移到列表末尾，于是被替换过的 D4、D5–6、D7、D8、D11、D12–13 全部沉底，未动过的 D2、D3、D9–10 留在原位。路书与 KML 数据本身没有问题。
+- 已用 CDP 拖拽逐层归位，刷新后服务器端顺序确认为 D2、D3、D4、D5–6、D7、D8、D9–10、D11、D12–13、Z本次不看。
+- 遗留一处待确认：愿望清单层当前名为「Z本次不看」，Z 前缀原本用于把它排到最后；现在顺序为手工维护，是否改回「本次不看」待用户决定。
+
+## 2026-08-26 10/2 摇篮山营地与 10/3 飞墨尔本改线
+- 用户取消 10/3 Devonport→Geelong 夜航，改为 20:00 左右从 Launceston Airport 飞 Melbourne，并于 10/3 夜宿墨尔本。
+- Discovery Resorts 官方实时搜索确认 10/2—10/3 有帐篷营位：普通 16 Feet 无电营位 AUD 63／晚，Premium 25 Feet AUD 68／晚，Powered 18 Feet AUD 73／晚；普通 16 Feet 详情页显示 `Add Stay`，可继续预订。
+- 已记录普通 16 Feet 无电营位的带日期官方直链；同价 14 Feet gravel 营位明确禁止搭帐篷，不能误订。实时库存核验于 2026-08-26，页面未公开剩余位数。
+- 10/3 推荐主方案为延长摇篮山：08:45 入园，按前日完成度补 Ronny Creek／Dove Lake 或走 Enchanted Walk，13:30 左右返游客中心，14:30 出发直达 Launceston Airport，17:30 前完成加油与还车，衔接 20:00 航班。
+- 原愿望清单的 Tasmania Zoo 可行但不推荐作主线：须约 09:30—10:00 离开摇篮山，才能安排约 12:00—15:30 参观；会比旧版 11:15 离园还早，且与 Platypus House／Devils@Cradle 重复。更合适的坏天气短停是顺路 Sheffield 壁画镇。
+- 补充路线核算：Ashgrove Cheese 比 Sheffield 更贴 Bass Highway，适合作为 20—40 分钟补给短停；若主目标是尽量留在摇篮山，下午只走入口短线并在 15:00 前离开，不赌 Dove Lake 末班 shuttle。
+- 10/3 具体航班号、Melbourne 到达机场／航站楼、10/3 墨尔本住宿和维州新租车仍待确认；本轮先给出安全可执行方案与营位直链，未改飞书、My Maps 或路书正式数据。
+- 聚合班表新增候选为 Jetstar JQ738（约 20:20—20:50 起飞），比早先查到但有效期不覆盖 10 月的 JQ742 更接近；航司官网指定日期结果仍未成功加载，因此不得视为票面确认。
