@@ -12,10 +12,18 @@ data = json.loads((out_dir / "itinerary.json").read_text())
 
 ICON = "http://maps.google.com/mapfiles/kml/paddle/{}.png"
 LODGING_ICON = "http://maps.google.com/mapfiles/kml/pal2/icon10.png"
-CONFIRMED_LODGING_IDS = {"d4-03", "d5-02", "d8-05", "d10-03", "d11-06", "d12-07"}
+CONFIRMED_LODGING_IDS = {
+    "d4-03",
+    "d5-02",
+    "d5-03",
+    "d8-05",
+    "d10-03",
+    "d11-06",
+    "d12-07",
+}
 # 10/2 营位已核实有位但尚未下单，先不套用「已确认住宿」图标。
 PENDING_LODGING_IDS = {"d9-05"}
-# Quest Savoy 只在 D5–6 图层保留一个地图点；其余日期仍在路书中展示。
+# Iron Creek Bay Estate 只在 D5–6 图层保留一个地图点；其余日期仍在路书中展示。
 KML_EXCLUDED_IDS = {"d6-04", "d7-02", "d8-00"}
 
 # Max 10 folders including skip. Days merged where needed for My Maps limit.
@@ -242,6 +250,8 @@ def build_document(layers_subset, doc_name):
                     # 仅串联每日主行程打点；愿望清单额外候选点不进折线
                     and str(p.get("id", "")).startswith("d")
                     and not str(p.get("id", "")).startswith("d5-hobart")
+                    # Quest Savoy 是已订备选，只保留点位，不纳入当前行车折线。
+                    and p.get("id") != "d5-02"
                 ]
                 day_pts.sort(key=lambda x: x["order_in_day"])
                 coords = [(p["lat"], p["lng"]) for p in day_pts]

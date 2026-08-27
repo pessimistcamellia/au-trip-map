@@ -66,11 +66,11 @@ function rectanglesOverlap(left: ITestRect, right: ITestRect): boolean {
 }
 
 describe('静态行程数据', () => {
-  it('完整覆盖 13 天、88 条地点和 skip 状态', () => {
+  it('完整覆盖 13 天、89 条地点和 skip 状态', () => {
     expect(data.days).toHaveLength(13)
-    expect(data.places).toHaveLength(88)
+    expect(data.places).toHaveLength(89)
     expect(data.places.filter((place) => place.status === 'visit')).toHaveLength(
-      53,
+      54,
     )
     expect(data.places.filter((place) => place.status === 'skip')).toHaveLength(
       35,
@@ -79,7 +79,7 @@ describe('静态行程数据', () => {
       data.places.filter(
         (place) => place.lat !== null && place.lng !== null,
       ),
-    ).toHaveLength(83)
+    ).toHaveLength(84)
     expect(data.wishlistCount).toBe(54)
   })
 

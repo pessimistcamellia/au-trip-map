@@ -1,5 +1,52 @@
 # 发现记录
 
+## 2026-08-27 Iron Creek Bay Estate 双酒店保留
+- Iron Creek Bay Estate 官方地址为 `394 Arthur Highway, Sorell TAS 7172`；官方资料标注距 Hobart Airport 约 15 分钟、Hobart CBD 约 30 分钟车程。
+- 用户确认 2026-09-28 入住、10-01 退房；Iron Creek Bay Estate 与 Quest Savoy 两笔同日期订单都已预订，当前行程按 Iron Creek 连住三晚执行，Quest Savoy 保留为已订备选。
+- 住宿迁到 Sorell 后，9/29 与 9/30 不能继续写“步行到霍巴特集合点”：改为自驾约 30—40 分钟到 Hobart CBD，另留停车和步行时间，旅行团结束后再自驾返回 Sorell。
+- 10/1 从 Sorell 出发去 Freycinet，基线调整为约 155 km／2 小时，建议 06:30 出发；全日总驾驶由约 370 km 降为约 330 km。
+- My Maps 中 D5–6 图层同时保留 Iron Creek Bay Estate 与 Quest Savoy，两点均采用黑底白床图标；Quest 不进入当前行车折线。
+
+## 2026-08-27 塔斯曼／玛丽亚岛双早班：停车与中间住宿
+- **先纠正时间口径：** Pennicott 官方页面显示 Tasman Island Cruises 不是 08:00 开船，而是 **09:15 前在 6961 Arthur Highway, Port Arthur 签到，10:00 开船**；签到后含巴士转送至当天实际码头。Maria Island 9/29／9/30 的最早船才是 08:30，Encounter 要求提前 45 分钟到 Triabunna 的 Maria Island Gateway 签到。
+- **Port Arthur 停车：** Pennicott FAQ 明确，自驾参加 Tasman Island Cruises 可把车免费停在 `6961 Arthur Highway, Port Arthur` Booking Centre，`plenty of free parking`。产品页里 Evans Street／Market Place 的“无自有停车场”段落属于 **Hobart 出发 Full Day Tour**，不是 Port Arthur 自驾版，搜索摘要容易把两段混在一起。
+- **Triabunna 停车：** Encounter FAQ 明确 Triabunna Marina 及周边街道有免费停车；码头附近有 permit zones，必须看现场标识。运营商本身不提供／管理停车场，停车风险自负。所有旅客先到码头旁的 Maria Island Gateway，至少提前 45 分钟签到。
+- **区域结论初筛：** 两个登船点的公路中间点应落在 Sorell—Dunalley 一带。按用户的「大型超市 + 可逛 + 每晚≤人民币 900」约束，**Sorell 是最均衡主选**：Coles（12 Cole St，7:00—22:00 每日）、Woolworths（27 Cole St）、Sorell Plaza；有三座历史教堂、1827 Barracks、Orielton Lagoon、古董店和周日市场。Dunalley 更接近几何中点，但只有小店，住宿与餐饮选择少。
+- **Sorell 住宿公开价初筛：** Pembroke Hotel Double Room AUD 110／Spa Room 125（官网标价，市中心、餐厅酒吧、off-street parking）；Sorell Barracks Spa Suite 起 AUD 150（历史建筑、步行可达商店餐饮、免费停车）；Iron Creek Bay Estate 起 AUD 180（接近预算上沿、农庄景观，离镇中心与超市需开车）。这些是公开起价，仍需按 2026-09-28—10-01 实测库存和最终含税价。
+- **Richmond 次选：** 可逛性最强（Richmond Bridge、Old Richmond Gaol、历史街区、咖啡馆／酒吧），有 Richmond IGA，但不如 Sorell 的 Coles/Woolworths 完整；开车约 10 分钟可到 Sorell 大超市。Richmond Caravan & Cabin Park 1 Bedroom Cabin 公开起价 AUD 160／两人、2 Bedroom 185；部分 Coachman's Rest／自助公寓公开均价约 AUD 100—170，但需实测日期。地理上比 Sorell 略向机场／霍巴特偏，两个早晨都会多开一段。
+- **Orford 偏科备选：** Triabunna 仅约 8—15 分钟，IGA、海滩、Prosser River 步道都方便；Orford Prosser Holiday Units 公开均价约 AUD 111、对面即 IGA。缺点是到 Port Arthur 约 100 分钟，不符合“两地都不要太远”的核心，只适合优先保障 Maria Island。
+- **机场 Uber：** Hobart Airport 官方确认可在 commercial lane 叫 Uber。Uber 官方路线页：HBA→Sorell 平均约 11 km／15 分钟／AUD 31；HBA→Richmond 约 19 km／19 分钟／AUD 43，可预约 2 小时至 90 天。机场出发容易叫车；从 Dunalley／Orford 等小镇反向叫车的司机密度明显更低，不应把即时 Uber 作为刚性返程保障。
+- **公路时间复核：** Sorell→Port Arthur Booking Centre 约 66—69 km／53—57 分钟，Sorell→Triabunna 约 59 km／46—47 分钟，是最平衡点；Richmond→Port Arthur 约 80—82 km／1 小时 10—15 分钟，Richmond→Triabunna 约 65 km／50 分钟；Dunalley→Port Arthur 约 38 km／29—40 分钟，但 Dunalley→Triabunna 需经 Sorell，约 1 小时 05 分。所有路线应走封闭铺装的 A9／A3，**不要让导航走 Wielangta Road**（多为未铺装林道，雨后风险高，租车合同也可能禁止）。
+- **Booking.com 2026-08-27 实测日期库存（入住 2026-09-28、退房 10-01，2 成人、3 晚，CNY 含税口径）：**
+  - Sorell Barracks：Family Room Private Bathroom，3 晚 **CNY 1,937**，约 **646／晚**，可免费取消；中心 30 m、评分 8.8／位置 9.3、免费停车。虽房型给 3 张床，但两人可订。
+  - Iron Creek Bay Estate：Pods（2 张单人床），3 晚折后 **CNY 1,787**，约 **596／晚**，含税、可免费取消；距 Sorell 中心 3.7 km、评分 8.7、农庄可走约 5 km，但不是步行采购型。
+  - Sorell Gateway Villa：2 Bedroom Villa，3 晚 **CNY 2,660**，约 **887／晚**，含税；距中心 0.6 km、评分 9.5、整屋带厨房，刚好压在 900／晚预算内。
+  - Richmond Arms Hotel（Booking 中文显示“里士满爱慕斯酒店”）：Economy Double，3 晚折后 **CNY 1,300**，约 **433／晚**，含税、可免费取消；镇中心 50 m、评分 8.2／位置 9.3。
+  - Coachman's Rest：Queen Studio with Extra Bed，房价 982 + 税费 939 = **CNY 1,921／3 晚**，约 **640／晚**，可免费取消；镇中心 150 m、评分 8.2／位置 9.5。
+  - King Bed Studio in the Heart of Richmond：1,355 + 税费 963 = **CNY 2,318／3 晚**，约 **773／晚**；中心 0.8 km、评分 8.8／位置 9.5。
+  - Hatchers Richmond Manor：Basic Double，3 晚 **CNY 1,900**，约 **633／晚**，含税、可免费取消；距中心 1.6 km、评分 7.4，作为库存兜底。
+- 价格是 2026-08-27 的实时页面结果，会变化。Pembroke Hotel 官网固定标价更低（Double AUD 110／Spa 125），但只有 5 间且日期库存未在线确认，需直接联系，不作为“已确认可订”首选。
+- **出发时刻建议：** Maria 8:30 船须 07:45 前到 Gateway；从 Sorell 建议 06:35—06:45 出发，从 Richmond 建议 06:25—06:35。Tasman Island 实际 10:00 船／09:15 前签到；从 Sorell 约 07:55—08:05 出发，从 Richmond约 07:35—07:45 出发。清晨野生动物活跃，以上均含约 15—20 分钟缓冲。
+- **Uber 与租车的关系：** 用户必须连续两天自驾，最稳是在 Hobart Airport 落地直接取租车，再开到 Sorell／Richmond。若先 Uber 去酒店，当地没有像机场那样密集的租车门店，后续仍得回机场或另安排送车，反而增加风险。Uber 只适合作为到店备份，不是本方案的主交通。
+
+## 2026-08-27 9/30 Maria Island 渡轮与替代团实测余位
+- Encounter 官方订票入口：产品列表 `https://bookings.encountermaria.com.au/BookingProduct/List/?&category=MARIA-NEW`；Same Day Return 日历 `https://bookings.encountermaria.com.au/BookingProduct/Calendar/?Product=SDRTN&Category=SDR`。Same Day Return 成人 AUD 59、儿童／学生 36.50；Overnight Return 成人 70。国家公园通行证可在下单流程里的 Options 步骤一并购买。
+- 9/30（周三）实测：去程 8:30 有位、**10:00 售罄**、11:30 有位、15:15 有位；回程 9:15 有位、10:45 有位、**14:30 售罄**、**16:15 售罄**。选定 8:30 去程后回程只剩 10:45，岛上停留仅约 2 小时 15 分。
+- 对照日：9/28、9/29 去程四班全部有位，回程 9:15／10:45／14:30 有位、16:15 售罄；10/2 去程全有、10:00 剩 26 位，回程 14:30 剩 28 位、16:15 Insufficient Spaces。说明 9/30 是个别拥堵日，与 9/26—10/7 塔州学校假期吻合。
+- Encounter FAQ 明确：售罄按船舶法定载客上限执行，**不接受多带一两人**。回程时间可改，subject to availability，且需通过 Manage Booking 页面或电话。条款 2.3.1：开船前 24 小时以上可改期／转让，票本身不退（change of mind 不退）。联系方式：`03 6224 8333`、`hello@encountermaria.com.au`。
+- Hobart 官方接驳（East Coast Cruises 运营，可在 Encounter 系统内单独购买，category=SBC）：9/30 日历有位。当前只上架 **06:45 Brooke Street Pier（12 Franklin Wharf）发车** 的产品——Same Day Return 成人 AUD 65／儿童 45，单程去 Triabunna 与单程回 Hobart 也可单买；返程固定 **17:00 Triabunna Marina 发车**。8 月整月不运营。06:45 出发约 08:10 到 Triabunna，接的是 8:30 去程船与 16:15 回程船。
+- 替代跟团实测：East Coast Cruises `Maria Island Circumnavigation (Cruise & Walk Day Tour)`（Rezdy 52617，周日／三／四运营，Triabunna 09:00 开、16:30 回，成人 AUD 295，Hobart 接驳 +AUD 30，含午餐、国家公园门票、Darlington 向导步行）9/30 日历标 `full`，点进去时间栏显示「售罄／没有可用性」。含接驳版为 Rezdy 221407；另一产品 607840 从 10/1 才起售。官方文案鼓励打 `03 6257 1300` 挂候补，称临时空位常见。
+- Tours Tasmania（`tourstas.com.au`，即用户原本报的团，TWAC 等渠道转售价 AUD 215、官网 225）：5/1—9/30 冬季班表只跑周一三五、08:00 从 20 Davey Street 发车；10/1 起转夏季班表，周一至周五 06:45 发车。9/30 正好是冬季班表最后一天，取消多为人数不足。
+- 结论：9/30 无车时唯一能拼出的组合是 06:45 接驳 → 8:30 船 → 10:45 返程 → 11:15 回到 Triabunna，然后要空等到 17:00 接驳，实际不可用；有车也无法绕开回程售罄。
+- 用户改口要自购 **9/29** 船票。9/29 与已订的 Pennicott Tasman Island Cruises（Port Arthur 09:15 签到、10:00 开船）直接冲突，且该巡游 9/26—10/7 全线售罄无法改期，等于要放弃塔斯曼那张票——需用户确认是否有意为之。
+
+## 2026-08-27 塔州公园通行证：能不能开进摇篮山
+- Parks Tas 官方 FAQ 明确：`Can I use my vehicle pass for parks that I will not drive into?` → **Yes**，车辆通行证覆盖全部塔州国家公园，包括没有车辆通道的 Cradle Mountain 与 Maria Island；要求把 pass 随身带上渡轮、并在摇篮山游客中心出示以购买接驳车票。所以一张 Holiday Vehicle Pass 可以同时覆盖玛丽亚岛（步行登船）、Freycinet（自驾入园）、摇篮山（停游客中心换接驳）。
+- 但通行证 **不等于行车许可**。摇篮山官方规则：Dove Lake Road 在「首班接驳发车前 15 分钟 至 末班接驳离开 Dove Lake 后 30 分钟」禁止私家车进入；Dove Lake 仅 9 个私家车位 + 1 个无障碍车位，且房车／拖挂车任何时段都不得上路。9 月中—10 月首个周日接驳运营 08:45—17:00，因此 10/2、10/3 私家车实际被挡在约 08:30—17:30 之外。
+- 2026 现行价（park-passes-and-entry-fees 页）：Daily 每车 98.35→ 实为 **每车 49.15／每人 24.55**；**Holiday 每车 98.35／每人 49.20**（2 个月，全部公园，不含摇篮山接驳）；Cradle Icon Daily 成人 30.70（含 24 小时接驳，仅游客中心现场买、不可升级）；摇篮山 72 小时接驳票成人 **15.50**，年票 46.50。（FAQ 页仍写 15.00／45.00，为旧价，以价目页为准。）
+- 两人算账：Holiday Vehicle 98.35 + 接驳 15.50×2 = **AUD 129.35**，覆盖玛丽亚岛 + Freycinet + 摇篮山两天。逐项买 = 玛丽亚岛人票 24.55×2 + Freycinet 车票 49.15 + Icon Daily 30.70×2 = **AUD 159.65**，且 Icon Daily 只有 24 小时，跨 10/2—10/3 有超时风险。结论：买 Holiday Vehicle Pass 划算。
+- 购买要点：`https://passes.parks.tas.gov.au/`；可提前最多 3 个月选生效日；租车在车牌栏选 **HIRE**，不需填实际车牌；通行证不可转让、原则上不退款；后续换车牌可邮件 parkfees@parks.tas.gov.au 改。
+
 ## 2026-08-26 Quest Savoy 公共停车收费
 - 酒店无院内车位。客人停车场为 Sultan 的 Market Place Car Park，4–6 Market Place，步行约 5 分钟，24 小时开放，限高 2.2 m。
 - 第三方渠道当前文案：住客折扣封顶 **AUD 27／8–24 小时连续停车**，须前台验证票后再出场，费用付给停车场而非酒店。更早渠道曾写 AUD 32。入住时以前台当场确认为准。

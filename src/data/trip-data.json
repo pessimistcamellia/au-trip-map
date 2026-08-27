@@ -3,7 +3,7 @@
     "name": "澳大利亚自驾行程",
     "dates": "2026-09-24 — 2026-10-06",
     "source_doc": "https://guanghe.feishu.cn/docx/TAoHd0QFyoo7lpxGk9DcpN0nnCc",
-    "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内。9/28—9/30在Quest Savoy连住三晚并参加Hobart往返当日团；10/1从Hobart经Wineglass Bay前往Centennial Inn on Bathurst；10/2住Discovery Parks – Cradle Mountain帐篷营位（已核实有位，待下单）；10/3取消塔州精神号夜航，改为延长摇篮山后从Launceston Airport搭约20:00航班飞墨尔本并住Mantra Melbourne Airport；10/4上午在墨尔本市区提车后内陆直达Twelve Apostles并住Twelve Apostles Motel & Country Retreat；10/5沿大洋路东行，经St Kilda企鹅观赏后住Brady Hotels Central Melbourne。",
+    "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内。9/28—9/30当前计划住Iron Creek Bay Estate并自驾往返Hobart当日团集合点；Quest Savoy订单与地图点暂时保留，待最终决定取消哪一笔。10/1从Sorell经Wineglass Bay前往Centennial Inn on Bathurst；10/2住Discovery Parks – Cradle Mountain帐篷营位（已核实有位，待下单）；10/3取消塔州精神号夜航，改为延长摇篮山后从Launceston Airport搭约20:00航班飞墨尔本并住Mantra Melbourne Airport；10/4上午在墨尔本市区提车后内陆直达Twelve Apostles并住Twelve Apostles Motel & Country Retreat；10/5沿大洋路东行，经St Kilda企鹅观赏后住Brady Hotels Central Melbourne。",
     "startDate": "2026-09-24",
     "endDate": "2026-10-06",
     "timezone": "Australia/Hobart",
@@ -575,13 +575,17 @@
       "date": "2026-09-28",
       "weekday": "周一",
       "region": "珀斯（Perth）-霍巴特（Hobart）",
-      "route": "Sweet Home Property → 珀斯机场（Perth Airport）T1（还车）→ 霍巴特机场（Hobart Airport）（维珍澳洲 VA594，09:50-16:00）→ Quest Savoy（霍巴特连住三晚）",
-      "lodging": "已确认住宿：Quest Savoy（38 Elizabeth Street, Hobart TAS 7000；9月28日入住、10月1日退房，原房连住三晚）。步行约4-7分钟可达Franklin Wharf／20 Davey Street一带的跟团集合点，周边补给方便。",
-      "schedule": "06:30：从Sweet Home Property出发前往珀斯机场。\n06:50-07:10：到珀斯机场T1附近加满油。\n07:00-08:10：还车、托运行李和安检，最晚08:10进入候机区。\n09:50-16:00：乘维珍澳洲VA594，珀斯机场T1 → 霍巴特机场。\n16:00-17:05：取行李；按后续自驾安排取车，或乘机场巴士／Uber进入霍巴特市中心。\n17:05-17:35：前往Quest Savoy，约18公里／25-35分钟。\n17:35以后：办理入住、采购三晚所需补给，并复核9月29日和9月30日旅行团集合时间。",
-      "highlights": "本日重点：以跨州航班和入住为主，不安排远程景点。Quest Savoy位于霍巴特CBD，方便连续两天步行前往跟团集合点。",
-      "booking": "住宿已确认：Quest Savoy连住三晚。\n必须确认：9月29日Tasman Island当日团和9月30日Maria Island当日团的最终订单、集合点和集合时间；不同平台／产品可能调整接送安排，以电子票为准。",
+      "route": "Sweet Home Property → 珀斯机场（Perth Airport）T1（还车）→ 霍巴特机场（Hobart Airport）（维珍澳洲 VA594，09:50-16:00）→ Iron Creek Bay Estate（Sorell连住三晚）",
+      "lodging": "当前计划入住（已订）：Iron Creek Bay Estate（394 Arthur Highway, Sorell TAS 7172；9月28日入住、10月1日退房，连住三晚）。酒店距霍巴特机场约15分钟、霍巴特CBD约30分钟车程，两天参加Hobart往返当日团时需自驾往返集合区域并另留停车时间。已订备选：Quest Savoy（38 Elizabeth Street, Hobart TAS 7000；同一日期的订单暂不取消）。【待定-8】两笔订单均保留，当前路书按Iron Creek Bay Estate执行，最终取消哪一笔待决定。",
+      "schedule": "06:30：从Sweet Home Property出发前往珀斯机场。\n06:50-07:10：到珀斯机场T1附近加满油。\n07:00-08:10：还车、托运行李和安检，最晚08:10进入候机区。\n09:50-16:00：乘维珍澳洲VA594，珀斯机场T1 → 霍巴特机场。\n16:00-17:05：取行李并办理塔州租车手续。\n17:05-17:25：前往Iron Creek Bay Estate，约15公里／15-20分钟。\n17:25以后：办理入住、在Sorell采购三晚所需补给，并复核9月29日和9月30日旅行团集合时间、CBD停车方案。",
+      "highlights": "本日重点：以跨州航班和入住为主，不安排远程景点。Iron Creek Bay Estate位于Sorell，靠近机场，但前往霍巴特集合点需自驾。",
+      "booking": "住宿已确认：Iron Creek Bay Estate与Quest Savoy两笔9月28日-10月1日订单均暂时保留；当前按Iron Creek Bay Estate连住三晚执行。\n必须确认：最终取消哪一笔住宿；9月29日Tasman Island当日团和9月30日Maria Island当日团的最终订单、集合点和集合时间；不同平台／产品可能调整接送安排，以电子票为准。",
       "weather": "天气（长年气候参考，非逐日预报）：珀斯机场清晨约10-21°C；霍巴特机场／霍巴特CBD约6-15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层。BOM霍巴特气候。",
       "links": [
+        {
+          "label": "Iron Creek Bay Estate",
+          "url": "https://www.google.com/maps/search/?api=1&query=Iron Creek Bay Estate 394 Arthur Highway Sorell TAS 7172"
+        },
         {
           "label": "Quest Savoy",
           "url": "https://www.google.com/maps/search/?api=1&query=Quest Savoy 38 Elizabeth Street Hobart TAS 7000"
@@ -631,9 +635,9 @@
         {
           "id": "rhythm-4",
           "order": 4,
-          "time": "09:50-17:05",
+          "time": "09:50-16:00",
           "title": "霍巴特机场",
-          "text": "乘维珍澳洲VA594，珀斯机场T1 → 霍巴特机场。\n取行李；按后续自驾安排取车，或乘机场巴士／Uber进入霍巴特市中心。",
+          "text": "乘维珍澳洲VA594，珀斯机场T1 → 霍巴特机场。",
           "placeId": "d5-01",
           "sequence": 1,
           "priority": "main",
@@ -643,21 +647,33 @@
         {
           "id": "rhythm-5",
           "order": 5,
-          "time": "17:05-17:35",
-          "title": "Quest Savoy（连住三晚）",
-          "text": "前往Quest Savoy，约18公里／25-35分钟。",
-          "placeId": "d5-02",
-          "sequence": 2,
-          "priority": "main",
-          "lat": -42.88223,
-          "lng": 147.328943
+          "time": "16:00-17:05",
+          "title": "取行李并办理塔州租车手续",
+          "text": "取行李并办理塔州租车手续。",
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
         },
         {
           "id": "rhythm-6",
           "order": 6,
-          "time": "17:35以后",
-          "title": "办理入住、采购三晚所需补给，并复核9月29日和9月30日旅行…",
-          "text": "办理入住、采购三晚所需补给，并复核9月29日和9月30日旅行团集合时间。",
+          "time": "17:05-17:25",
+          "title": "Iron Creek Bay Estate（连住三晚）",
+          "text": "前往Iron Creek Bay Estate，约15公里／15-20分钟。",
+          "placeId": "d5-03",
+          "sequence": 2,
+          "priority": "main",
+          "lat": -42.7844,
+          "lng": 147.5855
+        },
+        {
+          "id": "rhythm-7",
+          "order": 7,
+          "time": "17:25以后",
+          "title": "办理入住、在Sorell采购三晚所需补给，并复核9月29日和…",
+          "text": "办理入住、在Sorell采购三晚所需补给，并复核9月29日和9月30日旅行团集合时间、CBD停车方案。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -667,7 +683,8 @@
       ],
       "unassigned": {
         "booking": [
-          "必须确认：9月29日Tasman Island当日团和9月30日Maria Island当日团的最终订单、集合点和集合时间；",
+          "必须确认：最终取消哪一笔住宿；",
+          "9月29日Tasman Island当日团和9月30日Maria Island当日团的最终订单、集合点和集合时间；",
           "不同平台／产品可能调整接送安排，以电子票为准。"
         ],
         "highlights": [
@@ -677,6 +694,10 @@
           "天气（长年气候参考，非逐日预报）：珀斯机场清晨约10-21°C；"
         ],
         "links": [
+          {
+            "label": "Iron Creek Bay Estate",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iron Creek Bay Estate 394 Arthur Highway Sorell TAS 7172"
+          },
           {
             "label": "Quest Savoy",
             "url": "https://www.google.com/maps/search/?api=1&query=Quest Savoy 38 Elizabeth Street Hobart TAS 7000"
@@ -689,9 +710,9 @@
       "date": "2026-09-29",
       "weekday": "周二",
       "region": "霍巴特（Hobart）-Tasman Island（塔斯曼岛）当日团-霍巴特",
-      "route": "Quest Savoy → Franklin Wharf／旅行团指定集合点 → Tasman Island／塔斯曼半岛当日团 → Quest Savoy",
-      "lodging": "继续入住：Quest Savoy，同一房间第2晚；旅行团结束后返回霍巴特，不搬行李。",
-      "schedule": "出发前：从Quest Savoy步行前往Franklin Wharf／订单指定集合点，至少提前15分钟到达。\n白天：参加含霍巴特往返接送的Tasman Island／塔斯曼半岛当日团；海上巡游、陆上停靠和用餐顺序以运营方当天安排为准。\n傍晚：旅行团送回霍巴特后步行返回Quest Savoy，休息并准备次日Maria Island装备。",
+      "route": "Iron Creek Bay Estate → Franklin Wharf／旅行团指定集合点 → Tasman Island／塔斯曼半岛当日团 → Iron Creek Bay Estate",
+      "lodging": "继续入住：Iron Creek Bay Estate，同一房间第2晚；旅行团结束后从霍巴特自驾返回Sorell，不搬行李。Quest Savoy订单仍作为已订备选保留。",
+      "schedule": "出发前：从Iron Creek Bay Estate自驾约30-40分钟前往霍巴特CBD，另留停车和步行时间，至少提前15分钟到Franklin Wharf／订单指定集合点。\n白天：参加含霍巴特往返接送的Tasman Island／塔斯曼半岛当日团；海上巡游、陆上停靠和用餐顺序以运营方当天安排为准。\n傍晚：旅行团送回霍巴特后返回停车点，自驾约30-40分钟回Iron Creek Bay Estate，休息并准备次日Maria Island装备；夜间注意野生动物。",
       "highlights": "Tasman Island Cruises（塔斯曼岛巡游）：Cape Pillar（皮勒角）的高耸dolerite海崖、海洞、瀑布、海豹群和海鸟是稳定核心；Dolphin（海豚）、Humpback Whale（座头鲸）与Southern Right Whale（南露脊鲸）属于迁徙季机会，不保证。10:00-13:00为核心观赏窗口。\nTasman Arch（塔斯曼拱门）／Devils Kitchen（魔鬼厨房）：以海浪侵蚀形成的天然拱门、深沟和崖壁为特色；平坦短线约15-30分钟，巡游后顺路补充陆上视角。\nTessellated Pavement（棋盘石）：岩层节理与盐风化形成规则块状纹理；退潮、岩面较干且有侧光时最清楚。本日只安排这两个短停，不再叠加长徒步。",
       "booking": "必须预约：选择明确包含Hobart往返接送的产品；最终集合点、出发时间、午餐和巡游时长以Klook／GetYourGuide电子票为准。晕船药按说明提前服用。若产品包含Tasman Arch／Devils Kitchen，临行前复查工程页面。",
       "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
@@ -706,13 +727,13 @@
           "id": "rhythm-1",
           "order": 1,
           "time": "出发前",
-          "title": "Franklin Wharf（集合点）",
-          "text": "从Quest Savoy步行前往Franklin Wharf／订单指定集合点，至少提前15分钟到达。",
-          "placeId": "d6-00",
-          "sequence": 1,
+          "title": "Iron Creek Bay Estate（返程住宿）",
+          "text": "从Iron Creek Bay Estate自驾约30-40分钟前往霍巴特CBD，另留停车和步行时间，至少提前15分钟到Franklin Wharf／订单指定集合点。",
+          "placeId": "d6-04",
+          "sequence": 5,
           "priority": "main",
-          "lat": -42.8833098,
-          "lng": 147.3334905
+          "lat": -42.7844,
+          "lng": 147.5855
         },
         {
           "id": "rhythm-2",
@@ -730,13 +751,13 @@
           "id": "rhythm-3",
           "order": 3,
           "time": "傍晚",
-          "title": "Quest Savoy（返程住宿）",
-          "text": "旅行团送回霍巴特后步行返回Quest Savoy，休息并准备次日Maria Island装备。",
-          "placeId": "d6-04",
-          "sequence": 5,
-          "priority": "main",
-          "lat": -42.88223,
-          "lng": 147.328943
+          "title": "旅行团送回霍巴特后返回停车点，自驾约30-40分钟回Iron…",
+          "text": "旅行团送回霍巴特后返回停车点，自驾约30-40分钟回Iron Creek Bay Estate，休息并准备次日Maria Island装备；夜间注意野生动物。",
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
         }
       ],
       "unassigned": {
@@ -761,9 +782,9 @@
       "date": "2026-09-30",
       "weekday": "周三",
       "region": "霍巴特（Hobart）-Maria Island（玛丽亚岛）当日团-霍巴特",
-      "route": "Quest Savoy → 20 Davey Street／旅行团指定集合点 → Triabunna → Maria Island → 霍巴特 → Quest Savoy",
-      "lodging": "继续入住：Quest Savoy，同一房间第3晚；当日团结束后返回霍巴特，不搬行李。",
-      "schedule": "出发前：从Quest Savoy步行前往20 Davey Street／订单指定集合点，至少提前15分钟到达。\n上午：随含Hobart往返接送的旅行团前往Triabunna，办理渡轮手续后前往Darlington（达灵顿）。\n岛上：在Darlington周边观察袋熊、袋鼠和斑胸草雁；按潮汐与体力选择Painted Cliffs或Fossil Cliffs，只完成一条主要路线。\n下午：按旅行团安排返回Triabunna，再由旅行团送回霍巴特。\n傍晚：返回Quest Savoy，收拾行李并确认10月1日自驾取车／出发安排。",
+      "route": "Iron Creek Bay Estate → 20 Davey Street／旅行团指定集合点 → Triabunna → Maria Island → 霍巴特 → Iron Creek Bay Estate",
+      "lodging": "继续入住：Iron Creek Bay Estate，同一房间第3晚；当日团结束后从霍巴特自驾返回Sorell，不搬行李。Quest Savoy订单仍作为已订备选保留。",
+      "schedule": "出发前：从Iron Creek Bay Estate自驾约30-40分钟前往霍巴特CBD，另留停车和步行时间，至少提前15分钟到20 Davey Street／订单指定集合点。\n上午：随含Hobart往返接送的旅行团前往Triabunna，办理渡轮手续后前往Darlington（达灵顿）。\n岛上：在Darlington周边观察袋熊、袋鼠和斑胸草雁；按潮汐与体力选择Painted Cliffs或Fossil Cliffs，只完成一条主要路线。\n下午：按旅行团安排返回Triabunna，再由旅行团送回霍巴特。\n傍晚：从霍巴特集合区域取车返回Iron Creek Bay Estate，收拾行李并确认10月1日出发安排；夜间注意野生动物。",
       "highlights": "Maria Island（玛丽亚岛）动物与自然：Darlington（达灵顿）草地是本日观察Wombat（袋熊）、Forester kangaroo（东部灰大袋鼠）、Bennett wallaby（红颈袋鼠）和Cape Barren goose（斑胸草雁）的核心区域；动物白天也常见，上午刚登岛及15:00后人少时更适合安静观察。\nPainted Cliffs（彩绘崖）：砂岩被铁质染色并经风浪雕刻出旋涡纹理，必须把到访放在低潮前后约两小时内；潮位不合适不要走下岩台。\nFossil Cliffs（化石崖）：石灰岩中可见大量古海洋生物化石，开阔海岸还适合看海鸟；与彩绘崖二选一更符合轻量徒步和近全天动物观察。\nDarlington（达灵顿）：保留少量世界遗产聚落解读，但不把监狱史作为旅行重点。本日的优先级是自然、动物和岛屿地貌。",
       "booking": "必须预约：选择明确包含Hobart-Triabunna往返接送、Maria Island渡轮和岛上活动的产品；具体船班、集合点和Parks Pass是否包含以Klook／GetYourGuide订单为准。官方时刻表用于临行复核。\n岛上准备：没有商店、咖啡馆和游客汽车；自带午餐、足量饮水、雨具、防晒和轻便背包。",
       "weather": "天气（长年气候参考，非逐日预报）：霍巴特／特里阿布纳／Maria Island约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水。",
@@ -778,13 +799,13 @@
           "id": "rhythm-1",
           "order": 1,
           "time": "出发前",
-          "title": "20 Davey Street（集合点）",
-          "text": "从Quest Savoy步行前往20 Davey Street／订单指定集合点，至少提前15分钟到达。",
-          "placeId": "d7-00",
-          "sequence": 1,
+          "title": "Iron Creek Bay Estate（返程住宿）",
+          "text": "从Iron Creek Bay Estate自驾约30-40分钟前往霍巴特CBD，另留停车和步行时间，至少提前15分钟到20 Davey Street／订单指定集合点。",
+          "placeId": "d7-02",
+          "sequence": 3,
           "priority": "main",
-          "lat": -42.8830842,
-          "lng": 147.3317785
+          "lat": -42.7844,
+          "lng": 147.5855
         },
         {
           "id": "rhythm-2",
@@ -814,13 +835,13 @@
           "id": "rhythm-4",
           "order": 4,
           "time": "傍晚",
-          "title": "Quest Savoy（返程住宿）",
-          "text": "返回Quest Savoy，收拾行李并确认10月1日自驾取车／出发安排。",
-          "placeId": "d7-02",
-          "sequence": 3,
-          "priority": "main",
-          "lat": -42.88223,
-          "lng": 147.328943
+          "title": "从霍巴特集合区域取车返回Iron Creek Bay Est…",
+          "text": "从霍巴特集合区域取车返回Iron Creek Bay Estate，收拾行李并确认10月1日出发安排；夜间注意野生动物。",
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
         }
       ],
       "unassigned": {
@@ -847,11 +868,11 @@
       "date": "2026-10-01",
       "weekday": "周四",
       "region": "霍巴特（Hobart）-Wineglass Bay（酒杯湾）-朗塞斯顿（Launceston）",
-      "route": "Quest Savoy → Wineglass Bay Lookout（酒杯湾观景台）→ Cape Tourville Lighthouse Walk（图维尔角灯塔步道）／Honeymoon Bay（蜜月湾）→ Centennial Inn on Bathurst（朗塞斯顿）",
+      "route": "Iron Creek Bay Estate → Wineglass Bay Lookout（酒杯湾观景台）→ Cape Tourville Lighthouse Walk（图维尔角灯塔步道）／Honeymoon Bay（蜜月湾）→ Centennial Inn on Bathurst（朗塞斯顿）",
       "lodging": "已确认住宿：Centennial Inn on Bathurst（120 Bathurst Street, Launceston TAS 7250；10月1日入住、10月2日退房）。",
-      "schedule": "06:00-08:30：从Quest Savoy退房后驾车约195公里前往Wineglass Bay Car Park；途中只作短暂停车。\n08:30-10:15：往返步行约2.6公里至Wineglass Bay Lookout；不下海滩。\n10:15-11:10：前往Cape Tourville Lighthouse Walk并完成约600米轻量环线。\n11:10-12:00：Honeymoon Bay短停。\n12:00-13:00：回科尔斯湾午餐并加油。\n13:00-15:30／16:00：驾车约176公里前往朗塞斯顿，办理Centennial Inn on Bathurst入住；不去比舍诺。",
+      "schedule": "06:30-08:30：从Iron Creek Bay Estate退房后驾车约155公里前往Wineglass Bay Car Park；途中只作短暂停车。\n08:30-10:15：往返步行约2.6公里至Wineglass Bay Lookout；不下海滩。\n10:15-11:10：前往Cape Tourville Lighthouse Walk并完成约600米轻量环线。\n11:10-12:00：Honeymoon Bay短停。\n12:00-13:00：回科尔斯湾午餐并加油。\n13:00-15:30／16:00：驾车约176公里前往朗塞斯顿，办理Centennial Inn on Bathurst入住；不去比舍诺。",
       "highlights": "Wineglass Bay Lookout（酒杯湾观景台）：保留上午完整观景窗口；晴朗白天即可看清弧形白沙、蓝绿色海水与Hazards（哈泽兹山脉）。\nCape Tourville／Honeymoon Bay：保持轻量短停。\n路线调整：Bicheno Penguin Tours已确定取消；塔州东海岸企鹅不再作为必看窗口，小蓝企鹅改由10/5 St Kilda覆盖。",
-      "booking": "Freycinet National Park：需有效parks pass；Wineglass Bay Lookout官方为2.6公里往返、1-1.5小时、Grade 3。\n驾驶：本日总驾驶约370公里；06:00从霍巴特出发，后段按2.5-3小时预留，全程白天完成。",
+      "booking": "Freycinet National Park：需有效parks pass；Wineglass Bay Lookout官方为2.6公里往返、1-1.5小时、Grade 3。\n驾驶：本日总驾驶约330公里；06:30从Sorell出发，后段按2.5-3小时预留，全程白天完成。",
       "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，科尔斯湾约7-17°C，朗塞斯顿约6-17°C；上午步道可能湿滑，沿途可能有阵雨和侧风。带防风防水层、防滑鞋。",
       "links": [
         {
@@ -863,14 +884,14 @@
         {
           "id": "rhythm-1",
           "order": 1,
-          "time": "06:00-08:30",
-          "title": "Quest Savoy（出发）",
-          "text": "从Quest Savoy退房后驾车约195公里前往Wineglass Bay Car Park；途中只作短暂停车。",
+          "time": "06:30-08:30",
+          "title": "Iron Creek Bay Estate（出发）",
+          "text": "从Iron Creek Bay Estate退房后驾车约155公里前往Wineglass Bay Car Park；途中只作短暂停车。",
           "placeId": "d8-00",
           "sequence": 1,
           "priority": "main",
-          "lat": -42.88223,
-          "lng": 147.328943
+          "lat": -42.7844,
+          "lng": 147.5855
         },
         {
           "id": "rhythm-2",
@@ -936,8 +957,8 @@
       "unassigned": {
         "booking": [
           "Freycinet National Park：需有效parks pass；",
-          "驾驶：本日总驾驶约370公里；",
-          "06:00从霍巴特出发，后段按2.5-3小时预留，全程白天完成。"
+          "驾驶：本日总驾驶约330公里；",
+          "06:30从Sorell出发，后段按2.5-3小时预留，全程白天完成。"
         ],
         "highlights": [
           "路线调整：Bicheno Penguin Tours已确定取消；",
@@ -3402,13 +3423,13 @@
       "weather": "天气（长年气候参考，非逐日预报）：珀斯机场清晨约10-21°C；霍巴特机场／霍巴特CBD约6-15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层。BOM霍巴特气候。",
       "duration": "约1小时",
       "transport": "维珍澳洲 VA594 珀斯→霍巴特",
-      "notes": "09:50-16:00飞行；落地后前往Quest Savoy。",
+      "notes": "09:50-16:00飞行；落地取车后前往Iron Creek Bay Estate。",
       "lat": -42.8361,
       "lng": 147.5103,
       "geocode_source": "known",
       "priority": "main",
       "sections": {
-        "practical": "09:50-16:00飞行；落地后前往Quest Savoy。"
+        "practical": "09:50-16:00飞行；落地取车后前往Iron Creek Bay Estate。"
       },
       "links": [
         {
@@ -3420,7 +3441,7 @@
       "dayInfo": {
         "booking": [],
         "highlights": [
-          "Quest Savoy位于霍巴特CBD，方便连续两天步行前往跟团集合点。"
+          "Iron Creek Bay Estate位于Sorell，靠近机场，但前往霍巴特集合点需自驾。"
         ],
         "weather": [
           "霍巴特机场／霍巴特CBD约6-15°C，傍晚常见阵雨、海风和明显风寒。",
@@ -3525,23 +3546,23 @@
     },
     {
       "id": "d5-02",
-      "name": "Quest Savoy（连住三晚）",
+      "name": "Quest Savoy（已订备选）",
       "name_en": "Quest Savoy, 38 Elizabeth Street, Hobart TAS 7000",
       "day": 5,
       "date": "2026-09-28",
       "status": "visit",
-      "order_in_day": 2,
-      "highlights": "霍巴特CBD已确认住宿；步行可达两天跟团集合点。",
+      "order_in_day": 3,
+      "highlights": "已订但暂不作为当前入住方案；保留地图标记，待最终决定是否取消。",
       "weather": "天气（长年气候参考，非逐日预报）：珀斯机场清晨约10-21°C；霍巴特机场／霍巴特CBD约6-15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层。BOM霍巴特气候。",
-      "duration": "9月28日-10月1日连住三晚",
-      "transport": "机场约18公里／25-35分钟",
-      "notes": "同一房间连住三晚；地址38 Elizabeth Street。",
+      "duration": "备选订单：9月28日-10月1日",
+      "transport": "位于霍巴特CBD，步行可达两个集合点",
+      "notes": "地址38 Elizabeth Street；与Iron Creek Bay Estate两笔订单均暂时保留。",
       "lat": -42.88223,
       "lng": 147.328943,
       "geocode_source": "google_maps",
       "priority": "main",
       "sections": {
-        "practical": "同一房间连住三晚；地址38 Elizabeth Street。"
+        "practical": "地址38 Elizabeth Street；与Iron Creek Bay Estate两笔订单均暂时保留。"
       },
       "links": [
         {
@@ -3549,14 +3570,12 @@
           "url": "https://www.bom.gov.au/climate/averages/tables/cw_094029.shtml"
         }
       ],
-      "sequence": 2,
+      "sequence": 3,
       "dayInfo": {
         "booking": [
-          "住宿已确认：Quest Savoy连住三晚。"
+          "住宿已确认：Iron Creek Bay Estate与Quest Savoy两笔9月28日-10月1日订单均暂时保留；"
         ],
-        "highlights": [
-          "Quest Savoy位于霍巴特CBD，方便连续两天步行前往跟团集合点。"
-        ],
+        "highlights": [],
         "weather": [],
         "links": []
       },
@@ -3570,16 +3589,81 @@
       },
       "category": "lodging",
       "food": {
-        "summary": "酒店位于霍巴特 CBD，餐饮与超市可步行解决；具体营业时间以当天 Google 地图为准。",
+        "summary": "酒店位于霍巴特 CBD，餐饮与超市可步行解决；该订单目前作为已订备选保留。",
         "restaurants": []
       },
       "parking": {
-        "summary": "本次以步行前往跟团集合点为主；如自驾入住，停车方式与费用以 Quest Savoy 订单和前台说明为准。",
+        "summary": "该订单目前作为已订备选保留；若最终改住 Quest Savoy，停车方式与费用以订单和前台说明为准。",
         "lots": [],
         "rules": [
           "不要把酒店附近路边位视为免费过夜停车，按现场标志和酒店说明停车。"
         ],
         "sources": []
+      }
+    },
+    {
+      "id": "d5-03",
+      "name": "Iron Creek Bay Estate（连住三晚）",
+      "name_en": "Iron Creek Bay Estate, 394 Arthur Highway, Sorell TAS 7172",
+      "day": 5,
+      "date": "2026-09-28",
+      "status": "visit",
+      "order_in_day": 2,
+      "highlights": "当前计划入住的已订住宿；位于Sorell，连续三晚自驾往返霍巴特及两个当日团集合点。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场清晨约10-21°C；霍巴特机场／霍巴特CBD约6-15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层。BOM霍巴特气候。",
+      "duration": "9月28日-10月1日连住三晚",
+      "transport": "霍巴特机场约15分钟车程；霍巴特CBD约30分钟车程",
+      "notes": "地址394 Arthur Highway；Quest Savoy订单也已保留，最终取消哪一笔待决定。",
+      "lat": -42.7844,
+      "lng": 147.5855,
+      "geocode_source": "official_address",
+      "priority": "main",
+      "sections": {
+        "practical": "地址394 Arthur Highway；Quest Savoy订单也已保留，最终取消哪一笔待决定。"
+      },
+      "links": [
+        {
+          "label": "BOM霍巴特气候",
+          "url": "https://www.bom.gov.au/climate/averages/tables/cw_094029.shtml"
+        }
+      ],
+      "sequence": 2,
+      "dayInfo": {
+        "booking": [
+          "住宿已确认：Iron Creek Bay Estate与Quest Savoy两笔9月28日-10月1日订单均暂时保留；",
+          "当前按Iron Creek Bay Estate连住三晚执行。"
+        ],
+        "highlights": [
+          "Iron Creek Bay Estate位于Sorell，靠近机场，但前往霍巴特集合点需自驾。"
+        ],
+        "weather": [],
+        "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "6-15°C",
+        "granularity": "nearby",
+        "basis": "霍巴特机场",
+        "note": "",
+        "dayAdvisory": "傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层。BOM霍巴特气候",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "lodging",
+      "food": {
+        "summary": "酒店位于 Sorell 的农庄区域，晚餐与补给宜在抵达前完成或使用酒店餐饮；具体营业时间以酒店当天通知为准。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "酒店位于 394 Arthur Highway，当前计划连续入住三晚；自驾停车细节以订单和现场指引为准。",
+        "lots": [],
+        "rules": [
+          "两天前往霍巴特集合点需额外预留约 30—40 分钟车程、CBD 停车和步行时间。"
+        ],
+        "sources": [
+          {
+            "label": "Iron Creek Bay Estate 官方联系页",
+            "url": "https://www.ironcreekbay.com.au/contact"
+          }
+        ]
       }
     },
     {
@@ -3593,14 +3677,14 @@
       "highlights": "Tasman Island当日团的Hobart集合区域；最终位置以电子票为准。",
       "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
       "duration": "提前15分钟到达",
-      "transport": "从Quest Savoy步行约4-7分钟",
-      "notes": "选择含Hobart往返接送的产品。",
+      "transport": "从Iron Creek Bay Estate自驾约30-40分钟到霍巴特集合区域",
+      "notes": "选择含Hobart往返接送的产品；需另留CBD停车和步行时间。",
       "lat": -42.8833098,
       "lng": 147.3334905,
       "geocode_source": "google_maps",
       "priority": "main",
       "sections": {
-        "practical": "选择含Hobart往返接送的产品。"
+        "practical": "选择含Hobart往返接送的产品；需另留CBD停车和步行时间。"
       },
       "links": [],
       "sequence": 1,
@@ -3632,7 +3716,7 @@
         "restaurants": []
       },
       "parking": {
-        "summary": "从 Quest Savoy 步行前往最稳妥，不建议为集合点单独驾车找位。",
+        "summary": "当前从 Iron Creek Bay Estate 自驾前往，需另行选择霍巴特 CBD 合规停车位，再步行到集合点。",
         "lots": [],
         "rules": [
           "至少提前 15 分钟到达，并以电子票标注的具体码头位置为准。"
@@ -3985,23 +4069,23 @@
     },
     {
       "id": "d6-04",
-      "name": "Quest Savoy（返程住宿）",
-      "name_en": "Quest Savoy, 38 Elizabeth Street, Hobart TAS 7000",
+      "name": "Iron Creek Bay Estate（返程住宿）",
+      "name_en": "Iron Creek Bay Estate, 394 Arthur Highway, Sorell TAS 7172",
       "day": 6,
       "date": "2026-09-29",
       "status": "visit",
       "order_in_day": 5,
-      "highlights": "旅行团送回霍巴特后继续入住同一房间。",
+      "highlights": "旅行团送回霍巴特后取车返回Sorell，继续入住同一房间。",
       "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
       "duration": "第2晚",
-      "transport": "集合点步行返回",
-      "notes": "不搬行李。",
-      "lat": -42.88223,
-      "lng": 147.328943,
-      "geocode_source": "google_maps",
+      "transport": "集合区域返回停车点后自驾约30-40分钟",
+      "notes": "不搬行李；晚间驾驶注意野生动物。",
+      "lat": -42.7844,
+      "lng": 147.5855,
+      "geocode_source": "official_address",
       "priority": "main",
       "sections": {
-        "practical": "不搬行李。"
+        "practical": "不搬行李；晚间驾驶注意野生动物。"
       },
       "links": [],
       "sequence": 5,
@@ -4115,14 +4199,14 @@
       "highlights": "Maria Island当日团的Hobart集合区域；最终位置以电子票为准。",
       "weather": "天气（长年气候参考，非逐日预报）：霍巴特／特里阿布纳／Maria Island约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水。",
       "duration": "提前15分钟到达",
-      "transport": "从Quest Savoy步行约4-7分钟",
-      "notes": "选择含Hobart-Triabunna往返接送的产品。",
+      "transport": "从Iron Creek Bay Estate自驾约30-40分钟到霍巴特集合区域",
+      "notes": "选择含Hobart-Triabunna往返接送的产品；需另留CBD停车和步行时间。",
       "lat": -42.8830842,
       "lng": 147.3317785,
       "geocode_source": "google_maps",
       "priority": "main",
       "sections": {
-        "practical": "选择含Hobart-Triabunna往返接送的产品。"
+        "practical": "选择含Hobart-Triabunna往返接送的产品；需另留CBD停车和步行时间。"
       },
       "links": [],
       "sequence": 1,
@@ -4154,7 +4238,7 @@
         "restaurants": []
       },
       "parking": {
-        "summary": "从 Quest Savoy 步行前往最稳妥；集合点并不等于可长时间停车的位置。",
+        "summary": "当前从 Iron Creek Bay Estate 自驾前往，需另行选择霍巴特 CBD 合规停车位；集合点并不等于可长时间停车的位置。",
         "lots": [],
         "rules": [
           "至少提前 15 分钟到达，并以电子票标注的上车位置为准。"
@@ -4263,23 +4347,23 @@
     },
     {
       "id": "d7-02",
-      "name": "Quest Savoy（返程住宿）",
-      "name_en": "Quest Savoy, 38 Elizabeth Street, Hobart TAS 7000",
+      "name": "Iron Creek Bay Estate（返程住宿）",
+      "name_en": "Iron Creek Bay Estate, 394 Arthur Highway, Sorell TAS 7172",
       "day": 7,
       "date": "2026-09-30",
       "status": "visit",
       "order_in_day": 3,
-      "highlights": "旅行团送回霍巴特后继续入住同一房间。",
+      "highlights": "旅行团送回霍巴特后取车返回Sorell，继续入住同一房间。",
       "weather": "天气（长年气候参考，非逐日预报）：霍巴特／特里阿布纳／Maria Island约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水。",
       "duration": "第3晚",
-      "transport": "集合点步行返回",
-      "notes": "收拾行李并确认10月1日自驾安排。",
-      "lat": -42.88223,
-      "lng": 147.328943,
-      "geocode_source": "google_maps",
+      "transport": "集合区域返回停车点后自驾约30-40分钟",
+      "notes": "收拾行李并确认10月1日自驾安排；晚间驾驶注意野生动物。",
+      "lat": -42.7844,
+      "lng": 147.5855,
+      "geocode_source": "official_address",
       "priority": "main",
       "sections": {
-        "practical": "收拾行李并确认10月1日自驾安排。"
+        "practical": "收拾行李并确认10月1日自驾安排；晚间驾驶注意野生动物。"
       },
       "links": [],
       "sequence": 3,
@@ -4380,23 +4464,23 @@
     },
     {
       "id": "d8-00",
-      "name": "Quest Savoy（出发）",
-      "name_en": "Quest Savoy, 38 Elizabeth Street, Hobart TAS 7000",
+      "name": "Iron Creek Bay Estate（出发）",
+      "name_en": "Iron Creek Bay Estate, 394 Arthur Highway, Sorell TAS 7172",
       "day": 8,
       "date": "2026-10-01",
       "status": "visit",
       "order_in_day": 1,
-      "highlights": "退房后从霍巴特出发前往Freycinet。",
+      "highlights": "退房后从Sorell出发前往Freycinet。",
       "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，科尔斯湾约7-17°C，朗塞斯顿约6-17°C；上午步道可能湿滑，沿途可能有阵雨和侧风。带防风防水层、防滑鞋。",
-      "duration": "约06:00出发",
-      "transport": "驾车约195公里至Wineglass Bay Car Park",
-      "notes": "本日总驾驶约370公里。",
-      "lat": -42.88223,
-      "lng": 147.328943,
-      "geocode_source": "google_maps",
+      "duration": "约06:30出发",
+      "transport": "驾车约155公里至Wineglass Bay Car Park",
+      "notes": "本日总驾驶约330公里。",
+      "lat": -42.7844,
+      "lng": 147.5855,
+      "geocode_source": "official_address",
       "priority": "main",
       "sections": {
-        "practical": "本日总驾驶约370公里。"
+        "practical": "本日总驾驶约330公里。"
       },
       "links": [],
       "sequence": 1,
@@ -4420,7 +4504,7 @@
         "restaurants": []
       },
       "parking": {
-        "summary": "按 Quest Savoy 的退房与停车说明取车装行李，06:00 左右离开。",
+        "summary": "按 Iron Creek Bay Estate 的退房与停车说明取车装行李，06:30 左右从 Sorell 离开。",
         "lots": [],
         "rules": [
           "离店前确认没有遗留行李，并检查当日油量与路况。"
@@ -7141,13 +7225,13 @@
       "weather": "天气（长年气候参考，非逐日预报）：珀斯机场清晨约10-21°C；霍巴特机场／霍巴特CBD约6-15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层。BOM霍巴特气候。",
       "duration": "9月28日-10月1日",
       "transport": "机场到CBD；两天参加Hobart往返当日团",
-      "notes": "Quest Savoy连住三晚；不搬行李，步行前往两个跟团集合区域。市区活动只作旅行团前后补给，不硬塞远程景点。\n\n【人文】\nnipaluna 位于 Muwinina Country；砂岩仓库、南极科研与港口史并存。kunanyi 是重要的 Aboriginal 地名。城市的文化名片也包括 MONA 对当代艺术与旅游形象的重塑。\n深度补充：nipaluna位于Muwinina Country。砂岩仓库、捕鲸与航运、南极科研、MONA及环境政治构成多重城市性格；双重命名让原住民语言重新进入公共空间。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n9/28 霍巴特机场落地取车后直驱亚瑟港（Port Arthur）住宿，不安排 Rosny Hill／City Walk／连住霍巴特；市区仅作跨州过境。航班严重延误时才启用霍巴特机场／索雷尔（Sorell）兜底住宿。\n已纳入本次行程（过境）",
+      "notes": "Iron Creek Bay Estate连住三晚；两天均需自驾约30-40分钟往返霍巴特集合区域。Quest Savoy订单也已保留，待最终决定取消哪一笔。市区活动只作旅行团前后补给，不硬塞远程景点。\n\n【人文】\nnipaluna 位于 Muwinina Country；砂岩仓库、南极科研与港口史并存。kunanyi 是重要的 Aboriginal 地名。城市的文化名片也包括 MONA 对当代艺术与旅游形象的重塑。\n深度补充：nipaluna位于Muwinina Country。砂岩仓库、捕鲸与航运、南极科研、MONA及环境政治构成多重城市性格；双重命名让原住民语言重新进入公共空间。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n9/28 霍巴特机场落地取车后直驱亚瑟港（Port Arthur）住宿，不安排 Rosny Hill／City Walk／连住霍巴特；市区仅作跨州过境。航班严重延误时才启用霍巴特机场／索雷尔（Sorell）兜底住宿。\n已纳入本次行程（过境）",
       "lat": -42.8821,
       "lng": 147.3272,
       "geocode_source": "known",
       "priority": "main",
       "sections": {
-        "practical": "Quest Savoy连住三晚；不搬行李，步行前往两个跟团集合区域。市区活动只作旅行团前后补给，不硬塞远程景点。",
+        "practical": "Iron Creek Bay Estate连住三晚；两天均需自驾约30-40分钟往返霍巴特集合区域。Quest Savoy订单也已保留，待最终决定取消哪一笔。市区活动只作旅行团前后补给，不硬塞远程景点。",
         "culture": "nipaluna 位于 Muwinina Country；砂岩仓库、南极科研与港口史并存。kunanyi 是重要的 Aboriginal 地名。城市的文化名片也包括 MONA 对当代艺术与旅游形象的重塑。\n深度补充：nipaluna位于Muwinina Country。砂岩仓库、捕鲸与航运、南极科研、MONA及环境政治构成多重城市性格；双重命名让原住民语言重新进入公共空间。\n扩展阅读：人文／历史延伸阅读",
         "suggestion": "9/28 霍巴特机场落地取车后直驱亚瑟港（Port Arthur）住宿，不安排 Rosny Hill／City Walk／连住霍巴特；市区仅作跨州过境。航班严重延误时才启用霍巴特机场／索雷尔（Sorell）兜底住宿。\n已纳入本次行程（过境）"
       },

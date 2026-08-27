@@ -1,5 +1,27 @@
 # 进度日志
 
+## 2026-08-27 Iron Creek Bay Estate 同步
+- 本地权威行程已改为 9/28—10/1 入住 Iron Creek Bay Estate；Quest Savoy 不删除，标为同日期“已订备选／待决定是否取消”。
+- 已同步 `days-raw.txt`、`doc-content.md`、`build_itinerary.py`、`itinerary.json`、`data/extras/confirmed-stays.json`、KML 与 `src/data/trip-data.json`；路书改为从 Sorell 自驾往返两天 Hobart 集合点，10/1 从 Sorell 出发。
+- 飞书云文档 `TAoHd0QFyoo7lpxGk9DcpN0nnCc` 原地更新至 revision 593：总览、必订清单、待定问题及 9/28—10/1 每日主行程均已同步，新增【待定-8】记录两笔订单的最终取舍。
+- 私人 Google My Maps 的 D5–6、D7、D8 图层已重导；D5–6 同时保留 Iron Creek 与 Quest，两点及 D8 Centennial 均复核为 `icon-1602-000000` 黑底白床。刷新后图层顺序复核为 D2、D3、D4、D5–6、D7、D8、D9–10、D11、D12–13、Z本次不看。
+- 验证通过：`corepack pnpm typecheck`、Vitest 43/43、production build；生成 13 天、89 个地点，PWA precache 14 条／702.77 KiB。
+
+## 2026-08-27 塔斯曼／玛丽亚岛双早班的中间住宿
+- 核实停车：Tasman Island Cruises 自驾车免费停 6961 Arthur Highway Booking Centre；Maria Island 自驾车停 Triabunna Marina 或周边免费街边位，避开 permit zones，并提前 45 分钟到 Gateway 签到。
+- 纠正时间：Tasman Island 为 09:15 签到／10:00 开船，不是 08:00；Maria Island 最早为 08:30，07:45 前签到。
+- 比较 Sorell、Richmond、Dunalley、Dodges Ferry、Orford 后，Sorell 以两地各约 47—57 分钟、Coles/Woolworths 和机场 Uber 便利成为主选；Richmond 以历史街区和可逛性成为次选。
+- Booking.com 实测 9/28—10/1 两人三晚：Sorell Barracks 约 CNY 646／晚、Iron Creek Bay Estate 596／晚、Sorell Gateway Villa 887／晚；Richmond Arms 433／晚、Coachman's Rest 含税 640／晚、King Bed Studio 含税 773／晚、Hatchers 633／晚，均在 900／晚内。
+- Hobart Airport→Sorell Uber 官方均值约 AUD 31／15 分钟，→Richmond 约 AUD 43／19 分钟；但连续两天必须自驾，建议落地直接在机场取租车，Uber 只作备份。
+
+## 2026-08-27 9/30 Maria Island 跟团被取消后的余位排查
+- 在 Encounter 官方 CustomLinc 引擎逐日实测：9/30 去程 10:00 售罄、回程 14:30 与 16:15 均售罄，只剩 8:30 去 + 10:45 回一个组合；9/28、9/29 同期除 16:15 外全部有票，确认 9/30 是学校假期高峰的个别拥堵日。
+- 官方 Hobart 接驳 9/30 有位，但只剩 06:45 Brooke Street Pier 发车、17:00 Triabunna 返程一种，正好接不上仅存的 10:45 回程船。
+- East Coast Cruises 环岛巡游（周三线）9/30 在 Rezdy 上为 `full`／售罄；新产品 607840 从 10/1 才起售。Tours Tasmania 9/30 是冬季班表最后一天，10/1 起改 06:45 夏季发车。
+- Encounter 规则核实：售罄为船舶法定载客上限，不接受加位；票不退但开船前 24 小时以上可改期／改班次，回程时间可在 Manage Booking 自助改。
+- 用户决定自己买票并改问 9/29；已指出 9/29 与 Pennicott 塔斯曼岛巡游冲突（该巡游 9/26—10/7 全售罄、改不了期），待用户确认是否放弃塔斯曼。
+- 公园通行证问题查实：Parks Tas FAQ 明确车辆通行证可用于无车辆通道的公园（含摇篮山、玛丽亚岛）；但通行证不含行车权，Dove Lake Road 在接驳运营时段禁止私家车，10/2—10/3 实际约 08:30—17:30 封路。两人买 Holiday Vehicle Pass + 两张 72 小时接驳票共 AUD 129.35，比逐项买（AUD 159.65）省且无 Icon Daily 24 小时超时风险。
+
 ## 2026-08-27 9/25 改订有热水淋浴的营地
 - 用户实地核对指出 Sandy Cape 不能洗澡；查西澳官方页确认 `no showers`，旧文档写的「冷水淋浴」来自地方旅游站，已作废。
 - 直连 Summerstar `/api/v1/availability/get-availability`（park=5）拿到 Jurien Bay Tourist Park 9/25 实价；RAC 的 Newbook 结果为 JS 异步加载，curl 三次只得 `Loading availability`，改用 Chrome 驱动页面读出真实房态。

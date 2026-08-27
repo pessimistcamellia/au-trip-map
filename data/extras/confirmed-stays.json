@@ -6,14 +6,32 @@
     "d5-02": {
       "category": "lodging",
       "food": {
-        "summary": "酒店位于霍巴特 CBD，餐饮与超市可步行解决；具体营业时间以当天 Google 地图为准。",
+        "summary": "酒店位于霍巴特 CBD，餐饮与超市可步行解决；该订单目前作为已订备选保留。",
         "restaurants": []
       },
       "parking": {
-        "summary": "本次以步行前往跟团集合点为主；如自驾入住，停车方式与费用以 Quest Savoy 订单和前台说明为准。",
+        "summary": "该订单目前作为已订备选保留；若最终改住 Quest Savoy，停车方式与费用以订单和前台说明为准。",
         "lots": [],
         "rules": ["不要把酒店附近路边位视为免费过夜停车，按现场标志和酒店说明停车。"],
         "sources": []
+      }
+    },
+    "d5-03": {
+      "category": "lodging",
+      "food": {
+        "summary": "酒店位于 Sorell 的农庄区域，晚餐与补给宜在抵达前完成或使用酒店餐饮；具体营业时间以酒店当天通知为准。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "酒店位于 394 Arthur Highway，当前计划连续入住三晚；自驾停车细节以订单和现场指引为准。",
+        "lots": [],
+        "rules": ["两天前往霍巴特集合点需额外预留约 30—40 分钟车程、CBD 停车和步行时间。"],
+        "sources": [
+          {
+            "label": "Iron Creek Bay Estate 官方联系页",
+            "url": "https://www.ironcreekbay.com.au/contact"
+          }
+        ]
       }
     },
     "d6-00": {
@@ -23,7 +41,7 @@
         "restaurants": []
       },
       "parking": {
-        "summary": "从 Quest Savoy 步行前往最稳妥，不建议为集合点单独驾车找位。",
+        "summary": "当前从 Iron Creek Bay Estate 自驾前往，需另行选择霍巴特 CBD 合规停车位，再步行到集合点。",
         "lots": [],
         "rules": ["至少提前 15 分钟到达，并以电子票标注的具体码头位置为准。"],
         "sources": []
@@ -36,7 +54,7 @@
         "restaurants": []
       },
       "parking": {
-        "summary": "从 Quest Savoy 步行前往最稳妥；集合点并不等于可长时间停车的位置。",
+        "summary": "当前从 Iron Creek Bay Estate 自驾前往，需另行选择霍巴特 CBD 合规停车位；集合点并不等于可长时间停车的位置。",
         "lots": [],
         "rules": ["至少提前 15 分钟到达，并以电子票标注的上车位置为准。"],
         "sources": []
@@ -49,7 +67,7 @@
         "restaurants": []
       },
       "parking": {
-        "summary": "按 Quest Savoy 的退房与停车说明取车装行李，06:00 左右离开。",
+        "summary": "按 Iron Creek Bay Estate 的退房与停车说明取车装行李，06:30 左右从 Sorell 离开。",
         "lots": [],
         "rules": ["离店前确认没有遗留行李，并检查当日油量与路况。"],
         "sources": []
