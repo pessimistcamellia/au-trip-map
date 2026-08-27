@@ -34,7 +34,7 @@
 - **状态：** complete
 
 ## 当前阶段
-阶段 54（进行中）
+阶段 54（已完成）
 
 ### 阶段 54：Iron Creek Bay Estate 双酒店保留同步
 - [x] 核准 Iron Creek Bay Estate 地址、坐标及当前行程日期口径
@@ -42,8 +42,8 @@
 - [x] 原地更新飞书云文档相关总览、逐日行程、必订清单与待定问题
 - [x] 在私人 Google My Maps 的 D5–6 图层新增 Iron Creek，Quest Savoy 不删除，并统一住宿图标
 - [x] 通过 typecheck、测试、构建及地图／飞书复验
-- [ ] 发布线上路书并完成生产环境复验
-- **状态：** in-progress
+- [x] 发布线上路书并完成生产环境复验
+- **状态：** completed
 
 ### 阶段 53：修复线上路书未更新与地图长地名裁切
 - [x] 定位「刷新无效」根因：上轮 `pnpm run build` 输出被 `head -8` 截断，`sw.js` / `404.html` 未生成，旧 Service Worker 继续供旧缓存

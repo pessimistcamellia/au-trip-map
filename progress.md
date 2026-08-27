@@ -6,6 +6,7 @@
 - 飞书云文档 `TAoHd0QFyoo7lpxGk9DcpN0nnCc` 原地更新至 revision 593：总览、必订清单、待定问题及 9/28—10/1 每日主行程均已同步，新增【待定-8】记录两笔订单的最终取舍。
 - 私人 Google My Maps 的 D5–6、D7、D8 图层已重导；D5–6 同时保留 Iron Creek 与 Quest，两点及 D8 Centennial 均复核为 `icon-1602-000000` 黑底白床。刷新后图层顺序复核为 D2、D3、D4、D5–6、D7、D8、D9–10、D11、D12–13、Z本次不看。
 - 验证通过：`corepack pnpm typecheck`、Vitest 43/43、production build；生成 13 天、89 个地点，PWA precache 14 条／702.77 KiB。
+- 已发布 main `055ca82` 与 gh-pages `c20fa05`；GitHub Pages build `1178682779` 状态为 `built`。生产页面 9/28 已复验：终点为 Iron Creek Bay Estate，住宿折叠区同时显示 Iron Creek 当前入住、Quest Savoy 已订备选、两条 Google Maps 链接及【待定-8】。
 
 ## 2026-08-27 塔斯曼／玛丽亚岛双早班的中间住宿
 - 核实停车：Tasman Island Cruises 自驾车免费停 6961 Arthur Highway Booking Centre；Maria Island 自驾车停 Triabunna Marina 或周边免费街边位，避开 permit zones，并提前 45 分钟到 Gateway 签到。
