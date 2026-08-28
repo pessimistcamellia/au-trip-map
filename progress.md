@@ -1,5 +1,13 @@
 # 进度日志
 
+## 2026-08-28 住宿图标全量审计
+- 逐点回读 My Maps 图标 URL 发现三处不一致：`D9-5 Discovery Parks` 与 `D11-5 Twelve Apostles Motel` 仍是默认蓝钉（此前重导图层后未补回），`D12-4 泰迪观景台` 被误套黑底白床。
+- 根因：侧栏行在 `scrollIntoView` 动画期间会漂移（实测同一行 y 从 351 变到 389），旧脚本「先测坐标、后点击」会打到相邻行；油漆桶按钮只在悬停时出现，必须从目标行内部重新取。
+- 新脚本 `/tmp/fix_icons.py` 要求行坐标连续两次一致后再测量，点击后立刻回读该行图标 URL 校验；图标选择器是雪碧图，读不到图标名，改为筛选后按序号选择再回读验证。
+- 刷新页面确认服务端已保存：8 个住宿点（Sweet Home、Iron Creek、Quest Savoy、Centennial、Discovery Parks、Mantra、Twelve Apostles、Brady）全部 `1602-hotel-bed` + `000000`，其余 63 点为默认蓝钉，10 个图层顺序仍为 D2→Z本次不看。
+- `build_kml.py` 把 `d9-05` 纳入 `CONFIRMED_LODGING_IDS` 并删掉未被引用的 `PENDING_LODGING_IDS`：图标表示「当晚睡哪里」，营位待下单的状态由行程文字承载。重建 KML 后 `src/data/trip-data.json` 未变，构建产物哈希仍为 `index-DREmMvyV.js`，线上路书无需重新发布。
+- 复核飞书云文档现网内容：Iron Creek、394 Arthur Highway、已订备选、【待定-8】、朗塞斯顿改飞、帐篷营位、`Unpowered Site 16 Feet`、Mantra 均在，且无渡轮残留。
+
 ## 2026-08-27 Iron Creek Bay Estate 同步
 - 本地权威行程已改为 9/28—10/1 入住 Iron Creek Bay Estate；Quest Savoy 不删除，标为同日期“已订备选／待决定是否取消”。
 - 已同步 `days-raw.txt`、`doc-content.md`、`build_itinerary.py`、`itinerary.json`、`data/extras/confirmed-stays.json`、KML 与 `src/data/trip-data.json`；路书改为从 Sorell 自驾往返两天 Hobart 集合点，10/1 从 Sorell 出发。

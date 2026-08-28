@@ -12,17 +12,17 @@ data = json.loads((out_dir / "itinerary.json").read_text())
 
 ICON = "http://maps.google.com/mapfiles/kml/paddle/{}.png"
 LODGING_ICON = "http://maps.google.com/mapfiles/kml/pal2/icon10.png"
+# 住宿图标标记「当晚睡哪里」；d9-05 营位尚未下单，该状态由行程文字承载，不影响图标。
 CONFIRMED_LODGING_IDS = {
     "d4-03",
     "d5-02",
     "d5-03",
     "d8-05",
+    "d9-05",
     "d10-03",
     "d11-06",
     "d12-07",
 }
-# 10/2 营位已核实有位但尚未下单，先不套用「已确认住宿」图标。
-PENDING_LODGING_IDS = {"d9-05"}
 # Iron Creek Bay Estate 只在 D5–6 图层保留一个地图点；其余日期仍在路书中展示。
 KML_EXCLUDED_IDS = {"d6-04", "d7-02", "d8-00"}
 
