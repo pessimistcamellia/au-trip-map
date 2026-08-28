@@ -70,11 +70,14 @@ function badgeOf(place: IPlace) {
       :key="stop.key"
       :data-place-id="stop.place?.id"
       :tabindex="stop.place ? -1 : undefined"
-      :class="{
-        'is-stop': Boolean(stop.place),
-        done: stop.place ? completedIds.has(stop.place.id) : false,
-        focused: stop.place?.id === focusedPlaceId,
-      }"
+      :class="[
+        {
+          'is-stop': Boolean(stop.place),
+          done: stop.place ? completedIds.has(stop.place.id) : false,
+          focused: stop.place?.id === focusedPlaceId,
+        },
+        stop.place ? `category-${badgeOf(stop.place).category}` : null,
+      ]"
     >
       <button
         v-if="stop.place"
@@ -95,7 +98,10 @@ function badgeOf(place: IPlace) {
           <div class="stop-head">
             <span
               class="poi-icon"
-              :class="`poi-icon-${badgeOf(stop.place).iconKey}`"
+              :class="[
+                `poi-icon-${badgeOf(stop.place).iconKey}`,
+                `poi-icon-category-${badgeOf(stop.place).category}`,
+              ]"
               aria-hidden="true"
             />
             <span class="stop-kind">{{ badgeOf(stop.place).label }}</span>

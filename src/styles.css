@@ -13,6 +13,11 @@
   --warning: #934716;
   --warning-bg: #fff1e8;
   --on-accent: #2b280f;
+  --attraction: #9a7000;
+  --attraction-soft: #fff4c7;
+  --lodging: #737a72;
+  --lodging-soft: #f1f3ef;
+  --lodging-line: #d4d8d1;
   --radius: 12px;
   --shadow: 0 8px 24px rgba(65, 62, 43, 0.07);
   --shadow-soft: 0 3px 12px rgba(65, 62, 43, 0.06);
@@ -57,6 +62,11 @@
   --warning: #ffba89;
   --warning-bg: #402c23;
   --on-accent: #29260d;
+  --attraction: #f4d66e;
+  --attraction-soft: #38351f;
+  --lodging: #aeb5ad;
+  --lodging-soft: #2b2f2d;
+  --lodging-line: #4a504c;
   --shadow: 0 10px 28px rgba(0, 0, 0, 0.2);
   --shadow-soft: 0 4px 14px rgba(0, 0, 0, 0.16);
   --map-canvas: #34393a;
@@ -701,6 +711,26 @@ a[aria-disabled="true"] {
   cursor: not-allowed;
 }
 
+.day-timeline li.category-attraction .stop-index {
+  border-color: var(--accent);
+  background: var(--accent);
+  color: var(--on-accent);
+  box-shadow: 0 3px 9px color-mix(in srgb, var(--accent) 24%, transparent);
+}
+
+.day-timeline li.category-lodging .stop-index {
+  border-color: var(--lodging-line);
+  background: var(--lodging-soft);
+  color: var(--lodging);
+}
+
+.day-timeline li .stop-index:disabled {
+  border-color: var(--line);
+  background: var(--surface);
+  color: var(--muted);
+  box-shadow: none;
+}
+
 .stop-dot {
   z-index: 1;
   width: 9px;
@@ -722,6 +752,19 @@ a[aria-disabled="true"] {
   border-radius: 14px;
   background: var(--surface);
   box-shadow: var(--shadow-soft);
+}
+
+.day-timeline li.category-attraction .stop-body {
+  border-left: 3px solid var(--accent-secondary);
+  background:
+    linear-gradient(90deg, var(--attraction-soft), transparent 34%),
+    var(--surface);
+}
+
+.day-timeline li.category-lodging .stop-body {
+  border-color: var(--lodging-line);
+  background: var(--lodging-soft);
+  box-shadow: none;
 }
 
 .day-timeline li.focused .stop-body {
@@ -753,13 +796,25 @@ a[aria-disabled="true"] {
   flex: none;
   width: 17px;
   height: 17px;
-  background: var(--accent-strong);
+  background: var(--muted);
   mask-repeat: no-repeat;
   mask-position: center;
   mask-size: contain;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
   -webkit-mask-size: contain;
+}
+
+.poi-icon-category-attraction {
+  width: 19px;
+  height: 19px;
+  background: var(--attraction);
+}
+
+.poi-icon-category-lodging {
+  width: 15px;
+  height: 15px;
+  background: var(--lodging);
 }
 
 .poi-icon-landscape {
@@ -805,6 +860,21 @@ a[aria-disabled="true"] {
   color: var(--accent-strong);
   font-size: 11px;
   font-weight: 800;
+}
+
+.category-attraction .stop-kind {
+  background: var(--attraction-soft);
+  color: var(--attraction);
+}
+
+.category-lodging .stop-kind {
+  background: color-mix(in srgb, var(--lodging) 10%, transparent);
+  color: var(--lodging);
+  font-weight: 700;
+}
+
+.category-lodging .stop-head time {
+  color: var(--lodging);
 }
 
 .stop-body h4 {
@@ -1011,42 +1081,100 @@ a[aria-disabled="true"] {
   display: grid;
   width: 44px;
   height: 44px;
-  justify-items: center;
-  place-content: center;
+  place-items: center;
   border: 0;
   background: transparent;
   transform: translate(-50%, -100%);
   color: var(--map-marker-text);
 }
 
-.map-marker b {
-  display: grid;
+.map-marker::before {
+  position: absolute;
   width: 34px;
   height: 34px;
-  place-items: center;
   border: 3px solid var(--map-marker-border);
   border-radius: 50%;
   background: var(--map-marker);
   box-shadow: 0 3px 10px rgba(48, 50, 47, 0.26);
-  color: var(--map-marker-text);
-  font-size: 12px;
+  content: "";
 }
 
-.map-marker.selected b,
-.map-marker:hover b,
-.map-marker:focus-visible b {
+.map-marker-glyph {
+  z-index: 1;
+  width: 18px;
+  height: 18px;
+  background: var(--map-marker-text);
+  pointer-events: none;
+}
+
+.map-marker b {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  display: grid;
+  width: 18px;
+  height: 18px;
+  place-items: center;
+  border: 2px solid var(--map-marker-border);
+  border-radius: 50%;
+  background: var(--surface);
+  color: var(--text);
+  font-size: 9px;
+  line-height: 1;
+}
+
+.map-marker.category-attraction::before {
+  width: 38px;
+  height: 38px;
+  background: var(--accent);
+  box-shadow: 0 4px 13px color-mix(in srgb, var(--accent-strong) 30%, transparent);
+}
+
+.map-marker.category-attraction .map-marker-glyph {
+  width: 20px;
+  height: 20px;
+}
+
+.map-marker.category-lodging::before {
+  width: 31px;
+  height: 31px;
+  border-width: 2px;
+  border-radius: 9px;
+  background: var(--lodging);
+  box-shadow: 0 2px 7px color-mix(in srgb, var(--lodging) 24%, transparent);
+}
+
+.map-marker.category-lodging .map-marker-glyph {
+  width: 16px;
+  height: 16px;
+  background: var(--surface);
+}
+
+.map-marker.selected::before,
+.map-marker:hover::before,
+.map-marker:focus-visible::before {
   background: var(--map-marker-selected);
-  color: var(--map-marker-selected-text);
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.82);
 }
 
-.map-marker.pulsing b {
+.map-marker.selected .map-marker-glyph,
+.map-marker:hover .map-marker-glyph,
+.map-marker:focus-visible .map-marker-glyph {
+  background: var(--map-marker-selected-text);
+}
+
+.map-marker.pulsing::before {
   animation: map-marker-pulse 1.05s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
-.map-marker.optional b {
+.map-marker.optional::before {
   border-style: dashed;
   background: var(--map-marker-optional);
+}
+
+.map-marker.optional .map-marker-glyph {
+  background: var(--map-marker-text);
 }
 
 .map-marker > small {
@@ -1081,6 +1209,11 @@ a[aria-disabled="true"] {
   -webkit-box-orient: vertical;
   -webkit-line-clamp: 3;
   pointer-events: none;
+}
+
+.map-place-label.category-lodging {
+  color: var(--lodging);
+  font-weight: 650;
 }
 
 .map-place-label.left {
@@ -1175,7 +1308,6 @@ a[aria-disabled="true"] {
   line-height: 1.45;
 }
 
-.day-details,
 .prepare-groups details {
   margin: 10px 0;
   border: 1px solid var(--line);
@@ -1192,19 +1324,11 @@ summary {
   font-weight: 750;
 }
 
-.day-details article,
 .prepare-groups details > :not(summary) {
   margin: 0;
   padding: 0 15px 16px;
 }
 
-.day-details h3 {
-  margin: 20px 0 5px;
-  color: var(--accent-strong);
-  font-size: 13px;
-}
-
-.day-details p,
 .prepare-groups p,
 .detail-body p {
   margin: 0;

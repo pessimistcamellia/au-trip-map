@@ -620,6 +620,7 @@ onBeforeUnmount(() => {
             <section ref="rhythmMapSection" class="rhythm-section rhythm-map-section">
               <TripRhythmMap
                 :nodes="selectedDay.rhythm"
+                :places="dayPlaces"
                 :online="online"
                 :focused-place-id="focusedPlaceId"
                 :focus-request="focusRequest"
@@ -641,38 +642,6 @@ onBeforeUnmount(() => {
               />
             </section>
           </section>
-
-          <details class="day-details">
-            <summary>住宿与其他信息</summary>
-            <article>
-              <h3>住宿</h3>
-              <p>{{ selectedDay.lodging }}</p>
-              <template v-if="selectedDay.unassigned.booking.length">
-                <h3>其他预约与注意事项</h3>
-                <p>{{ selectedDay.unassigned.booking.join('\n') }}</p>
-              </template>
-              <template v-if="selectedDay.unassigned.highlights.length">
-                <h3>其他看点与玩法</h3>
-                <p>{{ selectedDay.unassigned.highlights.join('\n') }}</p>
-              </template>
-              <template v-if="selectedDay.unassigned.weather.length">
-                <h3>当日通用天气提醒</h3>
-                <p>{{ selectedDay.unassigned.weather.join('\n') }}</p>
-              </template>
-              <div class="link-list">
-                <a
-                  v-for="link in selectedDay.unassigned.links"
-                  :key="link.url"
-                  :href="link.url"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  {{ link.label }} <van-icon name="share-o" />
-                </a>
-              </div>
-            </article>
-          </details>
-
         </section>
 
         <section v-else-if="activeView === 'search'" class="search-view">

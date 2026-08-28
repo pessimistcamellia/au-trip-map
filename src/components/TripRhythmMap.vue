@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
-import type { IRhythmNode } from '../types'
+import { getPlaceCategoryBadge } from '../services/placeCategory'
+import type { IPlace, IRhythmNode } from '../types'
 import {
   calculateMapLabelLayouts,
   calculateMapViewport,
@@ -43,6 +44,7 @@ interface IPinchGesture {
 
 const props = defineProps<{
   nodes: IRhythmNode[]
+  places: IPlace[]
   online: boolean
   focusedPlaceId: string | null
   focusRequest: number
@@ -77,10 +79,20 @@ let pinch: IPinchGesture | undefined
 const points = computed<IMapPoint[]>(() =>
   getMappableRhythmNodes(props.nodes),
 )
+const placesById = computed(
+  () => new Map(props.places.map((place) => [place.id, place])),
+)
 const missingCount = computed(() => props.nodes.length - points.value.length)
 const mapUnavailable = computed(
   () => !props.online || !points.value.length || tileFailures.value >= 4,
 )
+
+function badgeOfPoint(point: IMapPoint) {
+  const place = point.placeId ? placesById.value.get(point.placeId) : undefined
+  return getPlaceCategoryBadge(
+    place ?? { name: point.title, name_en: null, category: undefined },
+  )
+}
 
 function clampLatitude(lat: number): number {
   return Math.max(-85.0511, Math.min(85.0511, lat))
@@ -504,11 +516,14 @@ onBeforeUnmount(() => {
           v-for="(point, index) in points"
           :key="point.id"
           class="map-marker"
-          :class="{
-            selected: focusedPlaceId === point.placeId,
-            pulsing: pulsePlaceId === point.placeId,
-            optional: point.priority === 'optional',
-          }"
+          :class="[
+            {
+              selected: focusedPlaceId === point.placeId,
+              pulsing: pulsePlaceId === point.placeId,
+              optional: point.priority === 'optional',
+            },
+            `category-${badgeOfPoint(point).category}`,
+          ]"
           :style="{
             left: `${markerPositions[index].left}px`,
             top: `${markerPositions[index].top}px`,
@@ -519,6 +534,11 @@ onBeforeUnmount(() => {
           @pointerdown.stop
           @click.stop.prevent="selectMapPoint(point)"
         >
+          <span
+            class="map-marker-glyph poi-icon"
+            :class="`poi-icon-${badgeOfPoint(point).iconKey}`"
+            aria-hidden="true"
+          />
           <b>{{ point.sequence ?? index + 1 }}</b>
           <small v-if="point.priority === 'optional'">可选</small>
         </button>
@@ -526,7 +546,10 @@ onBeforeUnmount(() => {
           v-for="(point, index) in points"
           :key="`label-${point.id}`"
           class="map-place-label"
-          :class="markerLabelLayouts[index].align"
+          :class="[
+            markerLabelLayouts[index].align,
+            `category-${badgeOfPoint(point).category}`,
+          ]"
           :style="{
             left: `${markerLabelLayouts[index].left}px`,
             top: `${markerLabelLayouts[index].top}px`,

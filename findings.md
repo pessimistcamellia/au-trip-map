@@ -1,5 +1,12 @@
 # 发现记录
 
+## 2026-08-28 路书地点视觉层级
+- 用户截图中的“住宿与其他信息”是日程页尾部的 `details.day-details`；住宿、预约、看点、天气与链接被二次汇总在这里，但地点本身已在编号时间轴和详情弹层中呈现，形成重复信息与额外页面长度。
+- 离线单文件导出也硬编码了同名标题和 `day.lodging`，若只删 Vue 模板会留下不一致，因此两处应一起删除；地点卡片仍保留住宿条目、导航和“更多”，不会删掉住宿地点本身。
+- 现状虽使用 `landscape.svg` 与 `hotel.svg` 两种 Material Symbols，但二者同为 17px、同色、同标签底色；内部地图更是所有点统一黄色编号圆，视觉上确实无法快速区分。
+- 新层级以景点为主：景点使用更大的金色圆形主标、山景 glyph、实心金色时间轴编号及卡片左侧强调；住宿使用较小的灰绿色圆角方形床铺标、低对比中性色卡片与标签。序号保留为角标，继续支持地图与文字时间轴双向定位。
+- 不引入新依赖，复用仓库已有 Material Symbols；明暗主题分别提供 `--attraction-*` 与 `--lodging-*` 语义变量。
+
 ## 2026-08-27 Iron Creek Bay Estate 双酒店保留
 - Iron Creek Bay Estate 官方地址为 `394 Arthur Highway, Sorell TAS 7172`；官方资料标注距 Hobart Airport 约 15 分钟、Hobart CBD 约 30 分钟车程。
 - 用户确认 2026-09-28 入住、10-01 退房；Iron Creek Bay Estate 与 Quest Savoy 两笔同日期订单都已预订，当前行程按 Iron Creek 连住三晚执行，Quest Savoy 保留为已订备选。

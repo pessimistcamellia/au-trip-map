@@ -646,6 +646,8 @@ describe('静态路书导出', () => {
     expect(html).toContain('<!doctype html>')
     expect(html).toContain('第 13 天')
     expect(html).toContain('默认未包含本机随手记')
+    expect(html).not.toContain('住宿与其他信息')
+    expect(html).toContain('Mantra Melbourne Airport')
     expect(html).not.toContain('<script>')
   })
 })
