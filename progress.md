@@ -5,6 +5,8 @@
 - `DayTimeline.vue` 为每个地点行增加语义类别 class；景点改为金色高强调编号、19px 山景图标与卡片左侧强调，住宿改为低调灰绿色编号、15px 床铺图标和无阴影中性色卡片。
 - `TripRhythmMap.vue` 新增 `places` 输入并按地点类别渲染地图 marker：主图形显示类别 glyph，序号缩为右上角角标；景点为较大的金色圆形，住宿为较小灰绿色圆角方形，住宿地名标签同步降权。
 - `styles.css` 新增明暗主题的景点／住宿语义色，清理已删除 `.day-details` 的死样式；未引入任何依赖。
+- 验证通过：`vue-tsc --noEmit`、Vitest 43/43、production build（PWA precache 14 条／704.58 KiB）；390×844 移动端浅色和深色本地验收无横向溢出。
+- 已发布 main `0eac4d1` 与 gh-pages `a00bfb9`。生产页 10/2 复验：无 `.day-details` 和“住宿与其他信息”文本；5 个地图点中 4 个为景点圆标、1 个为住宿方标，均带 glyph 与序号角标；时间轴分别带 `category-attraction`／`category-lodging`。
 
 ## 2026-08-28 住宿图标全量审计
 - 逐点回读 My Maps 图标 URL 发现三处不一致：`D9-5 Discovery Parks` 与 `D11-5 Twelve Apostles Motel` 仍是默认蓝钉（此前重导图层后未补回），`D12-4 泰迪观景台` 被误套黑底白床。
