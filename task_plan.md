@@ -57,6 +57,13 @@
 
 ## 各阶段
 
+### 阶段 71：补订 PDF／改期回填（Wild Ocean／Iron Creek／Platypus／Devils／Kalbarri）
+- [x] 复制新 PDF／截图到 `public/bookings/`，Kalbarri 附件改 PDF 优先
+- [x] Day7 改为 Wild Ocean Tasmania RJ3SPTY（9/30 8:00 Blowhole 集合；原 9/29 已改期）
+- [x] Day5 Iron Creek 订单 #5609248813；Day9 Platypus #32608261295407；Devils Sunset #375091008 19:00
+- [x] 清除【待定-9】；重建 itinerary／trip-data；测试、构建、发布
+- **状态：** complete
+
 ### 阶段 70：预订凭证附件（可点开全览）
 - [x] 复制 PDF／截图到 `public/bookings/`
 - [x] 扩展 `attachments` 数据字段与合并管线

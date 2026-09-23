@@ -1,5 +1,12 @@
 # 进度日志
 
+## 2026-09-23 补订 PDF／Wild Ocean 改期回填
+- 新附件入 `public/bookings/`：Wild Ocean RJ3SPTY（PDF＋改期截图＋天气政策）、Iron Creek **5609248813**、Platypus **32608261295407**、Devils Sunset **375091008**（确认＋二维码）、Kalbarri **#223533** 收据 PDF（优先于旧截图）。
+- Day7 改为自驾 Eaglehawk Neck **Blowhole pier**，08:00 Wild Ocean 2+ hour Scenic Tour（原订 9/29，邮件改期 **9/30**）；清除【待定-9】。
+- Day9：Platypus 10:00 已确认；Devils 改为 **19:00—20:15 Sunset Experience**（非 After Dark 17:30）。
+- 合并附件 17 个；`npm test` 45 通过；构建 `index-BIAipt6f.js`；已发布 gh-pages。
+
+
 ## 2026-09-23 预订凭证附件接入路书
 - 4 份携程入住凭证 PDF 写入 `public/bookings/`，并在地点详情「实用」页以折叠卡片展示；点击后全屏预览，可关闭返回。
 - 9/27 住宿由 Sweet Home 改为**宜必思快捷珀斯机场酒店**（确认号 2609270502／订单 1128150295267792）。

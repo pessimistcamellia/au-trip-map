@@ -25,12 +25,18 @@
         "restaurants": []
       },
       "parking": {
-        "summary": "酒店位于 394 Arthur Highway，当前计划连续入住三晚；自驾停车细节以订单和现场指引为准。",
+        "summary": "酒店位于 394 Arthur Highway；订单号 5609248813，连住三晚（9/28—10/1）；自驾停车细节以订单和现场指引为准。",
         "lots": [],
         "rules": [
-          "两天前往霍巴特集合点需额外预留约 30—40 分钟车程、CBD 停车和步行时间。"
+          "【核销】订单号 5609248813｜入住 2026-09-28｜退房 2026-10-01｜已付 AUD 340.69。",
+          "9/29 自驾 Triabunna Wharf 约 70—85 公里；9/30 自驾 Eaglehawk Neck Blowhole 约 50 分钟。",
+          "Quest Savoy 订单暂作已订备选保留。"
         ],
         "sources": [
+          {
+            "label": "Iron Creek Bay Estate（Google Maps 导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iron+Creek+Bay+Estate+394+Arthur+Highway+Sorell+TAS+7172"
+          },
           {
             "label": "Iron Creek Bay Estate 官方联系页",
             "url": "https://www.ironcreekbay.com.au/contact"
@@ -67,16 +73,28 @@
     "d7-00": {
       "category": "transport",
       "food": {
-        "summary": "Franklin Wharf 周边可步行购买早餐和外带饮品；旅行团供餐情况以电子票为准。",
+        "summary": "Blowhole 周边餐饮有限；建议自带早餐与晕船药，巡游后在 Eaglehawk Neck／Sorell 补给。",
         "restaurants": []
       },
       "parking": {
-        "summary": "当前从 Iron Creek Bay Estate 自驾前往，需另行选择霍巴特 CBD 合规停车位，再步行到集合点。",
+        "summary": "在 Blowhole 公共停车场下车步行至 pier；预留约 10 分钟。勿停餐车旁 1 小时限停位。",
         "lots": [],
         "rules": [
-          "【待定】塔斯曼岛当日团预订号尚未确认；至少提前 15 分钟到达，并以电子票标注的具体码头位置为准。"
+          "【核销】Wild Ocean Tasmania 订单 RJ3SPTY｜实际出发 2026-09-30 08:00（由 9/29 改期）｜已付 AUD 340.00。",
+          "集合：pier next to the Blowhole, Eaglehawk Neck；运营商 165b Pirates Bay Drive, Eaglehawk Neck TAS 7179。",
+          "电话 +61 (0) 473 770 416｜info@wildoceantasmania.com.au。",
+          "天气／最少 4 人成团；出发前一日约 17:00 邮件最终确认。"
         ],
-        "sources": []
+        "sources": [
+          {
+            "label": "The Blowhole Eaglehawk Neck（Google Maps 导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=The+Blowhole+Eaglehawk+Neck+TAS"
+          },
+          {
+            "label": "Wild Ocean Tasmania 官网",
+            "url": "https://www.wildoceantasmania.com.au"
+          }
+        ]
       }
     },
     "d8-00": {

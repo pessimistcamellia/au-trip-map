@@ -3,7 +3,7 @@
     "name": "澳大利亚自驾行程",
     "dates": "2026-09-24 — 2026-10-06",
     "source_doc": "https://guanghe.feishu.cn/docx/TAoHd0QFyoo7lpxGk9DcpN0nnCc",
-    "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内。9/25住Jurien Bay Tourist Park（预订号1933607）；9/26住Kalbarri Tudor（NewBook #223533）；9/28—9/30住Iron Creek Bay Estate（Quest Savoy备选保留）。9/29 Maria Island Same Day Return #1441927（自驾Triabunna Wharf）；9/30 Tasman Island当日团预订号待回填。10/1 Centennial Inn；10/2 Discovery Resorts Cradle Mountain #J-7412711（Powered 18 Feet）；9/27宜必思快捷珀斯机场（确认号2609270502／订单1128150295267792）；10/1 Centennial确认号82424142／订单1128150872550866；10/3 Mantra确认号B3R7AJ20530／订单1128150523355170；10/4 Twelve Apostles Motel 携程1128150508438717；10/5 Brady确认号1128150503480293／订单1128150503479647。",
+    "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内。9/25住Jurien Bay Tourist Park（预订号1933607）；9/26住Kalbarri Tudor（NewBook #223533）；9/28—9/30住Iron Creek Bay Estate（订单5609248813；Quest Savoy备选保留）。9/29 Maria Island Same Day Return #1441927（自驾Triabunna Wharf）；9/30 Wild Ocean Tasmania RJ3SPTY（Blowhole pier 08:00，由9/29改期）。10/1 Centennial Inn；10/2 Platypus House #32608261295407／Devils@Cradle Sunset #375091008／Discovery #J-7412711（Powered 18 Feet）；9/27宜必思快捷珀斯机场（确认号2609270502／订单1128150295267792）；10/1 Centennial确认号82424142／订单1128150872550866；10/3 Mantra确认号B3R7AJ20530／订单1128150523355170；10/4 Twelve Apostles Motel 携程1128150508438717；10/5 Brady确认号1128150503480293／订单1128150503479647。",
     "startDate": "2026-09-24",
     "endDate": "2026-10-06",
     "timezone": "Australia/Hobart",
@@ -364,7 +364,7 @@
       "day": 4,
       "date": "2026-09-27",
       "weekday": "周日",
-      "region": "卡尔巴里（Kalbarri）-Belmont（珀斯机场附近）",
+      "region": "卡尔巴里（Kalbarri）-Redcliffe（珀斯机场附近）",
       "route": "Kalbarri National Park（卡尔巴里国家公园） → 杰拉尔顿（Geraldton）补给 → 宜必思快捷珀斯机场酒店（Redcliffe）",
       "lodging": "已确认住宿：宜必思快捷珀斯机场酒店（ibis Styles Perth Airport）（317-319 Great Eastern Hwy, Redcliffe, Western Australia, 6104, Australia）。\n【核销预订】确认号 2609270502；携程订单号 1128150295267792；入住 2026-09-27（周日）14:00-23:30、退房 2026-09-28（周一）10:00前；标准大床房；住客 CHEN/ZHENG,ZHU/CHUMING；电话 0061-08-94782158。入住／对账时出示确认号或订单号。",
       "schedule": "06:30-07:15：驾车约38公里，卡尔巴里（Kalbarri）出发前往国家公园内陆区。\n07:15-08:15：Kalbarri Skywalk（卡尔巴里天空步道）。\n08:30-10:00：从Skywalk驾车约3公里至Nature’s Window（自然之窗），往返步行约1公里。\n10:00-10:30：游客设施休整、补水。\n10:30-13:30：驾车约176公里向南到杰拉尔顿（Geraldton），午餐、加油。\n14:00-19:30：继续南下约420公里至Redcliffe的宜必思快捷珀斯机场酒店；每2小时至少休息15-20分钟，14:00后办理入住。若国家公园高温或前晚睡眠不足，取消Nature’s Window，提前南下。",
@@ -488,10 +488,10 @@
       "weekday": "周一",
       "region": "珀斯（Perth）-霍巴特（Hobart）",
       "route": "宜必思快捷珀斯机场酒店 → 珀斯机场（Perth Airport）T1（还车）→ 霍巴特机场（Hobart Airport）（维珍澳洲 VA594，09:50-16:00）→ Iron Creek Bay Estate（Sorell连住三晚）",
-      "lodging": "当前计划入住（已订）：Iron Creek Bay Estate（394 Arthur Highway, Sorell TAS 7172；9月28日入住、10月1日退房，连住三晚）。酒店距霍巴特机场约15分钟、霍巴特CBD约30分钟车程，两天参加Hobart往返当日团时需自驾往返集合区域并另留停车时间。已订备选：Quest Savoy（38 Elizabeth Street, Hobart TAS 7000；同一日期的订单暂不取消）。【待定-8】两笔订单均保留，当前路书按Iron Creek Bay Estate执行，最终取消哪一笔待决定。",
-      "schedule": "06:30：从宜必思快捷珀斯机场酒店出发前往珀斯机场。\n06:50-07:10：到珀斯机场T1附近加满油。\n07:00-08:10：还车、托运行李和安检，最晚08:10进入候机区。\n09:50-16:00：乘维珍澳洲VA594，珀斯机场T1 → 霍巴特机场。\n16:00-17:05：取行李并办理塔州租车手续。\n17:05-17:25：前往Iron Creek Bay Estate，约15公里／15-20分钟。\n17:25以后：办理入住、在Sorell采购三晚所需补给，并复核9月29日和9月30日旅行团集合时间、CBD停车方案。",
-      "highlights": "本日重点：以跨州航班和入住为主，不安排远程景点。Iron Creek Bay Estate位于Sorell，靠近机场，但前往霍巴特集合点需自驾。",
-      "booking": "住宿已确认：Iron Creek Bay Estate与Quest Savoy两笔9月28日-10月1日订单均暂时保留；当前按Iron Creek Bay Estate连住三晚执行。\n已确认：9月29日 Maria Island Same Day Return（Reference #1441927，自驾 Triabunna Wharf）。必须确认：最终取消哪一笔住宿（Iron Creek vs Quest Savoy）；9月30日 Tasman Island／塔斯曼半岛当日团的最终订单、集合点和集合时间；不同平台／产品可能调整接送安排，以电子票为准。",
+      "lodging": "当前计划入住（已订）：Iron Creek Bay Estate（394 Arthur Highway, Sorell TAS 7172；9月28日入住、10月1日退房，连住三晚）。\n【核销预订】订单号 5609248813；入住 2026-09-28（周一）、退房 2026-10-01（周四）；住客 Zheng Chen；已付 AUD 340.69（2026-08-27）。酒店距霍巴特机场约15分钟；9/29 自驾 Triabunna、9/30 自驾 Eaglehawk Neck Blowhole，均不经霍巴特 CBD 集合。已订备选：Quest Savoy（38 Elizabeth Street, Hobart TAS 7000；同一日期的订单暂不取消）。【待定-8】两笔订单均保留，当前路书按Iron Creek Bay Estate执行，最终取消哪一笔待决定。",
+      "schedule": "06:30：从宜必思快捷珀斯机场酒店出发前往珀斯机场。\n06:50-07:10：到珀斯机场T1附近加满油。\n07:00-08:10：还车、托运行李和安检，最晚08:10进入候机区。\n09:50-16:00：乘维珍澳洲VA594，珀斯机场T1 → 霍巴特机场。\n16:00-17:05：取行李并办理塔州租车手续。\n17:05-17:25：前往Iron Creek Bay Estate，约15公里／15-20分钟。\n17:25以后：办理入住（出示订单号 5609248813）、在Sorell采购三晚所需补给，并复核9月29日 Triabunna 与9月30日 Blowhole 出发时间。",
+      "highlights": "本日重点：以跨州航班和入住为主，不安排远程景点。Iron Creek Bay Estate位于Sorell，靠近机场；次日东行玛丽亚岛、再次日东南行塔斯曼半岛巡游。",
+      "booking": "住宿已确认：Iron Creek Bay Estate 订单号 5609248813，已付 AUD 340.69；与 Quest Savoy 两笔9月28日-10月1日订单均暂时保留；当前按 Iron Creek Bay Estate 连住三晚执行。\n已确认：9月29日 Maria Island Same Day Return（Reference #1441927，自驾 Triabunna Wharf）；9月30日 Wild Ocean Tasmania（订单 RJ3SPTY，Blowhole pier 08:00，已由 9/29 改期）。必须确认：最终取消哪一笔住宿（Iron Creek vs Quest Savoy）。",
       "weather": "天气（长年气候参考，非逐日预报）：珀斯机场清晨约10-21°C；霍巴特机场／霍巴特CBD约6-15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层。BOM霍巴特气候。",
       "links": [
         {
@@ -584,8 +584,8 @@
           "id": "rhythm-7",
           "order": 7,
           "time": "17:25以后",
-          "title": "办理入住、在Sorell采购三晚所需补给，并复核9月29日和…",
-          "text": "办理入住、在Sorell采购三晚所需补给，并复核9月29日和9月30日旅行团集合时间、CBD停车方案。",
+          "title": "办理入住（出示订单号 5609248813）、在Sorell…",
+          "text": "办理入住（出示订单号 5609248813）、在Sorell采购三晚所需补给，并复核9月29日 Triabunna 与9月30日 Blowhole 出发时间。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -595,7 +595,7 @@
       ],
       "unassigned": {
         "booking": [
-          "已确认：9月29日 Maria Island Same Day Return（Reference #1441927，自驾 Triabunna Wharf）。"
+          "已确认：9月29日 Maria Island Same Day Return（Reference #1441927，自驾 Triabunna Wharf）；"
         ],
         "highlights": [
           "本日重点：以跨州航班和入住为主，不安排远程景点。"
@@ -714,16 +714,28 @@
       "day": 7,
       "date": "2026-09-30",
       "weekday": "周三",
-      "region": "霍巴特（Hobart）-Tasman Island（塔斯曼岛）当日团-Sorell",
-      "route": "Iron Creek Bay Estate → Franklin Wharf／旅行团指定集合点 → Tasman Island／塔斯曼半岛当日团 → Iron Creek Bay Estate",
-      "lodging": "继续入住：Iron Creek Bay Estate，同一房间第3晚；旅行团结束后从霍巴特自驾返回Sorell，不搬行李。Quest Savoy订单仍作为已订备选保留。",
-      "schedule": "出发前：从Iron Creek Bay Estate自驾约30-40分钟前往霍巴特CBD，另留停车和步行时间，至少提前15分钟到Franklin Wharf／订单指定集合点。\n白天：参加含霍巴特往返接送的Tasman Island／塔斯曼半岛当日团；海上巡游、陆上停靠和用餐顺序以运营方当天安排为准。\n傍晚：旅行团送回霍巴特后返回停车点，自驾约30-40分钟回Iron Creek Bay Estate，收拾行李并确认10月1日出发安排；夜间注意野生动物。",
-      "highlights": "Tasman Island Cruises（塔斯曼岛巡游）：Cape Pillar（皮勒角）的高耸dolerite海崖、海洞、瀑布、海豹群和海鸟是稳定核心；Dolphin（海豚）、Humpback Whale（座头鲸）与Southern Right Whale（南露脊鲸）属于迁徙季机会，不保证。10:00-13:00为核心观赏窗口。\nTasman Arch（塔斯曼拱门）／Devils Kitchen（魔鬼厨房）：以海浪侵蚀形成的天然拱门、深沟和崖壁为特色；平坦短线约15-30分钟，巡游后顺路补充陆上视角。\nTessellated Pavement（棋盘石）：岩层节理与盐风化形成规则块状纹理；退潮、岩面较干且有侧光时最清楚。本日只安排这两个短停，不再叠加长徒步。",
-      "booking": "【待定】塔斯曼岛／塔斯曼半岛当日团尚未在本批截图中确认预订号；9/30 行程暂按含 Hobart 往返接送的产品规划，集合点、出发时间与午餐以最终电子票为准。晕船药按说明提前服用。若产品包含Tasman Arch／Devils Kitchen，临行前复查工程页面。",
-      "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
+      "region": "Sorell-Eaglehawk Neck（鹰嘴颈）-塔斯曼半岛海上巡游-Sorell",
+      "route": "Iron Creek Bay Estate → Blowhole pier（Eaglehawk Neck 喷水洞码头）→ Wild Ocean Tasmania 2+ hour Scenic Tour → Tessellated Pavement／Tasman Arch（自驾短停）→ Iron Creek Bay Estate",
+      "lodging": "继续入住：Iron Creek Bay Estate，同一房间第3晚（订单 5609248813）；巡游与陆上短停结束后自驾回 Sorell，不搬行李。Quest Savoy订单仍作为已订备选保留。",
+      "schedule": "06:45-07:45：从 Iron Creek Bay Estate 自驾约 45-55 公里／约 50 分钟前往 Blowhole pier, Eaglehawk Neck；预留约 10 分钟找停车位并步行下码头（勿停餐车旁 1 小时限停位）。\n07:50：到达 pier 签到。\n08:00-约10:15：参加 Wild Ocean Tasmania「2+ hour Scenic Tour - Wildlife, Caves & Sea Cliffs」（订单 RJ3SPTY；原订 9/29 08:00，已邮件改期为 9/30 08:00）。\n约10:30-12:00：自驾短停 Tessellated Pavement（棋盘石，近旁）；视体力再去 Tasman Arch／Devils Kitchen。\n12:00以后：自驾返回 Iron Creek Bay Estate，收拾行李并确认 10/1 出发安排；夜间注意野生动物。",
+      "highlights": "Wild Ocean Tasmania（塔斯曼半岛海上巡游）：从 Eaglehawk Neck 出发约 2+ 小时，看海崖、海洞、野生动物与海豹是稳定核心；Dolphin（海豚）、Humpback Whale（座头鲸）与 Southern Right Whale（南露脊鲸）属于迁徙季机会，不保证。\nTasman Arch（塔斯曼拱门）／Devils Kitchen（魔鬼厨房）：以海浪侵蚀形成的天然拱门、深沟和崖壁为特色；平坦短线约 15-30 分钟，巡游后自驾补充陆上视角。\nTessellated Pavement（棋盘石）：岩层节理与盐风化形成规则块状纹理；退潮、岩面较干且有侧光时最清楚。本日只安排这两个短停，不再叠加长徒步。",
+      "booking": "巡游已确认：订单 RJ3SPTY；产品「2+ hour Scenic Tour - Wildlife, Caves & Sea Cliffs」；实际出发 2026-09-30 08:00（PDF 原写 9/29 08:00，运营方邮件已改期）；已付 AUD 340.00。\n集合点：Meeting point is at the pier next to the Blowhole in Eaglehawk Neck；运营商地址 165b Pirates Bay Drive, Eaglehawk Neck TAS 7179｜电话 +61 (0) 473 770 416｜官网｜一键导航。\n天气／成团：航次受天气影响且最少 4 人成团；出发前一日约 17:00 邮件最终确认；因天气或人数不足取消则全额退款。晕船药按说明提前服用。陆上短停前复查 Tasman Arch／Devils Kitchen 工程页面。",
+      "weather": "天气（长年气候参考，非逐日预报）：Sorell／Eaglehawk Neck／塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
       "links": [
         {
-          "label": "工程页面",
+          "label": "Blowhole pier, Eaglehawk Neck",
+          "url": "https://www.google.com/maps/search/?api=1&query=The+Blowhole+Eaglehawk+Neck+TAS"
+        },
+        {
+          "label": "官网",
+          "url": "https://www.wildoceantasmania.com.au"
+        },
+        {
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=The+Blowhole+Eaglehawk+Neck+TAS"
+        },
+        {
+          "label": "Tasman Arch／Devils Kitchen 工程页面",
           "url": "https://parks.tas.gov.au/be-involved/projects-and-programs/tasmans-arch-and-devils-kitchen-revitalisation-project"
         }
       ],
@@ -731,9 +743,9 @@
         {
           "id": "rhythm-1",
           "order": 1,
-          "time": "出发前",
+          "time": "06:45-07:45",
           "title": "Iron Creek Bay Estate（返程住宿）",
-          "text": "从Iron Creek Bay Estate自驾约30-40分钟前往霍巴特CBD，另留停车和步行时间，至少提前15分钟到Franklin Wharf／订单指定集合点。",
+          "text": "从 Iron Creek Bay Estate 自驾约 45-55 公里／约 50 分钟前往 Blowhole pier, Eaglehawk Neck；预留约 10 分钟找停车位并步行下码头（勿停餐车旁 1 小时限停位）。",
           "placeId": "d7-02",
           "sequence": 5,
           "priority": "main",
@@ -743,9 +755,9 @@
         {
           "id": "rhythm-2",
           "order": 2,
-          "time": "白天",
-          "title": "参加含霍巴特往返接送的Tasman Island／塔斯曼半岛…",
-          "text": "参加含霍巴特往返接送的Tasman Island／塔斯曼半岛当日团；海上巡游、陆上停靠和用餐顺序以运营方当天安排为准。",
+          "time": "07:50",
+          "title": "到达 pier 签到",
+          "text": "到达 pier 签到。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -755,9 +767,33 @@
         {
           "id": "rhythm-3",
           "order": 3,
-          "time": "傍晚",
-          "title": "旅行团送回霍巴特后返回停车点，自驾约30-40分钟回Iron…",
-          "text": "旅行团送回霍巴特后返回停车点，自驾约30-40分钟回Iron Creek Bay Estate，收拾行李并确认10月1日出发安排；夜间注意野生动物。",
+          "time": "08:00-约10:15",
+          "title": "Wild Ocean Tasmania海上巡游",
+          "text": "参加 Wild Ocean Tasmania「2+ hour Scenic Tour - Wildlife, Caves & Sea Cliffs」（订单 RJ3SPTY；原订 9/29 08:00，已邮件改期为 9/30 08:00）。",
+          "placeId": "d7-01",
+          "sequence": 2,
+          "priority": "main",
+          "lat": -42.582,
+          "lng": 148.065
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "约10:30-12:00",
+          "title": "棋盘石",
+          "text": "自驾短停 Tessellated Pavement（棋盘石，近旁）；视体力再去 Tasman Arch／Devils Kitchen。",
+          "placeId": "d7-04",
+          "sequence": 4,
+          "priority": "main",
+          "lat": -43.0136,
+          "lng": 147.9294
+        },
+        {
+          "id": "rhythm-5",
+          "order": 5,
+          "time": "12:00以后",
+          "title": "自驾返回 Iron Creek Bay Estate，收拾行…",
+          "text": "自驾返回 Iron Creek Bay Estate，收拾行李并确认 10/1 出发安排；夜间注意野生动物。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -767,15 +803,18 @@
       ],
       "unassigned": {
         "booking": [
-          "【待定】塔斯曼岛／塔斯曼半岛当日团尚未在本批截图中确认预订号；"
+          "巡游已确认：订单 RJ3SPTY；",
+          "产品「2+ hour Scenic Tour - Wildlife, Caves & Sea Cliffs」；",
+          "实际出发 2026-09-30 08:00（PDF 原写 9/29 08:00，运营方邮件已改期）；",
+          "已付 AUD 340.00。",
+          "天气／成团：航次受天气影响且最少 4 人成团；",
+          "出发前一日约 17:00 邮件最终确认；",
+          "因天气或人数不足取消则全额退款。",
+          "晕船药按说明提前服用。"
         ],
-        "highlights": [
-          "Tasman Island Cruises（塔斯曼岛巡游）：Cape Pillar（皮勒角）的高耸dolerite海崖、海洞、瀑布、海豹群和海鸟是稳定核心；",
-          "Dolphin（海豚）、Humpback Whale（座头鲸）与Southern Right Whale（南露脊鲸）属于迁徙季机会，不保证。",
-          "10:00-13:00为核心观赏窗口。"
-        ],
+        "highlights": [],
         "weather": [
-          "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；",
+          "天气（长年气候参考，非逐日预报）：Sorell／Eaglehawk Neck／塔斯曼半岛开放海岸约6-14°C；",
           "船上海风会显著降低体感。",
           "带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。"
         ],
@@ -903,9 +942,9 @@
       "region": "朗塞斯顿（Launceston）-美丽角（Beauty Point）-Cradle Mountain（摇篮山）",
       "route": "朗塞斯顿（Launceston）→ Platypus House（鸭嘴兽之家）→ Cradle Mountain Visitor Centre（摇篮山游客中心）→ Dove Lake（鸽子湖）／Ronny Creek（罗尼溪）→ Devils@Cradle（摇篮山恶魔保护园）→ Discovery Resorts - Cradle Mountain（Powered Site 18 Feet）",
       "lodging": "已确认住宿（露营）：Discovery Resorts - Cradle Mountain（3832 Cradle Mountain Road, Cradle Mountain TAS 7306；紧邻 Cradle Mountain Visitor Centre）。\n【核销预订】Online booking reference #J-7412711；入住 2026-10-02、退房 2026-10-03（1 晚）；2 位客人；营位 Powered Site - 18 Feet；已付清 AUD 73.65。入住／对账时出示预订号 J-7412711。\n营地电话 (03) 6492 1395。营地有 amenities block、营地厨房、BBQ 和投币洗衣；国家公园范围内禁止营火与明火，饮水按每人每天约 9 升自备。夜间喂食团结束后短程回营，不赶船。｜一键导航",
-      "schedule": "08:25-09:15：从朗塞斯顿（Launceston）住宿驾车约48公里到美丽角（Beauty Point）／Platypus House（鸭嘴兽之家），预留停车和签到时间；正常情况下完全来得及参加10:00导览。\n10:00-11:00：参加Platypus House（鸭嘴兽之家）第一场向导团，在白天稳定观察Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）。\n11:00-11:30：简餐、取外带午餐并离开。\n11:30-13:50：驾车约140公里前往Cradle Mountain Visitor Centre（摇篮山游客中心）；山路按2小时20分预留，不增加中途景点。\n13:50-14:20：办理parks pass／shuttle，寄存不需要的物品。\n14:20-15:25：乘接驳车约10公里到Dove Lake（鸽子湖），先看经典湖面与Cradle轮廓，再按体能只走湖东岸短段后原路返回。\n15:25-16:25：视接驳与体力在Ronny Creek（罗尼溪）下车，沿button-grass草原木栈道轻走，寻找Wombat（袋熊）、Pademelon（塔斯马尼亚沙袋鼠）和Short-beaked echidna（短喙针鼹）；若前段延误，Ronny Creek缩短或移到10/3上午。\n16:25-17:00：乘末段接驳返回游客中心。\n17:00-17:20：驾车约5-8公里到Devils@Cradle（摇篮山恶魔保护园）。\n17:30-18:45：参加After Dark Feeding Tour（夜间喂食团），观察Tasmanian devil（袋獾）、Eastern quoll（东袋鼬）与Spotted-tail quoll（斑尾袋鼬）。\n18:45以后：短程回Discovery Parks - Cradle Mountain营位搭帐篷；天黑后山区气温接近0°C，先搭好帐篷再用营地厨房备餐。",
-      "highlights": "Platypus House（鸭嘴兽之家）：室内／半室内环境能在白天稳定看到活跃进食的Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）；10:00第一场最利于从朗塞斯顿衔接摇篮山。\nCradle Mountain（摇篮山）／Dove Lake（鸽子湖）：冰川湖、dolerite山体、pencil pine与高山荒原是核心；10/2下午先完成经典湖景和短段湖岸，不走Cradle Summit（摇篮山顶），也不强求完整环湖。\nRonny Creek（罗尼溪）：草原和木栈道是观察野生袋熊的轻量地点之一，下午后段逐渐接近动物活跃窗口。\nDevils@Cradle（摇篮山恶魔保护园）：17:30夜间喂食团正值袋獾和袋鼬活跃时段，可结合Devil Facial Tumour Disease了解保育工作。",
-      "booking": "住宿已确认：Discovery Resorts - Cradle Mountain，预订号 #J-7412711，Powered Site - 18 Feet，10/2-10/3，2 客人，已付 AUD 73.65。地址 3832 Cradle Mountain Road, Cradle Mountain TAS 7306｜电话 (03) 6492 1395｜一键导航。\nPlatypus House（鸭嘴兽之家）必须预约：开放时间10:00-15:30、最后一场15:00；预订10:00第一场，成人当前AUD 29.95／人。官方介绍｜官方预订。朗塞斯顿至美丽角约48公里／45分钟，本方案08:25出发并留出45分钟余量。\nDevils@Cradle（摇篮山恶魔保护园）必须预约：17:30 After Dark Feeding Tour约1小时15分，成人AUD 40／人。官方场次与订票。\n公园费用与接驳：需有效parks pass；10月2日处于夏令时切换前，官方季节表约08:45-17:00，可能随天气调整。官方接驳说明。若13:50以后才到游客中心，优先Dove Lake（鸽子湖），把Ronny Creek（罗尼溪）移至10/3上午。",
+      "schedule": "08:25-09:15：从朗塞斯顿（Launceston）住宿驾车约48公里到美丽角（Beauty Point）／Platypus House（鸭嘴兽之家），预留停车和签到时间；正常情况下完全来得及参加10:00导览。\n10:00-10:45：参加Platypus House（鸭嘴兽之家）Guided Tour（预订号 32608261295407），在白天稳定观察Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）。\n10:45-11:30：简餐、取外带午餐并离开。\n11:30-13:50：驾车约140公里前往Cradle Mountain Visitor Centre（摇篮山游客中心）；山路按2小时20分预留，不增加中途景点。\n13:50-14:20：办理parks pass／shuttle，寄存不需要的物品。\n14:20-15:25：乘接驳车约10公里到Dove Lake（鸽子湖），先看经典湖面与Cradle轮廓，再按体能只走湖东岸短段后原路返回。\n15:25-16:25：视接驳与体力在Ronny Creek（罗尼溪）下车，沿button-grass草原木栈道轻走，寻找Wombat（袋熊）、Pademelon（塔斯马尼亚沙袋鼠）和Short-beaked echidna（短喙针鼹）；若前段延误，Ronny Creek缩短或移到10/3上午。\n16:25-17:00：乘末段接驳返回游客中心。\n17:00-18:40：回 Discovery Resorts - Cradle Mountain 营位搭帐篷、简餐；天黑后山区气温接近0°C，先搭好帐篷再用营地厨房。\n18:40-18:55：驾车约数公里到 Devils@Cradle（3950 Cradle Mountain Rd）；提前 10-15 分钟到场。\n19:00-20:15：参加 Sunset Experience Tour（预订号 375091008），观察Tasmanian devil（袋獾）、Eastern quoll（东袋鼬）与Spotted-tail quoll（斑尾袋鼬）。\n20:15以后：短程回营；户外体验全天候进行，带保暖与防雨层。",
+      "highlights": "Platypus House（鸭嘴兽之家）：室内／半室内环境能在白天稳定看到活跃进食的Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）；10:00第一场最利于从朗塞斯顿衔接摇篮山。\nCradle Mountain（摇篮山）／Dove Lake（鸽子湖）：冰川湖、dolerite山体、pencil pine与高山荒原是核心；10/2下午先完成经典湖景和短段湖岸，不走Cradle Summit（摇篮山顶），也不强求完整环湖。\nRonny Creek（罗尼溪）：草原和木栈道是观察野生袋熊的轻量地点之一，下午后段逐渐接近动物活跃窗口。\nDevils@Cradle（摇篮山恶魔保护园）：19:00 Sunset Experience 正值黄昏／夜间袋獾和袋鼬活跃时段，可结合Devil Facial Tumour Disease了解保育工作。",
+      "booking": "住宿已确认：Discovery Resorts - Cradle Mountain，预订号 #J-7412711，Powered Site - 18 Feet，10/2-10/3，2 客人，已付 AUD 73.65。地址 3832 Cradle Mountain Road, Cradle Mountain TAS 7306｜电话 (03) 6492 1395｜一键导航。\nPlatypus House（鸭嘴兽之家）已确认：预订号 32608261295407；Guided Tour - Platypus Echidna enclosures（45 分钟）；2026-10-02 10:00；2 adults；已付 AUD 59.90。地址 Wharf Flinders Street, Beauty Point TAS 7270｜电话 03 6383 4884｜官方介绍｜一键导航。朗塞斯顿至美丽角约48公里／45分钟，本方案08:25出发并留出余量。\nDevils@Cradle（摇篮山恶魔保护园）已确认：预订号 375091008；Sunset Experience 2026-10-02 19:00-20:15；2 Adults；已付 AUD 208.80。会面 3950 Cradle Mountain Rd, Cradle Mountain TAS 7306｜提前 10-15 分钟｜电话 +61 (03) 6492 1491｜官方页｜一键导航。入场出示二维码票；17:00 后场次迟到超过约 10 分钟可能无法入场。\n公园费用与接驳：需有效parks pass；10月2日处于夏令时切换前，官方季节表约08:45-17:00，可能随天气调整。官方接驳说明。若13:50以后才到游客中心，优先Dove Lake（鸽子湖），把Ronny Creek（罗尼溪）移至10/3上午。",
       "weather": "天气（长年气候参考，非逐日预报）：朗塞斯顿（Launceston）／美丽角（Beauty Point）约6-17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0-10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。",
       "links": [
         {
@@ -925,12 +964,16 @@
           "url": "https://platypushouse.com.au/"
         },
         {
-          "label": "官方预订",
-          "url": "https://bookeo.com/platypus"
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Platypus+House+Wharf+Flinders+Street+Beauty+Point+TAS"
         },
         {
-          "label": "官方场次与订票",
-          "url": "https://devilsatcradle.com/admission-tours/"
+          "label": "官方页",
+          "url": "https://devilsatcradle.com/sunset-experience-tour/"
+        },
+        {
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Devils+at+Cradle+3950+Cradle+Mountain+Rd"
         },
         {
           "label": "官方接驳说明",
@@ -941,9 +984,9 @@
         {
           "id": "rhythm-1",
           "order": 1,
-          "time": "08:25-11:00",
+          "time": "08:25-10:45",
           "title": "鸭嘴兽之家",
-          "text": "从朗塞斯顿（Launceston）住宿驾车约48公里到美丽角（Beauty Point）／Platypus House（鸭嘴兽之家），预留停车和签到时间；正常情况下完全来得及参加10:00导览。\n参加Platypus House（鸭嘴兽之家）第一场向导团，在白天稳定观察Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）。",
+          "text": "从朗塞斯顿（Launceston）住宿驾车约48公里到美丽角（Beauty Point）／Platypus House（鸭嘴兽之家），预留停车和签到时间；正常情况下完全来得及参加10:00导览。\n参加Platypus House（鸭嘴兽之家）Guided Tour（预订号 32608261295407），在白天稳定观察Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）。",
           "placeId": "d9-01",
           "sequence": 1,
           "priority": "main",
@@ -953,7 +996,7 @@
         {
           "id": "rhythm-2",
           "order": 2,
-          "time": "11:00-11:30",
+          "time": "10:45-11:30",
           "title": "简餐、取外带午餐并离开",
           "text": "简餐、取外带午餐并离开。",
           "placeId": null,
@@ -1025,9 +1068,21 @@
         {
           "id": "rhythm-8",
           "order": 8,
-          "time": "17:00-17:20",
+          "time": "17:00-18:40",
+          "title": "Discovery Resorts – Cradle Mountain（营地）",
+          "text": "回 Discovery Resorts - Cradle Mountain 营位搭帐篷、简餐；天黑后山区气温接近0°C，先搭好帐篷再用营地厨房。",
+          "placeId": "d9-05",
+          "sequence": 5,
+          "priority": "main",
+          "lat": -41.58018,
+          "lng": 145.937834
+        },
+        {
+          "id": "rhythm-9",
+          "order": 9,
+          "time": "18:40-18:55",
           "title": "摇篮山恶魔保护园",
-          "text": "驾车约5-8公里到Devils@Cradle（摇篮山恶魔保护园）。",
+          "text": "驾车约数公里到 Devils@Cradle（3950 Cradle Mountain Rd）；提前 10-15 分钟到场。",
           "placeId": "d9-04",
           "sequence": 4,
           "priority": "main",
@@ -1035,11 +1090,11 @@
           "lng": 145.93
         },
         {
-          "id": "rhythm-9",
-          "order": 9,
-          "time": "17:30-18:45",
-          "title": "参加After Dark Feeding Tour（夜间喂食…",
-          "text": "参加After Dark Feeding Tour（夜间喂食团），观察Tasmanian devil（袋獾）、Eastern quoll（东袋鼬）与Spotted-tail quoll（斑尾袋鼬）。",
+          "id": "rhythm-10",
+          "order": 10,
+          "time": "19:00-20:15",
+          "title": "参加 Sunset Experience Tour（预订号 …",
+          "text": "参加 Sunset Experience Tour（预订号 375091008），观察Tasmanian devil（袋獾）、Eastern quoll（东袋鼬）与Spotted-tail quoll（斑尾袋鼬）。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -1047,11 +1102,11 @@
           "lng": null
         },
         {
-          "id": "rhythm-10",
-          "order": 10,
-          "time": "18:45以后",
-          "title": "短程回Discovery Parks - Cradle Mo…",
-          "text": "短程回Discovery Parks - Cradle Mountain营位搭帐篷；天黑后山区气温接近0°C，先搭好帐篷再用营地厨房备餐。",
+          "id": "rhythm-11",
+          "order": 11,
+          "time": "20:15以后",
+          "title": "短程回营",
+          "text": "短程回营；户外体验全天候进行，带保暖与防雨层。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -1552,7 +1607,7 @@
       "region": "墨尔本（Melbourne）-香港（Hong Kong）-北京（Beijing）",
       "route": "墨尔本中央商务区（Melbourne CBD） 短停 → 墨尔本机场（Melbourne Airport）T2（香港航空 HX036）→ 香港国际机场（Hong Kong International Airport）T1／T2 转机（香港航空 HX304）→ 北京首都国际机场（Beijing Capital International Airport）T2",
       "lodging": "飞机上；不安排住宿。",
-      "schedule": "07:00-08:00：若酒店步行可达（单程通常约0.5-2公里），到 Queen Victoria Market（维多利亚女王市场） 早餐／短逛；周二市场06:00-15:00，specialty shopping 09:00才开。当天不去Puffing Billy、动物园或远郊--Puffing Billy 最早一班 10:00 从 Belgrave 发车、最短往返 11:55 才回到 Belgrave，加上 Belgrave→墨尔本机场约1小时，落地机场已 13:00，正好是 HX036 的起飞时刻；而国际航班需提前3小时（10:00）到机场办理 TRS 退税与托运，两者相差约4小时，任何组合都不可行。\n08:30-09:00：从 墨尔本中央商务区（Melbourne CBD） 驾车约23公里前往 墨尔本机场（Melbourne Airport）T2。\n09:30-12:00：TRS商品查验、退税、值机、托运行李和安检。\n13:00-19:40：两人乘香港航空 HX036，墨尔本机场（Melbourne Airport）T2 → 香港国际机场（Hong Kong International Airport）T1，直线航程约7,410公里，计划飞行约9小时40分。\n19:40-20:40：香港国际机场（Hong Kong International Airport） 仅60分钟转机，航站楼内步行／摆渡约1-2公里，由T1前往T2／下一登机口，不购物、不用餐。\n20:40-23:40：乘 HX304，香港国际机场（Hong Kong International Airport）T2 → 北京首都国际机场（Beijing Capital International Airport）T2，直线航程约1,990公里，计划飞行3小时。以上均为各机场当地时间。",
+      "schedule": "07:00-08:00：若酒店步行可达（单程通常约0.5-2公里），到 Queen Victoria Market（维多利亚女王市场） 早餐／短逛；周二市场06:00-15:00，specialty shopping 09:00才开。当天不去Puffing Billy、动物园或远郊。\n08:30-09:00：从 墨尔本中央商务区（Melbourne CBD） 驾车约23公里前往 墨尔本机场（Melbourne Airport）T2。\n09:30-12:00：TRS商品查验、退税、值机、托运行李和安检。\n13:00-19:40：两人乘香港航空 HX036，墨尔本机场（Melbourne Airport）T2 → 香港国际机场（Hong Kong International Airport）T1，直线航程约7,410公里，计划飞行约9小时40分。\n19:40-20:40：香港国际机场（Hong Kong International Airport） 仅60分钟转机，航站楼内步行／摆渡约1-2公里，由T1前往T2／下一登机口，不购物、不用餐。\n20:40-23:40：乘 HX304，香港国际机场（Hong Kong International Airport）T2 → 北京首都国际机场（Beijing Capital International Airport）T2，直线航程约1,990公里，计划飞行3小时。以上均为各机场当地时间。",
       "highlights": "Queen Victoria Market（维多利亚女王市场）：1878年延续至今的工作型市场、鲜食大厅、移民饮食和露天棚架是看点；周二07:00-08:00适合吃早餐并看生鲜摊开市。其余时间为机场与国际航班转场，不再安排动物园或远郊景点。",
       "booking": "Queen Victoria Market（维多利亚女王市场）：周二06:00-15:00营业，specialty shopping 09:00才开；本日07:00-08:00短逛，免费、无需预约。官方营业时间。\n墨尔本机场（Melbourne Airport）／TRS：建议09:30-10:00到达；高价退税商品可能需在托运前查验，护照、登机牌、原始税票和商品放在可取位置。\n香港转机：仅60分钟。在墨尔本值机时必须确认行李直挂北京、一次领取两段登机牌，并让柜台确认实际转机路线；抵港后直接跟随Transfer指示，不购物、不用餐。机票已确定，无另购门票。",
       "weather": "天气（长年气候参考，非逐日预报）：墨尔本中央商务区（Melbourne CBD）／Queen Victoria Market（维多利亚女王市场）／墨尔本机场（Melbourne Airport）通常约9-20°C，清晨偏凉且可能阵雨；香港国际机场（Hong Kong International Airport）10月上旬通常约24-30°C，仍可能受强降雨或热带气旋影响；北京（Beijing）约9-22°C，晴燥且昼夜温差大。随身保留薄外套；出发前24小时重点查香港热带气旋信号，因为60分钟转机几乎没有吸收延误的余量。BOM墨尔本气候｜香港天文台机场气候。",
@@ -1576,7 +1631,7 @@
           "order": 1,
           "time": "07:00-08:00",
           "title": "维多利亚女王市场",
-          "text": "若酒店步行可达（单程通常约0.5-2公里），到 Queen Victoria Market（维多利亚女王市场） 早餐／短逛；周二市场06:00-15:00，specialty shopping 09:00才开。当天不去Puffing Billy、动物园或远郊--Puffing Billy 最早一班 10:00 从 Belgrave 发车、最短往返 11:55 才回到 Belgrave，加上 Belgrave→墨尔本机场约1小时，落地机场已 13:00，正好是 HX036 的起飞时刻；而国际航班需提前3小时（10:00）到机场办理 TRS 退税与托运，两者相差约4小时，任何组合都不可行。",
+          "text": "若酒店步行可达（单程通常约0.5-2公里），到 Queen Victoria Market（维多利亚女王市场） 早餐／短逛；周二市场06:00-15:00，specialty shopping 09:00才开。当天不去Puffing Billy、动物园或远郊。",
           "placeId": "d13-01",
           "sequence": 1,
           "priority": "main",
@@ -2842,14 +2897,14 @@
       },
       "attachments": [
         {
-          "id": "kalbarri-223533",
-          "title": "预订确认 · Kalbarri Tudor Holiday Park",
-          "kind": "image",
-          "file": "kalbarri-tudor-223533.jpg",
-          "url": "bookings/kalbarri-tudor-223533.jpg",
+          "id": "kalbarri-223533-pdf",
+          "title": "税务收据 · Kalbarri Tudor Holiday Park",
+          "kind": "pdf",
+          "file": "kalbarri-tudor-223533-receipt.pdf",
+          "url": "bookings/kalbarri-tudor-223533-receipt.pdf",
           "orderRef": "223533",
           "confirmRef": "223533",
-          "summary": "NewBook #223533｜Unpowered Site｜入住 2026-09-26｜退房 2026-09-27｜2成人｜电话 (08) 9937 1077"
+          "summary": "TAX RECEIPT #310607｜Booking #223533｜26–27 Sep 2026｜已付 AUD 68.68｜电话 99371077"
         }
       ]
     },
@@ -3403,10 +3458,10 @@
       ],
       "sequence": 1,
       "dayInfo": {
-        "booking": [],
-        "highlights": [
-          "Iron Creek Bay Estate位于Sorell，靠近机场，但前往霍巴特集合点需自驾。"
+        "booking": [
+          "9月30日 Wild Ocean Tasmania（订单 RJ3SPTY，Blowhole pier 08:00，已由 9/29 改期）。"
         ],
+        "highlights": [],
         "weather": [
           "霍巴特机场／霍巴特CBD约6-15°C，傍晚常见阵雨、海风和明显风寒。",
           "落地后换长裤、保暖中层及防风防水外层。",
@@ -3537,10 +3592,8 @@
       "sequence": 3,
       "dayInfo": {
         "booking": [
-          "住宿已确认：Iron Creek Bay Estate与Quest Savoy两笔9月28日-10月1日订单均暂时保留；",
-          "必须确认：最终取消哪一笔住宿（Iron Creek vs Quest Savoy）；",
-          "9月30日 Tasman Island／塔斯曼半岛当日团的最终订单、集合点和集合时间；",
-          "不同平台／产品可能调整接送安排，以电子票为准。"
+          "与 Quest Savoy 两笔9月28日-10月1日订单均暂时保留；",
+          "必须确认：最终取消哪一笔住宿（Iron Creek vs Quest Savoy）。"
         ],
         "highlights": [],
         "weather": [],
@@ -3576,32 +3629,37 @@
       "date": "2026-09-28",
       "status": "visit",
       "order_in_day": 2,
-      "highlights": "当前计划入住的已订住宿；位于Sorell，连续三晚自驾往返霍巴特及两个当日团集合点。",
+      "highlights": "当前计划入住的已订住宿；位于Sorell，连续三晚；9/29自驾Triabunna、9/30自驾Eaglehawk Neck。",
       "weather": "天气（长年气候参考，非逐日预报）：珀斯机场清晨约10-21°C；霍巴特机场／霍巴特CBD约6-15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层。BOM霍巴特气候。",
       "duration": "9月28日-10月1日连住三晚",
-      "transport": "霍巴特机场约15分钟车程；霍巴特CBD约30分钟车程",
-      "notes": "地址394 Arthur Highway；Quest Savoy订单也已保留，最终取消哪一笔待决定。",
+      "transport": "霍巴特机场约15分钟车程；Eaglehawk Neck约50分钟车程",
+      "notes": "【核销】订单号5609248813｜已付AUD 340.69（2026-08-27）｜住客Zheng Chen。地址394 Arthur Highway, Sorell TAS 7172。一键导航。Quest Savoy订单也已保留，最终取消哪一笔待决定。",
       "lat": -42.7844,
       "lng": 147.5855,
       "geocode_source": "official_address",
       "priority": "main",
       "sections": {
-        "practical": "地址394 Arthur Highway；Quest Savoy订单也已保留，最终取消哪一笔待决定。"
+        "practical": "【核销】订单号5609248813｜已付AUD 340.69（2026-08-27）｜住客Zheng Chen。地址394 Arthur Highway, Sorell TAS 7172。一键导航。Quest Savoy订单也已保留，最终取消哪一笔待决定。"
       },
       "links": [
         {
           "label": "BOM霍巴特气候",
           "url": "https://www.bom.gov.au/climate/averages/tables/cw_094029.shtml"
+        },
+        {
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Iron+Creek+Bay+Estate+394+Arthur+Highway+Sorell+TAS+7172"
         }
       ],
       "sequence": 2,
       "dayInfo": {
         "booking": [
-          "住宿已确认：Iron Creek Bay Estate与Quest Savoy两笔9月28日-10月1日订单均暂时保留；",
-          "当前按Iron Creek Bay Estate连住三晚执行。"
+          "住宿已确认：Iron Creek Bay Estate 订单号 5609248813，已付 AUD 340.69；",
+          "当前按 Iron Creek Bay Estate 连住三晚执行。"
         ],
         "highlights": [
-          "Iron Creek Bay Estate位于Sorell，靠近机场，但前往霍巴特集合点需自驾。"
+          "Iron Creek Bay Estate位于Sorell，靠近机场；",
+          "次日东行玛丽亚岛、再次日东南行塔斯曼半岛巡游。"
         ],
         "weather": [],
         "links": []
@@ -3620,18 +3678,36 @@
         "restaurants": []
       },
       "parking": {
-        "summary": "酒店位于 394 Arthur Highway，当前计划连续入住三晚；自驾停车细节以订单和现场指引为准。",
+        "summary": "酒店位于 394 Arthur Highway；订单号 5609248813，连住三晚（9/28—10/1）；自驾停车细节以订单和现场指引为准。",
         "lots": [],
         "rules": [
-          "两天前往霍巴特集合点需额外预留约 30—40 分钟车程、CBD 停车和步行时间。"
+          "【核销】订单号 5609248813｜入住 2026-09-28｜退房 2026-10-01｜已付 AUD 340.69。",
+          "9/29 自驾 Triabunna Wharf 约 70—85 公里；9/30 自驾 Eaglehawk Neck Blowhole 约 50 分钟。",
+          "Quest Savoy 订单暂作已订备选保留。"
         ],
         "sources": [
+          {
+            "label": "Iron Creek Bay Estate（Google Maps 导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=Iron+Creek+Bay+Estate+394+Arthur+Highway+Sorell+TAS+7172"
+          },
           {
             "label": "Iron Creek Bay Estate 官方联系页",
             "url": "https://www.ironcreekbay.com.au/contact"
           }
         ]
-      }
+      },
+      "attachments": [
+        {
+          "id": "iron-creek-5609248813",
+          "title": "预订确认 · Iron Creek Bay Estate",
+          "kind": "image",
+          "file": "iron-creek-5609248813.png",
+          "url": "bookings/iron-creek-5609248813.png",
+          "orderRef": "5609248813",
+          "confirmRef": "5609248813",
+          "summary": "订单号 5609248813｜Iron Creek Bay Estate｜394 Arthur Highway, Sorell TAS 7172｜入住 2026-09-28｜退房 2026-10-01｜已付 AUD 340.69（2026-08-27）｜住客 Zheng Chen"
+        }
+      ]
     },
     {
       "id": "d6-00",
@@ -3990,94 +4066,129 @@
     },
     {
       "id": "d7-00",
-      "name": "Franklin Wharf（集合点）",
-      "name_en": "Franklin Wharf, Hobart TAS",
+      "name": "Blowhole pier（集合点）",
+      "name_en": "The Blowhole pier, Eaglehawk Neck TAS 7179",
       "day": 7,
       "date": "2026-09-30",
       "status": "visit",
       "order_in_day": 1,
-      "highlights": "Tasman Island当日团的Hobart集合区域；最终位置以电子票为准。",
-      "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
-      "duration": "提前15分钟到达",
-      "transport": "从Iron Creek Bay Estate自驾约30-40分钟到霍巴特集合区域",
-      "notes": "【待定】塔斯曼团预订号尚未确认；选择含Hobart往返接送的产品；需另留CBD停车和步行时间。",
-      "lat": -42.8833098,
-      "lng": 147.3334905,
-      "geocode_source": "google_maps",
+      "highlights": "Wild Ocean Tasmania集合点：喷水洞旁码头；预留约10分钟停车并步行下码头。",
+      "weather": "天气（长年气候参考，非逐日预报）：Sorell／Eaglehawk Neck／塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
+      "duration": "07:50前到达／08:00开船",
+      "transport": "从Iron Creek Bay Estate自驾约45-55公里／约50分钟",
+      "notes": "【核销】订单RJ3SPTY｜集合 pier next to the Blowhole｜运营商165b Pirates Bay Drive, Eaglehawk Neck TAS 7179｜电话+61 (0) 473 770 416。一键导航。勿停餐车旁1小时限停位。",
+      "lat": -43.0035,
+      "lng": 147.9255,
+      "geocode_source": "official_address",
       "priority": "main",
       "sections": {
-        "practical": "【待定】塔斯曼团预订号尚未确认；选择含Hobart往返接送的产品；需另留CBD停车和步行时间。"
+        "practical": "【核销】订单RJ3SPTY｜集合 pier next to the Blowhole｜运营商165b Pirates Bay Drive, Eaglehawk Neck TAS 7179｜电话+61 (0) 473 770 416。一键导航。勿停餐车旁1小时限停位。"
       },
-      "links": [],
+      "links": [
+        {
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=The+Blowhole+Eaglehawk+Neck+TAS"
+        }
+      ],
       "sequence": 1,
       "dayInfo": {
         "booking": [
-          "9/30 行程暂按含 Hobart 往返接送的产品规划，集合点、出发时间与午餐以最终电子票为准。",
-          "晕船药按说明提前服用。"
+          "集合点：Meeting point is at the pier next to the Blowhole in Eaglehawk Neck；",
+          "运营商地址 165b Pirates Bay Drive, Eaglehawk Neck TAS 7179｜电话 +61 (0) 473 770 416｜官网｜一键导航。"
         ],
         "highlights": [],
         "weather": [],
         "links": [
           {
-            "label": "工程页面",
-            "url": "https://parks.tas.gov.au/be-involved/projects-and-programs/tasmans-arch-and-devils-kitchen-revitalisation-project"
+            "label": "官网",
+            "url": "https://www.wildoceantasmania.com.au"
+          },
+          {
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=The+Blowhole+Eaglehawk+Neck+TAS"
           }
         ]
       },
       "weatherDetail": {
-        "temperatureRange": "6-15°C",
+        "temperatureRange": "6-14°C",
         "granularity": "nearby",
-        "basis": "霍巴特",
+        "basis": "塔斯曼半岛",
         "note": "",
         "dayAdvisory": "船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "transport",
       "food": {
-        "summary": "Franklin Wharf 周边可步行购买早餐和外带饮品；旅行团供餐情况以电子票为准。",
+        "summary": "Blowhole 周边餐饮有限；建议自带早餐与晕船药，巡游后在 Eaglehawk Neck／Sorell 补给。",
         "restaurants": []
       },
       "parking": {
-        "summary": "当前从 Iron Creek Bay Estate 自驾前往，需另行选择霍巴特 CBD 合规停车位，再步行到集合点。",
+        "summary": "在 Blowhole 公共停车场下车步行至 pier；预留约 10 分钟。勿停餐车旁 1 小时限停位。",
         "lots": [],
         "rules": [
-          "【待定】塔斯曼岛当日团预订号尚未确认；至少提前 15 分钟到达，并以电子票标注的具体码头位置为准。"
+          "【核销】Wild Ocean Tasmania 订单 RJ3SPTY｜实际出发 2026-09-30 08:00（由 9/29 改期）｜已付 AUD 340.00。",
+          "集合：pier next to the Blowhole, Eaglehawk Neck；运营商 165b Pirates Bay Drive, Eaglehawk Neck TAS 7179。",
+          "电话 +61 (0) 473 770 416｜info@wildoceantasmania.com.au。",
+          "天气／最少 4 人成团；出发前一日约 17:00 邮件最终确认。"
         ],
-        "sources": []
+        "sources": [
+          {
+            "label": "The Blowhole Eaglehawk Neck（Google Maps 导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=The+Blowhole+Eaglehawk+Neck+TAS"
+          },
+          {
+            "label": "Wild Ocean Tasmania 官网",
+            "url": "https://www.wildoceantasmania.com.au"
+          }
+        ]
       }
     },
     {
       "id": "d7-01",
-      "name": "塔斯曼岛海上巡游",
-      "name_en": "Tasman Island Cruises Booking Centre, Port Arthur TAS",
+      "name": "Wild Ocean Tasmania海上巡游",
+      "name_en": "Wild Ocean Tasmania, Eaglehawk Neck TAS",
       "day": 7,
       "date": "2026-09-30",
       "status": "visit",
       "order_in_day": 2,
-      "highlights": "从海上看Cape Pillar、Tasman Island、海蚀拱门和海洞，寻找海豹、海豚、鲸类与海鸟。",
-      "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
-      "duration": "以旅行团订单为准",
-      "transport": "Hobart往返当日团",
-      "notes": "【待定】预订号待回填；巡游、陆上停靠和用餐顺序以Klook／GetYourGuide电子票为准。",
+      "highlights": "2+ hour Scenic Tour：海崖、海洞、海豹与野生动物；鲸类属迁徙季机会不保证。",
+      "weather": "天气（长年气候参考，非逐日预报）：Sorell／Eaglehawk Neck／塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
+      "duration": "约2小时＋（08:00出发）",
+      "transport": "自驾至Blowhole pier登船",
+      "notes": "【核销】订单RJ3SPTY｜原订2026-09-29 08:00，已改期为2026-09-30 08:00｜已付AUD 340.00。天气／最少4人成团；出发前一日约17:00邮件最终确认。",
       "lat": -42.582,
       "lng": 148.065,
       "geocode_source": "known",
       "priority": "main",
       "sections": {
-        "practical": "【待定】预订号待回填；巡游、陆上停靠和用餐顺序以Klook／GetYourGuide电子票为准。"
+        "practical": "【核销】订单RJ3SPTY｜原订2026-09-29 08:00，已改期为2026-09-30 08:00｜已付AUD 340.00。天气／最少4人成团；出发前一日约17:00邮件最终确认。"
       },
       "links": [],
       "sequence": 2,
       "dayInfo": {
-        "booking": [],
-        "highlights": [],
+        "booking": [
+          "运营商地址 165b Pirates Bay Drive, Eaglehawk Neck TAS 7179｜电话 +61 (0) 473 770 416｜官网｜一键导航。"
+        ],
+        "highlights": [
+          "Wild Ocean Tasmania（塔斯曼半岛海上巡游）：从 Eaglehawk Neck 出发约 2+ 小时，看海崖、海洞、野生动物与海豹是稳定核心；",
+          "Dolphin（海豚）、Humpback Whale（座头鲸）与 Southern Right Whale（南露脊鲸）属于迁徙季机会，不保证。"
+        ],
         "weather": [],
-        "links": []
+        "links": [
+          {
+            "label": "官网",
+            "url": "https://www.wildoceantasmania.com.au"
+          },
+          {
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=The+Blowhole+Eaglehawk+Neck+TAS"
+          }
+        ]
       },
       "weatherDetail": {
-        "temperatureRange": "6-15°C",
+        "temperatureRange": "6-14°C",
         "granularity": "nearby",
-        "basis": "霍巴特",
+        "basis": "塔斯曼半岛",
         "note": "",
         "dayAdvisory": "船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报",
         "source": "长年气候参考，非逐日预报"
@@ -4122,7 +4233,39 @@
             "url": "https://parks.tas.gov.au/explore-our-parks/maria-island-national-park"
           }
         ]
-      }
+      },
+      "attachments": [
+        {
+          "id": "wild-ocean-rj3spty-pdf",
+          "title": "订单确认 · Wild Ocean Tasmania RJ3SPTY",
+          "kind": "pdf",
+          "file": "wild-ocean-rj3spty-confirmed.pdf",
+          "url": "bookings/wild-ocean-rj3spty-confirmed.pdf",
+          "orderRef": "RJ3SPTY",
+          "confirmRef": "RJ3SPTY",
+          "summary": "订单 RJ3SPTY｜2× 2+ hour Scenic Tour｜原订 2026-09-29 08:00｜集合 Blowhole pier, Eaglehawk Neck｜已付 AUD 340.00｜电话 0473-770416"
+        },
+        {
+          "id": "wild-ocean-rj3spty-date-change",
+          "title": "改期确认邮件 · 29 Sep → 30 Sep 8am",
+          "kind": "image",
+          "file": "wild-ocean-rj3spty-date-change-to-30sep.png",
+          "url": "bookings/wild-ocean-rj3spty-date-change-to-30sep.png",
+          "orderRef": "RJ3SPTY",
+          "confirmRef": "RJ3SPTY",
+          "summary": "运营方确认改期为 2026-09-30 08:00（当日最后座位）｜联系 info@wildoceantasmania.com.au｜+61 (0) 473 770 416｜165b Pirates Bay Drive, Eaglehawk Neck TAS 7179"
+        },
+        {
+          "id": "wild-ocean-rj3spty-weather",
+          "title": "天气／成团说明 · Wild Ocean Tasmania",
+          "kind": "image",
+          "file": "wild-ocean-rj3spty-weather-policy.png",
+          "url": "bookings/wild-ocean-rj3spty-weather-policy.png",
+          "orderRef": "RJ3SPTY",
+          "confirmRef": "RJ3SPTY",
+          "summary": "航次受天气影响且最少 4 人成团；出发前一日约 17:00 邮件最终确认；取消则全额退款"
+        }
+      ]
     },
     {
       "id": "d7-03",
@@ -4132,10 +4275,10 @@
       "date": "2026-09-30",
       "status": "visit",
       "order_in_day": 3,
-      "highlights": "若旅行团包含此站，可看天然拱门、深沟和崖壁。",
-      "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
-      "duration": "以旅行团安排为准",
-      "transport": "旅行团接送",
+      "highlights": "巡游后自驾短停；天然拱门、深沟和崖壁。",
+      "weather": "天气（长年气候参考，非逐日预报）：Sorell／Eaglehawk Neck／塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
+      "duration": "约15-30分钟",
+      "transport": "自驾（巡游结束后）",
       "notes": "工程状态须临行复查。",
       "lat": -43.0425,
       "lng": 147.95,
@@ -4148,16 +4291,16 @@
       "sequence": 3,
       "dayInfo": {
         "booking": [
-          "若产品包含Tasman Arch／Devils Kitchen，临行前复查工程页面。"
+          "陆上短停前复查 Tasman Arch／Devils Kitchen 工程页面。"
         ],
         "highlights": [
           "Tasman Arch（塔斯曼拱门）／Devils Kitchen（魔鬼厨房）：以海浪侵蚀形成的天然拱门、深沟和崖壁为特色；",
-          "平坦短线约15-30分钟，巡游后顺路补充陆上视角。"
+          "平坦短线约 15-30 分钟，巡游后自驾补充陆上视角。"
         ],
         "weather": [],
         "links": [
           {
-            "label": "工程页面",
+            "label": "Tasman Arch／Devils Kitchen 工程页面",
             "url": "https://parks.tas.gov.au/be-involved/projects-and-programs/tasmans-arch-and-devils-kitchen-revitalisation-project"
           }
         ]
@@ -4248,10 +4391,10 @@
       "date": "2026-09-30",
       "status": "visit",
       "order_in_day": 4,
-      "highlights": "若旅行团包含此站，可看岩层节理与盐风化形成的规则纹理。",
-      "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
-      "duration": "以旅行团安排为准",
-      "transport": "旅行团接送",
+      "highlights": "巡游后近旁自驾短停；岩层节理与盐风化形成的规则纹理。",
+      "weather": "天气（长年气候参考，非逐日预报）：Sorell／Eaglehawk Neck／塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
+      "duration": "约20-40分钟",
+      "transport": "自驾（Blowhole近旁）",
       "notes": "湿滑或涨潮时只在高处观察。",
       "lat": -43.0136,
       "lng": 147.9294,
@@ -4263,14 +4406,25 @@
       "links": [],
       "sequence": 4,
       "dayInfo": {
-        "booking": [],
+        "booking": [
+          "运营商地址 165b Pirates Bay Drive, Eaglehawk Neck TAS 7179｜电话 +61 (0) 473 770 416｜官网｜一键导航。"
+        ],
         "highlights": [
           "Tessellated Pavement（棋盘石）：岩层节理与盐风化形成规则块状纹理；",
           "退潮、岩面较干且有侧光时最清楚。",
           "本日只安排这两个短停，不再叠加长徒步。"
         ],
         "weather": [],
-        "links": []
+        "links": [
+          {
+            "label": "官网",
+            "url": "https://www.wildoceantasmania.com.au"
+          },
+          {
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=The+Blowhole+Eaglehawk+Neck+TAS"
+          }
+        ]
       },
       "weatherDetail": {
         "temperatureRange": "6-14°C",
@@ -4354,17 +4508,17 @@
       "date": "2026-09-30",
       "status": "visit",
       "order_in_day": 5,
-      "highlights": "旅行团送回霍巴特后取车返回Sorell，继续入住同一房间。",
-      "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
+      "highlights": "巡游与陆上短停后自驾返回Sorell，继续入住同一房间。",
+      "weather": "天气（长年气候参考，非逐日预报）：Sorell／Eaglehawk Neck／塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
       "duration": "第3晚",
-      "transport": "集合区域返回停车点后自驾约30-40分钟",
-      "notes": "收拾行李并确认10月1日自驾安排；晚间驾驶注意野生动物。",
+      "transport": "自驾约50分钟自Eaglehawk Neck",
+      "notes": "收拾行李并确认10月1日自驾安排；晚间驾驶注意野生动物。订单5609248813。",
       "lat": -42.7844,
       "lng": 147.5855,
       "geocode_source": "official_address",
       "priority": "main",
       "sections": {
-        "practical": "收拾行李并确认10月1日自驾安排；晚间驾驶注意野生动物。"
+        "practical": "收拾行李并确认10月1日自驾安排；晚间驾驶注意野生动物。订单5609248813。"
       },
       "links": [],
       "sequence": 5,
@@ -4375,9 +4529,9 @@
         "links": []
       },
       "weatherDetail": {
-        "temperatureRange": "6-15°C",
+        "temperatureRange": "6-14°C",
         "granularity": "nearby",
-        "basis": "霍巴特",
+        "basis": "塔斯曼半岛",
         "note": "",
         "dayAdvisory": "船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报",
         "source": "长年气候参考，非逐日预报"
@@ -4977,27 +5131,31 @@
     {
       "id": "d9-01",
       "name": "鸭嘴兽之家",
-      "name_en": "Platypus House, Beauty Point TAS",
+      "name_en": "Platypus House, Wharf Flinders Street, Beauty Point TAS 7270",
       "day": 9,
       "date": "2026-10-02",
       "status": "visit",
       "order_in_day": 1,
       "highlights": "室内／半室内环境白天稳定观察鸭嘴兽和短喙针鼹。",
       "weather": "天气（长年气候参考，非逐日预报）：朗塞斯顿（Launceston）／美丽角（Beauty Point）约6-17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0-10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。",
-      "duration": "约1小时（10:00导览）",
+      "duration": "约45分钟（10:00导览）",
       "transport": "驾车约48公里自朗塞斯顿",
-      "notes": "预订10:00第一场；成人约AUD29.95/人。\n\n【愿望清单·景点／自然】\n位于 Beauty Point，展示 platypus 与 echidna；适合希望提高看到鸭嘴兽概率的人。\n深度补充：室内／半室内观察环境提高看到platypus和echidna的确定性，并通过讲解说明电感受、产卵哺乳和水生适应。它不同于野外静候，优势是教育确定性，代价是非自然栖息地体验。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n鸭嘴兽曾令早期欧洲博物学界怀疑标本造假，后来成为澳洲生物独特性的文化符号；也应关注栖息地水质与河流保护。\n深度补充：鸭嘴兽标本最初送到欧洲时曾被怀疑拼接造假，后来成为澳洲生物独特性的文化象征。现代保育重点转向河流水质、渔线缠绕、坝体与栖息地破碎。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/2已纳入主行程：从朗塞斯顿（Launceston）驾车约48公里，预订10:00第一场向导团，稳定观察Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）；结束后直接进入Cradle Mountain（摇篮山）。\n已纳入本次行程",
+      "notes": "【核销】预订号32608261295407｜2026-10-02 10:00｜2 adults｜已付AUD 59.90。地址Wharf Flinders Street, Beauty Point TAS 7270｜电话03 6383 4884。一键导航\n\n【愿望清单·景点／自然】\n位于 Beauty Point，展示 platypus 与 echidna；适合希望提高看到鸭嘴兽概率的人。\n深度补充：室内／半室内观察环境提高看到platypus和echidna的确定性，并通过讲解说明电感受、产卵哺乳和水生适应。它不同于野外静候，优势是教育确定性，代价是非自然栖息地体验。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n鸭嘴兽曾令早期欧洲博物学界怀疑标本造假，后来成为澳洲生物独特性的文化符号；也应关注栖息地水质与河流保护。\n深度补充：鸭嘴兽标本最初送到欧洲时曾被怀疑拼接造假，后来成为澳洲生物独特性的文化象征。现代保育重点转向河流水质、渔线缠绕、坝体与栖息地破碎。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/2已纳入主行程：从朗塞斯顿（Launceston）驾车约48公里，预订10:00第一场向导团，稳定观察Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）；结束后直接进入Cradle Mountain（摇篮山）。\n已纳入本次行程",
       "lat": -41.16,
       "lng": 146.82,
       "geocode_source": "known",
       "priority": "main",
       "sections": {
-        "practical": "预订10:00第一场；成人约AUD29.95/人。",
+        "practical": "【核销】预订号32608261295407｜2026-10-02 10:00｜2 adults｜已付AUD 59.90。地址Wharf Flinders Street, Beauty Point TAS 7270｜电话03 6383 4884。一键导航",
         "nature": "位于 Beauty Point，展示 platypus 与 echidna；适合希望提高看到鸭嘴兽概率的人。\n深度补充：室内／半室内观察环境提高看到platypus和echidna的确定性，并通过讲解说明电感受、产卵哺乳和水生适应。它不同于野外静候，优势是教育确定性，代价是非自然栖息地体验。\n扩展阅读：景点／自然官方资料",
         "culture": "鸭嘴兽曾令早期欧洲博物学界怀疑标本造假，后来成为澳洲生物独特性的文化符号；也应关注栖息地水质与河流保护。\n深度补充：鸭嘴兽标本最初送到欧洲时曾被怀疑拼接造假，后来成为澳洲生物独特性的文化象征。现代保育重点转向河流水质、渔线缠绕、坝体与栖息地破碎。\n扩展阅读：人文／历史延伸阅读",
         "suggestion": "10/2已纳入主行程：从朗塞斯顿（Launceston）驾车约48公里，预订10:00第一场向导团，稳定观察Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）；结束后直接进入Cradle Mountain（摇篮山）。\n已纳入本次行程"
       },
       "links": [
+        {
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Platypus+House+Wharf+Flinders+Street+Beauty+Point+TAS"
+        },
         {
           "label": "景点／自然官方资料",
           "url": "https://platypushouse.com.au/"
@@ -5010,10 +5168,13 @@
       "sequence": 1,
       "dayInfo": {
         "booking": [
-          "Platypus House（鸭嘴兽之家）必须预约：开放时间10:00-15:30、最后一场15:00；",
-          "预订10:00第一场，成人当前AUD 29.95／人。",
-          "官方介绍｜官方预订。",
-          "朗塞斯顿至美丽角约48公里／45分钟，本方案08:25出发并留出45分钟余量。"
+          "Platypus House（鸭嘴兽之家）已确认：预订号 32608261295407；",
+          "Guided Tour - Platypus Echidna enclosures（45 分钟）；",
+          "2026-10-02 10:00；",
+          "2 adults；",
+          "已付 AUD 59.90。",
+          "地址 Wharf Flinders Street, Beauty Point TAS 7270｜电话 03 6383 4884｜官方介绍｜一键导航。",
+          "朗塞斯顿至美丽角约48公里／45分钟，本方案08:25出发并留出余量。"
         ],
         "highlights": [
           "Platypus House（鸭嘴兽之家）：室内／半室内环境能在白天稳定看到活跃进食的Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）；",
@@ -5026,8 +5187,8 @@
             "url": "https://platypushouse.com.au/"
           },
           {
-            "label": "官方预订",
-            "url": "https://bookeo.com/platypus"
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=Platypus+House+Wharf+Flinders+Street+Beauty+Point+TAS"
           }
         ]
       },
@@ -5102,7 +5263,19 @@
             "url": "https://www.spiritoftasmania.com.au/things-to-do/platypus-house/"
           }
         ]
-      }
+      },
+      "attachments": [
+        {
+          "id": "platypus-32608261295407",
+          "title": "预订确认 · Platypus House",
+          "kind": "pdf",
+          "file": "platypus-house-32608261295407.pdf",
+          "url": "bookings/platypus-house-32608261295407.pdf",
+          "orderRef": "32608261295407",
+          "confirmRef": "32608261295407",
+          "summary": "Booking #32608261295407｜Guided Tour｜2026-10-02 10:00｜2 adults｜已付 AUD 59.90｜Wharf Flinders Street, Beauty Point TAS 7270｜电话 03 6383 4884"
+        }
+      ]
     },
     {
       "id": "d9-02",
@@ -5145,6 +5318,9 @@
       "dayInfo": {
         "booking": [
           "地址 3832 Cradle Mountain Road, Cradle Mountain TAS 7306｜电话 (03) 6492 1395｜一键导航。",
+          "会面 3950 Cradle Mountain Rd, Cradle Mountain TAS 7306｜提前 10-15 分钟｜电话 +61 (03) 6492 1491｜官方页｜一键导航。",
+          "入场出示二维码票；",
+          "17:00 后场次迟到超过约 10 分钟可能无法入场。",
           "若13:50以后才到游客中心，优先Dove Lake（鸽子湖），把Ronny Creek（罗尼溪）移至10/3上午。"
         ],
         "highlights": [
@@ -5160,6 +5336,14 @@
           {
             "label": "一键导航",
             "url": "https://www.google.com/maps/search/?api=1&query=3832+Cradle+Mountain+Road+Cradle+Mountain+TAS+7306"
+          },
+          {
+            "label": "官方页",
+            "url": "https://devilsatcradle.com/sunset-experience-tour/"
+          },
+          {
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=Devils+at+Cradle+3950+Cradle+Mountain+Rd"
           },
           {
             "label": "官方接驳说明",
@@ -5277,6 +5461,9 @@
       "dayInfo": {
         "booking": [
           "地址 3832 Cradle Mountain Road, Cradle Mountain TAS 7306｜电话 (03) 6492 1395｜一键导航。",
+          "会面 3950 Cradle Mountain Rd, Cradle Mountain TAS 7306｜提前 10-15 分钟｜电话 +61 (03) 6492 1491｜官方页｜一键导航。",
+          "入场出示二维码票；",
+          "17:00 后场次迟到超过约 10 分钟可能无法入场。",
           "若13:50以后才到游客中心，优先Dove Lake（鸽子湖），把Ronny Creek（罗尼溪）移至10/3上午。"
         ],
         "highlights": [
@@ -5287,6 +5474,14 @@
           {
             "label": "一键导航",
             "url": "https://www.google.com/maps/search/?api=1&query=3832+Cradle+Mountain+Road+Cradle+Mountain+TAS+7306"
+          },
+          {
+            "label": "官方页",
+            "url": "https://devilsatcradle.com/sunset-experience-tour/"
+          },
+          {
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=Devils+at+Cradle+3950+Cradle+Mountain+Rd"
           },
           {
             "label": "官方接驳说明",
@@ -5371,27 +5566,31 @@
     {
       "id": "d9-04",
       "name": "摇篮山恶魔保护园",
-      "name_en": "Devils at Cradle, Cradle Mountain TAS",
+      "name_en": "Devils at Cradle, 3950 Cradle Mountain Rd, Cradle Mountain TAS 7306",
       "day": 9,
       "date": "2026-10-02",
       "status": "visit",
       "order_in_day": 4,
-      "highlights": "After Dark Feeding Tour观察袋獾、东袋鼬与斑尾袋鼬；结合面部肿瘤病保育讲解。",
+      "highlights": "Sunset Experience观察袋獾、东袋鼬与斑尾袋鼬；结合面部肿瘤病保育讲解。",
       "weather": "天气（长年气候参考，非逐日预报）：朗塞斯顿（Launceston）／美丽角（Beauty Point）约6-17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0-10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。",
-      "duration": "约1小时15分（17:30）",
-      "transport": "驾车约5-8公里",
-      "notes": "成人AUD40/人须预约。\n\n【愿望清单·景点／自然】\n靠近 Cradle Mountain，专注 Tasmanian devil 与 quoll；黄昏／夜间 tour 更符合动物活跃时段。\n深度补充：保护园专注Tasmanian devil和quoll，夜场更符合其活跃节律。近距离喂食讲解能观察颌部、社会行为和清道夫角色，但动物是否靠近仍由其状态决定。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n袋獾面临 Devil Facial Tumour Disease，保护园的保险种群与研究比“看凶猛叫声”更重要。\n深度补充：Devil Facial Tumour Disease改变了塔州保育体系，保险种群、疾病研究和野外监测成为国家级项目。袋獾尖叫与“凶猛”流行形象之外，它是生态清道夫和疾病科学案例。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/2 已纳入主行程：17:30参加After Dark Feeding Tour（夜间喂食团），在袋獾和袋鼬活跃时段做专门保育观察；成人AUD40／人，需提前预约。\n已纳入本次行程",
+      "duration": "约1小时15分（19:00-20:15）",
+      "transport": "自营位驾车数公里；提前10-15分钟到场",
+      "notes": "【核销】预订号375091008｜Sunset Experience｜2026-10-02 19:00-20:15｜2 Adults｜已付AUD 208.80。会面3950 Cradle Mountain Rd｜电话+61 (03) 6492 1491。入场出示二维码票。一键导航\n\n【愿望清单·景点／自然】\n靠近 Cradle Mountain，专注 Tasmanian devil 与 quoll；黄昏／夜间 tour 更符合动物活跃时段。\n深度补充：保护园专注Tasmanian devil和quoll，夜场更符合其活跃节律。近距离喂食讲解能观察颌部、社会行为和清道夫角色，但动物是否靠近仍由其状态决定。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n袋獾面临 Devil Facial Tumour Disease，保护园的保险种群与研究比“看凶猛叫声”更重要。\n深度补充：Devil Facial Tumour Disease改变了塔州保育体系，保险种群、疾病研究和野外监测成为国家级项目。袋獾尖叫与“凶猛”流行形象之外，它是生态清道夫和疾病科学案例。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n10/2 已纳入主行程：19:00参加Sunset Experience（预订号375091008），在袋獾和袋鼬活跃时段做专门保育观察；2 Adults已付AUD 208.80。\n已纳入本次行程",
       "lat": -41.595,
       "lng": 145.93,
-      "geocode_source": "known",
+      "geocode_source": "official_address",
       "priority": "main",
       "sections": {
-        "practical": "成人AUD40/人须预约。",
+        "practical": "【核销】预订号375091008｜Sunset Experience｜2026-10-02 19:00-20:15｜2 Adults｜已付AUD 208.80。会面3950 Cradle Mountain Rd｜电话+61 (03) 6492 1491。入场出示二维码票。一键导航",
         "nature": "靠近 Cradle Mountain，专注 Tasmanian devil 与 quoll；黄昏／夜间 tour 更符合动物活跃时段。\n深度补充：保护园专注Tasmanian devil和quoll，夜场更符合其活跃节律。近距离喂食讲解能观察颌部、社会行为和清道夫角色，但动物是否靠近仍由其状态决定。\n扩展阅读：景点／自然官方资料",
         "culture": "袋獾面临 Devil Facial Tumour Disease，保护园的保险种群与研究比“看凶猛叫声”更重要。\n深度补充：Devil Facial Tumour Disease改变了塔州保育体系，保险种群、疾病研究和野外监测成为国家级项目。袋獾尖叫与“凶猛”流行形象之外，它是生态清道夫和疾病科学案例。\n扩展阅读：人文／历史延伸阅读",
-        "suggestion": "10/2 已纳入主行程：17:30参加After Dark Feeding Tour（夜间喂食团），在袋獾和袋鼬活跃时段做专门保育观察；成人AUD40／人，需提前预约。\n已纳入本次行程"
+        "suggestion": "10/2 已纳入主行程：19:00参加Sunset Experience（预订号375091008），在袋獾和袋鼬活跃时段做专门保育观察；2 Adults已付AUD 208.80。\n已纳入本次行程"
       },
       "links": [
+        {
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Devils+at+Cradle+3950+Cradle+Mountain+Rd"
+        },
         {
           "label": "景点／自然官方资料",
           "url": "https://devilsatcradle.com/"
@@ -5405,11 +5604,16 @@
       "dayInfo": {
         "booking": [
           "地址 3832 Cradle Mountain Road, Cradle Mountain TAS 7306｜电话 (03) 6492 1395｜一键导航。",
-          "Devils@Cradle（摇篮山恶魔保护园）必须预约：17:30 After Dark Feeding Tour约1小时15分，成人AUD 40／人。",
-          "官方场次与订票。"
+          "Devils@Cradle（摇篮山恶魔保护园）已确认：预订号 375091008；",
+          "Sunset Experience 2026-10-02 19:00-20:15；",
+          "2 Adults；",
+          "已付 AUD 208.80。",
+          "会面 3950 Cradle Mountain Rd, Cradle Mountain TAS 7306｜提前 10-15 分钟｜电话 +61 (03) 6492 1491｜官方页｜一键导航。",
+          "入场出示二维码票；",
+          "17:00 后场次迟到超过约 10 分钟可能无法入场。"
         ],
         "highlights": [
-          "Devils@Cradle（摇篮山恶魔保护园）：17:30夜间喂食团正值袋獾和袋鼬活跃时段，可结合Devil Facial Tumour Disease了解保育工作。"
+          "Devils@Cradle（摇篮山恶魔保护园）：19:00 Sunset Experience 正值黄昏／夜间袋獾和袋鼬活跃时段，可结合Devil Facial Tumour Disease了解保育工作。"
         ],
         "weather": [],
         "links": [
@@ -5418,8 +5622,12 @@
             "url": "https://www.google.com/maps/search/?api=1&query=3832+Cradle+Mountain+Road+Cradle+Mountain+TAS+7306"
           },
           {
-            "label": "官方场次与订票",
-            "url": "https://devilsatcradle.com/admission-tours/"
+            "label": "官方页",
+            "url": "https://devilsatcradle.com/sunset-experience-tour/"
+          },
+          {
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=Devils+at+Cradle+3950+Cradle+Mountain+Rd"
           }
         ]
       },
@@ -5494,7 +5702,29 @@
             "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/dove-lake"
           }
         ]
-      }
+      },
+      "attachments": [
+        {
+          "id": "devils-375091008-confirm",
+          "title": "预订确认 · Devils@Cradle Sunset Experience",
+          "kind": "pdf",
+          "file": "devils-cradle-375091008-confirmation.pdf",
+          "url": "bookings/devils-cradle-375091008-confirmation.pdf",
+          "orderRef": "375091008",
+          "confirmRef": "375091008",
+          "summary": "Booking #375091008｜Sunset Experience｜2026-10-02 19:00–20:15｜2 Adults｜已付 AUD 208.80｜会面 3950 Cradle Mountain Rd｜提前 10–15 分钟到｜电话 +61(03) 64921491"
+        },
+        {
+          "id": "devils-375091008-qr",
+          "title": "入场二维码 · Sunset Experience",
+          "kind": "pdf",
+          "file": "devils-cradle-375091008-tickets-qr.pdf",
+          "url": "bookings/devils-cradle-375091008-tickets-qr.pdf",
+          "orderRef": "375091008",
+          "confirmRef": "375091008",
+          "summary": "FareHarbor 入场票｜Booking #375091008｜2/10/26 @ 7pm｜持票人 CHUMING ×2｜到场出示"
+        }
+      ]
     },
     {
       "id": "d9-05",
@@ -5526,7 +5756,10 @@
       "dayInfo": {
         "booking": [
           "住宿已确认：Discovery Resorts - Cradle Mountain，预订号 #J-7412711，Powered Site - 18 Feet，10/2-10/3，2 客人，已付 AUD 73.65。",
-          "地址 3832 Cradle Mountain Road, Cradle Mountain TAS 7306｜电话 (03) 6492 1395｜一键导航。"
+          "地址 3832 Cradle Mountain Road, Cradle Mountain TAS 7306｜电话 (03) 6492 1395｜一键导航。",
+          "会面 3950 Cradle Mountain Rd, Cradle Mountain TAS 7306｜提前 10-15 分钟｜电话 +61 (03) 6492 1491｜官方页｜一键导航。",
+          "入场出示二维码票；",
+          "17:00 后场次迟到超过约 10 分钟可能无法入场。"
         ],
         "highlights": [],
         "weather": [],
@@ -5534,6 +5767,14 @@
           {
             "label": "一键导航",
             "url": "https://www.google.com/maps/search/?api=1&query=3832+Cradle+Mountain+Road+Cradle+Mountain+TAS+7306"
+          },
+          {
+            "label": "官方页",
+            "url": "https://devilsatcradle.com/sunset-experience-tour/"
+          },
+          {
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=Devils+at+Cradle+3950+Cradle+Mountain+Rd"
           }
         ]
       },
@@ -7365,13 +7606,13 @@
       "weather": "天气（长年气候参考，非逐日预报）：珀斯机场清晨约10-21°C；霍巴特机场／霍巴特CBD约6-15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层。BOM霍巴特气候。",
       "duration": "9月28日-10月1日",
       "transport": "机场到CBD；两天参加Hobart往返当日团",
-      "notes": "Iron Creek Bay Estate连住三晚；两天均需自驾约30-40分钟往返霍巴特集合区域。Quest Savoy订单也已保留，待最终决定取消哪一笔。市区活动只作旅行团前后补给，不硬塞远程景点。\n\n【人文】\nnipaluna 位于 Muwinina Country；砂岩仓库、南极科研与港口史并存。kunanyi 是重要的 Aboriginal 地名。城市的文化名片也包括 MONA 对当代艺术与旅游形象的重塑。\n深度补充：nipaluna位于Muwinina Country。砂岩仓库、捕鲸与航运、南极科研、MONA及环境政治构成多重城市性格；双重命名让原住民语言重新进入公共空间。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n9/28 霍巴特机场落地取车后直驱亚瑟港（Port Arthur）住宿，不安排 Rosny Hill／City Walk／连住霍巴特；市区仅作跨州过境。航班严重延误时才启用霍巴特机场／索雷尔（Sorell）兜底住宿。\n已纳入本次行程（过境）",
+      "notes": "Iron Creek Bay Estate连住三晚（订单5609248813）；9/29自驾Triabunna、9/30自驾Eaglehawk Neck Blowhole。Quest Savoy订单也已保留，待最终决定取消哪一笔。市区活动只作旅行团前后补给，不硬塞远程景点。\n\n【人文】\nnipaluna 位于 Muwinina Country；砂岩仓库、南极科研与港口史并存。kunanyi 是重要的 Aboriginal 地名。城市的文化名片也包括 MONA 对当代艺术与旅游形象的重塑。\n深度补充：nipaluna位于Muwinina Country。砂岩仓库、捕鲸与航运、南极科研、MONA及环境政治构成多重城市性格；双重命名让原住民语言重新进入公共空间。\n扩展阅读：人文／历史延伸阅读\n\n【本次建议】\n9/28 霍巴特机场落地取车后直驱亚瑟港（Port Arthur）住宿，不安排 Rosny Hill／City Walk／连住霍巴特；市区仅作跨州过境。航班严重延误时才启用霍巴特机场／索雷尔（Sorell）兜底住宿。\n已纳入本次行程（过境）",
       "lat": -42.8821,
       "lng": 147.3272,
       "geocode_source": "known",
       "priority": "main",
       "sections": {
-        "practical": "Iron Creek Bay Estate连住三晚；两天均需自驾约30-40分钟往返霍巴特集合区域。Quest Savoy订单也已保留，待最终决定取消哪一笔。市区活动只作旅行团前后补给，不硬塞远程景点。",
+        "practical": "Iron Creek Bay Estate连住三晚（订单5609248813）；9/29自驾Triabunna、9/30自驾Eaglehawk Neck Blowhole。Quest Savoy订单也已保留，待最终决定取消哪一笔。市区活动只作旅行团前后补给，不硬塞远程景点。",
         "culture": "nipaluna 位于 Muwinina Country；砂岩仓库、南极科研与港口史并存。kunanyi 是重要的 Aboriginal 地名。城市的文化名片也包括 MONA 对当代艺术与旅游形象的重塑。\n深度补充：nipaluna位于Muwinina Country。砂岩仓库、捕鲸与航运、南极科研、MONA及环境政治构成多重城市性格；双重命名让原住民语言重新进入公共空间。\n扩展阅读：人文／历史延伸阅读",
         "suggestion": "9/28 霍巴特机场落地取车后直驱亚瑟港（Port Arthur）住宿，不安排 Rosny Hill／City Walk／连住霍巴特；市区仅作跨州过境。航班严重延误时才启用霍巴特机场／索雷尔（Sorell）兜底住宿。\n已纳入本次行程（过境）"
       },
@@ -8939,7 +9180,7 @@
   ],
   "wishlistCount": 54,
   "carStayStandard": "## 车宿统一判断标准\n\n只有同时满足以下条件才把“睡车里”列为可选：车辆本身适合安全睡眠且租赁合同允许；地点为持牌营地、明确获准的 campground／holiday park，或当地政府明确标识的短时 RV／24 小时休息区；现场没有“禁止露营／禁止过夜”标识；能合法处理厕所、污水和垃圾。普通轿车、城市停车场、国家公园观景停车场、海边路肩和机场停车场一律不按可车宿地点处理。法规参考已并入各区说明：西澳政府露营规则、塔州保护地露营规定、Spirit of Tasmania 运输条款。",
-  "animals": "# 动物覆盖核对\n\n| 动物 | 最新行程情况 | 结论 |\n|-|-|-|\n| Koala（考拉） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）可稳定看到；抱考拉票当前AUD 35／人，当天09:00先到先得，名额少，且有身高、体力和动物福利限制。 | 能看到；抱考拉不保证 |\n| Wombat（袋熊） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）可看；9/29 Maria Island（玛丽亚岛）野生袋熊出现概率很高。野生袋熊不能触摸、追逐或喂食。 | 能看到；不能摸或抱 |\n| Tasmanian devil（袋獾） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）有固定展区；9/29 Maria Island（玛丽亚岛）野生袋獾白天偶遇概率低；10/2已安排Devils@Cradle（摇篮山恶魔保护园）17:30 After Dark Feeding Tour（夜间喂食团），可稳定观察Tasmanian devil（袋獾）及两种quoll并听保育讲解。 | 能看到；已有塔州专门袋獾保育夜场 |\n| Short-beaked echidna（短喙针鼹） | 10/2 Platypus House（鸭嘴兽之家）的Echidna Garden（针鼹花园）可稳定看到Short-beaked echidna（短喙针鼹）；9/29 Maria Island（玛丽亚岛）及10/2-10/3 Cradle Mountain（摇篮山）仍有野外偶遇机会。 | 能看到；野外个体不保证 |\n| Platypus（鸭嘴兽） | 10/2已安排Platypus House（鸭嘴兽之家）10:00向导团，可在白天稳定看到Platypus（鸭嘴兽）；本次不再绕行The Tasmanian Arboretum（塔斯马尼亚树木园），避免压缩摇篮山时间。 | 能看到；另有野外观察机会 |\n| Little penguin（小蓝企鹅） | 10/1 Bicheno企鹅已确定取消，塔州东海岸企鹅不再作为必看窗口。改为10/5在St Kilda Pier／Breakwater高架平台观看归巢；免费但须持票，【待定-2】第一场暂按约19:57 AEDT，最终以票面为准。 | 改由墨尔本St Kilda覆盖；出现时间和数量不保证 |\n| Lyrebird（琴鸟） | 当前行程没有专门观察点；野外偶遇不可作为安排承诺。 | 不能保证看到 |\n| Emu（鸸鹋） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）有固定展区。【待定-1】Tower Hill（塔山）已不在主行程；野生鸸鹋不再作为承诺机会。 | 能看到（Caversham 展区）；野外不保证 |\n| Dolphin（海豚） | 9/30 Tasman Island Cruises（塔斯曼岛巡游）会寻找Dolphin（海豚）；9/29 仅为 Encounter Maria Island 客运渡轮上岛步行，不含环岛巡游船。本次仍未去Monkey Mia（蒙基米亚），野生海豚出现不保证。 | 有机会；不保证 |\n| Humpback whale（座头鲸） | 9/29 Tasman Island Cruises（塔斯曼岛巡游）会在迁徙季主动寻找；10/1 Cape Tourville（图维尔角）可岸观。9/30 客运渡轮不是观鲸产品。野生偶遇不保证。 | 有机会；不保证 |\n| Whale shark（鲸鲨） | 当前路线不到 Ningaloo Reef（宁格鲁礁），也未安排鲸鲨项目。 | 看不到 |\n| Southern right whale（南露脊鲸） | 9/30 Tasman Island Cruises（塔斯曼岛巡游）会寻找；Freycinet（菲欣纳）和Maria Island（玛丽亚岛）沿海也有季节性偶遇可能，没有任何地点或船团能保证看到。 | 有机会；不保证 |\n\n判断口径：固定展区或已预约的圈养展示记为“能看到”；野生动物、鲸豚和迁徙物种均只记为“有机会”，不写成保证。10/5的St Kilda Pier／Breakwater高架平台提供合规野外归巢观察；塔州东海岸企鹅已取消；10/2的Platypus House（鸭嘴兽之家）可稳定看到Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）。Tower Hill（塔山）不在本次主行程。",
+  "animals": "# 动物覆盖核对\n\n| 动物 | 最新行程情况 | 结论 |\n|-|-|-|\n| Koala（考拉） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）可稳定看到；抱考拉票当前AUD 35／人，当天09:00先到先得，名额少，且有身高、体力和动物福利限制。 | 能看到；抱考拉不保证 |\n| Wombat（袋熊） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）可看；9/29 Maria Island（玛丽亚岛）野生袋熊出现概率很高。野生袋熊不能触摸、追逐或喂食。 | 能看到；不能摸或抱 |\n| Tasmanian devil（袋獾） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）有固定展区；9/29 Maria Island（玛丽亚岛）野生袋獾白天偶遇概率低；10/2已安排Devils@Cradle（摇篮山恶魔保护园）19:00 Sunset Experience（预订号 375091008），可稳定观察Tasmanian devil（袋獾）及两种quoll并听保育讲解。 | 能看到；已有塔州专门袋獾保育黄昏场 |\n| Short-beaked echidna（短喙针鼹） | 10/2 Platypus House（鸭嘴兽之家）的Echidna Garden（针鼹花园）可稳定看到Short-beaked echidna（短喙针鼹）；9/29 Maria Island（玛丽亚岛）及10/2-10/3 Cradle Mountain（摇篮山）仍有野外偶遇机会。 | 能看到；野外个体不保证 |\n| Platypus（鸭嘴兽） | 10/2已安排Platypus House（鸭嘴兽之家）10:00向导团，可在白天稳定看到Platypus（鸭嘴兽）；本次不再绕行The Tasmanian Arboretum（塔斯马尼亚树木园），避免压缩摇篮山时间。 | 能看到；另有野外观察机会 |\n| Little penguin（小蓝企鹅） | 10/1 Bicheno企鹅已确定取消，塔州东海岸企鹅不再作为必看窗口。改为10/5在St Kilda Pier／Breakwater高架平台观看归巢；免费但须持票，【待定-2】第一场暂按约19:57 AEDT，最终以票面为准。 | 改由墨尔本St Kilda覆盖；出现时间和数量不保证 |\n| Lyrebird（琴鸟） | 当前行程没有专门观察点；野外偶遇不可作为安排承诺。 | 不能保证看到 |\n| Emu（鸸鹋） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）有固定展区。【待定-1】Tower Hill（塔山）已不在主行程；野生鸸鹋不再作为承诺机会。 | 能看到（Caversham 展区）；野外不保证 |\n| Dolphin（海豚） | 9/30 Wild Ocean Tasmania（塔斯曼半岛海上巡游，订单 RJ3SPTY）会寻找Dolphin（海豚）；9/29 仅为 Encounter Maria Island 客运渡轮上岛步行，不含环岛巡游船。本次仍未去Monkey Mia（蒙基米亚），野生海豚出现不保证。 | 有机会；不保证 |\n| Humpback whale（座头鲸） | 9/30 Wild Ocean Tasmania（塔斯曼半岛海上巡游）会在迁徙季主动寻找；10/1 Cape Tourville（图维尔角）可岸观。9/29 客运渡轮不是观鲸产品。野生偶遇不保证。 | 有机会；不保证 |\n| Whale shark（鲸鲨） | 当前路线不到 Ningaloo Reef（宁格鲁礁），也未安排鲸鲨项目。 | 看不到 |\n| Southern right whale（南露脊鲸） | 9/30 Wild Ocean Tasmania（塔斯曼半岛海上巡游）会寻找；Freycinet（菲欣纳）和Maria Island（玛丽亚岛）沿海也有季节性偶遇可能，没有任何地点或船团能保证看到。 | 有机会；不保证 |\n\n判断口径：固定展区或已预约的圈养展示记为“能看到”；野生动物、鲸豚和迁徙物种均只记为“有机会”，不写成保证。10/5的St Kilda Pier／Breakwater高架平台提供合规野外归巢观察；塔州东海岸企鹅已取消；10/2的Platypus House（鸭嘴兽之家）可稳定看到Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）。Tower Hill（塔山）不在本次主行程。",
   "pending": [
     "Tower Hill 与 Warrnambool 是否彻底放弃",
     "St Kilda 第一场实际票面时间与余票",
