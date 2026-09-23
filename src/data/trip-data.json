@@ -3,7 +3,7 @@
     "name": "澳大利亚自驾行程",
     "dates": "2026-09-24 — 2026-10-06",
     "source_doc": "https://guanghe.feishu.cn/docx/TAoHd0QFyoo7lpxGk9DcpN0nnCc",
-    "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内。9/28—9/30当前计划住Iron Creek Bay Estate并自驾往返Hobart当日团集合点；Quest Savoy订单与地图点暂时保留，待最终决定取消哪一笔。10/1从Sorell经Wineglass Bay前往Centennial Inn on Bathurst；10/2住Discovery Parks – Cradle Mountain帐篷营位（已核实有位，待下单）；10/3取消塔州精神号夜航，改为延长摇篮山后从Launceston Airport搭约20:00航班飞墨尔本并住Mantra Melbourne Airport；10/4上午在墨尔本市区提车后内陆直达Twelve Apostles并住Twelve Apostles Motel & Country Retreat；10/5沿大洋路东行，经St Kilda企鹅观赏后住Brady Hotels Central Melbourne。",
+    "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内。9/25住Jurien Bay Tourist Park（预订号1933607）；9/26住Kalbarri Tudor（NewBook #223533）；9/28—9/30住Iron Creek Bay Estate（Quest Savoy备选保留）。9/29 Maria Island Same Day Return #1441927（自驾Triabunna Wharf）；9/30 Tasman Island当日团预订号待回填。10/1 Centennial Inn；10/2 Discovery Resorts Cradle Mountain #J-7412711（Powered 18 Feet）；10/3 Mantra Melbourne Airport；10/4 Twelve Apostles Motel 携程1128150508438717；10/5 Brady Hotels Central Melbourne。",
     "startDate": "2026-09-24",
     "endDate": "2026-10-06",
     "timezone": "Australia/Hobart",
@@ -105,37 +105,21 @@
       "day": 2,
       "date": "2026-09-25",
       "weekday": "周五",
-      "region": "珀斯（Perth）-塞万提斯（Cervantes）",
-      "route": "珀斯机场（Perth Airport） → 卡弗舍姆（Caversham） → 兰斯林（Lancelin） → Pinnacles（尖峰石阵） → 塞万提斯（Cervantes）",
-      "lodging": "本晚无酒店，按车宿执行；已按「必须能洗热水澡」重排优先级。\n首选（2026-08-27 实测单晚可订）：RAC Cervantes Holiday Park，Aragon Street，就在塞万提斯镇内，尖峰石阵日落后仅约 20 公里，是这一带唯一「设施最全 + 距离最近」的选择。设施含共用卫浴楼（热水淋浴）、营地厨房、泳池、活动室。9/25-9/26 单晚实测：Unpowered Camping Site 标准价 AUD 71／RAC 会员 AUD 65，Powered Firm Ground Site 标准价 AUD 77／会员 AUD 71。带电位文案含 caravans／motorhomes／campervans／tents，比无电位更宽容，建议直接订带电位。报价是访客选择器为 1 位成人时读到的，两人总价以结算页为准；Unpowered 页面写 small campervans and tents only，睡在轿车内仍须下单时取得同意。预订表单的 Equipment type 下拉含 Car & Swag (NO trailer)、Car and Single Room Tent、Rooftop Tent，可据此申报。｜Google Maps 导航\n备选（同样实测可订、同样有热水淋浴）：Jurien Bay Tourist Park，Roberts Street，朱里恩湾镇内、紧邻码头与海滨，距塞万提斯约 26 公里且顺 9/26 北上方向。9/25-9/26 两位成人实测：Powered camping site 总价 AUD 72（G'Day 会员 64.80），Unpowered camping site AUD 47（预付优惠 43）；另有 1 房 unit AUD 239→220 可作恶劣天气升级。设施含热水淋浴卫浴楼与家庭隔间、营地厨房、投币洗衣、饮用水、免费 Wi-Fi，入住前 72 小时可免费取消；营位 12:00 入住、10:00 退房，18:00 后到达须先联系。两种营位页面均标 Tents only，睡车内需先电话 08 9652 1595 确认。｜Google Maps 导航\n兜底（只能电话订）：Green Head Caravan Park，9 Green Head Road，有热水淋浴、营地厨房和洗衣，官网价目 unpowered 两人淡季 AUD 30、旺季 40；但在朱里恩湾以北约 50 公里，且不接受在线预订，须致电 (08) 9953 1131。\n已排除：Sandy Cape 主营地--西澳官方页明确 no power、no drinking water、no showers（地方旅游站所称「限量冷水淋浴」与官方矛盾），不能洗澡故本次不用；Nambung Station Stay 9/25 powered 与 unpowered 均 0 余位；Milligan Island 生态营地虽可在线订，但同样无自来水、无电、仅长落式厕所；Hakea、Banksia、Tuarts 等免费点要求自带灰水箱与便携厕所；Pinnacles（尖峰石阵）园内、海边停车位和路肩均不可过夜；Coomallo 休息区在 Main Roads 官方数据中不允许 24 小时停留。",
-      "schedule": "04:20-07:45：珀斯机场（Perth Airport）T1入境、取行李、早餐与取车。\n09:00-12:45：从机场驾车约22公里到 Caversham Wildlife Park（卡弗舍姆野生动物园）；09:00 入园先买考拉抱持票，11:30 Meet A Koala，12:00 抱持场（如成功购票）。只合影不抱则约11:45离开。\n12:45-14:45：驾车约135公里前往 兰斯林（Lancelin）；途中简餐。\n14:45-15:40：Lancelin Sand Dunes（兰斯林沙丘）（从镇中心约3公里）步行观景／滑沙；普通租车不要驶入沙地。\n15:40-16:50：驾车约77公里前往 Nambung National Park（南邦国家公园）。\n16:50-日落后：Pinnacles Desert Discovery Centre（尖峰石阵探索中心）（园内移动约2公里）、环形自驾道与步行区。\n日落后：驾车约20公里到 塞万提斯（Cervantes） 入住。若入境／取车延误超过 60 分钟，删除 兰斯林（Lancelin），保留 卡弗舍姆（Caversham） 与 Pinnacles（尖峰石阵）。",
+      "region": "珀斯（Perth）-朱里恩湾（Jurien Bay）",
+      "route": "珀斯机场（Perth Airport） → 卡弗舍姆（Caversham） → 兰斯林（Lancelin） → Pinnacles（尖峰石阵） → Jurien Bay Tourist Park（朱里恩湾旅游公园）",
+      "lodging": "已确认住宿（露营）：Jurien Bay Tourist Park（1 Roberts Street, Jurien Bay WA 6516）。\n【核销预订】预订号 1933607；姓名 Zheng Chen；入住 2026-09-25（抵达约 18:00）、退房 2026-09-26；2 位成人；营位类型 Unpowered camping site／Tent (Grass)；车牌 Vehicle Registration：TBC。入住／对账时出示预订号 1933607。\n设施：热水淋浴卫浴楼、营地厨房、投币洗衣、饮用水、免费 Wi-Fi。营地电话 08 9652 1595。",
+      "schedule": "04:20-07:45：珀斯机场（Perth Airport）T1入境、取行李、早餐与取车。\n09:00-12:45：从机场驾车约22公里到 Caversham Wildlife Park（卡弗舍姆野生动物园）；09:00 入园先买考拉抱持票，11:30 Meet A Koala，12:00 抱持场（如成功购票）。只合影不抱则约11:45离开。\n12:45-14:45：驾车约135公里前往 兰斯林（Lancelin）；途中简餐。\n14:45-15:40：Lancelin Sand Dunes（兰斯林沙丘）（从镇中心约3公里）步行观景／滑沙；普通租车不要驶入沙地。\n15:40-16:50：驾车约77公里前往 Nambung National Park（南邦国家公园）。\n16:50-日落后：Pinnacles Desert Discovery Centre（尖峰石阵探索中心）（园内移动约2公里）、环形自驾道与步行区。\n日落后：驾车约45-55公里北上至 Jurien Bay Tourist Park 入住（预订号 1933607）；目标约 18:00 抵达。若入境／取车延误超过 60 分钟，删除 兰斯林（Lancelin），保留 卡弗舍姆（Caversham） 与 Pinnacles（尖峰石阵）。",
       "highlights": "Caversham Wildlife Park（卡弗舍姆野生动物园）：西澳原生动物集中展示、袋鼠喂食、袋熊与农场表演，以及考拉近距离体验；动物上午较活跃，09:00入园最合适。\nLancelin Sand Dunes（兰斯林沙丘）：白色移动沙丘、流畅沙脊和开阔地平线是特色；14:30以后侧光更有层次。\nPinnacles（尖峰石阵）／Nambung National Park（南邦国家公园）：黄沙中的密集石灰岩柱与海岸沙丘地质景观是核心；最佳为日落前60-90分钟至蓝调，低角度金色侧光最能表现石柱纹理。",
-      "booking": "Caversham Wildlife Park（卡弗舍姆野生动物园）：成人门票AUD 37／人，两人AUD 74；普通考拉合影包含在门票内。抱考拉另付AUD 35／人，不能提前预订，09:00起在纪念品店先到先得，旺时可能15分钟内售罄；12:00场，身高至少150cm并须满足健康安全条件。官方购票｜抱考拉规则。\nLancelin Sand Dunes（兰斯林沙丘）：步行免费、无需预约；可现场租板，单板AUD 10／2小时或AUD 16／4小时，双人板AUD 15／2小时。租板信息。普通租车不要驶入沙地，强风时不滑沙。\nPinnacles（尖峰石阵）／Nambung：标准车辆入园AUD 17／车，到场付款，无需提前订票；有WA Park Pass则无需另付。官方费用。日落后尽快前往住宿，不做夜间长途驾驶。",
-      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
+      "booking": "住宿已确认：Jurien Bay Tourist Park，预订号 1933607，Unpowered／Tent (Grass)，9/25-9/26，2 成人，约 18:00 抵达；核销出示预订号。地址 1 Roberts Street, Jurien Bay WA 6516｜一键导航。\nCaversham Wildlife Park（卡弗舍姆野生动物园）：成人门票AUD 37／人，两人AUD 74；普通考拉合影包含在门票内。抱考拉另付AUD 35／人，不能提前预订，09:00起在纪念品店先到先得，旺时可能15分钟内售罄；12:00场，身高至少150cm并须满足健康安全条件。官方购票｜抱考拉规则。\nLancelin Sand Dunes（兰斯林沙丘）：步行免费、无需预约；可现场租板，单板AUD 10／2小时或AUD 16／4小时，双人板AUD 15／2小时。租板信息。普通租车不要驶入沙地，强风时不滑沙。\nPinnacles（尖峰石阵）／Nambung：标准车辆入园AUD 17／车，到场付款，无需提前订票；有WA Park Pass则无需另付。官方费用。日落后尽快前往住宿，不做夜间长途驾驶。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／朱里恩湾（Jurien Bay）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
       "links": [
         {
-          "label": "RAC Cervantes Holiday Park",
-          "url": "https://parksandresorts.rac.com.au/cervantes/book-now/"
-        },
-        {
-          "label": "Google Maps 导航",
-          "url": "https://www.google.com/maps/search/?api=1&query=RAC Cervantes Holiday Park Aragon Street Cervantes WA"
-        },
-        {
           "label": "Jurien Bay Tourist Park",
-          "url": "https://summerstar.com.au/caravan-parks/jurien-bay/accommodation"
+          "url": "https://www.google.com/maps/search/?api=1&query=Jurien+Bay+Tourist+Park+1+Roberts+Street+Jurien+Bay+WA+6516"
         },
         {
-          "label": "Google Maps 导航",
-          "url": "https://www.google.com/maps/search/?api=1&query=Jurien Bay Tourist Park Roberts Street Jurien Bay WA"
-        },
-        {
-          "label": "Green Head Caravan Park",
-          "url": "https://www.greenheadcaravanpark.com.au/tariffs"
-        },
-        {
-          "label": "Nambung Station Stay",
-          "url": "https://www.nambungstation.com.au/"
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Jurien+Bay+Tourist+Park+1+Roberts+Street+Jurien+Bay+WA+6516"
         },
         {
           "label": "官方购票",
@@ -235,86 +219,41 @@
           "id": "rhythm-7",
           "order": 7,
           "time": "日落后",
-          "title": "塞万提斯（住宿）",
-          "text": "驾车约20公里到 塞万提斯（Cervantes） 入住。若入境／取车延误超过 60 分钟，删除 兰斯林（Lancelin），保留 卡弗舍姆（Caversham） 与 Pinnacles（尖峰石阵）。",
+          "title": "Jurien Bay Tourist Park（住宿）",
+          "text": "驾车约45-55公里北上至 Jurien Bay Tourist Park 入住（预订号 1933607）；目标约 18:00 抵达。若入境／取车延误超过 60 分钟，删除 兰斯林（Lancelin），保留 卡弗舍姆（Caversham） 与 Pinnacles（尖峰石阵）。",
           "placeId": "d2-05",
           "sequence": 5,
           "priority": "main",
-          "lat": -30.499,
-          "lng": 115.065
+          "lat": -30.2969,
+          "lng": 115.04
         }
       ],
       "unassigned": {
         "booking": [],
         "highlights": [],
         "weather": [],
-        "links": [
-          {
-            "label": "RAC Cervantes Holiday Park",
-            "url": "https://parksandresorts.rac.com.au/cervantes/book-now/"
-          },
-          {
-            "label": "Google Maps 导航",
-            "url": "https://www.google.com/maps/search/?api=1&query=RAC Cervantes Holiday Park Aragon Street Cervantes WA"
-          },
-          {
-            "label": "Jurien Bay Tourist Park",
-            "url": "https://summerstar.com.au/caravan-parks/jurien-bay/accommodation"
-          },
-          {
-            "label": "Google Maps 导航",
-            "url": "https://www.google.com/maps/search/?api=1&query=Jurien Bay Tourist Park Roberts Street Jurien Bay WA"
-          },
-          {
-            "label": "Green Head Caravan Park",
-            "url": "https://www.greenheadcaravanpark.com.au/tariffs"
-          },
-          {
-            "label": "Nambung Station Stay",
-            "url": "https://www.nambungstation.com.au/"
-          }
-        ]
+        "links": []
       }
     },
     {
       "day": 3,
       "date": "2026-09-26",
       "weekday": "周六",
-      "region": "塞万提斯（Cervantes）-卡尔巴里（Kalbarri）",
-      "route": "塞万提斯（Cervantes） → Lake Thetis（塞蒂斯湖）（可选）→ 杰拉尔顿（Geraldton） → Hutt Lagoon（粉红湖） → 卡尔巴里（Kalbarri）",
-      "lodging": "本晚无酒店，按车宿执行，全部候选均为镇内正规营地。\n首选（已实测可订）：Kalbarri Tudor Holiday Park（卡尔巴里都铎假日公园），10 Porter Street。官方 Newbook 系统实测 9/26-9/27 单晚 Unpowered、Powered、RV、Ensuite Powered 均可直接下单，单人初始报价分别约 AUD 68／78／79／85，两人最终价以结算页为准。Unpowered 页面的设备类型明确含 Rooftop tent／Car，最贴合睡在车内；步行约 4 分钟到海滩与餐饮。｜Google Maps 导航\n备选：① Kalbarri Anchorage Holiday Village（168 Grey Street；2026-07-01 后两人价 non-powered AUD 45、powered AUD 48、河景 AUD 53，价格最低，但单晚不能在线下单，必须电话 08 9937 1181，并另取得车内睡眠的书面／邮件同意）｜Google Maps 导航；② Murchison River Caravan Park（河滨、紧邻镇中心，官网价 unpowered AUD 38、powered AUD 42，未取得 9/26 在线库存确认，需致电核实）｜Google Maps 导航。\n兜底（仅在付费营地全部失败时）：Galena 24-hour Rest Area，North West Coastal Highway，Main Roads 官方数据标为允许 24 小时停留，是这一带最近的合法免费点；但距卡尔巴里镇约 77 公里，会同时破坏 9/26 晚到镇和 9/27 清晨峡谷的节奏。｜Google Maps 导航\n操作与排除：下单前一律说明“ordinary sedan/SUV, sleeping inside the vehicle”并取得营地同意。Kalbarri Visitor Centre 明确镇内禁止自由露营、国家公园无营地，因此不得睡在国家公园、海崖停车场或河岸公共停车位。",
-      "schedule": "08:00-08:30：从塞万提斯驾车约3公里，可选 Lake Thetis（塞蒂斯湖） 短停；若前一晚疲劳则取消。\n08:30-11:30：驾车约221公里，塞万提斯（Cervantes） → 杰拉尔顿（Geraldton）。\n11:30-13:00：市内约2公里到 Geraldton Foreshore（杰拉尔顿海滨）／午餐、加油和采购。\n13:00-14:15：驾车约98公里前往 格雷戈里港（Port Gregory）。\n14:15-15:30：从格雷戈里港驾车约14公里到 Hutt Lagoon（粉红湖）公共观景点。\n15:30-16:30：驾车约54公里前往 卡尔巴里（Kalbarri）。\n16:45-日落：从镇中心约5公里到 Red Bluff（红崖）；若改去 Natural Bridge（天然桥），则约14公里。二选一看海岸夕照，然后进镇入住。",
-      "highlights": "Lake Thetis（塞蒂斯湖）：湖岸stromatolites（叠层石）及其“活着的古老生态系统”意义是核心；清晨安静、光线柔和。\nGeraldton Foreshore（杰拉尔顿海滨）：海滨草地、港口城市节奏与补给便利是特色；中午只作恢复体力的轻松停留。\nHutt Lagoon（粉红湖）：高盐度、微藻与工业生产共同形成粉红或淡紫色湖面；晴天约11:00-15:00高太阳时颜色通常更明显，但受云量、盐度、风和视角影响。\nRed Bluff（红崖）／Natural Bridge（天然桥）：前者看高崖与层叠海岸线，后者看海蚀拱门和沉积岩层；最佳为日落前45-60分钟。",
-      "booking": "预约：Lake Thetis（塞蒂斯湖）、Geraldton Foreshore（杰拉尔顿海滨）、Hutt Lagoon（粉红湖）、Red Bluff（红崖）和Natural Bridge（天然桥）均免费，无需预约。\n注意：Hutt Lagoon（粉红湖）颜色不保证；只在公共观景区停留，不进入生产区或私人土地。海崖强风时远离崖缘，始终留在正式步道和护栏内。Red Bluff（红崖）与Natural Bridge（天然桥）按时间和体力二选一。",
-      "weather": "天气（长年气候参考，非逐日预报）：塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
+      "region": "朱里恩湾（Jurien Bay）-卡尔巴里（Kalbarri）",
+      "route": "Jurien Bay Tourist Park → Lake Thetis（塞蒂斯湖，可选南下短停）→ 杰拉尔顿（Geraldton） → Hutt Lagoon（粉红湖） → Kalbarri Tudor Holiday Park（卡尔巴里都铎假日公园）",
+      "lodging": "已确认住宿（露营）：Kalbarri Tudor Holiday Park（10 Porter Street, Kalbarri WA 6536）。\n【核销预订】NewBook 预订确认号 #223533（Confirmed）；入住 2026-09-26、退房 2026-09-27；2 位成人；营位 Unpowered Site（无动力营位）。入住／对账时出示确认号 #223533。\n营地电话 (08) 9937 1077。设施含泳池、营地厨房、Wi-Fi、洗衣、公共淋浴等。镇内步行可达海滩与餐饮。",
+      "schedule": "08:00-08:40：从 Jurien Bay Tourist Park 退房北上。Lake Thetis（塞蒂斯湖）在 Cervantes 附近、方向偏南，仅在时间充裕时绕行短停；否则直接北上。\n08:40-11:40：驾车经 Brand Highway 前往 杰拉尔顿（Geraldton）（自朱里恩湾约 190-210 公里，视是否绕 Cervantes）。\n11:40-13:00：市内约2公里到 Geraldton Foreshore（杰拉尔顿海滨）／午餐、加油和采购。\n13:00-14:15：驾车约98公里前往 格雷戈里港（Port Gregory）。\n14:15-15:30：从格雷戈里港驾车约14公里到 Hutt Lagoon（粉红湖）公共观景点。\n15:30-16:30：驾车约54公里前往 卡尔巴里（Kalbarri）。\n16:45-日落：从镇中心约5公里到 Red Bluff（红崖）；若改去 Natural Bridge（天然桥），则约14公里。二选一看海岸夕照，然后回 Kalbarri Tudor Holiday Park 入住（确认号 #223533）。",
+      "highlights": "Lake Thetis（塞蒂斯湖）：湖岸stromatolites（叠层石）及其“活着的古老生态系统”意义是核心；清晨安静、光线柔和。自朱里恩湾出发时为反向绕行，可删。\nGeraldton Foreshore（杰拉尔顿海滨）：海滨草地、港口城市节奏与补给便利是特色；中午只作恢复体力的轻松停留。\nHutt Lagoon（粉红湖）：高盐度、微藻与工业生产共同形成粉红或淡紫色湖面；晴天约11:00-15:00高太阳时颜色通常更明显，但受云量、盐度、风和视角影响。\nRed Bluff（红崖）／Natural Bridge（天然桥）：前者看高崖与层叠海岸线，后者看海蚀拱门和沉积岩层；最佳为日落前45-60分钟。",
+      "booking": "住宿已确认：Kalbarri Tudor Holiday Park，NewBook #223533，Unpowered Site，9/26-9/27，2 成人。地址 10 Porter Street, Kalbarri WA 6536｜电话 (08) 9937 1077｜一键导航。\n预约：Lake Thetis（塞蒂斯湖）、Geraldton Foreshore（杰拉尔顿海滨）、Hutt Lagoon（粉红湖）、Red Bluff（红崖）和Natural Bridge（天然桥）均免费，无需预约。\n注意：Hutt Lagoon（粉红湖）颜色不保证；只在公共观景区停留，不进入生产区或私人土地。海崖强风时远离崖缘，始终留在正式步道和护栏内。Red Bluff（红崖）与Natural Bridge（天然桥）按时间和体力二选一。Kalbarri 镇内和国家公园均禁止自由露营。",
+      "weather": "天气（长年气候参考，非逐日预报）：朱里恩湾（Jurien Bay）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
       "links": [
         {
-          "label": "Kalbarri Tudor Holiday Park（卡尔巴里都铎假日公园）",
-          "url": "https://kalbarritudor.com.au/book-now/"
+          "label": "Kalbarri Tudor Holiday Park",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kalbarri+Tudor+Holiday+Park+10+Porter+Street+Kalbarri+WA+6536"
         },
         {
-          "label": "Google Maps 导航",
-          "url": "https://www.google.com/maps/search/?api=1&query=Kalbarri Tudor Holiday Park 10 Porter Street Kalbarri WA"
-        },
-        {
-          "label": "Kalbarri Anchorage Holiday Village",
-          "url": "https://www.kalbarrianchorage.com.au/home-1"
-        },
-        {
-          "label": "Google Maps 导航",
-          "url": "https://www.google.com/maps/search/?api=1&query=Kalbarri Anchorage Holiday Village 168 Grey Street Kalbarri WA"
-        },
-        {
-          "label": "Murchison River Caravan Park",
-          "url": "https://www.murcp.com/"
-        },
-        {
-          "label": "Google Maps 导航",
-          "url": "https://www.google.com/maps/search/?api=1&query=Murchison River Caravan Park Kalbarri WA"
-        },
-        {
-          "label": "Google Maps 导航",
-          "url": "https://www.google.com/maps/search/?api=1&query=Galena Rest Area North West Coastal Highway WA"
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kalbarri+Tudor+Holiday+Park+10+Porter+Street+Kalbarri+WA+6536"
         },
         {
           "label": "BOM杰拉尔顿气候",
@@ -329,9 +268,9 @@
         {
           "id": "rhythm-1",
           "order": 1,
-          "time": "08:00-08:30",
+          "time": "08:00-08:40",
           "title": "塞蒂斯湖",
-          "text": "从塞万提斯驾车约3公里，可选 Lake Thetis（塞蒂斯湖） 短停；若前一晚疲劳则取消。",
+          "text": "从 Jurien Bay Tourist Park 退房北上。Lake Thetis（塞蒂斯湖）在 Cervantes 附近、方向偏南，仅在时间充裕时绕行短停；否则直接北上。",
           "placeId": "d3-01",
           "sequence": 1,
           "priority": "optional",
@@ -341,9 +280,9 @@
         {
           "id": "rhythm-2",
           "order": 2,
-          "time": "08:30-11:30",
-          "title": "驾车约221公里，塞万提斯（Cervantes） → 杰拉尔…",
-          "text": "驾车约221公里，塞万提斯（Cervantes） → 杰拉尔顿（Geraldton）。",
+          "time": "08:40-11:40",
+          "title": "驾车经 Brand Highway 前往 杰拉尔顿（Gera…",
+          "text": "驾车经 Brand Highway 前往 杰拉尔顿（Geraldton）（自朱里恩湾约 190-210 公里，视是否绕 Cervantes）。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -353,7 +292,7 @@
         {
           "id": "rhythm-3",
           "order": 3,
-          "time": "11:30-13:00",
+          "time": "11:40-13:00",
           "title": "杰拉尔顿海滨",
           "text": "市内约2公里到 Geraldton Foreshore（杰拉尔顿海滨）／午餐、加油和采购。",
           "placeId": "d3-02",
@@ -390,25 +329,25 @@
           "id": "rhythm-6",
           "order": 6,
           "time": "15:30-16:30",
-          "title": "卡尔巴里（镇）",
+          "title": "驾车约54公里前往 卡尔巴里（Kalbarri）",
           "text": "驾车约54公里前往 卡尔巴里（Kalbarri）。",
-          "placeId": "d3-04",
-          "sequence": 4,
-          "priority": "optional",
-          "lat": -27.711,
-          "lng": 114.165
-        },
-        {
-          "id": "rhythm-7",
-          "order": 7,
-          "time": "16:45-日落",
-          "title": "从镇中心约5公里到 Red Bluff（红崖）",
-          "text": "从镇中心约5公里到 Red Bluff（红崖）；若改去 Natural Bridge（天然桥），则约14公里。二选一看海岸夕照，然后进镇入住。",
           "placeId": null,
           "sequence": null,
           "priority": null,
           "lat": null,
           "lng": null
+        },
+        {
+          "id": "rhythm-7",
+          "order": 7,
+          "time": "16:45-日落",
+          "title": "Kalbarri Tudor Holiday Park（住宿）",
+          "text": "从镇中心约5公里到 Red Bluff（红崖）；若改去 Natural Bridge（天然桥），则约14公里。二选一看海岸夕照，然后回 Kalbarri Tudor Holiday Park 入住（确认号 #223533）。",
+          "placeId": "d3-04",
+          "sequence": 4,
+          "priority": "optional",
+          "lat": -27.7086,
+          "lng": 114.1647
         }
       ],
       "unassigned": {
@@ -418,36 +357,7 @@
           "最佳为日落前45-60分钟。"
         ],
         "weather": [],
-        "links": [
-          {
-            "label": "Kalbarri Tudor Holiday Park（卡尔巴里都铎假日公园）",
-            "url": "https://kalbarritudor.com.au/book-now/"
-          },
-          {
-            "label": "Google Maps 导航",
-            "url": "https://www.google.com/maps/search/?api=1&query=Kalbarri Tudor Holiday Park 10 Porter Street Kalbarri WA"
-          },
-          {
-            "label": "Kalbarri Anchorage Holiday Village",
-            "url": "https://www.kalbarrianchorage.com.au/home-1"
-          },
-          {
-            "label": "Google Maps 导航",
-            "url": "https://www.google.com/maps/search/?api=1&query=Kalbarri Anchorage Holiday Village 168 Grey Street Kalbarri WA"
-          },
-          {
-            "label": "Murchison River Caravan Park",
-            "url": "https://www.murcp.com/"
-          },
-          {
-            "label": "Google Maps 导航",
-            "url": "https://www.google.com/maps/search/?api=1&query=Murchison River Caravan Park Kalbarri WA"
-          },
-          {
-            "label": "Google Maps 导航",
-            "url": "https://www.google.com/maps/search/?api=1&query=Galena Rest Area North West Coastal Highway WA"
-          }
-        ]
+        "links": []
       }
     },
     {
@@ -579,7 +489,7 @@
       "lodging": "当前计划入住（已订）：Iron Creek Bay Estate（394 Arthur Highway, Sorell TAS 7172；9月28日入住、10月1日退房，连住三晚）。酒店距霍巴特机场约15分钟、霍巴特CBD约30分钟车程，两天参加Hobart往返当日团时需自驾往返集合区域并另留停车时间。已订备选：Quest Savoy（38 Elizabeth Street, Hobart TAS 7000；同一日期的订单暂不取消）。【待定-8】两笔订单均保留，当前路书按Iron Creek Bay Estate执行，最终取消哪一笔待决定。",
       "schedule": "06:30：从Sweet Home Property出发前往珀斯机场。\n06:50-07:10：到珀斯机场T1附近加满油。\n07:00-08:10：还车、托运行李和安检，最晚08:10进入候机区。\n09:50-16:00：乘维珍澳洲VA594，珀斯机场T1 → 霍巴特机场。\n16:00-17:05：取行李并办理塔州租车手续。\n17:05-17:25：前往Iron Creek Bay Estate，约15公里／15-20分钟。\n17:25以后：办理入住、在Sorell采购三晚所需补给，并复核9月29日和9月30日旅行团集合时间、CBD停车方案。",
       "highlights": "本日重点：以跨州航班和入住为主，不安排远程景点。Iron Creek Bay Estate位于Sorell，靠近机场，但前往霍巴特集合点需自驾。",
-      "booking": "住宿已确认：Iron Creek Bay Estate与Quest Savoy两笔9月28日-10月1日订单均暂时保留；当前按Iron Creek Bay Estate连住三晚执行。\n必须确认：最终取消哪一笔住宿；9月29日Tasman Island当日团和9月30日Maria Island当日团的最终订单、集合点和集合时间；不同平台／产品可能调整接送安排，以电子票为准。",
+      "booking": "住宿已确认：Iron Creek Bay Estate与Quest Savoy两笔9月28日-10月1日订单均暂时保留；当前按Iron Creek Bay Estate连住三晚执行。\n已确认：9月29日 Maria Island Same Day Return（Reference #1441927，自驾 Triabunna Wharf）。必须确认：最终取消哪一笔住宿（Iron Creek vs Quest Savoy）；9月30日 Tasman Island／塔斯曼半岛当日团的最终订单、集合点和集合时间；不同平台／产品可能调整接送安排，以电子票为准。",
       "weather": "天气（长年气候参考，非逐日预报）：珀斯机场清晨约10-21°C；霍巴特机场／霍巴特CBD约6-15°C，傍晚常见阵雨、海风和明显风寒。落地后换长裤、保暖中层及防风防水外层。BOM霍巴特气候。",
       "links": [
         {
@@ -683,9 +593,7 @@
       ],
       "unassigned": {
         "booking": [
-          "必须确认：最终取消哪一笔住宿；",
-          "9月29日Tasman Island当日团和9月30日Maria Island当日团的最终订单、集合点和集合时间；",
-          "不同平台／产品可能调整接送安排，以电子票为准。"
+          "已确认：9月29日 Maria Island Same Day Return（Reference #1441927，自驾 Triabunna Wharf）。"
         ],
         "highlights": [
           "本日重点：以跨州航班和入住为主，不安排远程景点。"
@@ -709,12 +617,107 @@
       "day": 6,
       "date": "2026-09-29",
       "weekday": "周二",
-      "region": "霍巴特（Hobart）-Tasman Island（塔斯曼岛）当日团-霍巴特",
+      "region": "霍巴特（Hobart）-Maria Island（玛丽亚岛）自助当日往返-Sorell",
+      "route": "Iron Creek Bay Estate → Triabunna Wharf（特里阿布纳码头）→ Maria Island／Darlington（达灵顿）→ Triabunna → Iron Creek Bay Estate",
+      "lodging": "继续入住：Iron Creek Bay Estate，同一房间第2晚；渡轮返回 Triabunna 后自驾回 Sorell，不搬行李。Quest Savoy订单仍作为已订备选保留。",
+      "schedule": "06:15-07:30：从 Iron Creek Bay Estate 自驾约 70-85 公里前往 Triabunna Wharf；预留停车与签到时间。\n08:00：Triabunna Wharf 签到／集合（订单指定 Pickup Time）。\n08:30：渡轮开船，Triabunna → Maria Island（Darlington）。\n上午-午后：在 Darlington 周边观察袋熊、袋鼠和斑胸草雁；按潮汐与体力选择 Painted Cliffs 或 Fossil Cliffs，只完成一条主要路线。自带午餐与足量饮水（岛上无商店）。\n14:00：Darlington 集合（Pickup Time）；14:30 渡轮开船返回 Triabunna。\n15:30以后：取车自驾返回 Iron Creek Bay Estate；夜间注意野生动物。",
+      "highlights": "Maria Island（玛丽亚岛）动物与自然：Darlington（达灵顿）草地是本日观察 Wombat（袋熊）、Forester kangaroo（东部灰大袋鼠）、Bennett wallaby（红颈袋鼠）和 Cape Barren goose（斑胸草雁）的核心区域；动物白天也常见，上午刚登岛及 15:00 后人少时更适合安静观察。\nPainted Cliffs（彩绘崖）：砂岩被铁质染色并经风浪雕刻出旋涡纹理，必须把到访放在低潮前后约两小时内；潮位不合适不要走下岩台。\nFossil Cliffs（化石崖）：石灰岩中可见大量古海洋生物化石，开阔海岸还适合看海鸟；与彩绘崖二选一更符合轻量徒步和近全天动物观察。\nDarlington（达灵顿）：保留少量世界遗产聚落解读，但不把监狱史作为旅行重点。本日的优先级是自然、动物和岛屿地貌。",
+      "booking": "渡轮／门票已确认（Same Day Return）：Reference #1441927；日期 2026-09-29；总额 AUD 216.35。含 2 × Adults（AUD 118.00） 与 1 × Holiday Pass - Per Vehicle（up to 8 people）（AUD 98.35）。\n去程：Pickup Triabunna Wharf 08:00，Departure 08:30。\n回程：Pickup Darlington 14:00，Departure 14:30。\n登船／核销时出示 Reference #1441927。官方时刻表复核｜码头导航：Triabunna Wharf。\n岛上准备：没有商店、咖啡馆和游客汽车；自带午餐、足量饮水、雨具、防晒和轻便背包。晕船药按说明提前服用。",
+      "weather": "天气（长年气候参考，非逐日预报）：霍巴特／特里阿布纳／Maria Island约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水。",
+      "links": [
+        {
+          "label": "官方时刻表复核",
+          "url": "https://encountermaria.com.au/timetable-pricing-luggage-check/"
+        },
+        {
+          "label": "Triabunna Wharf",
+          "url": "https://www.google.com/maps/search/?api=1&query=Triabunna+Wharf+Tasmania"
+        }
+      ],
+      "rhythm": [
+        {
+          "id": "rhythm-1",
+          "order": 1,
+          "time": "06:15-07:30",
+          "title": "Iron Creek Bay Estate（返程住宿）",
+          "text": "从 Iron Creek Bay Estate 自驾约 70-85 公里前往 Triabunna Wharf；预留停车与签到时间。",
+          "placeId": "d6-04",
+          "sequence": 3,
+          "priority": "main",
+          "lat": -42.7844,
+          "lng": 147.5855
+        },
+        {
+          "id": "rhythm-2",
+          "order": 2,
+          "time": "08:00",
+          "title": "Triabunna Wharf（登船码头）",
+          "text": "Triabunna Wharf 签到／集合（订单指定 Pickup Time）。",
+          "placeId": "d6-00",
+          "sequence": 1,
+          "priority": "main",
+          "lat": -42.5089,
+          "lng": 147.9135
+        },
+        {
+          "id": "rhythm-3",
+          "order": 3,
+          "time": "08:30-14:00",
+          "title": "玛丽亚岛（Darlington）",
+          "text": "渡轮开船，Triabunna → Maria Island（Darlington）。\n在 Darlington 周边观察袋熊、袋鼠和斑胸草雁；按潮汐与体力选择 Painted Cliffs 或 Fossil Cliffs，只完成一条主要路线。自带午餐与足量饮水（岛上无商店）。\nDarlington 集合（Pickup Time）；14:30 渡轮开船返回 Triabunna。",
+          "placeId": "d6-01",
+          "sequence": 2,
+          "priority": "optional",
+          "lat": -43.1485,
+          "lng": 147.852
+        },
+        {
+          "id": "rhythm-4",
+          "order": 4,
+          "time": "15:30以后",
+          "title": "取车自驾返回 Iron Creek Bay Estate",
+          "text": "取车自驾返回 Iron Creek Bay Estate；夜间注意野生动物。",
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
+        }
+      ],
+      "unassigned": {
+        "booking": [
+          "渡轮／门票已确认（Same Day Return）：Reference #1441927；",
+          "日期 2026-09-29；",
+          "总额 AUD 216.35。",
+          "含 2 × Adults（AUD 118.00） 与 1 × Holiday Pass - Per Vehicle（up to 8 people）（AUD 98.35）。",
+          "登船／核销时出示 Reference #1441927。",
+          "岛上准备：没有商店、咖啡馆和游客汽车；",
+          "自带午餐、足量饮水、雨具、防晒和轻便背包。",
+          "晕船药按说明提前服用。"
+        ],
+        "highlights": [
+          "Painted Cliffs（彩绘崖）：砂岩被铁质染色并经风浪雕刻出旋涡纹理，必须把到访放在低潮前后约两小时内；",
+          "潮位不合适不要走下岩台。",
+          "Fossil Cliffs（化石崖）：石灰岩中可见大量古海洋生物化石，开阔海岸还适合看海鸟；",
+          "与彩绘崖二选一更符合轻量徒步和近全天动物观察。"
+        ],
+        "weather": [
+          "天气（长年气候参考，非逐日预报）：霍巴特／特里阿布纳／Maria Island约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。",
+          "带防水外壳、保暖层、防滑鞋、防晒和足量饮水。"
+        ],
+        "links": []
+      }
+    },
+    {
+      "day": 7,
+      "date": "2026-09-30",
+      "weekday": "周三",
+      "region": "霍巴特（Hobart）-Tasman Island（塔斯曼岛）当日团-Sorell",
       "route": "Iron Creek Bay Estate → Franklin Wharf／旅行团指定集合点 → Tasman Island／塔斯曼半岛当日团 → Iron Creek Bay Estate",
-      "lodging": "继续入住：Iron Creek Bay Estate，同一房间第2晚；旅行团结束后从霍巴特自驾返回Sorell，不搬行李。Quest Savoy订单仍作为已订备选保留。",
-      "schedule": "出发前：从Iron Creek Bay Estate自驾约30-40分钟前往霍巴特CBD，另留停车和步行时间，至少提前15分钟到Franklin Wharf／订单指定集合点。\n白天：参加含霍巴特往返接送的Tasman Island／塔斯曼半岛当日团；海上巡游、陆上停靠和用餐顺序以运营方当天安排为准。\n傍晚：旅行团送回霍巴特后返回停车点，自驾约30-40分钟回Iron Creek Bay Estate，休息并准备次日Maria Island装备；夜间注意野生动物。",
+      "lodging": "继续入住：Iron Creek Bay Estate，同一房间第3晚；旅行团结束后从霍巴特自驾返回Sorell，不搬行李。Quest Savoy订单仍作为已订备选保留。",
+      "schedule": "出发前：从Iron Creek Bay Estate自驾约30-40分钟前往霍巴特CBD，另留停车和步行时间，至少提前15分钟到Franklin Wharf／订单指定集合点。\n白天：参加含霍巴特往返接送的Tasman Island／塔斯曼半岛当日团；海上巡游、陆上停靠和用餐顺序以运营方当天安排为准。\n傍晚：旅行团送回霍巴特后返回停车点，自驾约30-40分钟回Iron Creek Bay Estate，收拾行李并确认10月1日出发安排；夜间注意野生动物。",
       "highlights": "Tasman Island Cruises（塔斯曼岛巡游）：Cape Pillar（皮勒角）的高耸dolerite海崖、海洞、瀑布、海豹群和海鸟是稳定核心；Dolphin（海豚）、Humpback Whale（座头鲸）与Southern Right Whale（南露脊鲸）属于迁徙季机会，不保证。10:00-13:00为核心观赏窗口。\nTasman Arch（塔斯曼拱门）／Devils Kitchen（魔鬼厨房）：以海浪侵蚀形成的天然拱门、深沟和崖壁为特色；平坦短线约15-30分钟，巡游后顺路补充陆上视角。\nTessellated Pavement（棋盘石）：岩层节理与盐风化形成规则块状纹理；退潮、岩面较干且有侧光时最清楚。本日只安排这两个短停，不再叠加长徒步。",
-      "booking": "必须预约：选择明确包含Hobart往返接送的产品；最终集合点、出发时间、午餐和巡游时长以Klook／GetYourGuide电子票为准。晕船药按说明提前服用。若产品包含Tasman Arch／Devils Kitchen，临行前复查工程页面。",
+      "booking": "【待定】塔斯曼岛／塔斯曼半岛当日团尚未在本批截图中确认预订号；9/30 行程暂按含 Hobart 往返接送的产品规划，集合点、出发时间与午餐以最终电子票为准。晕船药按说明提前服用。若产品包含Tasman Arch／Devils Kitchen，临行前复查工程页面。",
       "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
       "links": [
         {
@@ -729,7 +732,7 @@
           "time": "出发前",
           "title": "Iron Creek Bay Estate（返程住宿）",
           "text": "从Iron Creek Bay Estate自驾约30-40分钟前往霍巴特CBD，另留停车和步行时间，至少提前15分钟到Franklin Wharf／订单指定集合点。",
-          "placeId": "d6-04",
+          "placeId": "d7-02",
           "sequence": 5,
           "priority": "main",
           "lat": -42.7844,
@@ -752,7 +755,7 @@
           "order": 3,
           "time": "傍晚",
           "title": "旅行团送回霍巴特后返回停车点，自驾约30-40分钟回Iron…",
-          "text": "旅行团送回霍巴特后返回停车点，自驾约30-40分钟回Iron Creek Bay Estate，休息并准备次日Maria Island装备；夜间注意野生动物。",
+          "text": "旅行团送回霍巴特后返回停车点，自驾约30-40分钟回Iron Creek Bay Estate，收拾行李并确认10月1日出发安排；夜间注意野生动物。",
           "placeId": null,
           "sequence": null,
           "priority": null,
@@ -762,7 +765,7 @@
       ],
       "unassigned": {
         "booking": [
-          "必须预约：选择明确包含Hobart往返接送的产品；"
+          "【待定】塔斯曼岛／塔斯曼半岛当日团尚未在本批截图中确认预订号；"
         ],
         "highlights": [
           "Tasman Island Cruises（塔斯曼岛巡游）：Cape Pillar（皮勒角）的高耸dolerite海崖、海洞、瀑布、海豹群和海鸟是稳定核心；",
@@ -773,92 +776,6 @@
           "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；",
           "船上海风会显著降低体感。",
           "带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。"
-        ],
-        "links": []
-      }
-    },
-    {
-      "day": 7,
-      "date": "2026-09-30",
-      "weekday": "周三",
-      "region": "霍巴特（Hobart）-Maria Island（玛丽亚岛）当日团-霍巴特",
-      "route": "Iron Creek Bay Estate → 20 Davey Street／旅行团指定集合点 → Triabunna → Maria Island → 霍巴特 → Iron Creek Bay Estate",
-      "lodging": "继续入住：Iron Creek Bay Estate，同一房间第3晚；当日团结束后从霍巴特自驾返回Sorell，不搬行李。Quest Savoy订单仍作为已订备选保留。",
-      "schedule": "出发前：从Iron Creek Bay Estate自驾约30-40分钟前往霍巴特CBD，另留停车和步行时间，至少提前15分钟到20 Davey Street／订单指定集合点。\n上午：随含Hobart往返接送的旅行团前往Triabunna，办理渡轮手续后前往Darlington（达灵顿）。\n岛上：在Darlington周边观察袋熊、袋鼠和斑胸草雁；按潮汐与体力选择Painted Cliffs或Fossil Cliffs，只完成一条主要路线。\n下午：按旅行团安排返回Triabunna，再由旅行团送回霍巴特。\n傍晚：从霍巴特集合区域取车返回Iron Creek Bay Estate，收拾行李并确认10月1日出发安排；夜间注意野生动物。",
-      "highlights": "Maria Island（玛丽亚岛）动物与自然：Darlington（达灵顿）草地是本日观察Wombat（袋熊）、Forester kangaroo（东部灰大袋鼠）、Bennett wallaby（红颈袋鼠）和Cape Barren goose（斑胸草雁）的核心区域；动物白天也常见，上午刚登岛及15:00后人少时更适合安静观察。\nPainted Cliffs（彩绘崖）：砂岩被铁质染色并经风浪雕刻出旋涡纹理，必须把到访放在低潮前后约两小时内；潮位不合适不要走下岩台。\nFossil Cliffs（化石崖）：石灰岩中可见大量古海洋生物化石，开阔海岸还适合看海鸟；与彩绘崖二选一更符合轻量徒步和近全天动物观察。\nDarlington（达灵顿）：保留少量世界遗产聚落解读，但不把监狱史作为旅行重点。本日的优先级是自然、动物和岛屿地貌。",
-      "booking": "必须预约：选择明确包含Hobart-Triabunna往返接送、Maria Island渡轮和岛上活动的产品；具体船班、集合点和Parks Pass是否包含以Klook／GetYourGuide订单为准。官方时刻表用于临行复核。\n岛上准备：没有商店、咖啡馆和游客汽车；自带午餐、足量饮水、雨具、防晒和轻便背包。",
-      "weather": "天气（长年气候参考，非逐日预报）：霍巴特／特里阿布纳／Maria Island约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水。",
-      "links": [
-        {
-          "label": "官方时刻表",
-          "url": "https://encountermaria.com.au/timetable-pricing-luggage-check/"
-        }
-      ],
-      "rhythm": [
-        {
-          "id": "rhythm-1",
-          "order": 1,
-          "time": "出发前",
-          "title": "Iron Creek Bay Estate（返程住宿）",
-          "text": "从Iron Creek Bay Estate自驾约30-40分钟前往霍巴特CBD，另留停车和步行时间，至少提前15分钟到20 Davey Street／订单指定集合点。",
-          "placeId": "d7-02",
-          "sequence": 3,
-          "priority": "main",
-          "lat": -42.7844,
-          "lng": 147.5855
-        },
-        {
-          "id": "rhythm-2",
-          "order": 2,
-          "time": "上午 / 岛上",
-          "title": "玛丽亚岛",
-          "text": "随含Hobart往返接送的旅行团前往Triabunna，办理渡轮手续后前往Darlington（达灵顿）。\n在Darlington周边观察袋熊、袋鼠和斑胸草雁；按潮汐与体力选择Painted Cliffs或Fossil Cliffs，只完成一条主要路线。",
-          "placeId": "d7-01",
-          "sequence": 2,
-          "priority": "optional",
-          "lat": -42.582,
-          "lng": 148.065
-        },
-        {
-          "id": "rhythm-3",
-          "order": 3,
-          "time": "下午",
-          "title": "按旅行团安排返回Triabunna，再由旅行团送回霍巴特",
-          "text": "按旅行团安排返回Triabunna，再由旅行团送回霍巴特。",
-          "placeId": null,
-          "sequence": null,
-          "priority": null,
-          "lat": null,
-          "lng": null
-        },
-        {
-          "id": "rhythm-4",
-          "order": 4,
-          "time": "傍晚",
-          "title": "从霍巴特集合区域取车返回Iron Creek Bay Est…",
-          "text": "从霍巴特集合区域取车返回Iron Creek Bay Estate，收拾行李并确认10月1日出发安排；夜间注意野生动物。",
-          "placeId": null,
-          "sequence": null,
-          "priority": null,
-          "lat": null,
-          "lng": null
-        }
-      ],
-      "unassigned": {
-        "booking": [
-          "必须预约：选择明确包含Hobart-Triabunna往返接送、Maria Island渡轮和岛上活动的产品；",
-          "岛上准备：没有商店、咖啡馆和游客汽车；",
-          "自带午餐、足量饮水、雨具、防晒和轻便背包。"
-        ],
-        "highlights": [
-          "Painted Cliffs（彩绘崖）：砂岩被铁质染色并经风浪雕刻出旋涡纹理，必须把到访放在低潮前后约两小时内；",
-          "潮位不合适不要走下岩台。",
-          "Fossil Cliffs（化石崖）：石灰岩中可见大量古海洋生物化石，开阔海岸还适合看海鸟；",
-          "与彩绘崖二选一更符合轻量徒步和近全天动物观察。"
-        ],
-        "weather": [
-          "天气（长年气候参考，非逐日预报）：霍巴特／特里阿布纳／Maria Island约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。",
-          "带防水外壳、保暖层、防滑鞋、防晒和足量饮水。"
         ],
         "links": []
       }
@@ -982,24 +899,24 @@
       "date": "2026-10-02",
       "weekday": "周五",
       "region": "朗塞斯顿（Launceston）-美丽角（Beauty Point）-Cradle Mountain（摇篮山）",
-      "route": "朗塞斯顿（Launceston）→ Platypus House（鸭嘴兽之家）→ Cradle Mountain Visitor Centre（摇篮山游客中心）→ Dove Lake（鸽子湖）／Ronny Creek（罗尼溪）→ Devils@Cradle（摇篮山恶魔保护园）→ Discovery Parks - Cradle Mountain（帐篷营位）",
-      "lodging": "待预订（已核实有位）：Discovery Parks - Cradle Mountain（3832 Cradle Mountain Road, Cradle Mountain TAS 7306；紧邻Cradle Mountain Visitor Centre）小屋已售罄，改订自带帐篷的营位。2026-08-26在官方预订引擎实测10月2日入住、10月3日退房显示有位：Unpowered Site 16 Feet约AUD 63／晚（官方说明适合tents、campervans与small motorhomes）、Premium Unpowered 25 Feet约AUD 68／晚、Powered Site 18 Feet约AUD 73／晚。不要选同价的Unpowered Gravel Site 14 Feet，官方明确该营位不可搭帐篷或遮阳篷。16 Feet无电营位官方直链｜Google Maps 导航。营地有amenities block、营地厨房、BBQ和投币洗衣；国家公园范围内禁止营火与明火，饮水按每人每天约9升自备。夜间喂食团结束后短程回营，不赶船。",
+      "route": "朗塞斯顿（Launceston）→ Platypus House（鸭嘴兽之家）→ Cradle Mountain Visitor Centre（摇篮山游客中心）→ Dove Lake（鸽子湖）／Ronny Creek（罗尼溪）→ Devils@Cradle（摇篮山恶魔保护园）→ Discovery Resorts - Cradle Mountain（Powered Site 18 Feet）",
+      "lodging": "已确认住宿（露营）：Discovery Resorts - Cradle Mountain（3832 Cradle Mountain Road, Cradle Mountain TAS 7306；紧邻 Cradle Mountain Visitor Centre）。\n【核销预订】Online booking reference #J-7412711；入住 2026-10-02、退房 2026-10-03（1 晚）；2 位客人；营位 Powered Site - 18 Feet；已付清 AUD 73.65。入住／对账时出示预订号 J-7412711。\n营地电话 (03) 6492 1395。营地有 amenities block、营地厨房、BBQ 和投币洗衣；国家公园范围内禁止营火与明火，饮水按每人每天约 9 升自备。夜间喂食团结束后短程回营，不赶船。｜一键导航",
       "schedule": "08:25-09:15：从朗塞斯顿（Launceston）住宿驾车约48公里到美丽角（Beauty Point）／Platypus House（鸭嘴兽之家），预留停车和签到时间；正常情况下完全来得及参加10:00导览。\n10:00-11:00：参加Platypus House（鸭嘴兽之家）第一场向导团，在白天稳定观察Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）。\n11:00-11:30：简餐、取外带午餐并离开。\n11:30-13:50：驾车约140公里前往Cradle Mountain Visitor Centre（摇篮山游客中心）；山路按2小时20分预留，不增加中途景点。\n13:50-14:20：办理parks pass／shuttle，寄存不需要的物品。\n14:20-15:25：乘接驳车约10公里到Dove Lake（鸽子湖），先看经典湖面与Cradle轮廓，再按体能只走湖东岸短段后原路返回。\n15:25-16:25：视接驳与体力在Ronny Creek（罗尼溪）下车，沿button-grass草原木栈道轻走，寻找Wombat（袋熊）、Pademelon（塔斯马尼亚沙袋鼠）和Short-beaked echidna（短喙针鼹）；若前段延误，Ronny Creek缩短或移到10/3上午。\n16:25-17:00：乘末段接驳返回游客中心。\n17:00-17:20：驾车约5-8公里到Devils@Cradle（摇篮山恶魔保护园）。\n17:30-18:45：参加After Dark Feeding Tour（夜间喂食团），观察Tasmanian devil（袋獾）、Eastern quoll（东袋鼬）与Spotted-tail quoll（斑尾袋鼬）。\n18:45以后：短程回Discovery Parks - Cradle Mountain营位搭帐篷；天黑后山区气温接近0°C，先搭好帐篷再用营地厨房备餐。",
       "highlights": "Platypus House（鸭嘴兽之家）：室内／半室内环境能在白天稳定看到活跃进食的Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）；10:00第一场最利于从朗塞斯顿衔接摇篮山。\nCradle Mountain（摇篮山）／Dove Lake（鸽子湖）：冰川湖、dolerite山体、pencil pine与高山荒原是核心；10/2下午先完成经典湖景和短段湖岸，不走Cradle Summit（摇篮山顶），也不强求完整环湖。\nRonny Creek（罗尼溪）：草原和木栈道是观察野生袋熊的轻量地点之一，下午后段逐渐接近动物活跃窗口。\nDevils@Cradle（摇篮山恶魔保护园）：17:30夜间喂食团正值袋獾和袋鼬活跃时段，可结合Devil Facial Tumour Disease了解保育工作。",
-      "booking": "Platypus House（鸭嘴兽之家）必须预约：开放时间10:00-15:30、最后一场15:00；预订10:00第一场，成人当前AUD 29.95／人。官方介绍｜官方预订。朗塞斯顿至美丽角约48公里／45分钟，本方案08:25出发并留出45分钟余量。\nDevils@Cradle（摇篮山恶魔保护园）必须预约：17:30 After Dark Feeding Tour约1小时15分，成人AUD 40／人。官方场次与订票。\n公园费用与接驳：需有效parks pass；10月2日处于夏令时切换前，官方季节表约08:45-17:00，可能随天气调整。官方接驳说明。若13:50以后才到游客中心，优先Dove Lake（鸽子湖），把Ronny Creek（罗尼溪）移至10/3上午。",
+      "booking": "住宿已确认：Discovery Resorts - Cradle Mountain，预订号 #J-7412711，Powered Site - 18 Feet，10/2-10/3，2 客人，已付 AUD 73.65。地址 3832 Cradle Mountain Road, Cradle Mountain TAS 7306｜电话 (03) 6492 1395｜一键导航。\nPlatypus House（鸭嘴兽之家）必须预约：开放时间10:00-15:30、最后一场15:00；预订10:00第一场，成人当前AUD 29.95／人。官方介绍｜官方预订。朗塞斯顿至美丽角约48公里／45分钟，本方案08:25出发并留出45分钟余量。\nDevils@Cradle（摇篮山恶魔保护园）必须预约：17:30 After Dark Feeding Tour约1小时15分，成人AUD 40／人。官方场次与订票。\n公园费用与接驳：需有效parks pass；10月2日处于夏令时切换前，官方季节表约08:45-17:00，可能随天气调整。官方接驳说明。若13:50以后才到游客中心，优先Dove Lake（鸽子湖），把Ronny Creek（罗尼溪）移至10/3上午。",
       "weather": "天气（长年气候参考，非逐日预报）：朗塞斯顿（Launceston）／美丽角（Beauty Point）约6-17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0-10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。",
       "links": [
         {
-          "label": "Discovery Parks – Cradle Mountain",
-          "url": "https://www.discoveryholidayparks.com.au/caravan-parks/tasmania/north-west/cradle-mountain"
+          "label": "Discovery Resorts – Cradle Mountain",
+          "url": "https://www.google.com/maps/search/?api=1&query=3832+Cradle+Mountain+Road+Cradle+Mountain+TAS+7306"
         },
         {
-          "label": "16 Feet无电营位官方直链",
-          "url": "https://www.discoveryholidayparks.com.au/caravan-parks/tasmania/north-west/cradle-mountain/unpowered-site?adults=2&arrive=2026-10-02&depart=2026-10-03&propertyCode=TCRA&accommodationCode=TCRA-2-69-RT"
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=3832+Cradle+Mountain+Road+Cradle+Mountain+TAS+7306"
         },
         {
-          "label": "Google Maps 导航",
-          "url": "https://www.google.com/maps/search/?api=1&query=3832 Cradle Mountain Road Cradle Mountain TAS 7306"
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=3832+Cradle+Mountain+Road+Cradle+Mountain+TAS+7306"
         },
         {
           "label": "官方介绍",
@@ -1131,13 +1048,13 @@
           "id": "rhythm-10",
           "order": 10,
           "time": "18:45以后",
-          "title": "Discovery Parks – Cradle Mountain（营地）",
+          "title": "短程回Discovery Parks - Cradle Mo…",
           "text": "短程回Discovery Parks - Cradle Mountain营位搭帐篷；天黑后山区气温接近0°C，先搭好帐篷再用营地厨房备餐。",
-          "placeId": "d9-05",
-          "sequence": 5,
-          "priority": "main",
-          "lat": -41.58018,
-          "lng": 145.937834
+          "placeId": null,
+          "sequence": null,
+          "priority": null,
+          "lat": null,
+          "lng": null
         }
       ],
       "unassigned": {
@@ -1150,20 +1067,7 @@
         "weather": [
           "天气（长年气候参考，非逐日预报）：朗塞斯顿（Launceston）／美丽角（Beauty Point）约6-17°C；"
         ],
-        "links": [
-          {
-            "label": "Discovery Parks – Cradle Mountain",
-            "url": "https://www.discoveryholidayparks.com.au/caravan-parks/tasmania/north-west/cradle-mountain"
-          },
-          {
-            "label": "16 Feet无电营位官方直链",
-            "url": "https://www.discoveryholidayparks.com.au/caravan-parks/tasmania/north-west/cradle-mountain/unpowered-site?adults=2&arrive=2026-10-02&depart=2026-10-03&propertyCode=TCRA&accommodationCode=TCRA-2-69-RT"
-          },
-          {
-            "label": "Google Maps 导航",
-            "url": "https://www.google.com/maps/search/?api=1&query=3832 Cradle Mountain Road Cradle Mountain TAS 7306"
-          }
-        ]
+        "links": []
       }
     },
     {
@@ -1320,15 +1224,23 @@
       "weekday": "周日",
       "region": "墨尔本（Melbourne）-Twelve Apostles（十二门徒）",
       "route": "墨尔本（Melbourne）市区提车 → 内陆直达Twelve Apostles（十二门徒岩）→ Gibson Steps（吉布森阶梯，视开放）→ Loch Ard Gorge（洛克阿德峡谷）→ Twelve Apostles Motel & Country Retreat",
-      "lodging": "已确认住宿：Twelve Apostles Motel & Country Retreat（314 Booringa Road, Princetown VIC 3269；10月4日入住、10月5日退房）。",
+      "lodging": "已确认住宿：Twelve Apostles Motel & Country Retreat（十二门徒度假酒店）（314 Booringa Rd, Princetown, Victoria, 3269, Australia）。\n【核销预订】携程订单号 1128150508438717；入住 2026-10-04（周日）15:00 后、退房 2026-10-05（周一）10:00 前；1 晚。入住／对账时出示订单号。若入住日 20:00 后抵达须提前告知酒店。\n设施：免费行李寄存、免费停车场、免费公用区 WIFI。｜一键导航",
       "schedule": "07:00-08:00：Mantra Melbourne Airport退房、早餐，并按酒店接送或Uber前往墨尔本市区租车点。\n08:00-08:30：在市区租车点提车、检查车况与油量并完成简单补给。\n08:30-11:30：沿内陆道路驾车约220公里直达Twelve Apostles区域；不走大洋路东段，不安排Puffing Billy。\n11:30-12:30：Twelve Apostles主观景台。\n12:40-13:20：Gibson Steps视开放情况短停；关闭时不下海滩。\n13:30-14:30：Port Campbell午餐、加油和休息。\n14:45-16:00：Loch Ard Gorge按开放步道游览。\n16:15以后：前往Twelve Apostles Motel & Country Retreat入住；若提车或路况延误，优先缩短Gibson Steps和Loch Ard。",
       "highlights": "Twelve Apostles（十二门徒岩）：抵达后先看主观景台，避免把核心景点压到次日赶St Kilda的行程里。\nGibson Steps（吉布森阶梯）：与主观景台不同的崖底尺度视角；关闭时不进入。\nLoch Ard Gorge（洛克阿德峡谷）：海湾、峡谷和沉船海岸地貌，以现场开放步道为准。",
-      "booking": "预约：Twelve Apostles、Gibson Steps与Loch Ard Gorge免费，无需预约；住宿已确认。维州租车须在10月4日上午于墨尔本市区提车，取车时间、门店位置与还车条款以租车订单为准。\n注意：改飞后本日不再有夜航疲劳，但提车环节新增不确定性，提车延误应直接压缩Gibson Steps和Loch Ard。每驾驶约2小时至少休息15-20分钟；所有海崖只走正式步道和观景台。",
+      "booking": "住宿已确认：Twelve Apostles Motel & Country Retreat，携程订单号 1128150508438717，10/4 15:00 后入住／10/5 10:00 前退房。地址 314 Booringa Rd, Princetown VIC 3269｜一键导航。可下载双语确认函备查。\n预约：Twelve Apostles、Gibson Steps与Loch Ard Gorge免费，无需预约。维州租车须在10月4日上午于墨尔本市区提车，取车时间、门店位置与还车条款以租车订单为准。\n注意：改飞后本日不再有夜航疲劳，但提车环节新增不确定性，提车延误应直接压缩Gibson Steps和Loch Ard。每驾驶约2小时至少休息15-20分钟；所有海崖只走正式步道和观景台。",
       "weather": "天气（长年气候参考，非逐日预报）：墨尔本约9-19°C，十二门徒／沉船海岸约8-17°C；沿海可能反复出现阵雨、海雾与强侧风。准备防风防水外层。",
       "links": [
         {
-          "label": "Twelve Apostles Motel & Country Retreat",
-          "url": "https://www.google.com/maps/search/?api=1&query=Twelve Apostles Motel Country Retreat 314 Booringa Road Princetown VIC 3269"
+          "label": "Twelve Apostles Motel & Country Retreat（十二门徒度假酒店）",
+          "url": "https://www.google.com/maps/search/?api=1&query=Twelve+Apostles+Motel+%26+Country+Retreat+314+Booringa+Rd+Princetown+VIC+3269"
+        },
+        {
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Twelve+Apostles+Motel+%26+Country+Retreat+314+Booringa+Rd+Princetown+VIC+3269"
+        },
+        {
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Twelve+Apostles+Motel+%26+Country+Retreat+314+Booringa+Rd+Princetown+VIC+3269"
         }
       ],
       "rhythm": [
@@ -1425,12 +1337,7 @@
           "沿海可能反复出现阵雨、海雾与强侧风。",
           "准备防风防水外层。"
         ],
-        "links": [
-          {
-            "label": "Twelve Apostles Motel & Country Retreat",
-            "url": "https://www.google.com/maps/search/?api=1&query=Twelve Apostles Motel Country Retreat 314 Booringa Road Princetown VIC 3269"
-          }
-        ]
+        "links": []
       }
     },
     {
@@ -1760,7 +1667,7 @@
       "status": "visit",
       "order_in_day": 1,
       "highlights": "入境、取行李、早餐与取车；本日行程起点。",
-      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／朱里恩湾（Jurien Bay）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
       "duration": "约3.5小时（入境取车）",
       "transport": "机场落地后取车",
       "notes": "04:20-07:45入境取车；之后驾车前往卡弗舍姆。",
@@ -1871,7 +1778,7 @@
       "status": "visit",
       "order_in_day": 2,
       "highlights": "西澳原生动物集中展示、袋鼠喂食、袋熊与农场表演，以及考拉近距离体验；动物上午较活跃，09:00入园最合适。",
-      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／朱里恩湾（Jurien Bay）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
       "duration": "约3-4小时",
       "transport": "驾车约22公里自珀斯机场",
       "notes": "成人票AUD37/人；抱考拉另付AUD35/人，09:00纪念品店先到先得；12:00场，身高≥150cm。\n\n【愿望清单·景点／自然】\n适合作为落地后的澳洲动物入门，但“抱考拉”受动物福利、开放时段和排队影响，不保证每位访客都能完成。\n深度补充：园内约有大量西澳及澳洲原生物种，价值在于把袋鼠喂食、袋熊、考拉、企鹅和农场展示集中到半天完成。动物表现取决于天气与福利安排；考拉合影包含在普通门票，抱持为限量的独立项目。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n西澳允许特定受监管的考拉接触体验，但应把它理解为有规则的动物展示，而不是随意抱动物；塔州和维州的规则、物种展示方式会不同。\n深度补充：西澳是澳洲少数仍可在严格条件下提供考拉抱持体验的地区之一。它反映各州野生动物管理规则不同，也提醒游客把接触理解为受监管的教育活动，而不是对动物的消费性占有。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n9/25 安排；开园后较早到，预留至少 2-3 小时。\n已纳入本次行程",
@@ -2016,7 +1923,7 @@
       "status": "visit",
       "order_in_day": 3,
       "highlights": "白色移动沙丘、流畅沙脊和开阔地平线；14:30以后侧光更有层次。",
-      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／朱里恩湾（Jurien Bay）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
       "duration": "约1小时",
       "transport": "驾车约135公里自卡弗舍姆",
       "notes": "步行免费；可租板。普通租车不要驶入沙地；若入境延误超60分钟优先删除本点。\n\n【愿望清单·景点／自然】\n白色移动沙丘适合观景、滑沙和四驱体验。风大会吹沙，普通租赁车不要驶入非铺装沙地。\n深度补充：Lancelin沙丘由强劲海风不断搬运细白砂形成，沙脊位置与坡度会变化；下午低角度光更能表现波纹，强风则容易扬沙。四驱车、滑沙者与步行者共享空间，普通租赁车不得贸然驶入。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n比“网红白沙丘”更值得注意的是海岸风塑地貌与渔镇生活；商业滑沙板按运营方规则使用。\n深度补充：Lancelin是渔镇、风帆运动地和周末度假地，沙丘并不是孤立“网红背景”。当地龙虾产业、风能条件及海岸娱乐共同塑造小镇身份。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n9/25 可选短停；若航班或取车延误优先删除。\n已纳入本次行程",
@@ -2057,7 +1964,7 @@
           "14:30以后侧光更有层次。"
         ],
         "weather": [
-          "兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。"
+          "兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／朱里恩湾（Jurien Bay）约10-22°C。"
         ],
         "links": [
           {
@@ -2153,16 +2060,16 @@
       "status": "visit",
       "order_in_day": 4,
       "highlights": "黄沙中的密集石灰岩柱与海岸沙丘地质景观；最佳为日落前60-90分钟至蓝调。",
-      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／朱里恩湾（Jurien Bay）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
       "duration": "至日落后",
       "transport": "驾车约77公里自兰斯林",
-      "notes": "标准车辆入园AUD17/车；Discovery Centre园内移动约2公里。日落后约20公里到塞万提斯入住。\n\n【愿望清单·景点／自然】\n成千上万石灰岩柱从黄沙中伸出，具体形成机制涉及古贝壳砂、地下水与侵蚀等长期过程。以西澳 Parks and Wildlife 当日公告为准。\n深度补充：石灰岩柱形成涉及古贝壳砂沉积、碳酸盐胶结、地下水与风蚀；现今可见形态不是一次事件的结果。园内自驾环线与步行区提供不同尺度，日落侧光突出柱体纹理，但夜色前需完成主要驾驶。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n位于 Yued Country。最佳理解方式不是把它当“外星地貌”，而是同时看地质时间、海岸沙丘演化与原住民长期土地联系。\n深度补充：公园位于Yued Country。殖民旅游名称把它包装成“Pinnacles”，但更完整的理解应把地质深时、原住民持续联系以及现代国家公园共同管理放在一起。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n9/25 日落重点；日落前 60-90 分钟入园。\n已纳入本次行程",
+      "notes": "标准车辆入园AUD17/车；Discovery Centre园内移动约2公里。日落后约45-55公里北上朱里恩湾入住（预订号1933607）。\n\n【愿望清单·景点／自然】\n成千上万石灰岩柱从黄沙中伸出，具体形成机制涉及古贝壳砂、地下水与侵蚀等长期过程。以西澳 Parks and Wildlife 当日公告为准。\n深度补充：石灰岩柱形成涉及古贝壳砂沉积、碳酸盐胶结、地下水与风蚀；现今可见形态不是一次事件的结果。园内自驾环线与步行区提供不同尺度，日落侧光突出柱体纹理，但夜色前需完成主要驾驶。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n位于 Yued Country。最佳理解方式不是把它当“外星地貌”，而是同时看地质时间、海岸沙丘演化与原住民长期土地联系。\n深度补充：公园位于Yued Country。殖民旅游名称把它包装成“Pinnacles”，但更完整的理解应把地质深时、原住民持续联系以及现代国家公园共同管理放在一起。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n9/25 日落重点；日落前 60-90 分钟入园。\n已纳入本次行程",
       "lat": -30.606,
       "lng": 115.16,
       "geocode_source": "known",
       "priority": "main",
       "sections": {
-        "practical": "标准车辆入园AUD17/车；Discovery Centre园内移动约2公里。日落后约20公里到塞万提斯入住。",
+        "practical": "标准车辆入园AUD17/车；Discovery Centre园内移动约2公里。日落后约45-55公里北上朱里恩湾入住（预订号1933607）。",
         "nature": "成千上万石灰岩柱从黄沙中伸出，具体形成机制涉及古贝壳砂、地下水与侵蚀等长期过程。以西澳 Parks and Wildlife 当日公告为准。\n深度补充：石灰岩柱形成涉及古贝壳砂沉积、碳酸盐胶结、地下水与风蚀；现今可见形态不是一次事件的结果。园内自驾环线与步行区提供不同尺度，日落侧光突出柱体纹理，但夜色前需完成主要驾驶。\n扩展阅读：景点／自然官方资料",
         "culture": "位于 Yued Country。最佳理解方式不是把它当“外星地貌”，而是同时看地质时间、海岸沙丘演化与原住民长期土地联系。\n深度补充：公园位于Yued Country。殖民旅游名称把它包装成“Pinnacles”，但更完整的理解应把地质深时、原住民持续联系以及现代国家公园共同管理放在一起。\n扩展阅读：人文／历史延伸阅读",
         "suggestion": "9/25 日落重点；日落前 60-90 分钟入园。\n已纳入本次行程"
@@ -2198,7 +2105,7 @@
           "最佳为日落前60-90分钟至蓝调，低角度金色侧光最能表现石柱纹理。"
         ],
         "weather": [
-          "兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。",
+          "兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／朱里恩湾（Jurien Bay）约10-22°C。",
           "沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；",
           "带防风防水外套、包住相机并准备防晒，强风时不滑沙。",
           "BOM气候参考。"
@@ -2217,7 +2124,7 @@
       "weatherDetail": {
         "temperatureRange": "10-22°C",
         "granularity": "nearby",
-        "basis": "塞万提斯（Cervantes）",
+        "basis": "兰斯林（Lancelin）",
         "note": "",
         "dayAdvisory": "沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考",
         "source": "长年气候参考，非逐日预报"
@@ -2294,48 +2201,54 @@
     },
     {
       "id": "d2-05",
-      "name": "塞万提斯（住宿）",
-      "name_en": "Cervantes, Western Australia",
+      "name": "Jurien Bay Tourist Park（住宿）",
+      "name_en": "Jurien Bay Tourist Park, 1 Roberts Street, Jurien Bay WA 6516",
       "day": 2,
       "date": "2026-09-25",
       "status": "visit",
       "order_in_day": 5,
-      "highlights": "当晚住宿／车宿 overnight。",
-      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
-      "duration": "过夜",
-      "transport": "驾车约20公里自尖峰石阵",
-      "notes": "首选酒店/小屋；车宿候选RAC Cervantes Holiday Park或Nambung Station Stay，须确认允许车内过夜。",
-      "lat": -30.499,
-      "lng": 115.065,
-      "geocode_source": "known",
+      "highlights": "已确认露营：Unpowered Tent (Grass)；预订号1933607；约18:00抵达。",
+      "weather": "天气（长年气候参考，非逐日预报）：珀斯机场（Perth Airport）／卡弗舍姆（Caversham）通常约10-21°C；兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／朱里恩湾（Jurien Bay）约10-22°C。沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考。",
+      "duration": "过夜（9/25-9/26）",
+      "transport": "驾车约45-55公里自尖峰石阵北上",
+      "notes": "【核销】预订号1933607｜姓名Zheng Chen｜2成人｜Unpowered camping site／Tent (Grass)｜车牌TBC。地址1 Roberts Street, Jurien Bay WA 6516。电话08 9652 1595。一键导航",
+      "lat": -30.2969,
+      "lng": 115.04,
+      "geocode_source": "official_address",
       "priority": "main",
       "sections": {
-        "practical": "首选酒店/小屋；车宿候选RAC Cervantes Holiday Park或Nambung Station Stay，须确认允许车内过夜。"
+        "practical": "【核销】预订号1933607｜姓名Zheng Chen｜2成人｜Unpowered camping site／Tent (Grass)｜车牌TBC。地址1 Roberts Street, Jurien Bay WA 6516。电话08 9652 1595。一键导航"
       },
       "links": [
         {
           "label": "BOM气候参考",
           "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
+        },
+        {
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Jurien+Bay+Tourist+Park+1+Roberts+Street+Jurien+Bay+WA+6516"
         }
       ],
       "sequence": 5,
       "dayInfo": {
-        "booking": [],
-        "highlights": [],
-        "weather": [
-          "兰斯林（Lancelin）／Lancelin Sand Dunes（兰斯林沙丘）／Nambung National Park（南邦国家公园）／Pinnacles（尖峰石阵）／塞万提斯（Cervantes）约10-22°C。"
+        "booking": [
+          "住宿已确认：Jurien Bay Tourist Park，预订号 1933607，Unpowered／Tent (Grass)，9/25-9/26，2 成人，约 18:00 抵达；",
+          "核销出示预订号。",
+          "地址 1 Roberts Street, Jurien Bay WA 6516｜一键导航。"
         ],
+        "highlights": [],
+        "weather": [],
         "links": [
           {
-            "label": "BOM气候参考",
-            "url": "https://www.bom.gov.au/climate/averages/tables/cw_009021_All.shtml"
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=Jurien+Bay+Tourist+Park+1+Roberts+Street+Jurien+Bay+WA+6516"
           }
         ]
       },
       "weatherDetail": {
         "temperatureRange": "10-22°C",
-        "granularity": "place",
-        "basis": "塞万提斯（Cervantes）",
+        "granularity": "nearby",
+        "basis": "兰斯林（Lancelin）",
         "note": "",
         "dayAdvisory": "沿海午后风通常更强，沙丘会吹沙，尖峰石阵日落后降温快，也可能遇阵雨；带防风防水外套、包住相机并准备防晒，强风时不滑沙。BOM气候参考",
         "source": "长年气候参考，非逐日预报"
@@ -2379,20 +2292,16 @@
         ]
       },
       "parking": {
-        "summary": "住宿车辆应停在已预订住宿的指定车位；镇中心短停可使用商铺和 Visitor Centre 周边路边位并以现场标志为准。",
+        "summary": "车辆停在已订 Unpowered／Tent (Grass) 营位；核对预订号 1933607。地址 1 Roberts Street, Jurien Bay WA 6516。",
         "lots": [],
         "rules": [
-          "不要把 Visitor Centre 或商铺周边短停车位当作过夜营地。",
-          "caravan、campervan 和拖挂过夜应进入合法 holiday park 或已预订营地。"
+          "【核销】预订号 1933607｜Zheng Chen｜2 成人｜约 18:00 抵达。",
+          "不要把码头或商铺短停车位当作过夜营地。"
         ],
         "sources": [
           {
-            "label": "Pinnacles Visitor Centre",
-            "url": "https://www.visitpinnaclescountry.com.au/"
-          },
-          {
-            "label": "RAC Cervantes Holiday Park",
-            "url": "https://parksandresorts.rac.com.au/cervantes/"
+            "label": "Jurien Bay Tourist Park（一键导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=Jurien+Bay+Tourist+Park+1+Roberts+Street+Jurien+Bay+WA+6516"
           }
         ]
       }
@@ -2406,7 +2315,7 @@
       "status": "visit",
       "order_in_day": 1,
       "highlights": "湖岸stromatolites（叠层石）及其“活着的古老生态系统”意义；清晨安静、光线柔和。",
-      "weather": "天气（长年气候参考，非逐日预报）：塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
+      "weather": "天气（长年气候参考，非逐日预报）：朱里恩湾（Jurien Bay）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
       "duration": "约30分钟（可选）",
       "transport": "驾车约3公里",
       "notes": "可选短停；若前一晚疲劳则取消。免费无需预约。",
@@ -2434,10 +2343,11 @@
         ],
         "highlights": [
           "Lake Thetis（塞蒂斯湖）：湖岸stromatolites（叠层石）及其“活着的古老生态系统”意义是核心；",
-          "清晨安静、光线柔和。"
+          "清晨安静、光线柔和。",
+          "自朱里恩湾出发时为反向绕行，可删。"
         ],
         "weather": [
-          "天气（长年气候参考，非逐日预报）：塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10-22°C；",
+          "天气（长年气候参考，非逐日预报）：朱里恩湾（Jurien Bay）／Lake Thetis（塞蒂斯湖）约10-22°C；",
           "杰拉尔顿（Geraldton）约11-23°C；"
         ],
         "links": [
@@ -2537,9 +2447,9 @@
       "status": "visit",
       "order_in_day": 2,
       "highlights": "海滨草地、港口城市节奏与补给便利；中午只作恢复体力的轻松停留。",
-      "weather": "天气（长年气候参考，非逐日预报）：塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
+      "weather": "天气（长年气候参考，非逐日预报）：朱里恩湾（Jurien Bay）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
       "duration": "约1.5小时",
-      "transport": "驾车约221公里自塞万提斯",
+      "transport": "驾车约190-210公里自朱里恩湾（视是否绕Cervantes）",
       "notes": "午餐、加油和采购。",
       "lat": -28.776,
       "lng": 114.614,
@@ -2657,7 +2567,7 @@
       "status": "visit",
       "order_in_day": 3,
       "highlights": "高盐度、微藻与工业生产共同形成粉红或淡紫色湖面；晴天约11:00-15:00高太阳时颜色通常更明显。",
-      "weather": "天气（长年气候参考，非逐日预报）：塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
+      "weather": "天气（长年气候参考，非逐日预报）：朱里恩湾（Jurien Bay）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
       "duration": "约1小时15分",
       "transport": "驾车约98+14公里经Port Gregory",
       "notes": "只在公共观景点；颜色不保证；不进入生产区或私人土地。\n\n【愿望清单·景点／自然】\n颜色会在粉红、淡紫甚至红色之间变化，受藻类、盐度、季节、云量与观看角度共同影响；西澳官方旅游页也明确使用“sometimes”描述颜色。\n深度补充：湖色来自高盐度环境中的微藻与盐生微生物，同时受季节、云量、风、盐度和观察方向影响。这里也是商业藻类及盐业景观；航拍、路边与地面看到的颜色并不相同，不能把宣传照当作现场保证。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\n它同时是自然盐湖和工业性盐／藻类生产景观；拍照时应区分公共观景点、生产区域和私人土地，不为追颜色擅自进入。\n深度补充：粉湖体现自然过程与工业利用叠加：它不是未经触碰的“仙境”，而是生产、旅游和私人土地边界并存的地方。守住公共观景范围，是理解此地而非消费色彩的基本前提。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n9/26 11:00-15:00 优先；阴天则接受颜色较淡。\n已纳入本次行程",
@@ -2700,14 +2610,19 @@
           "注意：Hutt Lagoon（粉红湖）颜色不保证；",
           "只在公共观景区停留，不进入生产区或私人土地。",
           "海崖强风时远离崖缘，始终留在正式步道和护栏内。",
-          "Red Bluff（红崖）与Natural Bridge（天然桥）按时间和体力二选一。"
+          "Red Bluff（红崖）与Natural Bridge（天然桥）按时间和体力二选一。",
+          "Kalbarri 镇内和国家公园均禁止自由露营。"
         ],
         "highlights": [
           "Hutt Lagoon（粉红湖）：高盐度、微藻与工业生产共同形成粉红或淡紫色湖面；",
           "晴天约11:00-15:00高太阳时颜色通常更明显，但受云量、盐度、风和视角影响。"
         ],
         "weather": [
-          "格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；"
+          "格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；",
+          "卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。",
+          "越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；",
+          "准备帽子、防晒、饮水和防风层，海崖只走正式步道。",
+          "BOM杰拉尔顿气候｜BOM卡尔巴里气候。"
         ],
         "links": [
           {
@@ -2800,23 +2715,23 @@
     },
     {
       "id": "d3-04",
-      "name": "卡尔巴里（镇）",
-      "name_en": "Kalbarri, Western Australia",
+      "name": "Kalbarri Tudor Holiday Park（住宿）",
+      "name_en": "Kalbarri Tudor Holiday Park, 10 Porter Street, Kalbarri WA 6536",
       "day": 3,
       "date": "2026-09-26",
       "status": "visit",
       "order_in_day": 4,
-      "highlights": "镇内入住；傍晚可选红崖或天然桥看海岸夕照。",
-      "weather": "天气（长年气候参考，非逐日预报）：塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
-      "duration": "过夜",
+      "highlights": "已确认露营：Unpowered Site；NewBook确认号#223533。傍晚可选红崖或天然桥。",
+      "weather": "天气（长年气候参考，非逐日预报）：朱里恩湾（Jurien Bay）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
+      "duration": "过夜（9/26-9/27）",
       "transport": "驾车约54公里自粉红湖",
-      "notes": "首选镇内酒店；车宿仅镇内正规营地。红崖约5公里／天然桥约14公里，二选一。",
-      "lat": -27.711,
-      "lng": 114.165,
-      "geocode_source": "known",
+      "notes": "【核销】NewBook #223533（Confirmed）｜2成人｜Unpowered Site。地址10 Porter Street, Kalbarri WA 6536。电话(08) 9937 1077。一键导航",
+      "lat": -27.7086,
+      "lng": 114.1647,
+      "geocode_source": "official_address",
       "priority": "optional",
       "sections": {
-        "practical": "首选镇内酒店；车宿仅镇内正规营地。红崖约5公里／天然桥约14公里，二选一。"
+        "practical": "【核销】NewBook #223533（Confirmed）｜2成人｜Unpowered Site。地址10 Porter Street, Kalbarri WA 6536。电话(08) 9937 1077。一键导航"
       },
       "links": [
         {
@@ -2826,32 +2741,30 @@
         {
           "label": "BOM卡尔巴里气候",
           "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
+        },
+        {
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Kalbarri+Tudor+Holiday+Park+10+Porter+Street+Kalbarri+WA+6536。红崖约5公里／天然桥约14公里，二选一。"
         }
       ],
       "sequence": 4,
       "dayInfo": {
-        "booking": [],
-        "highlights": [],
-        "weather": [
-          "卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。",
-          "越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；",
-          "准备帽子、防晒、饮水和防风层，海崖只走正式步道。",
-          "BOM杰拉尔顿气候｜BOM卡尔巴里气候。"
+        "booking": [
+          "住宿已确认：Kalbarri Tudor Holiday Park，NewBook #223533，Unpowered Site，9/26-9/27，2 成人。",
+          "地址 10 Porter Street, Kalbarri WA 6536｜电话 (08) 9937 1077｜一键导航。"
         ],
+        "highlights": [],
+        "weather": [],
         "links": [
           {
-            "label": "BOM杰拉尔顿气候",
-            "url": "https://www.bom.gov.au/climate/averages/tables/cw_008315_All.shtml"
-          },
-          {
-            "label": "BOM卡尔巴里气候",
-            "url": "https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml"
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kalbarri+Tudor+Holiday+Park+10+Porter+Street+Kalbarri+WA+6536"
           }
         ]
       },
       "weatherDetail": {
         "temperatureRange": "13-25°C",
-        "granularity": "place",
+        "granularity": "nearby",
         "basis": "卡尔巴里（Kalbarri）",
         "note": "",
         "dayAdvisory": "越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候",
@@ -2896,13 +2809,17 @@
         ]
       },
       "parking": {
-        "summary": "住宿车辆应停在酒店或 caravan park 指定车位；镇中心及海滨路边位按现场限时和禁停标志使用。",
+        "summary": "车辆停在已订 Unpowered Site；核对 NewBook #223533。地址 10 Porter Street, Kalbarri WA 6536。",
         "lots": [],
         "rules": [
-          "拖挂和房车不要横占普通路边位，优先停回住宿营位或使用明确允许长车的区域。",
-          "Kalbarri National Park 内陆景点不允许携带 caravan 或 trailer 时，应先将拖挂留在镇内住宿地。"
+          "【核销】NewBook #223533｜2 成人｜9/26—9/27。电话 (08) 9937 1077。",
+          "镇内和国家公园均禁止自由露营。"
         ],
         "sources": [
+          {
+            "label": "Kalbarri Tudor Holiday Park（一键导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kalbarri+Tudor+Holiday+Park+10+Porter+Street+Kalbarri+WA+6536"
+          },
           {
             "label": "Kalbarri National Park Visitor Guide",
             "url": "https://exploreparks.dbca.wa.gov.au/sites/default/files/2023-07/kalbarri-national-park-visitor-guide.pdf"
@@ -2919,7 +2836,7 @@
       "status": "visit",
       "order_in_day": 5,
       "highlights": "高崖与层叠海岸线；最佳为日落前45-60分钟。",
-      "weather": "天气（长年气候参考，非逐日预报）：塞万提斯（Cervantes）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
+      "weather": "天气（长年气候参考，非逐日预报）：朱里恩湾（Jurien Bay）／Lake Thetis（塞蒂斯湖）约10-22°C；杰拉尔顿（Geraldton）约11-23°C；格雷戈里港（Port Gregory）／Hutt Lagoon（粉红湖）约12-25°C；卡尔巴里（Kalbarri）／Red Bluff（红崖）／Natural Bridge（天然桥）约13-25°C。越往北越暖、紫外线更强，但海崖午后风和阵风也会明显；准备帽子、防晒、饮水和防风层，海崖只走正式步道。BOM杰拉尔顿气候｜BOM卡尔巴里气候。",
       "duration": "约45-60分钟",
       "transport": "镇中心约5公里",
       "notes": "与Natural Bridge二选一；海崖强风时远离崖缘。",
@@ -2942,10 +2859,17 @@
       ],
       "sequence": 5,
       "dayInfo": {
-        "booking": [],
+        "booking": [
+          "地址 10 Porter Street, Kalbarri WA 6536｜电话 (08) 9937 1077｜一键导航。"
+        ],
         "highlights": [],
         "weather": [],
-        "links": []
+        "links": [
+          {
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kalbarri+Tudor+Holiday+Park+10+Porter+Street+Kalbarri+WA+6536"
+          }
+        ]
       },
       "weatherDetail": {
         "temperatureRange": "13-25°C",
@@ -3573,7 +3497,10 @@
       "sequence": 3,
       "dayInfo": {
         "booking": [
-          "住宿已确认：Iron Creek Bay Estate与Quest Savoy两笔9月28日-10月1日订单均暂时保留；"
+          "住宿已确认：Iron Creek Bay Estate与Quest Savoy两笔9月28日-10月1日订单均暂时保留；",
+          "必须确认：最终取消哪一笔住宿（Iron Creek vs Quest Savoy）；",
+          "9月30日 Tasman Island／塔斯曼半岛当日团的最终订单、集合点和集合时间；",
+          "不同平台／产品可能调整接送安排，以电子票为准。"
         ],
         "highlights": [],
         "weather": [],
@@ -3668,96 +3595,139 @@
     },
     {
       "id": "d6-00",
-      "name": "Franklin Wharf（集合点）",
-      "name_en": "Franklin Wharf, Hobart TAS",
+      "name": "Triabunna Wharf（登船码头）",
+      "name_en": "Triabunna Wharf, Triabunna TAS",
       "day": 6,
       "date": "2026-09-29",
       "status": "visit",
       "order_in_day": 1,
-      "highlights": "Tasman Island当日团的Hobart集合区域；最终位置以电子票为准。",
-      "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
-      "duration": "提前15分钟到达",
-      "transport": "从Iron Creek Bay Estate自驾约30-40分钟到霍巴特集合区域",
-      "notes": "选择含Hobart往返接送的产品；需另留CBD停车和步行时间。",
-      "lat": -42.8833098,
-      "lng": 147.3334905,
+      "highlights": "Maria Island Same Day Return登船点；08:00签到、08:30开船。",
+      "weather": "天气（长年气候参考，非逐日预报）：霍巴特／特里阿布纳／Maria Island约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水。",
+      "duration": "07:30前到达／08:00签到",
+      "transport": "从Iron Creek Bay Estate自驾约70-85公里",
+      "notes": "【核销】Reference #1441927。一键导航",
+      "lat": -42.5089,
+      "lng": 147.9135,
       "geocode_source": "google_maps",
       "priority": "main",
       "sections": {
-        "practical": "选择含Hobart往返接送的产品；需另留CBD停车和步行时间。"
+        "practical": "【核销】Reference #1441927。一键导航"
       },
-      "links": [],
+      "links": [
+        {
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Triabunna+Wharf+Tasmania。预留停车与签到时间。"
+        }
+      ],
       "sequence": 1,
       "dayInfo": {
         "booking": [
-          "最终集合点、出发时间、午餐和巡游时长以Klook／GetYourGuide电子票为准。",
-          "晕船药按说明提前服用。"
+          "去程：Pickup Triabunna Wharf 08:00，Departure 08:30。",
+          "官方时刻表复核｜码头导航：Triabunna Wharf。"
         ],
         "highlights": [],
         "weather": [],
         "links": [
           {
-            "label": "工程页面",
-            "url": "https://parks.tas.gov.au/be-involved/projects-and-programs/tasmans-arch-and-devils-kitchen-revitalisation-project"
+            "label": "官方时刻表复核",
+            "url": "https://encountermaria.com.au/timetable-pricing-luggage-check/"
+          },
+          {
+            "label": "Triabunna Wharf",
+            "url": "https://www.google.com/maps/search/?api=1&query=Triabunna+Wharf+Tasmania"
           }
         ]
       },
       "weatherDetail": {
-        "temperatureRange": "6-15°C",
+        "temperatureRange": "7-17°C",
         "granularity": "nearby",
-        "basis": "霍巴特",
+        "basis": "特里阿布纳",
         "note": "",
-        "dayAdvisory": "船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报",
+        "dayAdvisory": "海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "transport",
       "food": {
-        "summary": "Franklin Wharf 周边可步行购买早餐和外带饮品；旅行团供餐情况以电子票为准。",
+        "summary": "Triabunna 码头附近可买外带早餐；岛上无商店，登船前备好午餐和饮水。",
         "restaurants": []
       },
       "parking": {
-        "summary": "当前从 Iron Creek Bay Estate 自驾前往，需另行选择霍巴特 CBD 合规停车位，再步行到集合点。",
+        "summary": "在 Triabunna Wharf 周边按码头指示合规停车；08:00 签到、08:30 开船。",
         "lots": [],
         "rules": [
-          "至少提前 15 分钟到达，并以电子票标注的具体码头位置为准。"
+          "【核销】Maria Island Same Day Return Reference #1441927｜2026-09-29｜AUD 216.35。",
+          "去程 Triabunna Wharf 08:00 pickup／08:30 departure；回程 Darlington 14:00／14:30。",
+          "含 2 Adults + Holiday Pass Per Vehicle。"
         ],
-        "sources": []
+        "sources": [
+          {
+            "label": "Triabunna Wharf（Google Maps 导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=Triabunna+Wharf+Tasmania"
+          },
+          {
+            "label": "Encounter Maria 官方时刻表",
+            "url": "https://encountermaria.com.au/timetable-pricing-luggage-check/"
+          }
+        ]
       }
     },
     {
       "id": "d6-01",
-      "name": "塔斯曼岛海上巡游",
-      "name_en": "Tasman Island Cruises Booking Centre, Port Arthur TAS",
+      "name": "玛丽亚岛（Darlington）",
+      "name_en": "Darlington, Maria Island Tasmania",
       "day": 6,
       "date": "2026-09-29",
       "status": "visit",
       "order_in_day": 2,
-      "highlights": "从海上看Cape Pillar、Tasman Island、海蚀拱门和海洞，寻找海豹、海豚、鲸类与海鸟。",
-      "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
-      "duration": "以旅行团订单为准",
-      "transport": "Hobart往返当日团",
-      "notes": "巡游、陆上停靠和用餐顺序以Klook／GetYourGuide电子票为准。",
+      "highlights": "Darlington草地观察袋熊、袋鼠和斑胸草雁；按潮汐走彩绘崖或化石崖二选一。",
+      "weather": "天气（长年气候参考，非逐日预报）：霍巴特／特里阿布纳／Maria Island约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水。",
+      "duration": "08:30登岛-14:00集合／14:30返程",
+      "transport": "Encounter Maria Island渡轮（Same Day Return）",
+      "notes": "【核销】Reference #1441927｜2026-09-29｜2 Adults + Holiday Pass Per Vehicle｜AUD 216.35。回程Darlington 14:00集合／14:30开船。自带午餐饮水；岛上无商店。\n\n【愿望清单·景点／自然】\n岛上只有渡轮可达且游客不能开车上岛；有袋熊、袋鼠、Painted Cliffs 与 Fossil Cliffs。\n深度补充：岛上无游客汽车，Darlington草地、Fossil Cliffs、Painted Cliffs和开放林地形成步行／骑行尺度。袋熊白天也常见，但清晨、傍晚更活跃；Painted Cliffs接近条件受潮汐控制。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\nDarlington Probation Station 属于世界遗产流放遗址；岛屿同时有 Tyreddeme Aboriginal history、殖民工业尝试与保育迁入物种史。袋熊很亲近人并不代表可以摸。\n深度补充：Tyreddeme people的Country、Darlington流放站、后来的水泥和丝绸等工业实验、以及袋獾保险种群迁入，共同形成复杂历史。世界遗产建筑与当代保育都不能只做动物自拍背景。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n9/30已纳入主行程：从特里阿布纳（Triabunna）乘08:30官方渡轮上岛、16:15返回；以Darlington（达灵顿）动物观察为核心，并按潮汐在Painted Cliffs（彩绘崖）与Fossil Cliffs（化石崖）中选择一条轻量路线。\n已纳入本次行程",
       "lat": -43.1485,
       "lng": 147.852,
       "geocode_source": "known",
-      "priority": "main",
+      "priority": "optional",
       "sections": {
-        "practical": "巡游、陆上停靠和用餐顺序以Klook／GetYourGuide电子票为准。"
+        "practical": "【核销】Reference #1441927｜2026-09-29｜2 Adults + Holiday Pass Per Vehicle｜AUD 216.35。回程Darlington 14:00集合／14:30开船。自带午餐饮水；岛上无商店。",
+        "nature": "岛上只有渡轮可达且游客不能开车上岛；有袋熊、袋鼠、Painted Cliffs 与 Fossil Cliffs。\n深度补充：岛上无游客汽车，Darlington草地、Fossil Cliffs、Painted Cliffs和开放林地形成步行／骑行尺度。袋熊白天也常见，但清晨、傍晚更活跃；Painted Cliffs接近条件受潮汐控制。\n扩展阅读：景点／自然官方资料",
+        "culture": "Darlington Probation Station 属于世界遗产流放遗址；岛屿同时有 Tyreddeme Aboriginal history、殖民工业尝试与保育迁入物种史。袋熊很亲近人并不代表可以摸。\n深度补充：Tyreddeme people的Country、Darlington流放站、后来的水泥和丝绸等工业实验、以及袋獾保险种群迁入，共同形成复杂历史。世界遗产建筑与当代保育都不能只做动物自拍背景。\n扩展阅读：人文／历史延伸阅读",
+        "suggestion": "9/30已纳入主行程：从特里阿布纳（Triabunna）乘08:30官方渡轮上岛、16:15返回；以Darlington（达灵顿）动物观察为核心，并按潮汐在Painted Cliffs（彩绘崖）与Fossil Cliffs（化石崖）中选择一条轻量路线。\n已纳入本次行程"
       },
-      "links": [],
+      "links": [
+        {
+          "label": "岛上只有渡轮可达且游客不能开车上岛",
+          "url": "https://parks.tas.gov.au/explore-our-parks/maria-island-national-park"
+        },
+        {
+          "label": "景点／自然官方资料",
+          "url": "https://parks.tas.gov.au/explore-our-parks/maria-island-national-park"
+        },
+        {
+          "label": "人文／历史延伸阅读",
+          "url": "https://encountermaria.com.au/history/"
+        }
+      ],
       "sequence": 2,
       "dayInfo": {
-        "booking": [],
-        "highlights": [],
+        "booking": [
+          "回程：Pickup Darlington 14:00，Departure 14:30。"
+        ],
+        "highlights": [
+          "Maria Island（玛丽亚岛）动物与自然：Darlington（达灵顿）草地是本日观察 Wombat（袋熊）、Forester kangaroo（东部灰大袋鼠）、Bennett wallaby（红颈袋鼠）和 Cape Barren goose（斑胸草雁）的核心区域；",
+          "动物白天也常见，上午刚登岛及 15:00 后人少时更适合安静观察。",
+          "Darlington（达灵顿）：保留少量世界遗产聚落解读，但不把监狱史作为旅行重点。",
+          "本日的优先级是自然、动物和岛屿地貌。"
+        ],
         "weather": [],
         "links": []
       },
       "weatherDetail": {
-        "temperatureRange": "6-14°C",
+        "temperatureRange": "7-17°C",
         "granularity": "nearby",
-        "basis": "塔斯曼半岛",
+        "basis": "霍巴特",
         "note": "",
-        "dayAdvisory": "船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报",
+        "dayAdvisory": "海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "transport",
@@ -3846,11 +3816,268 @@
       }
     },
     {
-      "id": "d6-02",
-      "name": "塔斯曼拱门／魔鬼厨房",
-      "name_en": "Tasman Arch, Tasman Peninsula TAS",
+      "id": "d6-04",
+      "name": "Iron Creek Bay Estate（返程住宿）",
+      "name_en": "Iron Creek Bay Estate, 394 Arthur Highway, Sorell TAS 7172",
       "day": 6,
       "date": "2026-09-29",
+      "status": "visit",
+      "order_in_day": 3,
+      "highlights": "渡轮返回Triabunna后自驾回Sorell，继续入住同一房间。",
+      "weather": "天气（长年气候参考，非逐日预报）：霍巴特／特里阿布纳／Maria Island约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水。",
+      "duration": "第2晚",
+      "transport": "Triabunna取车后自驾约70-85分钟",
+      "notes": "不搬行李；晚间驾驶注意野生动物。",
+      "lat": -42.7844,
+      "lng": 147.5855,
+      "geocode_source": "official_address",
+      "priority": "main",
+      "sections": {
+        "practical": "不搬行李；晚间驾驶注意野生动物。"
+      },
+      "links": [],
+      "sequence": 3,
+      "dayInfo": {
+        "booking": [],
+        "highlights": [],
+        "weather": [],
+        "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "7-17°C",
+        "granularity": "nearby",
+        "basis": "霍巴特",
+        "note": "",
+        "dayAdvisory": "海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "lodging",
+      "food": {
+        "summary": "餐饮集中在 Vicary Street 与码头附近，以海鲜快餐、pub 和外带为主。",
+        "restaurants": [
+          {
+            "name": "Spring Bay Hotel",
+            "nameEn": "Spring Bay Hotel",
+            "lat": -42.509281,
+            "lng": 147.914661,
+            "rating": 4.3,
+            "ratingCount": 265,
+            "ratingSource": "Google 地图（由 Menuweb 页面明确汇总）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Triabunna Marina 对面，距镇中心约 300 米",
+            "priceLevel": null,
+            "cuisine": "澳式 pub 餐",
+            "recommended": "官网称酒店位于码头边；公开菜单资料特别提到 Jamaican spiced lentil and veggie curry，也有常规 pub 餐，适合晚间堂食。",
+            "hours": "周一仅酒吧 14:00–20:00；周二 14:00 起；周三 12:00 起；周四至周六 11:00 起；周日关闭",
+            "sourceUrl": "https://springbayhotel.com.au/"
+          },
+          {
+            "name": "Triabunna Takeaway",
+            "nameEn": "Triabunna Takeaway",
+            "lat": -42.508942,
+            "lng": 147.915179,
+            "rating": 4.1,
+            "ratingCount": null,
+            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 23 Vicary Street，镇中心步行可达",
+            "priceLevel": null,
+            "cuisine": "炸鱼薯条、pizza 与三明治",
+            "recommended": "公开评价页明确提到 fish、pizza 与 ham sandwiches，适合抵达较晚时外带；营业时间应当天再次确认。",
+            "hours": null,
+            "sourceUrl": "https://restaurantguru.com/Triabunna-Takeaway-Triabunna"
+          },
+          {
+            "name": "The Fish Van",
+            "nameEn": "The Fish Van",
+            "lat": -42.509607,
+            "lng": 147.914346,
+            "rating": 4.4,
+            "ratingCount": 427,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 19 Esplanade West，码头旁",
+            "priceLevel": null,
+            "cuisine": "海鲜快餐、炸鱼薯条",
+            "recommended": "当地餐饮指南将其列为码头旁的海鲜快餐，适合在渡轮前后吃 fish and chips；座位和服务模式偏简便。",
+            "hours": "周一至周四及周日 11:00–19:00；周五、周六 11:00–19:30",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g1761244-d4022125-Reviews-The_Fish_Van-Triabunna_Glamorgan_Spring_Bay_Tasmania.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "小镇有免费路边位和码头公共停车；渡轮码头周边需避开 permit zones。",
+        "lots": [
+          {
+            "name": "Triabunna Marina 公共停车",
+            "nameEn": "Triabunna Marina Parking",
+            "lat": -42.51,
+            "lng": 147.9153,
+            "fee": "free",
+            "feeNote": "码头及周边街道免费",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "可用于小镇访问；靠近渡轮泊位的 permit zones 不得占用，过夜停车以现场标志为准。"
+          }
+        ],
+        "rules": [
+          "码头和周边街道可免费停车，但必须避开 wharf permit zones。",
+          "Vicary Street 与 Charles Street 一带按现场限时、装卸和禁停标志停放。"
+        ],
+        "sources": [
+          {
+            "label": "Encounter Maria Island FAQ",
+            "url": "https://encountermaria.com.au/faq/"
+          },
+          {
+            "label": "MAST Triabunna Wharf",
+            "url": "https://mast.tas.gov.au/facility/triabunna-jetty/"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d7-00",
+      "name": "Franklin Wharf（集合点）",
+      "name_en": "Franklin Wharf, Hobart TAS",
+      "day": 7,
+      "date": "2026-09-30",
+      "status": "visit",
+      "order_in_day": 1,
+      "highlights": "Tasman Island当日团的Hobart集合区域；最终位置以电子票为准。",
+      "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
+      "duration": "提前15分钟到达",
+      "transport": "从Iron Creek Bay Estate自驾约30-40分钟到霍巴特集合区域",
+      "notes": "【待定】塔斯曼团预订号尚未确认；选择含Hobart往返接送的产品；需另留CBD停车和步行时间。",
+      "lat": -42.8833098,
+      "lng": 147.3334905,
+      "geocode_source": "google_maps",
+      "priority": "main",
+      "sections": {
+        "practical": "【待定】塔斯曼团预订号尚未确认；选择含Hobart往返接送的产品；需另留CBD停车和步行时间。"
+      },
+      "links": [],
+      "sequence": 1,
+      "dayInfo": {
+        "booking": [
+          "9/30 行程暂按含 Hobart 往返接送的产品规划，集合点、出发时间与午餐以最终电子票为准。",
+          "晕船药按说明提前服用。"
+        ],
+        "highlights": [],
+        "weather": [],
+        "links": [
+          {
+            "label": "工程页面",
+            "url": "https://parks.tas.gov.au/be-involved/projects-and-programs/tasmans-arch-and-devils-kitchen-revitalisation-project"
+          }
+        ]
+      },
+      "weatherDetail": {
+        "temperatureRange": "6-15°C",
+        "granularity": "nearby",
+        "basis": "霍巴特",
+        "note": "",
+        "dayAdvisory": "船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "transport",
+      "food": {
+        "summary": "Franklin Wharf 周边可步行购买早餐和外带饮品；旅行团供餐情况以电子票为准。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "当前从 Iron Creek Bay Estate 自驾前往，需另行选择霍巴特 CBD 合规停车位，再步行到集合点。",
+        "lots": [],
+        "rules": [
+          "【待定】塔斯曼岛当日团预订号尚未确认；至少提前 15 分钟到达，并以电子票标注的具体码头位置为准。"
+        ],
+        "sources": []
+      }
+    },
+    {
+      "id": "d7-01",
+      "name": "塔斯曼岛海上巡游",
+      "name_en": "Tasman Island Cruises Booking Centre, Port Arthur TAS",
+      "day": 7,
+      "date": "2026-09-30",
+      "status": "visit",
+      "order_in_day": 2,
+      "highlights": "从海上看Cape Pillar、Tasman Island、海蚀拱门和海洞，寻找海豹、海豚、鲸类与海鸟。",
+      "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
+      "duration": "以旅行团订单为准",
+      "transport": "Hobart往返当日团",
+      "notes": "【待定】预订号待回填；巡游、陆上停靠和用餐顺序以Klook／GetYourGuide电子票为准。",
+      "lat": -42.582,
+      "lng": 148.065,
+      "geocode_source": "known",
+      "priority": "main",
+      "sections": {
+        "practical": "【待定】预订号待回填；巡游、陆上停靠和用餐顺序以Klook／GetYourGuide电子票为准。"
+      },
+      "links": [],
+      "sequence": 2,
+      "dayInfo": {
+        "booking": [],
+        "highlights": [],
+        "weather": [],
+        "links": []
+      },
+      "weatherDetail": {
+        "temperatureRange": "6-15°C",
+        "granularity": "nearby",
+        "basis": "霍巴特",
+        "note": "",
+        "dayAdvisory": "船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报",
+        "source": "长年气候参考，非逐日预报"
+      },
+      "category": "transport",
+      "food": {
+        "summary": "Maria Island 全岛没有商店或咖啡馆，必须在 Triabunna 备齐食物并自带全部饮用水。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "岛上没有游客汽车停车场；车辆留在 Triabunna Marina 或周边街道，再步行报到乘船。",
+        "lots": [
+          {
+            "name": "Triabunna Marina 渡轮停车区",
+            "nameEn": "Triabunna Marina Ferry Parking",
+            "lat": -42.51,
+            "lng": 147.9153,
+            "fee": "free",
+            "feeNote": "码头和周边街道免费，可过夜停放；避开 permit zones",
+            "capacity": null,
+            "surface": "沥青",
+            "note": "Maria Island Gateway 在码头旁；所有乘客至少提前 45 分钟报到，车辆留在 Triabunna。"
+          }
+        ],
+        "rules": [
+          "Maria Island 只能乘客运渡轮抵达，游客车辆不能上岛。",
+          "Triabunna Marina 和周边街道免费停车，但必须避开码头 permit zones。",
+          "登船报到时需出示有效 National Parks Pass，并至少提前 45 分钟到 Maria Island Gateway。",
+          "岛上没有商店或咖啡馆；2026 年水位极低且无处理过的饮用水，必须自带全部饮水。"
+        ],
+        "sources": [
+          {
+            "label": "Encounter Maria Island FAQ",
+            "url": "https://encountermaria.com.au/faq/"
+          },
+          {
+            "label": "Encounter Maria Island Checking In",
+            "url": "https://encountermaria.com.au/checking-in/"
+          },
+          {
+            "label": "Parks Tasmania — Maria Island",
+            "url": "https://parks.tas.gov.au/explore-our-parks/maria-island-national-park"
+          }
+        ]
+      }
+    },
+    {
+      "id": "d7-03",
+      "name": "塔斯曼拱门／魔鬼厨房",
+      "name_en": "Tasman Arch, Tasman Peninsula TAS",
+      "day": 7,
+      "date": "2026-09-30",
       "status": "visit",
       "order_in_day": 3,
       "highlights": "若旅行团包含此站，可看天然拱门、深沟和崖壁。",
@@ -3858,9 +4085,9 @@
       "duration": "以旅行团安排为准",
       "transport": "旅行团接送",
       "notes": "工程状态须临行复查。",
-      "lat": -43.043,
+      "lat": -43.0425,
       "lng": 147.95,
-      "geocode_source": "known",
+      "geocode_source": "approx",
       "priority": "main",
       "sections": {
         "practical": "工程状态须临行复查。"
@@ -3962,11 +4189,11 @@
       }
     },
     {
-      "id": "d6-03",
+      "id": "d7-04",
       "name": "棋盘石",
       "name_en": "Tessellated Pavement, Eaglehawk Neck TAS",
-      "day": 6,
-      "date": "2026-09-29",
+      "day": 7,
+      "date": "2026-09-30",
       "status": "visit",
       "order_in_day": 4,
       "highlights": "若旅行团包含此站，可看岩层节理与盐风化形成的规则纹理。",
@@ -3974,9 +4201,9 @@
       "duration": "以旅行团安排为准",
       "transport": "旅行团接送",
       "notes": "湿滑或涨潮时只在高处观察。",
-      "lat": -43.009,
-      "lng": 147.945,
-      "geocode_source": "known",
+      "lat": -43.0136,
+      "lng": 147.9294,
+      "geocode_source": "approx",
       "priority": "main",
       "sections": {
         "practical": "湿滑或涨潮时只在高处观察。"
@@ -4068,24 +4295,24 @@
       }
     },
     {
-      "id": "d6-04",
+      "id": "d7-02",
       "name": "Iron Creek Bay Estate（返程住宿）",
       "name_en": "Iron Creek Bay Estate, 394 Arthur Highway, Sorell TAS 7172",
-      "day": 6,
-      "date": "2026-09-29",
+      "day": 7,
+      "date": "2026-09-30",
       "status": "visit",
       "order_in_day": 5,
       "highlights": "旅行团送回霍巴特后取车返回Sorell，继续入住同一房间。",
       "weather": "天气（长年气候参考，非逐日预报）：霍巴特约6-15°C，塔斯曼半岛开放海岸约6-14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报。",
-      "duration": "第2晚",
+      "duration": "第3晚",
       "transport": "集合区域返回停车点后自驾约30-40分钟",
-      "notes": "不搬行李；晚间驾驶注意野生动物。",
+      "notes": "收拾行李并确认10月1日自驾安排；晚间驾驶注意野生动物。",
       "lat": -42.7844,
       "lng": 147.5855,
       "geocode_source": "official_address",
       "priority": "main",
       "sections": {
-        "practical": "不搬行李；晚间驾驶注意野生动物。"
+        "practical": "收拾行李并确认10月1日自驾安排；晚间驾驶注意野生动物。"
       },
       "links": [],
       "sequence": 5,
@@ -4101,284 +4328,6 @@
         "basis": "霍巴特",
         "note": "",
         "dayAdvisory": "船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1-2天复查巡游海况与BOM预报",
-        "source": "长年气候参考，非逐日预报"
-      },
-      "category": "lodging",
-      "food": {
-        "summary": "餐饮集中在 Vicary Street 与码头附近，以海鲜快餐、pub 和外带为主。",
-        "restaurants": [
-          {
-            "name": "Spring Bay Hotel",
-            "nameEn": "Spring Bay Hotel",
-            "lat": -42.509281,
-            "lng": 147.914661,
-            "rating": 4.3,
-            "ratingCount": 265,
-            "ratingSource": "Google 地图（由 Menuweb 页面明确汇总）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "位于 Triabunna Marina 对面，距镇中心约 300 米",
-            "priceLevel": null,
-            "cuisine": "澳式 pub 餐",
-            "recommended": "官网称酒店位于码头边；公开菜单资料特别提到 Jamaican spiced lentil and veggie curry，也有常规 pub 餐，适合晚间堂食。",
-            "hours": "周一仅酒吧 14:00–20:00；周二 14:00 起；周三 12:00 起；周四至周六 11:00 起；周日关闭",
-            "sourceUrl": "https://springbayhotel.com.au/"
-          },
-          {
-            "name": "Triabunna Takeaway",
-            "nameEn": "Triabunna Takeaway",
-            "lat": -42.508942,
-            "lng": 147.915179,
-            "rating": 4.1,
-            "ratingCount": null,
-            "ratingSource": "Google 地图（Restaurant Guru 明确标注）",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "位于 23 Vicary Street，镇中心步行可达",
-            "priceLevel": null,
-            "cuisine": "炸鱼薯条、pizza 与三明治",
-            "recommended": "公开评价页明确提到 fish、pizza 与 ham sandwiches，适合抵达较晚时外带；营业时间应当天再次确认。",
-            "hours": null,
-            "sourceUrl": "https://restaurantguru.com/Triabunna-Takeaway-Triabunna"
-          },
-          {
-            "name": "The Fish Van",
-            "nameEn": "The Fish Van",
-            "lat": -42.509607,
-            "lng": 147.914346,
-            "rating": 4.4,
-            "ratingCount": 427,
-            "ratingSource": "Tripadvisor",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "位于 19 Esplanade West，码头旁",
-            "priceLevel": null,
-            "cuisine": "海鲜快餐、炸鱼薯条",
-            "recommended": "当地餐饮指南将其列为码头旁的海鲜快餐，适合在渡轮前后吃 fish and chips；座位和服务模式偏简便。",
-            "hours": "周一至周四及周日 11:00–19:00；周五、周六 11:00–19:30",
-            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g1761244-d4022125-Reviews-The_Fish_Van-Triabunna_Glamorgan_Spring_Bay_Tasmania.html"
-          }
-        ]
-      },
-      "parking": {
-        "summary": "小镇有免费路边位和码头公共停车；渡轮码头周边需避开 permit zones。",
-        "lots": [
-          {
-            "name": "Triabunna Marina 公共停车",
-            "nameEn": "Triabunna Marina Parking",
-            "lat": -42.51,
-            "lng": 147.9153,
-            "fee": "free",
-            "feeNote": "码头及周边街道免费",
-            "capacity": null,
-            "surface": "沥青",
-            "note": "可用于小镇访问；靠近渡轮泊位的 permit zones 不得占用，过夜停车以现场标志为准。"
-          }
-        ],
-        "rules": [
-          "码头和周边街道可免费停车，但必须避开 wharf permit zones。",
-          "Vicary Street 与 Charles Street 一带按现场限时、装卸和禁停标志停放。"
-        ],
-        "sources": [
-          {
-            "label": "Encounter Maria Island FAQ",
-            "url": "https://encountermaria.com.au/faq/"
-          },
-          {
-            "label": "MAST Triabunna Wharf",
-            "url": "https://mast.tas.gov.au/facility/triabunna-jetty/"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d7-00",
-      "name": "20 Davey Street（集合点）",
-      "name_en": "Tasmanian Travel and Information Centre, 20 Davey Street, Hobart TAS",
-      "day": 7,
-      "date": "2026-09-30",
-      "status": "visit",
-      "order_in_day": 1,
-      "highlights": "Maria Island当日团的Hobart集合区域；最终位置以电子票为准。",
-      "weather": "天气（长年气候参考，非逐日预报）：霍巴特／特里阿布纳／Maria Island约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水。",
-      "duration": "提前15分钟到达",
-      "transport": "从Iron Creek Bay Estate自驾约30-40分钟到霍巴特集合区域",
-      "notes": "选择含Hobart-Triabunna往返接送的产品；需另留CBD停车和步行时间。",
-      "lat": -42.8830842,
-      "lng": 147.3317785,
-      "geocode_source": "google_maps",
-      "priority": "main",
-      "sections": {
-        "practical": "选择含Hobart-Triabunna往返接送的产品；需另留CBD停车和步行时间。"
-      },
-      "links": [],
-      "sequence": 1,
-      "dayInfo": {
-        "booking": [
-          "具体船班、集合点和Parks Pass是否包含以Klook／GetYourGuide订单为准。",
-          "官方时刻表用于临行复核。"
-        ],
-        "highlights": [],
-        "weather": [],
-        "links": [
-          {
-            "label": "官方时刻表",
-            "url": "https://encountermaria.com.au/timetable-pricing-luggage-check/"
-          }
-        ]
-      },
-      "weatherDetail": {
-        "temperatureRange": "7-17°C",
-        "granularity": "nearby",
-        "basis": "霍巴特",
-        "note": "",
-        "dayAdvisory": "海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水",
-        "source": "长年气候参考，非逐日预报"
-      },
-      "category": "transport",
-      "food": {
-        "summary": "20 Davey Street 位于霍巴特 CBD，可在出发前步行购买早餐和外带午餐。",
-        "restaurants": []
-      },
-      "parking": {
-        "summary": "当前从 Iron Creek Bay Estate 自驾前往，需另行选择霍巴特 CBD 合规停车位；集合点并不等于可长时间停车的位置。",
-        "lots": [],
-        "rules": [
-          "至少提前 15 分钟到达，并以电子票标注的上车位置为准。"
-        ],
-        "sources": []
-      }
-    },
-    {
-      "id": "d7-01",
-      "name": "玛丽亚岛",
-      "name_en": "Darlington, Maria Island Tasmania",
-      "day": 7,
-      "date": "2026-09-30",
-      "status": "visit",
-      "order_in_day": 2,
-      "highlights": "Darlington草地观察袋熊、袋鼠和斑胸草雁；按潮汐走彩绘崖或化石崖二选一。",
-      "weather": "天气（长年气候参考，非逐日预报）：霍巴特／特里阿布纳／Maria Island约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水。",
-      "duration": "全天",
-      "transport": "Hobart往返旅行团＋渡轮",
-      "notes": "自带午餐饮水；产品包含范围以订单为准。\n\n【愿望清单·景点／自然】\n岛上只有渡轮可达且游客不能开车上岛；有袋熊、袋鼠、Painted Cliffs 与 Fossil Cliffs。\n深度补充：岛上无游客汽车，Darlington草地、Fossil Cliffs、Painted Cliffs和开放林地形成步行／骑行尺度。袋熊白天也常见，但清晨、傍晚更活跃；Painted Cliffs接近条件受潮汐控制。\n扩展阅读：景点／自然官方资料\n\n【愿望清单·人文】\nDarlington Probation Station 属于世界遗产流放遗址；岛屿同时有 Tyreddeme Aboriginal history、殖民工业尝试与保育迁入物种史。袋熊很亲近人并不代表可以摸。\n深度补充：Tyreddeme people的Country、Darlington流放站、后来的水泥和丝绸等工业实验、以及袋獾保险种群迁入，共同形成复杂历史。世界遗产建筑与当代保育都不能只做动物自拍背景。\n扩展阅读：人文／历史延伸阅读\n\n【愿望清单·本次建议】\n9/30已纳入主行程：从特里阿布纳（Triabunna）乘08:30官方渡轮上岛、16:15返回；以Darlington（达灵顿）动物观察为核心，并按潮汐在Painted Cliffs（彩绘崖）与Fossil Cliffs（化石崖）中选择一条轻量路线。\n已纳入本次行程",
-      "lat": -42.582,
-      "lng": 148.065,
-      "geocode_source": "known",
-      "priority": "optional",
-      "sections": {
-        "practical": "自带午餐饮水；产品包含范围以订单为准。",
-        "nature": "岛上只有渡轮可达且游客不能开车上岛；有袋熊、袋鼠、Painted Cliffs 与 Fossil Cliffs。\n深度补充：岛上无游客汽车，Darlington草地、Fossil Cliffs、Painted Cliffs和开放林地形成步行／骑行尺度。袋熊白天也常见，但清晨、傍晚更活跃；Painted Cliffs接近条件受潮汐控制。\n扩展阅读：景点／自然官方资料",
-        "culture": "Darlington Probation Station 属于世界遗产流放遗址；岛屿同时有 Tyreddeme Aboriginal history、殖民工业尝试与保育迁入物种史。袋熊很亲近人并不代表可以摸。\n深度补充：Tyreddeme people的Country、Darlington流放站、后来的水泥和丝绸等工业实验、以及袋獾保险种群迁入，共同形成复杂历史。世界遗产建筑与当代保育都不能只做动物自拍背景。\n扩展阅读：人文／历史延伸阅读",
-        "suggestion": "9/30已纳入主行程：从特里阿布纳（Triabunna）乘08:30官方渡轮上岛、16:15返回；以Darlington（达灵顿）动物观察为核心，并按潮汐在Painted Cliffs（彩绘崖）与Fossil Cliffs（化石崖）中选择一条轻量路线。\n已纳入本次行程"
-      },
-      "links": [
-        {
-          "label": "岛上只有渡轮可达且游客不能开车上岛",
-          "url": "https://parks.tas.gov.au/explore-our-parks/maria-island-national-park"
-        },
-        {
-          "label": "景点／自然官方资料",
-          "url": "https://parks.tas.gov.au/explore-our-parks/maria-island-national-park"
-        },
-        {
-          "label": "人文／历史延伸阅读",
-          "url": "https://encountermaria.com.au/history/"
-        }
-      ],
-      "sequence": 2,
-      "dayInfo": {
-        "booking": [],
-        "highlights": [
-          "Maria Island（玛丽亚岛）动物与自然：Darlington（达灵顿）草地是本日观察Wombat（袋熊）、Forester kangaroo（东部灰大袋鼠）、Bennett wallaby（红颈袋鼠）和Cape Barren goose（斑胸草雁）的核心区域；",
-          "动物白天也常见，上午刚登岛及15:00后人少时更适合安静观察。",
-          "Darlington（达灵顿）：保留少量世界遗产聚落解读，但不把监狱史作为旅行重点。",
-          "本日的优先级是自然、动物和岛屿地貌。"
-        ],
-        "weather": [],
-        "links": []
-      },
-      "weatherDetail": {
-        "temperatureRange": "7-17°C",
-        "granularity": "nearby",
-        "basis": "特里阿布纳",
-        "note": "",
-        "dayAdvisory": "海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水",
-        "source": "长年气候参考，非逐日预报"
-      },
-      "category": "transport",
-      "food": {
-        "summary": "Maria Island 全岛没有商店或咖啡馆，必须在 Triabunna 备齐食物并自带全部饮用水。",
-        "restaurants": []
-      },
-      "parking": {
-        "summary": "岛上没有游客汽车停车场；车辆留在 Triabunna Marina 或周边街道，再步行报到乘船。",
-        "lots": [
-          {
-            "name": "Triabunna Marina 渡轮停车区",
-            "nameEn": "Triabunna Marina Ferry Parking",
-            "lat": -42.51,
-            "lng": 147.9153,
-            "fee": "free",
-            "feeNote": "码头和周边街道免费，可过夜停放；避开 permit zones",
-            "capacity": null,
-            "surface": "沥青",
-            "note": "Maria Island Gateway 在码头旁；所有乘客至少提前 45 分钟报到，车辆留在 Triabunna。"
-          }
-        ],
-        "rules": [
-          "Maria Island 只能乘客运渡轮抵达，游客车辆不能上岛。",
-          "Triabunna Marina 和周边街道免费停车，但必须避开码头 permit zones。",
-          "登船报到时需出示有效 National Parks Pass，并至少提前 45 分钟到 Maria Island Gateway。",
-          "岛上没有商店或咖啡馆；2026 年水位极低且无处理过的饮用水，必须自带全部饮水。"
-        ],
-        "sources": [
-          {
-            "label": "Encounter Maria Island FAQ",
-            "url": "https://encountermaria.com.au/faq/"
-          },
-          {
-            "label": "Encounter Maria Island Checking In",
-            "url": "https://encountermaria.com.au/checking-in/"
-          },
-          {
-            "label": "Parks Tasmania — Maria Island",
-            "url": "https://parks.tas.gov.au/explore-our-parks/maria-island-national-park"
-          }
-        ]
-      }
-    },
-    {
-      "id": "d7-02",
-      "name": "Iron Creek Bay Estate（返程住宿）",
-      "name_en": "Iron Creek Bay Estate, 394 Arthur Highway, Sorell TAS 7172",
-      "day": 7,
-      "date": "2026-09-30",
-      "status": "visit",
-      "order_in_day": 3,
-      "highlights": "旅行团送回霍巴特后取车返回Sorell，继续入住同一房间。",
-      "weather": "天气（长年气候参考，非逐日预报）：霍巴特／特里阿布纳／Maria Island约7-17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水。",
-      "duration": "第3晚",
-      "transport": "集合区域返回停车点后自驾约30-40分钟",
-      "notes": "收拾行李并确认10月1日自驾安排；晚间驾驶注意野生动物。",
-      "lat": -42.7844,
-      "lng": 147.5855,
-      "geocode_source": "official_address",
-      "priority": "main",
-      "sections": {
-        "practical": "收拾行李并确认10月1日自驾安排；晚间驾驶注意野生动物。"
-      },
-      "links": [],
-      "sequence": 3,
-      "dayInfo": {
-        "booking": [],
-        "highlights": [],
-        "weather": [],
-        "links": []
-      },
-      "weatherDetail": {
-        "temperatureRange": "7-17°C",
-        "granularity": "nearby",
-        "basis": "霍巴特",
-        "note": "",
-        "dayAdvisory": "海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水",
         "source": "长年气候参考，非逐日预报"
       },
       "category": "lodging",
@@ -5126,6 +5075,7 @@
       "sequence": 2,
       "dayInfo": {
         "booking": [
+          "地址 3832 Cradle Mountain Road, Cradle Mountain TAS 7306｜电话 (03) 6492 1395｜一键导航。",
           "若13:50以后才到游客中心，优先Dove Lake（鸽子湖），把Ronny Creek（罗尼溪）移至10/3上午。"
         ],
         "highlights": [
@@ -5138,6 +5088,10 @@
           "10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。"
         ],
         "links": [
+          {
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=3832+Cradle+Mountain+Road+Cradle+Mountain+TAS+7306"
+          },
           {
             "label": "官方接驳说明",
             "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/cradle-mountain-shuttle-bus-information"
@@ -5253,6 +5207,7 @@
       "sequence": 3,
       "dayInfo": {
         "booking": [
+          "地址 3832 Cradle Mountain Road, Cradle Mountain TAS 7306｜电话 (03) 6492 1395｜一键导航。",
           "若13:50以后才到游客中心，优先Dove Lake（鸽子湖），把Ronny Creek（罗尼溪）移至10/3上午。"
         ],
         "highlights": [
@@ -5260,6 +5215,10 @@
         ],
         "weather": [],
         "links": [
+          {
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=3832+Cradle+Mountain+Road+Cradle+Mountain+TAS+7306"
+          },
           {
             "label": "官方接驳说明",
             "url": "https://parks.tas.gov.au/explore-our-parks/cradle-mountain/cradle-mountain-shuttle-bus-information"
@@ -5376,6 +5335,7 @@
       "sequence": 4,
       "dayInfo": {
         "booking": [
+          "地址 3832 Cradle Mountain Road, Cradle Mountain TAS 7306｜电话 (03) 6492 1395｜一键导航。",
           "Devils@Cradle（摇篮山恶魔保护园）必须预约：17:30 After Dark Feeding Tour约1小时15分，成人AUD 40／人。",
           "官方场次与订票。"
         ],
@@ -5384,6 +5344,10 @@
         ],
         "weather": [],
         "links": [
+          {
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=3832+Cradle+Mountain+Road+Cradle+Mountain+TAS+7306"
+          },
           {
             "label": "官方场次与订票",
             "url": "https://devilsatcradle.com/admission-tours/"
@@ -5465,31 +5429,44 @@
     },
     {
       "id": "d9-05",
-      "name": "Discovery Parks – Cradle Mountain（营地）",
-      "name_en": "Discovery Parks Cradle Mountain, 3832 Cradle Mountain Road, Cradle Mountain TAS 7306",
+      "name": "Discovery Resorts – Cradle Mountain（营地）",
+      "name_en": "Discovery Resorts Cradle Mountain, 3832 Cradle Mountain Road, Cradle Mountain TAS 7306",
       "day": 9,
       "date": "2026-10-02",
       "status": "visit",
       "order_in_day": 5,
-      "highlights": "小屋售罄，改订可搭帐篷的无电营位；营地厨房、卫浴与投币洗衣可用。",
+      "highlights": "已确认：Powered Site - 18 Feet；预订号J-7412711；营地厨房、卫浴与投币洗衣可用。",
       "weather": "天气（长年气候参考，非逐日预报）：朗塞斯顿（Launceston）／美丽角（Beauty Point）约6-17°C；Cradle Mountain（摇篮山）／Dove Lake（鸽子湖）常见约0-10°C，雨、雨夹雪、雪、低云和强风均可能发生。带保暖中层、防水外壳、帽子、手套和防滑鞋；10/2下午与10/3上午形成两次观景窗口，恶劣天气时缩为游客中心、Enchanted Walk（魔法森林步道）和保育团。",
-      "duration": "过夜（帐篷）",
+      "duration": "过夜（10/2-10/3）",
       "transport": "自Devils@Cradle短程驾车",
-      "notes": "选Unpowered Site 16 Feet；14 Feet gravel营位官方禁止搭帐篷。国家公园区域禁明火。",
+      "notes": "【核销】Online booking #J-7412711｜Powered Site - 18 Feet｜2客人｜已付AUD 73.65。地址3832 Cradle Mountain Road, Cradle Mountain TAS 7306。电话(03) 6492 1395。一键导航",
       "lat": -41.58018,
       "lng": 145.937834,
       "geocode_source": "google_maps",
       "priority": "main",
       "sections": {
-        "practical": "选Unpowered Site 16 Feet；14 Feet gravel营位官方禁止搭帐篷。国家公园区域禁明火。"
+        "practical": "【核销】Online booking #J-7412711｜Powered Site - 18 Feet｜2客人｜已付AUD 73.65。地址3832 Cradle Mountain Road, Cradle Mountain TAS 7306。电话(03) 6492 1395。一键导航"
       },
-      "links": [],
+      "links": [
+        {
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=3832+Cradle+Mountain+Road+Cradle+Mountain+TAS+7306。国家公园区域禁明火；入住14:00、退房10:00。"
+        }
+      ],
       "sequence": 5,
       "dayInfo": {
-        "booking": [],
+        "booking": [
+          "住宿已确认：Discovery Resorts - Cradle Mountain，预订号 #J-7412711，Powered Site - 18 Feet，10/2-10/3，2 客人，已付 AUD 73.65。",
+          "地址 3832 Cradle Mountain Road, Cradle Mountain TAS 7306｜电话 (03) 6492 1395｜一键导航。"
+        ],
         "highlights": [],
         "weather": [],
-        "links": []
+        "links": [
+          {
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=3832+Cradle+Mountain+Road+Cradle+Mountain+TAS+7306"
+          }
+        ]
       },
       "weatherDetail": {
         "temperatureRange": "0-10°C",
@@ -5501,25 +5478,26 @@
       },
       "category": "lodging",
       "food": {
-        "summary": "营地有营地厨房、石头厨房与 BBQ，可自炊；园区 Hellyers 餐厅酒吧另按当日营业时间。国家公园范围内禁止营火与明火。",
+        "summary": "营地有营地厨房、BBQ；园区 Hellyers 餐厅酒吧另按当日营业时间。国家公园范围内禁止营火与明火。",
         "restaurants": []
       },
       "parking": {
-        "summary": "营位本身即车位，车辆直接停在所订营位旁；官方条款为每个订单仅一辆车。",
+        "summary": "营位本身即车位，车辆直接停在所订 Powered Site - 18 Feet 旁；官方条款为每个订单仅一辆车。",
         "lots": [],
         "rules": [
-          "选 Unpowered Site 16 Feet（适合 tents／campervans／small motorhomes）；同价的 Unpowered Gravel Site 14 Feet 官方明确不可搭帐篷或遮阳篷。",
-          "入住 14:00、退房 10:00；22:00 后为安静时段。",
-          "偏远山区供水有限，建议按每人每天约 9 升自备饮水，进园前把车载水箱加满。"
+          "【核销】Online booking #J-7412711｜Powered Site - 18 Feet｜入住 2026-10-02｜退房 2026-10-03｜2 客人｜已付 AUD 73.65。",
+          "地址：3832 Cradle Mountain Road, Cradle Mountain TAS 7306。电话 (03) 6492 1395。",
+          "入住 14:00、退房 10:00；22:00 后为安静时段。国家公园范围内禁止营火与明火。",
+          "偏远山区供水有限，建议按每人每天约 9 升自备饮水。"
         ],
         "sources": [
           {
-            "label": "Discovery Resorts – Cradle Mountain 官方页",
-            "url": "https://www.discoveryholidayparks.com.au/caravan-parks/tasmania/north-west/cradle-mountain"
+            "label": "Discovery Resorts – Cradle Mountain（Google Maps 导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=3832+Cradle+Mountain+Road+Cradle+Mountain+TAS+7306"
           },
           {
-            "label": "16 Feet 无电营位（10/2—10/3 带日期直链）",
-            "url": "https://www.discoveryholidayparks.com.au/caravan-parks/tasmania/north-west/cradle-mountain/unpowered-site?adults=2&arrive=2026-10-02&depart=2026-10-03&propertyCode=TCRA&accommodationCode=TCRA-2-69-RT"
+            "label": "Discovery Parks 官方页",
+            "url": "https://www.discoveryholidayparks.com.au/caravan-parks/tasmania/north-west/cradle-mountain"
           }
         ]
       }
@@ -5829,15 +5807,20 @@
       "sequence": 1,
       "dayInfo": {
         "booking": [
-          "预约：Twelve Apostles、Gibson Steps与Loch Ard Gorge免费，无需预约；",
-          "住宿已确认。",
+          "住宿已确认：Twelve Apostles Motel & Country Retreat，携程订单号 1128150508438717，10/4 15:00 后入住／10/5 10:00 前退房。",
+          "预约：Twelve Apostles、Gibson Steps与Loch Ard Gorge免费，无需预约。",
           "维州租车须在10月4日上午于墨尔本市区提车，取车时间、门店位置与还车条款以租车订单为准。"
         ],
         "highlights": [
           "Twelve Apostles（十二门徒岩）：抵达后先看主观景台，避免把核心景点压到次日赶St Kilda的行程里。"
         ],
         "weather": [],
-        "links": []
+        "links": [
+          {
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=Twelve+Apostles+Motel+%26+Country+Retreat+314+Booringa+Rd+Princetown+VIC+3269"
+          }
+        ]
       },
       "weatherDetail": {
         "temperatureRange": "8-17°C",
@@ -5941,8 +5924,7 @@
       "sequence": 2,
       "dayInfo": {
         "booking": [
-          "预约：Twelve Apostles、Gibson Steps与Loch Ard Gorge免费，无需预约；",
-          "住宿已确认。",
+          "预约：Twelve Apostles、Gibson Steps与Loch Ard Gorge免费，无需预约。",
           "维州租车须在10月4日上午于墨尔本市区提车，取车时间、门店位置与还车条款以租车订单为准。",
           "注意：改飞后本日不再有夜航疲劳，但提车环节新增不确定性，提车延误应直接压缩Gibson Steps和Loch Ard。",
           "每驾驶约2小时至少休息15-20分钟；",
@@ -6154,30 +6136,44 @@
     {
       "id": "d11-06",
       "name": "Twelve Apostles Motel & Country Retreat（住宿）",
-      "name_en": "Twelve Apostles Motel & Country Retreat, 314 Booringa Road, Princetown VIC 3269",
+      "name_en": "Twelve Apostles Motel & Country Retreat, 314 Booringa Rd, Princetown VIC 3269",
       "day": 11,
       "date": "2026-10-04",
       "status": "visit",
       "order_in_day": 5,
-      "highlights": "已确认的十二门徒景区附近住宿。",
+      "highlights": "已确认的十二门徒景区附近住宿；携程订单1128150508438717。",
       "weather": "天气（长年气候参考，非逐日预报）：墨尔本约9-19°C，十二门徒／沉船海岸约8-17°C；沿海可能反复出现阵雨、海雾与强侧风。准备防风防水外层。",
-      "duration": "过夜",
+      "duration": "过夜（10/4 15:00后-10/5 10:00前）",
       "transport": "景区短程驾车",
-      "notes": "10月4日入住、10月5日退房。",
+      "notes": "【核销】携程订单号1128150508438717｜1晚｜入住15:00后／退房10:00前｜20:00后抵达须提前告知酒店。地址314 Booringa Rd, Princetown VIC 3269。设施：免费行李寄存、免费停车场、免费公用区WIFI。一键导航",
       "lat": -38.6353855,
       "lng": 143.1102845,
       "geocode_source": "google_maps",
       "priority": "main",
       "sections": {
-        "practical": "10月4日入住、10月5日退房。"
+        "practical": "【核销】携程订单号1128150508438717｜1晚｜入住15:00后／退房10:00前｜20:00后抵达须提前告知酒店。地址314 Booringa Rd, Princetown VIC 3269。设施：免费行李寄存、免费停车场、免费公用区WIFI。一键导航"
       },
-      "links": [],
+      "links": [
+        {
+          "label": "一键导航",
+          "url": "https://www.google.com/maps/search/?api=1&query=Twelve+Apostles+Motel+%26+Country+Retreat+314+Booringa+Rd+Princetown+VIC+3269"
+        }
+      ],
       "sequence": 5,
       "dayInfo": {
-        "booking": [],
+        "booking": [
+          "住宿已确认：Twelve Apostles Motel & Country Retreat，携程订单号 1128150508438717，10/4 15:00 后入住／10/5 10:00 前退房。",
+          "地址 314 Booringa Rd, Princetown VIC 3269｜一键导航。",
+          "可下载双语确认函备查。"
+        ],
         "highlights": [],
         "weather": [],
-        "links": []
+        "links": [
+          {
+            "label": "一键导航",
+            "url": "https://www.google.com/maps/search/?api=1&query=Twelve+Apostles+Motel+%26+Country+Retreat+314+Booringa+Rd+Princetown+VIC+3269"
+          }
+        ]
       },
       "weatherDetail": {
         "temperatureRange": "8-17°C",
@@ -6193,12 +6189,20 @@
         "restaurants": []
       },
       "parking": {
-        "summary": "使用住宿方指定车位；停车细节以 Twelve Apostles Motel & Country Retreat 订单和现场说明为准。",
+        "summary": "使用住宿方免费停车场；核对携程订单号 1128150508438717。",
         "lots": [],
         "rules": [
+          "【核销】携程订单号 1128150508438717｜入住 2026-10-04 15:00 后｜退房 2026-10-05 10:00 前｜1 晚。",
+          "地址：314 Booringa Rd, Princetown, Victoria, 3269, Australia。",
+          "20:00 后抵达须提前告知酒店。设施：免费行李寄存、免费停车场、免费公用区 WIFI。",
           "夜间不要把国家公园观景停车场当作住宿停车位。"
         ],
-        "sources": []
+        "sources": [
+          {
+            "label": "Twelve Apostles Motel & Country Retreat（Google Maps 导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=Twelve+Apostles+Motel+%26+Country+Retreat+314+Booringa+Rd+Princetown+VIC+3269"
+          }
+        ]
       }
     },
     {
@@ -7125,8 +7129,7 @@
       "sequence": 4,
       "dayInfo": {
         "booking": [
-          "预约：Twelve Apostles、Gibson Steps与Loch Ard Gorge免费，无需预约；",
-          "住宿已确认。",
+          "预约：Twelve Apostles、Gibson Steps与Loch Ard Gorge免费，无需预约。",
           "维州租车须在10月4日上午于墨尔本市区提车，取车时间、门店位置与还车条款以租车订单为准。"
         ],
         "highlights": [
@@ -8799,12 +8802,14 @@
   ],
   "wishlistCount": 54,
   "carStayStandard": "## 车宿统一判断标准\n\n只有同时满足以下条件才把“睡车里”列为可选：车辆本身适合安全睡眠且租赁合同允许；地点为持牌营地、明确获准的 campground／holiday park，或当地政府明确标识的短时 RV／24 小时休息区；现场没有“禁止露营／禁止过夜”标识；能合法处理厕所、污水和垃圾。普通轿车、城市停车场、国家公园观景停车场、海边路肩和机场停车场一律不按可车宿地点处理。法规参考已并入各区说明：西澳政府露营规则、塔州保护地露营规定、Spirit of Tasmania 运输条款。",
-  "animals": "# 动物覆盖核对\n\n| 动物 | 最新行程情况 | 结论 |\n|-|-|-|\n| Koala（考拉） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）可稳定看到；抱考拉票当前AUD 35／人，当天09:00先到先得，名额少，且有身高、体力和动物福利限制。 | 能看到；抱考拉不保证 |\n| Wombat（袋熊） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）可看；9/30 Maria Island（玛丽亚岛）野生袋熊出现概率很高。野生袋熊不能触摸、追逐或喂食。 | 能看到；不能摸或抱 |\n| Tasmanian devil（袋獾） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）有固定展区；9/30 Maria Island（玛丽亚岛）野生袋獾白天偶遇概率低；10/2已安排Devils@Cradle（摇篮山恶魔保护园）17:30 After Dark Feeding Tour（夜间喂食团），可稳定观察Tasmanian devil（袋獾）及两种quoll并听保育讲解。 | 能看到；已有塔州专门袋獾保育夜场 |\n| Short-beaked echidna（短喙针鼹） | 10/2 Platypus House（鸭嘴兽之家）的Echidna Garden（针鼹花园）可稳定看到Short-beaked echidna（短喙针鼹）；9/30 Maria Island（玛丽亚岛）及10/2-10/3 Cradle Mountain（摇篮山）仍有野外偶遇机会。 | 能看到；野外个体不保证 |\n| Platypus（鸭嘴兽） | 10/2已安排Platypus House（鸭嘴兽之家）10:00向导团，可在白天稳定看到Platypus（鸭嘴兽）；本次不再绕行The Tasmanian Arboretum（塔斯马尼亚树木园），避免压缩摇篮山时间。 | 能看到；另有野外观察机会 |\n| Little penguin（小蓝企鹅） | 10/1 Bicheno企鹅已确定取消，塔州东海岸企鹅不再作为必看窗口。改为10/5在St Kilda Pier／Breakwater高架平台观看归巢；免费但须持票，【待定-2】第一场暂按约19:57 AEDT，最终以票面为准。 | 改由墨尔本St Kilda覆盖；出现时间和数量不保证 |\n| Lyrebird（琴鸟） | 当前行程没有专门观察点；野外偶遇不可作为安排承诺。 | 不能保证看到 |\n| Emu（鸸鹋） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）有固定展区。【待定-1】Tower Hill（塔山）已不在主行程；野生鸸鹋不再作为承诺机会。 | 能看到（Caversham 展区）；野外不保证 |\n| Dolphin（海豚） | 9/29 Tasman Island Cruises（塔斯曼岛巡游）会寻找Dolphin（海豚）；9/30 仅为 Encounter Maria Island 客运渡轮上岛步行，不含环岛巡游船。本次仍未去Monkey Mia（蒙基米亚），野生海豚出现不保证。 | 有机会；不保证 |\n| Humpback whale（座头鲸） | 9/29 Tasman Island Cruises（塔斯曼岛巡游）会在迁徙季主动寻找；10/1 Cape Tourville（图维尔角）可岸观。9/30 客运渡轮不是观鲸产品。野生偶遇不保证。 | 有机会；不保证 |\n| Whale shark（鲸鲨） | 当前路线不到 Ningaloo Reef（宁格鲁礁），也未安排鲸鲨项目。 | 看不到 |\n| Southern right whale（南露脊鲸） | 9/29 Tasman Island Cruises（塔斯曼岛巡游）会寻找；Freycinet（菲欣纳）和Maria Island（玛丽亚岛）沿海也有季节性偶遇可能，没有任何地点或船团能保证看到。 | 有机会；不保证 |\n\n判断口径：固定展区或已预约的圈养展示记为“能看到”；野生动物、鲸豚和迁徙物种均只记为“有机会”，不写成保证。10/5的St Kilda Pier／Breakwater高架平台提供合规野外归巢观察；塔州东海岸企鹅已取消；10/2的Platypus House（鸭嘴兽之家）可稳定看到Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）。Tower Hill（塔山）不在本次主行程。",
+  "animals": "# 动物覆盖核对\n\n| 动物 | 最新行程情况 | 结论 |\n|-|-|-|\n| Koala（考拉） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）可稳定看到；抱考拉票当前AUD 35／人，当天09:00先到先得，名额少，且有身高、体力和动物福利限制。 | 能看到；抱考拉不保证 |\n| Wombat（袋熊） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）可看；9/29 Maria Island（玛丽亚岛）野生袋熊出现概率很高。野生袋熊不能触摸、追逐或喂食。 | 能看到；不能摸或抱 |\n| Tasmanian devil（袋獾） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）有固定展区；9/29 Maria Island（玛丽亚岛）野生袋獾白天偶遇概率低；10/2已安排Devils@Cradle（摇篮山恶魔保护园）17:30 After Dark Feeding Tour（夜间喂食团），可稳定观察Tasmanian devil（袋獾）及两种quoll并听保育讲解。 | 能看到；已有塔州专门袋獾保育夜场 |\n| Short-beaked echidna（短喙针鼹） | 10/2 Platypus House（鸭嘴兽之家）的Echidna Garden（针鼹花园）可稳定看到Short-beaked echidna（短喙针鼹）；9/29 Maria Island（玛丽亚岛）及10/2-10/3 Cradle Mountain（摇篮山）仍有野外偶遇机会。 | 能看到；野外个体不保证 |\n| Platypus（鸭嘴兽） | 10/2已安排Platypus House（鸭嘴兽之家）10:00向导团，可在白天稳定看到Platypus（鸭嘴兽）；本次不再绕行The Tasmanian Arboretum（塔斯马尼亚树木园），避免压缩摇篮山时间。 | 能看到；另有野外观察机会 |\n| Little penguin（小蓝企鹅） | 10/1 Bicheno企鹅已确定取消，塔州东海岸企鹅不再作为必看窗口。改为10/5在St Kilda Pier／Breakwater高架平台观看归巢；免费但须持票，【待定-2】第一场暂按约19:57 AEDT，最终以票面为准。 | 改由墨尔本St Kilda覆盖；出现时间和数量不保证 |\n| Lyrebird（琴鸟） | 当前行程没有专门观察点；野外偶遇不可作为安排承诺。 | 不能保证看到 |\n| Emu（鸸鹋） | 9/25 Caversham Wildlife Park（卡弗舍姆野生动物园）有固定展区。【待定-1】Tower Hill（塔山）已不在主行程；野生鸸鹋不再作为承诺机会。 | 能看到（Caversham 展区）；野外不保证 |\n| Dolphin（海豚） | 9/30 Tasman Island Cruises（塔斯曼岛巡游）会寻找Dolphin（海豚）；9/29 仅为 Encounter Maria Island 客运渡轮上岛步行，不含环岛巡游船。本次仍未去Monkey Mia（蒙基米亚），野生海豚出现不保证。 | 有机会；不保证 |\n| Humpback whale（座头鲸） | 9/29 Tasman Island Cruises（塔斯曼岛巡游）会在迁徙季主动寻找；10/1 Cape Tourville（图维尔角）可岸观。9/30 客运渡轮不是观鲸产品。野生偶遇不保证。 | 有机会；不保证 |\n| Whale shark（鲸鲨） | 当前路线不到 Ningaloo Reef（宁格鲁礁），也未安排鲸鲨项目。 | 看不到 |\n| Southern right whale（南露脊鲸） | 9/30 Tasman Island Cruises（塔斯曼岛巡游）会寻找；Freycinet（菲欣纳）和Maria Island（玛丽亚岛）沿海也有季节性偶遇可能，没有任何地点或船团能保证看到。 | 有机会；不保证 |\n\n判断口径：固定展区或已预约的圈养展示记为“能看到”；野生动物、鲸豚和迁徙物种均只记为“有机会”，不写成保证。10/5的St Kilda Pier／Breakwater高架平台提供合规野外归巢观察；塔州东海岸企鹅已取消；10/2的Platypus House（鸭嘴兽之家）可稳定看到Platypus（鸭嘴兽）和Short-beaked echidna（短喙针鼹）。Tower Hill（塔山）不在本次主行程。",
   "pending": [
     "Tower Hill 与 Warrnambool 是否彻底放弃",
     "St Kilda 第一场实际票面时间与余票",
-    "Platypus House 10/2 10:00 场次是否已订",
-    "关键住宿、交通和门票的实际预订状态",
-    "租车合同是否允许在持牌营地内睡车"
+    "9/30 Tasman Island 当日团预订号与集合点",
+    "Iron Creek vs Quest Savoy 最终取消哪一笔",
+    "维州租车公司、门店与取车时间",
+    "10/3 朗塞斯顿飞墨尔本班号与实际时刻",
+    "Platypus House／Devils@Cradle 是否已订"
   ]
 }

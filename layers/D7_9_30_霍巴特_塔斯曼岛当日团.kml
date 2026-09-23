@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>D7 9/30 霍巴特／塔斯曼岛当日团</name>
+    <Style id="sty_d7">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/paddle/ltblu-circle.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Style id="sty_d7_line">
+      <LineStyle>
+        <color>7fffff00</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="sty_confirmed_lodging">
+      <IconStyle>
+        <scale>1.0</scale>
+        <Icon>
+          <href>http://maps.google.com/mapfiles/kml/pal2/icon10.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Folder>
+      <name>D7 9/30 霍巴特／塔斯曼岛当日团</name>
+      <Placemark>
+        <name>D7-1 Franklin Wharf</name>
+        <styleUrl>#sty_d7</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-30 · 第7天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 1&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;Tasman Island当日团的Hobart集合区域；最终位置以电子票为准。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**霍巴特约6—15°C，塔斯曼半岛开放海岸约6—14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1—2天复查巡游海况与BOM预报。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 提前15分钟到达&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 从Iron Creek Bay Estate自驾约30—40分钟到霍巴特集合区域&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【待定】塔斯曼团预订号尚未确认；选择含Hobart往返接送的产品；需另留CBD停车和步行时间。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Franklin Wharf, Hobart TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; google_maps</description>
+        <Point>
+          <coordinates>147.3334905,-42.8833098,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D7-2 塔斯曼岛海上巡游</name>
+        <styleUrl>#sty_d7</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-30 · 第7天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 2&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;从海上看Cape Pillar、Tasman Island、海蚀拱门和海洞，寻找海豹、海豚、鲸类与海鸟。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**霍巴特约6—15°C，塔斯曼半岛开放海岸约6—14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1—2天复查巡游海况与BOM预报。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 以旅行团订单为准&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; Hobart往返当日团&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【待定】预订号待回填；巡游、陆上停靠和用餐顺序以Klook／GetYourGuide电子票为准。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Tasman Island Cruises Booking Centre, Port Arthur TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <Point>
+          <coordinates>148.065,-42.582,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D7-3 塔斯曼拱门/魔鬼厨房</name>
+        <styleUrl>#sty_d7</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-30 · 第7天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 3&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;若旅行团包含此站，可看天然拱门、深沟和崖壁。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**霍巴特约6—15°C，塔斯曼半岛开放海岸约6—14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1—2天复查巡游海况与BOM预报。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 以旅行团安排为准&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 旅行团接送&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;工程状态须临行复查。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Tasman Arch, Tasman Peninsula TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; approx</description>
+        <Point>
+          <coordinates>147.95,-43.0425,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D7-4 棋盘石</name>
+        <styleUrl>#sty_d7</styleUrl>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-30 · 第7天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 4&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;若旅行团包含此站，可看岩层节理与盐风化形成的规则纹理。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**霍巴特约6—15°C，塔斯曼半岛开放海岸约6—14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1—2天复查巡游海况与BOM预报。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 以旅行团安排为准&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 旅行团接送&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;湿滑或涨潮时只在高处观察。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Tessellated Pavement, Eaglehawk Neck TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; approx</description>
+        <Point>
+          <coordinates>147.9294,-43.0136,0</coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>D7 当日路线</name>
+        <styleUrl>#sty_d7_line</styleUrl>
+        <description>第7天按顺序串联（示意）</description>
+        <LineString>
+          <tessellate>1</tessellate>
+          <coordinates>147.3334905,-42.8833098,0 148.065,-42.582,0 147.95,-43.0425,0 147.9294,-43.0136,0</coordinates>
+        </LineString>
+      </Placemark>
+      <description>点位数：4</description>
+    </Folder>
+  </Document>
+</kml>

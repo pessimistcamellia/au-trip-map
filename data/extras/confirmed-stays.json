@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "region": "confirmed-stays-and-meeting-points",
-  "checkedAt": "2026-08-25",
+  "checkedAt": "2026-09-23",
   "places": {
     "d5-02": {
       "category": "lodging",
@@ -12,7 +12,9 @@
       "parking": {
         "summary": "该订单目前作为已订备选保留；若最终改住 Quest Savoy，停车方式与费用以订单和前台说明为准。",
         "lots": [],
-        "rules": ["不要把酒店附近路边位视为免费过夜停车，按现场标志和酒店说明停车。"],
+        "rules": [
+          "不要把酒店附近路边位视为免费过夜停车，按现场标志和酒店说明停车。"
+        ],
         "sources": []
       }
     },
@@ -25,7 +27,9 @@
       "parking": {
         "summary": "酒店位于 394 Arthur Highway，当前计划连续入住三晚；自驾停车细节以订单和现场指引为准。",
         "lots": [],
-        "rules": ["两天前往霍巴特集合点需额外预留约 30—40 分钟车程、CBD 停车和步行时间。"],
+        "rules": [
+          "两天前往霍巴特集合点需额外预留约 30—40 分钟车程、CBD 停车和步行时间。"
+        ],
         "sources": [
           {
             "label": "Iron Creek Bay Estate 官方联系页",
@@ -37,26 +41,41 @@
     "d6-00": {
       "category": "transport",
       "food": {
+        "summary": "Triabunna 码头附近可买外带早餐；岛上无商店，登船前备好午餐和饮水。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "在 Triabunna Wharf 周边按码头指示合规停车；08:00 签到、08:30 开船。",
+        "lots": [],
+        "rules": [
+          "【核销】Maria Island Same Day Return Reference #1441927｜2026-09-29｜AUD 216.35。",
+          "去程 Triabunna Wharf 08:00 pickup／08:30 departure；回程 Darlington 14:00／14:30。",
+          "含 2 Adults + Holiday Pass Per Vehicle。"
+        ],
+        "sources": [
+          {
+            "label": "Triabunna Wharf（Google Maps 导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=Triabunna+Wharf+Tasmania"
+          },
+          {
+            "label": "Encounter Maria 官方时刻表",
+            "url": "https://encountermaria.com.au/timetable-pricing-luggage-check/"
+          }
+        ]
+      }
+    },
+    "d7-00": {
+      "category": "transport",
+      "food": {
         "summary": "Franklin Wharf 周边可步行购买早餐和外带饮品；旅行团供餐情况以电子票为准。",
         "restaurants": []
       },
       "parking": {
         "summary": "当前从 Iron Creek Bay Estate 自驾前往，需另行选择霍巴特 CBD 合规停车位，再步行到集合点。",
         "lots": [],
-        "rules": ["至少提前 15 分钟到达，并以电子票标注的具体码头位置为准。"],
-        "sources": []
-      }
-    },
-    "d7-00": {
-      "category": "transport",
-      "food": {
-        "summary": "20 Davey Street 位于霍巴特 CBD，可在出发前步行购买早餐和外带午餐。",
-        "restaurants": []
-      },
-      "parking": {
-        "summary": "当前从 Iron Creek Bay Estate 自驾前往，需另行选择霍巴特 CBD 合规停车位；集合点并不等于可长时间停车的位置。",
-        "lots": [],
-        "rules": ["至少提前 15 分钟到达，并以电子票标注的上车位置为准。"],
+        "rules": [
+          "【待定】塔斯曼岛当日团预订号尚未确认；至少提前 15 分钟到达，并以电子票标注的具体码头位置为准。"
+        ],
         "sources": []
       }
     },
@@ -69,7 +88,9 @@
       "parking": {
         "summary": "按 Iron Creek Bay Estate 的退房与停车说明取车装行李，06:30 左右从 Sorell 离开。",
         "lots": [],
-        "rules": ["离店前确认没有遗留行李，并检查当日油量与路况。"],
+        "rules": [
+          "离店前确认没有遗留行李，并检查当日油量与路况。"
+        ],
         "sources": []
       }
     },
@@ -82,32 +103,35 @@
       "parking": {
         "summary": "停车方式与费用以 Centennial Inn on Bathurst 订单和现场说明为准。",
         "lots": [],
-        "rules": ["不要占用未分配车位；次日出发前确认车辆可正常驶离。"],
+        "rules": [
+          "不要占用未分配车位；次日出发前确认车辆可正常驶离。"
+        ],
         "sources": []
       }
     },
     "d9-05": {
       "category": "lodging",
       "food": {
-        "summary": "营地有营地厨房、石头厨房与 BBQ，可自炊；园区 Hellyers 餐厅酒吧另按当日营业时间。国家公园范围内禁止营火与明火。",
+        "summary": "营地有营地厨房、BBQ；园区 Hellyers 餐厅酒吧另按当日营业时间。国家公园范围内禁止营火与明火。",
         "restaurants": []
       },
       "parking": {
-        "summary": "营位本身即车位，车辆直接停在所订营位旁；官方条款为每个订单仅一辆车。",
+        "summary": "营位本身即车位，车辆直接停在所订 Powered Site - 18 Feet 旁；官方条款为每个订单仅一辆车。",
         "lots": [],
         "rules": [
-          "选 Unpowered Site 16 Feet（适合 tents／campervans／small motorhomes）；同价的 Unpowered Gravel Site 14 Feet 官方明确不可搭帐篷或遮阳篷。",
-          "入住 14:00、退房 10:00；22:00 后为安静时段。",
-          "偏远山区供水有限，建议按每人每天约 9 升自备饮水，进园前把车载水箱加满。"
+          "【核销】Online booking #J-7412711｜Powered Site - 18 Feet｜入住 2026-10-02｜退房 2026-10-03｜2 客人｜已付 AUD 73.65。",
+          "地址：3832 Cradle Mountain Road, Cradle Mountain TAS 7306。电话 (03) 6492 1395。",
+          "入住 14:00、退房 10:00；22:00 后为安静时段。国家公园范围内禁止营火与明火。",
+          "偏远山区供水有限，建议按每人每天约 9 升自备饮水。"
         ],
         "sources": [
           {
-            "label": "Discovery Resorts – Cradle Mountain 官方页",
-            "url": "https://www.discoveryholidayparks.com.au/caravan-parks/tasmania/north-west/cradle-mountain"
+            "label": "Discovery Resorts – Cradle Mountain（Google Maps 导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=3832+Cradle+Mountain+Road+Cradle+Mountain+TAS+7306"
           },
           {
-            "label": "16 Feet 无电营位（10/2—10/3 带日期直链）",
-            "url": "https://www.discoveryholidayparks.com.au/caravan-parks/tasmania/north-west/cradle-mountain/unpowered-site?adults=2&arrive=2026-10-02&depart=2026-10-03&propertyCode=TCRA&accommodationCode=TCRA-2-69-RT"
+            "label": "Discovery Parks 官方页",
+            "url": "https://www.discoveryholidayparks.com.au/caravan-parks/tasmania/north-west/cradle-mountain"
           }
         ]
       }
@@ -147,7 +171,9 @@
       "parking": {
         "summary": "本日无自驾（塔州段已在朗塞斯顿还车，维州段次日在墨尔本市区提车），只需使用酒店免费按需接送。",
         "lots": [],
-        "rules": ["次日前往市区租车点前，先确认接送班次或改用网约车，避免耽误提车时间。"],
+        "rules": [
+          "次日前往市区租车点前，先确认接送班次或改用网约车，避免耽误提车时间。"
+        ],
         "sources": [
           {
             "label": "Mantra Melbourne Airport 官方联系页",
@@ -163,10 +189,20 @@
         "restaurants": []
       },
       "parking": {
-        "summary": "使用住宿方指定车位；停车细节以 Twelve Apostles Motel & Country Retreat 订单和现场说明为准。",
+        "summary": "使用住宿方免费停车场；核对携程订单号 1128150508438717。",
         "lots": [],
-        "rules": ["夜间不要把国家公园观景停车场当作住宿停车位。"],
-        "sources": []
+        "rules": [
+          "【核销】携程订单号 1128150508438717｜入住 2026-10-04 15:00 后｜退房 2026-10-05 10:00 前｜1 晚。",
+          "地址：314 Booringa Rd, Princetown, Victoria, 3269, Australia。",
+          "20:00 后抵达须提前告知酒店。设施：免费行李寄存、免费停车场、免费公用区 WIFI。",
+          "夜间不要把国家公园观景停车场当作住宿停车位。"
+        ],
+        "sources": [
+          {
+            "label": "Twelve Apostles Motel & Country Retreat（Google Maps 导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=Twelve+Apostles+Motel+%26+Country+Retreat+314+Booringa+Rd+Princetown+VIC+3269"
+          }
+        ]
       }
     },
     "d12-07": {
@@ -178,8 +214,54 @@
       "parking": {
         "summary": "CBD 停车限制较多，使用酒店确认的停车方案；费用与出入时间以订单和前台说明为准。",
         "lots": [],
-        "rules": ["不要依赖路边过夜停车；次日上午前往机场前预留取车和驶出车库时间。"],
+        "rules": [
+          "不要依赖路边过夜停车；次日上午前往机场前预留取车和驶出车库时间。"
+        ],
         "sources": []
+      }
+    },
+    "d2-05": {
+      "category": "lodging",
+      "food": {
+        "summary": "朱里恩湾镇内有码头与海滨餐饮；抵达约18:00后优先确认营地厨房／附近晚餐营业时间。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "车辆停在已订 Unpowered／Tent (Grass) 营位旁；核对预订号 1933607。",
+        "lots": [],
+        "rules": [
+          "【核销】预订号 1933607｜姓名 Zheng Chen｜2 成人｜Unpowered Tent (Grass)｜入住 2026-09-25 约 18:00｜退房 2026-09-26。",
+          "地址：1 Roberts Street, Jurien Bay WA 6516。电话 08 9652 1595。",
+          "车牌 Vehicle Registration：TBC，抵达前或现场补登。"
+        ],
+        "sources": [
+          {
+            "label": "Jurien Bay Tourist Park（Google Maps 导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=Jurien+Bay+Tourist+Park+1+Roberts+Street+Jurien+Bay+WA+6516"
+          }
+        ]
+      }
+    },
+    "d3-04": {
+      "category": "lodging",
+      "food": {
+        "summary": "营地步行约 4 分钟到海滩与镇内餐饮；Finlay's、Upstairs 等可作晚餐。",
+        "restaurants": []
+      },
+      "parking": {
+        "summary": "车辆停在已订 Unpowered Site 营位旁；核对 NewBook 确认号 #223533。",
+        "lots": [],
+        "rules": [
+          "【核销】NewBook #223533（Confirmed）｜2 成人｜Unpowered Site｜入住 2026-09-26｜退房 2026-09-27。",
+          "地址：10 Porter Street, Kalbarri WA 6536。电话 (08) 9937 1077。",
+          "镇内和国家公园均禁止自由露营，仅停在已订营位。"
+        ],
+        "sources": [
+          {
+            "label": "Kalbarri Tudor Holiday Park（Google Maps 导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kalbarri+Tudor+Holiday+Park+10+Porter+Street+Kalbarri+WA+6536"
+          }
+        ]
       }
     }
   }

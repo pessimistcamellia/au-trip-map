@@ -14,6 +14,8 @@ ICON = "http://maps.google.com/mapfiles/kml/paddle/{}.png"
 LODGING_ICON = "http://maps.google.com/mapfiles/kml/pal2/icon10.png"
 # 住宿图标标记「当晚睡哪里」；d9-05 营位尚未下单，该状态由行程文字承载，不影响图标。
 CONFIRMED_LODGING_IDS = {
+    "d2-05",
+    "d3-04",
     "d4-03",
     "d5-02",
     "d5-03",
@@ -29,14 +31,14 @@ KML_EXCLUDED_IDS = {"d6-04", "d7-02", "d8-00"}
 # Max 10 folders including skip. Days merged where needed for My Maps limit.
 LAYERS = [
     (
-        "D2 9/25 珀斯→塞万提斯",
+        "D2 9/25 珀斯→朱里恩湾",
         "sty_d2",
         ICON.format("red-circle"),
         lambda p: p.get("day") == 2,
         "ff0000ff",
     ),
     (
-        "D3 9/26 塞万提斯→卡尔巴里",
+        "D3 9/26 朱里恩湾→卡尔巴里",
         "sty_d3",
         ICON.format("orange-circle"),
         lambda p: p.get("day") == 3,
@@ -50,14 +52,14 @@ LAYERS = [
         "ff00ffff",
     ),
     (
-        "D5–6 9/28–29 霍巴特／塔斯曼岛当日团",
+        "D5–6 9/28–29 霍巴特／玛丽亚岛自助往返",
         "sty_d56",
         ICON.format("grn-circle"),
         lambda p: p.get("day") in (5, 6),
         "ff00ff00",
     ),
     (
-        "D7 9/30 霍巴特／玛丽亚岛当日团",
+        "D7 9/30 霍巴特／塔斯曼岛当日团",
         "sty_d7",
         ICON.format("ltblu-circle"),
         lambda p: p.get("day") == 7,

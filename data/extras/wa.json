@@ -292,7 +292,7 @@
     },
     "d2-05": {
       "category": "lodging",
-      "categoryNote": "本行程以 Cervantes 小镇住宿过夜为目的。",
+      "categoryNote": "已确认 Jurien Bay Tourist Park 露营过夜；预订号 1933607。",
       "food": {
         "summary": "镇内餐饮数量不多但海鲜特色鲜明，晚餐应优先确认厨房营业时间。",
         "restaurants": [
@@ -333,20 +333,16 @@
         ]
       },
       "parking": {
-        "summary": "住宿车辆应停在已预订住宿的指定车位；镇中心短停可使用商铺和 Visitor Centre 周边路边位并以现场标志为准。",
+        "summary": "车辆停在已订 Unpowered／Tent (Grass) 营位；核对预订号 1933607。地址 1 Roberts Street, Jurien Bay WA 6516。",
         "lots": [],
         "rules": [
-          "不要把 Visitor Centre 或商铺周边短停车位当作过夜营地。",
-          "caravan、campervan 和拖挂过夜应进入合法 holiday park 或已预订营地。"
+          "【核销】预订号 1933607｜Zheng Chen｜2 成人｜约 18:00 抵达。",
+          "不要把码头或商铺短停车位当作过夜营地。"
         ],
         "sources": [
           {
-            "label": "Pinnacles Visitor Centre",
-            "url": "https://www.visitpinnaclescountry.com.au/"
-          },
-          {
-            "label": "RAC Cervantes Holiday Park",
-            "url": "https://parksandresorts.rac.com.au/cervantes/"
+            "label": "Jurien Bay Tourist Park（一键导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=Jurien+Bay+Tourist+Park+1+Roberts+Street+Jurien+Bay+WA+6516"
           }
         ]
       }
@@ -577,7 +573,7 @@
     },
     "d3-04": {
       "category": "lodging",
-      "categoryNote": "以 Kalbarri 镇内住宿和补给为主要目的。",
+      "categoryNote": "已确认 Kalbarri Tudor Holiday Park 无电营位；NewBook #223533。",
       "food": {
         "summary": "Kalbarri 镇内正餐选择集中，旺季晚餐建议预订；本地海鲜是最可靠的特色。",
         "restaurants": [
@@ -618,13 +614,17 @@
         ]
       },
       "parking": {
-        "summary": "住宿车辆应停在酒店或 caravan park 指定车位；镇中心及海滨路边位按现场限时和禁停标志使用。",
+        "summary": "车辆停在已订 Unpowered Site；核对 NewBook #223533。地址 10 Porter Street, Kalbarri WA 6536。",
         "lots": [],
         "rules": [
-          "拖挂和房车不要横占普通路边位，优先停回住宿营位或使用明确允许长车的区域。",
-          "Kalbarri National Park 内陆景点不允许携带 caravan 或 trailer 时，应先将拖挂留在镇内住宿地。"
+          "【核销】NewBook #223533｜2 成人｜9/26—9/27。电话 (08) 9937 1077。",
+          "镇内和国家公园均禁止自由露营。"
         ],
         "sources": [
+          {
+            "label": "Kalbarri Tudor Holiday Park（一键导航）",
+            "url": "https://www.google.com/maps/search/?api=1&query=Kalbarri+Tudor+Holiday+Park+10+Porter+Street+Kalbarri+WA+6536"
+          },
           {
             "label": "Kalbarri National Park Visitor Guide",
             "url": "https://exploreparks.dbca.wa.gov.au/sites/default/files/2023-07/kalbarri-national-park-visitor-guide.pdf"

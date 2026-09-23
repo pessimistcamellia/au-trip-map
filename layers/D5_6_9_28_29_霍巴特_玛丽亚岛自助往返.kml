@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='utf-8'?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
   <Document>
-    <name>D5–6 9/28–29 霍巴特／塔斯曼岛当日团</name>
+    <name>D5–6 9/28–29 霍巴特／玛丽亚岛自助往返</name>
     <Style id="sty_d56">
       <IconStyle>
         <scale>1.0</scale>
@@ -25,7 +25,7 @@
       </IconStyle>
     </Style>
     <Folder>
-      <name>D5–6 9/28–29 霍巴特／塔斯曼岛当日团</name>
+      <name>D5–6 9/28–29 霍巴特／玛丽亚岛自助往返</name>
       <Placemark>
         <name>D5 霍巴特</name>
         <styleUrl>#sty_d56</styleUrl>
@@ -59,47 +59,22 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>D6-1 Franklin Wharf</name>
+        <name>D6-1 Triabunna Wharf</name>
         <styleUrl>#sty_d56</styleUrl>
-        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-29 · 第6天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 1&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;Tasman Island当日团的Hobart集合区域；最终位置以电子票为准。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**霍巴特约6—15°C，塔斯曼半岛开放海岸约6—14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1—2天复查巡游海况与BOM预报。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 提前15分钟到达&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 从Iron Creek Bay Estate自驾约30—40分钟到霍巴特集合区域&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;选择含Hobart往返接送的产品；需另留CBD停车和步行时间。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Franklin Wharf, Hobart TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; google_maps</description>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-29 · 第6天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 1&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;Maria Island Same Day Return登船点；08:00签到、08:30开船。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**霍巴特／特里阿布纳／Maria Island约7—17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 07:30前到达／08:00签到&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 从Iron Creek Bay Estate自驾约70—85公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【核销】Reference #1441927。导航：https://www.google.com/maps/search/?api=1&amp;amp;query=Triabunna+Wharf+Tasmania。预留停车与签到时间。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Triabunna Wharf, Triabunna TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; google_maps</description>
         <Point>
-          <coordinates>147.3334905,-42.8833098,0</coordinates>
+          <coordinates>147.9135,-42.5089,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
-        <name>D6-2 塔斯曼岛海上巡游</name>
+        <name>D6-2 玛丽亚岛</name>
         <styleUrl>#sty_d56</styleUrl>
-        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-29 · 第6天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 2&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;从海上看Cape Pillar、Tasman Island、海蚀拱门和海洞，寻找海豹、海豚、鲸类与海鸟。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**霍巴特约6—15°C，塔斯曼半岛开放海岸约6—14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1—2天复查巡游海况与BOM预报。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 以旅行团订单为准&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; Hobart往返当日团&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;巡游、陆上停靠和用餐顺序以Klook／GetYourGuide电子票为准。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Tasman Island Cruises Booking Centre, Port Arthur TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-29 · 第6天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 2&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;Darlington草地观察袋熊、袋鼠和斑胸草雁；按潮汐走彩绘崖或化石崖二选一。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**霍巴特／特里阿布纳／Maria Island约7—17°C，海上和岛屿开阔处体感更低，阵雨、强风和船班调整均可能发生。带防水外壳、保暖层、防滑鞋、防晒和足量饮水。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 08:30登岛—14:00集合／14:30返程&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; Encounter Maria Island渡轮（Same Day Return）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【核销】Reference #1441927｜2026-09-29｜2 Adults + Holiday Pass Per Vehicle｜AUD 216.35。回程Darlington 14:00集合／14:30开船。自带午餐饮水；岛上无商店。&lt;br/&gt;&lt;br/&gt;【愿望清单·景点／自然】&lt;br/&gt;[岛上只有渡轮可达且游客不能开车上岛](https://parks.tas.gov.au/explore-our-parks/maria-island-national-park)；有袋熊、袋鼠、Painted Cliffs 与 Fossil Cliffs。  &lt;br/&gt;**深度补充：**岛上无游客汽车，Darlington草地、Fossil Cliffs、Painted Cliffs和开放林地形成步行／骑行尺度。袋熊白天也常见，但清晨、傍晚更活跃；Painted Cliffs接近条件受潮汐控制。  &lt;br/&gt;**扩展阅读：**[景点／自然官方资料](https://parks.tas.gov.au/explore-our-parks/maria-island-national-park)&lt;br/&gt;&lt;br/&gt;【愿望清单·人文】&lt;br/&gt;Darlington Probation Station 属于世界遗产流放遗址；岛屿同时有 Tyreddeme Aboriginal history、殖民工业尝试与保育迁入物种史。袋熊很亲近人并不代表可以摸。  &lt;br/&gt;**深度补充：**Tyreddeme people的Country、Darlington流放站、后来的水泥和丝绸等工业实验、以及袋獾保险种群迁入，共同形成复杂历史。世界遗产建筑与当代保育都不能只做动物自拍背景。  &lt;br/&gt;**扩展阅读：**[人文／历史延伸阅读](https://encountermaria.com.au/history/)&lt;br/&gt;&lt;br/&gt;【愿望清单·本次建议】&lt;br/&gt;9/30已纳入主行程：从特里阿布纳（Triabunna）乘08:30官方渡轮上岛、16:15返回；以Darlington（达灵顿）动物观察为核心，并按潮汐在Painted Cliffs（彩绘崖）与Fossil Cliffs（化石崖）中选择一条轻量路线。  &lt;br/&gt;**已纳入本次行程**&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Darlington, Maria Island Tasmania&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
         <Point>
           <coordinates>147.852,-43.1485,0</coordinates>
         </Point>
       </Placemark>
-      <Placemark>
-        <name>D6-3 塔斯曼拱门/魔鬼厨房</name>
-        <styleUrl>#sty_d56</styleUrl>
-        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-29 · 第6天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 3&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;若旅行团包含此站，可看天然拱门、深沟和崖壁。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**霍巴特约6—15°C，塔斯曼半岛开放海岸约6—14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1—2天复查巡游海况与BOM预报。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 以旅行团安排为准&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 旅行团接送&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;工程状态须临行复查。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Tasman Arch, Tasman Peninsula TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
-        <Point>
-          <coordinates>147.95,-43.043,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>D6-4 棋盘石</name>
-        <styleUrl>#sty_d56</styleUrl>
-        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-29 · 第6天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 4&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;若旅行团包含此站，可看岩层节理与盐风化形成的规则纹理。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**霍巴特约6—15°C，塔斯曼半岛开放海岸约6—14°C；船上海风会显著降低体感。带防水外壳、保暖层、防滑鞋和晕船药，出发前1—2天复查巡游海况与BOM预报。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 以旅行团安排为准&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 旅行团接送&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;湿滑或涨潮时只在高处观察。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Tessellated Pavement, Eaglehawk Neck TAS&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; known</description>
-        <Point>
-          <coordinates>147.945,-43.009,0</coordinates>
-        </Point>
-      </Placemark>
-      <Placemark>
-        <name>D6 当日路线</name>
-        <styleUrl>#sty_d56_line</styleUrl>
-        <description>第6天按顺序串联（示意）</description>
-        <LineString>
-          <tessellate>1</tessellate>
-          <coordinates>147.3334905,-42.8833098,0 147.852,-43.1485,0 147.95,-43.043,0 147.945,-43.009,0</coordinates>
-        </LineString>
-      </Placemark>
-      <description>点位数：8</description>
+      <description>点位数：6</description>
     </Folder>
   </Document>
 </kml>

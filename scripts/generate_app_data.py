@@ -331,9 +331,11 @@ def main() -> None:
         "pending": [
             "Tower Hill 与 Warrnambool 是否彻底放弃",
             "St Kilda 第一场实际票面时间与余票",
-            "Platypus House 10/2 10:00 场次是否已订",
-            "关键住宿、交通和门票的实际预订状态",
-            "租车合同是否允许在持牌营地内睡车",
+            "9/30 Tasman Island 当日团预订号与集合点",
+            "Iron Creek vs Quest Savoy 最终取消哪一笔",
+            "维州租车公司、门店与取车时间",
+            "10/3 朗塞斯顿飞墨尔本班号与实际时刻",
+            "Platypus House／Devils@Cradle 是否已订",
         ],
     }
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)

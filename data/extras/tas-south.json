@@ -181,152 +181,6 @@
         ]
       }
     },
-    "d6-02": {
-      "category": "attraction",
-      "categoryNote": "Tasman Arch 与 Devils Kitchen 是 Tasman National Park 的自然景观和短步道。",
-      "food": {
-        "summary": "景点现场没有正式餐厅，最近可行选择集中在 Blowhole 与 Eaglehawk Neck，需驾车前往。",
-        "restaurants": [
-          {
-            "name": "Doo-Lishus",
-            "nameEn": "Doo-Lishus",
-            "lat": -43.038063,
-            "lng": 147.944404,
-            "coordinateSource": "Photon（OpenStreetMap 数据）Doo Town/Blowhole 餐饮区域点位",
-            "rating": 4.3,
-            "ratingCount": 397,
-            "ratingSource": "Tripadvisor",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Tasman Arch 约 2 公里，位于 Blowhole 停车场",
-            "priceLevel": null,
-            "cuisine": "炸鱼薯条、海鲜与冰淇淋",
-            "recommended": "Discover Tasmania 明确列出 Fisherman's Catch、scallop & chips、鱼、鱿鱼、扇贝和虾；食材现场手切裹粉，适合作为景区间的快捷午餐。",
-            "hours": null,
-            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d2309775-Reviews-DOO_Lishus-Eaglehawk_Neck_Tasmania.html"
-          },
-          {
-            "name": "Lufra Cafe and Bistro",
-            "nameEn": "Lufra Cafe and Bistro",
-            "lat": -43.009929,
-            "lng": 147.929121,
-            "coordinateSource": "Photon（OpenStreetMap 数据）Lufra Hotel and Apartments 点位",
-            "rating": 3.7,
-            "ratingCount": 257,
-            "ratingSource": "Tripadvisor",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距 Tasman Arch 约 5 公里",
-            "priceLevel": null,
-            "cuisine": "塔州海鲜、肉类与澳式 bistro",
-            "recommended": "官方旅游页称菜单以塔州海鲜、区域肉类和现代澳式 bistro 菜为主。晚餐七天供应，建议预订。",
-            "hours": "午餐每日 12:00–14:30；晚餐自 17:30 起",
-            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d1177960-Reviews-Lufra_Bistro-Eaglehawk_Neck_Tasmania.html"
-          }
-        ]
-      },
-      "parking": {
-        "summary": "Tasman Arch 有专用免费停车场，但 2026 年 4 月 15 日至 9 月 18 日景点因工程关闭。",
-        "lots": [
-          {
-            "name": "Tasman Arch Car Park",
-            "nameEn": "Tasman Arch Car Park",
-            "lat": -43.042133,
-            "lng": 147.950944,
-            "coordinateSource": "Bushtracker Owners Group GPS 点位",
-            "fee": "free",
-            "feeNote": "停车场本身免费；进入国家公园需有效 Parks Pass",
-            "capacity": "升级工程规划约 30 车位",
-            "surface": "碎石",
-            "note": "停车场靠近 Tasman Arch 栏杆，并可步行到 Devils Kitchen；2026-04-15 至 2026-09-18 景点和相关步道关闭，厕所保持开放。"
-          }
-        ],
-        "rules": [
-          "2026 年 4 月 15 日至 9 月 18 日 Tasman Arch 与 Devils Kitchen Visitor Site 关闭施工，不能进入景点或相关步道。",
-          "Blowhole Road 部分路段未铺装且停车有限；不要占用狭窄路肩。",
-          "车辆进入 Tasman National Park 应持有效 Parks Pass。"
-        ],
-        "sources": [
-          {
-            "label": "Parks Tasmania — Tasman National Park",
-            "url": "https://www.parks.tas.gov.au/Pages/Tasman-National-Park.aspx"
-          },
-          {
-            "label": "Tasman Arch GPS",
-            "url": "https://www.bushtrackerownersgroup.asn.au/places/153825/tas+tasman-arch"
-          }
-        ]
-      }
-    },
-    "d6-03": {
-      "category": "attraction",
-      "categoryNote": "Tessellated Pavement 是 Eaglehawk Neck 的海岸地貌景点和短步道。",
-      "food": {
-        "summary": "景点入口没有餐厅，Lufra 就在停车场对面一带，Blowhole 的 Doo-Lishus 约 5 分钟车程。",
-        "restaurants": [
-          {
-            "name": "Lufra Cafe and Bistro",
-            "nameEn": "Lufra Cafe and Bistro",
-            "lat": -43.009929,
-            "lng": 147.929121,
-            "coordinateSource": "Photon（OpenStreetMap 数据）Lufra Hotel and Apartments 点位",
-            "rating": 3.7,
-            "ratingCount": 257,
-            "ratingSource": "Tripadvisor",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "位于 Tessellated Pavement 停车场对面一带，步行可达",
-            "priceLevel": null,
-            "cuisine": "塔州海鲜与澳式 bistro",
-            "recommended": "菜单主打塔州海鲜、区域肉类和 bistro 菜；用餐区面向 Pirates Bay。午餐和晚餐均有服务，晚餐建议预订。",
-            "hours": "午餐每日 12:00–14:30；晚餐自 17:30 起",
-            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d1177960-Reviews-Lufra_Bistro-Eaglehawk_Neck_Tasmania.html"
-          },
-          {
-            "name": "Doo-Lishus",
-            "nameEn": "Doo-Lishus",
-            "lat": -43.038063,
-            "lng": 147.944404,
-            "coordinateSource": "Photon（OpenStreetMap 数据）Doo Town/Blowhole 餐饮区域点位",
-            "rating": 4.3,
-            "ratingCount": 397,
-            "ratingSource": "Tripadvisor",
-            "ratingCheckedAt": "2026-08-22",
-            "distance": "距景点约 4 公里，约 5 分钟车程",
-            "priceLevel": null,
-            "cuisine": "炸海鲜与冰淇淋",
-            "recommended": "官方旅游页推荐 Fisherman's Catch、scallop & chips 与现场裹粉的鱼、鱿鱼、扇贝和虾，适合景点串联途中快速用餐。",
-            "hours": null,
-            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d2309775-Reviews-DOO_Lishus-Eaglehawk_Neck_Tasmania.html"
-          }
-        ]
-      },
-      "parking": {
-        "summary": "Pirates Bay Drive 上有一个小型专用停车场，步行约 5–10 分钟下到观景平台。",
-        "lots": [
-          {
-            "name": "Tessellated Pavement Car Park",
-            "nameEn": "Tessellated Pavement Car Park",
-            "lat": -43.009,
-            "lng": 147.945,
-            "coordinateSource": "本路书景点点位；Hobart and Beyond 确认停车场位于 Pirates Bay Drive",
-            "fee": "free",
-            "feeNote": "停车本身免费；车辆进入国家公园应持 Parks Pass",
-            "capacity": "小型停车场，容量未公布",
-            "surface": null,
-            "note": "停车场在 Lufra Hotel 对面一带；雨后岩面湿滑，停车后下行时注意台阶和海况。"
-          }
-        ],
-        "rules": [
-          "停车场较小，旺时不要在狭窄道路上违规占用路肩。",
-          "车辆停入国家公园景点停车场应持有效 Tasmania Parks Pass。",
-          "岩面湿滑且海况多变，按现场警示决定是否下到 pavement。"
-        ],
-        "sources": [
-          {
-            "label": "Hobart and Beyond — Tessellated Pavement",
-            "url": "https://hobartandbeyond.com.au/blog/explore-the-tessellated-pavement-at-eaglehawk-neck/"
-          }
-        ]
-      }
-    },
     "d6-04": {
       "category": "lodging",
       "categoryNote": "Triabunna 是本日晚间住宿小镇，也是 Maria Island 渡轮门户。",
@@ -922,6 +776,152 @@
           }
         ]
       }
+    },
+    "d7-03": {
+      "category": "attraction",
+      "categoryNote": "Tasman Arch 与 Devils Kitchen 是 Tasman National Park 的自然景观和短步道。",
+      "food": {
+        "summary": "景点现场没有正式餐厅，最近可行选择集中在 Blowhole 与 Eaglehawk Neck，需驾车前往。",
+        "restaurants": [
+          {
+            "name": "Doo-Lishus",
+            "nameEn": "Doo-Lishus",
+            "lat": -43.038063,
+            "lng": 147.944404,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Doo Town/Blowhole 餐饮区域点位",
+            "rating": 4.3,
+            "ratingCount": 397,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Tasman Arch 约 2 公里，位于 Blowhole 停车场",
+            "priceLevel": null,
+            "cuisine": "炸鱼薯条、海鲜与冰淇淋",
+            "recommended": "Discover Tasmania 明确列出 Fisherman's Catch、scallop & chips、鱼、鱿鱼、扇贝和虾；食材现场手切裹粉，适合作为景区间的快捷午餐。",
+            "hours": null,
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d2309775-Reviews-DOO_Lishus-Eaglehawk_Neck_Tasmania.html"
+          },
+          {
+            "name": "Lufra Cafe and Bistro",
+            "nameEn": "Lufra Cafe and Bistro",
+            "lat": -43.009929,
+            "lng": 147.929121,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Lufra Hotel and Apartments 点位",
+            "rating": 3.7,
+            "ratingCount": 257,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距 Tasman Arch 约 5 公里",
+            "priceLevel": null,
+            "cuisine": "塔州海鲜、肉类与澳式 bistro",
+            "recommended": "官方旅游页称菜单以塔州海鲜、区域肉类和现代澳式 bistro 菜为主。晚餐七天供应，建议预订。",
+            "hours": "午餐每日 12:00–14:30；晚餐自 17:30 起",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d1177960-Reviews-Lufra_Bistro-Eaglehawk_Neck_Tasmania.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Tasman Arch 有专用免费停车场，但 2026 年 4 月 15 日至 9 月 18 日景点因工程关闭。",
+        "lots": [
+          {
+            "name": "Tasman Arch Car Park",
+            "nameEn": "Tasman Arch Car Park",
+            "lat": -43.042133,
+            "lng": 147.950944,
+            "coordinateSource": "Bushtracker Owners Group GPS 点位",
+            "fee": "free",
+            "feeNote": "停车场本身免费；进入国家公园需有效 Parks Pass",
+            "capacity": "升级工程规划约 30 车位",
+            "surface": "碎石",
+            "note": "停车场靠近 Tasman Arch 栏杆，并可步行到 Devils Kitchen；2026-04-15 至 2026-09-18 景点和相关步道关闭，厕所保持开放。"
+          }
+        ],
+        "rules": [
+          "2026 年 4 月 15 日至 9 月 18 日 Tasman Arch 与 Devils Kitchen Visitor Site 关闭施工，不能进入景点或相关步道。",
+          "Blowhole Road 部分路段未铺装且停车有限；不要占用狭窄路肩。",
+          "车辆进入 Tasman National Park 应持有效 Parks Pass。"
+        ],
+        "sources": [
+          {
+            "label": "Parks Tasmania — Tasman National Park",
+            "url": "https://www.parks.tas.gov.au/Pages/Tasman-National-Park.aspx"
+          },
+          {
+            "label": "Tasman Arch GPS",
+            "url": "https://www.bushtrackerownersgroup.asn.au/places/153825/tas+tasman-arch"
+          }
+        ]
+      }
+    },
+    "d7-04": {
+      "category": "attraction",
+      "categoryNote": "Tessellated Pavement 是 Eaglehawk Neck 的海岸地貌景点和短步道。",
+      "food": {
+        "summary": "景点入口没有餐厅，Lufra 就在停车场对面一带，Blowhole 的 Doo-Lishus 约 5 分钟车程。",
+        "restaurants": [
+          {
+            "name": "Lufra Cafe and Bistro",
+            "nameEn": "Lufra Cafe and Bistro",
+            "lat": -43.009929,
+            "lng": 147.929121,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Lufra Hotel and Apartments 点位",
+            "rating": 3.7,
+            "ratingCount": 257,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "位于 Tessellated Pavement 停车场对面一带，步行可达",
+            "priceLevel": null,
+            "cuisine": "塔州海鲜与澳式 bistro",
+            "recommended": "菜单主打塔州海鲜、区域肉类和 bistro 菜；用餐区面向 Pirates Bay。午餐和晚餐均有服务，晚餐建议预订。",
+            "hours": "午餐每日 12:00–14:30；晚餐自 17:30 起",
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d1177960-Reviews-Lufra_Bistro-Eaglehawk_Neck_Tasmania.html"
+          },
+          {
+            "name": "Doo-Lishus",
+            "nameEn": "Doo-Lishus",
+            "lat": -43.038063,
+            "lng": 147.944404,
+            "coordinateSource": "Photon（OpenStreetMap 数据）Doo Town/Blowhole 餐饮区域点位",
+            "rating": 4.3,
+            "ratingCount": 397,
+            "ratingSource": "Tripadvisor",
+            "ratingCheckedAt": "2026-08-22",
+            "distance": "距景点约 4 公里，约 5 分钟车程",
+            "priceLevel": null,
+            "cuisine": "炸海鲜与冰淇淋",
+            "recommended": "官方旅游页推荐 Fisherman's Catch、scallop & chips 与现场裹粉的鱼、鱿鱼、扇贝和虾，适合景点串联途中快速用餐。",
+            "hours": null,
+            "sourceUrl": "https://www.tripadvisor.cn/Restaurant_Review-g504294-d2309775-Reviews-DOO_Lishus-Eaglehawk_Neck_Tasmania.html"
+          }
+        ]
+      },
+      "parking": {
+        "summary": "Pirates Bay Drive 上有一个小型专用停车场，步行约 5–10 分钟下到观景平台。",
+        "lots": [
+          {
+            "name": "Tessellated Pavement Car Park",
+            "nameEn": "Tessellated Pavement Car Park",
+            "lat": -43.009,
+            "lng": 147.945,
+            "coordinateSource": "本路书景点点位；Hobart and Beyond 确认停车场位于 Pirates Bay Drive",
+            "fee": "free",
+            "feeNote": "停车本身免费；车辆进入国家公园应持 Parks Pass",
+            "capacity": "小型停车场，容量未公布",
+            "surface": null,
+            "note": "停车场在 Lufra Hotel 对面一带；雨后岩面湿滑，停车后下行时注意台阶和海况。"
+          }
+        ],
+        "rules": [
+          "停车场较小，旺时不要在狭窄道路上违规占用路肩。",
+          "车辆停入国家公园景点停车场应持有效 Tasmania Parks Pass。",
+          "岩面湿滑且海况多变，按现场警示决定是否下到 pavement。"
+        ],
+        "sources": [
+          {
+            "label": "Hobart and Beyond — Tessellated Pavement",
+            "url": "https://hobartandbeyond.com.au/blog/explore-the-tessellated-pavement-at-eaglehawk-neck/"
+          }
+        ]
+      }
     }
   },
   "uncertain": [
@@ -932,13 +932,13 @@
       "handled": "继续将 rating、ratingCount 与 ratingSource 保持为 null；不采用无法在来源页复核的搜索摘要分数。"
     },
     {
-      "placeId": "d6-02",
+      "placeId": "d7-03",
       "field": "access",
       "issue": "Tasman Arch 与 Devils Kitchen 在行程核验日处于 2026-04-15 至 2026-09-18 工程关闭期",
       "handled": "在停车摘要和规则中明确标注关闭日期；厕所保持开放"
     },
     {
-      "placeId": "d6-03",
+      "placeId": "d7-04",
       "field": "parking.lots.coordinates",
       "issue": "公开资料确认停车场位于 Pirates Bay Drive，但未返回独立停车场 OSM 坐标",
       "handled": "采用本路书 Tessellated Pavement 景点坐标，并在 coordinateSource 中明确说明"

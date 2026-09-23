@@ -110,8 +110,23 @@ describe('静态行程数据', () => {
       category: 'lodging',
     })
     const day = data.days.find((item) => item.date === '2026-10-02')!
-    expect(day.lodging).toContain('Discovery Parks')
-    expect(day.lodging).toContain('待预订')
+    expect(day.lodging).toContain('Discovery Resorts')
+    expect(day.lodging).toContain('J-7412711')
+    expect(day.lodging).toContain('Powered Site')
+  })
+
+  it('已确认预订号写入住宿与门票日', () => {
+    const d25 = data.days.find((item) => item.date === '2026-09-25')!
+    expect(d25.lodging).toContain('1933607')
+    expect(d25.lodging).toContain('Jurien Bay')
+    const d26 = data.days.find((item) => item.date === '2026-09-26')!
+    expect(d26.lodging).toContain('223533')
+    expect(d26.lodging).toContain('Kalbarri Tudor')
+    const d29 = data.days.find((item) => item.date === '2026-09-29')!
+    expect(d29.booking).toContain('1441927')
+    expect(d29.route).toContain('Triabunna')
+    const d4 = data.days.find((item) => item.date === '2026-10-04')!
+    expect(d4.lodging).toContain('1128150508438717')
   })
 
   it('10 月 4 日完成沉船海岸核心点并住十二门徒附近', () => {
