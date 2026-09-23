@@ -78,6 +78,18 @@ export interface IPlaceWeatherDetail {
   source: string
 }
 
+export interface IPlaceAttachment {
+  id: string
+  title: string
+  kind: 'pdf' | 'image'
+  file: string
+  /** 相对站点根的路径，例如 bookings/xxx.pdf；前端会再拼 BASE_URL */
+  url: string
+  orderRef?: string | null
+  confirmRef?: string | null
+  summary?: string | null
+}
+
 export interface IPlace {
   id: string
   name: string
@@ -86,6 +98,7 @@ export interface IPlace {
   weatherDetail?: IPlaceWeatherDetail | null
   food?: IPlaceFood
   parking?: IPlaceParking
+  attachments?: IPlaceAttachment[]
   day: number | null
   date: string | null
   status: 'visit' | 'skip'

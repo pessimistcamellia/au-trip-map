@@ -21,7 +21,7 @@ if existing_itinerary_path.exists():
     }
 existing_coordinates.update(
     {
-        "d4-03": (-31.943206, 115.9308002, "google_maps"),
+        "d4-03": (-31.9339, 115.9478, "official_address"),
         "d5-02": (-42.88223, 147.328943, "google_maps"),
         "d5-03": (-42.7844, 147.5855, "official_address"),
         "d2-05": (-30.2969, 115.0400, "official_address"),
@@ -202,14 +202,14 @@ visits = [
     ),
     (
         "d4-03",
-        "Sweet Home Property（住宿）",
-        "Sweet Home Property, 4A Wallace Street, Belmont WA 6104",
+        "宜必思快捷珀斯机场酒店（住宿）",
+        "ibis Styles Perth Airport, 317-319 Great Eastern Hwy, Redcliffe WA 6104",
         4,
         3,
         "已确认的珀斯机场附近住宿；次日搭乘VA594前往霍巴特。",
-        "过夜",
+        "过夜（9/27 14:00–23:30 入住／9/28 10:00前退房）",
         "自卡尔巴里经杰拉尔顿南下约420公里",
-        "9月27日入住、9月28日退房；按订单说明自助入住。",
+        "【核销】确认号2609270502｜携程订单号1128150295267792｜标准大床房｜住客CHEN/ZHENG,ZHU/CHUMING｜电话0061-08-94782158。地址317-319 Great Eastern Hwy, Redcliffe WA 6104。[一键导航](https://www.google.com/maps/search/?api=1&query=ibis+Styles+Perth+Airport+317-319+Great+Eastern+Hwy+Redcliffe+WA+6104)",
     ),
     (
         "d5-01",
@@ -383,9 +383,9 @@ visits = [
         8,
         5,
         "已确认的朗塞斯顿住宿，为次日塔玛河谷与摇篮山行程休息。",
-        "过夜",
+        "过夜（10/1 14:00后—10/2 10:00前）",
         "自科尔斯湾驾车约176公里／2.5—3小时",
-        "10月1日入住、10月2日退房。",
+        "【核销】确认号82424142｜携程订单号1128150872550866｜甄选双人房｜住客ZHU/CHUMING｜电话0061-437857621。地址120 Bathurst St, Launceston TAS 7250。[一键导航](https://www.google.com/maps/search/?api=1&query=Centennial+Inn+on+Bathurst+120+Bathurst+Street+Launceston+TAS+7250)",
     ),
     (
         "d9-01",
@@ -471,9 +471,9 @@ visits = [
         10,
         3,
         "已确认的墨尔本机场住宿；落地当晚不进CBD，直接休息。",
-        "过夜",
+        "过夜（10/3 14:00–次日00:00—10/4 10:00前）",
         "墨尔本机场约4分钟，有免费按需接送",
-        "10月3日入住、10月4日退房。",
+        "【核销】确认号B3R7AJ20530｜携程订单号1128150523355170｜高级特大床一室公寓｜住客CHEN/ZHENG｜电话0061-3-90936500。地址2 Trade Park Dr, Tullamarine VIC 3043。[一键导航](https://www.google.com/maps/search/?api=1&query=Mantra+Melbourne+Airport+2+Trade+Park+Drive+Tullamarine+VIC+3043)",
     ),
     (
         "d11-01",
@@ -592,9 +592,9 @@ visits = [
         12,
         7,
         "已确认的墨尔本CBD住宿；企鹅观赏后入住。",
-        "过夜",
+        "过夜（10/5 14:00–次日00:00—10/6 10:00前）",
         "St Kilda至酒店约7公里",
-        "10月5日入住、10月6日退房。",
+        "【核销】确认号1128150503480293｜携程订单号1128150503479647｜布雷迪大床房｜住客Chen/Zheng｜电话0061-3-96509888。地址30 Little La Trobe Street, Melbourne VIC 3000。[一键导航](https://www.google.com/maps/search/?api=1&query=Brady+Hotels+Central+Melbourne+30+Little+La+Trobe+Street+Melbourne+VIC+3000)",
     ),
     (
         "d13-01",
@@ -851,7 +851,7 @@ data = {
         "name": "澳大利亚自驾行程",
         "dates": "2026-09-24 — 2026-10-06",
         "source_doc": "https://guanghe.feishu.cn/docx/TAoHd0QFyoo7lpxGk9DcpN0nnCc",
-        "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内。9/25住Jurien Bay Tourist Park（预订号1933607）；9/26住Kalbarri Tudor（NewBook #223533）；9/28—9/30住Iron Creek Bay Estate（Quest Savoy备选保留）。9/29 Maria Island Same Day Return #1441927（自驾Triabunna Wharf）；9/30 Tasman Island当日团预订号待回填。10/1 Centennial Inn；10/2 Discovery Resorts Cradle Mountain #J-7412711（Powered 18 Feet）；10/3 Mantra Melbourne Airport；10/4 Twelve Apostles Motel 携程1128150508438717；10/5 Brady Hotels Central Melbourne。",
+        "notes": "Day1(9/24)与返程境外转机点不在澳大利亚境内。9/25住Jurien Bay Tourist Park（预订号1933607）；9/26住Kalbarri Tudor（NewBook #223533）；9/28—9/30住Iron Creek Bay Estate（Quest Savoy备选保留）。9/29 Maria Island Same Day Return #1441927（自驾Triabunna Wharf）；9/30 Tasman Island当日团预订号待回填。10/1 Centennial Inn；10/2 Discovery Resorts Cradle Mountain #J-7412711（Powered 18 Feet）；9/27宜必思快捷珀斯机场（确认号2609270502／订单1128150295267792）；10/1 Centennial确认号82424142／订单1128150872550866；10/3 Mantra确认号B3R7AJ20530／订单1128150523355170；10/4 Twelve Apostles Motel 携程1128150508438717；10/5 Brady确认号1128150503480293／订单1128150503479647。",
     },
     "places": places,
 }

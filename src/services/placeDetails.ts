@@ -67,10 +67,18 @@ export function getPlaceDetailCategories(place: IPlace): PlaceDetailCategory[] {
     .filter(
       (section) =>
         section.items.length > 0 ||
-        (section.category === '实用' && getPlaceParking(place) !== null) ||
+        (section.category === '实用' &&
+          (getPlaceParking(place) !== null ||
+            (place.attachments?.length ?? 0) > 0)) ||
         getPlaceDetailLinksByCategory(place, section.category).length > 0,
     )
     .map((section) => section.category)
+  if (
+    !categories.includes('实用') &&
+    ((place.attachments?.length ?? 0) > 0 || getPlaceParking(place) !== null)
+  ) {
+    categories.splice(Math.min(1, categories.length), 0, '实用')
+  }
   if (shouldShowFoodTab(place)) categories.push('美食')
   return categories
 }
@@ -161,6 +169,7 @@ export function hasPlaceDetails(place: IPlace): boolean {
     getPlaceDetailSections(place).some((section) => section.items.length > 0) ||
     getPlaceDetailLinks(place).length > 0 ||
     getPlaceFood(place) !== null ||
-    getPlaceParking(place) !== null
+    getPlaceParking(place) !== null ||
+    (place.attachments?.length ?? 0) > 0
   )
 }

@@ -271,10 +271,46 @@ def load_extras() -> Tuple[Dict[str, Any], List[str]]:
             problems.append(f"{path.name} 解析失败：{error}")
             continue
         for place_id, entry in (payload.get("places") or {}).items():
-            if place_id in merged:
-                problems.append(f"{place_id} 在多个 extras 文件中重复")
-            merged[place_id] = entry
+            if place_id not in merged:
+                merged[place_id] = dict(entry)
+                continue
+            existing = merged[place_id]
+            for key, value in entry.items():
+                if key == "attachments":
+                    prev = list(existing.get("attachments") or [])
+                    for item in value or []:
+                        item_id = (item or {}).get("id")
+                        if item_id and any(p.get("id") == item_id for p in prev):
+                            prev = [
+                                item if p.get("id") == item_id else p for p in prev
+                            ]
+                        else:
+                            prev.append(item)
+                    existing["attachments"] = prev
+                else:
+                    existing[key] = value
     return merged, problems
+
+
+def clean_attachment(raw: Dict[str, Any]) -> Optional[Dict[str, Any]]:
+    file_name = str(raw.get("file") or "").strip()
+    title = str(raw.get("title") or "").strip()
+    kind = str(raw.get("kind") or "").strip()
+    if not file_name or not title:
+        return None
+    if kind not in {"pdf", "image"}:
+        lower = file_name.lower()
+        kind = "pdf" if lower.endswith(".pdf") else "image"
+    return {
+        "id": str(raw.get("id") or file_name).strip(),
+        "title": title,
+        "kind": kind,
+        "file": file_name,
+        "url": f"bookings/{file_name}",
+        "orderRef": (str(raw["orderRef"]).strip() if raw.get("orderRef") else None),
+        "confirmRef": (str(raw["confirmRef"]).strip() if raw.get("confirmRef") else None),
+        "summary": (str(raw["summary"]).strip() if raw.get("summary") else None),
+    }
 
 
 def apply_extras(data: Dict[str, Any]) -> Dict[str, int]:
@@ -282,7 +318,14 @@ def apply_extras(data: Dict[str, Any]) -> Dict[str, int]:
     for problem in problems:
         print(f"  ! {problem}", file=sys.stderr)
 
-    stats = {"category": 0, "food": 0, "parking": 0, "restaurants": 0, "lots": 0}
+    stats = {
+        "category": 0,
+        "food": 0,
+        "parking": 0,
+        "restaurants": 0,
+        "lots": 0,
+        "attachments": 0,
+    }
     known_ids = {place["id"] for place in data["places"]}
     for place_id in extras:
         if place_id not in known_ids:
@@ -324,6 +367,15 @@ def apply_extras(data: Dict[str, Any]) -> Dict[str, int]:
             }
             stats["parking"] += 1
             stats["lots"] += len(lots)
+
+        attachments = [
+            item
+            for item in (clean_attachment(raw) for raw in (entry.get("attachments") or []))
+            if item
+        ]
+        if attachments:
+            place["attachments"] = attachments
+            stats["attachments"] += len(attachments)
     return stats
 
 
@@ -340,7 +392,7 @@ def main() -> int:
         )
     )
     print(
-        "  调研合并：类别 {category} 个／美食 {food} 个（{restaurants} 家）／停车 {parking} 个（{lots} 处）".format(
+        "  调研合并：类别 {category} 个／美食 {food} 个（{restaurants} 家）／停车 {parking} 个（{lots} 处）／附件 {attachments} 个".format(
             **extra_stats
         )
     )

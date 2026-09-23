@@ -27,7 +27,7 @@ export default defineConfig({
     stripVantCdnFontFallback(),
     VitePWA({
       registerType: 'autoUpdate',
-      includeAssets: ['icons/*.png', 'offline.html', 'robots.txt'],
+      includeAssets: ['icons/*.png', 'offline.html', 'robots.txt', 'bookings/*'],
       manifest: {
         name: '澳洲行程路书',
         short_name: '澳洲路书',

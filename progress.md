@@ -1,5 +1,12 @@
 # 进度日志
 
+## 2026-09-23 预订凭证附件接入路书
+- 4 份携程入住凭证 PDF 写入 `public/bookings/`，并在地点详情「实用」页以折叠卡片展示；点击后全屏预览，可关闭返回。
+- 9/27 住宿由 Sweet Home 改为**宜必思快捷珀斯机场酒店**（确认号 2609270502／订单 1128150295267792）。
+- Centennial／Mantra／Brady 补全确认号；此前 Jurien／Kalbarri／Maria／Discovery／Twelve Apostles 截图也挂为附件（共 10 个文件／9 个地点）。
+- PWA precache 已包含 `bookings/*`。
+
+
 ## 2026-09-23 回填已确认预订到路书
 - 六笔订单写入 `days-raw.txt`／`doc-content.md`／`itinerary.json`／`trip-data.json`／extras／KML：Jurien Bay Tourist Park **1933607**（9/25）、Kalbarri Tudor **#223533**（9/26）、Maria Island Same Day Return **#1441927**（9/29，自驾 Triabunna）、Discovery Resorts Cradle Mountain **#J-7412711** Powered 18 Feet（10/2）、Twelve Apostles Motel 携程 **1128150508438717**（10/4）。
 - 因玛丽亚岛船票日期为 9/29，已将原 9/29 塔斯曼团与 9/30 玛丽亚岛对调；塔斯曼团预订号标为【待定-9】。

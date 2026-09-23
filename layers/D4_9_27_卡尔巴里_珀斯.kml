@@ -43,11 +43,11 @@
         </Point>
       </Placemark>
       <Placemark>
-        <name>D4-3 Sweet Home Proper…</name>
+        <name>D4-3 宜必思快捷珀斯机场酒店</name>
         <styleUrl>#sty_confirmed_lodging</styleUrl>
-        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-27 · 第4天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 3&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;已确认的珀斯机场附近住宿；次日搭乘VA594前往霍巴特。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**Kalbarri National Park（卡尔巴里国家公园）／Kalbarri Skywalk（卡尔巴里天空步道）／Nature’s Window（自然之窗）通常约13—25°C，但峡谷内无风晴天体感可明显更热；杰拉尔顿（Geraldton）约11—23°C，珀斯机场周边（Perth Airport Area）约10—21°C。清晨峡谷可凉、正午暴晒，需至少每人2—3升饮水并留意公园高温关闭信息；南下长途可能遇阵雨、侧风和日落后低温。[BOM卡尔巴里气候](https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 过夜&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 自卡尔巴里经杰拉尔顿南下约420公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;9月27日入住、9月28日退房；按订单说明自助入住。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; Sweet Home Property, 4A Wallace Street, Belmont WA 6104&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; google_maps</description>
+        <description>&lt;b&gt;日期&lt;/b&gt; 2026-09-27 · 第4天&lt;br/&gt;&lt;br/&gt;&lt;b&gt;当日序号&lt;/b&gt; 3&lt;br/&gt;&lt;br/&gt;&lt;b&gt;状态&lt;/b&gt; 本次要看&lt;br/&gt;&lt;br/&gt;&lt;b&gt;看点&lt;/b&gt;&lt;br/&gt;已确认的珀斯机场附近住宿；次日搭乘VA594前往霍巴特。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;天气&lt;/b&gt;&lt;br/&gt;**天气（长年气候参考，非逐日预报）：**Kalbarri National Park（卡尔巴里国家公园）／Kalbarri Skywalk（卡尔巴里天空步道）／Nature’s Window（自然之窗）通常约13—25°C，但峡谷内无风晴天体感可明显更热；杰拉尔顿（Geraldton）约11—23°C，珀斯机场周边（Perth Airport Area）约10—21°C。清晨峡谷可凉、正午暴晒，需至少每人2—3升饮水并留意公园高温关闭信息；南下长途可能遇阵雨、侧风和日落后低温。[BOM卡尔巴里气候](https://www.bom.gov.au/climate/averages/tables/cw_008251_All.shtml)。&lt;br/&gt;&lt;br/&gt;&lt;b&gt;停留时长&lt;/b&gt; 过夜（9/27 14:00–23:30 入住／9/28 10:00前退房）&lt;br/&gt;&lt;br/&gt;&lt;b&gt;交通&lt;/b&gt; 自卡尔巴里经杰拉尔顿南下约420公里&lt;br/&gt;&lt;br/&gt;&lt;b&gt;备注&lt;/b&gt;&lt;br/&gt;【核销】确认号2609270502｜携程订单号1128150295267792｜标准大床房｜住客CHEN/ZHENG,ZHU/CHUMING｜电话0061-08-94782158。地址317-319 Great Eastern Hwy, Redcliffe WA 6104。[一键导航](https://www.google.com/maps/search/?api=1&amp;amp;query=ibis+Styles+Perth+Airport+317-319+Great+Eastern+Hwy+Redcliffe+WA+6104)&lt;br/&gt;&lt;br/&gt;&lt;b&gt;英文／检索名&lt;/b&gt; ibis Styles Perth Airport, 317-319 Great Eastern Hwy, Redcliffe WA 6104&lt;br/&gt;&lt;br/&gt;&lt;b&gt;坐标来源&lt;/b&gt; official_address</description>
         <Point>
-          <coordinates>115.9308002,-31.943206,0</coordinates>
+          <coordinates>115.9478,-31.9339,0</coordinates>
         </Point>
       </Placemark>
       <Placemark>
@@ -56,7 +56,7 @@
         <description>第4天按顺序串联（示意）</description>
         <LineString>
           <tessellate>1</tessellate>
-          <coordinates>114.445,-27.549,0 114.45,-27.555,0 115.9308002,-31.943206,0</coordinates>
+          <coordinates>114.445,-27.549,0 114.45,-27.555,0 115.9478,-31.9339,0</coordinates>
         </LineString>
       </Placemark>
       <description>点位数：3</description>

@@ -4,6 +4,7 @@ import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useRegisterSW } from 'virtual:pwa-register/vue'
 import DayTimeline from './components/DayTimeline.vue'
+import BookingAttachments from './components/BookingAttachments.vue'
 import JournalView from './components/JournalView.vue'
 import PlaceFoodPanel from './components/PlaceFoodPanel.vue'
 import PlaceParkingPanel from './components/PlaceParkingPanel.vue'
@@ -866,13 +867,26 @@ onBeforeUnmount(() => {
             <div v-if="detailTabItems.length" class="detail-items">
               <p v-for="item in detailTabItems" :key="item">{{ item }}</p>
             </div>
-            <div v-else-if="activeDetailTab !== '实用' || !selectedParking" class="detail-empty">
+            <div
+              v-else-if="
+                activeDetailTab !== '实用' ||
+                (!selectedParking && !(selectedPlace.attachments?.length ?? 0))
+              "
+              class="detail-empty"
+            >
               暂无这一类资料
             </div>
             <PlaceParkingPanel
               v-if="activeDetailTab === '实用' && selectedParking"
               :parking="selectedParking"
               :online="online"
+            />
+            <BookingAttachments
+              v-if="
+                activeDetailTab === '实用' &&
+                (selectedPlace.attachments?.length ?? 0) > 0
+              "
+              :attachments="selectedPlace.attachments ?? []"
             />
           </template>
 

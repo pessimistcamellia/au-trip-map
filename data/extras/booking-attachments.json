@@ -1,0 +1,133 @@
+{
+  "schemaVersion": 1,
+  "region": "booking-attachments",
+  "checkedAt": "2026-09-23",
+  "places": {
+    "d4-03": {
+      "attachments": [
+        {
+          "id": "ctrip-1128150295267792",
+          "title": "入住凭证 · 宜必思快捷珀斯机场酒店",
+          "kind": "pdf",
+          "file": "ctrip-1128150295267792-ibis-perth-airport.pdf",
+          "orderRef": "1128150295267792",
+          "confirmRef": "2609270502",
+          "summary": "确认号 2609270502｜订单号 1128150295267792｜标准大床房｜住客 CHEN/ZHENG,ZHU/CHUMING｜入住 2026-09-27 14:00–23:30｜退房 2026-09-28 10:00前｜电话 0061-08-94782158"
+        }
+      ]
+    },
+    "d8-05": {
+      "attachments": [
+        {
+          "id": "ctrip-1128150872550866",
+          "title": "入住凭证 · 巴瑟斯特百年旅馆",
+          "kind": "pdf",
+          "file": "ctrip-1128150872550866-centennial-bathurst.pdf",
+          "orderRef": "1128150872550866",
+          "confirmRef": "82424142",
+          "summary": "确认号 82424142｜订单号 1128150872550866｜甄选双人房｜住客 ZHU/CHUMING｜入住 2026-10-01 14:00后｜退房 2026-10-02 10:00前｜电话 0061-437857621"
+        }
+      ]
+    },
+    "d10-03": {
+      "attachments": [
+        {
+          "id": "ctrip-1128150523355170",
+          "title": "入住凭证 · 墨尔本机场曼特拉酒店",
+          "kind": "pdf",
+          "file": "ctrip-1128150523355170-mantra-airport.pdf",
+          "orderRef": "1128150523355170",
+          "confirmRef": "B3R7AJ20530",
+          "summary": "确认号 B3R7AJ20530｜订单号 1128150523355170｜高级特大床一室公寓｜住客 CHEN/ZHENG｜入住 2026-10-03 14:00–次日00:00｜退房 2026-10-04 10:00前｜电话 0061-3-90936500"
+        }
+      ]
+    },
+    "d12-07": {
+      "attachments": [
+        {
+          "id": "ctrip-1128150503479647",
+          "title": "入住凭证 · 墨尔本中心布雷迪酒店",
+          "kind": "pdf",
+          "file": "ctrip-1128150503479647-brady-melbourne.pdf",
+          "orderRef": "1128150503479647",
+          "confirmRef": "1128150503480293",
+          "summary": "确认号 1128150503480293｜订单号 1128150503479647｜布雷迪大床房｜住客 Chen/Zheng｜入住 2026-10-05 14:00–次日00:00｜退房 2026-10-06 10:00前｜电话 0061-3-96509888"
+        }
+      ]
+    },
+    "d11-06": {
+      "attachments": [
+        {
+          "id": "ctrip-1128150508438717",
+          "title": "入住凭证 · 十二门徒度假酒店",
+          "kind": "image",
+          "file": "ctrip-1128150508438717-twelve-apostles.jpg",
+          "orderRef": "1128150508438717",
+          "confirmRef": "1128150508438717",
+          "summary": "携程订单号 1128150508438717｜Twelve Apostles Motel & Country Retreat｜入住 2026-10-04 15:00后｜退房 2026-10-05 10:00前"
+        }
+      ]
+    },
+    "d2-05": {
+      "attachments": [
+        {
+          "id": "jurien-1933607",
+          "title": "预订确认 · Jurien Bay Tourist Park",
+          "kind": "image",
+          "file": "jurien-bay-1933607.png",
+          "orderRef": "1933607",
+          "confirmRef": "1933607",
+          "summary": "预订号 1933607｜Unpowered Tent (Grass)｜入住 2026-09-25 约18:00｜退房 2026-09-26｜2成人"
+        }
+      ]
+    },
+    "d3-04": {
+      "attachments": [
+        {
+          "id": "kalbarri-223533",
+          "title": "预订确认 · Kalbarri Tudor Holiday Park",
+          "kind": "image",
+          "file": "kalbarri-tudor-223533.jpg",
+          "orderRef": "223533",
+          "confirmRef": "223533",
+          "summary": "NewBook #223533｜Unpowered Site｜入住 2026-09-26｜退房 2026-09-27｜2成人｜电话 (08) 9937 1077"
+        }
+      ]
+    },
+    "d6-01": {
+      "attachments": [
+        {
+          "id": "maria-1441927",
+          "title": "船票确认 · Maria Island Same Day Return",
+          "kind": "image",
+          "file": "maria-island-1441927.png",
+          "orderRef": "1441927",
+          "confirmRef": "1441927",
+          "summary": "Reference #1441927｜2026-09-29｜Triabunna 08:00／08:30 → Darlington 14:00／14:30｜2 Adults + Holiday Pass｜AUD 216.35"
+        }
+      ]
+    },
+    "d9-05": {
+      "attachments": [
+        {
+          "id": "discovery-j-7412711",
+          "title": "预订确认 · Discovery Resorts Cradle Mountain",
+          "kind": "image",
+          "file": "discovery-cradle-j-7412711.jpg",
+          "orderRef": "J-7412711",
+          "confirmRef": "J-7412711",
+          "summary": "Online booking #J-7412711｜Powered Site - 18 Feet｜入住 2026-10-02｜退房 2026-10-03｜2客人｜已付 AUD 73.65"
+        },
+        {
+          "id": "discovery-summary",
+          "title": "Accommodation summary · Discovery Cradle Mountain",
+          "kind": "image",
+          "file": "discovery-cradle-summary.png",
+          "orderRef": "J-7412711",
+          "confirmRef": "J-7412711",
+          "summary": "Discovery Parks Team 住宿摘要｜#J-7412711｜Powered Site - 18 Feet｜1晚"
+        }
+      ]
+    }
+  }
+}

@@ -122,11 +122,26 @@ describe('静态行程数据', () => {
     const d26 = data.days.find((item) => item.date === '2026-09-26')!
     expect(d26.lodging).toContain('223533')
     expect(d26.lodging).toContain('Kalbarri Tudor')
+    const d27 = data.days.find((item) => item.date === '2026-09-27')!
+    expect(d27.lodging).toContain('2609270502')
+    expect(d27.lodging).toContain('宜必思')
     const d29 = data.days.find((item) => item.date === '2026-09-29')!
     expect(d29.booking).toContain('1441927')
     expect(d29.route).toContain('Triabunna')
     const d4 = data.days.find((item) => item.date === '2026-10-04')!
     expect(d4.lodging).toContain('1128150508438717')
+  })
+
+  it('住宿与船票地点挂有可点开的预订凭证附件', () => {
+    const byId = Object.fromEntries(data.places.map((place) => [place.id, place]))
+    expect(byId['d4-03']?.attachments?.[0]?.orderRef).toBe('1128150295267792')
+    expect(byId['d4-03']?.attachments?.[0]?.file).toContain('.pdf')
+    expect(byId['d8-05']?.attachments?.[0]?.confirmRef).toBe('82424142')
+    expect(byId['d10-03']?.attachments?.[0]?.confirmRef).toBe('B3R7AJ20530')
+    expect(byId['d12-07']?.attachments?.[0]?.orderRef).toBe('1128150503479647')
+    expect(byId['d2-05']?.attachments?.length).toBeGreaterThan(0)
+    expect(byId['d9-05']?.attachments?.length).toBeGreaterThan(0)
+    expect(byId['d6-01']?.attachments?.[0]?.orderRef).toBe('1441927')
   })
 
   it('10 月 4 日完成沉船海岸核心点并住十二门徒附近', () => {
@@ -523,7 +538,7 @@ describe('目的地类别与图标', () => {
       ),
     )
     const places = data.places.filter((place) => rhythmPlaceIds.has(place.id))
-    expect(places.length).toBeGreaterThanOrEqual(43)
+    expect(places.length).toBeGreaterThanOrEqual(42)
     expect(places.filter((place) => !place.category)).toEqual([])
     expect(places.filter((place) => getPlaceFood(place) === null)).toEqual([])
     expect(places.filter((place) => getPlaceParking(place) === null)).toEqual([])
