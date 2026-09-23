@@ -5,6 +5,7 @@
 - 因玛丽亚岛船票日期为 9/29，已将原 9/29 塔斯曼团与 9/30 玛丽亚岛对调；塔斯曼团预订号标为【待定-9】。
 - 住宿点含完整地址与 Google Maps 一键导航链接；核销预订号写在住宿／预约栏与地点 notes。
 - `npm test` 44 通过；生产构建产物 `index-kSpkgZMl.js`。
+- 已发布：main `83dd096`，gh-pages 含 `index-kSpkgZMl.js`；线上 https://pessimistcamellia.github.io/au-trip-map/ 已核验预订号 1933607／223533／1441927／J-7412711／1128150508438717。
 
 
 ## 2026-09-15 自助换课评审包迁到 GitLab Pages

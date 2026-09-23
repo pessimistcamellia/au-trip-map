@@ -61,8 +61,8 @@
 - [x] 核定 6 笔截图并写入 days-raw／build_itinerary／extras
 - [x] 玛丽亚岛 9/29 与塔斯曼 9/30 日程对调
 - [x] 重建 trip-data、测试、构建
-- [ ] 推送 main 与 gh-pages 发布线上路书
-- **状态：** in_progress
+- [x] 推送 main 与 gh-pages 发布线上路书
+- **状态：** complete
 
 
 
