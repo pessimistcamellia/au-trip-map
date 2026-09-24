@@ -11,13 +11,20 @@ const preview = ref<IPlaceAttachment | null>(null)
 const baseUrl = import.meta.env.BASE_URL || '/'
 
 function assetUrl(attachment: IPlaceAttachment): string {
-  const path = attachment.url.replace(/^\//, '')
+  const raw = attachment.url || `bookings/${attachment.file}`
+  const path = raw.replace(/^\//, '')
   return `${baseUrl}${path}`
 }
 
 const previewUrl = computed(() => (preview.value ? assetUrl(preview.value) : ''))
 
 function openPreview(attachment: IPlaceAttachment) {
+  // iOS Safari 对 iframe 内嵌 PDF 支持差；优先新窗口打开官方文件，便于出示
+  const url = assetUrl(attachment)
+  if (attachment.kind === 'pdf') {
+    window.open(url, '_blank', 'noopener,noreferrer')
+    return
+  }
   preview.value = attachment
 }
 
@@ -47,21 +54,18 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <section v-if="attachments.length" class="booking-attachments">
+  <section v-if="attachments.length" class="booking-attachments" id="booking-files">
     <header>
       <h3>预订文件</h3>
-      <p>点开可全屏出示给前台／工作人员；默认折叠，不挡行程正文。</p>
+      <p>点下面按钮打开官方确认单／二维码，可直接出示给工作人员。</p>
     </header>
 
-    <article
+    <button
       v-for="item in attachments"
       :key="item.id"
+      type="button"
       class="booking-card"
-      role="button"
-      tabindex="0"
       @click="openPreview(item)"
-      @keydown.enter.prevent="openPreview(item)"
-      @keydown.space.prevent="openPreview(item)"
     >
       <div class="booking-card-meta">
         <strong>{{ item.title }}</strong>
@@ -73,9 +77,9 @@ onUnmounted(() => {
       </div>
       <span class="booking-open">
         <van-icon :name="item.kind === 'pdf' ? 'description' : 'photo-o'" />
-        查看预订文件
+        {{ item.kind === 'pdf' ? '打开 PDF 预订文件' : '全屏查看预订截图' }}
       </span>
-    </article>
+    </button>
   </section>
 
   <Teleport to="body">
@@ -98,16 +102,7 @@ onUnmounted(() => {
         </button>
       </header>
       <div class="booking-preview-body">
-        <iframe
-          v-if="preview.kind === 'pdf'"
-          :src="previewUrl"
-          title="预订文件 PDF"
-        />
-        <img
-          v-else
-          :src="previewUrl"
-          :alt="preview.title"
-        />
+        <img :src="previewUrl" :alt="preview.title" />
       </div>
       <footer class="booking-preview-foot">
         <a :href="previewUrl" target="_blank" rel="noreferrer">在新窗口打开</a>
@@ -121,33 +116,40 @@ onUnmounted(() => {
 .booking-attachments {
   display: grid;
   gap: 0.75rem;
-  margin: 0 1rem 0.85rem;
-  padding: 0.85rem;
+  margin: 0 0 1rem;
+  padding: 0.9rem;
   border-radius: 16px;
-  background: color-mix(in srgb, #e7f0e4 70%, var(--paper));
-  border: 1px solid color-mix(in srgb, #2f5d4a 18%, transparent);
+  background: color-mix(in srgb, #dceadf 78%, var(--paper, #fff));
+  border: 2px solid color-mix(in srgb, #2f5d4a 28%, transparent);
 }
 
 .booking-attachments header h3 {
   margin: 0;
-  font-size: 0.95rem;
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #1c3f30;
 }
 
 .booking-attachments header p {
-  margin: 0.25rem 0 0;
-  color: color-mix(in srgb, var(--ink) 62%, transparent);
-  font-size: 0.8rem;
+  margin: 0.3rem 0 0;
+  color: color-mix(in srgb, var(--ink, #152016) 68%, transparent);
+  font-size: 0.82rem;
   line-height: 1.4;
 }
 
 .booking-card {
   display: grid;
-  gap: 0.65rem;
-  padding: 0.75rem 0.85rem;
+  gap: 0.7rem;
+  width: 100%;
+  padding: 0.85rem 0.9rem;
   border-radius: 14px;
-  background: color-mix(in srgb, var(--paper) 92%, #fff);
-  border: 1px solid color-mix(in srgb, var(--ink) 10%, transparent);
+  background: #fff;
+  border: 1px solid color-mix(in srgb, var(--ink, #152016) 12%, transparent);
+  color: inherit;
+  font: inherit;
+  text-align: left;
   cursor: pointer;
+  appearance: none;
 }
 
 .booking-card:focus-visible {
@@ -157,14 +159,14 @@ onUnmounted(() => {
 
 .booking-card-meta strong {
   display: block;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   line-height: 1.35;
 }
 
 .booking-card-meta p,
 .booking-card-meta li {
   margin: 0.35rem 0 0;
-  color: color-mix(in srgb, var(--ink) 70%, transparent);
+  color: color-mix(in srgb, var(--ink, #152016) 70%, transparent);
   font-size: 0.78rem;
   line-height: 1.45;
 }
@@ -174,29 +176,26 @@ onUnmounted(() => {
   padding-left: 1rem;
 }
 
+.booking-open,
 .booking-close,
 .booking-preview-foot button {
   appearance: none;
   border: 0;
   border-radius: 999px;
-  padding: 0.55rem 0.9rem;
-  background: color-mix(in srgb, var(--ink) 88%, #2f5d4a);
+  padding: 0.65rem 0.95rem;
+  background: #1f4636;
   color: #f7faf6;
   font: inherit;
-  font-size: 0.85rem;
+  font-size: 0.9rem;
+  font-weight: 700;
   cursor: pointer;
 }
 
 .booking-open {
   display: inline-flex;
   align-items: center;
-  gap: 0.35rem;
+  gap: 0.4rem;
   justify-self: start;
-  border-radius: 999px;
-  padding: 0.55rem 0.9rem;
-  background: color-mix(in srgb, var(--ink) 88%, #2f5d4a);
-  color: #f7faf6;
-  font-size: 0.85rem;
 }
 
 .booking-preview {
@@ -243,16 +242,8 @@ onUnmounted(() => {
   background: #0c0f0b;
 }
 
-.booking-preview-body iframe,
 .booking-preview-body img {
   display: block;
-  width: 100%;
-  min-height: 100%;
-  border: 0;
-  background: #fff;
-}
-
-.booking-preview-body img {
   width: 100%;
   height: auto;
   object-fit: contain;

@@ -14,6 +14,9 @@ import { journalRepository } from './repositories/journalRepository'
 import { staticTripData } from './repositories/tripRepository'
 import { weatherRepository } from './repositories/weatherRepository'
 import {
+  getPlaceCategoryBadge,
+} from './services/placeCategory'
+import {
   getPlaceDetailCategories,
   getPlaceDetailLinksByCategory,
   getPlaceDetailSections,
@@ -182,10 +185,25 @@ async function locatePlaceInTimeline(placeId: string): Promise<void> {
 
 function openPlace(place: IPlace): void {
   if (!hasPlaceDetails(place)) return
-  activeDetailTab.value = getPlaceDetailCategories(place)[0] ?? '看点'
+  const tabs = getPlaceDetailCategories(place)
+  // 有预订文件时优先打开「实用」，避免只看到文字核销信息却找不到附件入口
+  if ((place.attachments?.length ?? 0) > 0 && tabs.includes('实用')) {
+    activeDetailTab.value = '实用'
+  } else {
+    activeDetailTab.value = tabs[0] ?? '看点'
+  }
   selectedPlace.value = place
   void weatherRepository.getWeather(place).then((value) => {
     if (selectedPlace.value?.id === place.id) weatherReference.value = value
+  })
+}
+
+async function focusBookingFiles(): Promise<void> {
+  activeDetailTab.value = '实用'
+  await nextTick()
+  document.getElementById('booking-files')?.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start',
   })
 }
 
@@ -251,6 +269,14 @@ const selectedFood = computed(() =>
 )
 const selectedParking = computed(() =>
   selectedPlace.value ? getPlaceParking(selectedPlace.value) : null,
+)
+const selectedIsLodging = computed(() =>
+  selectedPlace.value
+    ? getPlaceCategoryBadge(selectedPlace.value).category === 'lodging'
+    : false,
+)
+const selectedHasBookingFiles = computed(
+  () => (selectedPlace.value?.attachments?.length ?? 0) > 0,
 )
 
 function stripRouteDetail(value: string): string {
@@ -825,12 +851,16 @@ onBeforeUnmount(() => {
           </span>
           <h2>{{ selectedPlace.name }}</h2>
           <p>{{ selectedPlace.name_en }}</p>
+          <button
+            v-if="selectedHasBookingFiles"
+            type="button"
+            class="booking-file-cta"
+            @click="focusBookingFiles"
+          >
+            <van-icon name="description" />
+            查看预订文件（出示用）
+          </button>
         </header>
-
-        <BookingAttachments
-          v-if="(selectedPlace.attachments?.length ?? 0) > 0"
-          :attachments="selectedPlace.attachments ?? []"
-        />
 
         <div
           class="detail-tabs"
@@ -878,11 +908,18 @@ onBeforeUnmount(() => {
             <div v-else class="detail-empty">正在读取气候参考</div>
           </template>
           <template v-else>
+            <BookingAttachments
+              v-if="activeDetailTab === '实用' && selectedHasBookingFiles"
+              :attachments="selectedPlace.attachments ?? []"
+            />
             <div v-if="detailTabItems.length" class="detail-items">
               <p v-for="item in detailTabItems" :key="item">{{ item }}</p>
             </div>
             <div
-              v-else-if="activeDetailTab !== '实用' || !selectedParking"
+              v-else-if="
+                activeDetailTab !== '实用' ||
+                (!selectedParking && !selectedHasBookingFiles)
+              "
               class="detail-empty"
             >
               暂无这一类资料
@@ -911,7 +948,7 @@ onBeforeUnmount(() => {
           </div>
         </section>
 
-        <footer class="detail-footer">
+        <footer v-if="!selectedIsLodging" class="detail-footer">
           <button
             type="button"
             :aria-pressed="store.completedSet.has(selectedPlace.id)"

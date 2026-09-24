@@ -1,5 +1,16 @@
 # 进度日志
 
+## 2026-09-24 「实用」可点预订文件 + 住宿去掉标记完成
+- 问题：实用页只有文字核销信息，没有明显可点入口打开官方预订文件；住宿地点仍显示「标记完成」。
+- 修复：详情标题下加「查看预订文件（出示用）」CTA；「实用」页签顶部放 `BookingAttachments`（PDF 新窗口／截图全屏）；住宿类别隐藏 footer「标记完成」。
+- 构建产物：`index-ByjqSXmB.js`；待 commit／发布。
+
+## 2026-09-24 预订文件入口可见性修复
+- 问题：附件已挂到地点数据，但只藏在详情「实用」页签，打开地点默认看不见。
+- 修复：地点详情标题下直接展示「预订文件」卡片；今日／搜索／日程时间线带「有预订文件」标记；Iron Creek／Blowhole 相关日地点同步挂同一批附件。
+- 已发布：main `e65362d`，gh-pages `index-CbHVZyqR.js`。
+
+
 ## 2026-09-23 补订 PDF／Wild Ocean 改期回填
 - 新附件入 `public/bookings/`：Wild Ocean RJ3SPTY（PDF＋改期截图＋天气政策）、Iron Creek **5609248813**、Platypus **32608261295407**、Devils Sunset **375091008**（确认＋二维码）、Kalbarri **#223533** 收据 PDF（优先于旧截图）。
 - Day7 改为自驾 Eaglehawk Neck **Blowhole pier**，08:00 Wild Ocean 2+ hour Scenic Tour（原订 9/29，邮件改期 **9/30**）；清除【待定-9】。
