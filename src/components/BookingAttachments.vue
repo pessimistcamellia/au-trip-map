@@ -119,20 +119,20 @@ onUnmounted(() => {
   margin: 0 0 1rem;
   padding: 0.9rem;
   border-radius: 16px;
-  background: color-mix(in srgb, #dceadf 78%, var(--paper, #fff));
-  border: 2px solid color-mix(in srgb, #2f5d4a 28%, transparent);
+  background: var(--accent-soft);
+  border: 1.5px solid color-mix(in srgb, var(--accent-strong) 22%, var(--line));
 }
 
 .booking-attachments header h3 {
   margin: 0;
   font-size: 1.05rem;
   font-weight: 800;
-  color: #1c3f30;
+  color: var(--accent-strong);
 }
 
 .booking-attachments header p {
   margin: 0.3rem 0 0;
-  color: color-mix(in srgb, var(--ink, #152016) 68%, transparent);
+  color: var(--muted);
   font-size: 0.82rem;
   line-height: 1.4;
 }
@@ -143,8 +143,8 @@ onUnmounted(() => {
   width: 100%;
   padding: 0.85rem 0.9rem;
   border-radius: 14px;
-  background: #fff;
-  border: 1px solid color-mix(in srgb, var(--ink, #152016) 12%, transparent);
+  background: var(--surface);
+  border: 1px solid var(--line);
   color: inherit;
   font: inherit;
   text-align: left;
@@ -153,7 +153,7 @@ onUnmounted(() => {
 }
 
 .booking-card:focus-visible {
-  outline: 2px solid color-mix(in srgb, #2f5d4a 70%, transparent);
+  outline: 2px solid color-mix(in srgb, var(--accent-strong) 55%, transparent);
   outline-offset: 2px;
 }
 
@@ -161,12 +161,13 @@ onUnmounted(() => {
   display: block;
   font-size: 0.95rem;
   line-height: 1.35;
+  color: var(--text);
 }
 
 .booking-card-meta p,
 .booking-card-meta li {
   margin: 0.35rem 0 0;
-  color: color-mix(in srgb, var(--ink, #152016) 70%, transparent);
+  color: var(--muted);
   font-size: 0.78rem;
   line-height: 1.45;
 }
@@ -183,11 +184,11 @@ onUnmounted(() => {
   border: 0;
   border-radius: 999px;
   padding: 0.65rem 0.95rem;
-  background: #1f4636;
-  color: #f7faf6;
+  background: var(--accent);
+  color: var(--on-accent);
   font: inherit;
   font-size: 0.9rem;
-  font-weight: 700;
+  font-weight: 800;
   cursor: pointer;
 }
 

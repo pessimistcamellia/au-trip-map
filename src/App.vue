@@ -851,8 +851,10 @@ onBeforeUnmount(() => {
           </span>
           <h2>{{ selectedPlace.name }}</h2>
           <p>{{ selectedPlace.name_en }}</p>
+        </header>
+
+        <div v-if="selectedHasBookingFiles" class="booking-file-bar">
           <button
-            v-if="selectedHasBookingFiles"
             type="button"
             class="booking-file-cta"
             @click="focusBookingFiles"
@@ -860,7 +862,7 @@ onBeforeUnmount(() => {
             <van-icon name="description" />
             查看预订文件（出示用）
           </button>
-        </header>
+        </div>
 
         <div
           class="detail-tabs"
