@@ -481,6 +481,26 @@ a[aria-disabled="true"] {
   -webkit-line-clamp: 2;
 }
 
+.booking-file-tag {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  margin-top: 2px;
+  padding: 0.12rem 0.45rem;
+  border-radius: 999px;
+  background: color-mix(in srgb, #2f5d4a 14%, transparent);
+  color: #1f4636;
+  font-style: normal;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+html.theme-dark .booking-file-tag {
+  background: color-mix(in srgb, #9dcdb4 22%, transparent);
+  color: #d7efe2;
+}
+
 .place-index {
   display: grid;
   width: 34px;

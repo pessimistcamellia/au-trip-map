@@ -466,6 +466,9 @@ onBeforeUnmount(() => {
             <span>
               <strong>{{ place.name }}</strong>
               <small>{{ place.highlights }}</small>
+              <em v-if="(place.attachments?.length ?? 0) > 0" class="booking-file-tag">
+                有预订文件
+              </em>
             </span>
             <van-icon name="arrow" />
           </button>
@@ -532,6 +535,9 @@ onBeforeUnmount(() => {
                 <span>
                   <strong>{{ place.name }}</strong>
                   <small>{{ place.duration }} {{ place.transport }}</small>
+                  <em v-if="(place.attachments?.length ?? 0) > 0" class="booking-file-tag">
+                    有预订文件
+                  </em>
                 </span>
                 <van-icon name="arrow" />
               </button>
@@ -673,6 +679,9 @@ onBeforeUnmount(() => {
               <span>
                 <strong>{{ place.name }}</strong>
                 <small>{{ place.highlights }}</small>
+                <em v-if="(place.attachments?.length ?? 0) > 0" class="booking-file-tag">
+                  有预订文件
+                </em>
               </span>
               <van-icon name="arrow" />
             </button>
@@ -818,6 +827,11 @@ onBeforeUnmount(() => {
           <p>{{ selectedPlace.name_en }}</p>
         </header>
 
+        <BookingAttachments
+          v-if="(selectedPlace.attachments?.length ?? 0) > 0"
+          :attachments="selectedPlace.attachments ?? []"
+        />
+
         <div
           class="detail-tabs"
           role="tablist"
@@ -868,10 +882,7 @@ onBeforeUnmount(() => {
               <p v-for="item in detailTabItems" :key="item">{{ item }}</p>
             </div>
             <div
-              v-else-if="
-                activeDetailTab !== '实用' ||
-                (!selectedParking && !(selectedPlace.attachments?.length ?? 0))
-              "
+              v-else-if="activeDetailTab !== '实用' || !selectedParking"
               class="detail-empty"
             >
               暂无这一类资料
@@ -880,13 +891,6 @@ onBeforeUnmount(() => {
               v-if="activeDetailTab === '实用' && selectedParking"
               :parking="selectedParking"
               :online="online"
-            />
-            <BookingAttachments
-              v-if="
-                activeDetailTab === '实用' &&
-                (selectedPlace.attachments?.length ?? 0) > 0
-              "
-              :attachments="selectedPlace.attachments ?? []"
             />
           </template>
 

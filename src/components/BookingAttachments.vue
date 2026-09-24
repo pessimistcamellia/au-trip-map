@@ -49,14 +49,19 @@ onUnmounted(() => {
 <template>
   <section v-if="attachments.length" class="booking-attachments">
     <header>
-      <h3>预订凭证</h3>
-      <p>点开附件可出示给前台／工作人员核对；默认不展开全图。</p>
+      <h3>预订文件</h3>
+      <p>点开可全屏出示给前台／工作人员；默认折叠，不挡行程正文。</p>
     </header>
 
     <article
       v-for="item in attachments"
       :key="item.id"
       class="booking-card"
+      role="button"
+      tabindex="0"
+      @click="openPreview(item)"
+      @keydown.enter.prevent="openPreview(item)"
+      @keydown.space.prevent="openPreview(item)"
     >
       <div class="booking-card-meta">
         <strong>{{ item.title }}</strong>
@@ -66,14 +71,10 @@ onUnmounted(() => {
           <li v-if="item.orderRef">订单号：{{ item.orderRef }}</li>
         </ul>
       </div>
-      <button
-        type="button"
-        class="booking-open"
-        @click="openPreview(item)"
-      >
+      <span class="booking-open">
         <van-icon :name="item.kind === 'pdf' ? 'description' : 'photo-o'" />
-        查看凭证附件
-      </button>
+        查看预订文件
+      </span>
     </article>
   </section>
 
@@ -100,7 +101,7 @@ onUnmounted(() => {
         <iframe
           v-if="preview.kind === 'pdf'"
           :src="previewUrl"
-          title="预订凭证 PDF"
+          title="预订文件 PDF"
         />
         <img
           v-else
@@ -120,9 +121,11 @@ onUnmounted(() => {
 .booking-attachments {
   display: grid;
   gap: 0.75rem;
-  margin-top: 1rem;
-  padding-top: 0.85rem;
-  border-top: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+  margin: 0 1rem 0.85rem;
+  padding: 0.85rem;
+  border-radius: 16px;
+  background: color-mix(in srgb, #e7f0e4 70%, var(--paper));
+  border: 1px solid color-mix(in srgb, #2f5d4a 18%, transparent);
 }
 
 .booking-attachments header h3 {
@@ -142,8 +145,14 @@ onUnmounted(() => {
   gap: 0.65rem;
   padding: 0.75rem 0.85rem;
   border-radius: 14px;
-  background: color-mix(in srgb, var(--paper) 88%, #d8e3d4);
+  background: color-mix(in srgb, var(--paper) 92%, #fff);
   border: 1px solid color-mix(in srgb, var(--ink) 10%, transparent);
+  cursor: pointer;
+}
+
+.booking-card:focus-visible {
+  outline: 2px solid color-mix(in srgb, #2f5d4a 70%, transparent);
+  outline-offset: 2px;
 }
 
 .booking-card-meta strong {
@@ -165,7 +174,6 @@ onUnmounted(() => {
   padding-left: 1rem;
 }
 
-.booking-open,
 .booking-close,
 .booking-preview-foot button {
   appearance: none;
@@ -184,6 +192,11 @@ onUnmounted(() => {
   align-items: center;
   gap: 0.35rem;
   justify-self: start;
+  border-radius: 999px;
+  padding: 0.55rem 0.9rem;
+  background: color-mix(in srgb, var(--ink) 88%, #2f5d4a);
+  color: #f7faf6;
+  font-size: 0.85rem;
 }
 
 .booking-preview {

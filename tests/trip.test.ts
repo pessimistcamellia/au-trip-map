@@ -132,7 +132,7 @@ describe('静态行程数据', () => {
     expect(d4.lodging).toContain('1128150508438717')
   })
 
-  it('住宿与船票地点挂有可点开的预订凭证附件', () => {
+  it('住宿／船票／巡游／动物点挂有可点开的预订文件附件', () => {
     const byId = Object.fromEntries(data.places.map((place) => [place.id, place]))
     expect(byId['d4-03']?.attachments?.[0]?.orderRef).toBe('1128150295267792')
     expect(byId['d4-03']?.attachments?.[0]?.file).toContain('.pdf')
@@ -140,8 +140,17 @@ describe('静态行程数据', () => {
     expect(byId['d10-03']?.attachments?.[0]?.confirmRef).toBe('B3R7AJ20530')
     expect(byId['d12-07']?.attachments?.[0]?.orderRef).toBe('1128150503479647')
     expect(byId['d2-05']?.attachments?.length).toBeGreaterThan(0)
+    expect(byId['d3-04']?.attachments?.[0]?.file).toContain('.pdf')
+    expect(byId['d5-03']?.attachments?.[0]?.orderRef).toBe('5609248813')
+    expect(byId['d6-04']?.attachments?.[0]?.orderRef).toBe('5609248813')
+    expect(byId['d7-02']?.attachments?.[0]?.orderRef).toBe('5609248813')
     expect(byId['d9-05']?.attachments?.length).toBeGreaterThan(0)
     expect(byId['d6-01']?.attachments?.[0]?.orderRef).toBe('1441927')
+    expect(byId['d7-01']?.attachments?.some((item) => item.orderRef === 'RJ3SPTY')).toBe(true)
+    expect(byId['d7-00']?.attachments?.some((item) => item.orderRef === 'RJ3SPTY')).toBe(true)
+    expect(byId['d9-01']?.attachments?.[0]?.orderRef).toBe('32608261295407')
+    expect(byId['d9-04']?.attachments?.[0]?.orderRef).toBe('375091008')
+    expect(byId['d9-04']?.attachments?.length).toBeGreaterThanOrEqual(2)
   })
 
   it('10 月 4 日完成沉船海岸核心点并住十二门徒附近', () => {

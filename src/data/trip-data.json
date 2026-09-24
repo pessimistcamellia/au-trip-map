@@ -4062,7 +4062,19 @@
             "url": "https://mast.tas.gov.au/facility/triabunna-jetty/"
           }
         ]
-      }
+      },
+      "attachments": [
+        {
+          "id": "iron-creek-5609248813",
+          "title": "预订确认 · Iron Creek Bay Estate",
+          "kind": "image",
+          "file": "iron-creek-5609248813.png",
+          "url": "bookings/iron-creek-5609248813.png",
+          "orderRef": "5609248813",
+          "confirmRef": "5609248813",
+          "summary": "订单号 5609248813｜Iron Creek Bay Estate｜394 Arthur Highway, Sorell TAS 7172｜入住 2026-09-28｜退房 2026-10-01｜已付 AUD 340.69（2026-08-27）｜住客 Zheng Chen"
+        }
+      ]
     },
     {
       "id": "d7-00",
@@ -4141,7 +4153,39 @@
             "url": "https://www.wildoceantasmania.com.au"
           }
         ]
-      }
+      },
+      "attachments": [
+        {
+          "id": "wild-ocean-rj3spty-pdf",
+          "title": "订单确认 · Wild Ocean Tasmania RJ3SPTY",
+          "kind": "pdf",
+          "file": "wild-ocean-rj3spty-confirmed.pdf",
+          "url": "bookings/wild-ocean-rj3spty-confirmed.pdf",
+          "orderRef": "RJ3SPTY",
+          "confirmRef": "RJ3SPTY",
+          "summary": "订单 RJ3SPTY｜2× 2+ hour Scenic Tour｜原订 2026-09-29 08:00｜集合 Blowhole pier, Eaglehawk Neck｜已付 AUD 340.00｜电话 0473-770416"
+        },
+        {
+          "id": "wild-ocean-rj3spty-date-change",
+          "title": "改期确认邮件 · 29 Sep → 30 Sep 8am",
+          "kind": "image",
+          "file": "wild-ocean-rj3spty-date-change-to-30sep.png",
+          "url": "bookings/wild-ocean-rj3spty-date-change-to-30sep.png",
+          "orderRef": "RJ3SPTY",
+          "confirmRef": "RJ3SPTY",
+          "summary": "运营方确认改期为 2026-09-30 08:00（当日最后座位）｜联系 info@wildoceantasmania.com.au｜+61 (0) 473 770 416｜165b Pirates Bay Drive, Eaglehawk Neck TAS 7179"
+        },
+        {
+          "id": "wild-ocean-rj3spty-weather",
+          "title": "天气／成团说明 · Wild Ocean Tasmania",
+          "kind": "image",
+          "file": "wild-ocean-rj3spty-weather-policy.png",
+          "url": "bookings/wild-ocean-rj3spty-weather-policy.png",
+          "orderRef": "RJ3SPTY",
+          "confirmRef": "RJ3SPTY",
+          "summary": "航次受天气影响且最少 4 人成团；出发前一日约 17:00 邮件最终确认；取消则全额退款"
+        }
+      ]
     },
     {
       "id": "d7-01",
@@ -4615,7 +4659,19 @@
             "url": "https://parks.tas.gov.au/explore-our-parks/freycinet-national-park"
           }
         ]
-      }
+      },
+      "attachments": [
+        {
+          "id": "iron-creek-5609248813",
+          "title": "预订确认 · Iron Creek Bay Estate",
+          "kind": "image",
+          "file": "iron-creek-5609248813.png",
+          "url": "bookings/iron-creek-5609248813.png",
+          "orderRef": "5609248813",
+          "confirmRef": "5609248813",
+          "summary": "订单号 5609248813｜Iron Creek Bay Estate｜394 Arthur Highway, Sorell TAS 7172｜入住 2026-09-28｜退房 2026-10-01｜已付 AUD 340.69（2026-08-27）｜住客 Zheng Chen"
+        }
+      ]
     },
     {
       "id": "d8-00",
@@ -4665,7 +4721,19 @@
           "离店前确认没有遗留行李，并检查当日油量与路况。"
         ],
         "sources": []
-      }
+      },
+      "attachments": [
+        {
+          "id": "iron-creek-5609248813",
+          "title": "预订确认 · Iron Creek Bay Estate",
+          "kind": "image",
+          "file": "iron-creek-5609248813.png",
+          "url": "bookings/iron-creek-5609248813.png",
+          "orderRef": "5609248813",
+          "confirmRef": "5609248813",
+          "summary": "订单号 5609248813｜Iron Creek Bay Estate｜394 Arthur Highway, Sorell TAS 7172｜入住 2026-09-28｜退房 2026-10-01｜已付 AUD 340.69（2026-08-27）｜住客 Zheng Chen"
+        }
+      ]
     },
     {
       "id": "d8-01",

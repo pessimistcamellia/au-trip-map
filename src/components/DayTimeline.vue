@@ -122,6 +122,9 @@ function badgeOf(place: IPlace) {
             ><van-icon name="guide-o" /></a>
             <span v-else class="not-mapped">未上图</span>
           </h4>
+          <em v-if="(stop.place.attachments?.length ?? 0) > 0" class="booking-file-tag">
+            有预订文件
+          </em>
           <p class="stop-route">{{ stop.text }}</p>
           <p v-if="stop.doing" class="stop-doing">{{ stop.doing }}</p>
           <div class="stop-actions">
